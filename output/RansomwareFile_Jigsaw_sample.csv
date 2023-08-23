@@ -1,0 +1,2 @@
+time	process_guid	process_id	image	user	target_filename	creation_utc_time	db_name	rule_id	matched_to	cluster_id	attack_kind	confidence	triage_scores	agent_id
+2023-08-11 06:01:23.535	{bac98147-ceb1-64d5-2d01-000000000900}	2900	E:\mal_bazaar\ransomware\Jigsaw\da069436a071e75601f5bc629bc2d121d9c3d24cce7b5a7f0cb8a40e1a8dfe99.exe	WIN64\vboxuser	C:\Users\vboxuser\AppData\Local\Temp\.ses.fun	2023-08-11 06:01:23.535	sampleDB	9999	.fun	9999	지속	100%	score	e7e2386a-5485-4da9-b388-b3e50ee7cbb0
