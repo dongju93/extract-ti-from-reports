@@ -1,0 +1,1 @@
+{"rule_id": 144, "name": "luckymouse-hits-national-data-center", "description": "-", "references": [], "File_Names": ["IntgStat.exe", "pcalocalresloader.dll", "hook.js", "thumb.db"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["https://windows-updata[.]tk:443/scanv1.8/i/?1,", "https://google-updata[.]tk:443/hook.js,"], "weight": 0.0}

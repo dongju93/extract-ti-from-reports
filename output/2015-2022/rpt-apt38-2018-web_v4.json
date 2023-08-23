@@ -1,0 +1,1 @@
+{"rule_id": 610, "name": "rpt-apt38-2018-web_v4", "description": "-", "references": ["CVE-2016-4119"], "File_Names": ["DYEPACK.FOX", "Webshell.JSP", "onlink.epac", "Trojan.POS", "Hermes.DNS", "cnbv.gob", "archive.fo", "DECRYPT_INFORMATION.txt"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

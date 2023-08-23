@@ -1,0 +1,1 @@
+{"rule_id": 482, "name": "rigging-compromise.html", "description": "-", "references": [], "File_Names": ["dissdkchk.exe", "systemrestore.exe", "defsrag.exe", "McHost.ru"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

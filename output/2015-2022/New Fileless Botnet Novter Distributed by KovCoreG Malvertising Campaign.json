@@ -1,0 +1,1 @@
+{"rule_id": 421, "name": "New Fileless Botnet Novter Distributed by KovCoreG Malvertising Campaign", "description": "-", "references": [], "File_Names": ["socket.io", "app.js"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["https://blog.trendmicro.com/trendlabs-security-intelligence/new-"], "weight": 0.0}

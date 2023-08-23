@@ -1,0 +1,1 @@
+{"rule_id": 17, "name": "Cybereason-Labs-Analysis-Webmail-Sever-APT", "description": "-", "references": [], "File_Names": ["OWAAUTH.DLL", "OWAAUTH.dll", "log.txt", "cybereason.com"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

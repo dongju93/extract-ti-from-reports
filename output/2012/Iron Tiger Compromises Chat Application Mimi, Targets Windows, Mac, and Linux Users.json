@@ -1,1 +1,0 @@
-{"rule_id": 16, "name": "Iron Tiger Compromises Chat Application Mimi, Targets Windows, Mac, and Linux Users", "description": "-", "references": [], "File_Names": ["2.dmg", "dlpprem32.dll", "0.exe", "Node.js", "main.js", "users.html"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

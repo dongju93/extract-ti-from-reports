@@ -1,0 +1,1 @@
+{"rule_id": 703, "name": "targeted_attacksaga.html", "description": "-", "references": [], "File_Names": ["sysupdate.aspx", "33.xx"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": ["HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default"], "URLs": [], "weight": 0.0}

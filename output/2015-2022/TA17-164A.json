@@ -1,0 +1,1 @@
+{"rule_id": 18, "name": "TA17-164A", "description": "-", "references": ["CVE-2016-4117", "CVE-2016-1019", "CVE-2016-0034", "CVE-2015-6585", "CVE-2015-8651"], "File_Names": ["fbi.gov", "hq.dhs"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

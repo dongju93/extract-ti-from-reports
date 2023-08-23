@@ -1,0 +1,1 @@
+{"rule_id": 508, "name": "ecrypting-strings-in-emdivi", "description": "-", "references": [], "File_Names": ["emdivi_postdata_decoder.py"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["https://securelist.com/blog/research/71876/new-activity-of-the-blue-termite-", "https://github.com/JPCERTCC/aa-tools"], "weight": 0.0}
