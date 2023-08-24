@@ -3,5 +3,5 @@
 /output
 elasticsearch.ipynb
 sample_detected.ipynb
-text_to_json.ipynb
-text_to_json_ti_struct.ipynb
+text_to_json_v1.ipynb
+text_to_json_v2.ipynb
