@@ -1,1 +1,0 @@
-{"rule_id": 189, "name": "tinyPOS_tinyloader", "description": "-", "references": ["CVE-2016-0128", "CVE-2016-2118"], "File_Names": [], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["http://blog.trendmicro.com/trendlabs-security-intelligence/how-tinyloader-distributes-and-upgrades-pos-threats/"], "weight": 0.0}
