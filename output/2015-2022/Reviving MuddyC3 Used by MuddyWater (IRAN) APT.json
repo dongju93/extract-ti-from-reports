@@ -1,1 +1,0 @@
-{"rule_id": 645, "name": "Reviving MuddyC3 Used by MuddyWater (IRAN) APT", "description": "-", "references": [], "File_Names": ["cmd.py", "muddyc3.py", "Webserver.py"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/"], "weight": 0.0}

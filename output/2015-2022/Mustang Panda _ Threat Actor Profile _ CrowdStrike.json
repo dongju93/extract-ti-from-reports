@@ -1,1 +1,0 @@
-{"rule_id": 366, "name": "Mustang Panda _ Threat Actor Profile _ CrowdStrike", "description": "-", "references": [], "File_Names": [], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": ["https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-june-mustang-panda/"], "weight": 0.0}

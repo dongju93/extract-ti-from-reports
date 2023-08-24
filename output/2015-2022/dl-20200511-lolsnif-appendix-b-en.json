@@ -1,1 +1,0 @@
-{"rule_id": 535, "name": "dl-20200511-lolsnif-appendix-b-en", "description": "-", "references": [], "File_Names": ["c_1252.nls", "window.flag", "S.Run", "NTDLL.DLL", "KERNEL32.DLL", "NTDSAPI.DLL"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

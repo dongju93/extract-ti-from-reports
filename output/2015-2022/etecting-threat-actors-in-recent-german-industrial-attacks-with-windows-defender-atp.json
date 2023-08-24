@@ -1,1 +1,0 @@
-{"rule_id": 780, "name": "etecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp", "description": "-", "references": [], "File_Names": ["ASPNET_FILTER.DLL", "ASPNET_FILTER.dll"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}

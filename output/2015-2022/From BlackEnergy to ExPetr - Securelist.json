@@ -1,1 +1,0 @@
-{"rule_id": 411, "name": "From BlackEnergy to ExPetr - Securelist", "description": "-", "references": [], "File_Names": ["shutdown.exe"], "MD5_Hashes": [], "SHA1_Hashes": [], "SHA256_Hashes": [], "Registry_Entries": [], "URLs": [], "weight": 0.0}
