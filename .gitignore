@@ -1,6 +1,8 @@
 .DS_Store
 /pdf
 /output
+/__pycache__
+env.py
 elasticsearch.ipynb
 sample_detected.ipynb
 text_to_json_v1.ipynb
