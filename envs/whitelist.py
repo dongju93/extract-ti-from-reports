@@ -5,7 +5,6 @@ whitelist_urls = [
     "hitcon.org",
     "github.com",
     "securelist.com",
-    "bit.ly",
     "www.symantec.com",
     "researchcenter.paloaltonetworks.com",
     "twitter.com",
