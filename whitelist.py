@@ -16,7 +16,20 @@ whitelist_urls = [
     "en.wikipedia.org",
     "www.arbornetworks.com",
     "www.virustotal.com",
-    "mcafee.com"
+    "www.threatconnect.com",
+    "www.mcafee.com",
+    "blog.talosintelligence.com",
+    "www.facebook.com",
+    "www.proofpoint.com",
+    "mcafee",
+    "reuters.com",
+    "crowdstrike",
+    "msdn.microsoft.com",
+    "www.nytimes.com",
+    "www.youtube.com",
+    "securityintelligence.com",
+    "www.secureworks.com",
+    "washingtonpost.com"
 ]
 
 whitelist_file_names = [
