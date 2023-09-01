@@ -28,7 +28,8 @@ whitelist_urls = [
     "www.youtube.com",
     "securityintelligence.com",
     "www.secureworks.com",
-    "washingtonpost.com"
+    "washingtonpost.com",
+    "us-cert.gov"
 ]
 
 whitelist_file_names = [
