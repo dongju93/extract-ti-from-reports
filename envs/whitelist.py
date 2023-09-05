@@ -15,7 +15,7 @@ whitelist_urls = [
     "en.wikipedia.org",
     "www.arbornetworks.com",
     "www.virustotal.com",
-    "www.threatconnect.com",
+    "threatconnect.com",
     "www.mcafee.com",
     "blog.talosintelligence.com",
     "www.facebook.com",
@@ -29,7 +29,35 @@ whitelist_urls = [
     "securityintelligence.com",
     "www.secureworks.com",
     "washingtonpost.com",
-    "us-cert.gov"
+    "us-cert.gov",
+    "kaspersky.com",
+    "wikileaks.org",
+    "dragos.com",
+    "threatpost.com",
+    "cve.mitre.org",
+    "krebsonsecurity.com",
+    "research.checkpoint.com",
+    "ti.360.net",
+    "msdn.microsoft.com",
+    "www.microsoft.com",
+    "technet.microsoft.com",
+    "docs.microsoft.com",
+    "portal.msrc.microsoft.com",
+    "blogs.microsoft.com",
+    "blogs.technet.microsoft.com",
+    "support.microsoft.com",
+    "cloudblogs.microsoft.com",
+    "blogs.msdn.microsoft.com",
+    "social.msdn.microsoft.com",
+    "www.linkedin.com",
+    "www.zdnet.com"
+    "pwc.blogs.com",
+    "www.bloomberg.com",
+    "www.bbc.com",
+    "www.wired.com",
+    "citizenlab.org"
+    "www.wsj.com",
+    "arstechnica.com"
 ]
 
 whitelist_file_names = [
