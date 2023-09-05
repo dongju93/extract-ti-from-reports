@@ -64,7 +64,13 @@ whitelist_file_names = [
     ".com",
     ".org",
     ".www",
-    ".jp",
     ".net",
-    ".cn"
+    # 국가코드
+    ".jp",
+    ".cn",
+    ".co",
+    ".ru",
+    ".py",
+    ".in",
+    ".it"
 ]
