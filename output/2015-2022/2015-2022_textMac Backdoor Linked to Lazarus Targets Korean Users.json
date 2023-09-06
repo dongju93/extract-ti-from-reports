@@ -1,0 +1,1 @@
+{"rule_id": 592, "name": "2015-2022_textMac Backdoor Linked to Lazarus Targets Korean Users", "description": "-", "references": [], "samples": ["Album.app", "MacOS.NUKE"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

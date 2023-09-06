@@ -1,0 +1,1 @@
+{"rule_id": 417, "name": "2015-2022_textdl-20200511-lolsnif-appendix-b-en", "description": "-", "references": [], "samples": ["KERNEL32.DLL", "window.flag", "NTDLL.DLL", "c_1252.nls", "S.Run", "NTDSAPI.DLL"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

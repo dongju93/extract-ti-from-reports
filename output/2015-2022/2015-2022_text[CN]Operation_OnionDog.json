@@ -1,0 +1,1 @@
+{"rule_id": 593, "name": "2015-2022_text[CN]Operation_OnionDog", "description": "-", "references": [], "samples": ["usbman.dll", "Onion.city", "感染.test", "test.dll", "usbrun.ico"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

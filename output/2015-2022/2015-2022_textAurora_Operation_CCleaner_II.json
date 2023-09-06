@@ -1,0 +1,1 @@
+{"rule_id": 682, "name": "2015-2022_textAurora_Operation_CCleaner_II", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://update.microsoft.com."], "weight": 0.0, "signatures": ["https://update.microsoft.com."]}

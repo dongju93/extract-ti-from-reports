@@ -1,0 +1,1 @@
+{"rule_id": 966, "name": "2015-2022_textMore evil_ A deep look at Evilnum and its toolset _ WeLiveSecurity", "description": "-", "references": [], "samples": ["kGqTdU.txt", "system.mem", "metsrv.dll", "mory.dll", "Memmory.dll"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

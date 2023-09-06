@@ -1,0 +1,1 @@
+{"rule_id": 808, "name": "2015-2022_textDNS Hijacking Abuses Trust In Core Internet Service", "description": "-", "references": ["CVE-2018-7600", "CVE-2017-6736", "CVE-2018-0296", "CVE-2009-1151", "CVE-2017-12617", "CVE-2017-3881"], "samples": ["seaturtle.html"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

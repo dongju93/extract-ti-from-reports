@@ -1,0 +1,1 @@
+{"rule_id": 1195, "name": "2015-2022_textTech-Brief-New-Fileless-Botnet-Novter-Distributed-by-KovCoreG-Malvertising-Campaign", "description": "-", "references": [], "samples": ["Node.JS", "tcp.Ack", "tcp.Syn", "Socket.io"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

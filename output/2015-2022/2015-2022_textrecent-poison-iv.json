@@ -1,0 +1,1 @@
+{"rule_id": 664, "name": "2015-2022_textrecent-poison-iv", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": ["cbbfc3b5ff08de14fdb2316f3b14886dfe5504ef"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["cbbfc3b5ff08de14fdb2316f3b14886dfe5504ef"]}

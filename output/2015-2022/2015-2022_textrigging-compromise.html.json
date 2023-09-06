@@ -1,0 +1,1 @@
+{"rule_id": 984, "name": "2015-2022_textrigging-compromise.html", "description": "-", "references": [], "samples": ["dissdkchk.exe", "defsrag.exe", "systemrestore.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

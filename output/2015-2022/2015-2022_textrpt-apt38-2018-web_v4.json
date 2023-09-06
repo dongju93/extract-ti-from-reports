@@ -1,0 +1,1 @@
+{"rule_id": 1165, "name": "2015-2022_textrpt-apt38-2018-web_v4", "description": "-", "references": ["CVE-2016-4119"], "samples": ["archive.fo", "Trojan.POS", "onlink.epac", "INFORMATION.txt", "Webshell.JSP", "cnbv.gob", "DYEPACK.FOX", "Hermes.DNS"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}

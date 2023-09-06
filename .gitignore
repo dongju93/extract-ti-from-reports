@@ -1,6 +1,5 @@
 .DS_Store
 /pdf
-/output
 /envs/__pycache__
 /history
 /envs/env.py
