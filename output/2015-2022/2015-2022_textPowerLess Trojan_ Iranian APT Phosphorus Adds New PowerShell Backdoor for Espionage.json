@@ -4,21 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Connector3.exe",
-    "Dll.dll",
-    "Sou.exe",
     "Comsvcs.dll",
-    "F.exe",
     "cup.tmp",
     "PowerLessCLR.pdb",
-    "WindowsProcesses.exe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.cybereason.com/blog/powerless-trojan-iranian-apt-phosphorus-adds-new-powershell-backdoor-for-espionage"
+    "Connector3.exe",
+    "F.exe",
+    "WindowsProcesses.exe",
+    "Dll.dll",
+    "Sou.exe"
   ],
   "weight": 0.0,
   "signatures": [

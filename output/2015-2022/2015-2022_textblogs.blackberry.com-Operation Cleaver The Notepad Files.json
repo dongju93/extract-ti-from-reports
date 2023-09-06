@@ -3,18 +3,10 @@
   "name": "2015-2022_textblogs.blackberry.com-Operation Cleaver The Notepad Files",
   "description": "-",
   "references": [],
-  "samples": ["NOTEPAD2.EXE", "Notepad3.exe", "Notepad4.exe", "notepad10.exe"],
-  "MD5": [
-    "d378bffb70923139d6a4f546864aa61c",
-    "83868cdff62829fe3b897e2720204679"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["NOTEPAD2.EXE", "Notepad4.exe", "notepad10.exe", "Notepad3.exe"],
   "weight": 0.0,
   "signatures": [
-    "d378bffb70923139d6a4f546864aa61c",
-    "83868cdff62829fe3b897e2720204679"
+    "83868cdff62829fe3b897e2720204679",
+    "d378bffb70923139d6a4f546864aa61c"
   ]
 }

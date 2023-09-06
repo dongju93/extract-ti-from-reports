@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["ApplicationPDF.exe"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/"
-  ],
   "weight": 0.0,
   "signatures": [
     "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/"

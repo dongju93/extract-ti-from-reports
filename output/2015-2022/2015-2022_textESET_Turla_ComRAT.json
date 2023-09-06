@@ -4,57 +4,40 @@
   "description": "-",
   "references": [],
   "samples": [
+    "subject.str",
+    "documents.xlsx",
     "post.list",
     "document.docx",
-    "progress.zyns",
-    "Turla.BY",
-    "key.pki",
-    "get.list",
-    "scrabble.ikwb",
+    "Turla.AP",
     "FXSAPIDebugTrace.txt",
+    "Turla.BY",
+    "get.list",
+    "wsqmcons.exe",
+    "Turla.EI",
+    "transport.str",
+    "docs.live",
+    "cookie.str",
+    "addr.str",
+    "Release.dll",
+    "progress.zyns",
+    "id.pki",
     "foods.jkub",
+    "key.pki",
     "jpg.bfe",
     "cert.pki",
-    "subject.str",
-    "docs.live",
-    "Turla.AP",
-    "transport.str",
-    "wsqmcons.exe",
-    "Release.dll",
-    "Turla.EI",
-    "id.pki",
-    "documents.xlsx",
-    "iecache.bin",
-    "addr.str",
-    "cookie.str"
-  ],
-  "MD5": [],
-  "SHA1": [
-    "DD7006D16D8E121FCE8F2905433474ECCED75CC0",
-    "0139818441431C72A1935E7F740A1CC458A63452",
-    "4D8B1F4ACC638080054FFBB4CEF2559583A22DC6",
-    "0AB87F7BDF7D9E54BA33FE715C11E275D5DCCE15"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\SOFTWARE\\Microsoft\\SQMClient\\Windows.WSqmCons",
-    "HKCR\\http\\shell\\open\\command,  "
-  ],
-  "URL": [
-    "https://docs.live.net/E65<redacted>",
-    "https://yle",
-    "https://symantec-blogs"
+    "scrabble.ikwb",
+    "iecache.bin"
   ],
   "weight": 0.0,
   "signatures": [
-    "DD7006D16D8E121FCE8F2905433474ECCED75CC0",
-    "0139818441431C72A1935E7F740A1CC458A63452",
     "4D8B1F4ACC638080054FFBB4CEF2559583A22DC6",
+    "DD7006D16D8E121FCE8F2905433474ECCED75CC0",
     "0AB87F7BDF7D9E54BA33FE715C11E275D5DCCE15",
+    "0139818441431C72A1935E7F740A1CC458A63452",
     "HKLM\\SOFTWARE\\Microsoft\\SQMClient\\Windows.WSqmCons",
     "HKCR\\http\\shell\\open\\command,  ",
     "https://docs.live.net/E65<redacted>",
-    "https://yle",
-    "https://symantec-blogs"
+    "https://symantec-blogs",
+    "https://yle"
   ]
 }

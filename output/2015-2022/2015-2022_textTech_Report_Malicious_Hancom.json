@@ -4,28 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "sitemap.tar",
+    "patch39.exe",
     "dump.sql",
+    "Dropper.Gen",
+    "sitemap.tar",
+    "crosshairs.html",
     "wild.html",
     "annex.hwp",
-    "Dropper.Gen",
-    "PT.Gen",
-    "crosshairs.html",
-    "patch39.exe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://endlesspaws.com/sitemap.tar.gz.",
-    "http://global.ahnlab.com",
-    "http://endlesspaws.com/dump.sql"
+    "PT.Gen"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://endlesspaws.com/sitemap.tar.gz.",
+    "http://endlesspaws.com/dump.sql",
     "http://global.ahnlab.com",
-    "http://endlesspaws.com/dump.sql"
+    "http://endlesspaws.com/sitemap.tar.gz."
   ]
 }

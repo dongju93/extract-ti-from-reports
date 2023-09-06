@@ -4,32 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "metsvr.dll",
-    "50573.txt",
     "58678.txt",
-    "12025.txt",
     "27603.docx",
-    "625222E09B6CD028459.txt",
+    "50573.txt",
     "65390.txt",
-    "4140.txt",
-    "49340.txt",
+    "metsvr.dll",
+    "625222E09B6CD028459.txt",
     "39054.txt",
-    "28535.txt",
-    "A70613FF7F5DE98.txt"
+    "A70613FF7F5DE98.txt",
+    "12025.txt",
+    "49340.txt",
+    "4140.txt",
+    "28535.txt"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with",
-    "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Notepad\\<computername>. If not running with",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Notepad\\"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with",
     "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Notepad\\<computername>. If not running with",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Notepad\\"
+    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Notepad\\",
+    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with"
   ]
 }

@@ -4,23 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ReportGlobalThreatIntelligence.pdf",
-    "sd123.eicp",
-    "kmbk8.hicp",
     "Sd123.eicp",
-    "sa.gicp"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://medium.com/@Sebdraven/gobelin-panda-against-the-bears-1f462d00e3a4",
-    "https://www.nccgroup.trust/uk/about-us/newsroom-and-"
+    "sa.gicp",
+    "sd123.eicp",
+    "ReportGlobalThreatIntelligence.pdf",
+    "kmbk8.hicp"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://medium.com/@Sebdraven/gobelin-panda-against-the-bears-1f462d00e3a4",
-    "https://www.nccgroup.trust/uk/about-us/newsroom-and-"
+    "https://www.nccgroup.trust/uk/about-us/newsroom-and-",
+    "https://medium.com/@Sebdraven/gobelin-panda-against-the-bears-1f462d00e3a4"
   ]
 }

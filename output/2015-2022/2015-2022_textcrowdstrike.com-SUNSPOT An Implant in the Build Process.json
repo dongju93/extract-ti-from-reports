@@ -4,24 +4,16 @@
   "description": "-",
   "references": [],
   "samples": [
-    "managementObjectSearcher.Get",
-    "InventoryManager.bk",
-    "taskhostsvc.exe",
     "InventoryManager.cs",
-    "InventoryManager.tmp",
-    "vmdmp.log",
+    "MsBuild.exe",
     "core.sln",
     "ostsvc.exe",
-    "MsBuild.exe"
+    "InventoryManager.bk",
+    "vmdmp.log",
+    "InventoryManager.tmp",
+    "taskhostsvc.exe",
+    "managementObjectSearcher.Get"
   ],
-  "MD5": ["5f40b59ee2a9ac94ddb6ab9e3bd776ca"],
-  "SHA1": [],
-  "SHA256": [
-    "c45c9bda8db1d470f1fd0dcc346dc449839eb5ce9a948c70369230af0b3ef168",
-    "0819db19be479122c1d48743e644070a8dc9a1c852df9a8c0dc2343e904da389"
-  ],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "5f40b59ee2a9ac94ddb6ab9e3bd776ca",

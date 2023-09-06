@@ -4,33 +4,21 @@
   "description": "-",
   "references": [],
   "samples": [
-    "kumar.pari",
     "logon.php",
+    "mail.zgsj",
+    "kumar.pari",
     "dllhost.exe",
-    "Exp.CVE",
-    "Trojan.Zbot",
     "iviewers.dll",
-    "mail.zgsj"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://t.co/kVgdlsEjVz",
-    "https://t.co/kj0AY7N3W8",
-    "https://t.co/lex8o841gk",
-    "https://t.co/T0SScgpzRY",
-    "https://t.co/GqLWgvOAeS",
-    "https://t.co/6IpUzfB2DR"
+    "Trojan.Zbot",
+    "Exp.CVE"
   ],
   "weight": 0.0,
   "signatures": [
+    "https://t.co/GqLWgvOAeS",
     "https://t.co/kVgdlsEjVz",
     "https://t.co/kj0AY7N3W8",
     "https://t.co/lex8o841gk",
-    "https://t.co/T0SScgpzRY",
-    "https://t.co/GqLWgvOAeS",
-    "https://t.co/6IpUzfB2DR"
+    "https://t.co/6IpUzfB2DR",
+    "https://t.co/T0SScgpzRY"
   ]
 }

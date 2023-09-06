@@ -4,44 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
-    "mtrcpl.dll",
-    "action.php",
-    "text.txt",
-    "key4.db",
-    "97.pdf",
-    "Sednit.CMT",
-    "logins.json",
-    "Account.CFN",
-    "Agent.OGE",
-    "out.txt",
     "wand.dat",
-    "cert8.db"
-  ],
-  "MD5": [],
-  "SHA1": [
-    "48f8b152b86bed027b9152725505fbf4a24a39fd",
-    "1e9f40ef81176190e1ed9a0659473b2226c53f57",
-    "bfa26857575c49abb129aac87207f03f2b062e07"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
-    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
-    "HKCU\\Software\\Microsoft\\Current‐"
-  ],
-  "URL": [
-    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php",
-    "http://45.124.132.127/DOVIDNIK"
+    "out.txt",
+    "text.txt",
+    "Account.CFN",
+    "logins.json",
+    "mtrcpl.dll",
+    "Sednit.CMT",
+    "action.php",
+    "key4.db",
+    "cert8.db",
+    "Agent.OGE",
+    "97.pdf"
   ],
   "weight": 0.0,
   "signatures": [
-    "48f8b152b86bed027b9152725505fbf4a24a39fd",
-    "1e9f40ef81176190e1ed9a0659473b2226c53f57",
     "bfa26857575c49abb129aac87207f03f2b062e07",
-    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
-    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
+    "1e9f40ef81176190e1ed9a0659473b2226c53f57",
+    "48f8b152b86bed027b9152725505fbf4a24a39fd",
     "HKCU\\Software\\Microsoft\\Current‐",
-    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php",
-    "http://45.124.132.127/DOVIDNIK"
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
+    "http://45.124.132.127/DOVIDNIK",
+    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php"
   ]
 }

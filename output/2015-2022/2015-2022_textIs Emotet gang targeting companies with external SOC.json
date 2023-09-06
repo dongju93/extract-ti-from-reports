@@ -4,21 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "2019.doc",
     "EFENTIAL.exe",
+    "2019.doc",
     "FM20.DLL",
     "EFENTIAL.pdb",
     "whoami.php"
-  ],
-  "MD5": ["ffcd1ab4ae5e052202d6af1ea2767498"],
-  "SHA1": ["6125489453c1824da3e28a54708e7c77875e500d"],
-  "SHA256": [
-    "de6a8b8612b5236a18eea1a6a8f53e117d046cf2ad95e079a6715af68f8d2216",
-    "6125489453c1824da3e28a54708e7c77875e500dd82a59c96c1d1e5ee88dcad7"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "https://marcoramilli.com/2019/10/14/is-emotet-gang-targeting-companies-with-external-soc/"
   ],
   "weight": 0.0,
   "signatures": [

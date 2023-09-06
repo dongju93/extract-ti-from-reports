@@ -3,30 +3,25 @@
   "name": "2015-2022_textcta-2018-1113",
   "description": "-",
   "references": [
+    "CVE-2010-1899",
     "CVE-2012-2532",
     "CVE-2017-15906",
-    "CVE-2010-1256",
+    "CVE-2010-2730",
     "CVE-2010-3972",
-    "CVE-2010-1899",
-    "CVE-2012-2531",
-    "CVE-2010-2730"
+    "CVE-2010-1256",
+    "CVE-2012-2531"
   ],
   "samples": [
-    "dns.log",
-    "ntlm.log",
+    "conn.log",
     "cmd.log",
-    "mapping.log",
     "rpc.log",
-    "conn.log"
+    "mapping.log",
+    "ntlm.log",
+    "dns.log"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://drive.google.com/open?", "http://scsnewstoday.com/news."],
   "weight": 0.0,
   "signatures": [
-    "https://drive.google.com/open?",
-    "http://scsnewstoday.com/news."
+    "http://scsnewstoday.com/news.",
+    "https://drive.google.com/open?"
   ]
 }

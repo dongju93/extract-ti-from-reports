@@ -4,47 +4,32 @@
   "description": "-",
   "references": ["CVE-2010-0842", "CVE-2006-3730"],
   "samples": [
-    "usbserv.exe",
     "aabc.html",
-    "aabc.jar",
     "presa.ge",
-    "CERT.GOV",
-    "opentext.ge",
     "Calc.exe",
-    "www.cei",
-    "psnews.ge",
-    "frame.php",
-    "presage.tv",
-    "aabc.pdf",
-    "Net23.hu",
-    "Frame.php",
+    "CERT.GOV",
+    "usbserv.exe",
     "President.gov",
-    "ema.gov"
-  ],
-  "MD5": [
-    "4b178e605583cca28c850943e805aabc",
-    "19ebfd07a13d3edf82fcc121a0e4643c"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://legalcrf.in/images/np/4b178e605583cca28c850943e805aabc.pdf",
-    "http://legalcrf.in/images/t/4b178e605583cca28c850943e805aabc.html",
-    "http://legalcrf.in/t/19ebfd07a13d3edf82fcc121a0e4643c",
-    "http://legalcrf.in/images/4b178e605583cca28c850943e805aabc.jar",
-    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/1",
-    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/3"
+    "aabc.jar",
+    "Frame.php",
+    "aabc.pdf",
+    "presage.tv",
+    "Net23.hu",
+    "opentext.ge",
+    "www.cei",
+    "ema.gov",
+    "frame.php",
+    "psnews.ge"
   ],
   "weight": 0.0,
   "signatures": [
     "4b178e605583cca28c850943e805aabc",
     "19ebfd07a13d3edf82fcc121a0e4643c",
-    "http://legalcrf.in/images/np/4b178e605583cca28c850943e805aabc.pdf",
     "http://legalcrf.in/images/t/4b178e605583cca28c850943e805aabc.html",
-    "http://legalcrf.in/t/19ebfd07a13d3edf82fcc121a0e4643c",
     "http://legalcrf.in/images/4b178e605583cca28c850943e805aabc.jar",
-    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/1",
-    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/3"
+    "http://legalcrf.in/images/np/4b178e605583cca28c850943e805aabc.pdf",
+    "http://legalcrf.in/t/19ebfd07a13d3edf82fcc121a0e4643c",
+    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/3",
+    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/1"
   ]
 }

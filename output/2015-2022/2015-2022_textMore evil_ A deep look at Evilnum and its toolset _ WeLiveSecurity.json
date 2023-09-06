@@ -4,17 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
+    "metsrv.dll",
     "kGqTdU.txt",
     "system.mem",
-    "metsrv.dll",
-    "mory.dll",
-    "Memmory.dll"
+    "Memmory.dll",
+    "mory.dll"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

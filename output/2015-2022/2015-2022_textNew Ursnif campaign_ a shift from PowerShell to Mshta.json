@@ -4,24 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Index.html",
-    "zoak6.cab",
-    "targen.php",
     "index.html",
+    "Index.html",
     "Index.dll",
-    "mshta.exe",
-    "zoak4.cab",
     "info_03_24.doc",
-    "zoak2.cab",
+    "zoak6.cab",
+    "Mshta.exe",
+    "mshta.exe",
+    "targen.php",
     "index.dll",
-    "Mshta.exe"
-  ],
-  "MD5": ["8212E2522300EF99B03DFA18437FCA40"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": ["HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”"],
-  "URL": [
-    "https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"
+    "zoak4.cab",
+    "zoak2.cab"
   ],
   "weight": 0.0,
   "signatures": [

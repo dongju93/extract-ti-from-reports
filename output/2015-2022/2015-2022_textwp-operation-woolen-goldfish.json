@@ -4,31 +4,21 @@
   "description": "-",
   "references": [],
   "samples": [
+    "NTSuser.exe",
+    "wlg.dat",
     "NTUSER.dat",
     "DROPPR.DF",
-    "www.iabg",
-    "Program.ppt",
     "DROPPR.DH",
+    "Program.ppt",
+    "www.iabg",
     "zerodays.ir",
-    "DROPPR.DG",
-    "wlg.dat",
-    "NTSuser.exe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.iabg.de/en/.",
-    "http://securityaffairs.co/wordpress/28170/cyber-crime/gholee-malware.",
-    "http://www.cplusplus.com/reference/ctime/tm/",
-    "http://av.zerodays.ir/."
+    "DROPPR.DG"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://www.iabg.de/en/.",
-    "http://securityaffairs.co/wordpress/28170/cyber-crime/gholee-malware.",
     "http://www.cplusplus.com/reference/ctime/tm/",
-    "http://av.zerodays.ir/."
+    "http://securityaffairs.co/wordpress/28170/cyber-crime/gholee-malware.",
+    "http://av.zerodays.ir/.",
+    "http://www.iabg.de/en/."
   ]
 }

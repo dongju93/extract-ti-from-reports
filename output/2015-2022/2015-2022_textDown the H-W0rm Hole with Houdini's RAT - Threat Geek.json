@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.threatgeek.com/2016/11/down-the-h-w0rm-hole-with-houdinis-rat.html"
-  ],
   "weight": 0.0,
   "signatures": [
     "http://www.threatgeek.com/2016/11/down-the-h-w0rm-hole-with-houdinis-rat.html"

@@ -4,41 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "vices.pdf",
     "s.pdf",
     "developments_347678363764.exe",
     "port.docx",
+    "vices.pdf",
     "ment.pdf"
-  ],
-  "MD5": [
-    "Dfff0a7fa1a55c8c1a4966c19f6da452",
-    "62c92ba585f74ecdbef4c4498a438984",
-    "51a7a76a7dd5d9e4651fe3d4c74d16d6"
-  ],
-  "SHA1": [],
-  "SHA256": [
-    "4583b49086c7b88cf9d074597b1d65ff33730e1337aee2a87b8745e94539d964",
-    "9e4464d8dc8a3984561a104a93a7b8d6eb3d622d5187ae1d3fa6f6dafa2231a8",
-    "f6876fd68fdb9c964a573ad04e4e0d3cfd328304659156efc9866844a28c7427",
-    "932ecbc5112abd0ed30231896752ca471ecd0c600b85134631c1d5ffcf5469fb",
-    "65c8b9e9017ac84d90553a252c836c38b6a3902e5ab24d3a4b8a584e2d615fcc",
-    "7b4c736b92ce702fb584845380e237aa55ddb4ef693ea65a766c9d9890b3852c"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.cybereason.com/blog/new-cyber-espionage-campaigns-targeting-palestinians-part-2-the-discovery-of-the-new-mysterious-pierogi-backdoor"
   ],
   "weight": 0.0,
   "signatures": [
-    "Dfff0a7fa1a55c8c1a4966c19f6da452",
     "62c92ba585f74ecdbef4c4498a438984",
+    "Dfff0a7fa1a55c8c1a4966c19f6da452",
     "51a7a76a7dd5d9e4651fe3d4c74d16d6",
     "4583b49086c7b88cf9d074597b1d65ff33730e1337aee2a87b8745e94539d964",
     "9e4464d8dc8a3984561a104a93a7b8d6eb3d622d5187ae1d3fa6f6dafa2231a8",
+    "7b4c736b92ce702fb584845380e237aa55ddb4ef693ea65a766c9d9890b3852c",
     "f6876fd68fdb9c964a573ad04e4e0d3cfd328304659156efc9866844a28c7427",
     "932ecbc5112abd0ed30231896752ca471ecd0c600b85134631c1d5ffcf5469fb",
     "65c8b9e9017ac84d90553a252c836c38b6a3902e5ab24d3a4b8a584e2d615fcc",
-    "7b4c736b92ce702fb584845380e237aa55ddb4ef693ea65a766c9d9890b3852c",
     "https://www.cybereason.com/blog/new-cyber-espionage-campaigns-targeting-palestinians-part-2-the-discovery-of-the-new-mysterious-pierogi-backdoor"
   ]
 }

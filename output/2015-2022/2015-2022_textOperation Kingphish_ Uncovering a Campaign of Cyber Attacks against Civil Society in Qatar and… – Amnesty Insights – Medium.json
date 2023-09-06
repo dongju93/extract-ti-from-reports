@@ -4,27 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
-    "puls.viwe",
-    "139.XXX",
-    "drvie.goo",
-    "recollect.forn",
     "loookout.forn",
+    "recollect.forn",
+    "drvie.goo",
+    "puls.viwe",
     "termp.fs",
+    "139.XXX",
     "premissiion.viwe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://tinyurl.com/h9wxwp8&pa=2&gp=1",
-    "https://amlea.org/en/.",
-    "https://medium.com/amnesty-insights/operation-kingphish-uncovering-a-campaign-of-cyber-attacks-against-civil-society-in-qatar-and-aa40c9e08852"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://tinyurl.com/h9wxwp8&pa=2&gp=1",
     "https://amlea.org/en/.",
+    "http://tinyurl.com/h9wxwp8&pa=2&gp=1",
     "https://medium.com/amnesty-insights/operation-kingphish-uncovering-a-campaign-of-cyber-attacks-against-civil-society-in-qatar-and-aa40c9e08852"
   ]
 }

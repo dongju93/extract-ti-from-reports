@@ -4,45 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "safemode.html",
-    "9.ww",
     "safemedo.html",
     "XXXXXXX.biz",
-    "wd.sys",
-    "udfs.sys",
+    "9.ww",
     "shmfs.lock",
+    "co.Ltd",
+    "udfs.sys",
     "APIWarp.cpp",
-    "co.Ltd"
+    "wd.sys",
+    "safemode.html"
   ],
-  "MD5": [
-    "7bd55818c5971b63dc45cf57cbeb950b",
-    "476bf24a4b1e9f4bc2a61b152115e1fe",
-    "4c0b2e9d2ef909d15270d4dd7fa5a4a5"
-  ],
-  "SHA1": [],
-  "SHA256": [
-    "1b449121300b0188ff9f6a8c399fb818d0cf53fd36cf012e6908a2665a27f016",
-    "75c3b22899e39333c0313e80c4e6958d6612381c535d70b691f5f42afc8c214f",
-    "50174311e524b97ea5cb4f3ea571dd477d1f0eee06cd3ed73af39a15f3e6484a",
-    "e27fb16dce7fff714f4b05f2cef53e1919a34d7ec0e595f2eaa155861a213e59",
-    "6cdb65dbfb2c236b6d149fd9836cb484d0608ea082cf5bd88edde31ad11a0d58"
-  ],
-  "Registry_Entries": [
-    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Level10.",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\lpstatus."
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "7bd55818c5971b63dc45cf57cbeb950b",
     "476bf24a4b1e9f4bc2a61b152115e1fe",
     "4c0b2e9d2ef909d15270d4dd7fa5a4a5",
-    "1b449121300b0188ff9f6a8c399fb818d0cf53fd36cf012e6908a2665a27f016",
+    "7bd55818c5971b63dc45cf57cbeb950b",
     "75c3b22899e39333c0313e80c4e6958d6612381c535d70b691f5f42afc8c214f",
+    "1b449121300b0188ff9f6a8c399fb818d0cf53fd36cf012e6908a2665a27f016",
+    "6cdb65dbfb2c236b6d149fd9836cb484d0608ea082cf5bd88edde31ad11a0d58",
     "50174311e524b97ea5cb4f3ea571dd477d1f0eee06cd3ed73af39a15f3e6484a",
     "e27fb16dce7fff714f4b05f2cef53e1919a34d7ec0e595f2eaa155861a213e59",
-    "6cdb65dbfb2c236b6d149fd9836cb484d0608ea082cf5bd88edde31ad11a0d58",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Level10.",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\lpstatus."
+    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\lpstatus.",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Level10."
   ]
 }

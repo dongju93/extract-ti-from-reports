@@ -4,25 +4,20 @@
   "description": "-",
   "references": ["CVE-2019-18935"],
   "samples": [
+    "comhij.dll",
+    "set.zip",
     "mofcomp.exe",
     "checkservices.dll",
-    "set.zip",
-    "scripttempx.tks",
-    "WP.EXE",
+    "regsvr32.dll",
     "empty.cs",
     "dll.bat",
-    "xg.dll",
-    "comhij.dll",
-    "set.bat",
     "random.dll",
+    "scripttempx.tks",
+    "WP.EXE",
     "ZZZ.dll",
-    "regsvr32.dll"
+    "xg.dll",
+    "set.bat"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

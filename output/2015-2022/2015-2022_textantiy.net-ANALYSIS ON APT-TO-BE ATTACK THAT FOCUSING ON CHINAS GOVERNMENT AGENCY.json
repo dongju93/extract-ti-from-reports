@@ -4,29 +4,15 @@
   "description": "-",
   "references": [],
   "samples": ["www.hick", "Mudge.html"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.antiy.com",
-    "https://plus.google.com/116899857642591292745/posts",
-    "http://www.hick.org/",
-    "http://146.0.43.107/hfYn.",
-    "http://www.antiy.net",
-    "http://www.oldschoolirc.com/",
-    "http://www.blackhat.com/html/bh-us-12/speakers/Raphael-Mudge.html",
-    "http://www.antiy.cn"
-  ],
   "weight": 0.0,
   "signatures": [
-    "http://www.antiy.com",
     "https://plus.google.com/116899857642591292745/posts",
-    "http://www.hick.org/",
+    "http://www.antiy.com",
     "http://146.0.43.107/hfYn.",
+    "http://www.hick.org/",
     "http://www.antiy.net",
-    "http://www.oldschoolirc.com/",
     "http://www.blackhat.com/html/bh-us-12/speakers/Raphael-Mudge.html",
+    "http://www.oldschoolirc.com/",
     "http://www.antiy.cn"
   ]
 }

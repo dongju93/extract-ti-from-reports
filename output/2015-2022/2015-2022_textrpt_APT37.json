@@ -4,23 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "YYYYMMDDHHMMSS.log",
-    "InfoStealer.Win",
-    "Downloader.APT",
     "APT37.EN",
-    "Exploit.APT"
+    "YYYYMMDDHHMMSS.log",
+    "Exploit.APT",
+    "InfoStealer.Win",
+    "Downloader.APT"
   ],
-  "MD5": [
-    "183be2035d5a546670d2b9deeca4eb59",
-    "7c2ebfc7960aac6f8d58b37e3f092a9c"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "183be2035d5a546670d2b9deeca4eb59",
-    "7c2ebfc7960aac6f8d58b37e3f092a9c"
+    "7c2ebfc7960aac6f8d58b37e3f092a9c",
+    "183be2035d5a546670d2b9deeca4eb59"
   ]
 }

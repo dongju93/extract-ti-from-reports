@@ -3,14 +3,7 @@
   "name": "2015-2022_textGData_Uroburos_RedPaper_EN_v1",
   "description": "-",
   "references": [],
-  "samples": ["vstor32.sys", "inj_snake_Win64.dll", "inj_services_Win32.dll"],
-  "MD5": ["320F4E6EE421C1616BD058E73CFEA282"],
-  "SHA1": [],
-  "SHA256": [
-    "BF1CFC65B78F5222D35DC3BD2F0A87C9798BCE5A48348649DD271CE395656341"
-  ],
-  "Registry_Entries": ["HKLM\\System\\CurrentControlSet\\Services\\Ultra3 "],
-  "URL": ["http://www.mspaintadventures.com/?s=6", "http://%s/default.asp"],
+  "samples": ["inj_services_Win32.dll", "inj_snake_Win64.dll", "vstor32.sys"],
   "weight": 0.0,
   "signatures": [
     "320F4E6EE421C1616BD058E73CFEA282",

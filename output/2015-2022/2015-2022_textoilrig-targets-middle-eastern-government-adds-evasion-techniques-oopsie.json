@@ -4,34 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ShwDoc.VBS",
-    "vboxmrxnp.dll",
-    "SbieDll.dll",
-    "user32.dll",
-    "cmd.exe",
-    "ShwDoc.srv",
-    "vmbusres.dll",
     "vmGuestLib.dll",
+    "GID.bin",
+    "vmbusres.dll",
+    "SbieDll.dll",
+    "vboxmrxnp.dll",
     "SchWin.vbs",
-    "GDI.bin",
+    "user32.dll",
     "WindowsImplantment.exe",
-    "GID.bin"
+    "ShwDoc.VBS",
+    "ShwDoc.srv",
+    "cmd.exe",
+    "GDI.bin"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "6b240178eedba4ebc9f1c8b56bac02676ce896e609577f4fb64fa977d67c0761",
-    "9e8ec04e534db1e714159cc68891be454c2459f179ab1df27d7f89d2b6793b17",
-    "36e66597a3ff808acf9b3ed9bc93a33a027678b1e262707682a2fd1de7731e23",
-    "055b7607848777634b2b17a5c51da7949829ff88084c3cb30bcb3e58aae5d8e9"
-  ],
-  "Registry_Entries": [],
-  "URL": ["http://www.windowspatch.com/pser?<hex(STDOUT"],
   "weight": 0.0,
   "signatures": [
-    "6b240178eedba4ebc9f1c8b56bac02676ce896e609577f4fb64fa977d67c0761",
-    "9e8ec04e534db1e714159cc68891be454c2459f179ab1df27d7f89d2b6793b17",
     "36e66597a3ff808acf9b3ed9bc93a33a027678b1e262707682a2fd1de7731e23",
+    "9e8ec04e534db1e714159cc68891be454c2459f179ab1df27d7f89d2b6793b17",
+    "6b240178eedba4ebc9f1c8b56bac02676ce896e609577f4fb64fa977d67c0761",
     "055b7607848777634b2b17a5c51da7949829ff88084c3cb30bcb3e58aae5d8e9",
     "http://www.windowspatch.com/pser?<hex(STDOUT"
   ]

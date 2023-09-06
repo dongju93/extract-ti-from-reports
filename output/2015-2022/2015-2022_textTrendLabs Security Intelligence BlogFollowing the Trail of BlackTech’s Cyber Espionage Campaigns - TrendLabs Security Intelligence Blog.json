@@ -3,12 +3,7 @@
   "name": "2015-2022_textTrendLabs Security Intelligence BlogFollowing the Trail of BlackTech’s Cyber Espionage Campaigns - TrendLabs Security Intelligence Blog",
   "description": "-",
   "references": [],
-  "samples": ["cfbcjtqx.dll", "tpauto.dll", "vmdks.exe"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["vmdks.exe", "tpauto.dll", "cfbcjtqx.dll"],
   "weight": 0.0,
   "signatures": []
 }

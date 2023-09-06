@@ -4,22 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
+    "RevengeHotels.gen",
     "Reservation.docx",
     "Revenge.gen",
-    "Associados.docx",
-    "RevengeHotels.gen"
+    "Associados.docx"
   ],
-  "MD5": [
-    "df632e25c32e8f8ad75ed3c50dd1cd47",
-    "81701c891a1766c51c74bcfaf285854b",
-    "e675bdf6557350a02f15c14f386fcc47",
-    "a089efd7dd9180f9b726594bb6cf81ae",
-    "74440d5d0e6ae9b9a03d06dd61718f66"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "df632e25c32e8f8ad75ed3c50dd1cd47",

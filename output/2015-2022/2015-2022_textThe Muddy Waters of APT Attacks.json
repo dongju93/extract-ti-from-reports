@@ -4,34 +4,25 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Info.txt",
-    "CV.doc",
-    "Kazakhstan.doc",
-    "ieadvpack.dll",
     "Change.doc",
-    "Framework.exe",
-    "116.php",
-    "CiscoAny.exe",
     "IEAdvpack.dll",
+    "CV.doc",
+    "INFO.TXT",
     "VMP.doc",
+    "Kazakhstan.doc",
+    "116.php",
+    "ieadvpack.dll",
+    "Info.txt",
+    "CiscoAny.exe",
     "Advpack.dll",
+    "Framework.exe",
     "GÖRÜŞÜ.doc",
-    "ID.dat",
-    "INFO.TXT"
+    "ID.dat"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "2f77ec3dd5a5c8146213fdf6ac2df4a25a542cbd809689a5642954f2097e037a",
-    "08e256cd2fa027552be253ec3bf427b537977f9123adf1f36e7cd2843a057554",
-    "93b749082651d7fc0b3caa9df81bad7617b3bd4475de58acfe953dfafc7b3987"
-  ],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
+    "93b749082651d7fc0b3caa9df81bad7617b3bd4475de58acfe953dfafc7b3987",
     "2f77ec3dd5a5c8146213fdf6ac2df4a25a542cbd809689a5642954f2097e037a",
-    "08e256cd2fa027552be253ec3bf427b537977f9123adf1f36e7cd2843a057554",
-    "93b749082651d7fc0b3caa9df81bad7617b3bd4475de58acfe953dfafc7b3987"
+    "08e256cd2fa027552be253ec3bf427b537977f9123adf1f36e7cd2843a057554"
   ]
 }

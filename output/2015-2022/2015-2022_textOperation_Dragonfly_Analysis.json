@@ -4,26 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": ["708ceccae2c27e32637fd29451aef4a5"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://t.co/jbP1DXmVo0",
-    "http://www.silicon.co.uk/security/blackenergy-trojan-ukraine-",
-    "https://t.co/jbP1DXmVo0)",
-    "http://www.crysys.hu/teamspy/teamspy.pdf)",
-    "https://t.co/HR9XqsKas3)",
-    "https://t.co/HR9XqsKas3"
-  ],
   "weight": 0.0,
   "signatures": [
     "708ceccae2c27e32637fd29451aef4a5",
     "https://t.co/jbP1DXmVo0",
-    "http://www.silicon.co.uk/security/blackenergy-trojan-ukraine-",
-    "https://t.co/jbP1DXmVo0)",
     "http://www.crysys.hu/teamspy/teamspy.pdf)",
     "https://t.co/HR9XqsKas3)",
-    "https://t.co/HR9XqsKas3"
+    "https://t.co/jbP1DXmVo0)",
+    "https://t.co/HR9XqsKas3",
+    "http://www.silicon.co.uk/security/blackenergy-trojan-ukraine-"
   ]
 }

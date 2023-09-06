@@ -3,14 +3,7 @@
   "name": "2015-2022_textMESSAGETAP_ Who’s Reading Your Text Messages",
   "description": "-",
   "references": [],
-  "samples": ["messages.html", "www.etsi", "parm.txt", "p.pdf"],
-  "MD5": ["8D3B3D5B68A1D08485773D70C186D877"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.etsi.org/deliver/etsi_ts/123000_123099/123040/04.02.00_60/ts_123040v040200p.pdf"
-  ],
+  "samples": ["www.etsi", "messages.html", "p.pdf", "parm.txt"],
   "weight": 0.0,
   "signatures": [
     "8D3B3D5B68A1D08485773D70C186D877",

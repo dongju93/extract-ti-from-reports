@@ -4,38 +4,26 @@
   "description": "-",
   "references": [],
   "samples": [
-    "CNCs.png",
+    "snippet.png",
     "tetris.png",
     "www.arb",
-    "RasTls.dat",
-    "communications.html",
-    "END.DDOS",
-    "com.png",
-    "snippet.png",
-    "properties.png",
     "lite.png",
+    "300x242.png",
+    "com.png",
+    "communications.html",
+    "properties.png",
+    "RasTls.dat",
+    "CNCs.png",
     "pcap.png",
-    "300x242.png"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.arb",
-    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
-    "https://www.paloaltonetworks.com/threat-research)",
-    "http://www.malware-tra",
-    "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-",
-    "https://www.sans.org/reading-"
+    "END.DDOS"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://www.arb",
     "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
-    "https://www.paloaltonetworks.com/threat-research)",
     "http://www.malware-tra",
-    "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-",
-    "https://www.sans.org/reading-"
+    "https://www.sans.org/reading-",
+    "https://www.paloaltonetworks.com/threat-research)",
+    "https://www.arb",
+    "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-"
   ]
 }

@@ -4,38 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Spravochnik.xls",
     "Imports.xls",
-    "MSC.BAT",
-    "Telephone.xls",
     "2011.xls",
-    "shahids.xls",
-    "update.xls",
     "sotrudnikov.xls",
-    "LHAFD.GCP",
-    "8634.xls",
-    "scp.pl",
-    "Rosjan.xls",
     "updated.xls",
-    "telefonebi.xls",
+    "NTLHAFD.GCP",
+    "update.xls",
+    "scp.pl",
     "NTSVCHOST.EXE",
-    "NTLHAFD.GCP"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://178.63.208.63:40080",
-    "http://31.41.45.139:40080",
-    "http://www.google.com/",
-    "https://fr.wikipedia.org/wiki/Acid_Cryptofiler)"
+    "8634.xls",
+    "MSC.BAT",
+    "LHAFD.GCP",
+    "telefonebi.xls",
+    "Rosjan.xls",
+    "shahids.xls",
+    "Spravochnik.xls",
+    "Telephone.xls"
   ],
   "weight": 0.0,
   "signatures": [
     "http://178.63.208.63:40080",
+    "https://fr.wikipedia.org/wiki/Acid_Cryptofiler)",
     "http://31.41.45.139:40080",
-    "http://www.google.com/",
-    "https://fr.wikipedia.org/wiki/Acid_Cryptofiler)"
+    "http://www.google.com/"
   ]
 }

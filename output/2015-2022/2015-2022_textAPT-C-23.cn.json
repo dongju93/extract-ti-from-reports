@@ -4,11 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["East.html"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://blogs.360.cn/post/APT-C-23_target_at_Middle_East.html"],
   "weight": 0.0,
   "signatures": [
     "https://blogs.360.cn/post/APT-C-23_target_at_Middle_East.html"

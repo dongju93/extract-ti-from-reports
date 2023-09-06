@@ -4,19 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "mea.gov",
-    "webmail.mil",
     "mia.gov",
-    "icisleri.gov",
-    "minpal.gob",
+    "webmail.mil",
     "army.mil",
-    "00003.html"
+    "00003.html",
+    "mea.gov",
+    "minpal.gob",
+    "icisleri.gov"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://www.tr1adx.net/intel/TIB-00003.html"],
   "weight": 0.0,
   "signatures": ["https://www.tr1adx.net/intel/TIB-00003.html"]
 }

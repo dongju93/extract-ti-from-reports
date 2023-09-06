@@ -4,21 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
+    "Winword.exe",
     "dascgosrky.exe",
     "Dascgosrky.exe",
-    "Winword.exe",
-    "blogs.msdn",
     "onstaticcache.dat",
-    "impresstravel.ga"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File"
-  ],
-  "URL": [
-    "https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-"
+    "impresstravel.ga",
+    "blogs.msdn"
   ],
   "weight": 0.0,
   "signatures": [

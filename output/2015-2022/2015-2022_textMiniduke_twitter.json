@@ -4,32 +4,21 @@
   "description": "-",
   "references": ["CVE-2014-1761"],
   "samples": [
-    "cryptdll.dll",
-    "init.cmd",
     "data.cat",
+    "NTUSER.DAT",
     "Exploit.CVE",
     "create.php",
-    "NTUSER.DAT",
-    "English.rtf"
+    "English.rtf",
+    "cryptdll.dll",
+    "init.cmd"
   ],
-  "MD5": [],
-  "SHA1": [
-    "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
-    "b27f6174173e71dc154413a525baddf3d6dea1fd",
-    "a94a8fe5dce4f01c1c4c0873d391e987982fbbd3",
-    "c059303cd420dc892421ba4465f09b892de93c77",
-    "58be4918df7fbf1e12de1a31d4f622e570a81b93"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://www.geoiptool.com"],
   "weight": 0.0,
   "signatures": [
-    "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
-    "b27f6174173e71dc154413a525baddf3d6dea1fd",
     "a94a8fe5dce4f01c1c4c0873d391e987982fbbd3",
     "c059303cd420dc892421ba4465f09b892de93c77",
     "58be4918df7fbf1e12de1a31d4f622e570a81b93",
+    "b27f6174173e71dc154413a525baddf3d6dea1fd",
+    "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
     "http://www.geoiptool.com"
   ]
 }

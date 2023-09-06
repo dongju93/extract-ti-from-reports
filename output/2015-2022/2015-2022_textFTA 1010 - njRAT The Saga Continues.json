@@ -4,21 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.eziriz.com/)",
-    "http://www.pelock.com/products/netshrink)",
-    "http://www.fidelissecurity.com/threatadvisory).",
-    "http://confuser.codeplex.com/)"
-  ],
   "weight": 0.0,
   "signatures": [
-    "http://www.eziriz.com/)",
-    "http://www.pelock.com/products/netshrink)",
     "http://www.fidelissecurity.com/threatadvisory).",
-    "http://confuser.codeplex.com/)"
+    "http://confuser.codeplex.com/)",
+    "http://www.pelock.com/products/netshrink)",
+    "http://www.eziriz.com/)"
   ]
 }

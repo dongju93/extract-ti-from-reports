@@ -4,21 +4,13 @@
   "description": "-",
   "references": [],
   "samples": [
-    "al.Add",
-    "cftmon.exe",
     "dfs.Read",
     "r.Key",
     "setup1.log",
     "r.IV",
-    "Headers.Add"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://<ANONYMIZED>/config/login/",
-    "https://<ANONYMIZED>/config/oauth/"
+    "Headers.Add",
+    "al.Add",
+    "cftmon.exe"
   ],
   "weight": 0.0,
   "signatures": [

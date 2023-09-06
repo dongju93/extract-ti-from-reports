@@ -4,21 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
+    "FYI.zip",
+    "siHost64.png",
     "siHost64.exe",
     "rtf.lnk",
-    "GetCurrentRollback.exe",
     "GetCurrentDeploy.dll",
-    "FYI.zip",
-    "siHost64.png"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run with the registry name “siHost64”."
-  ],
-  "URL": [
-    "https://threatrecon.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists/"
+    "GetCurrentRollback.exe"
   ],
   "weight": 0.0,
   "signatures": [

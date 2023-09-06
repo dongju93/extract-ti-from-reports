@@ -3,19 +3,14 @@
   "name": "2015-2022_textvisiting_the_bear_den_recon_2016_calvet_campos_dupuy-1",
   "description": "-",
   "references": [
-    "CVE-2014-1776",
-    "CVE-2014-4076",
     "CVE-2013-1347",
     "CVE-2014-1511",
+    "CVE-2014-1510",
     "CVE-2013-3897",
-    "CVE-2014-1510"
+    "CVE-2014-4076",
+    "CVE-2014-1776"
   ],
-  "samples": ["F1.AB", "LINKINFO.dll", "Winload.exe", "pi.log"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://login.accoounts-google.com/url/?continue="],
+  "samples": ["pi.log", "F1.AB", "Winload.exe", "LINKINFO.dll"],
   "weight": 0.0,
   "signatures": ["http://login.accoounts-google.com/url/?continue="]
 }

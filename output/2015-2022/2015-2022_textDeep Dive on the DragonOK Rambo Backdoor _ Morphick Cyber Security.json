@@ -4,43 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "vmwarebase.dll",
+    "Vmwarebase.dll",
+    "vprintproxy.exe",
+    "fp.seek",
     "SearchIndexer.exe",
+    "vmwarebase.dll",
+    "FilterHost.exe",
+    "nginxr7.exe",
     "FirstBlood.tmp",
     "HeartDll.dll",
     "postgres.exe",
-    "vprintproxy.exe",
-    "nginxr7.exe",
-    "Vmwarebase.dll",
-    "FilterHost.exe",
-    "222.txt",
-    "fp.seek"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "7571642ec340c4833950bb86d3ded4d4b7c2068347e8125a072c5a062a5d6b68",
-    "11668a0666636b3c40b61986bf132a8ca6ab448fddcaa9e4ed22f6ca7f7b8a50",
-    "e154e62c1936f62aeaf55a41a386dbc293050acec8c4616d16f75395884c9090",
-    "76405617acc7fa6c51882fe49d9b059900c10fc077840df9f6a604bf4fab85ba",
-    "5bfcd2cc01a5b930fc704a695f0fe38f1bca8bdfafd8b7d931a37428b5e86f35"
-  ],
-  "Registry_Entries": [
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\FaultChec"
-  ],
-  "URL": [
-    "https://vimeo.com/204217543)",
-    "http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor"
+    "222.txt"
   ],
   "weight": 0.0,
   "signatures": [
-    "7571642ec340c4833950bb86d3ded4d4b7c2068347e8125a072c5a062a5d6b68",
-    "11668a0666636b3c40b61986bf132a8ca6ab448fddcaa9e4ed22f6ca7f7b8a50",
-    "e154e62c1936f62aeaf55a41a386dbc293050acec8c4616d16f75395884c9090",
-    "76405617acc7fa6c51882fe49d9b059900c10fc077840df9f6a604bf4fab85ba",
     "5bfcd2cc01a5b930fc704a695f0fe38f1bca8bdfafd8b7d931a37428b5e86f35",
+    "76405617acc7fa6c51882fe49d9b059900c10fc077840df9f6a604bf4fab85ba",
+    "e154e62c1936f62aeaf55a41a386dbc293050acec8c4616d16f75395884c9090",
+    "11668a0666636b3c40b61986bf132a8ca6ab448fddcaa9e4ed22f6ca7f7b8a50",
+    "7571642ec340c4833950bb86d3ded4d4b7c2068347e8125a072c5a062a5d6b68",
     "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\FaultChec",
-    "https://vimeo.com/204217543)",
-    "http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor"
+    "http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor",
+    "https://vimeo.com/204217543)"
   ]
 }

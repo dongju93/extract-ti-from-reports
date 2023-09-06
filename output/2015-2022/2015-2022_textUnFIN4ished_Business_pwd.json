@@ -3,21 +3,12 @@
   "name": "2015-2022_textUnFIN4ished_Business_pwd",
   "description": "-",
   "references": [],
-  "samples": ["DOCM.pdf", "WINWORD32.exe", "fin4.pdf"],
-  "MD5": ["d102693540b53f9a564e3a550f938709"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.advantarlabs.com/plugins/extension-",
-    "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf",
-    "https://www2.fireeye.com/rs/fireye/images/rpt-fin4.pdf"
-  ],
+  "samples": ["fin4.pdf", "DOCM.pdf", "WINWORD32.exe"],
   "weight": 0.0,
   "signatures": [
     "d102693540b53f9a564e3a550f938709",
-    "http://www.advantarlabs.com/plugins/extension-",
     "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf",
+    "http://www.advantarlabs.com/plugins/extension-",
     "https://www2.fireeye.com/rs/fireye/images/rpt-fin4.pdf"
   ]
 }

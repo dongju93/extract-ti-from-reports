@@ -4,20 +4,10 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOW",
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /v "
-  ],
-  "URL": [
-    "https://www.rapid7.com/blog/post/2013/08/19/byebye-and-the-targeting-of-pakistan/"
-  ],
   "weight": 0.0,
   "signatures": [
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOW",
     "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /v ",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOW",
     "https://www.rapid7.com/blog/post/2013/08/19/byebye-and-the-targeting-of-pakistan/"
   ]
 }

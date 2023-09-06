@@ -4,33 +4,16 @@
   "description": "-",
   "references": [],
   "samples": ["weathers.bing", "tensions.doc"],
-  "MD5": [
-    "bd665cd2c7468002f863558dbe110467",
-    "db89750a7fab01f50b1eefaf83a00060",
-    "d8aa162bc3e178558c8829df189bff88",
-    "9632bec3bf5caa71d091f08d6701d5d8",
-    "a7662d43bb06f31d2152c4f0af039b6e",
-    "6208516f759accb98f967ff1369c2f72",
-    "9c2ee383d235a702c5ad70b1444efb4d",
-    "5cd9b0858b48d87b9622da8170ce8e5d"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.zscaler.com/blogs/research/targeted-attack-leverages-india-china-border-dispute-lure-victims",
-    "https://114.67.110.37/QBah."
-  ],
   "weight": 0.0,
   "signatures": [
-    "bd665cd2c7468002f863558dbe110467",
-    "db89750a7fab01f50b1eefaf83a00060",
+    "6208516f759accb98f967ff1369c2f72",
     "d8aa162bc3e178558c8829df189bff88",
     "9632bec3bf5caa71d091f08d6701d5d8",
-    "a7662d43bb06f31d2152c4f0af039b6e",
-    "6208516f759accb98f967ff1369c2f72",
-    "9c2ee383d235a702c5ad70b1444efb4d",
+    "bd665cd2c7468002f863558dbe110467",
     "5cd9b0858b48d87b9622da8170ce8e5d",
+    "9c2ee383d235a702c5ad70b1444efb4d",
+    "a7662d43bb06f31d2152c4f0af039b6e",
+    "db89750a7fab01f50b1eefaf83a00060",
     "https://www.zscaler.com/blogs/research/targeted-attack-leverages-india-china-border-dispute-lure-victims",
     "https://114.67.110.37/QBah."
   ]

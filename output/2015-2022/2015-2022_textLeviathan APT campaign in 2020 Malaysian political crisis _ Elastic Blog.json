@@ -4,46 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
-    "sl1.tmp",
-    "Mail.dll",
-    "App.exe",
-    "RemoteLoad.dotm",
-    "liseces1.pcs",
     "Parlimen.zip",
-    "sl2.tmp",
-    "LogiMailApp.exe",
+    "Parlimen.docx",
+    "liseces1.pcs",
+    "RemoteLoad.dotm",
+    "sl1.tmp",
     "LogiMail.dll",
-    "Parlimen.docx"
-  ],
-  "MD5": [],
-  "SHA1": ["74b5e317527c93539dbaaf84d6a61da92a56012a"],
-  "SHA256": [
-    "77ef350639b767ce0a748f94f723a6a88609c67be485b9d8ff8401729b8003d2",
-    "523cbdaf31ddc920e5b6c873f3ab42fb791fb4c9d1f4d9e6a7f174105d4f72a1",
-    "06a4246be400ad0347e71b3c4ecd607edda59fbf873791d3772ce001f580c1d3",
-    "93810c5fd9a287d85c182d2ad13e7d30f99df76e55bb40e5bc7a486d259810c8",
-    "ab541df861c6045a17006969dac074a7d300c0a8edd0a5815c8b871b62ecdda7",
-    "925f404b0207055f2a524d9825c48aa511199da95120ed7aafa52d3f7594b0c9",
-    "feca9ad5058bc8571d89c9d5a1eebce09e709cc82954f8dce1564e8cc6750a77",
-    "145daf50aefb7beec32556fd011e10c9eaa71e356649edfce4404409c1e8fa30"
-  ],
-  "Registry_Entries": [
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\ntkd "
-  ],
-  "URL": [
-    "https://www.elastic.co/blog/advanced-techniques-used-in-malaysian-focused-apt-campaign"
+    "LogiMailApp.exe",
+    "Mail.dll",
+    "sl2.tmp",
+    "App.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "74b5e317527c93539dbaaf84d6a61da92a56012a",
     "77ef350639b767ce0a748f94f723a6a88609c67be485b9d8ff8401729b8003d2",
-    "523cbdaf31ddc920e5b6c873f3ab42fb791fb4c9d1f4d9e6a7f174105d4f72a1",
-    "06a4246be400ad0347e71b3c4ecd607edda59fbf873791d3772ce001f580c1d3",
     "93810c5fd9a287d85c182d2ad13e7d30f99df76e55bb40e5bc7a486d259810c8",
-    "ab541df861c6045a17006969dac074a7d300c0a8edd0a5815c8b871b62ecdda7",
-    "925f404b0207055f2a524d9825c48aa511199da95120ed7aafa52d3f7594b0c9",
     "feca9ad5058bc8571d89c9d5a1eebce09e709cc82954f8dce1564e8cc6750a77",
+    "06a4246be400ad0347e71b3c4ecd607edda59fbf873791d3772ce001f580c1d3",
+    "925f404b0207055f2a524d9825c48aa511199da95120ed7aafa52d3f7594b0c9",
     "145daf50aefb7beec32556fd011e10c9eaa71e356649edfce4404409c1e8fa30",
+    "523cbdaf31ddc920e5b6c873f3ab42fb791fb4c9d1f4d9e6a7f174105d4f72a1",
+    "ab541df861c6045a17006969dac074a7d300c0a8edd0a5815c8b871b62ecdda7",
     "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\ntkd ",
     "https://www.elastic.co/blog/advanced-techniques-used-in-malaysian-focused-apt-campaign"
   ]

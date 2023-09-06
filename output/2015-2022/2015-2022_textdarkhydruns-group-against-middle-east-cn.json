@@ -3,12 +3,7 @@
   "name": "2015-2022_textdarkhydruns-group-against-middle-east-cn",
   "description": "-",
   "references": [],
-  "samples": ["为ﺱﺭﺎﻬﻔﻟﺍ.xlsm", "指标.xlsm", "最后使用regsvr32.exe"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["指标.xlsm", "为ﺱﺭﺎﻬﻔﻟﺍ.xlsm", "最后使用regsvr32.exe"],
   "weight": 0.0,
   "signatures": []
 }

@@ -4,35 +4,25 @@
   "description": "-",
   "references": ["CVE-2018-8414"],
   "samples": [
-    "ceUpdateService.exe",
-    "edgekey.live",
-    "akamaiedge.live",
-    "ﺱﺭﺎﻬﻔﻟﺍ.xlsm",
-    "0ﬃce365.life",
-    "DNSProject.pdb",
-    "akamaized.live",
-    "cmanager.live",
-    "akdns.live",
     "366.txt",
+    "akamaized.live",
+    "ﺱﺭﺎﻬﻔﻟﺍ.xlsm",
+    "ceUpdateService.exe",
+    "ﻉﻼﻁﻻﺍ.xlsm",
     "regsvr32.exe",
-    "ﻉﻼﻁﻻﺍ.xlsm"
+    "DNSProject.pdb",
+    "cmanager.live",
+    "akamaiedge.live",
+    "akdns.live",
+    "edgekey.live",
+    "0ﬃce365.life"
   ],
-  "MD5": [
-    "b108412f1cdc0602d82d3e6b318dc634",
-    "039bd47f0fdb6bb7d68a2428c71f317d",
-    "5c3f96ade0ea67eef9d25161c64e6f3e",
-    "8dc9f5450402ae799f5f8afd5c0a8352"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://www.googleapis.com/upload/drive/v3/"],
   "weight": 0.0,
   "signatures": [
-    "b108412f1cdc0602d82d3e6b318dc634",
-    "039bd47f0fdb6bb7d68a2428c71f317d",
-    "5c3f96ade0ea67eef9d25161c64e6f3e",
     "8dc9f5450402ae799f5f8afd5c0a8352",
+    "039bd47f0fdb6bb7d68a2428c71f317d",
+    "b108412f1cdc0602d82d3e6b318dc634",
+    "5c3f96ade0ea67eef9d25161c64e6f3e",
     "https://www.googleapis.com/upload/drive/v3/"
   ]
 }

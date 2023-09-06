@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["companies.This"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://ironnet.com/blog/russian-cyber-attack-campaigns-and-actors/"
-  ],
   "weight": 0.0,
   "signatures": [
     "https://ironnet.com/blog/russian-cyber-attack-campaigns-and-actors/"

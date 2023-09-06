@@ -4,11 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["akademie.dw", "lgntopl.gif"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://developers.google.com/identity/protocols/OAuth2"],
   "weight": 0.0,
   "signatures": ["https://developers.google.com/identity/protocols/OAuth2"]
 }

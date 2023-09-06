@@ -3,20 +3,11 @@
   "name": "2015-2022_textNYTimes_Attackers_Evolve_Quickly",
   "description": "-",
   "references": [],
-  "samples": ["search.asp", "css.css", "computers.html", "myScript.js"],
-  "MD5": [
-    "cb3dcde34fd9ff0e19381d99b02f9692",
-    "aa873ed803ca800ce92a39d9a683c644",
-    "832f5e01be536da71d5b3f7e41938cfb"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["search.asp", "myScript.js", "computers.html", "css.css"],
   "weight": 0.0,
   "signatures": [
+    "832f5e01be536da71d5b3f7e41938cfb",
     "cb3dcde34fd9ff0e19381d99b02f9692",
-    "aa873ed803ca800ce92a39d9a683c644",
-    "832f5e01be536da71d5b3f7e41938cfb"
+    "aa873ed803ca800ce92a39d9a683c644"
   ]
 }

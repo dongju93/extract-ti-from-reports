@@ -3,29 +3,15 @@
   "name": "2015-2022_textadditional-insights-shamoon2",
   "description": "-",
   "references": [],
-  "samples": ["checkFile.aspx", "adobe.go", "sloo.exe", "le.aspx"],
-  "MD5": [
-    "2a0df97277ddb361cecf8726df6d78ac",
-    "5e5ea1a67c2538dbc01df28e4ea87472",
-    "83be35956e5d409306a81e88a1dc89fd",
-    "d30b8468d16b631cafe458fd94cc3196",
-    "07d6406036d6e06dc8019e3ade6ee7de"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://69.87.223.26:8080/eiloShaegae1",
-    "http://69.87.223.26:8080/p\\"
-  ],
+  "samples": ["le.aspx", "sloo.exe", "adobe.go", "checkFile.aspx"],
   "weight": 0.0,
   "signatures": [
     "2a0df97277ddb361cecf8726df6d78ac",
-    "5e5ea1a67c2538dbc01df28e4ea87472",
+    "07d6406036d6e06dc8019e3ade6ee7de",
     "83be35956e5d409306a81e88a1dc89fd",
     "d30b8468d16b631cafe458fd94cc3196",
-    "07d6406036d6e06dc8019e3ade6ee7de",
-    "http://69.87.223.26:8080/eiloShaegae1",
-    "http://69.87.223.26:8080/p\\"
+    "5e5ea1a67c2538dbc01df28e4ea87472",
+    "http://69.87.223.26:8080/p\\",
+    "http://69.87.223.26:8080/eiloShaegae1"
   ]
 }

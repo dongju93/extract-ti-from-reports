@@ -4,19 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "AuditCred.dll",
-    "Roptimizer.dll",
     "ROptimizer.dll",
-    "Auditcred.dll",
-    "BINLODRCONF.ZNFJ",
     "rOptimizer.dll",
-    "BINLODR.ZNFJ"
+    "BINLODRCONF.ZNFJ",
+    "Auditcred.dll",
+    "AuditCred.dll",
+    "BINLODR.ZNFJ",
+    "Roptimizer.dll"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

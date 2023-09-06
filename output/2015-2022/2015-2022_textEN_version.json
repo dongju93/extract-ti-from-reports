@@ -4,19 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "activities.The",
-    "sylog.log",
+    "sub_453590.The",
     "start.lnk",
+    "activities.The",
     "rundll32.dll",
     "executed.DLL",
     "ground.The",
-    "sub_453590.The"
+    "sylog.log"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": ["HKCU\\Environment, key value: AppId, data: c:\\ Intel"],
-  "URL": [],
   "weight": 0.0,
   "signatures": ["HKCU\\Environment, key value: AppId, data: c:\\ Intel"]
 }

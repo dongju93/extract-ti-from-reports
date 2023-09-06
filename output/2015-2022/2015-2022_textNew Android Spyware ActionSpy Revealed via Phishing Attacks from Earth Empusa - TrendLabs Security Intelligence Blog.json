@@ -4,19 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "goforssl.top",
-    "com.ecs",
     "android.dmp",
-    "com.omn",
-    "gotossl.ml",
+    "goforssl.top",
     "com.cd",
-    "ActionSpy.HRX"
+    "gotossl.ml",
+    "com.omn",
+    "ActionSpy.HRX",
+    "com.ecs"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://static.doubles.click:8082/", "http://114.215.41.93/"],
   "weight": 0.0,
-  "signatures": ["http://static.doubles.click:8082/", "http://114.215.41.93/"]
+  "signatures": ["http://114.215.41.93/", "http://static.doubles.click:8082/"]
 }

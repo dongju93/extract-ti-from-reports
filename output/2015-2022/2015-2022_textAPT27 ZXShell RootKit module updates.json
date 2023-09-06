@@ -4,17 +4,9 @@
   "description": "-",
   "references": [],
   "samples": ["lab52.io"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://lab52.io/blog/apt27-rootkit-updates/",
-    "https://repnz.github.io/posts/autochk-rootkit-analysis/)."
-  ],
   "weight": 0.0,
   "signatures": [
-    "https://lab52.io/blog/apt27-rootkit-updates/",
-    "https://repnz.github.io/posts/autochk-rootkit-analysis/)."
+    "https://repnz.github.io/posts/autochk-rootkit-analysis/).",
+    "https://lab52.io/blog/apt27-rootkit-updates/"
   ]
 }

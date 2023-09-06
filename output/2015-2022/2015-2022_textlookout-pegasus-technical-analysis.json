@@ -2,36 +2,25 @@
   "rule_id": 442,
   "name": "2015-2022_textlookout-pegasus-technical-analysis",
   "description": "-",
-  "references": ["CVE-2016-4656", "CVE-2016-4657", "CVE-2016-4655"],
+  "references": ["CVE-2016-4657", "CVE-2016-4655", "CVE-2016-4656"],
   "samples": [
-    "Group_0_4266323503.html",
+    "test.app",
+    "false.html",
     "cynject.cpp",
     "ca.crt",
-    "wars.html",
-    "Imo.im",
-    "test.app",
     "r.log",
+    "Group_0_4266323503.html",
     "de.html",
-    "false.html",
-    "test222.tar"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.ft.com/cms/s/9869fd34-c7ac-11e2-be27-00144feab7de,Authorised=false.html?siteedition=intl&_i_location=http%3A%2F%2Fwww.",
-    "http://www.haaretz.com/israel-news/business/economy-finance/1.574805",
-    "http://www.prensa.com/locales/ruta-pago-NSO-Group_0_4266323503.html",
-    "http://blogs.wsj.com/digits/2014/08/01/can-this-israeli-startup-hack-your-phone/",
-    "https://trac.webkit.org/wiki/JSC"
+    "wars.html",
+    "test222.tar",
+    "Imo.im"
   ],
   "weight": 0.0,
   "signatures": [
     "http://www.ft.com/cms/s/9869fd34-c7ac-11e2-be27-00144feab7de,Authorised=false.html?siteedition=intl&_i_location=http%3A%2F%2Fwww.",
-    "http://www.haaretz.com/israel-news/business/economy-finance/1.574805",
-    "http://www.prensa.com/locales/ruta-pago-NSO-Group_0_4266323503.html",
+    "https://trac.webkit.org/wiki/JSC",
     "http://blogs.wsj.com/digits/2014/08/01/can-this-israeli-startup-hack-your-phone/",
-    "https://trac.webkit.org/wiki/JSC"
+    "http://www.prensa.com/locales/ruta-pago-NSO-Group_0_4266323503.html",
+    "http://www.haaretz.com/israel-news/business/economy-finance/1.574805"
   ]
 }

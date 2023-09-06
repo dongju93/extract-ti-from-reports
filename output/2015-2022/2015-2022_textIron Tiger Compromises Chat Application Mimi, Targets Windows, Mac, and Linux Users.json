@@ -3,12 +3,7 @@
   "name": "2015-2022_textIron Tiger Compromises Chat Application Mimi, Targets Windows, Mac, and Linux Users",
   "description": "-",
   "references": [],
-  "samples": ["users.html", "Node.js"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["Node.js", "users.html"],
   "weight": 0.0,
   "signatures": []
 }

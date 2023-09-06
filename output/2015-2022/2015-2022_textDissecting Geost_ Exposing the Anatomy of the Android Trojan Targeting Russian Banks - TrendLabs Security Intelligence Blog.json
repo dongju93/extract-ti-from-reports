@@ -4,18 +4,13 @@
   "description": "-",
   "references": [],
   "samples": [
+    "Fobus.AXM",
+    "error.zip",
     "archive.zip",
-    "classes.dex",
     "action.CALL",
     "ydxwlab.jar",
-    "error.zip",
-    "Fobus.AXM"
+    "classes.dex"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

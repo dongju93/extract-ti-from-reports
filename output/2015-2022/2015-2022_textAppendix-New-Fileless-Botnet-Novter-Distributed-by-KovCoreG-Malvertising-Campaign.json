@@ -4,26 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
+    "Downloader.JS",
     "sall.js",
-    "block_av_01.dat",
-    "Trojan.JS",
-    "em_02.js",
-    "bav01.js",
-    "sall.dat",
-    "module.avi",
     "7.hta",
+    "sall.dat",
     "TRX.XX",
+    "em_02.js",
     "tell2.dat",
-    "Downloader.JS"
+    "Trojan.JS",
+    "module.avi",
+    "block_av_01.dat",
+    "bav01.js"
   ],
-  "MD5": [
-    "a82dd93585094aeba4363c5aeedd1a85",
-    "ef72c60a03738b25d452a5d895313875"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "a82dd93585094aeba4363c5aeedd1a85",

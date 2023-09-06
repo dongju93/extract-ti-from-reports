@@ -3,19 +3,7 @@
   "name": "2015-2022_textDissecting-the-Kraken",
   "description": "-",
   "references": [],
-  "samples": ["kraken.html", "VBoxtray.exe", "Variant.Zusy", "0158.AH"],
-  "MD5": [
-    "08E834B6D4123F0AEA27D042FCEAF992",
-    "3917107778F928A6F65DB34553D5082A"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Windows:"
-  ],
-  "URL": [
-    "https://blog.gdatasoftware.com/blog/article/dissecting-the-kraken.html"
-  ],
+  "samples": ["0158.AH", "Variant.Zusy", "VBoxtray.exe", "kraken.html"],
   "weight": 0.0,
   "signatures": [
     "08E834B6D4123F0AEA27D042FCEAF992",

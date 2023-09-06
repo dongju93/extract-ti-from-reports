@@ -4,45 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "PALOALTONETWORKS.COM",
-    "APPCMD.EXE",
     "bb757040.aspx",
-    "sharer.php",
+    "RGDoor.Gen",
+    "iishandler6.dll",
     "HTTPParser.dll",
     "cHandler.dll",
-    "iishandler6.dll",
-    "RGDoor.Gen"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa",
-    "497e6965120a7ca6644da9b8291c65901e78d302139d221fcf0a3ec6c5cf9de3"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "https://ignite.paloaltonetworks.com/usa/?",
-    "https://www.paloaltonetworks.com/company/subscriptions)",
-    "https://www.paloaltonetworks.com/legal-notices/privacy)",
-    "https://autofocus.paloaltonetworks.com/",
-    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)",
-    "https://www.paloaltonetworks.com/security-disclosure)",
-    "https://www.paloaltonetworks.com/company/careers)",
-    "https://www.paloaltonetworks.com/sitemap)",
-    "https://www.paloaltonetworks.com/company)"
+    "PALOALTONETWORKS.COM",
+    "APPCMD.EXE",
+    "sharer.php"
   ],
   "weight": 0.0,
   "signatures": [
     "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa",
     "497e6965120a7ca6644da9b8291c65901e78d302139d221fcf0a3ec6c5cf9de3",
+    "https://www.paloaltonetworks.com/security-disclosure)",
     "https://ignite.paloaltonetworks.com/usa/?",
     "https://www.paloaltonetworks.com/company/subscriptions)",
-    "https://www.paloaltonetworks.com/legal-notices/privacy)",
-    "https://autofocus.paloaltonetworks.com/",
-    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)",
-    "https://www.paloaltonetworks.com/security-disclosure)",
-    "https://www.paloaltonetworks.com/company/careers)",
     "https://www.paloaltonetworks.com/sitemap)",
-    "https://www.paloaltonetworks.com/company)"
+    "https://www.paloaltonetworks.com/company)",
+    "https://www.paloaltonetworks.com/company/careers)",
+    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)",
+    "https://www.paloaltonetworks.com/legal-notices/privacy)",
+    "https://autofocus.paloaltonetworks.com/"
   ]
 }

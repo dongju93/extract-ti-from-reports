@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"

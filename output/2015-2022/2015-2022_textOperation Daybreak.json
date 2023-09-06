@@ -4,35 +4,23 @@
   "description": "-",
   "references": ["CVE-2016-0147"],
   "samples": [
-    "ap.php",
-    "webconncheck.myfw",
-    "ScarCruft.gen",
     "release.dll",
-    "china.pdf",
-    "cfgifut.dll",
+    "cldbct.dll",
+    "ap.php",
     "xrss.php",
-    "Exploit.SWF",
-    "cldbct.dll"
+    "ScarCruft.gen",
+    "cfgifut.dll",
+    "china.pdf",
+    "webconncheck.myfw",
+    "Exploit.SWF"
   ],
-  "MD5": [
-    "067681b79756156ba26c12bc36bf835c",
-    "3e5ac6bbf108feec97e1cc36560ab0b6",
-    "f8a2d4ddf9dc2de750c8b4b7ee45ba3f",
-    "e51ce28c2e2d226365bc5315d3e5f83e",
-    "8844a537e7f533192ca8e81886e70fbc",
-    "a6f14b547d9a7190a1f9f1c06f906063"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "067681b79756156ba26c12bc36bf835c",
-    "3e5ac6bbf108feec97e1cc36560ab0b6",
-    "f8a2d4ddf9dc2de750c8b4b7ee45ba3f",
-    "e51ce28c2e2d226365bc5315d3e5f83e",
     "8844a537e7f533192ca8e81886e70fbc",
-    "a6f14b547d9a7190a1f9f1c06f906063"
+    "e51ce28c2e2d226365bc5315d3e5f83e",
+    "f8a2d4ddf9dc2de750c8b4b7ee45ba3f",
+    "a6f14b547d9a7190a1f9f1c06f906063",
+    "3e5ac6bbf108feec97e1cc36560ab0b6",
+    "067681b79756156ba26c12bc36bf835c"
   ]
 }

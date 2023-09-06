@@ -4,36 +4,22 @@
   "description": "-",
   "references": [],
   "samples": [
-    "unioncrypto.vip",
-    "specterops.io",
-    "apple.main",
     "youtu.be",
-    "blog_0x54.html",
+    "unioncrypto.vip",
     "AES.new",
-    "infile.read"
-  ],
-  "MD5": [
-    "ca57054ea39f84a6f5ba0c65539a0762",
-    "6588d262529dc372c400bef8478c2eec"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://youtu.be/InL3YA_6P6s",
-    "https://unioncrypto.vip/update",
-    "https://objective-see.com/blog/blog_0x54.html",
-    "https://allyourbase.belong/",
-    "https://unioncrypto.vip/"
+    "blog_0x54.html",
+    "infile.read",
+    "specterops.io",
+    "apple.main"
   ],
   "weight": 0.0,
   "signatures": [
-    "ca57054ea39f84a6f5ba0c65539a0762",
     "6588d262529dc372c400bef8478c2eec",
-    "https://youtu.be/InL3YA_6P6s",
+    "ca57054ea39f84a6f5ba0c65539a0762",
     "https://unioncrypto.vip/update",
+    "https://youtu.be/InL3YA_6P6s",
     "https://objective-see.com/blog/blog_0x54.html",
-    "https://allyourbase.belong/",
-    "https://unioncrypto.vip/"
+    "https://unioncrypto.vip/",
+    "https://allyourbase.belong/"
   ]
 }

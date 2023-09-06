@@ -5,19 +5,14 @@
   "references": [],
   "samples": [
     "step6.php",
+    "Index.php",
+    "Mine.php",
     "antiX.php",
     "anti.php",
-    "Trojan.PHP",
-    "Mine.php",
     "langauges.php",
-    "Index.php",
+    "Trojan.PHP",
     "Algo.php"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

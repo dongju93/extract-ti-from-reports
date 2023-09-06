@@ -4,24 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "netp191.pnf",
-    "crysys.hu",
-    "spoolsv.exe",
-    "cmi4464.pnf",
     "alg.exe",
-    "imapi.exe",
     "jminet7.sys",
+    "spoolsv.exe",
     "netp192.pnf",
+    "crysys.hu",
+    "sortEA74.nls",
+    "cmi4464.pnf",
+    "netp191.pnf",
     "cmi4432.sys",
     "cmi4432.pnf",
     "res302.dll",
-    "sortEA74.nls"
+    "imapi.exe"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

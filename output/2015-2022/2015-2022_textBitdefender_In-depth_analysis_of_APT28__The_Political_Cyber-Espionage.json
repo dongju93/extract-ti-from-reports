@@ -5,46 +5,30 @@
   "references": [],
   "samples": [
     "run.exe",
-    "Pr.dll",
-    "4076.pdb",
-    "advstorshell.dll",
     "winloat.exe",
     "1c9.xml",
-    "backup.pst",
-    "advstoreshell.dll",
-    "Kydla.dbx",
-    "www.msc",
     "svehost.exe",
-    "pr.dll",
     "xp.exe",
+    "pr.dll",
     "backup2.pst",
-    "AC_VTS_ÐÊÒ.dbx"
-  ],
-  "MD5": [
-    "f3bf929a35c3f198226b88537d9ccb1a",
-    "78450806E56B1F224D00455EFCD04CE3",
-    "2683624eacc490238e98c449bddbb573",
-    "5bf524a4860f3c33e3ad77b6b625db37"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKU\\S-1-5-19_Classes\\Software\\Microsoft\\MediaPlayer\\{some_clsid}\\chnnl” . ",
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\"
-  ],
-  "URL": [
-    "http://www.bitdefender.com/",
-    "http://blog.gentilkiwi.com/mimikatz."
+    "backup.pst",
+    "AC_VTS_ÐÊÒ.dbx",
+    "www.msc",
+    "advstorshell.dll",
+    "advstoreshell.dll",
+    "Pr.dll",
+    "Kydla.dbx",
+    "4076.pdb"
   ],
   "weight": 0.0,
   "signatures": [
+    "5bf524a4860f3c33e3ad77b6b625db37",
+    "2683624eacc490238e98c449bddbb573",
     "f3bf929a35c3f198226b88537d9ccb1a",
     "78450806E56B1F224D00455EFCD04CE3",
-    "2683624eacc490238e98c449bddbb573",
-    "5bf524a4860f3c33e3ad77b6b625db37",
     "HKU\\S-1-5-19_Classes\\Software\\Microsoft\\MediaPlayer\\{some_clsid}\\chnnl” . ",
     "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\",
-    "http://www.bitdefender.com/",
-    "http://blog.gentilkiwi.com/mimikatz."
+    "http://blog.gentilkiwi.com/mimikatz.",
+    "http://www.bitdefender.com/"
   ]
 }

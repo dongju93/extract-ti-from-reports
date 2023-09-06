@@ -4,23 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Reg.exe",
     "portqry.exe",
-    "RunHelp.exe",
+    "maybemimi.exe",
     "ssMUIDLL.dll",
-    "maybemimi.exe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
-    "https://youtu.be/Ihpn2-4jTvc"
+    "RunHelp.exe",
+    "Reg.exe"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
-    "https://youtu.be/Ihpn2-4jTvc"
+    "https://youtu.be/Ihpn2-4jTvc",
+    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers"
   ]
 }

@@ -4,20 +4,11 @@
   "description": "-",
   "references": [],
   "samples": ["Confidencial.pdf", "confidencial.pdf"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\msconfig: “C:\\WINDOWS\\System32\\regedit.exe”",
-    "HKLM\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\%GUID%\\StubPath:",
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\policies\\Explorer\\Run\\Policies:"
-  ],
-  "URL": ["https://citizenlab.org/2015/12/packrat-report/"],
   "weight": 0.0,
   "signatures": [
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\msconfig: “C:\\WINDOWS\\System32\\regedit.exe”",
     "HKLM\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\%GUID%\\StubPath:",
     "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\policies\\Explorer\\Run\\Policies:",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\msconfig: “C:\\WINDOWS\\System32\\regedit.exe”",
     "https://citizenlab.org/2015/12/packrat-report/"
   ]
 }

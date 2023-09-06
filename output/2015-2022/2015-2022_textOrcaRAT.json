@@ -4,53 +4,36 @@
   "description": "-",
   "references": [],
   "samples": [
-    "www.reg",
-    "domain.biz",
-    "www.bbs",
-    "www.ktry",
-    "ftp.lucy",
-    "www.hot",
-    "ninth.biz",
-    "www.lucy",
-    "www.fgtr",
-    "nuac.jkub",
-    "www.edu",
-    "ftp.osk",
-    "newtect.ddns",
-    "ftp.bbs",
-    "vnd.ms",
+    "ftp.edu",
     "www.osk",
+    "www.lucy",
+    "ninth.biz",
     "ftp.nuac",
+    "www.ktry",
+    "www.hot",
+    "www.fgtr",
+    "vnd.ms",
     "ftp.reg",
-    "ftp.edu"
-  ],
-  "MD5": [
-    "fee0e6b8157099ad09380a94b7cbbea4",
-    "84c68f2d2dd569c4620dabcecd477e69",
-    "07b40312047f204a2c1fbd94fba6f53b",
-    "f6456b115e325b612e0d144c8090720f",
-    "8fbc8c7d62a41b6513603c4051a3ee7b",
-    "139b8e1b665bb9237ec51ec4bef22f58"
-  ],
-  "SHA1": [],
-  "SHA256": [
-    "253a704acd7952677c70e0c2d787791b8359efe2c92a5e77acea028393a85613"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf",
-    "http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-"
+    "ftp.osk",
+    "ftp.lucy",
+    "domain.biz",
+    "ftp.bbs",
+    "nuac.jkub",
+    "www.bbs",
+    "newtect.ddns",
+    "www.reg",
+    "www.edu"
   ],
   "weight": 0.0,
   "signatures": [
-    "fee0e6b8157099ad09380a94b7cbbea4",
-    "84c68f2d2dd569c4620dabcecd477e69",
-    "07b40312047f204a2c1fbd94fba6f53b",
-    "f6456b115e325b612e0d144c8090720f",
-    "8fbc8c7d62a41b6513603c4051a3ee7b",
     "139b8e1b665bb9237ec51ec4bef22f58",
+    "fee0e6b8157099ad09380a94b7cbbea4",
+    "f6456b115e325b612e0d144c8090720f",
+    "07b40312047f204a2c1fbd94fba6f53b",
+    "84c68f2d2dd569c4620dabcecd477e69",
+    "8fbc8c7d62a41b6513603c4051a3ee7b",
     "253a704acd7952677c70e0c2d787791b8359efe2c92a5e77acea028393a85613",
-    "http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf",
-    "http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-"
+    "http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-",
+    "http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf"
   ]
 }

@@ -4,17 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Jihad.doc",
     "MSCOMCTL.ocx",
+    "winword.pkg",
     "kibber.no",
     "moo1.tmp",
-    "winword.pkg"
+    "Jihad.doc"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

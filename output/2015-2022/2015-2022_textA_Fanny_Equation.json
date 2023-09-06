@@ -4,32 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ahx.html",
+    "atmpsvcn.ocx",
+    "AGENTCPD.DLL",
     "comhost.dll",
+    "installer.dll",
     "shelldoc.dll",
     "msdtc32.exe",
-    "installer.dll",
-    "AGENTCPD.DLL",
     "Fanny.bmp",
+    "fanny.bmp",
     "agentcpd.dll",
-    "atmpsvcn.ocx",
-    "mscorwin.dll",
-    "fanny.bmp"
+    "ahx.html",
+    "mscorwin.dll"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP",
-    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
-    "HKLM\\Software\\Microsoft\\Windows"
-  ],
-  "URL": ["http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"],
   "weight": 0.0,
   "signatures": [
     "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP",
-    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
     "HKLM\\Software\\Microsoft\\Windows",
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
     "http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"
   ]
 }

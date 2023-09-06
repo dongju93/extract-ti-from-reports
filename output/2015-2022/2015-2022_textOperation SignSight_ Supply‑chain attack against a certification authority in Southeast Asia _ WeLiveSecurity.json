@@ -5,37 +5,23 @@
   "references": [],
   "samples": [
     "cdomainquery.cpp",
-    "netapi32.dll",
     "Agent.SJQ",
     "eToken.exe",
+    "z.cab",
+    "ca.gov",
     "3.msi",
     "ssl.DLL",
-    "SnowballS.pdb",
-    "z.cab",
-    "ca.gov"
-  ],
-  "MD5": [],
-  "SHA1": [
-    "989334094EC5BA8E0E8F2238CDF34D5C57C283F2",
-    "5C77A18880CF58DF9FBA102DD8267C3F369DF449",
-    "9522F369AC109B03E6C16511D49D1C5B42E12A44",
-    "B0E4E9BB6EF8AA7A9FCB9C9E571D8162B1B2443A",
-    "5DFC07BB6034B4FDA217D96441FB86F5D43B6C62"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x64-8.3.msi",
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x32-8.3.msi"
+    "netapi32.dll",
+    "SnowballS.pdb"
   ],
   "weight": 0.0,
   "signatures": [
     "989334094EC5BA8E0E8F2238CDF34D5C57C283F2",
-    "5C77A18880CF58DF9FBA102DD8267C3F369DF449",
     "9522F369AC109B03E6C16511D49D1C5B42E12A44",
-    "B0E4E9BB6EF8AA7A9FCB9C9E571D8162B1B2443A",
     "5DFC07BB6034B4FDA217D96441FB86F5D43B6C62",
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x64-8.3.msi",
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x32-8.3.msi"
+    "B0E4E9BB6EF8AA7A9FCB9C9E571D8162B1B2443A",
+    "5C77A18880CF58DF9FBA102DD8267C3F369DF449",
+    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x32-8.3.msi",
+    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x64-8.3.msi"
   ]
 }

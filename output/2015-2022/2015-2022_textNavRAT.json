@@ -3,20 +3,11 @@
   "name": "2015-2022_textNavRAT",
   "description": "-",
   "references": [],
-  "samples": ["대비.hwp", "emp.exe", "Summit.hwp", "img.png", "F.TMP"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "e5f191531bc1c674ea74f8885449f4d934d5f1aa7fd3aaa283fe70f9402b9574",
-    "e0257d187be69b9bee0a731437bf050d56d213b50a6fd29dd6664e7969f286ef",
-    "4f06eaed3dd67ce31e7c8258741cf727964bd271c3590ded828ad7ba8d04ee57"
-  ],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["img.png", "F.TMP", "emp.exe", "Summit.hwp", "대비.hwp"],
   "weight": 0.0,
   "signatures": [
-    "e5f191531bc1c674ea74f8885449f4d934d5f1aa7fd3aaa283fe70f9402b9574",
     "e0257d187be69b9bee0a731437bf050d56d213b50a6fd29dd6664e7969f286ef",
-    "4f06eaed3dd67ce31e7c8258741cf727964bd271c3590ded828ad7ba8d04ee57"
+    "4f06eaed3dd67ce31e7c8258741cf727964bd271c3590ded828ad7ba8d04ee57",
+    "e5f191531bc1c674ea74f8885449f4d934d5f1aa7fd3aaa283fe70f9402b9574"
   ]
 }

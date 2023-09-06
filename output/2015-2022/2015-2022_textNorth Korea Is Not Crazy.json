@@ -4,19 +4,10 @@
   "description": "-",
   "references": [],
   "samples": ["Guards.pdf", "iranprimer.usip"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://iranprimer.usip.org/sites/default/",
-    "https://www.foreigna",
-    "http://www.tandfonline.com/doi/abs/10.1080/09700161.2012.689528."
-  ],
   "weight": 0.0,
   "signatures": [
+    "http://www.tandfonline.com/doi/abs/10.1080/09700161.2012.689528.",
     "http://iranprimer.usip.org/sites/default/",
-    "https://www.foreigna",
-    "http://www.tandfonline.com/doi/abs/10.1080/09700161.2012.689528."
+    "https://www.foreigna"
   ]
 }

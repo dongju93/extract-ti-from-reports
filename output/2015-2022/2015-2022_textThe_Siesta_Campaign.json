@@ -4,11 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["2014.exe", "UIODsevr.exe"],
-  "MD5": [],
-  "SHA1": ["014542eafb792b98196954373b3fd13e60cb94fe"],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://www.micro"],
   "weight": 0.0,
   "signatures": ["014542eafb792b98196954373b3fd13e60cb94fe", "http://www.micro"]
 }

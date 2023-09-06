@@ -4,22 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
-    "xa80.dll",
-    "SuperBot.exe",
+    "aio.exe",
+    "SQLLib80.dll",
     "latinfect.exe",
     "autorun.exe",
-    "msdtc.exe",
+    "SuperBot.exe",
     "leh.exe",
     "installe.exe",
-    "SQLLib80.dll",
     "SuperBotx64.exe",
-    "aio.exe"
+    "xa80.dll",
+    "msdtc.exe"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

@@ -4,26 +4,16 @@
   "description": "-",
   "references": [],
   "samples": [
+    "cq.aspx",
     "ww.txt",
     "teredo.txt",
     "ShowDoc.aspx",
-    "ja.aspx",
-    "cq.aspx",
     "da.fill",
-    "SVROOT.exe",
     "w.txt",
-    "RTQ.exe"
+    "ja.aspx",
+    "RTQ.exe",
+    "SVROOT.exe"
   ],
-  "MD5": [
-    "A2B4D934D394B54672EA10CA8A65C198",
-    "36252C6C2F616C5664A54058F33EF463",
-    "1B2F81BD2D39E60F1E1AD05DD3BF9F56",
-    "28D968F26028D956E6F1199092A1C408"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "A2B4D934D394B54672EA10CA8A65C198",

@@ -5,23 +5,16 @@
   "references": [],
   "samples": [
     "Lsasrv.dll",
-    "version.fb",
-    "9.xml",
-    "Schannel.dll",
-    "Msv1_0.dll",
-    "version.xml",
     "sipauth32.tsp",
-    "Kerberos.dll",
     "version.exe",
-    "Wdigest.dll"
+    "version.xml",
+    "Msv1_0.dll",
+    "Schannel.dll",
+    "Kerberos.dll",
+    "Wdigest.dll",
+    "version.fb",
+    "9.xml"
   ],
-  "MD5": ["96f10cfa6ba24c9ecd08aa6d37993fe4"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Telephony\\Providers"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "96f10cfa6ba24c9ecd08aa6d37993fe4",

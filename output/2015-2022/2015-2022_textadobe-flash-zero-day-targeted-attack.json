@@ -3,15 +3,7 @@
   "name": "2015-2022_textadobe-flash-zero-day-targeted-attack",
   "description": "-",
   "references": ["CVE-2018-5002"],
-  "samples": ["ا.xlsx", "d.png", "icebrg.io"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "6535abc68a777b82b8dca49ffbf2d80af7491e76020028a3e18186e1cad02abe",
-    "0b4f0d8d57fd1cb9b4408013aa7fe5986339ce66ad09c941e76626b5d872e0b5"
-  ],
-  "Registry_Entries": [],
-  "URL": ["https://crt.sh/?"],
+  "samples": ["d.png", "icebrg.io", "ا.xlsx"],
   "weight": 0.0,
   "signatures": [
     "6535abc68a777b82b8dca49ffbf2d80af7491e76020028a3e18186e1cad02abe",

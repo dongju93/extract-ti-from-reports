@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["tmp1.dat"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\SOFTWARE\\Microsoft\\Rpc\\Security). The infection ID, if "
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "HKLM\\SOFTWARE\\Microsoft\\Rpc\\Security). The infection ID, if "

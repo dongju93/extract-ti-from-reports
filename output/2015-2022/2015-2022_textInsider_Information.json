@@ -4,29 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "AdobeUpdate20170312.exe",
-    "Stub.dll",
-    "AdobeUpdate20160812.exe",
     "website.hXXp",
+    "Stub.dll",
+    "article.asp",
     "AdobeUpdate20160703.exe",
+    "AdobeUpdate20160812.exe",
     "AdobeUpdate20161201.exe",
-    "article.asp"
+    "AdobeUpdate20170312.exe"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
-    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog",
-    "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog",
-    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
-    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog",
     "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog",
-    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"
+    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog",
+    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog"
   ]
 }

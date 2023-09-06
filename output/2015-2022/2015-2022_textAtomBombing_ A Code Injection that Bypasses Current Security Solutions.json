@@ -4,21 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://resources.infosecinstitute.com/code-injection-techniques/",
-    "http://breakingmalware.com/inj...",
-    "http://www.codeproject.com/Art...",
-    "http://thehackernews.com/2016/..."
-  ],
   "weight": 0.0,
   "signatures": [
-    "http://resources.infosecinstitute.com/code-injection-techniques/",
+    "http://thehackernews.com/2016/...",
     "http://breakingmalware.com/inj...",
-    "http://www.codeproject.com/Art...",
-    "http://thehackernews.com/2016/..."
+    "http://resources.infosecinstitute.com/code-injection-techniques/",
+    "http://www.codeproject.com/Art..."
   ]
 }

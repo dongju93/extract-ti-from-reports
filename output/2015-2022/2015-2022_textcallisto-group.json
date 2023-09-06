@@ -4,11 +4,6 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": ["07cdc67d211d175cd9d418dc5482b3f17d93526a"],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://arstechnica"],
   "weight": 0.0,
   "signatures": [
     "07cdc67d211d175cd9d418dc5482b3f17d93526a",

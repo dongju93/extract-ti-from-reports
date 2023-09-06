@@ -4,11 +4,6 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["http://tech.china.com.cn/internet/20160119/216749.shtml"],
   "weight": 0.0,
   "signatures": ["http://tech.china.com.cn/internet/20160119/216749.shtml"]
 }

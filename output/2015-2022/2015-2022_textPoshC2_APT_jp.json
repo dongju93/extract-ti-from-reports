@@ -4,34 +4,26 @@
   "description": "-",
   "references": ["CVE-2019-9489"],
   "samples": [
-    "Microsoft.dll",
     "PccNTMon.exe",
     "gdiplus.dll",
-    "Scan.exe",
-    "Automation.dll",
-    "Studioや.NET",
+    "Mon.exe",
+    "refox.exe",
     "magify.exe",
+    "Studioや.NET",
+    "B1487.txt",
+    "Microsoft.dll",
+    "magnify.exe",
+    "Scan.exe",
     "20200424_002177.html",
     "cgiRecvFile.exe",
-    "Mon.exe",
     "PowershellDLL.dll",
     "ten.exe",
-    "magnify.exe",
-    "B1487.txt",
-    "refox.exe"
+    "Automation.dll"
   ],
-  "MD5": [
-    "f0fdb786ca994342a8a91adb5ba6987f",
-    "7658d4c74b519187b2829359a921e374"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://www.lac.co.jp/lacwatch/people/20200424_002177.html"],
   "weight": 0.0,
   "signatures": [
-    "f0fdb786ca994342a8a91adb5ba6987f",
     "7658d4c74b519187b2829359a921e374",
+    "f0fdb786ca994342a8a91adb5ba6987f",
     "https://www.lac.co.jp/lacwatch/people/20200424_002177.html"
   ]
 }

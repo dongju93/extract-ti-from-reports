@@ -3,18 +3,10 @@
   "name": "2015-2022_textapt32-continues-asean-targeting",
   "description": "-",
   "references": [],
-  "samples": ["ANY.RUN", "thumbcache_1CD60.db", "NavShExt.dll", "EQNEDT32.exe"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "6dc2a49d58dc568944fef8285ad7a03b772b9bdf1fe4bddff3f1ade3862eae79",
-    "d3fc69a9f2ae2c446434abbfbe1693ef0f81a5da0a7f39d27c80d85f4a49c411"
-  ],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["thumbcache_1CD60.db", "EQNEDT32.exe", "NavShExt.dll", "ANY.RUN"],
   "weight": 0.0,
   "signatures": [
-    "6dc2a49d58dc568944fef8285ad7a03b772b9bdf1fe4bddff3f1ade3862eae79",
-    "d3fc69a9f2ae2c446434abbfbe1693ef0f81a5da0a7f39d27c80d85f4a49c411"
+    "d3fc69a9f2ae2c446434abbfbe1693ef0f81a5da0a7f39d27c80d85f4a49c411",
+    "6dc2a49d58dc568944fef8285ad7a03b772b9bdf1fe4bddff3f1ade3862eae79"
   ]
 }

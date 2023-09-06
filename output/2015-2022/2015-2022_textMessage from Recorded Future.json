@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["crt.sh"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.recordedfuture.com/exposing-tag-53-credential-harvesting-infrastructure-for-russia-aligned-espionage-operations"
-  ],
   "weight": 0.0,
   "signatures": [
     "https://www.recordedfuture.com/exposing-tag-53-credential-harvesting-infrastructure-for-russia-aligned-espionage-operations"

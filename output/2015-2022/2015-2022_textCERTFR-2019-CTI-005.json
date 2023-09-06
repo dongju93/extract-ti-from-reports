@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["WMIExec.vbs"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKLM\\SYSTEM\\ControlSet{0,n}\\services\\PortProxy\\v4tov4 on WIN-"
-  ],
-  "URL": ["https://www.us-cert."],
   "weight": 0.0,
   "signatures": [
     "HKLM\\SYSTEM\\ControlSet{0,n}\\services\\PortProxy\\v4tov4 on WIN-",

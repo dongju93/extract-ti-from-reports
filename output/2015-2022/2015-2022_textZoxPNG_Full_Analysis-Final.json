@@ -3,29 +3,15 @@
   "name": "2015-2022_textZoxPNG_Full_Analysis-Final",
   "description": "-",
   "references": [],
-  "samples": ["detail861817.html", "20141020021012.png", "www.pudn"],
-  "MD5": [],
-  "SHA1": [
-    "60415999bc82dc9c8f4425f90e41a98d514f76a2",
-    "7dd556415487cc192b647c9a7fde70896eeee7a2",
-    "40f9cde4ccd1b1b17a647c6fc72c5c5cd40d2b08",
-    "b51e419bf999332e695501c62c5b4aee5b070219"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.exploit-db.com/download/21371/,",
-    "http://www.pudn.com/downloads183/sourcecode/hack/exploit/detail861817.html.",
-    "http://127.0.0.1&docid=1bi0Ti1ZVr4bEM&imgurl=http"
-  ],
+  "samples": ["www.pudn", "20141020021012.png", "detail861817.html"],
   "weight": 0.0,
   "signatures": [
-    "60415999bc82dc9c8f4425f90e41a98d514f76a2",
-    "7dd556415487cc192b647c9a7fde70896eeee7a2",
     "40f9cde4ccd1b1b17a647c6fc72c5c5cd40d2b08",
+    "60415999bc82dc9c8f4425f90e41a98d514f76a2",
     "b51e419bf999332e695501c62c5b4aee5b070219",
+    "7dd556415487cc192b647c9a7fde70896eeee7a2",
+    "http://127.0.0.1&docid=1bi0Ti1ZVr4bEM&imgurl=http",
     "http://www.exploit-db.com/download/21371/,",
-    "http://www.pudn.com/downloads183/sourcecode/hack/exploit/detail861817.html.",
-    "http://127.0.0.1&docid=1bi0Ti1ZVr4bEM&imgurl=http"
+    "http://www.pudn.com/downloads183/sourcecode/hack/exploit/detail861817.html."
   ]
 }

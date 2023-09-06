@@ -4,20 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Win32.POWR",
-    "Raport.doc",
-    "UN.AA",
+    "reg.exe",
     "png.dll",
     "WIN32.PO",
-    "WRUN.AA",
-    "reg.exe",
-    "B.reg"
+    "Raport.doc",
+    "Win32.POWR",
+    "UN.AA",
+    "B.reg",
+    "WRUN.AA"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

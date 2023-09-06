@@ -4,20 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "zk0.io",
     "df.me",
     "gji.me",
-    "o.io",
-    "xih.me",
-    "f89.me",
+    "zk0.io",
     "459.io",
-    "bki.me"
+    "o.io",
+    "bki.me",
+    "xih.me",
+    "f89.me"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

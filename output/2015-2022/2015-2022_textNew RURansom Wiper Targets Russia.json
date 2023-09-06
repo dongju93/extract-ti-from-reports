@@ -4,32 +4,20 @@
   "description": "-",
   "references": [],
   "samples": [
-    "invasion.txt",
-    "Update.doc",
     "Ransom.MSIL",
-    "Обновление.doc",
+    "Update.doc",
     "russia.html",
-    "Полномасштабное_кибервторжение.txt"
+    "Полномасштабное_кибервторжение.txt",
+    "invasion.txt",
+    "Обновление.doc"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "979f9d1e019d9172af73428a1b3cbdff8aec8fdbe0f67cba48971a36f5001da9",
-    "610ec163e7b34abd5587616db8dac7e34b1aef68d0260510854d6b3912fb0008",
-    "696b6b9f43e53387f7cef14c5da9b6c02b6bf4095849885d36479f8996e7e473",
-    "107da216ad99b7c0171745fe7f826e51b27b1812d435b55c3ddb801e23137d8f",
-    "8f2ea18ed82085574888a03547a020b7009e05ae0ecbf4e9e0b8fe8502059aae",
-    "1f36898228197ee30c7b0ec0e48e804caa6edec33e3a91eeaf7aa2c5bbb9c6e0"
-  ],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "979f9d1e019d9172af73428a1b3cbdff8aec8fdbe0f67cba48971a36f5001da9",
-    "610ec163e7b34abd5587616db8dac7e34b1aef68d0260510854d6b3912fb0008",
     "696b6b9f43e53387f7cef14c5da9b6c02b6bf4095849885d36479f8996e7e473",
     "107da216ad99b7c0171745fe7f826e51b27b1812d435b55c3ddb801e23137d8f",
     "8f2ea18ed82085574888a03547a020b7009e05ae0ecbf4e9e0b8fe8502059aae",
+    "610ec163e7b34abd5587616db8dac7e34b1aef68d0260510854d6b3912fb0008",
+    "979f9d1e019d9172af73428a1b3cbdff8aec8fdbe0f67cba48971a36f5001da9",
     "1f36898228197ee30c7b0ec0e48e804caa6edec33e3a91eeaf7aa2c5bbb9c6e0"
   ]
 }

@@ -3,12 +3,7 @@
   "name": "2015-2022_textScarab_Russian",
   "description": "-",
   "references": [],
-  "samples": ["года.doc", "seclog32.dll", "hidsvc.dat", "year.doc"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
+  "samples": ["seclog32.dll", "year.doc", "hidsvc.dat", "года.doc"],
   "weight": 0.0,
   "signatures": []
 }

@@ -4,40 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ds7002.zip",
-    "america.rtf",
-    "vzvi.Seek",
-    "www.jmj",
     "ds7002.PDF",
-    "ds7002.lnk",
-    "ds7002.pdf",
-    "cyzfc.dat",
-    "vzvi.Read",
+    "Binary.lnk",
     "GetContentFeatures.DLNA",
-    "Binary.lnk"
+    "vzvi.Seek",
+    "ds7002.lnk",
+    "ds7002.zip",
+    "vzvi.Read",
+    "cyzfc.dat",
+    "ds7002.pdf",
+    "america.rtf",
+    "www.jmj"
   ],
-  "MD5": [
-    "16bbc967a8b6a365871a05c74a4f345b",
-    "658c6fe38f95995fa8dc8f6cfe41df7b",
-    "6ed0020b0851fb71d5b0076f4ee95f3c",
-    "2b13b244aafe1ecace61ea1119a1b2ee",
-    "3fccf531ff0ae6fedd7c586774b17a2d",
-    "313f4808aa2a2073005d219bc68971cd",
-    "f713d5df826c6051e65f995e57d6817d"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://www.jmj.com/personal/nauerthn_state_gov/*"],
   "weight": 0.0,
   "signatures": [
+    "3fccf531ff0ae6fedd7c586774b17a2d",
+    "f713d5df826c6051e65f995e57d6817d",
+    "2b13b244aafe1ecace61ea1119a1b2ee",
+    "313f4808aa2a2073005d219bc68971cd",
     "16bbc967a8b6a365871a05c74a4f345b",
     "658c6fe38f95995fa8dc8f6cfe41df7b",
     "6ed0020b0851fb71d5b0076f4ee95f3c",
-    "2b13b244aafe1ecace61ea1119a1b2ee",
-    "3fccf531ff0ae6fedd7c586774b17a2d",
-    "313f4808aa2a2073005d219bc68971cd",
-    "f713d5df826c6051e65f995e57d6817d",
     "https://www.jmj.com/personal/nauerthn_state_gov/*"
   ]
 }

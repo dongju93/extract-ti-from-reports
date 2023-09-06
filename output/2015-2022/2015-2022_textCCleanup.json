@@ -4,35 +4,22 @@
   "description": "-",
   "references": [],
   "samples": [
-    "soon.your",
-    "concern.html",
-    "ccleaner.exe",
     "CCleaner.pdb",
-    "CBkdr.dll",
+    "ccleaner.exe",
+    "concern.html",
     "CCLeaner.exe",
-    "CBkrdr.dll"
+    "CBkrdr.dll",
+    "soon.your",
+    "CBkdr.dll"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "36b36ee9515e0a60629d2c722b006b33e543dce1c8c2611053e0651a0bfdb2e9",
-    "6f7840c77f99049d788155c1351e1560b62b8ad18ad0e9adda8218b9f432f0a9",
-    "1a4a5123d7b2c534cb3e3168f7032cf9ebf38b9a2a97226d0fdb7933cf6030ff"
-  ],
-  "Registry_Entries": [
-    "HKLM\\SOFTWARE\\Piriform\\Agomo:TCID ",
-    "HKLM\\SOFTWARE\\Piriform\\Agomo:MUID ",
-    "HKLM\\SOFTWARE\\Piriform\\Agomo:NID "
-  ],
-  "URL": ["http://www.immunet.com/index"],
   "weight": 0.0,
   "signatures": [
+    "1a4a5123d7b2c534cb3e3168f7032cf9ebf38b9a2a97226d0fdb7933cf6030ff",
     "36b36ee9515e0a60629d2c722b006b33e543dce1c8c2611053e0651a0bfdb2e9",
     "6f7840c77f99049d788155c1351e1560b62b8ad18ad0e9adda8218b9f432f0a9",
-    "1a4a5123d7b2c534cb3e3168f7032cf9ebf38b9a2a97226d0fdb7933cf6030ff",
+    "HKLM\\SOFTWARE\\Piriform\\Agomo:NID ",
     "HKLM\\SOFTWARE\\Piriform\\Agomo:TCID ",
     "HKLM\\SOFTWARE\\Piriform\\Agomo:MUID ",
-    "HKLM\\SOFTWARE\\Piriform\\Agomo:NID ",
     "http://www.immunet.com/index"
   ]
 }

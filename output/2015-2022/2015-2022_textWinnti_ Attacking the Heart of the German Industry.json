@@ -3,12 +3,7 @@
   "name": "2015-2022_textWinnti_ Attacking the Heart of the German Industry",
   "description": "-",
   "references": [],
-  "samples": ["system.dat", "Tagesschau.de", "web.br"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://web.br.de/interaktiv/winnti/english/"],
+  "samples": ["Tagesschau.de", "web.br", "system.dat"],
   "weight": 0.0,
   "signatures": ["https://web.br.de/interaktiv/winnti/english/"]
 }

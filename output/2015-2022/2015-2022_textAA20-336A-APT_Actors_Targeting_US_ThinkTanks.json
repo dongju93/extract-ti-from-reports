@@ -3,15 +3,7 @@
   "name": "2015-2022_textAA20-336A-APT_Actors_Targeting_US_ThinkTanks",
   "description": "-",
   "references": [],
-  "samples": ["cisa.dhs", "cisa.gov"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://cisa.gov/tlp.",
-    "https://www.cyberscoop.com/european-think-tanks-hack-microsoft-fancy-bear-russia/"
-  ],
+  "samples": ["cisa.gov", "cisa.dhs"],
   "weight": 0.0,
   "signatures": [
     "https://cisa.gov/tlp.",

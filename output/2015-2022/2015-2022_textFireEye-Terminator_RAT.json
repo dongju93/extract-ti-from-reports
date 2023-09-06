@@ -4,34 +4,20 @@
   "description": "-",
   "references": [],
   "samples": [
-    "sss.exe",
-    "103.doc",
     "svchost_.exe",
-    "WinData.DLL",
-    "標案資料.doc"
+    "103.doc",
+    "標案資料.doc",
+    "sss.exe",
+    "WinData.DLL"
   ],
-  "MD5": [
-    "50d5e73ff8a0693ed2ee2d320af3b304",
-    "7B18E1F0CE0CB7EEA990859EF6DB810C",
-    "a130b2e578d82409021b3c9ceda657b7",
-    "bfc96694731f3cf39bcad6e0716c5746",
-    "93F51B957DA86BDE1B82934E73B10D9D",
-    "01da7213940a74c292d09ebe17f1bd01"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "50d5e73ff8a0693ed2ee2d320af3b304",
+    "bfc96694731f3cf39bcad6e0716c5746",
+    "01da7213940a74c292d09ebe17f1bd01",
     "7B18E1F0CE0CB7EEA990859EF6DB810C",
     "a130b2e578d82409021b3c9ceda657b7",
-    "bfc96694731f3cf39bcad6e0716c5746",
     "93F51B957DA86BDE1B82934E73B10D9D",
-    "01da7213940a74c292d09ebe17f1bd01",
+    "50d5e73ff8a0693ed2ee2d320af3b304",
     "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell"
   ]
 }

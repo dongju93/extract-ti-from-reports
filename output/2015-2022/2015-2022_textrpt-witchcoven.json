@@ -4,28 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
-    "uniqueness.pdf",
+    "panopticlick.eff",
     "exploit.The",
     "environments.If",
-    "panopticlick.eff",
-    "SP.PT"
-  ],
-  "MD5": ["634438A50AE1990C4F8636801C410460"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
-    "https://panopticlick.eff.org/index.php)",
-    "http://www.pinlady.net/PluginDetect/",
-    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"
+    "SP.PT",
+    "uniqueness.pdf"
   ],
   "weight": 0.0,
   "signatures": [
     "634438A50AE1990C4F8636801C410460",
-    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
     "https://panopticlick.eff.org/index.php)",
     "http://www.pinlady.net/PluginDetect/",
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
     "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"
   ]
 }

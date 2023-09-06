@@ -4,20 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [
-    "30e4decd68808cb607c2aba4aa69fb5fdb598c64",
-    "05298a48e4ca6d9778b32259c8ae74527be33815",
-    "176e92e7cfc0e57be83e901c36ba17b255ba0b1b"
-  ],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": ["https://www."],
   "weight": 0.0,
   "signatures": [
+    "176e92e7cfc0e57be83e901c36ba17b255ba0b1b",
     "30e4decd68808cb607c2aba4aa69fb5fdb598c64",
     "05298a48e4ca6d9778b32259c8ae74527be33815",
-    "176e92e7cfc0e57be83e901c36ba17b255ba0b1b",
     "https://www."
   ]
 }

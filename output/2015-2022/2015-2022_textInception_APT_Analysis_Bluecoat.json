@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["Rg.vbs", "dropped.dll", "wmiprvse.dll"],
-  "MD5": ["4a4874fa5217a8523bf4d1954efb26ef"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-"
-  ],
   "weight": 0.0,
   "signatures": [
     "4a4874fa5217a8523bf4d1954efb26ef",

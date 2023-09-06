@@ -4,23 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Ltray.exe",
-    "messages.pps",
     "aYagent.aye",
     "dmaUp3.exe",
+    "messages.pps",
     "rsmgrsvr.exe",
-    "agent.xwge",
     "ndIsKpro.sYs",
+    "nVcagent.npc",
     "uiWinmgr.exe",
-    "nVcagent.npc"
-  ],
-  "MD5": ["3961caB50c32e8f32fe45836B9715ce5"],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert",
-    "http://<c2domaIn>/bin/read_i.php"
+    "agent.xwge",
+    "Ltray.exe"
   ],
   "weight": 0.0,
   "signatures": [

@@ -4,28 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
-    "hkcmd.exe",
-    "tpframe.exe",
-    "searchresults.aspx",
     "slides.pdf",
-    "analysis.pdf"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": ["HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\ "],
-  "URL": [
-    "https://media.blackhat.com/bh-eu-10/presentations/Dereszowski/BlackHat-EU-2010-",
-    "https://www.mysonicwall.com/",
-    "http://labs.alienvault.com/labs/index.php/2012/alienvault-research-used-as-lure-in-targeted-",
-    "http://www.f-secure.com/v-descs/backdoor_"
+    "analysis.pdf",
+    "searchresults.aspx",
+    "tpframe.exe",
+    "hkcmd.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\ ",
     "https://media.blackhat.com/bh-eu-10/presentations/Dereszowski/BlackHat-EU-2010-",
-    "https://www.mysonicwall.com/",
+    "http://www.f-secure.com/v-descs/backdoor_",
     "http://labs.alienvault.com/labs/index.php/2012/alienvault-research-used-as-lure-in-targeted-",
-    "http://www.f-secure.com/v-descs/backdoor_"
+    "https://www.mysonicwall.com/"
   ]
 }

@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["33.xx"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
     "HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default"

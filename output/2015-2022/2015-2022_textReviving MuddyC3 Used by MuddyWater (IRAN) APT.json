@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": [],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/"
-  ],
   "weight": 0.0,
   "signatures": [
     "https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/"

@@ -4,35 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "libXbleach.so",
-    "Ransomware.Win",
-    "unc1945.html",
     "0.so",
+    "libXbleach.so",
     "unix.so",
-    "librpmio.so",
     "auth.log",
     "ROLLCOAST.MVX",
-    "EVILSUN.MVX"
+    "EVILSUN.MVX",
+    "unc1945.html",
+    "librpmio.so",
+    "Ransomware.Win"
   ],
-  "MD5": [
-    "d505533ae75f89f98554765aaf2a330a",
-    "0845835e18a3ed4057498250d30a11b1",
-    "2eff2273d423a7ae6c68e3ddd96604bc",
-    "d5b9a1845152d8ad2b91af044ff16d0b",
-    "abaf1d04982449e0f7ee8a34577fe8af",
-    "6983f7001de10f4d19fc2d794c3eb534"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "d505533ae75f89f98554765aaf2a330a",
     "0845835e18a3ed4057498250d30a11b1",
-    "2eff2273d423a7ae6c68e3ddd96604bc",
     "d5b9a1845152d8ad2b91af044ff16d0b",
-    "abaf1d04982449e0f7ee8a34577fe8af",
-    "6983f7001de10f4d19fc2d794c3eb534"
+    "2eff2273d423a7ae6c68e3ddd96604bc",
+    "d505533ae75f89f98554765aaf2a330a",
+    "6983f7001de10f4d19fc2d794c3eb534",
+    "abaf1d04982449e0f7ee8a34577fe8af"
   ]
 }

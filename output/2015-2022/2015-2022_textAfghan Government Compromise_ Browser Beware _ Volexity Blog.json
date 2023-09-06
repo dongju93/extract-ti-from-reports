@@ -3,20 +3,11 @@
   "name": "2015-2022_textAfghan Government Compromise_ Browser Beware _ Volexity Blog",
   "description": "-",
   "references": [],
-  "samples": ["president.gov", "afghanistan.af", "Jquery.js"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://cdn.afghanistan.af/scripts/jquery-1.4.2.min.js",
-    "http://www.volexity.com/blog/?p=134",
-    "http://cdn.afghanistan.af/scripts/gop-script.js"
-  ],
+  "samples": ["afghanistan.af", "Jquery.js", "president.gov"],
   "weight": 0.0,
   "signatures": [
-    "http://cdn.afghanistan.af/scripts/jquery-1.4.2.min.js",
     "http://www.volexity.com/blog/?p=134",
-    "http://cdn.afghanistan.af/scripts/gop-script.js"
+    "http://cdn.afghanistan.af/scripts/gop-script.js",
+    "http://cdn.afghanistan.af/scripts/jquery-1.4.2.min.js"
   ]
 }

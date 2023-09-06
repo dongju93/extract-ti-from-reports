@@ -4,13 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["Customize.cfm", "Customize.jsp"],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-with-notepad.html)"
-  ],
   "weight": 0.0,
   "signatures": [
     "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-with-notepad.html)"

@@ -4,34 +4,20 @@
   "description": "-",
   "references": [],
   "samples": [
-    "broadcastpopuer.ddns",
-    "myyahoo.ddns",
+    "broadcastnews.ddns",
     "activatecodeoption.ddns",
-    "broadcastnews.ddns"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "https://sites.google.com/",
-    "https://s.certfa.com/1ulIxk",
-    "https://screenshots.firefox.com/",
-    "https://support.google.com/a/answer/2640542?hl=en",
-    "https://s.certfa.com/OgQUSC",
-    "https://s.certfa.com/q1514c",
-    "https://s.certfa.com/ur93p2",
-    "https://s.certfa.com/eNnnag"
+    "myyahoo.ddns",
+    "broadcastpopuer.ddns"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://sites.google.com/",
-    "https://s.certfa.com/1ulIxk",
-    "https://screenshots.firefox.com/",
-    "https://support.google.com/a/answer/2640542?hl=en",
-    "https://s.certfa.com/OgQUSC",
-    "https://s.certfa.com/q1514c",
     "https://s.certfa.com/ur93p2",
-    "https://s.certfa.com/eNnnag"
+    "https://sites.google.com/",
+    "https://s.certfa.com/OgQUSC",
+    "https://s.certfa.com/1ulIxk",
+    "https://s.certfa.com/q1514c",
+    "https://s.certfa.com/eNnnag",
+    "https://screenshots.firefox.com/",
+    "https://support.google.com/a/answer/2640542?hl=en"
   ]
 }

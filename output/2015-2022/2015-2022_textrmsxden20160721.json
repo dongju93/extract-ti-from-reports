@@ -4,17 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
-    "tax.pdf",
+    "Adobe.pdf",
     "control.pdf",
     "Palestine.pdf",
-    "Adobe.pdf",
-    "Chaser.pdf"
+    "Chaser.pdf",
+    "tax.pdf"
   ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": []
 }

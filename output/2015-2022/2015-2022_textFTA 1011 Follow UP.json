@@ -4,30 +4,22 @@
   "description": "-",
   "references": [],
   "samples": [
+    "netsat.exe",
+    "ext.drv",
+    "netui3.dll",
+    "netwn.drv",
+    "netwi.drv",
+    "netu3.dll",
+    "setup35.exe",
     "winmgt.dll",
     "file1.txt",
     "act.te",
     "Netsat.exe",
-    "interesting.txt",
-    "netu3.dll",
-    "netwn.drv",
-    "netsat.exe",
-    "setup35.exe",
-    "netwi.drv",
-    "netui3.dll",
-    "ext.drv"
+    "interesting.txt"
   ],
-  "MD5": [
-    "68aed7b1f171b928913780d5b21f7617",
-    "eb8399483b55f416e48a320d68597d72"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "68aed7b1f171b928913780d5b21f7617",
-    "eb8399483b55f416e48a320d68597d72"
+    "eb8399483b55f416e48a320d68597d72",
+    "68aed7b1f171b928913780d5b21f7617"
   ]
 }

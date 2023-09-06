@@ -4,32 +4,20 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Windowsupdataney.dll",
-    "TODAYNIC.COM",
-    "DOT.BAT",
-    "0158.db",
-    "WINDOWSUPDATANEY.DLL",
-    "Trojan.BAT",
     "TravNet.qfr",
+    "Windowsupdataney.dll",
+    "DOT.BAT",
+    "TODAYNIC.COM",
+    "0158.db",
+    "ashkarilanmaqta.doc",
     "Agent.lifr",
-    "ashkarilanmaqta.doc"
+    "WINDOWSUPDATANEY.DLL",
+    "Trojan.BAT"
   ],
-  "MD5": [
-    "c13c79ad874215cfec8d318468e3d116",
-    "b2385963d3afece16bd7478b4cf290ce"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [
-    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost",
-    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata\\Parameters",
-    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata"
-  ],
-  "URL": [],
   "weight": 0.0,
   "signatures": [
-    "c13c79ad874215cfec8d318468e3d116",
     "b2385963d3afece16bd7478b4cf290ce",
+    "c13c79ad874215cfec8d318468e3d116",
     "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost",
     "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata\\Parameters",
     "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata"

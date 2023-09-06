@@ -4,15 +4,6 @@
   "description": "-",
   "references": [],
   "samples": ["resume.txt"],
-  "MD5": ["b08dff2a95426a0e32731ef337eab542"],
-  "SHA1": ["c53d785917c1da4d40cd9fac1455d096faa4b672"],
-  "SHA256": [
-    "ebae23be2e24139245cc32ceda4b05c77ba393442482109cc69a6cecc6ad1393"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "https://blog.telsy.com/apt34-aka-oilrig-attacks-lebanon-government-entities-with-maildropper-implant/"
-  ],
   "weight": 0.0,
   "signatures": [
     "b08dff2a95426a0e32731ef337eab542",

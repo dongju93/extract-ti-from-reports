@@ -4,46 +4,29 @@
   "description": "-",
   "references": [],
   "samples": [
-    "time.exe",
-    "upload.rar",
-    "WmiApCom.bat",
-    "upload.bat",
     "新聞稿及公佈.doc",
-    "動.doc",
+    "WmiApCom.bat",
     "period.txt",
-    "silent.txt",
+    "time.exe",
+    "upload.bat",
     "download.rar",
-    "我們的異象.doc",
-    "download.txt"
-  ],
-  "MD5": [
-    "ec19ed7cddf92984906325da59f75351",
-    "79b68cdd0044edd4fbf8067b22878644",
-    "b9208a5b0504cb2283b1144fc455eaaa",
-    "d76261ba3b624933a6ebb5dd73758db4",
-    "6495b384748188188d09e9d5a0c401a4",
-    "0beb957923df2c885d29a9c1743dd94b"
-  ],
-  "SHA1": [],
-  "SHA256": [],
-  "Registry_Entries": [],
-  "URL": [
-    "http://www.scmp.com/news/hong-kong/education-community/article/1862423/surprise-move-chair-university-",
-    "https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf",
-    "http://www.ejinsight.com/20150831-hku-concern-group-raises-proxy-fears-in-key-vote/.",
-    "http://sinosphere.blogs.nytimes.com/2014/06/18/pro-"
+    "silent.txt",
+    "download.txt",
+    "upload.rar",
+    "動.doc",
+    "我們的異象.doc"
   ],
   "weight": 0.0,
   "signatures": [
-    "ec19ed7cddf92984906325da59f75351",
-    "79b68cdd0044edd4fbf8067b22878644",
     "b9208a5b0504cb2283b1144fc455eaaa",
+    "79b68cdd0044edd4fbf8067b22878644",
     "d76261ba3b624933a6ebb5dd73758db4",
-    "6495b384748188188d09e9d5a0c401a4",
     "0beb957923df2c885d29a9c1743dd94b",
+    "ec19ed7cddf92984906325da59f75351",
+    "6495b384748188188d09e9d5a0c401a4",
     "http://www.scmp.com/news/hong-kong/education-community/article/1862423/surprise-move-chair-university-",
+    "http://sinosphere.blogs.nytimes.com/2014/06/18/pro-",
     "https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf",
-    "http://www.ejinsight.com/20150831-hku-concern-group-raises-proxy-fears-in-key-vote/.",
-    "http://sinosphere.blogs.nytimes.com/2014/06/18/pro-"
+    "http://www.ejinsight.com/20150831-hku-concern-group-raises-proxy-fears-in-key-vote/."
   ]
 }

@@ -4,48 +4,30 @@
   "description": "-",
   "references": [],
   "samples": [
-    "swf.swf",
-    "vbs.vbs",
+    "Trojan.VBS",
     "Trojan.SWF",
-    "EVSSL.exe",
+    "smartscreen.exe",
     "CVE201815982.AK",
     "Cfoepcyof.dll",
-    "Trojan.VBS",
-    "foepcyof.dll",
-    "CVE20188174.AMT",
     "Afoepcyof.dll",
-    "smartscreen.exe"
-  ],
-  "MD5": [],
-  "SHA1": [],
-  "SHA256": [
-    "7f505a1064ea09daba577aa553efbf3385c890ab5aac2ace6ef3e927f480fb87",
-    "914eb64b93cbb631c710ef6cbd0f9cedf93415be421ccc6e285b288b87f3a246",
-    "c1b67a30119107365c4a311479794e07afb631980a649749501cb9f511fb0ab4",
-    "14842334ac730f417f2730dec9898491575341da3721584a49d44fbf02f1fa6a",
-    "db1e379c66c41debf58062e0865527a8a5bd7b37b5f43e06c80540a47ac7f5a4",
-    "a9ea7e952ce38bf8bc14114325ca2a1bfed16f63798028565a669808b8b728dc",
-    "b1d30ee17a4d1fae263ea0ca696765d2f48b727c9953009c079ed2cb3ee15ab9",
-    "01bf58c650b6ba30733c14026fcff4ecfc24becdd05637a84ef2a7e86aff3fe0",
-    "96e91a1f656fb70339f8f4e383e7f967d25c1a414f436ddffc692518ace579ad",
-    "ed7b5c16cb5c4f56b3ded279688b693ec52389cacc0b81e940b0591b7f68aa84"
-  ],
-  "Registry_Entries": [],
-  "URL": [
-    "https://archive.torproject.org/tor-package-archive/torbrowser/8.0.8/tor-"
+    "CVE20188174.AMT",
+    "EVSSL.exe",
+    "vbs.vbs",
+    "foepcyof.dll",
+    "swf.swf"
   ],
   "weight": 0.0,
   "signatures": [
+    "c1b67a30119107365c4a311479794e07afb631980a649749501cb9f511fb0ab4",
+    "96e91a1f656fb70339f8f4e383e7f967d25c1a414f436ddffc692518ace579ad",
+    "01bf58c650b6ba30733c14026fcff4ecfc24becdd05637a84ef2a7e86aff3fe0",
+    "ed7b5c16cb5c4f56b3ded279688b693ec52389cacc0b81e940b0591b7f68aa84",
     "7f505a1064ea09daba577aa553efbf3385c890ab5aac2ace6ef3e927f480fb87",
     "914eb64b93cbb631c710ef6cbd0f9cedf93415be421ccc6e285b288b87f3a246",
-    "c1b67a30119107365c4a311479794e07afb631980a649749501cb9f511fb0ab4",
     "14842334ac730f417f2730dec9898491575341da3721584a49d44fbf02f1fa6a",
-    "db1e379c66c41debf58062e0865527a8a5bd7b37b5f43e06c80540a47ac7f5a4",
     "a9ea7e952ce38bf8bc14114325ca2a1bfed16f63798028565a669808b8b728dc",
     "b1d30ee17a4d1fae263ea0ca696765d2f48b727c9953009c079ed2cb3ee15ab9",
-    "01bf58c650b6ba30733c14026fcff4ecfc24becdd05637a84ef2a7e86aff3fe0",
-    "96e91a1f656fb70339f8f4e383e7f967d25c1a414f436ddffc692518ace579ad",
-    "ed7b5c16cb5c4f56b3ded279688b693ec52389cacc0b81e940b0591b7f68aa84",
+    "db1e379c66c41debf58062e0865527a8a5bd7b37b5f43e06c80540a47ac7f5a4",
     "https://archive.torproject.org/tor-package-archive/torbrowser/8.0.8/tor-"
   ]
 }
