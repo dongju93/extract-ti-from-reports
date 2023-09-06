@@ -61,10 +61,13 @@ whitelist_urls = [
 ]
 
 whitelist_file_names = [
+    # URL
     ".com",
     ".org",
     ".www",
     ".net",
+    ".gov",
+    ".io",
     # 국가코드
     ".jp",
     ".cn",
@@ -73,4 +76,5 @@ whitelist_file_names = [
     ".py",
     ".in",
     ".it"
+    ".kr"
 ]
