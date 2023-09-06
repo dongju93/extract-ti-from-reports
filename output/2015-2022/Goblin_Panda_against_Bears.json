@@ -1,0 +1,18 @@
+{
+  "rule_id": 701,
+  "name": "Goblin_Panda_against_Bears",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Sd123.eicp",
+    "sa.gicp",
+    "sd123.eicp",
+    "ReportGlobalThreatIntelligence.pdf",
+    "kmbk8.hicp"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.nccgroup.trust/uk/about-us/newsroom-and-",
+    "https://medium.com/@Sebdraven/gobelin-panda-against-the-bears-1f462d00e3a4"
+  ]
+}

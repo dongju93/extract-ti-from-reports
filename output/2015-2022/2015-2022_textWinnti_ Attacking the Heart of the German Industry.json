@@ -1,9 +1,0 @@
-{
-  "rule_id": 1071,
-  "name": "2015-2022_textWinnti_ Attacking the Heart of the German Industry",
-  "description": "-",
-  "references": [],
-  "samples": ["Tagesschau.de", "web.br", "system.dat"],
-  "weight": 0.0,
-  "signatures": ["https://web.br.de/interaktiv/winnti/english/"]
-}

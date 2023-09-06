@@ -1,0 +1,18 @@
+{
+  "rule_id": 572,
+  "name": "blog.trendmicro.com-Lazarus Continues Heists Mounts Attacks on Financial Organizations in Latin America",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ROptimizer.dll",
+    "rOptimizer.dll",
+    "BINLODRCONF.ZNFJ",
+    "Auditcred.dll",
+    "AuditCred.dll",
+    "BINLODR.ZNFJ",
+    "Roptimizer.dll",
+    "FileTokenBroker.dll"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

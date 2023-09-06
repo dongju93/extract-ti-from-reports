@@ -1,0 +1,36 @@
+{
+  "rule_id": 198,
+  "name": "blog.vincss.net-RE020 ElephantRAT Kunming version our latest discovered RAT of Panda and the similarities with recent",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "UpdatePackageSilence.exe",
+    "SbieMsg.dat",
+    "Ntdll.dll",
+    "dbghelp.dll",
+    "SbieMsg.dll",
+    "Clb.dll",
+    "LBTServ.dll",
+    "SbieIni.dat",
+    "extrac32.exe",
+    "Panda.html",
+    "SbieDll.dll",
+    "SandboxieBITS.exe",
+    "xxx.data",
+    "VVSup.exe",
+    "clb.dll",
+    "mfeesp.pdb",
+    "SuperShellC_x86.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "0603145EFAD6A63F52B6D5161CC5E5AE",
+    "054E07CB00E9B21786E2815E9B43CDA9",
+    "06AF27C0F47837FB54490A8FE8332E04",
+    "E45A5D9B03CFBE7EB2E90181756FDF0DD690C00C",
+    "5732126743640525680C1F9460E52D361ACF6BB0",
+    "321045519CC3A50CE7948C33C6BBC837B063CD878F8C2CE67DC8DE0825515E10",
+    "E76567A61F905A2825262D5F653416EF88728371A0A2FE75DDC53AAD100E6F46",
+    "8BF3DF654459B1B8F553AD9A0770058FD2C31262F38F2E8BA12943F813200A4D"
+  ]
+}

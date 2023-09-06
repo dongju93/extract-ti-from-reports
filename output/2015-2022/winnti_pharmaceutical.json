@@ -1,0 +1,21 @@
+{
+  "rule_id": 556,
+  "name": "winnti_pharmaceutical",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Winnti.gf",
+    "Winnti.gy",
+    "w64.dll",
+    "ksadobe.dat",
+    "Winnti.ai",
+    "tmpCCD.tmp",
+    "ServiceAdobe.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8e61219b18d36748ce956099277cc29b",
+    "ac9b247691b1036a1cdb4aaf37bea97f",
+    "5979cf5018c03be2524b87b7dda64a1a"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rule_id": 10,
+  "name": "an-in-depth-look-at-how-pawn-storms-java-zero-day-was-used",
+  "description": "-",
+  "references": ["CVE-2015-2590"],
+  "samples": [
+    "0.dll",
+    "Cormac.mcr",
+    "z.htm",
+    "cormac.mcr",
+    "index.htm",
+    "vhgg5hkvn25.exe",
+    "a.htm",
+    "JNLPER.HAQ",
+    "RunDll32.exe",
+    "LJ9.zip",
+    "DLOADR.EFD",
+    "bit.ly",
+    "DROPPR.CXC",
+    "rundll32.exe",
+    "eR.pdf",
+    "crossdomain.xml",
+    "init.jnlp",
+    "MFS.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

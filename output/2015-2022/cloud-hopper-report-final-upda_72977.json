@@ -1,0 +1,41 @@
+{
+  "rule_id": 997,
+  "name": "cloud-hopper-report-final-upda_72977",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mar2016.pdf",
+    "t.vbs",
+    "mjbbr.html",
+    "tcping.exe",
+    "個人番号の提供について.exe",
+    "国史教科書の作成.exe",
+    "A4_1025.exe",
+    "1025.exe",
+    "number.exe",
+    "textbook.exe",
+    "tokyo.ac",
+    "20170223_001224.html",
+    "middle.html",
+    "93d6.html",
+    "www.chuo",
+    "ivy.pdf",
+    "5122014519132358461949.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://pwc.blogs.com/cyber_",
+    "http://www.meiji.ac.jp/isc/information/2016/6t5h7p00000mjbbr.html",
+    "http://blog.jpcert.or.jp/2017/04/redleaves---malware-",
+    "http://www.chuo-u.ac.jp/research/rd/grant/news/2017/01/51783/",
+    "https://www.justice.gov/iso/opa/resources/5122014519132358461949.pdf",
+    "https://www.pwccn.com/en/migration/pdf/govt-work-review-mar2016.pdf",
+    "https://www.dhs.gov/defense-industrial-base-sector",
+    "http://blog.jpcert.or.",
+    "http://csirt.ninja/?p=1103",
+    "http://www.pwccn.com/en/migration/pdf/prosperity-masses-2020.pdf",
+    "https://security.googleblog.com/2011/08/update-on-attempted-man-in-middle.html",
+    "http://thediplomat.com/2016/04/japans-achilles-heel-cybersecurity/",
+    "https://www.slideshare.net/CrowdStrike/crowd-casts-"
+  ]
+}

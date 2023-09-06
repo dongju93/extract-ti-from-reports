@@ -1,0 +1,38 @@
+{
+  "rule_id": 158,
+  "name": "Project_Cobra_Analysis",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "C_56743.NLS",
+    "kmsvc.dll",
+    "Agent.BTZ",
+    "ipvpn.dll",
+    "www.bing",
+    "bootmisc.sdi",
+    "paris.fr",
+    "msimghlp.dll",
+    "coff.ax",
+    "miniport.dat",
+    "ncodc.ax",
+    "getcert.rs",
+    "soheylistore.ir",
+    "MUTEX.zRX",
+    "asmcerts.rs",
+    "vndkrmn.dic",
+    "set.php",
+    "srsvc.dll",
+    "comments.php",
+    "qavsrc.dat",
+    "edit.php",
+    "system.pdb",
+    "msximl.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "cb1b68d9971c2353c2d6a8119c49b51f",
+    "554450c1ecb925693fedbb9e56702646",
+    "e6d1dcc6c2601e592f2b03f35b06fa8f",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Service\\)."
+  ]
+}

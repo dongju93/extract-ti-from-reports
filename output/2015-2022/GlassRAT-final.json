@@ -1,0 +1,34 @@
+{
+  "rule_id": 21,
+  "name": "GlassRAT-final",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "off.dat",
+    "ECAT.pdf",
+    "updatef.dll",
+    "charge.rsa",
+    "campaign.pdf",
+    "Flash.exe",
+    "3.html",
+    "flash.exe",
+    "PlugX.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "59b404076e1af7d0faae4a62fa41b69f",
+    "5c17395731ec666ad0056d3c88e99c4d",
+    "e98027f502f5acbcb5eda17e67a21cdc",
+    "30d26aebcee21e4811ff3a44a7198a5c519843a24f334880384a7158e07ae399",
+    "89317809806ef90bb619a4163562f7db3ca70768db706a4ea483fdb370a79ede",
+    "91279f578d2836ea679ae9578068cb70810fb781faf6d7c03c3212aa509f3e7b",
+    "2ee38b14a570f693c093a53c53c6d10234fb11cfb7318022190cdb8c96d73b35",
+    "421f4c83898ff3ae9b2a94621140ef770888a8a0914b163cdae4690433173899",
+    "c11faf7290299bb13925e46d040ed59ab3ca8938eab1f171aa452603602155cb",
+    "HKLM\\System\\CurrentControlSet\\Services c:\\programdata\\application data\\updatef.dll ",
+    "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run   Update ",
+    "http://charge.rsa.com/wp-content/uploads/2015/09/Finding-The-R.A.T-With-ECAT.pdf",
+    "https://www.blackhat.com/docs/asia-14/materials/Haruyama/Asia-14-Haruyama-I-Know-You-Want-Me-Unplugging-PlugX.pdf",
+    "http://pastebin.com/B2jNMrM8"
+  ]
+}

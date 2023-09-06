@@ -1,0 +1,31 @@
+{
+  "rule_id": 232,
+  "name": "regin-analysis",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "refs.js",
+    "ApplicationLog.dat",
+    "adpu160.sys",
+    "SystemLog.evt",
+    "SecurityLog.evt",
+    "PINTLGBP.IMD",
+    "PINTLGBPS.IMD",
+    "winhttpc.dll",
+    "svcstat.exe",
+    "pintlgbs.imd",
+    "f.tmp",
+    "SystemLog.Evt",
+    "svcsstat.exe",
+    "msdcsvc.dat",
+    "SecurityAudit.Evt",
+    "PINTLGBS.IMD",
+    "pintlgbp.imd"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\RestoreList\\VideoBase",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4F20E605-9452-4787-B793-",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\RestoreList\\VideoBase (possibly only in version "
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "rule_id": 721,
+  "name": "rpt-witchcoven",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "panopticlick.eff",
+    "exploit.The",
+    "environments.If",
+    "SP.PT",
+    "uniqueness.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "634438A50AE1990C4F8636801C410460",
+    "https://panopticlick.eff.org/index.php)",
+    "http://www.pinlady.net/PluginDetect/",
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
+    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"
+  ]
+}

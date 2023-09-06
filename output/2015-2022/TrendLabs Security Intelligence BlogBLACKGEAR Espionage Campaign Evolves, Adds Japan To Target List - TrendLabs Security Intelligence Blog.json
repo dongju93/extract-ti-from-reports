@@ -1,0 +1,9 @@
+{
+  "rule_id": 734,
+  "name": "TrendLabs Security Intelligence BlogBLACKGEAR Espionage Campaign Evolves, Adds Japan To Target List - TrendLabs Security Intelligence Blog",
+  "description": "-",
+  "references": ["CVE-2016-3298"],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,0 +1,30 @@
+{
+  "rule_id": 937,
+  "name": "FIN7.5_ the infamous cybercrime rig “FIN7” continues its activities",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Errors.bat",
+    "toekie.ddns",
+    "byzNne17.exe",
+    "image.png",
+    "mses.exe",
+    "c9FGG17.exe",
+    "testing.html",
+    "server.mtcc",
+    "zEsb10.exe",
+    "byzNne10.exe",
+    "c9FGG10.exe",
+    "sctasks.exe",
+    "msutil.exe",
+    "Errors.txt",
+    "zEsb17.exe",
+    "noreply377.ddns",
+    "mswmex44.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.synack.com/company",
+    "https://cloud.google.com/cdn/"
+  ]
+}

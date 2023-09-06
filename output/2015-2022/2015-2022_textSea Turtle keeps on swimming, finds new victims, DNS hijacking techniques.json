@@ -1,9 +1,0 @@
-{
-  "rule_id": 1268,
-  "name": "2015-2022_textSea Turtle keeps on swimming, finds new victims, DNS hijacking techniques",
-  "description": "-",
-  "references": [],
-  "samples": ["swimming.html", "ncsc.gov"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,0 +1,16 @@
+{
+  "rule_id": 909,
+  "name": "BlackEnergy3_WP_012716_1c",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "packager.dll",
+    "Packet.dll",
+    "MALICIOUS.XLS",
+    "mal.vbs",
+    "KC074913.php",
+    "runndll32.exe"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

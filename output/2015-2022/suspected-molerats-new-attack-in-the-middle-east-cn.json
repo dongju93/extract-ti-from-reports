@@ -1,0 +1,24 @@
+{
+  "rule_id": 111,
+  "name": "suspected-molerats-new-attack-in-the-middle-east-cn",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "spring.html",
+    "ivy.html",
+    "WHITE.pdf",
+    "Ihelp.exe",
+    "delphi.html",
+    "wmsetup.vbs",
+    "ihelp.exe",
+    "White.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "063a50e5e4b4d17a23ac8c8b33501719",
+    "46173adc26721fb54f6e1a1091a892d4",
+    "http://www.timeso",
+    "https://middle-east-online.com/en/cyber-war-gaza-hackers-deface-israel-",
+    "https://aptmap.netlify.com/"
+  ]
+}

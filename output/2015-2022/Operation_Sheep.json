@@ -1,0 +1,20 @@
+{
+  "rule_id": 647,
+  "name": "Operation_Sheep",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "kldwby.mi",
+    "com.hd",
+    "syezon.lab",
+    "300757227.html",
+    "com.hzfy",
+    "lixxix.hall",
+    "y.tv"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.buzzfeednews.com/article/craigsilverman/android-apps-cheetah-mobile-kika-",
+    "https://www.prnewswire.com/news-releases/cheetah-mobile-responds-to-kochavas-"
+  ]
+}

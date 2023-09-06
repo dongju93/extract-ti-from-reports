@@ -1,0 +1,39 @@
+{
+  "rule_id": 3,
+  "name": "wp-drilling-deep-a-look-at-cyberattacks-on-the-oil-and-gas-industry",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "TUTANOTA.DE",
+    "HiddenApp.SAB",
+    "rgdoor.zifb",
+    "vulnerability.html",
+    "www.us",
+    "samref.ga",
+    "mail.dyn",
+    "Androrat.AXM",
+    "cert.gov",
+    "corp.ga",
+    "intl.ga",
+    "Refud.me",
+    "sipchem.ga",
+    "ngaaksa.ga",
+    "alsalam.aero",
+    "RGDOOR.ZIFB",
+    "conformity.html",
+    "Mudwater.HRX",
+    "aramcojobs.ga",
+    "virus.html",
+    "PROTONMAIL.COM"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://blog.",
+    "https://www.",
+    "https://www.scmagazineuk.com/muddywater-fin8-platinum-threat-actors-back-action/",
+    "https://www.trendmicro.",
+    "https://kb.pulsesecure.net/articles/",
+    "https://phys.org/news/2012-11-chevron-stuxnet-virus.html.",
+    "https://www.energyvoice.com/oilandgas/188750/petrofac-confirms-system-security-breach/."
+  ]
+}

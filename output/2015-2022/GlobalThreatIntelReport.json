@@ -1,0 +1,24 @@
+{
+  "rule_id": 503,
+  "name": "GlobalThreatIntelReport",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "hijacked.html",
+    "sea.sy",
+    "times.html",
+    "Win64.exe",
+    "todaynews.dns"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://bits.blogs.nytimes.",
+    "http://instagram.com/official_sea2",
+    "http://vk.com/syrianelectronicarmy",
+    "http://www.ibtimes.com/",
+    "https://ello.co/syrianelectronicarmy",
+    "http://www.techworm.",
+    "http://sea.sy/rss/en",
+    "https://www.pinterest.com/officialsea/"
+  ]
+}

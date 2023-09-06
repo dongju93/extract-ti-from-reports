@@ -1,9 +1,0 @@
-{
-  "rule_id": 893,
-  "name": "2015-2022_textPrototype Nation_ The Chinese Cybercriminal Underground in 2015 - Security News - Trend Micro USA",
-  "description": "-",
-  "references": [],
-  "samples": ["KASIDET.XXRO", "XORDDOS.AP", "WORMHOLE.HRXA"],
-  "weight": 0.0,
-  "signatures": []
-}

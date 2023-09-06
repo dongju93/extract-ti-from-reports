@@ -1,0 +1,9 @@
+{
+  "rule_id": 1014,
+  "name": "the-state-of-the-esilelotus-blossom-campaign",
+  "description": "-",
+  "references": ["CVE-2016-6662", "CVE-2016-2776"],
+  "samples": ["page_02030405.html"],
+  "weight": 0.0,
+  "signatures": []
+}

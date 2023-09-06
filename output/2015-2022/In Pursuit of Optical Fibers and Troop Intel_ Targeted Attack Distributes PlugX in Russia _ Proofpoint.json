@@ -1,0 +1,24 @@
+{
+  "rule_id": 1183,
+  "name": "In Pursuit of Optical Fibers and Troop Intel_ Targeted Attack Distributes PlugX in Russia _ Proofpoint",
+  "description": "-",
+  "references": [],
+  "samples": ["229690166.html", "mplayer.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "http://tvzvezda.ru/news/forces/content/201508191459-88tq.htm)",
+    "http://blog.jpcert.or.jp/2015/01/analysis-of-a-r-ff05.html)",
+    "http://proofpoint.com/solutions/products/targeted-attack-protection)",
+    "https://www.sendmail.com/cfusion/CFIDE/smi/support/)",
+    "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/kaspersky-the-net-",
+    "http://kasperskycontenthub.com/wp-",
+    "http://investors.proofpoint.com/)",
+    "https://code.google.com/p/darkstrat/)",
+    "http://proofpoint.com/us/customer-stories)",
+    "http://support.proofpointessentials.com/)",
+    "https://support.proofpoint.com/)",
+    "http://inosmi.ru/russia/20150818/229690166.html).",
+    "http://nexgate.com)",
+    "http://tvzvezda.ru/news/forces/content/201508191459-"
+  ]
+}

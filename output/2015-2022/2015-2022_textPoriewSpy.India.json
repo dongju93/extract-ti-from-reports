@@ -1,9 +1,0 @@
-{
-  "rule_id": 1081,
-  "name": "2015-2022_textPoriewSpy.India",
-  "description": "-",
-  "references": [],
-  "samples": ["PORIEWSPY.HRX", "google.sec"],
-  "weight": 0.0,
-  "signatures": ["http://mylocation.org"]
-}

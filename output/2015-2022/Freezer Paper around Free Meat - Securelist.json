@@ -1,0 +1,9 @@
+{
+  "rule_id": 258,
+  "name": "Freezer Paper around Free Meat - Securelist",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

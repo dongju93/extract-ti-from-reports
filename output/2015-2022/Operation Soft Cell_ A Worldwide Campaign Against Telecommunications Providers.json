@@ -1,0 +1,12 @@
+{
+  "rule_id": 848,
+  "name": "Operation Soft Cell_ A Worldwide Campaign Against Telecommunications Providers",
+  "description": "-",
+  "references": [],
+  "samples": ["portqry.exe", "maybemimi.exe", "RunHelp.exe", "Reg.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "https://youtu.be/Ihpn2-4jTvc",
+    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers"
+  ]
+}

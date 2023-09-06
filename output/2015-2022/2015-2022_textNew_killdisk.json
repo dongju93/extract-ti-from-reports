@@ -1,9 +1,0 @@
-{
-  "rule_id": 380,
-  "name": "2015-2022_textNew_killdisk",
-  "description": "-",
-  "references": [],
-  "samples": ["dimens.exe", "KILLDISK.IUB", "Recycle.Bin"],
-  "weight": 0.0,
-  "signatures": []
-}

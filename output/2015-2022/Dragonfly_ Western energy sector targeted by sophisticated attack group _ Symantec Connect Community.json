@@ -1,0 +1,19 @@
+{
+  "rule_id": 853,
+  "name": "Dragonfly_ Western energy sector targeted by sophisticated attack group _ Symantec Connect Community",
+  "description": "-",
+  "references": [],
+  "samples": ["TWITTER.COM", "SYMANTEC.COM"],
+  "weight": 0.0,
+  "signatures": [
+    "db07e1740152e09610ea826655d27e8d",
+    "a4cf567f27f3b2f8b73ae15e2e487f00",
+    "e02603178c8c47d198f7d34bcf2d68b8",
+    "b3b5d67f5bbf5a043f5bf5d079dbcb56",
+    "765fcd7588b1d94008975c4627c8feb6",
+    "1560f68403c5a41e96b28d3f882de7f1",
+    "141e78d16456a072c9697454fc6d5f58",
+    "http://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html)",
+    "https://vip.symantec.com/))"
+  ]
+}

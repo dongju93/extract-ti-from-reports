@@ -1,0 +1,30 @@
+{
+  "rule_id": 905,
+  "name": "CrashOverride-01",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "DRAGOS.COM",
+    "iec104.log",
+    "104.dll",
+    "Crash104.dll",
+    "CrashOPCClientDemo.dll",
+    "opc.exe",
+    "Launcher.exe",
+    "Crash61850.dll",
+    "payload.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "f6c21f8189ced6ae150f9ef2e82a3a57843b587d",
+    "8e39eca1e48240c01ee570631ae8f0c9a9637187",
+    "cccce62996d578b984984426a024d9b250237533",
+    "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a",
+    "b335163e6eb854df5e08e85026b2c3518891eda8",
+    "2cb8230281b86fa944d3043ae906016c8b5984d9",
+    "b92149f046f00bb69de329b8457d32c24726ee00",
+    "5a5fafbc3fec8d36fd57b075ebf34119ba3bff04",
+    "94488f214b165512d2fc0438a581f5c9e3bd4d4c",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Ser-"
+  ]
+}

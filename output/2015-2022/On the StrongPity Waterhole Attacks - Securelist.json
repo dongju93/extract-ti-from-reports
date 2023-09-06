@@ -1,0 +1,29 @@
+{
+  "rule_id": 479,
+  "name": "On the StrongPity Waterhole Attacks - Securelist",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "nvvscv.exe",
+    "mstsc.exe",
+    "wrar531.exe",
+    "prst.dll",
+    "winrar.be",
+    "prst.cab",
+    "truecrypt.html",
+    "mRemoteNG.exe",
+    "wrlck.dll",
+    "531.exe",
+    "filezilla.exe",
+    "fr.exe",
+    "wndplyr.exe",
+    "nl.exe",
+    "wrar53b5.exe",
+    "wrlck.cab",
+    "www.true",
+    "winscp.exe",
+    "it.exe"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

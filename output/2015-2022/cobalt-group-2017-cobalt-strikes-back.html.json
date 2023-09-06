@@ -1,0 +1,9 @@
+{
+  "rule_id": 838,
+  "name": "cobalt-group-2017-cobalt-strikes-back.html",
+  "description": "-",
+  "references": [],
+  "samples": ["E.Doc"],
+  "weight": 0.0,
+  "signatures": []
+}

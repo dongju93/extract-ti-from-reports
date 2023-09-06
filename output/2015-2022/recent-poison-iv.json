@@ -1,0 +1,9 @@
+{
+  "rule_id": 664,
+  "name": "recent-poison-iv",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": ["cbbfc3b5ff08de14fdb2316f3b14886dfe5504ef"]
+}

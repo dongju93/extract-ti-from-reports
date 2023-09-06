@@ -1,9 +1,0 @@
-{
-  "rule_id": 256,
-  "name": "2015-2022_textSLUB Gets Rid of GitHub, Intensifies Slack Use",
-  "description": "-",
-  "references": ["CVE-2019-0803", "CVE-2019-0752", "CVE-2019-0808"],
-  "samples": ["pen.io", "u.dll", "cock.li", "le.io"],
-  "weight": 0.0,
-  "signatures": []
-}

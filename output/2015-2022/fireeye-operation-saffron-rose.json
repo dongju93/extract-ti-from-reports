@@ -1,0 +1,9 @@
+{
+  "rule_id": 951,
+  "name": "fireeye-operation-saffron-rose",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

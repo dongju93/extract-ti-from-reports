@@ -1,0 +1,26 @@
+{
+  "rule_id": 743,
+  "name": "El_Machete",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "guerra.rar",
+    "XXX.rar",
+    "GUERRA.exe",
+    "Update.jar",
+    "XXX.pps",
+    "pGV.eXe",
+    "Suntzu.rar"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "61d33dc5b257a18eb6514e473c1495fe",
+    "b5ada760476ba9a815ca56f12a11d557",
+    "e9b2499b92279669a09fef798af7f45b",
+    "f7e23b876fc887052ac8e2558f0d6c38",
+    "e486eddffd13bed33e68d6d8d4052270",
+    "df2889df7ac209e7b696733aa6b52af5",
+    "b26d1aec219ce45b2e80769368310471",
+    "d6c112d951cb48cab37e5d7ebed2420b"
+  ]
+}

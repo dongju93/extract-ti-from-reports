@@ -1,9 +1,0 @@
-{
-  "rule_id": 100,
-  "name": "2015-2022_textcobalt-group-2017-cobalt-strikes-back.html",
-  "description": "-",
-  "references": ["CVE-2015-1641"],
-  "samples": ["E.Doc"],
-  "weight": 0.0,
-  "signatures": []
-}

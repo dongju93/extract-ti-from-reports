@@ -1,0 +1,13 @@
+{
+  "rule_id": 566,
+  "name": "blog Dragonfly 2",
+  "description": "-",
+  "references": [],
+  "samples": ["WORDPRESS.COM", "ow.ly", "TREADSTONE71.COM"],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.eweek.com/security/dragon",
+    "http://ow.ly/3Ly730f2P0A",
+    "https://joesecurity.org/"
+  ]
+}

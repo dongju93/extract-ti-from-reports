@@ -1,9 +1,0 @@
-{
-  "rule_id": 776,
-  "name": "2015-2022_textmalicious-office-files-dropping-kasidet.html",
-  "description": "-",
-  "references": ["CVE-2015-5123", "CVE-2015-0336", "CVE-2014-4130"],
-  "samples": ["trinity.ad", "devenv.exe", "setting.bin"],
-  "weight": 0.0,
-  "signatures": []
-}

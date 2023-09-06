@@ -1,0 +1,31 @@
+{
+  "rule_id": 1053,
+  "name": "Micro-Targeted-Malvertising-WP-10-27-14-1",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Neustar.biz",
+    "fvJcrgR0.exe",
+    "page.This",
+    "www.zedo",
+    "In.ua",
+    "Blaze.Com",
+    "Oajvliewxpge.exe",
+    "obupdat.exe",
+    "www.turn"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.sitescout.com/rtb/",
+    "http://indexexchange.com/",
+    "http://www.rubiconproject.com/privacy/consumer-online-profile-and-opt-out/",
+    "http://www.zedo.com/",
+    "https://www.dataxu.com/",
+    "http://delivery.first-",
+    "http://first-impression.com/home/",
+    "http://www.turn.com/",
+    "http://www.ghosteryenterprise.com/global-opt-out/",
+    "http://preferences-mgr.truste.com/",
+    "http://www.sovrn.com/"
+  ]
+}

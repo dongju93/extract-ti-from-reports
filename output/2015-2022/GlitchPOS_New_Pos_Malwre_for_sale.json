@@ -1,0 +1,12 @@
+{
+  "rule_id": 540,
+  "name": "GlitchPOS_New_Pos_Malwre_for_sale",
+  "description": "-",
+  "references": [],
+  "samples": ["sale.html"],
+  "weight": 0.0,
+  "signatures": [
+    "abfadb6686459f69a92ede367a2713fc2a1289ebe0c8596964682e4334cee553",
+    "ed043ff67cc28e67ba36566c340090a19e5bf87c6092d418ff0fd3759fb661ab"
+  ]
+}

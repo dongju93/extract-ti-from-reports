@@ -1,0 +1,9 @@
+{
+  "rule_id": 1084,
+  "name": "rpt-southeast-asia-threat-landscape",
+  "description": "-",
+  "references": [],
+  "samples": ["SP.SEA"],
+  "weight": 0.0,
+  "signatures": []
+}

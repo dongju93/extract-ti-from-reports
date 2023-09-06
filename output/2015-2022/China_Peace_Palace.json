@@ -1,0 +1,15 @@
+{
+  "rule_id": 1191,
+  "name": "China_Peace_Palace",
+  "description": "-",
+  "references": [],
+  "samples": ["ticrf.rat", "showproj.asp", "showpage.asp", "LMS.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "16E5A27BD55E0B4E595C9743F4C75611",
+    "5877D15215B7F398319F0DE7BA7B1947",
+    "DFDC5B09C4DEA79EB7F5B9E4E76EECF9",
+    "B4522D05A9E3A034AF481A7797A445EA",
+    "2EE25DE7BD6A2705F3F8DDE0DD681E96"
+  ]
+}

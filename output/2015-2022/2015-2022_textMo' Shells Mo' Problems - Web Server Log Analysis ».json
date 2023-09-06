@@ -1,9 +1,0 @@
-{
-  "rule_id": 30,
-  "name": "2015-2022_textMo' Shells Mo' Problems - Web Server Log Analysis »",
-  "description": "-",
-  "references": [],
-  "samples": ["web.aspx"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,0 +1,21 @@
+{
+  "rule_id": 447,
+  "name": "Operation Iron Tiger Appendix",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "UnitFrmManagerKeyLog.pas",
+    "jingtisanmenxiachuanxiao.vbs",
+    "123.EFH",
+    "DLODR.PO",
+    "UnitFrmManagerRegister.pas",
+    "123.EXE",
+    "xx.exe",
+    "FastDos.cpp",
+    "GHOST.EJ",
+    "UnitFrmRControl.pas",
+    "PLUGX.XX"
+  ],
+  "weight": 0.0,
+  "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]
+}

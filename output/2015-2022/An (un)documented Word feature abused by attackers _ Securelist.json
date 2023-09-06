@@ -1,0 +1,13 @@
+{
+  "rule_id": 691,
+  "name": "An (un)documented Word feature abused by attackers _ Securelist",
+  "description": "-",
+  "references": [],
+  "samples": ["ccccccccc.php"],
+  "weight": 0.0,
+  "signatures": [
+    "http://evil-333.com/cccccccccccc/ccccccccc/ccccccccc.php?cccccccccc",
+    "https://youtu.be/_GsABMeZrdY",
+    "http://evil-*,"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "rule_id": 635,
+  "name": "onion-dog-a-3-year-old-apt",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": ["https://ti.360.com)."]
+}

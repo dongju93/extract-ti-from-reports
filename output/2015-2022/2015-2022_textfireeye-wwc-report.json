@@ -1,9 +1,0 @@
-{
-  "rule_id": 14,
-  "name": "2015-2022_textfireeye-wwc-report",
-  "description": "-",
-  "references": [],
-  "samples": ["RPT.WWC"],
-  "weight": 0.0,
-  "signatures": []
-}

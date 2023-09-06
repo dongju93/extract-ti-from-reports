@@ -1,0 +1,20 @@
+{
+  "rule_id": 428,
+  "name": "Threat Actor Targeting Hong Kong Pro-Democracy Figures",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "FYI.zip",
+    "siHost64.png",
+    "siHost64.exe",
+    "threatrecon.nshc",
+    "rtf.lnk",
+    "GetCurrentDeploy.dll",
+    "GetCurrentRollback.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run with the registry name “siHost64”.",
+    "https://threatrecon.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists/"
+  ]
+}

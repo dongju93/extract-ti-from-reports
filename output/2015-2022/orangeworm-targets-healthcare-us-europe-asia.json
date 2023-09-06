@@ -1,0 +1,9 @@
+{
+  "rule_id": 294,
+  "name": "orangeworm-targets-healthcare-us-europe-asia",
+  "description": "-",
+  "references": [],
+  "samples": ["symc.ly"],
+  "weight": 0.0,
+  "signatures": ["https://symc.ly/2K1oJjU"]
+}

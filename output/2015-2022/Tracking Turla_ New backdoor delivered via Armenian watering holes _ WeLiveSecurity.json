@@ -1,0 +1,34 @@
+{
+  "rule_id": 266,
+  "name": "Tracking Turla_ New backdoor delivered via Armenian watering holes _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mnp.nkr",
+    "locale.php",
+    "adobe.exe",
+    "Turla.EJ",
+    "migrate.min",
+    "winhost.exe",
+    "0eb0f2cb2808b4b35a94.js",
+    "Mg.js",
+    "ec.set",
+    "ec.get",
+    "Turla.EM",
+    "top.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://skategirlchina.com/wp-includes/data_from_db_top.php',",
+    "http://skategirlchina.com/wp-includes/ms-locale.php",
+    "http://37.59.60.199/2018/.con",
+    "http://85.222.235.156:8000",
+    "http://mnp.nkr.am/wp-includes/js/jquery/jquery-migrate.min.js",
+    "http://skategirlchina.com/wp-includes/data_from_db_top.php",
+    "http://skategirlchina.com/wp-",
+    "http://www.armconsul.ru/user/themes/ayeps/dist/js/bundle.0eb0f2cb2808b4b35a94.js",
+    "http://aiisa.am/js/chatem/js_rA9bo8_O3Pnw_5wJXExNhtkUMdfBYCifTJctEJ8C_Mg.js",
+    "http://skategirlchina.com/wp-includes/data_from_db_top.php?",
+    "http://134.209.222.206:15363"
+  ]
+}

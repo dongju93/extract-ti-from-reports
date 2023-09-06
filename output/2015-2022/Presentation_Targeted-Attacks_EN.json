@@ -1,0 +1,19 @@
+{
+  "rule_id": 184,
+  "name": "Presentation_Targeted-Attacks_EN",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "jminet7.sys",
+    "netp192.pnf",
+    "sortEA74.nls",
+    "cmi4464.pnf",
+    "netp191.pnf",
+    "cmi4432.sys",
+    "cmi4432.pnf",
+    "res302.dll",
+    "imapi.exe"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

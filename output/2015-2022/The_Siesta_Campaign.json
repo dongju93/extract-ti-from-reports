@@ -1,0 +1,9 @@
+{
+  "rule_id": 209,
+  "name": "The_Siesta_Campaign",
+  "description": "-",
+  "references": [],
+  "samples": ["2014.exe", "UIODsevr.exe"],
+  "weight": 0.0,
+  "signatures": ["014542eafb792b98196954373b3fd13e60cb94fe", "http://www.micro"]
+}

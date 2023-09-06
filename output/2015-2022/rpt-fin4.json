@@ -1,0 +1,12 @@
+{
+  "rule_id": 746,
+  "name": "rpt-fin4",
+  "description": "-",
+  "references": [],
+  "samples": ["WP.HTS", "junomaat81.us"],
+  "weight": 0.0,
+  "signatures": [
+    "http://forum.<domain>/redirect.",
+    "http://<domain>%2fforum%2fequities%2f375823902%2farticle."
+  ]
+}

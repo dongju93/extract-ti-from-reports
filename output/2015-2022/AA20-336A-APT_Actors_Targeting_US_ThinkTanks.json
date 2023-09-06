@@ -1,0 +1,12 @@
+{
+  "rule_id": 886,
+  "name": "AA20-336A-APT_Actors_Targeting_US_ThinkTanks",
+  "description": "-",
+  "references": [],
+  "samples": ["cisa.gov", "cisa.dhs"],
+  "weight": 0.0,
+  "signatures": [
+    "https://cisa.gov/tlp.",
+    "https://www.cyberscoop.com/european-think-tanks-hack-microsoft-fancy-bear-russia/"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "rule_id": 639,
+  "name": "dl-20200511-lolsnif-appendix-b-en",
+  "description": "-",
+  "references": [],
+  "samples": ["S.Run", "c_1252.nls", "NTDLL.DLL", "NTDSAPI.DLL", "window.flag"],
+  "weight": 0.0,
+  "signatures": []
+}

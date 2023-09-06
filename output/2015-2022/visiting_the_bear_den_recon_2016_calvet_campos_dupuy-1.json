@@ -1,0 +1,9 @@
+{
+  "rule_id": 249,
+  "name": "visiting_the_bear_den_recon_2016_calvet_campos_dupuy-1",
+  "description": "-",
+  "references": ["CVE-2014-4076"],
+  "samples": ["pi.log", "F1.AB", "Winload.exe", "LINKINFO.dll"],
+  "weight": 0.0,
+  "signatures": ["http://login.accoounts-google.com/url/?continue="]
+}

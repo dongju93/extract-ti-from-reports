@@ -1,0 +1,14 @@
+{
+  "rule_id": 343,
+  "name": "apt29-hammertoss-stealthy-tactics-define-a",
+  "description": "-",
+  "references": [],
+  "samples": ["uploader.pdb", "reports.html", "APT29.EN", "tDiscoverer.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "d3109c83e07dd5d7fe032dc80c581d08",
+    "http://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf.",
+    "http://www.intego.com/mac-security-blog/flashback-mac-malware-uses-twitter-as-command-and-control-center.",
+    "http://content.usatoday.com/communities/technologylive/post/2009/08/68497133/1"
+  ]
+}

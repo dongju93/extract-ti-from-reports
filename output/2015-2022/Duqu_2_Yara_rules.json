@@ -1,0 +1,9 @@
+{
+  "rule_id": 885,
+  "name": "Duqu_2_Yara_rules",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

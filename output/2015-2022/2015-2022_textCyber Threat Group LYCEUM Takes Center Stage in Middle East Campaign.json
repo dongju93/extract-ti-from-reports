@@ -1,9 +1,0 @@
-{
-  "rule_id": 696,
-  "name": "2015-2022_textCyber Threat Group LYCEUM Takes Center Stage in Middle East Campaign",
-  "description": "-",
-  "references": [],
-  "samples": ["AdobeReport.exe"],
-  "weight": 0.0,
-  "signatures": []
-}

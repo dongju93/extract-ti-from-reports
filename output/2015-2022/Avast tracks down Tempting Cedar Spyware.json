@@ -1,0 +1,17 @@
+{
+  "rule_id": 379,
+  "name": "Avast tracks down Tempting Cedar Spyware",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "chat.site",
+    "gserv.mobi",
+    "world.site",
+    "eighty9.guru",
+    "rsdroid.crt",
+    "messenger.site",
+    "apps.us"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

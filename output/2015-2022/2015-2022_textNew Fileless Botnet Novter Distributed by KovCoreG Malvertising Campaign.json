@@ -1,9 +1,0 @@
-{
-  "rule_id": 606,
-  "name": "2015-2022_textNew Fileless Botnet Novter Distributed by KovCoreG Malvertising Campaign",
-  "description": "-",
-  "references": [],
-  "samples": ["socket.io", "app.js"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,0 +1,9 @@
+{
+  "rule_id": 490,
+  "name": "apt32-continues-asean-targeting",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

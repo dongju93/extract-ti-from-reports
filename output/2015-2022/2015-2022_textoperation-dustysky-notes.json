@@ -1,9 +1,0 @@
-{
-  "rule_id": 294,
-  "name": "2015-2022_textoperation-dustysky-notes",
-  "description": "-",
-  "references": [],
-  "samples": ["Co.vuCo", "co.vu"],
-  "weight": 0.0,
-  "signatures": []
-}

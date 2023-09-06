@@ -1,9 +1,0 @@
-{
-  "rule_id": 401,
-  "name": "2015-2022_textAPT28-Center-of-Storm-2017",
-  "description": "-",
-  "references": ["CVE-2016-7855", "CVE-2016-7255"],
-  "samples": ["reports.html"],
-  "weight": 0.0,
-  "signatures": []
-}

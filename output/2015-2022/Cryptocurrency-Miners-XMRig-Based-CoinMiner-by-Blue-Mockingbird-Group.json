@@ -1,0 +1,31 @@
+{
+  "rule_id": 98,
+  "name": "Cryptocurrency-Miners-XMRig-Based-CoinMiner-by-Blue-Mockingbird-Group",
+  "description": "-",
+  "references": ["CVE-2019-18935"],
+  "samples": [
+    "comhij.dll",
+    "wercplsupporte.dll",
+    "set.zip",
+    "mofcomp.exe",
+    "wp.exe",
+    "checkservices.dll",
+    "regsvr32.dll",
+    "x.bat",
+    "ASP.NET",
+    "empty.cs",
+    "dll.bat",
+    "wercplsupport.dll",
+    "random.dll",
+    "dialogex.dll",
+    "scripttempx.tks",
+    "WP.EXE",
+    "ZZZ.dll",
+    "xg.dll",
+    "set.bat",
+    "rn.bat",
+    "let.exe"
+  ],
+  "weight": 0.0,
+  "signatures": ["https://analyze.intezer.com/"]
+}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 331,
-  "name": "2015-2022_textFrom BlackEnergy to ExPetr - Securelist",
-  "description": "-",
-  "references": [],
-  "samples": ["shutdown.exe"],
-  "weight": 0.0,
-  "signatures": []
-}

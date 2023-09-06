@@ -1,9 +1,0 @@
-{
-  "rule_id": 441,
-  "name": "2015-2022_textChafer_ Latest Attacks Reveal Heightened Ambitions _ Symantec Blogs",
-  "description": "-",
-  "references": [],
-  "samples": ["Y658123.vbs", "TWITTER.COM"],
-  "weight": 0.0,
-  "signatures": ["http://symc.ly/2sXMZio"]
-}

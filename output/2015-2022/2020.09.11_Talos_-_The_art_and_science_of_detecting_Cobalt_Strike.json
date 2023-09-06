@@ -1,0 +1,36 @@
+{
+  "rule_id": 89,
+  "name": "2020.09.11_Talos_-_The_art_and_science_of_detecting_Cobalt_Strike",
+  "description": "-",
+  "references": [
+    "CVE-2011-3544",
+    "CVE-2013-2465",
+    "CVE-2013-2460",
+    "CVE-2012-4681"
+  ],
+  "samples": [
+    "main.dll",
+    "check.js",
+    "Main.java",
+    "sun.awt",
+    "sun.arch",
+    "Sun.awt",
+    "Main.dll",
+    "main64.dll",
+    "artifact.exe",
+    "naming.html",
+    "cross_platformi9.jar",
+    "com.sun",
+    "beacon.dll",
+    "MYKEY.RSA",
+    "Base64.dll",
+    "java.lang",
+    "reserved.The",
+    "AcroPDF.PDF",
+    "wininet.dll",
+    "Statement.acc",
+    "MYKEY.SF"
+  ],
+  "weight": 0.0,
+  "signatures": ["https://www.oracle.com/java/technologies/"]
+}

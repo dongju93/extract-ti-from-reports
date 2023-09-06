@@ -1,0 +1,33 @@
+{
+  "rule_id": 698,
+  "name": "tech-brief-tildeb-analyzing-the-18-year-old-implant-from-the-shadow-brokers-leak",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "PRIV.EDB",
+    "Ws2_32.dll",
+    "PUB.EDB",
+    "mfc42.dll",
+    "STORE.EXE",
+    "cn.dll",
+    "SimpleProcesses.db",
+    "eula.txt",
+    "l.tmp",
+    "galt.pem",
+    "DIR.EDB",
+    "dir.edb",
+    "us.cfg",
+    "DSAMAIN.EXE",
+    "priv.edb",
+    "clocksvc.exe",
+    "KMSERVER.EXE",
+    "pub.edb",
+    "WSOCK32.dll",
+    "kmsmdb.edb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "9812a5c5a89b6287c8893d3651b981a0",
+    "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"
+  ]
+}

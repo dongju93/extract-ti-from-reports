@@ -1,0 +1,21 @@
+{
+  "rule_id": 260,
+  "name": "welivesecurity.com-Winnti Group targeting universities in Hong Kong",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Winnti.CA",
+    "livehost.live",
+    "hpqhvsei.dll",
+    "domain.tld",
+    "hpqhvind.exe",
+    "CLR.exe",
+    "NULL.dat",
+    "wmplayer.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "693f0bd265e7a68b5b98f411ecf1cd3fed3c84af",
+    "HKLM\\SYSTEM\\ControlSet001\\services\\SharedAccess\\Parameters\\FirewallPolicy\\FirewallRules\\"
+  ]
+}

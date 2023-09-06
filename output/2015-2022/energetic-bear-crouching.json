@@ -1,0 +1,25 @@
+{
+  "rule_id": 574,
+  "name": "energetic-bear-crouching",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "sqlmap.git",
+    "wpscan.txt",
+    "opts.php",
+    "nmap.txt",
+    "theme.php",
+    "media.php",
+    "sma.php",
+    "code29.php",
+    "filename.png",
+    "smbtrap.txt",
+    "mysql.php",
+    "dump.txt",
+    "dirsearch.txt",
+    "pipe.sock",
+    "grep.txt"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

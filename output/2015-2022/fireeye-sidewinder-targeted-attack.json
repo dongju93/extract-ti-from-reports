@@ -1,0 +1,41 @@
+{
+  "rule_id": 1159,
+  "name": "fireeye-sidewinder-targeted-attack",
+  "description": "-",
+  "references": ["CVE-2014-0224"],
+  "samples": [
+    "Runtime.load",
+    "bleed.html",
+    "WP.SW",
+    "aidl.html",
+    "sidedoor.html",
+    "WebView.html",
+    "example.app",
+    "Context.html",
+    "android.html",
+    "element.html",
+    "JavascriptInterface.html",
+    "Camera.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://developer.android.com/guide/topics/manifest/permission-element.html.",
+    "http://www.weibo.com/p/1001603724694418249344?utm_source=weibolife.",
+    "http://developer.android.com/reference/dalvik/system/DexClassLoader.",
+    "http://www.networkworld.com/article/2272520/lan-wan/six-worst-internet-",
+    "https://labs.mwrinfosecurity.com/blog/2014/06/12/putting-javascript-",
+    "https://isc.sans.edu/diary/Domaincontrol+(GoDaddy)+Nameservers+DNS+",
+    "https://developer.android.com/about/dashboards/index.html.",
+    "http://linux.die.net/man/2/ptrace.",
+    "http://shuaji.360.cn/root/.",
+    "http://developer.android.com/reference/android/hardware/Camera.html.",
+    "https://android.googlesource.com/platform/frameworks/base/+/master/",
+    "http://seclists.org/bugtraq/2014/Mar/52.",
+    "http://towelroot.com/.",
+    "https://android.googlesource.com/platform/packages/apps/Launcher2/+/",
+    "http://developer.android.com/guide/components/aidl.html.",
+    "http://developer.android.com/reference/android/webkit/WebView.html",
+    "http://developer.android.com/reference/android/webkit/",
+    "http://developer.android.com/reference/android/content/Context.html."
+  ]
+}

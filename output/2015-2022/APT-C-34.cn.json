@@ -1,0 +1,21 @@
+{
+  "rule_id": 640,
+  "name": "APT-C-34.cn",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Falcon.html",
+    "n.bi",
+    "dCh8RnL1.ODo",
+    "tv.dll",
+    "dCh8RnL1.Odo",
+    "userinit.dll",
+    "17.stcz",
+    "lb.data"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动",
+    "HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr"
+  ]
+}

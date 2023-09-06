@@ -1,0 +1,12 @@
+{
+  "rule_id": 888,
+  "name": "APT27 ZXShell RootKit module updates",
+  "description": "-",
+  "references": [],
+  "samples": ["lab52.io"],
+  "weight": 0.0,
+  "signatures": [
+    "https://repnz.github.io/posts/autochk-rootkit-analysis/).",
+    "https://lab52.io/blog/apt27-rootkit-updates/"
+  ]
+}

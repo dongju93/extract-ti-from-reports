@@ -1,0 +1,9 @@
+{
+  "rule_id": 666,
+  "name": "fireeye-wwc-report_en",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

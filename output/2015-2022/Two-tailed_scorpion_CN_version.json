@@ -1,0 +1,36 @@
+{
+  "rule_id": 1186,
+  "name": "Two-tailed_scorpion_CN_version",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Services.pdf",
+    "SyncDownOptzHostProc.exe",
+    "MenuProgramsStartupSyncDownOptzHostProc.lnk",
+    "125292.html",
+    "Entelaqa32.rar",
+    "callaghan.icu",
+    "IntegratedOffice.txt",
+    "SecPulse.COM",
+    "Shortcut.exe",
+    "129223.html",
+    "guid.bin",
+    "IntegratedOffice.exe",
+    "5.HXD",
+    "Jerusalem_26082019.pdf",
+    "五.IOCs",
+    "SyncDownOptzHostProc.lnk",
+    "report.docx"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://linda-callaghan.icu/Minkowski/brown",
+    "https://mp.weixin.qq.com/s/Rfcr-YPIoUUvc89WFrdrnw",
+    "https://www.secpulse.com/archives/125292.html",
+    "http://nicoledotson.icu/debby/weatherford/pidnimit",
+    "https://www.freebuf.com/articles/system/129223.html",
+    "http://nicoledotson.icu/debby/weatherford/ekspertyza",
+    "http://nicoledotson.icu/debby/weatherford/vydalyty",
+    "http://nicoledotson.icu/debby/weatherford/Zavantazhyty"
+  ]
+}

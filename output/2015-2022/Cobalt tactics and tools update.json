@@ -1,0 +1,22 @@
+{
+  "rule_id": 204,
+  "name": "Cobalt tactics and tools update",
+  "description": "-",
+  "references": [],
+  "samples": ["cmdvrt64.dll", "msxsl.exe", "sbiedll.dll", "Details.img"],
+  "weight": 0.0,
+  "signatures": [
+    "152cd7014811ae8980981a825e5843b0",
+    "a3391d1d3482553545d7c0111984abb6",
+    "f924c690f7bbaf60d56a446b7a66a43b",
+    "f2712de0c8575ff32828c83cfbf75d4b",
+    "dfcd5692729e859f074b95720505f711ba7d14ac",
+    "ce28b9ee648192486d9062c427c17589b5f204fb",
+    "384a13abe42d249e354cd415c4bcbf01086deafb",
+    "4d50f1cae2acc8c92ff1f678fc1fdfdd1e770f24",
+    "e288b0410fb95060ce8c5527673978cb2ceffe05",
+    "c1a633a940fc4c595ebbe36823fee1b02bfd755615c51799c9f4e4320b597af1",
+    "0aee265a022ee84e9c8b653e960559c9761a7362e1c345019a552188114b7e80",
+    "7122cf59f8a59f9a44f20fd4c83451c5c4313e0021d3f1ba9c2b1a4f39801db1"
+  ]
+}

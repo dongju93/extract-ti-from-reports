@@ -1,0 +1,38 @@
+{
+  "rule_id": 182,
+  "name": "fireeye-china-chopper-report",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "www.gnu",
+    "i.html",
+    "a.exe",
+    "System.IO",
+    "Customize.aspx",
+    "Customize.jsp",
+    "notepad.html",
+    "RPT.CCWS",
+    "test.php",
+    "decomp.exe",
+    "webshell.html",
+    "basics.html",
+    "Customize.cfm",
+    "caidao.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8aa603ee2454da64f4c70f24cc0b5e08",
+    "ad8288227240477a95fb023551773c84",
+    "acba8115d027529763ea5c7ed6621499",
+    "5001ef50c7e869253a7c152a638eab8a",
+    "http://malware-hunters.net/all-downloads/.",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.",
+    "http://fiddler2.com/.",
+    "http://www.gnu.org/software/wget/.",
+    "http://www.aldeid.com/wiki/PEiD.",
+    "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-with-notepad.html)",
+    "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)",
+    "http://www.wireshark.org/.",
+    "http://www.snort.org/."
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 485,
-  "name": "2015-2022_textLeoUncia_OrcaRat",
-  "description": "-",
-  "references": [],
-  "samples": ["wbt.dat"],
-  "weight": 0.0,
-  "signatures": []
-}

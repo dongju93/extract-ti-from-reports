@@ -1,0 +1,20 @@
+{
+  "rule_id": 46,
+  "name": "[tr1adx]_ Intel",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mia.gov",
+    "webmail.mil",
+    "army.mil",
+    "00003.html",
+    "mofa.go",
+    "mea.gov",
+    "minpal.gob",
+    "icisleri.gov",
+    "jica.go",
+    "af.mil"
+  ],
+  "weight": 0.0,
+  "signatures": ["https://www.tr1adx.net/intel/TIB-00003.html"]
+}

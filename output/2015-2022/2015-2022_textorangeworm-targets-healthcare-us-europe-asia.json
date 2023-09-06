@@ -1,9 +1,0 @@
-{
-  "rule_id": 1119,
-  "name": "2015-2022_textorangeworm-targets-healthcare-us-europe-asia",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": ["https://symc.ly/2K1oJjU"]
-}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 1258,
-  "name": "2015-2022_textF5SOC_Tinbapore_Attack_January2016_29",
-  "description": "-",
-  "references": [],
-  "samples": ["bin.exe", "web.dat", "ntf.dat"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 1167,
-  "name": "2015-2022_textSpam Campaign Targets Colombian Entities with Custom-made Proyecto RAT",
-  "description": "-",
-  "references": [],
-  "samples": ["ClsRemoteRegistry.cls", "cort.as"],
-  "weight": 0.0,
-  "signatures": []
-}

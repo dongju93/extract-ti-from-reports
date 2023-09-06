@@ -1,0 +1,20 @@
+{
+  "rule_id": 523,
+  "name": "tech-brief-untangling-the-patchwork-cyberespionage-group",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "updatecheck.php",
+    "check.php",
+    "rmi.exe",
+    "scvhost6.exe",
+    "simpledownloader.exe",
+    "Temp.log",
+    "TaskScheduler.dll",
+    "s.dwg",
+    "msvcr71.dll",
+    "base.Load"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

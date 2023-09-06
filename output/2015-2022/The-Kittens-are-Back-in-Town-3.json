@@ -1,0 +1,15 @@
+{
+  "rule_id": 309,
+  "name": "The-Kittens-are-Back-in-Town-3",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "phishing.html",
+    "citizenlab.ca",
+    "haifa.ac",
+    "akademie.dw",
+    "lgntopl.gif"
+  ],
+  "weight": 0.0,
+  "signatures": ["https://developers.google.com/identity/protocols/OAuth2"]
+}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 439,
-  "name": "2015-2022_textbears-midst-intrusion-democratic-national-committee",
-  "description": "-",
-  "references": [],
-  "samples": ["prov.IV", "twain_64.dll", "prov.Key"],
-  "weight": 0.0,
-  "signatures": []
-}

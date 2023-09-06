@@ -1,0 +1,34 @@
+{
+  "rule_id": 265,
+  "name": "Revenge RAT targeting users in South America",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "9.docx",
+    "Enabled_Worsksheet1.xlsm",
+    "x.docx",
+    "opera.vbs",
+    "Familias.docx",
+    "Worksheet.xlsm",
+    "mscoree.dll",
+    "VBAProject.bin",
+    "A.txt",
+    "footer.xml",
+    "Enabled_Worksheet9.xlsm",
+    "Index.vbs",
+    "REVEGERRRRR.exe",
+    "index.vbs"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "338b2d8d76f4028bfbd177127371b2509971606553d606c534316dc40cfa8fb9",
+    "91611ac2268d9bf7b7cb2e71976c630f6b4bfdbb68774420bf01fd1493ed28c7",
+    "03f5ff9b6a6b24f76799cc15fe3f1fbf1ca9d6dda30a4154125ed5dd5834290c",
+    "77d6651de47bff4c24fc26fa018ea648b0e14e276e8240fae6b1724b8638c46a",
+    "4b65e5785692950f8100b22f2827d65ba93e99dd717eb444af035e96fcd84763",
+    "32f1a502126b1932e1def04b98d8be235c8d25ef7268f8cb35d460cd073a88b2",
+    "73f113a6146224c4a1f92f89055922a28322787c108e30000a0a420fa46ed9e2",
+    "https://www.uptycs.com/blog/revenge-rat-targeting-users-in-south-america",
+    "https://www.azulviagens.com.br/."
+  ]
+}

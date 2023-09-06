@@ -1,0 +1,22 @@
+{
+  "rule_id": 674,
+  "name": "Insider_Information",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "website.hXXp",
+    "Stub.dll",
+    "article.asp",
+    "AdobeUpdate20160703.exe",
+    "AdobeUpdate20160812.exe",
+    "AdobeUpdate20161201.exe",
+    "AdobeUpdate20170312.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog",
+    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog"
+  ]
+}

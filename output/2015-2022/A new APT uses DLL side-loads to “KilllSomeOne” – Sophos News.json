@@ -1,0 +1,35 @@
+{
+  "rule_id": 230,
+  "name": "A new APT uses DLL side-loads to “KilllSomeOne” – Sophos News",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "DismCore.pdb",
+    "akm.dat",
+    "it.The",
+    "mpsvc.dll",
+    "msvcp120.dll",
+    "Updates.exe",
+    "Groza_1.dat",
+    "AUG.exe",
+    "adobe.dat",
+    "dbg.exe",
+    "UDPDLL.pdb",
+    "Aug.exe",
+    "SafeGuard.exe",
+    "bridge.dll",
+    "hex.pdb",
+    "bridge.dat",
+    "Mediae.exe",
+    "DISM.EXE",
+    "msvcr120.dll",
+    "hex.dll",
+    "functionhex.pdb",
+    "mpsvc.pdb",
+    "dismcore.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://news.sophos.com/en-us/2020/11/04/a-new-apt-uses-dll-side-loads-to-killlsomeone/"
+  ]
+}

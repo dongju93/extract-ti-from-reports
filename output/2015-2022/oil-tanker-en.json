@@ -1,0 +1,30 @@
+{
+  "rule_id": 713,
+  "name": "oil-tanker-en",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "viewer.abc",
+    "di.vbs",
+    "iei.bat",
+    "cogi.reg",
+    "images.abc",
+    "mdei.abc",
+    "stat.vbs",
+    "sai.vbs",
+    "iewi.bat",
+    "deca.bat",
+    "bar.zip",
+    "unzip2.exe",
+    "ici.bat",
+    "dcp.exe",
+    "mdei.exe",
+    "images.exe",
+    "image.abc",
+    "pic.pdf",
+    "bare.zip",
+    "aagi.bat"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

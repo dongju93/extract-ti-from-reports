@@ -1,0 +1,12 @@
+{
+  "rule_id": 414,
+  "name": "Lotus Blossom Continues ASEAN Targeting",
+  "description": "-",
+  "references": [],
+  "samples": ["NavShExt.dll", "ANY.RUN", "thumbcache_1CD60.db"],
+  "weight": 0.0,
+  "signatures": [
+    "d3fc69a9f2ae2c446434abbfbe1693ef0f81a5da0a7f39d27c80d85f4a49c411",
+    "6dc2a49d58dc568944fef8285ad7a03b772b9bdf1fe4bddff3f1ade3862eae79"
+  ]
+}

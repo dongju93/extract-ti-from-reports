@@ -1,0 +1,9 @@
+{
+  "rule_id": 720,
+  "name": "acid-agari-cosmic-lynx",
+  "description": "-",
+  "references": [],
+  "samples": ["john.doe"],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 613,
-  "name": "2015-2022_text5165",
-  "description": "-",
-  "references": [],
-  "samples": ["Nhopro.gen"],
-  "weight": 0.0,
-  "signatures": []
-}

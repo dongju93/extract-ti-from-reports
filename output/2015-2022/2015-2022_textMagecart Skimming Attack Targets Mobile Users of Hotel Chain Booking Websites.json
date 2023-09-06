@@ -1,9 +1,0 @@
-{
-  "rule_id": 306,
-  "name": "2015-2022_textMagecart Skimming Attack Targets Mobile Users of Hotel Chain Booking Websites",
-  "description": "-",
-  "references": ["CVE-2019-2215"],
-  "samples": ["gtm.php", "gtm.js", "TrojanSpy.JS"],
-  "weight": 0.0,
-  "signatures": ["https://googletrackmanager.com/gtm.php?id="]
-}

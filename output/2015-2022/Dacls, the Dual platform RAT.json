@@ -1,0 +1,12 @@
+{
+  "rule_id": 432,
+  "name": "Dacls, the Dual platform RAT",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.areac-",
+    "https://blog.netlab.360.com/dacls-the-dual-platform-rat-en/"
+  ]
+}

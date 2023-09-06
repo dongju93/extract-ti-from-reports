@@ -1,0 +1,11 @@
+{
+  "rule_id": 752,
+  "name": "Russian Cyber Attack Campaigns and Actors - Threat Research",
+  "description": "-",
+  "references": [],
+  "samples": ["companies.This"],
+  "weight": 0.0,
+  "signatures": [
+    "https://ironnet.com/blog/russian-cyber-attack-campaigns-and-actors/"
+  ]
+}

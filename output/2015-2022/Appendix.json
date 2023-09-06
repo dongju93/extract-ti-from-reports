@@ -1,0 +1,28 @@
+{
+  "rule_id": 1051,
+  "name": "Appendix",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "CHCHES.ZJDK",
+    "BLOCKER.ASK",
+    "PLUGX.ZKEG",
+    "TINYX.ZKEG",
+    "PLUGX.JKK",
+    "INJECTR.ZJDK",
+    "CHCHES.NAK",
+    "INJECTR.ZKDJ",
+    "FAKEMS.USPO",
+    "CHCHES.ZJEH",
+    "CHCHES.NAO",
+    "CHCHES.ZLDK",
+    "PASTEAL.JV",
+    "REDFLOWER.ZBEE",
+    "CHCHES.NAM",
+    "INJECTR.ZLDK",
+    "CHCHES.YO",
+    "PLUGX.BHS"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

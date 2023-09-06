@@ -1,9 +1,0 @@
-{
-  "rule_id": 909,
-  "name": "2015-2022_textCybereason-Labs-Analysis-Webmail-Sever-APT",
-  "description": "-",
-  "references": [],
-  "samples": ["OWAAUTH.DLL", "OWAAUTH.dll"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,0 +1,16 @@
+{
+  "rule_id": 143,
+  "name": "Tropic Trooper’s Back_ USBferry Attack Targets Air-gapped Environments - TrendLabs Security Intelligence Blog",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "TEBSHELL.ZTGK",
+    "en.dat",
+    "USBLODR.ZAHB",
+    "ash.dat",
+    "SVCSHELL.ZAHC",
+    "IDSHELL.ZTFC"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

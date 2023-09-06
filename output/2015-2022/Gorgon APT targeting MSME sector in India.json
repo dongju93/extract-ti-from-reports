@@ -1,0 +1,23 @@
+{
+  "rule_id": 66,
+  "name": "Gorgon APT targeting MSME sector in India",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "order.zip",
+    "CmD.exe",
+    "ServerCrypted.vbs",
+    "EQNEDT32.EXE",
+    "cscript.exe",
+    "RegAsm.exe",
+    "order.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4FC5BA9426E9191AAB4E694E7E703E13",
+    "B5EBAF2F5AF220FE1B1DE5433C2E39FF16B0C0B4",
+    "https://www.seqrite.com/blog/coronavirus-themed-campaign/",
+    "https://www.seqrite.com/blog/gorgon-apt-targeting-msme-sector-in-india/",
+    "https://www.seqrite.com/blog/advance-campaign-targeting-manufacturing-and-export-"
+  ]
+}

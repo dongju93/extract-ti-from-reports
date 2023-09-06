@@ -1,0 +1,9 @@
+{
+  "rule_id": 1045,
+  "name": "Modified_Binaries_Tor",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

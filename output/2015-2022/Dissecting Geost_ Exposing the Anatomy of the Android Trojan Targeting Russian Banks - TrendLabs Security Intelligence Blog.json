@@ -1,0 +1,17 @@
+{
+  "rule_id": 69,
+  "name": "Dissecting Geost_ Exposing the Anatomy of the Android Trojan Targeting Russian Banks - TrendLabs Security Intelligence Blog",
+  "description": "-",
+  "references": ["CVE-2020-1938", "CVE-2020-8794"],
+  "samples": [
+    "classes.dex",
+    "Fobus.AXM",
+    "error.zip",
+    "archive.zip",
+    "action.CALL",
+    "ydxwlab.jar",
+    "AndroidManifest.xml"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

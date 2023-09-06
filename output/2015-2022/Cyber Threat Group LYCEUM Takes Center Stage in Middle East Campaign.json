@@ -1,0 +1,9 @@
+{
+  "rule_id": 1126,
+  "name": "Cyber Threat Group LYCEUM Takes Center Stage in Middle East Campaign",
+  "description": "-",
+  "references": [],
+  "samples": ["AdobeReport.exe"],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,0 +1,28 @@
+{
+  "rule_id": 964,
+  "name": "A journey to Zebrocy land",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "out.txt",
+    "Account.CFN",
+    "Sednit.CMT",
+    "mtrcpl.dll",
+    "action.php",
+    "cert8.db",
+    "key4.db",
+    "Agent.OGE",
+    "97.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "bfa26857575c49abb129aac87207f03f2b062e07",
+    "1e9f40ef81176190e1ed9a0659473b2226c53f57",
+    "48f8b152b86bed027b9152725505fbf4a24a39fd",
+    "HKCU\\Software\\Microsoft\\Current‐",
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
+    "http://45.124.132.127/DOVIDNIK",
+    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php"
+  ]
+}

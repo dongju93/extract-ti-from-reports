@@ -1,9 +1,0 @@
-{
-  "rule_id": 429,
-  "name": "2015-2022_textMo' Shells Mo' Problems - Network Detection »",
-  "description": "-",
-  "references": [],
-  "samples": ["www.bro", "http.log"],
-  "weight": 0.0,
-  "signatures": ["https://www.bro.org/)"]
-}

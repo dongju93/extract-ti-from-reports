@@ -1,0 +1,18 @@
+{
+  "rule_id": 842,
+  "name": "pwc_ScanBox_framework",
+  "description": "-",
+  "references": [],
+  "samples": ["contractor.html", "sc.mac", "proxy.otzo"],
+  "weight": 0.0,
+  "signatures": [
+    "9cf5523da799277a4d40881199eb8325",
+    "be3a3daa7d0d11df2380d3401696624a",
+    "ef498ea09bf51b002fc7eb3dfd0d19d3",
+    "9D1F8822B92AD3224DB1C9EC89B529CA",
+    "409ae279d7c44b11156318848ddb4a3f",
+    "http://sc.mac.gd/vuldb/ssvid-60783",
+    "http://pwc.blogs.com/cyber_security_updates/2014/07/apt1-putter-panda-collaboration-or-a-",
+    "https://www.alienvault.com/open-threat-exchange/blog/scanbox-a-reconnaissance-framework-used-"
+  ]
+}

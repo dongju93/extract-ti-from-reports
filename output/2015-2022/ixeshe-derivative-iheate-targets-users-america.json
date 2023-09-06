@@ -1,0 +1,9 @@
+{
+  "rule_id": 467,
+  "name": "ixeshe-derivative-iheate-targets-users-america",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": ["3de8ef34fb98ce5d5d0ec0f46ff92319a5976e63"]
+}

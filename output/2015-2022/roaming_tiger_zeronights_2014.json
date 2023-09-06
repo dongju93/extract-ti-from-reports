@@ -1,0 +1,20 @@
+{
+  "rule_id": 1018,
+  "name": "roaming_tiger_zeronights_2014",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "dotkang.vicp",
+    "nativeame2.jkub",
+    "twunk_32.exe",
+    "www.sizn",
+    "eset.sk",
+    "fsvts.vicp",
+    "spacecorp.sizn",
+    "loadperf.dll",
+    "wmiadap.exe",
+    "Farfli.BEK"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

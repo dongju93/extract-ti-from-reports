@@ -1,9 +1,0 @@
-{
-  "rule_id": 637,
-  "name": "2015-2022_textrpt-southeast-asia-threat-landscape",
-  "description": "-",
-  "references": [],
-  "samples": ["SP.SEA"],
-  "weight": 0.0,
-  "signatures": []
-}

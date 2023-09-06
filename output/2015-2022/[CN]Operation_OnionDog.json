@@ -1,0 +1,15 @@
+{
+  "rule_id": 99,
+  "name": "[CN]Operation_OnionDog",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "usbman.dll",
+    "test.dll",
+    "感染.test",
+    "usbrun.ico",
+    "Onion.city"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

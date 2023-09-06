@@ -1,0 +1,9 @@
+{
+  "rule_id": 564,
+  "name": "blog_new_muddywater_findings_uncovered",
+  "description": "-",
+  "references": ["CVE-2019-2725"],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

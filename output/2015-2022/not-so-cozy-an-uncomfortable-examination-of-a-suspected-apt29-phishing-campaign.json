@@ -1,0 +1,30 @@
+{
+  "rule_id": 758,
+  "name": "not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ds7002.PDF",
+    "Binary.lnk",
+    "GetContentFeatures.DLNA",
+    "vzvi.Seek",
+    "ds7002.lnk",
+    "ds7002.zip",
+    "vzvi.Read",
+    "cyzfc.dat",
+    "ds7002.pdf",
+    "america.rtf",
+    "www.jmj"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3fccf531ff0ae6fedd7c586774b17a2d",
+    "f713d5df826c6051e65f995e57d6817d",
+    "2b13b244aafe1ecace61ea1119a1b2ee",
+    "313f4808aa2a2073005d219bc68971cd",
+    "16bbc967a8b6a365871a05c74a4f345b",
+    "658c6fe38f95995fa8dc8f6cfe41df7b",
+    "6ed0020b0851fb71d5b0076f4ee95f3c",
+    "https://www.jmj.com/personal/nauerthn_state_gov/*"
+  ]
+}

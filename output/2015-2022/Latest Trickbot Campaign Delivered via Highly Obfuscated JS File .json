@@ -1,0 +1,28 @@
+{
+  "rule_id": 78,
+  "name": "Latest Trickbot Campaign Delivered via Highly Obfuscated JS File ",
+  "description": "-",
+  "references": ["CVE-2019-11932"],
+  "samples": [
+    "lordPE.exe",
+    "B.exe",
+    "JASCREX.AC",
+    "VzService.exe",
+    "VBoxTray.exe",
+    "Win32.TRX",
+    "JASCREX.AB",
+    "Service.exe",
+    "ascii.txt",
+    "BennyDB.exe",
+    "JASCREX.AD",
+    "AgentSimulator.exe",
+    "ga.exe",
+    "er.exe",
+    "windanr.exe",
+    "Shell.jse",
+    "TrojanSpy.JS",
+    "Downloader.VBA"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": 833,
+  "name": "CLAMBLING - A New Backdoor Base On Dropbox (EN)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "File.txt",
+    "Video.exe",
+    "S.avi",
+    "srv2.mkt",
+    "file.txt",
+    "S.log"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_CURRENT_USER\\\\Software\\\\Bitcoin\\\\Bitcoin-Qt  and try to look for",
+    "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersio"
+  ]
+}

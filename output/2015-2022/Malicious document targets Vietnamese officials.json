@@ -1,0 +1,16 @@
+{
+  "rule_id": 1036,
+  "name": "Malicious document targets Vietnamese officials",
+  "description": "-",
+  "references": [],
+  "samples": ["spoolsver.exe", "d.rtf", "ScnCfg.exe", "b7.rtf", "59.rtf"],
+  "weight": 0.0,
+  "signatures": [
+    "087d8bee1db61273a7cd533d52b63265d3a8a8b897526d7849c48bcdba4b22ec",
+    "9fba998ab2c1b7fec39da9817b27768ba7892c0613c4be7c525989161981d2e2",
+    "93aa353320a8e27923880401a4a0f3760374b4d17dcd709d351e612d589b969d",
+    "11f38b6a69978dad95c9b1479db9a8729ca57329855998bd41befc364657d654",
+    "9f5da7524817736cd85d87dae93fdbe478385baac1c0aa3102b6ad50d7e5e368",
+    "2c60d4312e4416745e56048ee35e694a79e1bc77e7e4d0b5811e64c84a72d2d7"
+  ]
+}

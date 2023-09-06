@@ -1,9 +1,0 @@
-{
-  "rule_id": 487,
-  "name": "2015-2022_textMustang Panda _ Threat Actor Profile _ CrowdStrike",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

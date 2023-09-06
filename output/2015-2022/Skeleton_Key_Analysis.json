@@ -1,0 +1,12 @@
+{
+  "rule_id": 1030,
+  "name": "Skeleton_Key_Analysis",
+  "description": "-",
+  "references": [],
+  "samples": ["samsrv.dll", "PsExec.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "ad61e8daeeba43e442514b177a1b41ad4b7c6727",
+    "5083b17ccc50dd0557dfc544f84e2ab55d6acd92"
+  ]
+}

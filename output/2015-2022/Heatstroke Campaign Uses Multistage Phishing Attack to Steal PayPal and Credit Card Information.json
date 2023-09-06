@@ -1,0 +1,17 @@
+{
+  "rule_id": 712,
+  "name": "Heatstroke Campaign Uses Multistage Phishing Attack to Steal PayPal and Credit Card Information",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "step6.php",
+    "Index.php",
+    "Mine.php",
+    "antiX.php",
+    "anti.php",
+    "langauges.php",
+    "Algo.php"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

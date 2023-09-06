@@ -1,0 +1,9 @@
+{
+  "rule_id": 608,
+  "name": "ecrypting-strings-in-emdivi",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

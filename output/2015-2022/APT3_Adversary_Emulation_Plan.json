@@ -1,0 +1,39 @@
+{
+  "rule_id": 391,
+  "name": "APT3_Adversary_Emulation_Plan",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "pirpi.pdf",
+    "recon.cx",
+    "bb897553.aspx",
+    "attacks.html",
+    "doubletap.html",
+    "ttcalc.exe",
+    "aptsim.html",
+    "lsremora.dll",
+    "chromepass.html",
+    "ttcalcBAK.exe",
+    "env.rb",
+    "mt.dat",
+    "vc.bat",
+    "gen.rb",
+    "shares.rb",
+    "thumbcache_96.dbx",
+    "deux.html",
+    "filename.dll",
+    "Netenum.rb",
+    "scanbox.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-",
+    "http://carnal0wnage.attackresearch.com/2012/09/more-on-",
+    "http://pwc.blogs.com/cyber_security_updates/2015/07/pirpi-",
+    "https://www.cobaltstrike.com/help-artifact-kit.",
+    "https://www.lastline.com/labsblog/an-analysis-of-plugx-malware/.",
+    "http://www.nirsoft.net/utils/chromepass.html.",
+    "https://www.cobaltstrike.com/.",
+    "https://www.metasploit.com/."
+  ]
+}

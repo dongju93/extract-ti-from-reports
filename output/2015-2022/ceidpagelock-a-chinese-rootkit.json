@@ -1,0 +1,13 @@
+{
+  "rule_id": 1238,
+  "name": "ceidpagelock-a-chinese-rootkit",
+  "description": "-",
+  "references": ["CVE-2018-8006"],
+  "samples": ["tongji.php", "houzi.sys", "CEID.sys"],
+  "weight": 0.0,
+  "signatures": [
+    "F7CAF6B189466895D0508EEB8FC25948",
+    "1A179E3A93BF3B59738CBE7BB25F72AB",
+    "C7A5241567B504F2DF18D085A4DDE559"
+  ]
+}

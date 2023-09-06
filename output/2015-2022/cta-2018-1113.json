@@ -1,0 +1,28 @@
+{
+  "rule_id": 727,
+  "name": "cta-2018-1113",
+  "description": "-",
+  "references": [
+    "CVE-2010-1899",
+    "CVE-2012-2532",
+    "CVE-2017-15906",
+    "CVE-2010-2730",
+    "CVE-2010-3972",
+    "CVE-2010-1256",
+    "CVE-2012-2531"
+  ],
+  "samples": [
+    "conn.log",
+    "cmd.log",
+    "ICON.PNG",
+    "rpc.log",
+    "mapping.log",
+    "ntlm.log",
+    "dns.log"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://scsnewstoday.com/news.",
+    "https://drive.google.com/open?"
+  ]
+}

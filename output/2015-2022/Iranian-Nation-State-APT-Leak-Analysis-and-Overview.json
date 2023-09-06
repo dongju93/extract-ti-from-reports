@@ -1,0 +1,9 @@
+{
+  "rule_id": 388,
+  "name": "Iranian-Nation-State-APT-Leak-Analysis-and-Overview",
+  "description": "-",
+  "references": [],
+  "samples": ["roshan.af"],
+  "weight": 0.0,
+  "signatures": []
+}

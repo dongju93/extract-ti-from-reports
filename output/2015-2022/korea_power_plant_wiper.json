@@ -1,0 +1,40 @@
+{
+  "rule_id": 808,
+  "name": "korea_power_plant_wiper",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tschmng.dll",
+    "wcmngsvc.dll",
+    "timesyncsvc.dll",
+    "wndmodmng.dll",
+    "pcssvc.dll",
+    "pnas.dll",
+    "pwpsvc.dll",
+    "wlanconf.dll",
+    "rregconf.dll",
+    "pnrpmchname.dll",
+    "iconsvc.dll",
+    "Bddsvc.dll",
+    "ehressvc.dll",
+    "wiredconfsvc.dll",
+    "netstsvc.dll",
+    "wstmng.dll",
+    "coladj.dll",
+    "tcpmsvc.dll",
+    "scardmngsvc.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b5b6e93ab27cec75f07af2a3a6a40926",
+    "33874577bf54d3c209925c9def880eb9",
+    "af792a34548a2038f034ea9a6ff0639a",
+    "800866bbab514657969996210bcf727b",
+    "9daf088fe4c9a9580216e98dbb7d1fca",
+    "f09ea2a841114121f32211faac553e1b",
+    "3BA8A6815F828DFC518A0BDBD27BBA5B",
+    "54783422cfd7029a26a3f3f5e9087d8a",
+    "ead682b889218979b1f2f1527227af9b",
+    "3ec69ee7135272e5bed3ea5378ade6ee"
+  ]
+}

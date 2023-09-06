@@ -1,0 +1,35 @@
+{
+  "rule_id": 599,
+  "name": "blackenergy_whitepaper",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "00002721.html",
+    "regedt32.exe",
+    "account.cfn",
+    "route.exe",
+    "00002715.html",
+    "botnetkernel.html",
+    "SndVol.exe",
+    "account.cfg"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "26b9816b3f9e2f350cc92ef4c30a097c6fec7798",
+    "e5c8c10b10ee288512d3a7c79ae1249b57857d23",
+    "bf9937489cb268f974d3527e877575b4fbb07cb0",
+    "441cfbaba1dfd58ce03792ef74d183529e8e0104",
+    "cc71aa8f919911676fb5d775c81afc682e6e3dd3",
+    "78636f7bbd52ea80d79b4e2a7882403092bbb02d",
+    "f7d4aa90b76646f4a011585eb43b9d13c60f48eb",
+    "d496f99f7e07d5cbbd177a9d43febe8fb87ebc3b",
+    "abab02d663872bcdbe2e008441fcd7157c0eb52d",
+    "bf9172e87e9264d1cddfc36cbaa74402bb405708",
+    "285b3252a878d1c633ea988153bbc23c148dd630",
+    "8743c8994cc1e8219697394b5cb494efa7dad796",
+    "8ccd2962bce8985d0794daed6e0bf73e5557cfe8",
+    "http://www.f-secure.com/weblog/archives/00002721.html",
+    "http://www.f-secure.com/weblog/archives/00002715.html",
+    "http://malware.dontneedcoffee.com/2014/06/botnetkernel.html"
+  ]
+}

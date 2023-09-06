@@ -1,0 +1,14 @@
+{
+  "rule_id": 925,
+  "name": "Packrat_ Seven Years of a South American Threat Actor",
+  "description": "-",
+  "references": [],
+  "samples": ["Confidencial.pdf", "confidencial.pdf"],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\%GUID%\\StubPath:",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\policies\\Explorer\\Run\\Policies:",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\msconfig: “C:\\WINDOWS\\System32\\regedit.exe”",
+    "https://citizenlab.org/2015/12/packrat-report/"
+  ]
+}

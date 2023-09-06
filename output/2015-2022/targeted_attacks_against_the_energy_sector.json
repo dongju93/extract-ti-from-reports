@@ -1,0 +1,21 @@
+{
+  "rule_id": 1102,
+  "name": "targeted_attacks_against_the_energy_sector",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Greek.exe",
+    "BusinessWeek.pdf",
+    "Translator.exe",
+    "Paper.pdf",
+    "com.exe",
+    "AVP.dll",
+    "Print.pdf",
+    "Edition.pdf",
+    "updates.zyns",
+    "iPlayer.exe",
+    "Book.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

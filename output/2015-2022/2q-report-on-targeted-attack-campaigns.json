@@ -1,0 +1,35 @@
+{
+  "rule_id": 155,
+  "name": "2q-report-on-targeted-attack-campaigns",
+  "description": "-",
+  "references": ["CVE-2012-2543"],
+  "samples": [
+    "wmifw.exe",
+    "aa446573.aspx",
+    "klwtblfs.exe",
+    "IEChecker.exe",
+    "IEChecker.lnk",
+    "fxsst.dll",
+    "svchost.dll",
+    "kav.exe",
+    "ixeshe.pdf",
+    "starter.exe",
+    "users.bin",
+    "pstorec.dll",
+    "qtds1979.gicp",
+    "Iexplorer.exe",
+    "Live360.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Internet Explorer\\IntelliForms\\Storage2",
+    "HKCU\\Software\\Microsoft\\Windows\tMessaging\tSubsystem\\Profiles",
+    "HKCU\\Software\\Microsoft\\Office\\Outlook\\ ",
+    "HKCU\\Software\\Microsoft\\Internet Account Manager\\Accounts",
+    "HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ ",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "HKCU\\Software\\rar and/or HKLM\\SOFTWARE\\rar",
+    "http://www.trendmicro.",
+    "http://technet."
+  ]
+}

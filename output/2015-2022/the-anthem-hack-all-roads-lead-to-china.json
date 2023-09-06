@@ -1,0 +1,13 @@
+{
+  "rule_id": 367,
+  "name": "the-anthem-hack-all-roads-lead-to-china",
+  "description": "-",
+  "references": [],
+  "samples": ["cePlugin.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "0A9545F9FC7A6D8596CF07A59F400FD3",
+    "230D8A7A60A07DF28A291B13DDF3351F",
+    "02FAB24461956458D70AEED1A028EB9C"
+  ]
+}

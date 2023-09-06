@@ -1,0 +1,43 @@
+{
+  "rule_id": 878,
+  "name": "patchwork-apt-group-targets-us-think-tanks",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "vsrss.exe",
+    "Q.doc",
+    "GPPi_MERICS_Authoritarian_Advance_2018_1.pdf",
+    "www.csis",
+    "Dream.doc",
+    "ebeijingcn.live",
+    "audio.exe",
+    "qrat.exe",
+    "I.doc",
+    "crome.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "598eeb6a18233023f3551097aa49b083",
+    "7659c41a30976d523bb0fbb8cde49094",
+    "c05e5131b196f43e1d02ca5ccc48ec0e",
+    "89beb207e7095d237c4d25c4c6e17e97",
+    "92942c54224cd462dd201ae11a560bb8",
+    "2d8e9fb75e6e816cad38189691e9c9c8",
+    "5c3456d5932544b779fe814133344fdb",
+    "6fa7fce844065ce9c605cbe713f3e170",
+    "9e4c373003c6d8f6597f96fc3ff1f49c",
+    "e32668e569362c96cc56db368b7e821e",
+    "e9a46966f93fe15c22636a5033c61c725add8fa5",
+    "dadc493abbe3e21610539e1d5a42f523626a6132",
+    "2b9a2d5b34b4d79fdfd6c7b861311b12d1627163",
+    "3f1f3e838a307aff52fbcb5bba5e4c8fe68c30e5",
+    "f28c592833f234c619917b5c7d8974840a810247",
+    "15010f7cea913f2a36c56da7d73c2b9eb5a3878f",
+    "85a21624df2211af3daf05c86a3fbea8271059d3",
+    "7ab750afb25457a81c27a98dc6dfd51c27e61b0e",
+    "b7319a5ccf605fb2ff7760130e212728bccad323",
+    "https://www.cfr.org/blog/four-traps-china-may-fall",
+    "https://www.merics.org/sites/default/files/2018-",
+    "https://www.csis.org/analysis/chinas-arctic-dream"
+  ]
+}

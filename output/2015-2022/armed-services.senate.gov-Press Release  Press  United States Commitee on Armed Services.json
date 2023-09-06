@@ -1,0 +1,9 @@
+{
+  "rule_id": 82,
+  "name": "armed-services.senate.gov-Press Release  Press  United States Commitee on Armed Services",
+  "description": "-",
+  "references": [],
+  "samples": ["senate.gov"],
+  "weight": 0.0,
+  "signatures": []
+}

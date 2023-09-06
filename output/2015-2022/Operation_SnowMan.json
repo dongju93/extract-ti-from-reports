@@ -1,0 +1,14 @@
+{
+  "rule_id": 695,
+  "name": "Operation_SnowMan",
+  "description": "-",
+  "references": [],
+  "samples": ["sqlrenew.txt", "img.html", "stream.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "9d20566a327076b7152bbf9ed20292c4",
+    "758886e58f9ea2ff22b57cbbb015166e",
+    "8455bbb9a210ce603a1b646b0d951bce",
+    "0294f9280491f85d898ebe471f0fb58e"
+  ]
+}

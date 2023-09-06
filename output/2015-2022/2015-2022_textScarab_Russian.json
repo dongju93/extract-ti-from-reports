@@ -1,9 +1,0 @@
-{
-  "rule_id": 796,
-  "name": "2015-2022_textScarab_Russian",
-  "description": "-",
-  "references": [],
-  "samples": ["seclog32.dll", "year.doc", "hidsvc.dat", "года.doc"],
-  "weight": 0.0,
-  "signatures": []
-}

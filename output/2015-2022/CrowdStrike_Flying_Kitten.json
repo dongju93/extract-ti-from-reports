@@ -1,0 +1,9 @@
+{
+  "rule_id": 135,
+  "name": "CrowdStrike_Flying_Kitten",
+  "description": "-",
+  "references": [],
+  "samples": ["usa.gov", "Stealer.pdb", "IntelRapidStart.exe"],
+  "weight": 0.0,
+  "signatures": []
+}

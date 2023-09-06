@@ -1,9 +1,0 @@
-{
-  "rule_id": 17,
-  "name": "2015-2022_textProjectSauron_ top level cyber-espionage platform covertly extracts encrypted government comms - Securelist",
-  "description": "-",
-  "references": ["CVE-2016-4171"],
-  "samples": ["Remsec.gen"],
-  "weight": 0.0,
-  "signatures": []
-}

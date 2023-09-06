@@ -1,0 +1,18 @@
+{
+  "rule_id": 726,
+  "name": "rpt-apt38-2018-web_v4",
+  "description": "-",
+  "references": ["CVE-2016-4119"],
+  "samples": [
+    "archive.fo",
+    "Hermes.DNS",
+    "cnbv.gob",
+    "DYEPACK.FOX",
+    "INFORMATION.txt",
+    "onlink.epac",
+    "Trojan.POS",
+    "Webshell.JSP"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

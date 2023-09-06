@@ -1,0 +1,9 @@
+{
+  "rule_id": 972,
+  "name": "wp-pawn-storm-in-2019",
+  "description": "-",
+  "references": [],
+  "samples": ["prevention.html"],
+  "weight": 0.0,
+  "signatures": []
+}

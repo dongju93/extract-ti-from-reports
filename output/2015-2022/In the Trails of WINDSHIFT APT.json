@@ -1,0 +1,42 @@
+{
+  "rule_id": 470,
+  "name": "In the Trails of WINDSHIFT APT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "www.mien",
+    "Contacts.zip",
+    "darkmatter.ae",
+    "drop.txt",
+    "Contacts.app",
+    "Credits.rtf",
+    "vectra.ai",
+    "00002554.html",
+    "india.html",
+    "government.pdf",
+    "ae.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://medium.com/amnesty-insights/operation-kingphish-uncovering-a-campaign-of-cyber-attacks-against-civil-society-in-qatar-and-",
+    "https://www.intelligenceonline.com/government-intelligence/2018/01/31/enhanced-cooperation-in-cyber-field,108291981-art",
+    "https://www.networkworld.com/article/2167354/malware-cybercrime/peculiar-malware-trail-raises-questions-about-security-firm-in-india.html",
+    "https://motherboard.vice.com/en_us/article/d7ywvx/leaked-catalog-weaponized-information-twitter-aglaya",
+    "https://darkmatter.ae/evolution-muddywater-advanced-persistent-threat-apt/",
+    "https://www.helpnetsecurity.com/2015/07/08/sophisticated-successful-morpho-apt-group-is-after-corporate-data/",
+    "http://niiconsulting.com/checkmate/2013/05/indian-apt/",
+    "https://www.cyph3rsec.com/site/",
+    "https://citizenlab.ca/2016/05/stealth-falcon/",
+    "https://www.bellingcat.com/news/mena/2017/06/12/bahamut-pursuing-cyber-espionage-actor-middle-east/",
+    "https://blog.vectra.ai/blog/moonlight-middle-east-targeted-attacks",
+    "http://www.unicorn-engine.org",
+    "https://www.f-secure.com/weblog/archives/00002554.html",
+    "https://www.intelligenceonline.com/corporate-intelligence/2017/11/15/cyber-attack--phronesis-takes-appin-security-s-path,108280860-art",
+    "https://www.bellingcat.com/resources/case-studies/2017/10/27/bahamut-revisited-cyber-espionage-middle-east-south-asia/",
+    "https://www.eff.org/files/2016/08/03/i-got-a-letter-from-the-government.pdf",
+    "http://www.mien.in/2018/08/14/emulating-decryption-function-with-radare2/",
+    "https://darkmatter.ae/darkmatter-",
+    "https://www.recordedfuture.com/dark-hotel-malware/",
+    "http://csecybsec.com/download/zlab/Wonder_botnet_ZLab_report.pdf"
+  ]
+}

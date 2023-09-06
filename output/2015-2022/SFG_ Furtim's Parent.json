@@ -1,0 +1,36 @@
+{
+  "rule_id": 407,
+  "name": "SFG_ Furtim's Parent",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "snxcmd.exe",
+    "sunbox.exe",
+    "mdare32_0.sys",
+    "rdpinst.exe",
+    "Raptorclient.exe",
+    "NtHookEngine.dll",
+    "rtktst.exe",
+    "temp.exe",
+    "WinDump.exe",
+    "FILE.EXE",
+    "APIOverride.dll",
+    "start.bat",
+    "virus.exe",
+    "log.dll",
+    "watch.dll",
+    "sampel.exe",
+    "API.DLL",
+    "Zample.exe",
+    "smpl.exe",
+    "runme.exe",
+    "U.dll",
+    "tracer.dll",
+    "LOG_API32.DLL",
+    "VmRemoteGuest.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\\\. "
+  ]
+}

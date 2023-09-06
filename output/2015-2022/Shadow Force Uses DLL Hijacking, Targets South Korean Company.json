@@ -1,0 +1,18 @@
+{
+  "rule_id": 415,
+  "name": "Shadow Force Uses DLL Hijacking, Targets South Korean Company",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "aio.exe",
+    "SQLLib80.dll",
+    "latinfect.exe",
+    "SuperBot.exe",
+    "leh.exe",
+    "installe.exe",
+    "SuperBotx64.exe",
+    "xa80.dll"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,0 +1,13 @@
+{
+  "rule_id": 396,
+  "name": "india-pakistan-cyber-rivalry",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "https://t.co/CELGBs2b6A",
+    "https://t.co/pVGevO6hSp",
+    "https://t.co/AMD7IrEauq"
+  ]
+}

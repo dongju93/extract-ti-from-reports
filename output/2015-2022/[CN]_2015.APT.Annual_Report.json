@@ -1,0 +1,39 @@
+{
+  "rule_id": 673,
+  "name": "[CN]_2015.APT.Annual_Report",
+  "description": "-",
+  "references": ["CVE-2015-0097"],
+  "samples": [
+    "toolbox.pdf",
+    "3.XX",
+    "xxx.dll",
+    "人伤亡.rar",
+    "1740.html",
+    "seupdater.dll",
+    "qq.exe",
+    "者可以通过诱使用户打开一个经过特殊构造的.rtf",
+    "35.exe",
+    "icefog.pdf",
+    "txupd.exe",
+    "blogspot.tw",
+    "androidservice.apk",
+    "pain.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://securityxploded.com/outlook-pas",
+    "https://skyeye.360safe.com/",
+    "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/icefog.pdf",
+    "http://www.tarasco.org/security/pwdum",
+    "https://packetstormsecurity.com/files/cve/CVE-2015-0097",
+    "http://bobao.360.cn/news/detail/1740.html",
+    "https://www.cobaltstrike.com/",
+    "http://XXXXXX:8080/images/XXXXXX'",
+    "https://ti.360.com",
+    "http://www.unixwiz.net/tools/nbtscan-1",
+    "http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driv",
+    "http://XXXXXX:8080/images/XXXXXX'))",
+    "http://detect-respond.blogspot.tw/2013/03/the-pyramid-of-pain.html",
+    "https://www.alienvault.com/open-threat-exchange/blog/microsoft-office-zeroday-used-to-attack-pakistani-target"
+  ]
+}

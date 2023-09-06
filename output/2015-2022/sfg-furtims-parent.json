@@ -1,0 +1,11 @@
+{
+  "rule_id": 1105,
+  "name": "sfg-furtims-parent",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\\\"
+  ]
+}

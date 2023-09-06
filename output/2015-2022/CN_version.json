@@ -1,0 +1,25 @@
+{
+  "rule_id": 1161,
+  "name": "CN_version",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "winsvc.exe",
+    "adobsuit.exe",
+    "NovDwn.pdb",
+    "exe加载aﬂup64.dll",
+    "若加载进程不为rundll32.dll",
+    "Loader.lnk",
+    "否为rundll32.exe",
+    "CF.tmp",
+    "drvhost.exe",
+    "Records.doc",
+    "smtpldr.exe",
+    "Start.lnk"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "9a5f4cc4b39b13a6aecfe4c37179ea63",
+    "HKCU\\Environment，键值: AppId，数据：c:\\intel\\drvhost.exe）"
+  ]
+}

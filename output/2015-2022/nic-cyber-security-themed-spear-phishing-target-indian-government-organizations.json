@@ -1,0 +1,23 @@
+{
+  "rule_id": 6,
+  "name": "nic-cyber-security-themed-spear-phishing-target-indian-government-organizations",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "meity.gov",
+    "0012.exe",
+    "webmail.php",
+    "0012.vbe",
+    "WINWORD.exe",
+    "0012.vbs",
+    "Security.pdf",
+    "duia.CC",
+    "WScript.exe",
+    "SOP.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4dc28faeb77550174b936d9ba97d4679",
+    "http://meity.gov.in/sites/upload_files/dit/files/Plan_Report_on_Cyber_Security.pdf)."
+  ]
+}

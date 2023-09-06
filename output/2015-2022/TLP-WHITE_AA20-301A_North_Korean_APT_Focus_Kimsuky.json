@@ -1,0 +1,43 @@
+{
+  "rule_id": 953,
+  "name": "TLP-WHITE_AA20-301A_North_Korean_APT_Focus_Kimsuky",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "member.daum",
+    "netsvcs.exe",
+    "vcmon.exe",
+    "sts.desk",
+    "hogy.desk",
+    "Daurn.pe",
+    "vilene.desk",
+    "filedown.php",
+    "CrowdStrikeGlobalThreatReport.pdf",
+    "eastsea.or",
+    "net.tm",
+    "account.daum",
+    "jQuery.js",
+    "A.stix",
+    "Bigfile.pe",
+    "setup.log",
+    "login.daum",
+    "dr.lab",
+    "naver.hol",
+    "daurn.pe",
+    "gmail.kr",
+    "Cdaum.pe",
+    "navier.pe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.securityweek.com/north-korea-suspected-cyber-espionage-attacks-against-south-korean-entities",
+    "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-",
+    "https://www.us-cert.cisa.gov/northkorea.",
+    "https://yoroi.company/research/the-north-korean-kimsuky-apt-keeps-threatening-south-korea-evolving-its-ttps/",
+    "https://blog.malwarebytes.com/threat-analysis/2020/04/apts-and-covid-19-how-advanced-persistent-threats-use-the-",
+    "https://www.zdnet.com/article/cyber-espionage-group-uses-chrome-extension-to-infect-victims/",
+    "https://www.cyberscoop.com/north-korea-accelerate-commercial-espionage-meet-kims-economic-deadline/",
+    "https://cyware.com/news/babyshark-malware-continues-to-target-nuclear-and-cryptocurrency-industries-40e04829",
+    "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia"
+  ]
+}

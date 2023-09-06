@@ -1,0 +1,21 @@
+{
+  "rule_id": 278,
+  "name": "BlackOasis",
+  "description": "-",
+  "references": ["CVE-2017-8759", "CVE-2017-11292", "CVE-2016-0984"],
+  "samples": [
+    "mo.exe",
+    "32.html",
+    "install.cab",
+    "15b937.cab",
+    "msvcr90.dll",
+    "AdapterTroubleshooter.exe",
+    "d3d9.dll",
+    "u.iaf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4a49135d2ecc07085a8b7c5925a36c0a",
+    "https://helpx.adobe.com/security/products/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "rule_id": 823,
+  "name": "LeeryTurtleThreatReport_05_20",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Arguments.Item",
+    "googlecloud.live",
+    "gdriveupload.site",
+    "Password.txt",
+    "NOTEPAD.EXE",
+    "xBoxOne.lnk",
+    "gogleshare.xyz",
+    "liveonedrvshare.xyz",
+    "gdrvupload.xyz",
+    "xBoxOne.Ink",
+    "gdrives.top",
+    "msupdatepms.xyz",
+    "mfesf.vbs",
+    "amzonnews.club",
+    "gmaildrive.site",
+    "showprice.xyz",
+    "whr.Open",
+    "whr.Send",
+    "pi.Name",
+    "nancialmarketing.live",
+    "googleauth.pro",
+    "sharedrivegght.xyz",
+    "drivegooglshare.xyz",
+    "gdriveshare.top",
+    "tcl.Save",
+    "gdrives.best"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://bit.ly/",
+    "https://bit.ly/37W6fgx",
+    "https://cyberstruggle.org"
+  ]
+}

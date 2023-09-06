@@ -1,0 +1,34 @@
+{
+  "rule_id": 956,
+  "name": "Studying Donot Team",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Support.lnk",
+    "mystrylust.pw",
+    "msplugin.icu",
+    "bin.js",
+    "BinWork.pdb",
+    "TaskTool.pdb",
+    "MsBuild.pdb",
+    "sinter.exe",
+    "WORDICON.lnk",
+    "A64.dll",
+    "TerBin.pdb",
+    "WorkFile.pdb",
+    "drivethrough.top",
+    "ow.exe",
+    "An.dll",
+    "customer.txt",
+    "ConnectLink.pdb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6ce1855cf027d76463bb8d5954fcc7bb",
+    "21b7fc61448af8938c09007871486f58",
+    "71ab0946b6a72622aef6cdd7907479ec",
+    "22f41b6238290913fc4d196b8423724d",
+    "330a4678fae2662975e850200081a1b1",
+    "22e7ef7c3c7911b4c08ce82fde76ec72"
+  ]
+}

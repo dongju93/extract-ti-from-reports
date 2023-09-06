@@ -1,0 +1,11 @@
+{
+  "rule_id": 844,
+  "name": "targeted_attacksaga.html",
+  "description": "-",
+  "references": [],
+  "samples": ["sysupdate.aspx", "33.xx"],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 805,
-  "name": "2015-2022_textThe-Kittens-are-Back-in-Town-3",
-  "description": "-",
-  "references": [],
-  "samples": ["akademie.dw", "lgntopl.gif"],
-  "weight": 0.0,
-  "signatures": ["https://developers.google.com/identity/protocols/OAuth2"]
-}

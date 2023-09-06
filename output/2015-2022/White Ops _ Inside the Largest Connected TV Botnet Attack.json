@@ -1,0 +1,11 @@
+{
+  "rule_id": 293,
+  "name": "White Ops _ Inside the Largest Connected TV Botnet Attack",
+  "description": "-",
+  "references": [],
+  "samples": ["uas.txt", "ads.txt", "sellers.json"],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.whiteops.com/blog/giving-fraudsters-the-cold-shoulder-inside-the-largest-connected-tv-bot-attack"
+  ]
+}

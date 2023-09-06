@@ -1,0 +1,28 @@
+{
+  "rule_id": 153,
+  "name": "unit42.paloaltonetworks.com-xHunt Campaign New BumbleBee Webshell and SSH Tunnels Used for Lateral Movement",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "cq.aspx",
+    "system.Data",
+    "ww.txt",
+    "SVROOT.exe",
+    "teredo.txt",
+    "System.Data",
+    "ShowDoc.aspx",
+    "da.fill",
+    "w.txt",
+    "ja.aspx",
+    "RTQ.exe",
+    "conn.Open",
+    "r.txt"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "A2B4D934D394B54672EA10CA8A65C198",
+    "36252C6C2F616C5664A54058F33EF463",
+    "1B2F81BD2D39E60F1E1AD05DD3BF9F56",
+    "28D968F26028D956E6F1199092A1C408"
+  ]
+}

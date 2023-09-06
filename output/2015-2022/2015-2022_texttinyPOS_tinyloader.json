@@ -1,9 +1,0 @@
-{
-  "rule_id": 505,
-  "name": "2015-2022_texttinyPOS_tinyloader",
-  "description": "-",
-  "references": ["CVE-2016-0128", "CVE-2016-2118"],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

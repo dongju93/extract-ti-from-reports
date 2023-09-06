@@ -1,9 +1,0 @@
-{
-  "rule_id": 280,
-  "name": "2015-2022_textOperation Clandestine Wolf",
-  "description": "-",
-  "references": [],
-  "samples": ["14.html"],
-  "weight": 0.0,
-  "signatures": ["https://helpx.adobe.com/security/products/flash"]
-}

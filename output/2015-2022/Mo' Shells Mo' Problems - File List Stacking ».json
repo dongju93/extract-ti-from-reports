@@ -1,0 +1,12 @@
+{
+  "rule_id": 943,
+  "name": "Mo' Shells Mo' Problems - File List Stacking »",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "wmcscertificationPassportRedirector.aspx",
+    "PassportRedirector.aspx"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

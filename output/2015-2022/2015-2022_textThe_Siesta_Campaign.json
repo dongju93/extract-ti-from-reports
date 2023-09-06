@@ -1,9 +1,0 @@
-{
-  "rule_id": 517,
-  "name": "2015-2022_textThe_Siesta_Campaign",
-  "description": "-",
-  "references": [],
-  "samples": ["2014.exe", "UIODsevr.exe"],
-  "weight": 0.0,
-  "signatures": ["014542eafb792b98196954373b3fd13e60cb94fe", "http://www.micro"]
-}

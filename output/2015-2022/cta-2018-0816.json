@@ -1,0 +1,13 @@
+{
+  "rule_id": 864,
+  "name": "cta-2018-0816",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "d08de00e7168a441052672219e717957",
+    "7f77d2f18c82b4fedf313b2df7d2b581a9b73a48",
+    "acd07de34cc15f49fd919dc18e695632a08a132fcfc4e9b6292e1a0d45e953e5"
+  ]
+}

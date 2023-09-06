@@ -1,0 +1,28 @@
+{
+  "rule_id": 361,
+  "name": "ppt treadstone-71-intelligence-games-in-the-power-grid",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "60.zip",
+    "prostar.su",
+    "12_SW_20141211.zip",
+    "group.su",
+    "electronics.biz",
+    "schneiderelectric.su",
+    "obfuscator.xy",
+    "deltronic.su",
+    "deltronix.su",
+    "setup.zip",
+    "Malware.Heur",
+    "libraries.rar",
+    "virut.bn",
+    "software.zip",
+    "optidrive.su",
+    "autonic.su",
+    "injector.bg",
+    "keb.su"
+  ],
+  "weight": 0.0,
+  "signatures": []
+}

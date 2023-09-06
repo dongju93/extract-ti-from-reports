@@ -1,0 +1,23 @@
+{
+  "rule_id": 126,
+  "name": "ByeBye Shell and the targeting of Pakistan",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "g.yY",
+    "sock.send",
+    "subprocess.PIPE",
+    "sock.recv",
+    "IEXPLORE.EXE"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6b349e439a17c4b66fb2a25965432aa9",
+    "469cf94c457c17d8f24dacf9f9d41f33",
+    "8b4224dac114a9b8433913a1977f88b2",
+    "d36da5c48d8fb7ee8c736ae183bf3f8a",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /v ",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOW",
+    "https://www.rapid7.com/blog/post/2013/08/19/byebye-and-the-targeting-of-pakistan/"
+  ]
+}

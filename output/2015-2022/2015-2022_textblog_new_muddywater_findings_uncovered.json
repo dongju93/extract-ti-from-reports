@@ -1,9 +1,0 @@
-{
-  "rule_id": 343,
-  "name": "2015-2022_textblog_new_muddywater_findings_uncovered",
-  "description": "-",
-  "references": ["CVE-2019-2725"],
-  "samples": ["Powershell.exe"],
-  "weight": 0.0,
-  "signatures": []
-}

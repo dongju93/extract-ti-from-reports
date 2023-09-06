@@ -1,0 +1,9 @@
+{
+  "rule_id": 984,
+  "name": "Satellite-turla-apt-command-and-control-in-the-sky",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": []
+}

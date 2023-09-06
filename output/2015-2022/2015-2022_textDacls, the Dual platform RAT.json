@@ -1,9 +1,0 @@
-{
-  "rule_id": 640,
-  "name": "2015-2022_textDacls, the Dual platform RAT",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": ["http://www.areac-"]
-}

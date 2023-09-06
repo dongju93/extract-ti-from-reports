@@ -1,0 +1,19 @@
+{
+  "rule_id": 1075,
+  "name": "2015.03.30.crowdstrike.chopping-packets-decoding-china-chopper-web-shell-traffic-over-ssl",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ssl.pcap",
+    "http.pcap",
+    "WebServices.dll",
+    "commands.txt",
+    "privatekeyrsa.key",
+    "pwd.txt"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/decrypting-ssl-with-",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html"
+  ]
+}

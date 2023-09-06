@@ -1,0 +1,13 @@
+{
+  "rule_id": 507,
+  "name": "New Insights into Energetic Bear's Attacks on Turkish Critical Infrastructure",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.c",
+    "http://www.plantengineering.com/t",
+    "http://www.controleng.com/t"
+  ]
+}

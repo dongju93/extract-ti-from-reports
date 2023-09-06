@@ -1,0 +1,17 @@
+{
+  "rule_id": 1246,
+  "name": "TA505 At It Again_ Variety is the Spice of ServHelper and FlawedAmmyy",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "dllhots.exe",
+    "used.MSI",
+    "99.msi",
+    "fedex.doc",
+    "stelar.exe",
+    "555.msi",
+    "example.log"
+  ],
+  "weight": 0.0,
+  "signatures": ["http://92.38.135.99/99.msi"]
+}

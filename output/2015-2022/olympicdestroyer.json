@@ -1,0 +1,25 @@
+{
+  "rule_id": 679,
+  "name": "olympicdestroyer",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "kma.go",
+    "evtsys.exe",
+    "customs.go",
+    "monovm.mars",
+    "korea.kr",
+    "sports.or",
+    "evtchk.txt",
+    "evtchk.bat",
+    "ppcom.kr"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "5e2988cfc41d844e2114dceb8851d0bb",
+    "19C539FF2C50A0EFD52BB5B93D03665A",
+    "86D1A184850859A6A4D1C35982F3C40E",
+    "http://131.255.*.*:8081",
+    "https://nordvpn.com/)"
+  ]
+}

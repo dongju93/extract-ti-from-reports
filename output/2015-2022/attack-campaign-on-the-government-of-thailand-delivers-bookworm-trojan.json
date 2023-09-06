@@ -1,0 +1,28 @@
+{
+  "rule_id": 900,
+  "name": "attack-campaign-on-the-government-of-thailand-delivers-bookworm-trojan",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "www.vxea",
+    "pcal2.dwy",
+    "welcome.dnsd",
+    "luotuozhizhu.blog",
+    "wankaophansa.exe",
+    "wucy08.eicp",
+    "society.go",
+    "s.dwy",
+    "3h01.dwy",
+    "bugatti.from"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6741ad202dcef693dceb98b0a10c49fc",
+    "7065c709dd9dc7072dd5a5e2904c2d78",
+    "4537257cb69a467a63c5a561825571f9",
+    "e6cb32805bc5d758a5ea1dcd3c05beb8",
+    "e602a12e8173ca17ba4a0c6c12a094c1",
+    "http://www.m-society.go.th/ewt_news.php?nid=15002)",
+    "http://metro.co.uk/2015/08/17/huge-explosion-in-central-bangkok-near-major-tourist-"
+  ]
+}

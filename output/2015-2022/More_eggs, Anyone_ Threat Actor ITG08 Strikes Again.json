@@ -1,0 +1,28 @@
+{
+  "rule_id": 607,
+  "name": "More_eggs, Anyone_ Threat Actor ITG08 Strikes Again",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "58678.txt",
+    "27603.docx",
+    "F.txt",
+    "50573.txt",
+    "65390.txt",
+    "metsvr.dll",
+    "updater.exe",
+    "625222E09B6CD028459.txt",
+    "39054.txt",
+    "A70613FF7F5DE98.txt",
+    "12025.txt",
+    "49340.txt",
+    "4140.txt",
+    "28535.txt"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Notepad\\<computername>. If not running with",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Notepad\\",
+    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with"
+  ]
+}

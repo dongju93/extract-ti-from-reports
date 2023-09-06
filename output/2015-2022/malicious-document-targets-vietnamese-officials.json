@@ -1,0 +1,18 @@
+{
+  "rule_id": 1013,
+  "name": "malicious-document-targets-vietnamese-officials",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Winword.exe",
+    "dascgosrky.exe",
+    "Dascgosrky.exe",
+    "onstaticcache.dat",
+    "impresstravel.ga"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File",
+    "https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-"
+  ]
+}
