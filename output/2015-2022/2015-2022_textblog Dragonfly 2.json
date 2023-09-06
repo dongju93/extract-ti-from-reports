@@ -1,1 +1,22 @@
-{"rule_id": 547, "name": "2015-2022_textblog Dragonfly 2", "description": "-", "references": [], "samples": ["WORDPRESS.COM", "TREADSTONE71.COM", "ow.ly"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.eweek.com/security/dragon", "https://joesecurity.org/", "http://ow.ly/3Ly730f2P0A"], "weight": 0.0, "signatures": ["http://www.eweek.com/security/dragon", "https://joesecurity.org/", "http://ow.ly/3Ly730f2P0A"]}
+{
+  "rule_id": 547,
+  "name": "2015-2022_textblog Dragonfly 2",
+  "description": "-",
+  "references": [],
+  "samples": ["WORDPRESS.COM", "TREADSTONE71.COM", "ow.ly"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.eweek.com/security/dragon",
+    "https://joesecurity.org/",
+    "http://ow.ly/3Ly730f2P0A"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.eweek.com/security/dragon",
+    "https://joesecurity.org/",
+    "http://ow.ly/3Ly730f2P0A"
+  ]
+}

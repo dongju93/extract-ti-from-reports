@@ -1,1 +1,19 @@
-{"rule_id": 764, "name": "2015-2022_textBetween Hong Kong and Burma_ Tracking UP007 and SLServer Espionage Campaigns - The Citizen Lab", "description": "-", "references": [], "samples": ["73個立委選區選情研判.doc", "2016總統選舉民情中心預測值.rar", "中国国家安全委员会机构设置和人员名单提前曝光.docx", "2016總統選舉民情中心預測值.doc"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://citizenlab.org/2016/04/between-hong-kong-and-burma/"], "weight": 0.0, "signatures": ["https://citizenlab.org/2016/04/between-hong-kong-and-burma/"]}
+{
+  "rule_id": 764,
+  "name": "2015-2022_textBetween Hong Kong and Burma_ Tracking UP007 and SLServer Espionage Campaigns - The Citizen Lab",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "73個立委選區選情研判.doc",
+    "2016總統選舉民情中心預測值.rar",
+    "中国国家安全委员会机构设置和人员名单提前曝光.docx",
+    "2016總統選舉民情中心預測值.doc"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://citizenlab.org/2016/04/between-hong-kong-and-burma/"],
+  "weight": 0.0,
+  "signatures": ["https://citizenlab.org/2016/04/between-hong-kong-and-burma/"]
+}

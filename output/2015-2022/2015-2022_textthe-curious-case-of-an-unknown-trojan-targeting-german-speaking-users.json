@@ -1,1 +1,47 @@
-{"rule_id": 285, "name": "2015-2022_textthe-curious-case-of-an-unknown-trojan-targeting-german-speaking-users", "description": "-", "references": [], "samples": ["masterhost1333.asia", "10cyberprojects2016.asia", "masterhost8981.asia", "ukcompanymarketing.asia", "marketingking878.asia", "2015.biz", "resdomactivationa.asia", "goodwinn8.asia", "mastehost12312.asia", "auspostresponse22.asia", "remembermetoday4.asia", "startupproject33676.asia", "masterlin888.pw", "lalalababla.asia", "responder201922.asia", "masterhost122133.asia", "ipintel.io", "mastehost88832.asia", "jajajakala8212.asia", "startupproject336.asia", "copolsox.us", "marketing5050.asia"], "MD5": [], "SHA1": [], "SHA256": ["5d759710686db2c5b81c7125aacf70e252de61ab360d95e46cee8a9011c5693f", "5afee15a022fcdb12cc791dd02db0ec6beb2e9152b312b2251f2b8ecfe62e03c", "103c6f425cfcd5eb935136f8c4ce51b9556974545bc6b7947039405164d46b0d", "cec73c7b54c290b297a713e0eb07c7c2d822cc67ed61b9981256464273d63892"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["5d759710686db2c5b81c7125aacf70e252de61ab360d95e46cee8a9011c5693f", "5afee15a022fcdb12cc791dd02db0ec6beb2e9152b312b2251f2b8ecfe62e03c", "103c6f425cfcd5eb935136f8c4ce51b9556974545bc6b7947039405164d46b0d", "cec73c7b54c290b297a713e0eb07c7c2d822cc67ed61b9981256464273d63892"]}
+{
+  "rule_id": 285,
+  "name": "2015-2022_textthe-curious-case-of-an-unknown-trojan-targeting-german-speaking-users",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "masterhost1333.asia",
+    "10cyberprojects2016.asia",
+    "masterhost8981.asia",
+    "ukcompanymarketing.asia",
+    "marketingking878.asia",
+    "2015.biz",
+    "resdomactivationa.asia",
+    "goodwinn8.asia",
+    "mastehost12312.asia",
+    "auspostresponse22.asia",
+    "remembermetoday4.asia",
+    "startupproject33676.asia",
+    "masterlin888.pw",
+    "lalalababla.asia",
+    "responder201922.asia",
+    "masterhost122133.asia",
+    "ipintel.io",
+    "mastehost88832.asia",
+    "jajajakala8212.asia",
+    "startupproject336.asia",
+    "copolsox.us",
+    "marketing5050.asia"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "5d759710686db2c5b81c7125aacf70e252de61ab360d95e46cee8a9011c5693f",
+    "5afee15a022fcdb12cc791dd02db0ec6beb2e9152b312b2251f2b8ecfe62e03c",
+    "103c6f425cfcd5eb935136f8c4ce51b9556974545bc6b7947039405164d46b0d",
+    "cec73c7b54c290b297a713e0eb07c7c2d822cc67ed61b9981256464273d63892"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "5d759710686db2c5b81c7125aacf70e252de61ab360d95e46cee8a9011c5693f",
+    "5afee15a022fcdb12cc791dd02db0ec6beb2e9152b312b2251f2b8ecfe62e03c",
+    "103c6f425cfcd5eb935136f8c4ce51b9556974545bc6b7947039405164d46b0d",
+    "cec73c7b54c290b297a713e0eb07c7c2d822cc67ed61b9981256464273d63892"
+  ]
+}

@@ -1,1 +1,31 @@
-{"rule_id": 1014, "name": "2015-2022_textDeadlyKiss_TAAR", "description": "-", "references": [], "samples": ["lang1.php", "stop.tmp", "newitems.php"], "MD5": [], "SHA1": [], "SHA256": ["6373cceae42086db2ec0d7d801540206ad7cd16130f0fdc0bf1d5e20cca876d6", "d7ce022a6bad033fd22b76259ed4071b2d76f1ec547b2924411824aa7362e442", "479b9e6d7a5d35d8854756be845de34e270214d145ddbd8f70b0c9755b4a62a8", "98214a8ff23135a1e92e2ab029a4806cd1501d0a190798cf37bec90b2b20729e", "c0d70c678fcf073e6b5ad0bce14d8904b56d73595a6dde764f95d043607e639b"], "Registry_Entries": [], "URL": ["http://www.tawaranmurah.com/home/newitems.php", "http://www.orionfile.com/rssfeeds/lang1.php"], "weight": 0.0, "signatures": ["6373cceae42086db2ec0d7d801540206ad7cd16130f0fdc0bf1d5e20cca876d6", "d7ce022a6bad033fd22b76259ed4071b2d76f1ec547b2924411824aa7362e442", "479b9e6d7a5d35d8854756be845de34e270214d145ddbd8f70b0c9755b4a62a8", "98214a8ff23135a1e92e2ab029a4806cd1501d0a190798cf37bec90b2b20729e", "c0d70c678fcf073e6b5ad0bce14d8904b56d73595a6dde764f95d043607e639b", "http://www.tawaranmurah.com/home/newitems.php", "http://www.orionfile.com/rssfeeds/lang1.php"]}
+{
+  "rule_id": 1014,
+  "name": "2015-2022_textDeadlyKiss_TAAR",
+  "description": "-",
+  "references": [],
+  "samples": ["lang1.php", "stop.tmp", "newitems.php"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "6373cceae42086db2ec0d7d801540206ad7cd16130f0fdc0bf1d5e20cca876d6",
+    "d7ce022a6bad033fd22b76259ed4071b2d76f1ec547b2924411824aa7362e442",
+    "479b9e6d7a5d35d8854756be845de34e270214d145ddbd8f70b0c9755b4a62a8",
+    "98214a8ff23135a1e92e2ab029a4806cd1501d0a190798cf37bec90b2b20729e",
+    "c0d70c678fcf073e6b5ad0bce14d8904b56d73595a6dde764f95d043607e639b"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.tawaranmurah.com/home/newitems.php",
+    "http://www.orionfile.com/rssfeeds/lang1.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6373cceae42086db2ec0d7d801540206ad7cd16130f0fdc0bf1d5e20cca876d6",
+    "d7ce022a6bad033fd22b76259ed4071b2d76f1ec547b2924411824aa7362e442",
+    "479b9e6d7a5d35d8854756be845de34e270214d145ddbd8f70b0c9755b4a62a8",
+    "98214a8ff23135a1e92e2ab029a4806cd1501d0a190798cf37bec90b2b20729e",
+    "c0d70c678fcf073e6b5ad0bce14d8904b56d73595a6dde764f95d043607e639b",
+    "http://www.tawaranmurah.com/home/newitems.php",
+    "http://www.orionfile.com/rssfeeds/lang1.php"
+  ]
+}

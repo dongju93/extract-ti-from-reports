@@ -1,1 +1,22 @@
-{"rule_id": 1012, "name": "2015-2022_textblog Inexsmar", "description": "-", "references": [], "samples": ["Associatewxcod.scr", "Korea.scr"], "MD5": [], "SHA1": ["92cc0e7348aa3ee9386b25076868dee72e5193e4", "a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444", "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["92cc0e7348aa3ee9386b25076868dee72e5193e4", "a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444", "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"]}
+{
+  "rule_id": 1012,
+  "name": "2015-2022_textblog Inexsmar",
+  "description": "-",
+  "references": [],
+  "samples": ["Associatewxcod.scr", "Korea.scr"],
+  "MD5": [],
+  "SHA1": [
+    "92cc0e7348aa3ee9386b25076868dee72e5193e4",
+    "a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444",
+    "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "92cc0e7348aa3ee9386b25076868dee72e5193e4",
+    "a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444",
+    "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"
+  ]
+}

@@ -1,1 +1,49 @@
-{"rule_id": 396, "name": "2015-2022_textThe_Uroburos_case", "description": "-", "references": [], "samples": ["mskfp32.ocx", "credprov.tlb", "shdocvw.tlb", "winview.ocx", "shdocw.tlp", "libadcodec.dll", "libadcodec.tlb", "oleaut32.tlb", "oleaut32.dll", "shdocvw.tlp", "msvcrtd.tlb"], "MD5": ["0ae421691579ff6b27f65f49e79e88f6", "e6ce1f962a47479a86ff2e67129f4ecc", "51e7e58a1e654b6e586fe36e10c67a73", "255118ac14a9e66124f7110acd16f2cd", "8ebf7f768d7214f99905c99b6f8242dc", "ea23d67e41d1f0a7f7e7a8b59e7cb60f", "9d481769de63789d571805009cbf709a"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 ="], "URL": [], "weight": 0.0, "signatures": ["0ae421691579ff6b27f65f49e79e88f6", "e6ce1f962a47479a86ff2e67129f4ecc", "51e7e58a1e654b6e586fe36e10c67a73", "255118ac14a9e66124f7110acd16f2cd", "8ebf7f768d7214f99905c99b6f8242dc", "ea23d67e41d1f0a7f7e7a8b59e7cb60f", "9d481769de63789d571805009cbf709a", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 ="]}
+{
+  "rule_id": 396,
+  "name": "2015-2022_textThe_Uroburos_case",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mskfp32.ocx",
+    "credprov.tlb",
+    "shdocvw.tlb",
+    "winview.ocx",
+    "shdocw.tlp",
+    "libadcodec.dll",
+    "libadcodec.tlb",
+    "oleaut32.tlb",
+    "oleaut32.dll",
+    "shdocvw.tlp",
+    "msvcrtd.tlb"
+  ],
+  "MD5": [
+    "0ae421691579ff6b27f65f49e79e88f6",
+    "e6ce1f962a47479a86ff2e67129f4ecc",
+    "51e7e58a1e654b6e586fe36e10c67a73",
+    "255118ac14a9e66124f7110acd16f2cd",
+    "8ebf7f768d7214f99905c99b6f8242dc",
+    "ea23d67e41d1f0a7f7e7a8b59e7cb60f",
+    "9d481769de63789d571805009cbf709a"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 ="
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "0ae421691579ff6b27f65f49e79e88f6",
+    "e6ce1f962a47479a86ff2e67129f4ecc",
+    "51e7e58a1e654b6e586fe36e10c67a73",
+    "255118ac14a9e66124f7110acd16f2cd",
+    "8ebf7f768d7214f99905c99b6f8242dc",
+    "ea23d67e41d1f0a7f7e7a8b59e7cb60f",
+    "9d481769de63789d571805009cbf709a",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 ="
+  ]
+}

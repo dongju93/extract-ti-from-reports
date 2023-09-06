@@ -1,1 +1,33 @@
-{"rule_id": 317, "name": "2015-2022_textthreatconnect-discovers-chinese-apt-activity-in-europe", "description": "-", "references": [], "samples": ["THREATCONNECT.COM", "www.fool", "FRAGMENTATION.PDF", "know.aspx", "press.pwc"], "MD5": ["3BEA073FA50B62C561CEDD9619CD8425"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-", "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-", "http://www.popularmechanics.com/", "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-", "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-"], "weight": 0.0, "signatures": ["3BEA073FA50B62C561CEDD9619CD8425", "http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-", "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-", "http://www.popularmechanics.com/", "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-", "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-"]}
+{
+  "rule_id": 317,
+  "name": "2015-2022_textthreatconnect-discovers-chinese-apt-activity-in-europe",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "THREATCONNECT.COM",
+    "www.fool",
+    "FRAGMENTATION.PDF",
+    "know.aspx",
+    "press.pwc"
+  ],
+  "MD5": ["3BEA073FA50B62C561CEDD9619CD8425"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-",
+    "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-",
+    "http://www.popularmechanics.com/",
+    "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-",
+    "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3BEA073FA50B62C561CEDD9619CD8425",
+    "http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-",
+    "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-",
+    "http://www.popularmechanics.com/",
+    "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-",
+    "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-"
+  ]
+}

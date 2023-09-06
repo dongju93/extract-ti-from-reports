@@ -1,1 +1,30 @@
-{"rule_id": 662, "name": "2015-2022_textposeidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage", "description": "-", "references": [], "samples": [], "MD5": ["4cc1b23daaaac6bf94f99f309854ea10", "2ce818518ca5fd03cbacb26173aa60ce", "f3499a9d9ce3de5dc10de3d7831d0938", "2fd8bb121a048e7c9e29040f9a9a6eee", "2c4aeacd3f7b587c599c2c4b5c1475da", "f821eb4be9840feaf77983eb7d55e5f6", "0a870c900e6db25a0e0a65b8545656d4"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["4cc1b23daaaac6bf94f99f309854ea10", "2ce818518ca5fd03cbacb26173aa60ce", "f3499a9d9ce3de5dc10de3d7831d0938", "2fd8bb121a048e7c9e29040f9a9a6eee", "2c4aeacd3f7b587c599c2c4b5c1475da", "f821eb4be9840feaf77983eb7d55e5f6", "0a870c900e6db25a0e0a65b8545656d4"]}
+{
+  "rule_id": 662,
+  "name": "2015-2022_textposeidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [
+    "4cc1b23daaaac6bf94f99f309854ea10",
+    "2ce818518ca5fd03cbacb26173aa60ce",
+    "f3499a9d9ce3de5dc10de3d7831d0938",
+    "2fd8bb121a048e7c9e29040f9a9a6eee",
+    "2c4aeacd3f7b587c599c2c4b5c1475da",
+    "f821eb4be9840feaf77983eb7d55e5f6",
+    "0a870c900e6db25a0e0a65b8545656d4"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "4cc1b23daaaac6bf94f99f309854ea10",
+    "2ce818518ca5fd03cbacb26173aa60ce",
+    "f3499a9d9ce3de5dc10de3d7831d0938",
+    "2fd8bb121a048e7c9e29040f9a9a6eee",
+    "2c4aeacd3f7b587c599c2c4b5c1475da",
+    "f821eb4be9840feaf77983eb7d55e5f6",
+    "0a870c900e6db25a0e0a65b8545656d4"
+  ]
+}

@@ -1,1 +1,42 @@
-{"rule_id": 1104, "name": "2015-2022_textthemysteryofthepdf0-dayassemblermicrobackdoor", "description": "-", "references": [], "samples": ["beast.html", "bYm.Sw", "Turkey.pdf", "windbg.exe", "MiniDuke.gen", "odb.exe", "Pdfka.giy", "ImmunityDebugger.exe", "xml.dat", "P.pdb", "Tukey.pdf", "hellodll.pdb", "comview.exe", "07.html", "stat.bin"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://tsoftonline.com/views/img/1109821546.gif", "https://www.adobe.com/support/security/bulletins/apsb13-07.html)", "http://blog.seculert.com/2013/02/spear-phishing-with-mandiant-apt-", "http://blog.fireeye.com/research/2013/02/the-number-of-the-", "http://blog.fireeye.com/research/2013/02/in-turn-its-pdf-time.html"], "weight": 0.0, "signatures": ["http://tsoftonline.com/views/img/1109821546.gif", "https://www.adobe.com/support/security/bulletins/apsb13-07.html)", "http://blog.seculert.com/2013/02/spear-phishing-with-mandiant-apt-", "http://blog.fireeye.com/research/2013/02/the-number-of-the-", "http://blog.fireeye.com/research/2013/02/in-turn-its-pdf-time.html"]}
+{
+  "rule_id": 1104,
+  "name": "2015-2022_textthemysteryofthepdf0-dayassemblermicrobackdoor",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "beast.html",
+    "bYm.Sw",
+    "Turkey.pdf",
+    "windbg.exe",
+    "MiniDuke.gen",
+    "odb.exe",
+    "Pdfka.giy",
+    "ImmunityDebugger.exe",
+    "xml.dat",
+    "P.pdb",
+    "Tukey.pdf",
+    "hellodll.pdb",
+    "comview.exe",
+    "07.html",
+    "stat.bin"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://tsoftonline.com/views/img/1109821546.gif",
+    "https://www.adobe.com/support/security/bulletins/apsb13-07.html)",
+    "http://blog.seculert.com/2013/02/spear-phishing-with-mandiant-apt-",
+    "http://blog.fireeye.com/research/2013/02/the-number-of-the-",
+    "http://blog.fireeye.com/research/2013/02/in-turn-its-pdf-time.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://tsoftonline.com/views/img/1109821546.gif",
+    "https://www.adobe.com/support/security/bulletins/apsb13-07.html)",
+    "http://blog.seculert.com/2013/02/spear-phishing-with-mandiant-apt-",
+    "http://blog.fireeye.com/research/2013/02/the-number-of-the-",
+    "http://blog.fireeye.com/research/2013/02/in-turn-its-pdf-time.html"
+  ]
+}

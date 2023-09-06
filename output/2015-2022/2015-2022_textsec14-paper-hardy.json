@@ -1,1 +1,28 @@
-{"rule_id": 339, "name": "2015-2022_textsec14-paper-hardy", "description": "-", "references": [], "samples": ["fire.doc", "home.doc", "ollydbg.de", "www.hex"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://tibetaction.net/detach-from-", "http://www.ollydbg.de/.", "https://www.hex-rays.com/products/ida/.", "https://citizenlab/targeted-threats", "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy", "http://www.metasploit.com/."], "weight": 0.0, "signatures": ["https://tibetaction.net/detach-from-", "http://www.ollydbg.de/.", "https://www.hex-rays.com/products/ida/.", "https://citizenlab/targeted-threats", "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy", "http://www.metasploit.com/."]}
+{
+  "rule_id": 339,
+  "name": "2015-2022_textsec14-paper-hardy",
+  "description": "-",
+  "references": [],
+  "samples": ["fire.doc", "home.doc", "ollydbg.de", "www.hex"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://tibetaction.net/detach-from-",
+    "http://www.ollydbg.de/.",
+    "https://www.hex-rays.com/products/ida/.",
+    "https://citizenlab/targeted-threats",
+    "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy",
+    "http://www.metasploit.com/."
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://tibetaction.net/detach-from-",
+    "http://www.ollydbg.de/.",
+    "https://www.hex-rays.com/products/ida/.",
+    "https://citizenlab/targeted-threats",
+    "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy",
+    "http://www.metasploit.com/."
+  ]
+}

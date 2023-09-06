@@ -1,1 +1,23 @@
-{"rule_id": 534, "name": "2015-2022_textTA505 At It Again_ Variety is the Spice of ServHelper and FlawedAmmyy", "description": "-", "references": [], "samples": ["555.msi", "dllhots.exe", "example.log", "2.dat", "used.MSI", "99.msi", "fedex.doc", "stelar.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://92.38.135.99/99.msi"], "weight": 0.0, "signatures": ["http://92.38.135.99/99.msi"]}
+{
+  "rule_id": 534,
+  "name": "2015-2022_textTA505 At It Again_ Variety is the Spice of ServHelper and FlawedAmmyy",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "555.msi",
+    "dllhots.exe",
+    "example.log",
+    "2.dat",
+    "used.MSI",
+    "99.msi",
+    "fedex.doc",
+    "stelar.exe"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://92.38.135.99/99.msi"],
+  "weight": 0.0,
+  "signatures": ["http://92.38.135.99/99.msi"]
+}

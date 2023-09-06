@@ -1,1 +1,26 @@
-{"rule_id": 450, "name": "2015-2022_textThreat actor leverages coin miner techniques to stay under the radar – here’s how to spot them - Microsoft Security", "description": "-", "references": [], "samples": ["typeperf.exe", "Nltest.exe", "dbgview.exe", "systray.exe", "mpr.dll", "za.exe", "McOds.exe", "makecab.exe", "bootcfg.exe", "diskperf.exe", "NbtScan.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 450,
+  "name": "2015-2022_textThreat actor leverages coin miner techniques to stay under the radar – here’s how to spot them - Microsoft Security",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "typeperf.exe",
+    "Nltest.exe",
+    "dbgview.exe",
+    "systray.exe",
+    "mpr.dll",
+    "za.exe",
+    "McOds.exe",
+    "makecab.exe",
+    "bootcfg.exe",
+    "diskperf.exe",
+    "NbtScan.exe"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

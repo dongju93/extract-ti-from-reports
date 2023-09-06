@@ -1,1 +1,14 @@
-{"rule_id": 1260, "name": "2015-2022_textCrowdStrike_Flying_Kitten", "description": "-", "references": [], "samples": ["IntelRapidStart.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 1260,
+  "name": "2015-2022_textCrowdStrike_Flying_Kitten",
+  "description": "-",
+  "references": [],
+  "samples": ["IntelRapidStart.exe"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

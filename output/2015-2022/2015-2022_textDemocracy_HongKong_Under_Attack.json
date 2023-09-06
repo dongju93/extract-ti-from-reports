@@ -1,1 +1,49 @@
-{"rule_id": 1048, "name": "2015-2022_textDemocracy_HongKong_Under_Attack", "description": "-", "references": [], "samples": ["eng.dphk", "www.atd", "peoplepower.hk", "i586.java", "www.dphk", "GMO.JP", "985.so", "LINODE.COM", "jduhf873jdu7.blog", "superfish.js", "caca.pdb", "cDS.js"], "MD5": ["b3a9e6548fb3cc511096af4d68b2e745", "a482a84d13c76b950ce5bc7e75f4edef", "1befa2c2d1bfc8e87d52871c868f75fe"], "SHA1": ["8f81bb0bfa6b3ebf3ef4ea283b23a5ccae5b6817", "394703d1240ccd3aaeeef50c212313e3036741b1", "c0a4b9145e0066f5c1534beddc9c666ea8eb0882"], "SHA256": [], "Registry_Entries": [], "URL": ["https://elsa-jp.jp.", "http://parts.nikkei.com/parts/SC/s_cDS.js", "http://java-se.com/o.js</script>"], "weight": 0.0, "signatures": ["b3a9e6548fb3cc511096af4d68b2e745", "a482a84d13c76b950ce5bc7e75f4edef", "1befa2c2d1bfc8e87d52871c868f75fe", "8f81bb0bfa6b3ebf3ef4ea283b23a5ccae5b6817", "394703d1240ccd3aaeeef50c212313e3036741b1", "c0a4b9145e0066f5c1534beddc9c666ea8eb0882", "https://elsa-jp.jp.", "http://parts.nikkei.com/parts/SC/s_cDS.js", "http://java-se.com/o.js</script>"]}
+{
+  "rule_id": 1048,
+  "name": "2015-2022_textDemocracy_HongKong_Under_Attack",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "eng.dphk",
+    "www.atd",
+    "peoplepower.hk",
+    "i586.java",
+    "www.dphk",
+    "GMO.JP",
+    "985.so",
+    "LINODE.COM",
+    "jduhf873jdu7.blog",
+    "superfish.js",
+    "caca.pdb",
+    "cDS.js"
+  ],
+  "MD5": [
+    "b3a9e6548fb3cc511096af4d68b2e745",
+    "a482a84d13c76b950ce5bc7e75f4edef",
+    "1befa2c2d1bfc8e87d52871c868f75fe"
+  ],
+  "SHA1": [
+    "8f81bb0bfa6b3ebf3ef4ea283b23a5ccae5b6817",
+    "394703d1240ccd3aaeeef50c212313e3036741b1",
+    "c0a4b9145e0066f5c1534beddc9c666ea8eb0882"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://elsa-jp.jp.",
+    "http://parts.nikkei.com/parts/SC/s_cDS.js",
+    "http://java-se.com/o.js</script>"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b3a9e6548fb3cc511096af4d68b2e745",
+    "a482a84d13c76b950ce5bc7e75f4edef",
+    "1befa2c2d1bfc8e87d52871c868f75fe",
+    "8f81bb0bfa6b3ebf3ef4ea283b23a5ccae5b6817",
+    "394703d1240ccd3aaeeef50c212313e3036741b1",
+    "c0a4b9145e0066f5c1534beddc9c666ea8eb0882",
+    "https://elsa-jp.jp.",
+    "http://parts.nikkei.com/parts/SC/s_cDS.js",
+    "http://java-se.com/o.js</script>"
+  ]
+}

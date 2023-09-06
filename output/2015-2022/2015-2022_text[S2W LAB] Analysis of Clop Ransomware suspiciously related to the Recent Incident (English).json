@@ -1,1 +1,67 @@
-{"rule_id": 398, "name": "2015-2022_text[S2W LAB] Analysis of Clop Ransomware suspiciously related to the Recent Incident (English)", "description": "-", "references": [], "samples": ["temp.dat", "README.txt", "eqaltech.su", "notion.so", "ex.bat", "s.Cllp"], "MD5": ["34f8228a3f12fa9542f1a4181f96edec", "8fc09cb1540a6dea87a078b92c8f2b0a", "AC0FE3E86F9FC7E5FD08D9E618B601F3", "d014969ab6421bde1419cbd30d0d5ebb", "8274514bc52e98bb4431ef61109fb15c", "14B7069B25B04EBA875F264BE4F140DA", "731d5ed57434e05c9466107052af5a6a", "9246d60c24591855bc1792aa0a672ff7", "a98dc09226b97ddc0d959e0aaa08abe0", "8b6c413e2539823ef8f8b85900d19724", "088056baf01242409a6e9f844f0c5f2e", "efb886d6eaa54d666dcfde173ae02d81", "e3bc953a18fe466cb008184a45c6c858", "b96f79eb633d0b2c0e79e6d889dac0da"], "SHA1": ["16f48624ea2a575e1bdceb4ac6151d97d4de80b6", "2d92a9ec1091cb801ff86403374594c74210cd44", "8C7173BDDE2919B524B22EA257A80360DF33A333"], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.notion.so/S2W-LAB-Analysis-of-Clop-Ransomware-suspiciously-related-to-the-Recent-Incident-English-088056baf01242409a6e9f844f0c5f2e", "http://ekbgzchl6x2ias37.onion/", "https://www.s2wlab.com", "http://cvfzmngbtwzywfnryt45zro4ocpze7cqdtzj2n6jz7eucpdglsulcsid.onion/r"], "weight": 0.0, "signatures": ["34f8228a3f12fa9542f1a4181f96edec", "8fc09cb1540a6dea87a078b92c8f2b0a", "AC0FE3E86F9FC7E5FD08D9E618B601F3", "d014969ab6421bde1419cbd30d0d5ebb", "8274514bc52e98bb4431ef61109fb15c", "14B7069B25B04EBA875F264BE4F140DA", "731d5ed57434e05c9466107052af5a6a", "9246d60c24591855bc1792aa0a672ff7", "a98dc09226b97ddc0d959e0aaa08abe0", "8b6c413e2539823ef8f8b85900d19724", "088056baf01242409a6e9f844f0c5f2e", "efb886d6eaa54d666dcfde173ae02d81", "e3bc953a18fe466cb008184a45c6c858", "b96f79eb633d0b2c0e79e6d889dac0da", "16f48624ea2a575e1bdceb4ac6151d97d4de80b6", "2d92a9ec1091cb801ff86403374594c74210cd44", "8C7173BDDE2919B524B22EA257A80360DF33A333", "https://www.notion.so/S2W-LAB-Analysis-of-Clop-Ransomware-suspiciously-related-to-the-Recent-Incident-English-088056baf01242409a6e9f844f0c5f2e", "http://ekbgzchl6x2ias37.onion/", "https://www.s2wlab.com", "http://cvfzmngbtwzywfnryt45zro4ocpze7cqdtzj2n6jz7eucpdglsulcsid.onion/r"]}
+{
+  "rule_id": 398,
+  "name": "2015-2022_text[S2W LAB] Analysis of Clop Ransomware suspiciously related to the Recent Incident (English)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "temp.dat",
+    "README.txt",
+    "eqaltech.su",
+    "notion.so",
+    "ex.bat",
+    "s.Cllp"
+  ],
+  "MD5": [
+    "34f8228a3f12fa9542f1a4181f96edec",
+    "8fc09cb1540a6dea87a078b92c8f2b0a",
+    "AC0FE3E86F9FC7E5FD08D9E618B601F3",
+    "d014969ab6421bde1419cbd30d0d5ebb",
+    "8274514bc52e98bb4431ef61109fb15c",
+    "14B7069B25B04EBA875F264BE4F140DA",
+    "731d5ed57434e05c9466107052af5a6a",
+    "9246d60c24591855bc1792aa0a672ff7",
+    "a98dc09226b97ddc0d959e0aaa08abe0",
+    "8b6c413e2539823ef8f8b85900d19724",
+    "088056baf01242409a6e9f844f0c5f2e",
+    "efb886d6eaa54d666dcfde173ae02d81",
+    "e3bc953a18fe466cb008184a45c6c858",
+    "b96f79eb633d0b2c0e79e6d889dac0da"
+  ],
+  "SHA1": [
+    "16f48624ea2a575e1bdceb4ac6151d97d4de80b6",
+    "2d92a9ec1091cb801ff86403374594c74210cd44",
+    "8C7173BDDE2919B524B22EA257A80360DF33A333"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.notion.so/S2W-LAB-Analysis-of-Clop-Ransomware-suspiciously-related-to-the-Recent-Incident-English-088056baf01242409a6e9f844f0c5f2e",
+    "http://ekbgzchl6x2ias37.onion/",
+    "https://www.s2wlab.com",
+    "http://cvfzmngbtwzywfnryt45zro4ocpze7cqdtzj2n6jz7eucpdglsulcsid.onion/r"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "34f8228a3f12fa9542f1a4181f96edec",
+    "8fc09cb1540a6dea87a078b92c8f2b0a",
+    "AC0FE3E86F9FC7E5FD08D9E618B601F3",
+    "d014969ab6421bde1419cbd30d0d5ebb",
+    "8274514bc52e98bb4431ef61109fb15c",
+    "14B7069B25B04EBA875F264BE4F140DA",
+    "731d5ed57434e05c9466107052af5a6a",
+    "9246d60c24591855bc1792aa0a672ff7",
+    "a98dc09226b97ddc0d959e0aaa08abe0",
+    "8b6c413e2539823ef8f8b85900d19724",
+    "088056baf01242409a6e9f844f0c5f2e",
+    "efb886d6eaa54d666dcfde173ae02d81",
+    "e3bc953a18fe466cb008184a45c6c858",
+    "b96f79eb633d0b2c0e79e6d889dac0da",
+    "16f48624ea2a575e1bdceb4ac6151d97d4de80b6",
+    "2d92a9ec1091cb801ff86403374594c74210cd44",
+    "8C7173BDDE2919B524B22EA257A80360DF33A333",
+    "https://www.notion.so/S2W-LAB-Analysis-of-Clop-Ransomware-suspiciously-related-to-the-Recent-Incident-English-088056baf01242409a6e9f844f0c5f2e",
+    "http://ekbgzchl6x2ias37.onion/",
+    "https://www.s2wlab.com",
+    "http://cvfzmngbtwzywfnryt45zro4ocpze7cqdtzj2n6jz7eucpdglsulcsid.onion/r"
+  ]
+}

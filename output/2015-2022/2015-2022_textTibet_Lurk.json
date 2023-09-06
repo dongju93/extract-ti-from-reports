@@ -1,1 +1,44 @@
-{"rule_id": 498, "name": "2015-2022_textTibet_Lurk", "description": "-", "references": [], "samples": ["CREATELINK.EXE", "MDROP.TPB", "IconConfigEt.DAT", "final.doc", "MDROP.TPC", "IconCacheEt.DAT", "iexplore.lnk", "plan.xlsx", "program.xls", "set.xls", "dnsd.me", "thFinal.doc"], "MD5": ["16160a6a9b905c69cb8e92c319212980", "58f6922dedb0d43c4478a4f38ad08620", "f2a0787388dd6373336b3f23f204524a", "0fe550a5d1187d38984c505ef7741638", "971f99af0f9df674a79507ed7b3010fb", "1c22ee3326affee30c3fa65f0b8413d5"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\DbxUpdateET\\ "], "URL": [], "weight": 0.0, "signatures": ["16160a6a9b905c69cb8e92c319212980", "58f6922dedb0d43c4478a4f38ad08620", "f2a0787388dd6373336b3f23f204524a", "0fe550a5d1187d38984c505ef7741638", "971f99af0f9df674a79507ed7b3010fb", "1c22ee3326affee30c3fa65f0b8413d5", "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\DbxUpdateET\\ "]}
+{
+  "rule_id": 498,
+  "name": "2015-2022_textTibet_Lurk",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "CREATELINK.EXE",
+    "MDROP.TPB",
+    "IconConfigEt.DAT",
+    "final.doc",
+    "MDROP.TPC",
+    "IconCacheEt.DAT",
+    "iexplore.lnk",
+    "plan.xlsx",
+    "program.xls",
+    "set.xls",
+    "dnsd.me",
+    "thFinal.doc"
+  ],
+  "MD5": [
+    "16160a6a9b905c69cb8e92c319212980",
+    "58f6922dedb0d43c4478a4f38ad08620",
+    "f2a0787388dd6373336b3f23f204524a",
+    "0fe550a5d1187d38984c505ef7741638",
+    "971f99af0f9df674a79507ed7b3010fb",
+    "1c22ee3326affee30c3fa65f0b8413d5"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\DbxUpdateET\\ "
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "16160a6a9b905c69cb8e92c319212980",
+    "58f6922dedb0d43c4478a4f38ad08620",
+    "f2a0787388dd6373336b3f23f204524a",
+    "0fe550a5d1187d38984c505ef7741638",
+    "971f99af0f9df674a79507ed7b3010fb",
+    "1c22ee3326affee30c3fa65f0b8413d5",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\DbxUpdateET\\ "
+  ]
+}

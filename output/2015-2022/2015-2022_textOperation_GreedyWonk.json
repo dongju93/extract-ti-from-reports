@@ -1,1 +1,50 @@
-{"rule_id": 445, "name": "2015-2022_textOperation_GreedyWonk", "description": "-", "references": ["CVE-2012-0779"], "samples": ["adservice.no", "HXDS.dll", "windows.ddns", "www.arce", "MSVCR71.dll", "proxy.ddns", "BrightBalls.swf", "microsafes.no", "www.piie", "test.jar", "www.ceps", "www.cdi", "www.srf"], "MD5": ["bf60b8d26bc0c94dda2e3471de6ec977", "1ec5141051776ec9092db92050192758", "52aa791a524b61b129344f10b4712f52", "8936c87a08ffa56d19fdb87588e35952", "7d810e3564c4eb95bcb3d11ce191208e", "507aed81e3106da8c50efb3a045c5e2b", "88b375e3b5c50a3e6c881bc96c926928", "7995a9a6a889b914e208eb924e459ebc", "cd07a9e49b1f909e1bd9e39a7a6e56b4", "fd69793bd63c44bbb22f9c4d46873252"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["bf60b8d26bc0c94dda2e3471de6ec977", "1ec5141051776ec9092db92050192758", "52aa791a524b61b129344f10b4712f52", "8936c87a08ffa56d19fdb87588e35952", "7d810e3564c4eb95bcb3d11ce191208e", "507aed81e3106da8c50efb3a045c5e2b", "88b375e3b5c50a3e6c881bc96c926928", "7995a9a6a889b914e208eb924e459ebc", "cd07a9e49b1f909e1bd9e39a7a6e56b4", "fd69793bd63c44bbb22f9c4d46873252"]}
+{
+  "rule_id": 445,
+  "name": "2015-2022_textOperation_GreedyWonk",
+  "description": "-",
+  "references": ["CVE-2012-0779"],
+  "samples": [
+    "adservice.no",
+    "HXDS.dll",
+    "windows.ddns",
+    "www.arce",
+    "MSVCR71.dll",
+    "proxy.ddns",
+    "BrightBalls.swf",
+    "microsafes.no",
+    "www.piie",
+    "test.jar",
+    "www.ceps",
+    "www.cdi",
+    "www.srf"
+  ],
+  "MD5": [
+    "bf60b8d26bc0c94dda2e3471de6ec977",
+    "1ec5141051776ec9092db92050192758",
+    "52aa791a524b61b129344f10b4712f52",
+    "8936c87a08ffa56d19fdb87588e35952",
+    "7d810e3564c4eb95bcb3d11ce191208e",
+    "507aed81e3106da8c50efb3a045c5e2b",
+    "88b375e3b5c50a3e6c881bc96c926928",
+    "7995a9a6a889b914e208eb924e459ebc",
+    "cd07a9e49b1f909e1bd9e39a7a6e56b4",
+    "fd69793bd63c44bbb22f9c4d46873252"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "bf60b8d26bc0c94dda2e3471de6ec977",
+    "1ec5141051776ec9092db92050192758",
+    "52aa791a524b61b129344f10b4712f52",
+    "8936c87a08ffa56d19fdb87588e35952",
+    "7d810e3564c4eb95bcb3d11ce191208e",
+    "507aed81e3106da8c50efb3a045c5e2b",
+    "88b375e3b5c50a3e6c881bc96c926928",
+    "7995a9a6a889b914e208eb924e459ebc",
+    "cd07a9e49b1f909e1bd9e39a7a6e56b4",
+    "fd69793bd63c44bbb22f9c4d46873252"
+  ]
+}

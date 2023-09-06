@@ -1,1 +1,18 @@
-{"rule_id": 1031, "name": "2015-2022_textESET discovers Attor, a spy platform with curious GSM fingerprinting _ WeLiveSecurity", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"], "URL": [], "weight": 0.0, "signatures": ["HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"]}
+{
+  "rule_id": 1031,
+  "name": "2015-2022_textESET discovers Attor, a spy platform with curious GSM fingerprinting _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"
+  ]
+}

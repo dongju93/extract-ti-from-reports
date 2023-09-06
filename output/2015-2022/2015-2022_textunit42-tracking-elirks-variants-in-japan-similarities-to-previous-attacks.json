@@ -1,1 +1,14 @@
-{"rule_id": 1127, "name": "2015-2022_textunit42-tracking-elirks-variants-in-japan-similarities-to-previous-attacks", "description": "-", "references": [], "samples": ["ticket.doc"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 1127,
+  "name": "2015-2022_textunit42-tracking-elirks-variants-in-japan-similarities-to-previous-attacks",
+  "description": "-",
+  "references": [],
+  "samples": ["ticket.doc"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

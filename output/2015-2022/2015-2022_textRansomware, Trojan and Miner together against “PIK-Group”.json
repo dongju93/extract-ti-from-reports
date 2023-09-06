@@ -1,1 +1,44 @@
-{"rule_id": 95, "name": "2015-2022_textRansomware, Trojan and Miner together against “PIK-Group”", "description": "-", "references": [], "samples": ["37ED0C97.exe", "327B0EF4.exe", "B56CE7B7.exe", "README10.txt", "README1.txt", "E.exe", "piks.zip", "pik.zip", "README2.txt"], "MD5": ["4c18a2f403135d64e8633f1cf29c9f67"], "SHA1": [], "SHA256": ["026e8c1bb6fda0bd89dd2d87ef95a8920df5ba331b74c604223f75e597069ded", "b2b91a36320ee8e64bf081c44aac2fabe621cdb809bf487035bb9da3e864a9c6", "2824a8ce0e65bb185a88ff1fe5f1df202405c42b6705a420dbc07c565a44b240", "d7931e0573af3f962f7e10ee48996ddf33b3491a99da031a67426825a8c2d62c", "9d3bac28e24a997c2d2b3a955b7f0d57494950a0269f1bf31dc45fb1dadcdb84", "9ff6b78524b83d667df34eb5e00bf47dc66ca2b4bb7f9422622103311eee3d6e", "c1ee8c13b2c3f5e44b9d0db6b6ec9fbbeab3dc88068adf09a9a890ec054073f5"], "Registry_Entries": [], "URL": ["https://marcoramilli.com/2019/02/28/ransomware-trojan-and-miner-together-against-pik-group/"], "weight": 0.0, "signatures": ["4c18a2f403135d64e8633f1cf29c9f67", "026e8c1bb6fda0bd89dd2d87ef95a8920df5ba331b74c604223f75e597069ded", "b2b91a36320ee8e64bf081c44aac2fabe621cdb809bf487035bb9da3e864a9c6", "2824a8ce0e65bb185a88ff1fe5f1df202405c42b6705a420dbc07c565a44b240", "d7931e0573af3f962f7e10ee48996ddf33b3491a99da031a67426825a8c2d62c", "9d3bac28e24a997c2d2b3a955b7f0d57494950a0269f1bf31dc45fb1dadcdb84", "9ff6b78524b83d667df34eb5e00bf47dc66ca2b4bb7f9422622103311eee3d6e", "c1ee8c13b2c3f5e44b9d0db6b6ec9fbbeab3dc88068adf09a9a890ec054073f5", "https://marcoramilli.com/2019/02/28/ransomware-trojan-and-miner-together-against-pik-group/"]}
+{
+  "rule_id": 95,
+  "name": "2015-2022_textRansomware, Trojan and Miner together against “PIK-Group”",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "37ED0C97.exe",
+    "327B0EF4.exe",
+    "B56CE7B7.exe",
+    "README10.txt",
+    "README1.txt",
+    "E.exe",
+    "piks.zip",
+    "pik.zip",
+    "README2.txt"
+  ],
+  "MD5": ["4c18a2f403135d64e8633f1cf29c9f67"],
+  "SHA1": [],
+  "SHA256": [
+    "026e8c1bb6fda0bd89dd2d87ef95a8920df5ba331b74c604223f75e597069ded",
+    "b2b91a36320ee8e64bf081c44aac2fabe621cdb809bf487035bb9da3e864a9c6",
+    "2824a8ce0e65bb185a88ff1fe5f1df202405c42b6705a420dbc07c565a44b240",
+    "d7931e0573af3f962f7e10ee48996ddf33b3491a99da031a67426825a8c2d62c",
+    "9d3bac28e24a997c2d2b3a955b7f0d57494950a0269f1bf31dc45fb1dadcdb84",
+    "9ff6b78524b83d667df34eb5e00bf47dc66ca2b4bb7f9422622103311eee3d6e",
+    "c1ee8c13b2c3f5e44b9d0db6b6ec9fbbeab3dc88068adf09a9a890ec054073f5"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://marcoramilli.com/2019/02/28/ransomware-trojan-and-miner-together-against-pik-group/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4c18a2f403135d64e8633f1cf29c9f67",
+    "026e8c1bb6fda0bd89dd2d87ef95a8920df5ba331b74c604223f75e597069ded",
+    "b2b91a36320ee8e64bf081c44aac2fabe621cdb809bf487035bb9da3e864a9c6",
+    "2824a8ce0e65bb185a88ff1fe5f1df202405c42b6705a420dbc07c565a44b240",
+    "d7931e0573af3f962f7e10ee48996ddf33b3491a99da031a67426825a8c2d62c",
+    "9d3bac28e24a997c2d2b3a955b7f0d57494950a0269f1bf31dc45fb1dadcdb84",
+    "9ff6b78524b83d667df34eb5e00bf47dc66ca2b4bb7f9422622103311eee3d6e",
+    "c1ee8c13b2c3f5e44b9d0db6b6ec9fbbeab3dc88068adf09a9a890ec054073f5",
+    "https://marcoramilli.com/2019/02/28/ransomware-trojan-and-miner-together-against-pik-group/"
+  ]
+}

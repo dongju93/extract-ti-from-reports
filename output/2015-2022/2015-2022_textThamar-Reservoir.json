@@ -1,1 +1,40 @@
-{"rule_id": 1100, "name": "2015-2022_textThamar-Reservoir", "description": "-", "references": [], "samples": ["Tmp.Bat", "theatre.fsu", "wlg.exe", "Document.pdf", "maxer.hu", "WASP.pdf"], "MD5": [], "SHA1": [], "SHA256": ["1c9e519dca0468a87322bebe2a06741136de7969a4eb3efda0ab8db83f0807b4", "69e48eb82ce7387d65cc1a82c5a6a170dc6121d479736b1dd33358d09c483617", "072a43123e755ad1bdd159488a85a353227ec51f273c4f79c26ff7e4656c0ef4"], "Registry_Entries": [], "URL": ["http://www.isightpartners.com/2014/06/uncovering-newscaster-experts-cyber-threat-intelligence/", "http://www.thmrsite.com/?page_id=198", "https://www.google.com/url?q=http://login-users.com/Drive-", "https://www.google.com/accounts/recovery/", "http://webcache.googleusercontent.com/search?q=cache:dzV7dGdsTU8J:theatre.fsu.edu/index.php/content/downlo"], "weight": 0.0, "signatures": ["1c9e519dca0468a87322bebe2a06741136de7969a4eb3efda0ab8db83f0807b4", "69e48eb82ce7387d65cc1a82c5a6a170dc6121d479736b1dd33358d09c483617", "072a43123e755ad1bdd159488a85a353227ec51f273c4f79c26ff7e4656c0ef4", "http://www.isightpartners.com/2014/06/uncovering-newscaster-experts-cyber-threat-intelligence/", "http://www.thmrsite.com/?page_id=198", "https://www.google.com/url?q=http://login-users.com/Drive-", "https://www.google.com/accounts/recovery/", "http://webcache.googleusercontent.com/search?q=cache:dzV7dGdsTU8J:theatre.fsu.edu/index.php/content/downlo"]}
+{
+  "rule_id": 1100,
+  "name": "2015-2022_textThamar-Reservoir",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Tmp.Bat",
+    "theatre.fsu",
+    "wlg.exe",
+    "Document.pdf",
+    "maxer.hu",
+    "WASP.pdf"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "1c9e519dca0468a87322bebe2a06741136de7969a4eb3efda0ab8db83f0807b4",
+    "69e48eb82ce7387d65cc1a82c5a6a170dc6121d479736b1dd33358d09c483617",
+    "072a43123e755ad1bdd159488a85a353227ec51f273c4f79c26ff7e4656c0ef4"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.isightpartners.com/2014/06/uncovering-newscaster-experts-cyber-threat-intelligence/",
+    "http://www.thmrsite.com/?page_id=198",
+    "https://www.google.com/url?q=http://login-users.com/Drive-",
+    "https://www.google.com/accounts/recovery/",
+    "http://webcache.googleusercontent.com/search?q=cache:dzV7dGdsTU8J:theatre.fsu.edu/index.php/content/downlo"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "1c9e519dca0468a87322bebe2a06741136de7969a4eb3efda0ab8db83f0807b4",
+    "69e48eb82ce7387d65cc1a82c5a6a170dc6121d479736b1dd33358d09c483617",
+    "072a43123e755ad1bdd159488a85a353227ec51f273c4f79c26ff7e4656c0ef4",
+    "http://www.isightpartners.com/2014/06/uncovering-newscaster-experts-cyber-threat-intelligence/",
+    "http://www.thmrsite.com/?page_id=198",
+    "https://www.google.com/url?q=http://login-users.com/Drive-",
+    "https://www.google.com/accounts/recovery/",
+    "http://webcache.googleusercontent.com/search?q=cache:dzV7dGdsTU8J:theatre.fsu.edu/index.php/content/downlo"
+  ]
+}

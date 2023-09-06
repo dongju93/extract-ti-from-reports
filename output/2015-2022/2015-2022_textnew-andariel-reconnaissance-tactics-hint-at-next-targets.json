@@ -1,1 +1,14 @@
-{"rule_id": 1182, "name": "2015-2022_textnew-andariel-reconnaissance-tactics-hint-at-next-targets", "description": "-", "references": [], "samples": ["skin.php", "WSActiveBridge.exe"], "MD5": [], "SHA1": ["e0e30eb5e5ff1e71548c4405d04ce16b94c4cb7f"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["e0e30eb5e5ff1e71548c4405d04ce16b94c4cb7f"]}
+{
+  "rule_id": 1182,
+  "name": "2015-2022_textnew-andariel-reconnaissance-tactics-hint-at-next-targets",
+  "description": "-",
+  "references": [],
+  "samples": ["skin.php", "WSActiveBridge.exe"],
+  "MD5": [],
+  "SHA1": ["e0e30eb5e5ff1e71548c4405d04ce16b94c4cb7f"],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["e0e30eb5e5ff1e71548c4405d04ce16b94c4cb7f"]
+}

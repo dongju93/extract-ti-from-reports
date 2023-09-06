@@ -1,1 +1,44 @@
-{"rule_id": 1251, "name": "2015-2022_textmillion-dollar-dissident-iphone-zero-day-nso-group-uae", "description": "-", "references": [], "samples": ["com.mx", "brc.html", "bed.html", "redirect.aspx", "UNOTV.COM", "test111.tar", "TELCEL.COM", "accounts.mx", "alaan.tv", "aalaan.tv", "thainews.asia"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://asrararabiya.com/", "http://fb-accounts.com/1074139s/", "https://smser.net/9918216t/", "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=", "http://www.google.com'", "http://unonoticias.net/3423768s/.", "https://smser.net/redirect.aspx.", "https://smser.net/9918216t/,"], "weight": 0.0, "signatures": ["http://asrararabiya.com/", "http://fb-accounts.com/1074139s/", "https://smser.net/9918216t/", "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=", "http://www.google.com'", "http://unonoticias.net/3423768s/.", "https://smser.net/redirect.aspx.", "https://smser.net/9918216t/,"]}
+{
+  "rule_id": 1251,
+  "name": "2015-2022_textmillion-dollar-dissident-iphone-zero-day-nso-group-uae",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "com.mx",
+    "brc.html",
+    "bed.html",
+    "redirect.aspx",
+    "UNOTV.COM",
+    "test111.tar",
+    "TELCEL.COM",
+    "accounts.mx",
+    "alaan.tv",
+    "aalaan.tv",
+    "thainews.asia"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://asrararabiya.com/",
+    "http://fb-accounts.com/1074139s/",
+    "https://smser.net/9918216t/",
+    "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=",
+    "http://www.google.com'",
+    "http://unonoticias.net/3423768s/.",
+    "https://smser.net/redirect.aspx.",
+    "https://smser.net/9918216t/,"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://asrararabiya.com/",
+    "http://fb-accounts.com/1074139s/",
+    "https://smser.net/9918216t/",
+    "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=",
+    "http://www.google.com'",
+    "http://unonoticias.net/3423768s/.",
+    "https://smser.net/redirect.aspx.",
+    "https://smser.net/9918216t/,"
+  ]
+}

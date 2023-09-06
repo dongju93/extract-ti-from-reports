@@ -1,1 +1,44 @@
-{"rule_id": 6, "name": "2015-2022_textAn analysis of RoyalCli and RoyalDNS", "description": "-", "references": [], "samples": ["net.exe", "g.exe", "ping.exe", "tasklist.exe", "netstat.exe", "bcp.exe", "systeminfo.exe", "RoyalCli.pdb"], "MD5": [], "SHA1": [], "SHA256": ["6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f", "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce", "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d", "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b", "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785"], "Registry_Entries": [], "URL": ["https://t.co/Zu4HptA4Ut)", "https://www.nccgroup.trust/uk/our-research/ebook-", "https://www.nccgroup.trust/uk/about-", "https://t.co/ENg7QQ7Ob4)"], "weight": 0.0, "signatures": ["6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f", "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce", "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d", "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b", "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785", "https://t.co/Zu4HptA4Ut)", "https://www.nccgroup.trust/uk/our-research/ebook-", "https://www.nccgroup.trust/uk/about-", "https://t.co/ENg7QQ7Ob4)"]}
+{
+  "rule_id": 6,
+  "name": "2015-2022_textAn analysis of RoyalCli and RoyalDNS",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "net.exe",
+    "g.exe",
+    "ping.exe",
+    "tasklist.exe",
+    "netstat.exe",
+    "bcp.exe",
+    "systeminfo.exe",
+    "RoyalCli.pdb"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f",
+    "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce",
+    "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d",
+    "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b",
+    "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://t.co/Zu4HptA4Ut)",
+    "https://www.nccgroup.trust/uk/our-research/ebook-",
+    "https://www.nccgroup.trust/uk/about-",
+    "https://t.co/ENg7QQ7Ob4)"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f",
+    "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce",
+    "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d",
+    "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b",
+    "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785",
+    "https://t.co/Zu4HptA4Ut)",
+    "https://www.nccgroup.trust/uk/our-research/ebook-",
+    "https://www.nccgroup.trust/uk/about-",
+    "https://t.co/ENg7QQ7Ob4)"
+  ]
+}

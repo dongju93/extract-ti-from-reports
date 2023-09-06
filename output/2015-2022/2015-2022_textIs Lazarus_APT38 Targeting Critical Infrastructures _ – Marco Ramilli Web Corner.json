@@ -1,1 +1,35 @@
-{"rule_id": 1157, "name": "2015-2022_textIs Lazarus_APT38 Targeting Critical Infrastructures _ – Marco Ramilli Web Corner", "description": "-", "references": [], "samples": ["sm.name", "CCS_Advapi32.dll", "pti.name", "CCS_kernel32.dll", "CCS_shell32.dll", "s.bmp", "sm.type", "EAMT.tmp"], "MD5": ["75171549224b4292974d6ee3cf397db8"], "SHA1": [], "SHA256": ["a0664ac662802905329ec6ab3b3ae843f191e6555b707f305f8f5a0599ca3f68", "c5c1ca4382f397481174914b1931e851a9c61f029e6b3eb8a65c9e92ddf7aa4c", "93a01fbbdd63943c151679d037d32b1d82a55d66c6cb93c40ff63f2b770e5ca9"], "Registry_Entries": [], "URL": ["https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/"], "weight": 0.0, "signatures": ["75171549224b4292974d6ee3cf397db8", "a0664ac662802905329ec6ab3b3ae843f191e6555b707f305f8f5a0599ca3f68", "c5c1ca4382f397481174914b1931e851a9c61f029e6b3eb8a65c9e92ddf7aa4c", "93a01fbbdd63943c151679d037d32b1d82a55d66c6cb93c40ff63f2b770e5ca9", "https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/"]}
+{
+  "rule_id": 1157,
+  "name": "2015-2022_textIs Lazarus_APT38 Targeting Critical Infrastructures _ – Marco Ramilli Web Corner",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "sm.name",
+    "CCS_Advapi32.dll",
+    "pti.name",
+    "CCS_kernel32.dll",
+    "CCS_shell32.dll",
+    "s.bmp",
+    "sm.type",
+    "EAMT.tmp"
+  ],
+  "MD5": ["75171549224b4292974d6ee3cf397db8"],
+  "SHA1": [],
+  "SHA256": [
+    "a0664ac662802905329ec6ab3b3ae843f191e6555b707f305f8f5a0599ca3f68",
+    "c5c1ca4382f397481174914b1931e851a9c61f029e6b3eb8a65c9e92ddf7aa4c",
+    "93a01fbbdd63943c151679d037d32b1d82a55d66c6cb93c40ff63f2b770e5ca9"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "75171549224b4292974d6ee3cf397db8",
+    "a0664ac662802905329ec6ab3b3ae843f191e6555b707f305f8f5a0599ca3f68",
+    "c5c1ca4382f397481174914b1931e851a9c61f029e6b3eb8a65c9e92ddf7aa4c",
+    "93a01fbbdd63943c151679d037d32b1d82a55d66c6cb93c40ff63f2b770e5ca9",
+    "https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/"
+  ]
+}

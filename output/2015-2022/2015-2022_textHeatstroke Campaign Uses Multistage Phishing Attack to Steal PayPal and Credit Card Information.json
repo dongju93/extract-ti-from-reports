@@ -1,1 +1,23 @@
-{"rule_id": 369, "name": "2015-2022_textHeatstroke Campaign Uses Multistage Phishing Attack to Steal PayPal and Credit Card Information", "description": "-", "references": [], "samples": ["step6.php", "antiX.php", "anti.php", "Trojan.PHP", "Mine.php", "langauges.php", "Index.php", "Algo.php"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 369,
+  "name": "2015-2022_textHeatstroke Campaign Uses Multistage Phishing Attack to Steal PayPal and Credit Card Information",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "step6.php",
+    "antiX.php",
+    "anti.php",
+    "Trojan.PHP",
+    "Mine.php",
+    "langauges.php",
+    "Index.php",
+    "Algo.php"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

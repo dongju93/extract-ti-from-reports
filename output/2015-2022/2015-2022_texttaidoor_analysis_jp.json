@@ -1,1 +1,43 @@
-{"rule_id": 876, "name": "2015-2022_texttaidoor_analysis_jp", "description": "-", "references": [], "samples": ["load.txt", "当社の需要について.doc", "igfxper.dll", "について.doc"], "MD5": [], "SHA1": ["7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a"], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\ContextMen", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\PropertySh", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\PropertySheetH", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{93A56381-E0CD-"], "URL": ["http://C&CServer", "https://blog.trendmicro.co.jp/archives/16893", "https://www.trendmicro.co.kr/cloud-content/us/pdfs/"], "weight": 0.0, "signatures": ["7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\ContextMen", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\PropertySh", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\PropertySheetH", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH", "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{93A56381-E0CD-", "http://C&CServer", "https://blog.trendmicro.co.jp/archives/16893", "https://www.trendmicro.co.kr/cloud-content/us/pdfs/"]}
+{
+  "rule_id": 876,
+  "name": "2015-2022_texttaidoor_analysis_jp",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "load.txt",
+    "当社の需要について.doc",
+    "igfxper.dll",
+    "について.doc"
+  ],
+  "MD5": [],
+  "SHA1": ["7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a"],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\ContextMen",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\PropertySh",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\PropertySheetH",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{93A56381-E0CD-"
+  ],
+  "URL": [
+    "http://C&CServer",
+    "https://blog.trendmicro.co.jp/archives/16893",
+    "https://www.trendmicro.co.kr/cloud-content/us/pdfs/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\ContextMen",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\PropertySh",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\PropertySheetH",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{93A56381-E0CD-",
+    "http://C&CServer",
+    "https://blog.trendmicro.co.jp/archives/16893",
+    "https://www.trendmicro.co.kr/cloud-content/us/pdfs/"
+  ]
+}

@@ -1,1 +1,18 @@
-{"rule_id": 315, "name": "2015-2022_textTA505_ A Brief History Of Their Time – Fox-IT International blog", "description": "-", "references": [], "samples": ["blog.fox"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://blog.fox-it.com/2020/11/16/ta505-a-brief-history-of-their-time/"], "weight": 0.0, "signatures": ["https://blog.fox-it.com/2020/11/16/ta505-a-brief-history-of-their-time/"]}
+{
+  "rule_id": 315,
+  "name": "2015-2022_textTA505_ A Brief History Of Their Time – Fox-IT International blog",
+  "description": "-",
+  "references": [],
+  "samples": ["blog.fox"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://blog.fox-it.com/2020/11/16/ta505-a-brief-history-of-their-time/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://blog.fox-it.com/2020/11/16/ta505-a-brief-history-of-their-time/"
+  ]
+}

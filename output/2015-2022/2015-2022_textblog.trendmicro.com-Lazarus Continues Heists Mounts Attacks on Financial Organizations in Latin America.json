@@ -1,1 +1,22 @@
-{"rule_id": 915, "name": "2015-2022_textblog.trendmicro.com-Lazarus Continues Heists Mounts Attacks on Financial Organizations in Latin America", "description": "-", "references": [], "samples": ["AuditCred.dll", "Roptimizer.dll", "ROptimizer.dll", "Auditcred.dll", "BINLODRCONF.ZNFJ", "rOptimizer.dll", "BINLODR.ZNFJ"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 915,
+  "name": "2015-2022_textblog.trendmicro.com-Lazarus Continues Heists Mounts Attacks on Financial Organizations in Latin America",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "AuditCred.dll",
+    "Roptimizer.dll",
+    "ROptimizer.dll",
+    "Auditcred.dll",
+    "BINLODRCONF.ZNFJ",
+    "rOptimizer.dll",
+    "BINLODR.ZNFJ"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

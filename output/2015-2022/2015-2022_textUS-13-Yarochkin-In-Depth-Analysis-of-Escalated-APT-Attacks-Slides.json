@@ -1,1 +1,20 @@
-{"rule_id": 472, "name": "2015-2022_textUS-13-Yarochkin-In-Depth-Analysis-of-Escalated-APT-Attacks-Slides", "description": "-", "references": [], "samples": ["jeremy.chiu", "benson.wu", "diary.blog", "31805794.html", "blog.yam"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 472,
+  "name": "2015-2022_textUS-13-Yarochkin-In-Depth-Analysis-of-Escalated-APT-Attacks-Slides",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "jeremy.chiu",
+    "benson.wu",
+    "diary.blog",
+    "31805794.html",
+    "blog.yam"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

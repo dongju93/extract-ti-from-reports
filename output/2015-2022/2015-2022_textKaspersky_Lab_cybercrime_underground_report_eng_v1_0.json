@@ -1,1 +1,14 @@
-{"rule_id": 857, "name": "2015-2022_textKaspersky_Lab_cybercrime_underground_report_eng_v1_0", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 857,
+  "name": "2015-2022_textKaspersky_Lab_cybercrime_underground_report_eng_v1_0",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

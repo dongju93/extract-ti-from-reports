@@ -1,1 +1,42 @@
-{"rule_id": 67, "name": "2015-2022_textMahalo_FIN7", "description": "-", "references": [], "samples": ["Backdoor.Win", "DWriteImpl.dll", "DWriteImpl.pdb", "binary.dll", "DWrite.dll", "ls.dll", "Dropper.Win", "techniques.html", "malware.html", "Dwrite.dll", "PE32.DLLs"], "MD5": ["af2f4142463f42548b8650a3adf5ceb2", "a67d6e87283c34459b4660f19747a306"], "SHA1": ["09f3c9ae382fbd29fb47ecdfeb3bb149d7e961a1", "a873f3417d54220e978d0ca9ceb63cf13ec71f84"], "SHA256": ["18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5", "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["af2f4142463f42548b8650a3adf5ceb2", "a67d6e87283c34459b4660f19747a306", "09f3c9ae382fbd29fb47ecdfeb3bb149d7e961a1", "a873f3417d54220e978d0ca9ceb63cf13ec71f84", "18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5", "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0"]}
+{
+  "rule_id": 67,
+  "name": "2015-2022_textMahalo_FIN7",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Backdoor.Win",
+    "DWriteImpl.dll",
+    "DWriteImpl.pdb",
+    "binary.dll",
+    "DWrite.dll",
+    "ls.dll",
+    "Dropper.Win",
+    "techniques.html",
+    "malware.html",
+    "Dwrite.dll",
+    "PE32.DLLs"
+  ],
+  "MD5": [
+    "af2f4142463f42548b8650a3adf5ceb2",
+    "a67d6e87283c34459b4660f19747a306"
+  ],
+  "SHA1": [
+    "09f3c9ae382fbd29fb47ecdfeb3bb149d7e961a1",
+    "a873f3417d54220e978d0ca9ceb63cf13ec71f84"
+  ],
+  "SHA256": [
+    "18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5",
+    "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "af2f4142463f42548b8650a3adf5ceb2",
+    "a67d6e87283c34459b4660f19747a306",
+    "09f3c9ae382fbd29fb47ecdfeb3bb149d7e961a1",
+    "a873f3417d54220e978d0ca9ceb63cf13ec71f84",
+    "18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5",
+    "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0"
+  ]
+}

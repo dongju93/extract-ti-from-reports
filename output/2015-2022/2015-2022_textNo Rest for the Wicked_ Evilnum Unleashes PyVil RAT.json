@@ -1,1 +1,18 @@
-{"rule_id": 992, "name": "2015-2022_textNo Rest for the Wicked_ Evilnum Unleashes PyVil RAT", "description": "-", "references": [], "samples": ["Fplayer.exe", "nvStinst.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"], "weight": 0.0, "signatures": ["https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"]}
+{
+  "rule_id": 992,
+  "name": "2015-2022_textNo Rest for the Wicked_ Evilnum Unleashes PyVil RAT",
+  "description": "-",
+  "references": [],
+  "samples": ["Fplayer.exe", "nvStinst.exe"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"
+  ]
+}

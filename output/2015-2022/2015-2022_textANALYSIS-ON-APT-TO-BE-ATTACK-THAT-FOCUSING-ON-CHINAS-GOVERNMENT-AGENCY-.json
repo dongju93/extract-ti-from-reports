@@ -1,1 +1,14 @@
-{"rule_id": 287, "name": "2015-2022_textANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-", "description": "-", "references": [], "samples": ["ab.exe", "build.sh", "Microsoft.EXE"], "MD5": ["44BCF2DD262F12222ADEAB6F59B2975B"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["44BCF2DD262F12222ADEAB6F59B2975B"]}
+{
+  "rule_id": 287,
+  "name": "2015-2022_textANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-",
+  "description": "-",
+  "references": [],
+  "samples": ["ab.exe", "build.sh", "Microsoft.EXE"],
+  "MD5": ["44BCF2DD262F12222ADEAB6F59B2975B"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["44BCF2DD262F12222ADEAB6F59B2975B"]
+}

@@ -1,1 +1,14 @@
-{"rule_id": 491, "name": "2015-2022_textHunting Libyan Scorpions _ Cyberkov _ Professional Cybersecurity & Consultation Firm_", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://cyberkov.com/hunting-libyan-scorpions/"], "weight": 0.0, "signatures": ["https://cyberkov.com/hunting-libyan-scorpions/"]}
+{
+  "rule_id": 491,
+  "name": "2015-2022_textHunting Libyan Scorpions _ Cyberkov _ Professional Cybersecurity & Consultation Firm_",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://cyberkov.com/hunting-libyan-scorpions/"],
+  "weight": 0.0,
+  "signatures": ["https://cyberkov.com/hunting-libyan-scorpions/"]
+}

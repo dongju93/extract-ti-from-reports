@@ -1,1 +1,41 @@
-{"rule_id": 780, "name": "2015-2022_textOhFlorio-VB2015", "description": "-", "references": [], "samples": ["CR4.SMEP", "getset.cxx", "x64.html", "nikhef.nl", "siberas.de", "vm.read", "Profit.pdf", "escalation.pdf"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://bofh.nikhef.nl/events/HitB/hitb-2014-", "https://labs.mwrinfosecurity.com/blog/2014", "http://www.siberas.de/papers/Pwn2Own_20", "http://blog.ptsecurity.com/2012/09/bypassi", "http://j00ru.vexillium.org/?p=783", "http://j00ru.vexillium.org/dump/recon2015.", "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf", "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf"], "weight": 0.0, "signatures": ["http://bofh.nikhef.nl/events/HitB/hitb-2014-", "https://labs.mwrinfosecurity.com/blog/2014", "http://www.siberas.de/papers/Pwn2Own_20", "http://blog.ptsecurity.com/2012/09/bypassi", "http://j00ru.vexillium.org/?p=783", "http://j00ru.vexillium.org/dump/recon2015.", "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf", "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf"]}
+{
+  "rule_id": 780,
+  "name": "2015-2022_textOhFlorio-VB2015",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "CR4.SMEP",
+    "getset.cxx",
+    "x64.html",
+    "nikhef.nl",
+    "siberas.de",
+    "vm.read",
+    "Profit.pdf",
+    "escalation.pdf"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://bofh.nikhef.nl/events/HitB/hitb-2014-",
+    "https://labs.mwrinfosecurity.com/blog/2014",
+    "http://www.siberas.de/papers/Pwn2Own_20",
+    "http://blog.ptsecurity.com/2012/09/bypassi",
+    "http://j00ru.vexillium.org/?p=783",
+    "http://j00ru.vexillium.org/dump/recon2015.",
+    "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf",
+    "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://bofh.nikhef.nl/events/HitB/hitb-2014-",
+    "https://labs.mwrinfosecurity.com/blog/2014",
+    "http://www.siberas.de/papers/Pwn2Own_20",
+    "http://blog.ptsecurity.com/2012/09/bypassi",
+    "http://j00ru.vexillium.org/?p=783",
+    "http://j00ru.vexillium.org/dump/recon2015.",
+    "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf",
+    "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf"
+  ]
+}

@@ -1,1 +1,31 @@
-{"rule_id": 861, "name": "2015-2022_text2016_005_001_454247", "description": "-", "references": ["CVE-2012-2336", "CVE-2013-5122", "CVE-2012-1823"], "samples": ["susp.set", "m.sh", "www.sei", "honeynet.set", "sei.cmu", "organization.The"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.sei.cmu.edu", "http://virustotal.com.", "http://icsresearch2.plcscan.org.", "https://malwrpost.wordpress.com/2015/11/18/ioc-for-gafgyt-malware-with-"], "weight": 0.0, "signatures": ["http://www.sei.cmu.edu", "http://virustotal.com.", "http://icsresearch2.plcscan.org.", "https://malwrpost.wordpress.com/2015/11/18/ioc-for-gafgyt-malware-with-"]}
+{
+  "rule_id": 861,
+  "name": "2015-2022_text2016_005_001_454247",
+  "description": "-",
+  "references": ["CVE-2012-2336", "CVE-2013-5122", "CVE-2012-1823"],
+  "samples": [
+    "susp.set",
+    "m.sh",
+    "www.sei",
+    "honeynet.set",
+    "sei.cmu",
+    "organization.The"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.sei.cmu.edu",
+    "http://virustotal.com.",
+    "http://icsresearch2.plcscan.org.",
+    "https://malwrpost.wordpress.com/2015/11/18/ioc-for-gafgyt-malware-with-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.sei.cmu.edu",
+    "http://virustotal.com.",
+    "http://icsresearch2.plcscan.org.",
+    "https://malwrpost.wordpress.com/2015/11/18/ioc-for-gafgyt-malware-with-"
+  ]
+}

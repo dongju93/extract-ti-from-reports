@@ -1,1 +1,33 @@
-{"rule_id": 787, "name": "2015-2022_textByeBye_Shell_target", "description": "-", "references": [], "samples": ["g.yY", "sock.recv", "subprocess.PIPE", "sock.send"], "MD5": ["6b349e439a17c4b66fb2a25965432aa9", "469cf94c457c17d8f24dacf9f9d41f33", "8b4224dac114a9b8433913a1977f88b2", "d36da5c48d8fb7ee8c736ae183bf3f8a"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOWALL  /v  CheckedValue  /t  REG_DWORD  /d  0x00000000  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  HideFileExt  /t  REG_DWORD  /d  0x00000001  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  Hidden  /t  REG_DWORD  /d  0x00000000  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  ShowSuperHidden  /t  REG_DWORD  /d  0x00000000  /f    "], "URL": [], "weight": 0.0, "signatures": ["6b349e439a17c4b66fb2a25965432aa9", "469cf94c457c17d8f24dacf9f9d41f33", "8b4224dac114a9b8433913a1977f88b2", "d36da5c48d8fb7ee8c736ae183bf3f8a", "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOWALL  /v  CheckedValue  /t  REG_DWORD  /d  0x00000000  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  HideFileExt  /t  REG_DWORD  /d  0x00000001  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  Hidden  /t  REG_DWORD  /d  0x00000000  /f    ", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  ShowSuperHidden  /t  REG_DWORD  /d  0x00000000  /f    "]}
+{
+  "rule_id": 787,
+  "name": "2015-2022_textByeBye_Shell_target",
+  "description": "-",
+  "references": [],
+  "samples": ["g.yY", "sock.recv", "subprocess.PIPE", "sock.send"],
+  "MD5": [
+    "6b349e439a17c4b66fb2a25965432aa9",
+    "469cf94c457c17d8f24dacf9f9d41f33",
+    "8b4224dac114a9b8433913a1977f88b2",
+    "d36da5c48d8fb7ee8c736ae183bf3f8a"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOWALL  /v  CheckedValue  /t  REG_DWORD  /d  0x00000000  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  HideFileExt  /t  REG_DWORD  /d  0x00000001  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  Hidden  /t  REG_DWORD  /d  0x00000000  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  ShowSuperHidden  /t  REG_DWORD  /d  0x00000000  /f    "
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "6b349e439a17c4b66fb2a25965432aa9",
+    "469cf94c457c17d8f24dacf9f9d41f33",
+    "8b4224dac114a9b8433913a1977f88b2",
+    "d36da5c48d8fb7ee8c736ae183bf3f8a",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOWALL  /v  CheckedValue  /t  REG_DWORD  /d  0x00000000  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  HideFileExt  /t  REG_DWORD  /d  0x00000001  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  Hidden  /t  REG_DWORD  /d  0x00000000  /f    ",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced  /v  ShowSuperHidden  /t  REG_DWORD  /d  0x00000000  /f    "
+  ]
+}

@@ -1,1 +1,14 @@
-{"rule_id": 971, "name": "2015-2022_textMore than a Dozen Obfuscated APT33 Botnets Used for Extreme Narrow Targeting", "description": "-", "references": [], "samples": ["Win32.SCAR", "MsdUpdate.ex"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 971,
+  "name": "2015-2022_textMore than a Dozen Obfuscated APT33 Botnets Used for Extreme Narrow Targeting",
+  "description": "-",
+  "references": [],
+  "samples": ["Win32.SCAR", "MsdUpdate.ex"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

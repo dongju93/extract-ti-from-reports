@@ -1,1 +1,46 @@
-{"rule_id": 364, "name": "2015-2022_text(Chinese)rmshixdAPT-C-15-20160630", "description": "-", "references": [], "samples": ["File1.pdf", "jerques.dll", "gendarme.dll", "regev.il", "כדע.pdf", "لا.pdf", "的汽车炸弹.pdf", "Zcore.dll", "israelleaks.is", "程.pdf", "Plgcomm.dll", "isleaks.rar", "ف.pdf", "者.pdf", "个人所得税更新.pdf", "OceanLotusReport.pdf", "Israe.Army", "Plgcmd.dll"], "MD5": ["52f461a133e95328ccd9ba7f70e2f3e6", "1e4ed1704e31917f8652aa0078a85459", "c80b3fb9293a932b4e814a32e7ca76d3"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://ti.360.com/upload/report/file/OceanLotusReport.pdf", "https://ww"], "weight": 0.0, "signatures": ["52f461a133e95328ccd9ba7f70e2f3e6", "1e4ed1704e31917f8652aa0078a85459", "c80b3fb9293a932b4e814a32e7ca76d3", "https://ti.360.com/upload/report/file/OceanLotusReport.pdf", "https://ww"]}
+{
+  "rule_id": 364,
+  "name": "2015-2022_text(Chinese)rmshixdAPT-C-15-20160630",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "File1.pdf",
+    "jerques.dll",
+    "gendarme.dll",
+    "regev.il",
+    "כדע.pdf",
+    "لا.pdf",
+    "的汽车炸弹.pdf",
+    "Zcore.dll",
+    "israelleaks.is",
+    "程.pdf",
+    "Plgcomm.dll",
+    "isleaks.rar",
+    "ف.pdf",
+    "者.pdf",
+    "个人所得税更新.pdf",
+    "OceanLotusReport.pdf",
+    "Israe.Army",
+    "Plgcmd.dll"
+  ],
+  "MD5": [
+    "52f461a133e95328ccd9ba7f70e2f3e6",
+    "1e4ed1704e31917f8652aa0078a85459",
+    "c80b3fb9293a932b4e814a32e7ca76d3"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://ti.360.com/upload/report/file/OceanLotusReport.pdf",
+    "https://ww"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "52f461a133e95328ccd9ba7f70e2f3e6",
+    "1e4ed1704e31917f8652aa0078a85459",
+    "c80b3fb9293a932b4e814a32e7ca76d3",
+    "https://ti.360.com/upload/report/file/OceanLotusReport.pdf",
+    "https://ww"
+  ]
+}

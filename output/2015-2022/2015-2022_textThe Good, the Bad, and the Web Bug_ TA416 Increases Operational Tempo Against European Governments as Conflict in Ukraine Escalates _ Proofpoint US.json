@@ -1,1 +1,49 @@
-{"rule_id": 274, "name": "2015-2022_textThe Good, the Bad, and the Web Bug_ TA416 Increases Operational Tempo Against European Governments as Conflict in Ukraine Escalates _ Proofpoint US", "description": "-", "references": [], "samples": ["2023.rar", "DocConvDll.dll", "COUNCIL.pdf", "FontLog.dat", "COUNCIL.exe", "potplayermini.exe", "PotPlayer.dll", "situation.zip", "Ukraine.docx", "FontEDL.exe", "Ukraine.zip", "Ukraine.exe", "eu.docx", "situation.pdf", "2022.pdf", "2022.zip", "Greece.zip", "PotPlayer.exe", "PotPlayerDB.dat", "Peace.pdf", "Greece.exe", "Greece.pdf", "situation.exe"], "MD5": [], "SHA1": [], "SHA256": ["effd63168fc7957baf609f7492cd82579459963f80fc6fc4d261fbc68877f5a1", "54b491541376bda85ffb02b9bb40b9b5adba644f08b630fc1b47392625e1e60a", "0e3e47697539f1773fb53114ab53229c0304d86ed35aec05e5f5bfdf3bd35f9a", "8a7fbafe9f3395272548e5aadeb1af07baeb65d7859e7a1560f580455d7b1fac"], "Registry_Entries": [], "URL": ["https://upespr.com/Council"], "weight": 0.0, "signatures": ["effd63168fc7957baf609f7492cd82579459963f80fc6fc4d261fbc68877f5a1", "54b491541376bda85ffb02b9bb40b9b5adba644f08b630fc1b47392625e1e60a", "0e3e47697539f1773fb53114ab53229c0304d86ed35aec05e5f5bfdf3bd35f9a", "8a7fbafe9f3395272548e5aadeb1af07baeb65d7859e7a1560f580455d7b1fac", "https://upespr.com/Council"]}
+{
+  "rule_id": 274,
+  "name": "2015-2022_textThe Good, the Bad, and the Web Bug_ TA416 Increases Operational Tempo Against European Governments as Conflict in Ukraine Escalates _ Proofpoint US",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "2023.rar",
+    "DocConvDll.dll",
+    "COUNCIL.pdf",
+    "FontLog.dat",
+    "COUNCIL.exe",
+    "potplayermini.exe",
+    "PotPlayer.dll",
+    "situation.zip",
+    "Ukraine.docx",
+    "FontEDL.exe",
+    "Ukraine.zip",
+    "Ukraine.exe",
+    "eu.docx",
+    "situation.pdf",
+    "2022.pdf",
+    "2022.zip",
+    "Greece.zip",
+    "PotPlayer.exe",
+    "PotPlayerDB.dat",
+    "Peace.pdf",
+    "Greece.exe",
+    "Greece.pdf",
+    "situation.exe"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "effd63168fc7957baf609f7492cd82579459963f80fc6fc4d261fbc68877f5a1",
+    "54b491541376bda85ffb02b9bb40b9b5adba644f08b630fc1b47392625e1e60a",
+    "0e3e47697539f1773fb53114ab53229c0304d86ed35aec05e5f5bfdf3bd35f9a",
+    "8a7fbafe9f3395272548e5aadeb1af07baeb65d7859e7a1560f580455d7b1fac"
+  ],
+  "Registry_Entries": [],
+  "URL": ["https://upespr.com/Council"],
+  "weight": 0.0,
+  "signatures": [
+    "effd63168fc7957baf609f7492cd82579459963f80fc6fc4d261fbc68877f5a1",
+    "54b491541376bda85ffb02b9bb40b9b5adba644f08b630fc1b47392625e1e60a",
+    "0e3e47697539f1773fb53114ab53229c0304d86ed35aec05e5f5bfdf3bd35f9a",
+    "8a7fbafe9f3395272548e5aadeb1af07baeb65d7859e7a1560f580455d7b1fac",
+    "https://upespr.com/Council"
+  ]
+}

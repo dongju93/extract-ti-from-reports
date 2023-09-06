@@ -1,1 +1,51 @@
-{"rule_id": 113, "name": "2015-2022_textNew Poison Ivy Activity Targeting Myanmar, Asian Countries", "description": "-", "references": [], "samples": ["1.docx", "ActiveFlash.exe", "Acheivements_25112015.exe", "Dubai.doc", "AEcod.doc", "REGISTRATION_FORM_ASEAN_CMCoord2016.docx", "2.tmp", "Year1achievementsv2.docx", "Active.dat", "ActiveUpdate.dll", "END.DDoS", "Weekly.docx", "Year1achievementsv2.exe", "Myanmar.doc", "Acheivements_25112015.docx"], "MD5": [], "SHA1": ["a7d206791b1cdec616e9b18ae6fa1548ca96a321", "f389e1c970b2ca28112a30a8cfef1f3973fa82ea", "ec646c57f9ac5e56230a17aeca6523a4532ff472", "ef2618d58bd50fa232a19f9bcf3983d1e2dff266", "31756ccdbfe05d0a510d2dcf207fdef5287de285", "675a3247f4c0e1105a41c685f4c2fb606e5b1eac", "63e00dbf45961ad11bd1eb55dff9c2771c2916a6", "49e36de6d757ca44c43d5670d497bd8738c1d2a4", "724166261e9c2e7718be22b347671944a1e7fded"], "SHA256": [], "Registry_Entries": [], "URL": ["http://atlas.arbor.net."], "weight": 0.0, "signatures": ["a7d206791b1cdec616e9b18ae6fa1548ca96a321", "f389e1c970b2ca28112a30a8cfef1f3973fa82ea", "ec646c57f9ac5e56230a17aeca6523a4532ff472", "ef2618d58bd50fa232a19f9bcf3983d1e2dff266", "31756ccdbfe05d0a510d2dcf207fdef5287de285", "675a3247f4c0e1105a41c685f4c2fb606e5b1eac", "63e00dbf45961ad11bd1eb55dff9c2771c2916a6", "49e36de6d757ca44c43d5670d497bd8738c1d2a4", "724166261e9c2e7718be22b347671944a1e7fded", "http://atlas.arbor.net."]}
+{
+  "rule_id": 113,
+  "name": "2015-2022_textNew Poison Ivy Activity Targeting Myanmar, Asian Countries",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "1.docx",
+    "ActiveFlash.exe",
+    "Acheivements_25112015.exe",
+    "Dubai.doc",
+    "AEcod.doc",
+    "REGISTRATION_FORM_ASEAN_CMCoord2016.docx",
+    "2.tmp",
+    "Year1achievementsv2.docx",
+    "Active.dat",
+    "ActiveUpdate.dll",
+    "END.DDoS",
+    "Weekly.docx",
+    "Year1achievementsv2.exe",
+    "Myanmar.doc",
+    "Acheivements_25112015.docx"
+  ],
+  "MD5": [],
+  "SHA1": [
+    "a7d206791b1cdec616e9b18ae6fa1548ca96a321",
+    "f389e1c970b2ca28112a30a8cfef1f3973fa82ea",
+    "ec646c57f9ac5e56230a17aeca6523a4532ff472",
+    "ef2618d58bd50fa232a19f9bcf3983d1e2dff266",
+    "31756ccdbfe05d0a510d2dcf207fdef5287de285",
+    "675a3247f4c0e1105a41c685f4c2fb606e5b1eac",
+    "63e00dbf45961ad11bd1eb55dff9c2771c2916a6",
+    "49e36de6d757ca44c43d5670d497bd8738c1d2a4",
+    "724166261e9c2e7718be22b347671944a1e7fded"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://atlas.arbor.net."],
+  "weight": 0.0,
+  "signatures": [
+    "a7d206791b1cdec616e9b18ae6fa1548ca96a321",
+    "f389e1c970b2ca28112a30a8cfef1f3973fa82ea",
+    "ec646c57f9ac5e56230a17aeca6523a4532ff472",
+    "ef2618d58bd50fa232a19f9bcf3983d1e2dff266",
+    "31756ccdbfe05d0a510d2dcf207fdef5287de285",
+    "675a3247f4c0e1105a41c685f4c2fb606e5b1eac",
+    "63e00dbf45961ad11bd1eb55dff9c2771c2916a6",
+    "49e36de6d757ca44c43d5670d497bd8738c1d2a4",
+    "724166261e9c2e7718be22b347671944a1e7fded",
+    "http://atlas.arbor.net."
+  ]
+}

@@ -1,1 +1,14 @@
-{"rule_id": 917, "name": "2015-2022_textwp-pawn-storm-in-2019", "description": "-", "references": [], "samples": ["prevention.html"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 917,
+  "name": "2015-2022_textwp-pawn-storm-in-2019",
+  "description": "-",
+  "references": [],
+  "samples": ["prevention.html"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

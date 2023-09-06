@@ -1,1 +1,31 @@
-{"rule_id": 1243, "name": "2015-2022_textdarkhotelappendixindicators_kl", "description": "-", "references": [], "samples": ["Ltray.exe", "messages.pps", "aYagent.aye", "dmaUp3.exe", "rsmgrsvr.exe", "agent.xwge", "ndIsKpro.sYs", "uiWinmgr.exe", "nVcagent.npc"], "MD5": ["3961caB50c32e8f32fe45836B9715ce5"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert", "http://<c2domaIn>/bin/read_i.php"], "weight": 0.0, "signatures": ["3961caB50c32e8f32fe45836B9715ce5", "http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert", "http://<c2domaIn>/bin/read_i.php"]}
+{
+  "rule_id": 1243,
+  "name": "2015-2022_textdarkhotelappendixindicators_kl",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Ltray.exe",
+    "messages.pps",
+    "aYagent.aye",
+    "dmaUp3.exe",
+    "rsmgrsvr.exe",
+    "agent.xwge",
+    "ndIsKpro.sYs",
+    "uiWinmgr.exe",
+    "nVcagent.npc"
+  ],
+  "MD5": ["3961caB50c32e8f32fe45836B9715ce5"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert",
+    "http://<c2domaIn>/bin/read_i.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3961caB50c32e8f32fe45836B9715ce5",
+    "http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert",
+    "http://<c2domaIn>/bin/read_i.php"
+  ]
+}

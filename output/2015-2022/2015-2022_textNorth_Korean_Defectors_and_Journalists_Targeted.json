@@ -1,1 +1,28 @@
-{"rule_id": 270, "name": "2015-2022_textNorth_Korean_Defectors_and_Journalists_Targeted", "description": "-", "references": [], "samples": ["article.html", "HiddenApp.BP", "com.toh"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://t.co/KCFN80UpzC)", "https://t.co/KCFN80UpzC", "https://t.co/CeOtkvuADn)", "https://t.co/CeOtkvuADn", "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)", "http://www.newdaily.co.kr/news/article.html?"], "weight": 0.0, "signatures": ["https://t.co/KCFN80UpzC)", "https://t.co/KCFN80UpzC", "https://t.co/CeOtkvuADn)", "https://t.co/CeOtkvuADn", "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)", "http://www.newdaily.co.kr/news/article.html?"]}
+{
+  "rule_id": 270,
+  "name": "2015-2022_textNorth_Korean_Defectors_and_Journalists_Targeted",
+  "description": "-",
+  "references": [],
+  "samples": ["article.html", "HiddenApp.BP", "com.toh"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://t.co/KCFN80UpzC)",
+    "https://t.co/KCFN80UpzC",
+    "https://t.co/CeOtkvuADn)",
+    "https://t.co/CeOtkvuADn",
+    "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)",
+    "http://www.newdaily.co.kr/news/article.html?"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://t.co/KCFN80UpzC)",
+    "https://t.co/KCFN80UpzC",
+    "https://t.co/CeOtkvuADn)",
+    "https://t.co/CeOtkvuADn",
+    "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)",
+    "http://www.newdaily.co.kr/news/article.html?"
+  ]
+}

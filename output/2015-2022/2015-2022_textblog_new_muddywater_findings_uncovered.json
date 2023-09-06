@@ -1,1 +1,14 @@
-{"rule_id": 343, "name": "2015-2022_textblog_new_muddywater_findings_uncovered", "description": "-", "references": ["CVE-2019-2725"], "samples": ["Powershell.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 343,
+  "name": "2015-2022_textblog_new_muddywater_findings_uncovered",
+  "description": "-",
+  "references": ["CVE-2019-2725"],
+  "samples": ["Powershell.exe"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,1 +1,24 @@
-{"rule_id": 849, "name": "2015-2022_textTheNaikonAPT-MsnMM2", "description": "-", "references": [], "samples": [], "MD5": ["bf6d3f52ab8176122be858ddccc22148"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\"], "URL": ["http://www.aspistrategist.", "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,", "http://www.apcss.org/)"], "weight": 0.0, "signatures": ["bf6d3f52ab8176122be858ddccc22148", "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\", "http://www.aspistrategist.", "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,", "http://www.apcss.org/)"]}
+{
+  "rule_id": 849,
+  "name": "2015-2022_textTheNaikonAPT-MsnMM2",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": ["bf6d3f52ab8176122be858ddccc22148"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": ["HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\"],
+  "URL": [
+    "http://www.aspistrategist.",
+    "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,",
+    "http://www.apcss.org/)"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "bf6d3f52ab8176122be858ddccc22148",
+    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\",
+    "http://www.aspistrategist.",
+    "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,",
+    "http://www.apcss.org/)"
+  ]
+}

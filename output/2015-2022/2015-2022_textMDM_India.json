@@ -1,1 +1,41 @@
-{"rule_id": 319, "name": "2015-2022_textMDM_India", "description": "-", "references": [], "samples": ["Wplus.ipa", "all.php", "users_v29.uid", "AppsSLoader.ipa", "PrayTime.ipa", "tgdata.db", "CA.crt", "hh.php", "Telegram.ipa", "dyrKztORKwVWOGo.php", "Server.csr", "MyApp.ipa", "UfmcRxYDaVVbrBl.php", "jDRucchWSoWQGpU.php"], "MD5": [], "SHA1": [], "SHA256": ["4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1", "aef046b67871076d507019cd87afdaeef602d1d2924b434ec1c165097b781242", "e3872bb33d8a4629846539eb859340940d14fdcf5b1c002b57c7dfe2adf52f08", "329e025866bc6e88184af0b633eb3334b2e8b1c0817437c03fcd922987c5cf04", "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1", "aef046b67871076d507019cd87afdaeef602d1d2924b434ec1c165097b781242", "e3872bb33d8a4629846539eb859340940d14fdcf5b1c002b57c7dfe2adf52f08", "329e025866bc6e88184af0b633eb3334b2e8b1c0817437c03fcd922987c5cf04", "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef"]}
+{
+  "rule_id": 319,
+  "name": "2015-2022_textMDM_India",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Wplus.ipa",
+    "all.php",
+    "users_v29.uid",
+    "AppsSLoader.ipa",
+    "PrayTime.ipa",
+    "tgdata.db",
+    "CA.crt",
+    "hh.php",
+    "Telegram.ipa",
+    "dyrKztORKwVWOGo.php",
+    "Server.csr",
+    "MyApp.ipa",
+    "UfmcRxYDaVVbrBl.php",
+    "jDRucchWSoWQGpU.php"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1",
+    "aef046b67871076d507019cd87afdaeef602d1d2924b434ec1c165097b781242",
+    "e3872bb33d8a4629846539eb859340940d14fdcf5b1c002b57c7dfe2adf52f08",
+    "329e025866bc6e88184af0b633eb3334b2e8b1c0817437c03fcd922987c5cf04",
+    "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1",
+    "aef046b67871076d507019cd87afdaeef602d1d2924b434ec1c165097b781242",
+    "e3872bb33d8a4629846539eb859340940d14fdcf5b1c002b57c7dfe2adf52f08",
+    "329e025866bc6e88184af0b633eb3334b2e8b1c0817437c03fcd922987c5cf04",
+    "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef"
+  ]
+}

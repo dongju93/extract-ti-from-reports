@@ -1,1 +1,18 @@
-{"rule_id": 804, "name": "2015-2022_texttta1-f04_hide-and-seek-how-threat-actors-respond-in-the-face-of-public-exposure", "description": "-", "references": [], "samples": ["tl.iW", "aem.ae", "td.rtBD", "l.to", "objWMIService.Get"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://labs.bromium.com/2016/03/09/macro-malware-connecting-to-github/"], "weight": 0.0, "signatures": ["https://labs.bromium.com/2016/03/09/macro-malware-connecting-to-github/"]}
+{
+  "rule_id": 804,
+  "name": "2015-2022_texttta1-f04_hide-and-seek-how-threat-actors-respond-in-the-face-of-public-exposure",
+  "description": "-",
+  "references": [],
+  "samples": ["tl.iW", "aem.ae", "td.rtBD", "l.to", "objWMIService.Get"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://labs.bromium.com/2016/03/09/macro-malware-connecting-to-github/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://labs.bromium.com/2016/03/09/macro-malware-connecting-to-github/"
+  ]
+}

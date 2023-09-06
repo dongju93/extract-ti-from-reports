@@ -1,1 +1,56 @@
-{"rule_id": 1259, "name": "2015-2022_textCopyKittens", "description": "-", "references": [], "samples": ["outlookpasswordsecrets.php", "m_of_api_obfuscation_on_win32.pdf"], "MD5": ["098e8dd0e874e59817f2e78cd48e58f3", "38cb64ba0aafb86585d9bcbd1c500416", "5e545dae692ecb4bddacdb9c526b1f16", "4765369d8ae52f2dd9b318e0c8b27054", "9db2719a3dde09ae260def9cd0d46dbe", "1cef128513c05837f24796042b8e1cd9", "6d8d0f7d73a9afaee667d71273e6e5e2", "bad36581f72aa2d8597dd2b1bc7b2a7f", "bcf93595ba4586b6324963e989349319", "8734f46d932f179161042ef5b4a7b8a8", "9853fc1f4d7ba23d728f4ee80842faf9"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.rohitab.com/discuss/topic/40069-keylogging-all-users-across-windows-7-professional/", "http://www.minerva-labs.com", "https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj", "http://securityxploded.com/outlookpasswordsecrets.php", "http://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide", "https://malwr.com/analysis/ZDg3Nzg3MDM3MWQwNDdmNTgwYWRmOTJkNWFhYTQ0ZjY/", "http://syrianmalware.com/"], "weight": 0.0, "signatures": ["098e8dd0e874e59817f2e78cd48e58f3", "38cb64ba0aafb86585d9bcbd1c500416", "5e545dae692ecb4bddacdb9c526b1f16", "4765369d8ae52f2dd9b318e0c8b27054", "9db2719a3dde09ae260def9cd0d46dbe", "1cef128513c05837f24796042b8e1cd9", "6d8d0f7d73a9afaee667d71273e6e5e2", "bad36581f72aa2d8597dd2b1bc7b2a7f", "bcf93595ba4586b6324963e989349319", "8734f46d932f179161042ef5b4a7b8a8", "9853fc1f4d7ba23d728f4ee80842faf9", "http://www.rohitab.com/discuss/topic/40069-keylogging-all-users-across-windows-7-professional/", "http://www.minerva-labs.com", "https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj", "http://securityxploded.com/outlookpasswordsecrets.php", "http://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide", "https://malwr.com/analysis/ZDg3Nzg3MDM3MWQwNDdmNTgwYWRmOTJkNWFhYTQ0ZjY/", "http://syrianmalware.com/"]}
+{
+  "rule_id": 1259,
+  "name": "2015-2022_textCopyKittens",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "outlookpasswordsecrets.php",
+    "m_of_api_obfuscation_on_win32.pdf"
+  ],
+  "MD5": [
+    "098e8dd0e874e59817f2e78cd48e58f3",
+    "38cb64ba0aafb86585d9bcbd1c500416",
+    "5e545dae692ecb4bddacdb9c526b1f16",
+    "4765369d8ae52f2dd9b318e0c8b27054",
+    "9db2719a3dde09ae260def9cd0d46dbe",
+    "1cef128513c05837f24796042b8e1cd9",
+    "6d8d0f7d73a9afaee667d71273e6e5e2",
+    "bad36581f72aa2d8597dd2b1bc7b2a7f",
+    "bcf93595ba4586b6324963e989349319",
+    "8734f46d932f179161042ef5b4a7b8a8",
+    "9853fc1f4d7ba23d728f4ee80842faf9"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.rohitab.com/discuss/topic/40069-keylogging-all-users-across-windows-7-professional/",
+    "http://www.minerva-labs.com",
+    "https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj",
+    "http://securityxploded.com/outlookpasswordsecrets.php",
+    "http://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide",
+    "https://malwr.com/analysis/ZDg3Nzg3MDM3MWQwNDdmNTgwYWRmOTJkNWFhYTQ0ZjY/",
+    "http://syrianmalware.com/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "098e8dd0e874e59817f2e78cd48e58f3",
+    "38cb64ba0aafb86585d9bcbd1c500416",
+    "5e545dae692ecb4bddacdb9c526b1f16",
+    "4765369d8ae52f2dd9b318e0c8b27054",
+    "9db2719a3dde09ae260def9cd0d46dbe",
+    "1cef128513c05837f24796042b8e1cd9",
+    "6d8d0f7d73a9afaee667d71273e6e5e2",
+    "bad36581f72aa2d8597dd2b1bc7b2a7f",
+    "bcf93595ba4586b6324963e989349319",
+    "8734f46d932f179161042ef5b4a7b8a8",
+    "9853fc1f4d7ba23d728f4ee80842faf9",
+    "http://www.rohitab.com/discuss/topic/40069-keylogging-all-users-across-windows-7-professional/",
+    "http://www.minerva-labs.com",
+    "https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj",
+    "http://securityxploded.com/outlookpasswordsecrets.php",
+    "http://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide",
+    "https://malwr.com/analysis/ZDg3Nzg3MDM3MWQwNDdmNTgwYWRmOTJkNWFhYTQ0ZjY/",
+    "http://syrianmalware.com/"
+  ]
+}

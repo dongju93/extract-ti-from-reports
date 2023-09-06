@@ -1,1 +1,14 @@
-{"rule_id": 678, "name": "2015-2022_textPerl-Based Shellbot Looks to Target Organizations via C&C - TrendLabs Security Intelligence Blog", "description": "-", "references": [], "samples": ["i.tmp", "n.tgz", "SHELLBOT.SM", "speed.sh"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 678,
+  "name": "2015-2022_textPerl-Based Shellbot Looks to Target Organizations via C&C - TrendLabs Security Intelligence Blog",
+  "description": "-",
+  "references": [],
+  "samples": ["i.tmp", "n.tgz", "SHELLBOT.SM", "speed.sh"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

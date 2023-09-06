@@ -1,1 +1,20 @@
-{"rule_id": 887, "name": "2015-2022_textrmsxden20160721", "description": "-", "references": [], "samples": ["tax.pdf", "control.pdf", "Palestine.pdf", "Adobe.pdf", "Chaser.pdf"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 887,
+  "name": "2015-2022_textrmsxden20160721",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tax.pdf",
+    "control.pdf",
+    "Palestine.pdf",
+    "Adobe.pdf",
+    "Chaser.pdf"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

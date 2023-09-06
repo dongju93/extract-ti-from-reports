@@ -1,1 +1,21 @@
-{"rule_id": 348, "name": "2015-2022_textpov-2020-1230", "description": "-", "references": [], "samples": ["logoimagehandler.ashx", "Urlscan.io", "b6031896.dll"], "MD5": [], "SHA1": [], "SHA256": ["c5864330c247e2cd2a98d69b852e42f59a16d9613a6536c8b0b25e16c934533d", "21bab0d279d15a548a84a9d9eed34575b2dc9072cc36ebfe7b517850eea92756"], "Registry_Entries": [], "URL": ["https://urlscan.io/result/3df2efd6-530f-"], "weight": 0.0, "signatures": ["c5864330c247e2cd2a98d69b852e42f59a16d9613a6536c8b0b25e16c934533d", "21bab0d279d15a548a84a9d9eed34575b2dc9072cc36ebfe7b517850eea92756", "https://urlscan.io/result/3df2efd6-530f-"]}
+{
+  "rule_id": 348,
+  "name": "2015-2022_textpov-2020-1230",
+  "description": "-",
+  "references": [],
+  "samples": ["logoimagehandler.ashx", "Urlscan.io", "b6031896.dll"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "c5864330c247e2cd2a98d69b852e42f59a16d9613a6536c8b0b25e16c934533d",
+    "21bab0d279d15a548a84a9d9eed34575b2dc9072cc36ebfe7b517850eea92756"
+  ],
+  "Registry_Entries": [],
+  "URL": ["https://urlscan.io/result/3df2efd6-530f-"],
+  "weight": 0.0,
+  "signatures": [
+    "c5864330c247e2cd2a98d69b852e42f59a16d9613a6536c8b0b25e16c934533d",
+    "21bab0d279d15a548a84a9d9eed34575b2dc9072cc36ebfe7b517850eea92756",
+    "https://urlscan.io/result/3df2efd6-530f-"
+  ]
+}

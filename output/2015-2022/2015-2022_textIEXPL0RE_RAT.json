@@ -1,1 +1,48 @@
-{"rule_id": 1151, "name": "2015-2022_textIEXPL0RE_RAT", "description": "-", "references": [], "samples": ["RE.EXE", "offsound.dll", "STREAM.SYS", "csv.exe", "lock.dat", "SENS64.DLL", "screenlog.txt", "offsoundlog.txt", "off.dll", "index000000001.asp", "RE.LNK", "MSMAPI32.SRG", "perf6cd2e5e9.dat", "offscreen.dll", "ccc.txt"], "MD5": ["85e8c6ddcfa7e289be14324abbb7378d", "21a1ee58e4b543d7f2fa3b4022506029", "66e1aff355c29c6f39b21aedbbed2d5c", "eb51b384fcbbe468a6877f569021c5d1", "d46d85777062afbcda02de68c063b877", "8d4e42982060d884e2b7bd257727fd7c", "d7c826ac94522416a0aecf5b7a5d2afe", "8268297c1b38832c03f1c671e0a54a78"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["85e8c6ddcfa7e289be14324abbb7378d", "21a1ee58e4b543d7f2fa3b4022506029", "66e1aff355c29c6f39b21aedbbed2d5c", "eb51b384fcbbe468a6877f569021c5d1", "d46d85777062afbcda02de68c063b877", "8d4e42982060d884e2b7bd257727fd7c", "d7c826ac94522416a0aecf5b7a5d2afe", "8268297c1b38832c03f1c671e0a54a78"]}
+{
+  "rule_id": 1151,
+  "name": "2015-2022_textIEXPL0RE_RAT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "RE.EXE",
+    "offsound.dll",
+    "STREAM.SYS",
+    "csv.exe",
+    "lock.dat",
+    "SENS64.DLL",
+    "screenlog.txt",
+    "offsoundlog.txt",
+    "off.dll",
+    "index000000001.asp",
+    "RE.LNK",
+    "MSMAPI32.SRG",
+    "perf6cd2e5e9.dat",
+    "offscreen.dll",
+    "ccc.txt"
+  ],
+  "MD5": [
+    "85e8c6ddcfa7e289be14324abbb7378d",
+    "21a1ee58e4b543d7f2fa3b4022506029",
+    "66e1aff355c29c6f39b21aedbbed2d5c",
+    "eb51b384fcbbe468a6877f569021c5d1",
+    "d46d85777062afbcda02de68c063b877",
+    "8d4e42982060d884e2b7bd257727fd7c",
+    "d7c826ac94522416a0aecf5b7a5d2afe",
+    "8268297c1b38832c03f1c671e0a54a78"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "85e8c6ddcfa7e289be14324abbb7378d",
+    "21a1ee58e4b543d7f2fa3b4022506029",
+    "66e1aff355c29c6f39b21aedbbed2d5c",
+    "eb51b384fcbbe468a6877f569021c5d1",
+    "d46d85777062afbcda02de68c063b877",
+    "8d4e42982060d884e2b7bd257727fd7c",
+    "d7c826ac94522416a0aecf5b7a5d2afe",
+    "8268297c1b38832c03f1c671e0a54a78"
+  ]
+}

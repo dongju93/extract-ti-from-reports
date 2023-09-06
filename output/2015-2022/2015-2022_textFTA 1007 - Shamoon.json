@@ -1,1 +1,20 @@
-{"rule_id": 511, "name": "2015-2022_textFTA 1007 - Shamoon", "description": "-", "references": [], "samples": ["panetta_n_1960113.html"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.huffingtonpost.com/2012/10/11/shamoon-virus-leon-", "http://blog.seculert.com/2012/08/shamoon-two-stage-targeted-attack.html"], "weight": 0.0, "signatures": ["http://www.huffingtonpost.com/2012/10/11/shamoon-virus-leon-", "http://blog.seculert.com/2012/08/shamoon-two-stage-targeted-attack.html"]}
+{
+  "rule_id": 511,
+  "name": "2015-2022_textFTA 1007 - Shamoon",
+  "description": "-",
+  "references": [],
+  "samples": ["panetta_n_1960113.html"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.huffingtonpost.com/2012/10/11/shamoon-virus-leon-",
+    "http://blog.seculert.com/2012/08/shamoon-two-stage-targeted-attack.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.huffingtonpost.com/2012/10/11/shamoon-virus-leon-",
+    "http://blog.seculert.com/2012/08/shamoon-two-stage-targeted-attack.html"
+  ]
+}

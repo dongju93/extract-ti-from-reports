@@ -1,1 +1,14 @@
-{"rule_id": 902, "name": "2015-2022_textiranian-pupyrat-bites-middle-eastern-organizations", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 902,
+  "name": "2015-2022_textiranian-pupyrat-bites-middle-eastern-organizations",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,1 +1,49 @@
-{"rule_id": 188, "name": "2015-2022_text[AhnLab]Andariel_a_Subgroup_of_Lazarus (3)", "description": "-", "references": [], "samples": ["nc5rt2.exe", "vs1.vbs", "lic.exe", "pscan.exe", "Crash.exe", "pcon.exe", "nt.exe", "winrm.vbs", "910.do", "portc.exe", "zcon.exe", "Zcon.exe", "rifle.pdb", "89.pdf", "secuNewsView.do", "www.fsec", "nehomegpa.dll", "Bin.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.fsec.or.kr/user/bbs/fsec/21/13/bbsDataView/910.do", "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=&menu_dist=1&seq=24229", "https://blog.naver.com/secustory/221213258234", "http://image.ahnlab.com/file_upload/asecissue_files/ASEC_REPORT_vol.89.pdf", "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?menu_dist=2&seq=26565", "http://blog.skinfosec.com/221234742268", "http://blog.skinfosec.com/221234553836"], "weight": 0.0, "signatures": ["http://www.fsec.or.kr/user/bbs/fsec/21/13/bbsDataView/910.do", "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=&menu_dist=1&seq=24229", "https://blog.naver.com/secustory/221213258234", "http://image.ahnlab.com/file_upload/asecissue_files/ASEC_REPORT_vol.89.pdf", "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?menu_dist=2&seq=26565", "http://blog.skinfosec.com/221234742268", "http://blog.skinfosec.com/221234553836"]}
+{
+  "rule_id": 188,
+  "name": "2015-2022_text[AhnLab]Andariel_a_Subgroup_of_Lazarus (3)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "nc5rt2.exe",
+    "vs1.vbs",
+    "lic.exe",
+    "pscan.exe",
+    "Crash.exe",
+    "pcon.exe",
+    "nt.exe",
+    "winrm.vbs",
+    "910.do",
+    "portc.exe",
+    "zcon.exe",
+    "Zcon.exe",
+    "rifle.pdb",
+    "89.pdf",
+    "secuNewsView.do",
+    "www.fsec",
+    "nehomegpa.dll",
+    "Bin.exe"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.fsec.or.kr/user/bbs/fsec/21/13/bbsDataView/910.do",
+    "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=&menu_dist=1&seq=24229",
+    "https://blog.naver.com/secustory/221213258234",
+    "http://image.ahnlab.com/file_upload/asecissue_files/ASEC_REPORT_vol.89.pdf",
+    "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?menu_dist=2&seq=26565",
+    "http://blog.skinfosec.com/221234742268",
+    "http://blog.skinfosec.com/221234553836"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.fsec.or.kr/user/bbs/fsec/21/13/bbsDataView/910.do",
+    "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=&menu_dist=1&seq=24229",
+    "https://blog.naver.com/secustory/221213258234",
+    "http://image.ahnlab.com/file_upload/asecissue_files/ASEC_REPORT_vol.89.pdf",
+    "http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?menu_dist=2&seq=26565",
+    "http://blog.skinfosec.com/221234742268",
+    "http://blog.skinfosec.com/221234553836"
+  ]
+}

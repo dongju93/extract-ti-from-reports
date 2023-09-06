@@ -1,1 +1,38 @@
-{"rule_id": 1068, "name": "2015-2022_textGlobalThreatIntelReport", "description": "-", "references": [], "samples": ["times.html", "hijacked.html", "Win64.exe", "todaynews.dns", "sea.sy"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.pinterest.com/officialsea/", "http://www.ibtimes.com/", "http://sea.sy/rss/en", "http://instagram.com/official_sea2", "http://bits.blogs.nytimes.", "https://ello.co/syrianelectronicarmy", "http://vk.com/syrianelectronicarmy", "http://www.techworm."], "weight": 0.0, "signatures": ["https://www.pinterest.com/officialsea/", "http://www.ibtimes.com/", "http://sea.sy/rss/en", "http://instagram.com/official_sea2", "http://bits.blogs.nytimes.", "https://ello.co/syrianelectronicarmy", "http://vk.com/syrianelectronicarmy", "http://www.techworm."]}
+{
+  "rule_id": 1068,
+  "name": "2015-2022_textGlobalThreatIntelReport",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "times.html",
+    "hijacked.html",
+    "Win64.exe",
+    "todaynews.dns",
+    "sea.sy"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.pinterest.com/officialsea/",
+    "http://www.ibtimes.com/",
+    "http://sea.sy/rss/en",
+    "http://instagram.com/official_sea2",
+    "http://bits.blogs.nytimes.",
+    "https://ello.co/syrianelectronicarmy",
+    "http://vk.com/syrianelectronicarmy",
+    "http://www.techworm."
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.pinterest.com/officialsea/",
+    "http://www.ibtimes.com/",
+    "http://sea.sy/rss/en",
+    "http://instagram.com/official_sea2",
+    "http://bits.blogs.nytimes.",
+    "https://ello.co/syrianelectronicarmy",
+    "http://vk.com/syrianelectronicarmy",
+    "http://www.techworm."
+  ]
+}

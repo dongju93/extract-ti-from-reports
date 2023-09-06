@@ -1,1 +1,20 @@
-{"rule_id": 1047, "name": "2015-2022_textTrojan.APT.BaneChant", "description": "-", "references": [], "samples": ["Jihad.doc", "MSCOMCTL.ocx", "kibber.no", "moo1.tmp", "winword.pkg"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 1047,
+  "name": "2015-2022_textTrojan.APT.BaneChant",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Jihad.doc",
+    "MSCOMCTL.ocx",
+    "kibber.no",
+    "moo1.tmp",
+    "winword.pkg"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

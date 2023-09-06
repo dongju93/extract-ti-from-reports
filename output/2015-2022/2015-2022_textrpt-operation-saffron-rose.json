@@ -1,1 +1,55 @@
-{"rule_id": 25, "name": "2015-2022_textrpt-operation-saffron-rose", "description": "-", "references": [], "samples": ["DelphiNative.dll", "AppTransferWiz.dll", "RPT.OSR", "usa.gov", "HHMM.Enc", "Stealer.pdb", "IntelRS.exe", "Stealer.exe", "DelphiNative.DLL", "AppTransferWiz.DLL", "vaultcli.DLL", "sqlite3.dll", "RapidStartTech.stl"], "MD5": ["3efd971db6fbae08e96535478888cff9", "1823b77b9ee6296a8b997ffb64d32d21", "6dc7cc33a3cdcfee6c4edb6c085b869d", "288c91d6c0197e99b92c06496921bf2f", "1d4d9f6e6fa1a07cb0a66a9ee06d624a", "3d26442f06b34df3d5921f89bf680ee9"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.exploit-db.com/author/?a=3223", "http://packetstormsecurity.com/files/author/9928/", "http://osvdb.org/affiliations/1768-ajax-security-team", "http://www.exploit-db.com/exploits/17011/", "http://www.zone-h.org/mirror/", "http://www.zone-h.org/mirror/id/13225183"], "weight": 0.0, "signatures": ["3efd971db6fbae08e96535478888cff9", "1823b77b9ee6296a8b997ffb64d32d21", "6dc7cc33a3cdcfee6c4edb6c085b869d", "288c91d6c0197e99b92c06496921bf2f", "1d4d9f6e6fa1a07cb0a66a9ee06d624a", "3d26442f06b34df3d5921f89bf680ee9", "http://www.exploit-db.com/author/?a=3223", "http://packetstormsecurity.com/files/author/9928/", "http://osvdb.org/affiliations/1768-ajax-security-team", "http://www.exploit-db.com/exploits/17011/", "http://www.zone-h.org/mirror/", "http://www.zone-h.org/mirror/id/13225183"]}
+{
+  "rule_id": 25,
+  "name": "2015-2022_textrpt-operation-saffron-rose",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "DelphiNative.dll",
+    "AppTransferWiz.dll",
+    "RPT.OSR",
+    "usa.gov",
+    "HHMM.Enc",
+    "Stealer.pdb",
+    "IntelRS.exe",
+    "Stealer.exe",
+    "DelphiNative.DLL",
+    "AppTransferWiz.DLL",
+    "vaultcli.DLL",
+    "sqlite3.dll",
+    "RapidStartTech.stl"
+  ],
+  "MD5": [
+    "3efd971db6fbae08e96535478888cff9",
+    "1823b77b9ee6296a8b997ffb64d32d21",
+    "6dc7cc33a3cdcfee6c4edb6c085b869d",
+    "288c91d6c0197e99b92c06496921bf2f",
+    "1d4d9f6e6fa1a07cb0a66a9ee06d624a",
+    "3d26442f06b34df3d5921f89bf680ee9"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.exploit-db.com/author/?a=3223",
+    "http://packetstormsecurity.com/files/author/9928/",
+    "http://osvdb.org/affiliations/1768-ajax-security-team",
+    "http://www.exploit-db.com/exploits/17011/",
+    "http://www.zone-h.org/mirror/",
+    "http://www.zone-h.org/mirror/id/13225183"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3efd971db6fbae08e96535478888cff9",
+    "1823b77b9ee6296a8b997ffb64d32d21",
+    "6dc7cc33a3cdcfee6c4edb6c085b869d",
+    "288c91d6c0197e99b92c06496921bf2f",
+    "1d4d9f6e6fa1a07cb0a66a9ee06d624a",
+    "3d26442f06b34df3d5921f89bf680ee9",
+    "http://www.exploit-db.com/author/?a=3223",
+    "http://packetstormsecurity.com/files/author/9928/",
+    "http://osvdb.org/affiliations/1768-ajax-security-team",
+    "http://www.exploit-db.com/exploits/17011/",
+    "http://www.zone-h.org/mirror/",
+    "http://www.zone-h.org/mirror/id/13225183"
+  ]
+}

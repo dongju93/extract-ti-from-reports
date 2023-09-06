@@ -1,1 +1,31 @@
-{"rule_id": 809, "name": "2015-2022_textrpt-witchcoven", "description": "-", "references": [], "samples": ["uniqueness.pdf", "exploit.The", "environments.If", "panopticlick.eff", "SP.PT"], "MD5": ["634438A50AE1990C4F8636801C410460"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://panopticlick.eff.org/browser-uniqueness.pdf).", "https://panopticlick.eff.org/index.php)", "http://www.pinlady.net/PluginDetect/", "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"], "weight": 0.0, "signatures": ["634438A50AE1990C4F8636801C410460", "https://panopticlick.eff.org/browser-uniqueness.pdf).", "https://panopticlick.eff.org/index.php)", "http://www.pinlady.net/PluginDetect/", "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"]}
+{
+  "rule_id": 809,
+  "name": "2015-2022_textrpt-witchcoven",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "uniqueness.pdf",
+    "exploit.The",
+    "environments.If",
+    "panopticlick.eff",
+    "SP.PT"
+  ],
+  "MD5": ["634438A50AE1990C4F8636801C410460"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
+    "https://panopticlick.eff.org/index.php)",
+    "http://www.pinlady.net/PluginDetect/",
+    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "634438A50AE1990C4F8636801C410460",
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
+    "https://panopticlick.eff.org/index.php)",
+    "http://www.pinlady.net/PluginDetect/",
+    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-"
+  ]
+}

@@ -1,1 +1,26 @@
-{"rule_id": 481, "name": "2015-2022_texttargeted_attacks_against_the_energy_sector", "description": "-", "references": [], "samples": ["BusinessWeek.pdf", "com.exe", "Greek.exe", "Print.pdf", "iPlayer.exe", "updates.zyns", "Paper.pdf", "Translator.exe", "Edition.pdf", "AVP.dll", "Book.pdf"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 481,
+  "name": "2015-2022_texttargeted_attacks_against_the_energy_sector",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "BusinessWeek.pdf",
+    "com.exe",
+    "Greek.exe",
+    "Print.pdf",
+    "iPlayer.exe",
+    "updates.zyns",
+    "Paper.pdf",
+    "Translator.exe",
+    "Edition.pdf",
+    "AVP.dll",
+    "Book.pdf"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

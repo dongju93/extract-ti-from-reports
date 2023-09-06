@@ -1,1 +1,32 @@
-{"rule_id": 987, "name": "2015-2022_textInsider_Information", "description": "-", "references": [], "samples": ["AdobeUpdate20170312.exe", "Stub.dll", "AdobeUpdate20160812.exe", "website.hXXp", "AdobeUpdate20160703.exe", "AdobeUpdate20161201.exe", "article.asp"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog", "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog", "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog", "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"], "URL": [], "weight": 0.0, "signatures": ["HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog", "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog", "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog", "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"]}
+{
+  "rule_id": 987,
+  "name": "2015-2022_textInsider_Information",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "AdobeUpdate20170312.exe",
+    "Stub.dll",
+    "AdobeUpdate20160812.exe",
+    "website.hXXp",
+    "AdobeUpdate20160703.exe",
+    "AdobeUpdate20161201.exe",
+    "article.asp"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SvcHost\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet003\\Services\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet\\Services\\EventSystemLog",
+    "HKLM\\System\\CurrentControlSet002\\Services\\EventSystemLog"
+  ]
+}

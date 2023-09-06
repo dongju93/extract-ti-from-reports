@@ -1,1 +1,56 @@
-{"rule_id": 384, "name": "2015-2022_textevasive-tactics-taidoor-3", "description": "-", "references": [], "samples": ["opp.gov", "skies.tw", "default.jsp", "cloud.pdf", "trickip.NET", "mac.gov", "AlmostMy.COM", "medicare.tw", "nscnet.gov", "tanks.pdf", "hpc.tw", "taiwans.tw"], "MD5": ["b0fd4d5fb6d8acb1ccfb54d53c08f11f", "525fd346b9511a84bbe26eb47b845d89", "c4de3fea790f8ff6452016db5d7aa33f", "454c9960e89d02e4922245efb8ef6b49", "811aae1a66f6a2722849333293cbf9cd", "d9940a3da42eb2bb8e19a84235d86e91", "5efc35315e87fdc67dada06fb700a8c7", "bc69a262bcd418d194ce2aac7da47286", "6cd1bf0e8adcc7208b82e1506efdba8d", "be1d972819e0c5bf80bf1691cc563400", "5c887a31fb4713e17c5dda9d78aab9fe"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.cybersquared.com/apt_targetedattacks_within_socialmedia/", "http://www.nartv.org/mirror/shadows-in-the-cloud.pdf"], "weight": 0.0, "signatures": ["b0fd4d5fb6d8acb1ccfb54d53c08f11f", "525fd346b9511a84bbe26eb47b845d89", "c4de3fea790f8ff6452016db5d7aa33f", "454c9960e89d02e4922245efb8ef6b49", "811aae1a66f6a2722849333293cbf9cd", "d9940a3da42eb2bb8e19a84235d86e91", "5efc35315e87fdc67dada06fb700a8c7", "bc69a262bcd418d194ce2aac7da47286", "6cd1bf0e8adcc7208b82e1506efdba8d", "be1d972819e0c5bf80bf1691cc563400", "5c887a31fb4713e17c5dda9d78aab9fe", "http://www.cybersquared.com/apt_targetedattacks_within_socialmedia/", "http://www.nartv.org/mirror/shadows-in-the-cloud.pdf"]}
+{
+  "rule_id": 384,
+  "name": "2015-2022_textevasive-tactics-taidoor-3",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "opp.gov",
+    "skies.tw",
+    "default.jsp",
+    "cloud.pdf",
+    "trickip.NET",
+    "mac.gov",
+    "AlmostMy.COM",
+    "medicare.tw",
+    "nscnet.gov",
+    "tanks.pdf",
+    "hpc.tw",
+    "taiwans.tw"
+  ],
+  "MD5": [
+    "b0fd4d5fb6d8acb1ccfb54d53c08f11f",
+    "525fd346b9511a84bbe26eb47b845d89",
+    "c4de3fea790f8ff6452016db5d7aa33f",
+    "454c9960e89d02e4922245efb8ef6b49",
+    "811aae1a66f6a2722849333293cbf9cd",
+    "d9940a3da42eb2bb8e19a84235d86e91",
+    "5efc35315e87fdc67dada06fb700a8c7",
+    "bc69a262bcd418d194ce2aac7da47286",
+    "6cd1bf0e8adcc7208b82e1506efdba8d",
+    "be1d972819e0c5bf80bf1691cc563400",
+    "5c887a31fb4713e17c5dda9d78aab9fe"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.cybersquared.com/apt_targetedattacks_within_socialmedia/",
+    "http://www.nartv.org/mirror/shadows-in-the-cloud.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b0fd4d5fb6d8acb1ccfb54d53c08f11f",
+    "525fd346b9511a84bbe26eb47b845d89",
+    "c4de3fea790f8ff6452016db5d7aa33f",
+    "454c9960e89d02e4922245efb8ef6b49",
+    "811aae1a66f6a2722849333293cbf9cd",
+    "d9940a3da42eb2bb8e19a84235d86e91",
+    "5efc35315e87fdc67dada06fb700a8c7",
+    "bc69a262bcd418d194ce2aac7da47286",
+    "6cd1bf0e8adcc7208b82e1506efdba8d",
+    "be1d972819e0c5bf80bf1691cc563400",
+    "5c887a31fb4713e17c5dda9d78aab9fe",
+    "http://www.cybersquared.com/apt_targetedattacks_within_socialmedia/",
+    "http://www.nartv.org/mirror/shadows-in-the-cloud.pdf"
+  ]
+}

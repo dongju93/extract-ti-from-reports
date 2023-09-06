@@ -1,1 +1,32 @@
-{"rule_id": 699, "name": "2015-2022_textunit42-prince-of-persia-game-over", "description": "-", "references": [], "samples": ["line.find", "final.find", "name.find", "key.pfx", "bdc.tmp", "pmwiki.php", "os.walk", "crt.pem"], "MD5": [], "SHA1": [], "SHA256": ["583349B7A2385A1E8DE682A43351798CA113CBBB80686193ECF9A61E6942786A", "f07e85143e057ee565c25db2a9f36491102d4e526ffb02c83e580712ec00eb27"], "Registry_Entries": [], "URL": ["https://www.shadowserver.org/wiki/pmwiki.php/Involve/GetReportsOnYourNetwork)."], "weight": 0.0, "signatures": ["583349B7A2385A1E8DE682A43351798CA113CBBB80686193ECF9A61E6942786A", "f07e85143e057ee565c25db2a9f36491102d4e526ffb02c83e580712ec00eb27", "https://www.shadowserver.org/wiki/pmwiki.php/Involve/GetReportsOnYourNetwork)."]}
+{
+  "rule_id": 699,
+  "name": "2015-2022_textunit42-prince-of-persia-game-over",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "line.find",
+    "final.find",
+    "name.find",
+    "key.pfx",
+    "bdc.tmp",
+    "pmwiki.php",
+    "os.walk",
+    "crt.pem"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "583349B7A2385A1E8DE682A43351798CA113CBBB80686193ECF9A61E6942786A",
+    "f07e85143e057ee565c25db2a9f36491102d4e526ffb02c83e580712ec00eb27"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.shadowserver.org/wiki/pmwiki.php/Involve/GetReportsOnYourNetwork)."
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "583349B7A2385A1E8DE682A43351798CA113CBBB80686193ECF9A61E6942786A",
+    "f07e85143e057ee565c25db2a9f36491102d4e526ffb02c83e580712ec00eb27",
+    "https://www.shadowserver.org/wiki/pmwiki.php/Involve/GetReportsOnYourNetwork)."
+  ]
+}

@@ -1,1 +1,48 @@
-{"rule_id": 714, "name": "2015-2022_textLeeryTurtleThreatReport_05_20", "description": "-", "references": [], "samples": ["tcl.Save", "gdriveshare.top", "showprice.xyz", "gdrives.top", "gdrvupload.xyz", "Password.txt", "msupdatepms.xyz", "gdrives.best", "xBoxOne.Ink", "whr.Open", "drivegooglshare.xyz", "NOTEPAD.EXE", "xBoxOne.lnk", "liveonedrvshare.xyz", "gmaildrive.site", "nancialmarketing.live", "sharedrivegght.xyz", "whr.Send", "pi.Name", "googleauth.pro", "amzonnews.club", "googlecloud.live", "gogleshare.xyz", "mfesf.vbs", "gdriveupload.site"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://cyberstruggle.org", "http://bit.ly/", "https://bit.ly/37W6fgx"], "weight": 0.0, "signatures": ["https://cyberstruggle.org", "http://bit.ly/", "https://bit.ly/37W6fgx"]}
+{
+  "rule_id": 714,
+  "name": "2015-2022_textLeeryTurtleThreatReport_05_20",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tcl.Save",
+    "gdriveshare.top",
+    "showprice.xyz",
+    "gdrives.top",
+    "gdrvupload.xyz",
+    "Password.txt",
+    "msupdatepms.xyz",
+    "gdrives.best",
+    "xBoxOne.Ink",
+    "whr.Open",
+    "drivegooglshare.xyz",
+    "NOTEPAD.EXE",
+    "xBoxOne.lnk",
+    "liveonedrvshare.xyz",
+    "gmaildrive.site",
+    "nancialmarketing.live",
+    "sharedrivegght.xyz",
+    "whr.Send",
+    "pi.Name",
+    "googleauth.pro",
+    "amzonnews.club",
+    "googlecloud.live",
+    "gogleshare.xyz",
+    "mfesf.vbs",
+    "gdriveupload.site"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://cyberstruggle.org",
+    "http://bit.ly/",
+    "https://bit.ly/37W6fgx"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://cyberstruggle.org",
+    "http://bit.ly/",
+    "https://bit.ly/37W6fgx"
+  ]
+}

@@ -1,1 +1,49 @@
-{"rule_id": 1154, "name": "2015-2022_textRussia Hacks Bellingcat MH17 Investigation _ ThreatConnect", "description": "-", "references": [], "samples": ["tiny.cc", "mxx.us", "GlobalThreatReport.pdf", "www.om", "book.pdf", "nltimes.nl"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://foreignpolicy.com/2016/08/22/turns-out-you-cant-trust-russian-hackers-anymore/", "https://www.bellingcat.com/author/eliothiggins/", "https://www.bellingcat.com/tag/mh17/", "https://www.bellingcat.com/", "https://www.om.nl/onderwerpen/mh17-crash/", "https://www.bellingcat.com/news/uk-and-europe/2015/05/22/three-graves/", "http://www.activeresponse.org/the-diamond-model/", "https://ccdcoe.org/sites/default/", "https://www.bellingcat.com/contributors/", "http://www.nltimes.nl/2016/08/22/mh17-dutch-criminal-investigation-results-ready-sept-28/", "https://www.bellingcat.com/resources/case-studies/2014/07/17/geolocating-the-missile-launcher-linked-to-the-downing-of-", "https://www.net", "https://www.verfassungsschutz.de/download/broschuere-2016-"], "weight": 0.0, "signatures": ["https://foreignpolicy.com/2016/08/22/turns-out-you-cant-trust-russian-hackers-anymore/", "https://www.bellingcat.com/author/eliothiggins/", "https://www.bellingcat.com/tag/mh17/", "https://www.bellingcat.com/", "https://www.om.nl/onderwerpen/mh17-crash/", "https://www.bellingcat.com/news/uk-and-europe/2015/05/22/three-graves/", "http://www.activeresponse.org/the-diamond-model/", "https://ccdcoe.org/sites/default/", "https://www.bellingcat.com/contributors/", "http://www.nltimes.nl/2016/08/22/mh17-dutch-criminal-investigation-results-ready-sept-28/", "https://www.bellingcat.com/resources/case-studies/2014/07/17/geolocating-the-missile-launcher-linked-to-the-downing-of-", "https://www.net", "https://www.verfassungsschutz.de/download/broschuere-2016-"]}
+{
+  "rule_id": 1154,
+  "name": "2015-2022_textRussia Hacks Bellingcat MH17 Investigation _ ThreatConnect",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tiny.cc",
+    "mxx.us",
+    "GlobalThreatReport.pdf",
+    "www.om",
+    "book.pdf",
+    "nltimes.nl"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://foreignpolicy.com/2016/08/22/turns-out-you-cant-trust-russian-hackers-anymore/",
+    "https://www.bellingcat.com/author/eliothiggins/",
+    "https://www.bellingcat.com/tag/mh17/",
+    "https://www.bellingcat.com/",
+    "https://www.om.nl/onderwerpen/mh17-crash/",
+    "https://www.bellingcat.com/news/uk-and-europe/2015/05/22/three-graves/",
+    "http://www.activeresponse.org/the-diamond-model/",
+    "https://ccdcoe.org/sites/default/",
+    "https://www.bellingcat.com/contributors/",
+    "http://www.nltimes.nl/2016/08/22/mh17-dutch-criminal-investigation-results-ready-sept-28/",
+    "https://www.bellingcat.com/resources/case-studies/2014/07/17/geolocating-the-missile-launcher-linked-to-the-downing-of-",
+    "https://www.net",
+    "https://www.verfassungsschutz.de/download/broschuere-2016-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://foreignpolicy.com/2016/08/22/turns-out-you-cant-trust-russian-hackers-anymore/",
+    "https://www.bellingcat.com/author/eliothiggins/",
+    "https://www.bellingcat.com/tag/mh17/",
+    "https://www.bellingcat.com/",
+    "https://www.om.nl/onderwerpen/mh17-crash/",
+    "https://www.bellingcat.com/news/uk-and-europe/2015/05/22/three-graves/",
+    "http://www.activeresponse.org/the-diamond-model/",
+    "https://ccdcoe.org/sites/default/",
+    "https://www.bellingcat.com/contributors/",
+    "http://www.nltimes.nl/2016/08/22/mh17-dutch-criminal-investigation-results-ready-sept-28/",
+    "https://www.bellingcat.com/resources/case-studies/2014/07/17/geolocating-the-missile-launcher-linked-to-the-downing-of-",
+    "https://www.net",
+    "https://www.verfassungsschutz.de/download/broschuere-2016-"
+  ]
+}

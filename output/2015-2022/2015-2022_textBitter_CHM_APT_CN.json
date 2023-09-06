@@ -1,1 +1,37 @@
-{"rule_id": 1256, "name": "2015-2022_textBitter_CHM_APT_CN", "description": "-", "references": [], "samples": ["rtf.txt", "192726.html", "msixxxx.tmp", "microsoftservices.pdb", "主要指标情况说明.chm"], "MD5": ["a39aa2ecbbb50c97727503e23ce7b8c6", "29ed7d64ce8003c0139cccb04d9af7f0", "f4daf0eccf9972bdefb79fbf9f7fb6ee", "660a678cd7202475cf0d2c48b4b52bab", "34ae127d269b718933a248c990faba03"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://ti.qianxin.com/blog/articles/analysis-of-apt-campaign-bitter/", "https://www.freebuf.com/articles/database/192726.html"], "weight": 0.0, "signatures": ["a39aa2ecbbb50c97727503e23ce7b8c6", "29ed7d64ce8003c0139cccb04d9af7f0", "f4daf0eccf9972bdefb79fbf9f7fb6ee", "660a678cd7202475cf0d2c48b4b52bab", "34ae127d269b718933a248c990faba03", "https://ti.qianxin.com/blog/articles/analysis-of-apt-campaign-bitter/", "https://www.freebuf.com/articles/database/192726.html"]}
+{
+  "rule_id": 1256,
+  "name": "2015-2022_textBitter_CHM_APT_CN",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "rtf.txt",
+    "192726.html",
+    "msixxxx.tmp",
+    "microsoftservices.pdb",
+    "主要指标情况说明.chm"
+  ],
+  "MD5": [
+    "a39aa2ecbbb50c97727503e23ce7b8c6",
+    "29ed7d64ce8003c0139cccb04d9af7f0",
+    "f4daf0eccf9972bdefb79fbf9f7fb6ee",
+    "660a678cd7202475cf0d2c48b4b52bab",
+    "34ae127d269b718933a248c990faba03"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://ti.qianxin.com/blog/articles/analysis-of-apt-campaign-bitter/",
+    "https://www.freebuf.com/articles/database/192726.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "a39aa2ecbbb50c97727503e23ce7b8c6",
+    "29ed7d64ce8003c0139cccb04d9af7f0",
+    "f4daf0eccf9972bdefb79fbf9f7fb6ee",
+    "660a678cd7202475cf0d2c48b4b52bab",
+    "34ae127d269b718933a248c990faba03",
+    "https://ti.qianxin.com/blog/articles/analysis-of-apt-campaign-bitter/",
+    "https://www.freebuf.com/articles/database/192726.html"
+  ]
+}

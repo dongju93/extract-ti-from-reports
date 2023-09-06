@@ -1,1 +1,25 @@
-{"rule_id": 1169, "name": "2015-2022_textGoblin Panda changes the dropper and reuses the old infrastructure", "description": "-", "references": [], "samples": ["tele.zyns"], "MD5": ["30528dc0c1e123dff51f40301cc03204"], "SHA1": ["398fb04ce9b2e30bce932590e0b86b594c8a97ea"], "SHA256": ["e342eefb43249a3a1b62b8622f7c94fc391c0488bdae7e1909e37cb125029f1c", "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68", "eb0b848f18d8002aaf59faca18b28941df67dc46891868b96fa4daf03018d148"], "Registry_Entries": [], "URL": ["https://skylineqaz.crabdance.com/"], "weight": 0.0, "signatures": ["30528dc0c1e123dff51f40301cc03204", "398fb04ce9b2e30bce932590e0b86b594c8a97ea", "e342eefb43249a3a1b62b8622f7c94fc391c0488bdae7e1909e37cb125029f1c", "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68", "eb0b848f18d8002aaf59faca18b28941df67dc46891868b96fa4daf03018d148", "https://skylineqaz.crabdance.com/"]}
+{
+  "rule_id": 1169,
+  "name": "2015-2022_textGoblin Panda changes the dropper and reuses the old infrastructure",
+  "description": "-",
+  "references": [],
+  "samples": ["tele.zyns"],
+  "MD5": ["30528dc0c1e123dff51f40301cc03204"],
+  "SHA1": ["398fb04ce9b2e30bce932590e0b86b594c8a97ea"],
+  "SHA256": [
+    "e342eefb43249a3a1b62b8622f7c94fc391c0488bdae7e1909e37cb125029f1c",
+    "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68",
+    "eb0b848f18d8002aaf59faca18b28941df67dc46891868b96fa4daf03018d148"
+  ],
+  "Registry_Entries": [],
+  "URL": ["https://skylineqaz.crabdance.com/"],
+  "weight": 0.0,
+  "signatures": [
+    "30528dc0c1e123dff51f40301cc03204",
+    "398fb04ce9b2e30bce932590e0b86b594c8a97ea",
+    "e342eefb43249a3a1b62b8622f7c94fc391c0488bdae7e1909e37cb125029f1c",
+    "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68",
+    "eb0b848f18d8002aaf59faca18b28941df67dc46891868b96fa4daf03018d148",
+    "https://skylineqaz.crabdance.com/"
+  ]
+}

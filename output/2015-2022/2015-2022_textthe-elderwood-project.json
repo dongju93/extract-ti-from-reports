@@ -1,1 +1,28 @@
-{"rule_id": 721, "name": "2015-2022_textthe-elderwood-project", "description": "-", "references": ["CVE-2010-0249", "CVE-2012-1875", "CVE-2011-2110", "CVE-2012-1535"], "samples": ["cpu.edu", "web.cyut", "0207.gm", "glogin.ddns", "dd.pst", "Trojan.Naid", "hi.hk", "wt.ikwb"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 721,
+  "name": "2015-2022_textthe-elderwood-project",
+  "description": "-",
+  "references": [
+    "CVE-2010-0249",
+    "CVE-2012-1875",
+    "CVE-2011-2110",
+    "CVE-2012-1535"
+  ],
+  "samples": [
+    "cpu.edu",
+    "web.cyut",
+    "0207.gm",
+    "glogin.ddns",
+    "dd.pst",
+    "Trojan.Naid",
+    "hi.hk",
+    "wt.ikwb"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

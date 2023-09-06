@@ -1,1 +1,31 @@
-{"rule_id": 1140, "name": "2015-2022_textMikroceen_ Spying backdoor leveraged in high‑profile networks in Central Asia _ WeLiveSecurity", "description": "-", "references": [], "samples": ["5E8C6FF0.CAB", "i.CSY", "7B296FB0.CAB", "Agent.NE", "pcaudit.dll", "ST.TMP"], "MD5": ["7771e1738fc2e4de210ac06a5e62c534"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDll /t REG_EXPAND_SZ /d %SystemRoot%\\Sys‐", "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDllUnloadOnStop /t REG_DWORD /d 1", "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceMain /t REG_SZ /d NtHelpServiceMain"], "URL": ["https://yuemt.zzux.com:443,"], "weight": 0.0, "signatures": ["7771e1738fc2e4de210ac06a5e62c534", "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDll /t REG_EXPAND_SZ /d %SystemRoot%\\Sys‐", "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDllUnloadOnStop /t REG_DWORD /d 1", "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceMain /t REG_SZ /d NtHelpServiceMain", "https://yuemt.zzux.com:443,"]}
+{
+  "rule_id": 1140,
+  "name": "2015-2022_textMikroceen_ Spying backdoor leveraged in high‑profile networks in Central Asia _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "5E8C6FF0.CAB",
+    "i.CSY",
+    "7B296FB0.CAB",
+    "Agent.NE",
+    "pcaudit.dll",
+    "ST.TMP"
+  ],
+  "MD5": ["7771e1738fc2e4de210ac06a5e62c534"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDll /t REG_EXPAND_SZ /d %SystemRoot%\\Sys‐",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDllUnloadOnStop /t REG_DWORD /d 1",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceMain /t REG_SZ /d NtHelpServiceMain"
+  ],
+  "URL": ["https://yuemt.zzux.com:443,"],
+  "weight": 0.0,
+  "signatures": [
+    "7771e1738fc2e4de210ac06a5e62c534",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDll /t REG_EXPAND_SZ /d %SystemRoot%\\Sys‐",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDllUnloadOnStop /t REG_DWORD /d 1",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceMain /t REG_SZ /d NtHelpServiceMain",
+    "https://yuemt.zzux.com:443,"
+  ]
+}

@@ -1,1 +1,22 @@
-{"rule_id": 96, "name": "2015-2022_textNight_of_the_Devil", "description": "-", "references": [], "samples": ["cleaner.bat", "xcopy.exe", "clean.bat", "oni.exe", "srvupd.exe"], "MD5": [], "SHA1": ["b7d33751d118fab6aedabfdf6a4ddf627e6cab02", "6abfb50b0657e87d8aec594ccc95f2e1b13f355e", "4a850136af93b9918fb4290a2bf665c4f28201d1"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["b7d33751d118fab6aedabfdf6a4ddf627e6cab02", "6abfb50b0657e87d8aec594ccc95f2e1b13f355e", "4a850136af93b9918fb4290a2bf665c4f28201d1"]}
+{
+  "rule_id": 96,
+  "name": "2015-2022_textNight_of_the_Devil",
+  "description": "-",
+  "references": [],
+  "samples": ["cleaner.bat", "xcopy.exe", "clean.bat", "oni.exe", "srvupd.exe"],
+  "MD5": [],
+  "SHA1": [
+    "b7d33751d118fab6aedabfdf6a4ddf627e6cab02",
+    "6abfb50b0657e87d8aec594ccc95f2e1b13f355e",
+    "4a850136af93b9918fb4290a2bf665c4f28201d1"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "b7d33751d118fab6aedabfdf6a4ddf627e6cab02",
+    "6abfb50b0657e87d8aec594ccc95f2e1b13f355e",
+    "4a850136af93b9918fb4290a2bf665c4f28201d1"
+  ]
+}

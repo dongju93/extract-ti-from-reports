@@ -1,1 +1,66 @@
-{"rule_id": 169, "name": "2015-2022_textOperation_Poisoned_Handover", "description": "-", "references": [], "samples": ["www.adpl", "p.java", "hk.java", "Backdoor.APT", "0.dll", "o.js", "sp.you", "1.html", "rss.js", "u.java", "org.hk", "jre76.java"], "MD5": ["1685f978149d7ba8e039af9a4d5803c7", "c3d6450075d618b1edba17ee723eb3ca", "84bd0809b1dbc2dc86f30d30faaa7e4e", "cfa3e3471430a0096a4e7ea2e3da6195", "0b54ae49fd5a841970b98a078968cb6b", "b5ac964a74091d54e091e68cecd5b532", "e2a4b96cce9de4fb126cfd5f5c73c3ed", "452156C3B3FB0176365BDB5B7715BC4C", "39bb90140fc0101f49377b6c60076f9d", "caa5529010c17b969da01ade084794c6", "ecf21054ab515946a812d1aa5c408ca5", "17bc9d2a640da75db6cbb66e5898feb1", "d08e038d318b94764d199d7a85047637"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://java-se.com/o.js></script>", "http://nxapi.appledaily.com.hk/", "http://www.adpl.org.hk/?p=2680", "http://jre76.java-", "http://10.0.1.151/1.exe"], "weight": 0.0, "signatures": ["1685f978149d7ba8e039af9a4d5803c7", "c3d6450075d618b1edba17ee723eb3ca", "84bd0809b1dbc2dc86f30d30faaa7e4e", "cfa3e3471430a0096a4e7ea2e3da6195", "0b54ae49fd5a841970b98a078968cb6b", "b5ac964a74091d54e091e68cecd5b532", "e2a4b96cce9de4fb126cfd5f5c73c3ed", "452156C3B3FB0176365BDB5B7715BC4C", "39bb90140fc0101f49377b6c60076f9d", "caa5529010c17b969da01ade084794c6", "ecf21054ab515946a812d1aa5c408ca5", "17bc9d2a640da75db6cbb66e5898feb1", "d08e038d318b94764d199d7a85047637", "http://java-se.com/o.js></script>", "http://nxapi.appledaily.com.hk/", "http://www.adpl.org.hk/?p=2680", "http://jre76.java-", "http://10.0.1.151/1.exe"]}
+{
+  "rule_id": 169,
+  "name": "2015-2022_textOperation_Poisoned_Handover",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "www.adpl",
+    "p.java",
+    "hk.java",
+    "Backdoor.APT",
+    "0.dll",
+    "o.js",
+    "sp.you",
+    "1.html",
+    "rss.js",
+    "u.java",
+    "org.hk",
+    "jre76.java"
+  ],
+  "MD5": [
+    "1685f978149d7ba8e039af9a4d5803c7",
+    "c3d6450075d618b1edba17ee723eb3ca",
+    "84bd0809b1dbc2dc86f30d30faaa7e4e",
+    "cfa3e3471430a0096a4e7ea2e3da6195",
+    "0b54ae49fd5a841970b98a078968cb6b",
+    "b5ac964a74091d54e091e68cecd5b532",
+    "e2a4b96cce9de4fb126cfd5f5c73c3ed",
+    "452156C3B3FB0176365BDB5B7715BC4C",
+    "39bb90140fc0101f49377b6c60076f9d",
+    "caa5529010c17b969da01ade084794c6",
+    "ecf21054ab515946a812d1aa5c408ca5",
+    "17bc9d2a640da75db6cbb66e5898feb1",
+    "d08e038d318b94764d199d7a85047637"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://java-se.com/o.js></script>",
+    "http://nxapi.appledaily.com.hk/",
+    "http://www.adpl.org.hk/?p=2680",
+    "http://jre76.java-",
+    "http://10.0.1.151/1.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "1685f978149d7ba8e039af9a4d5803c7",
+    "c3d6450075d618b1edba17ee723eb3ca",
+    "84bd0809b1dbc2dc86f30d30faaa7e4e",
+    "cfa3e3471430a0096a4e7ea2e3da6195",
+    "0b54ae49fd5a841970b98a078968cb6b",
+    "b5ac964a74091d54e091e68cecd5b532",
+    "e2a4b96cce9de4fb126cfd5f5c73c3ed",
+    "452156C3B3FB0176365BDB5B7715BC4C",
+    "39bb90140fc0101f49377b6c60076f9d",
+    "caa5529010c17b969da01ade084794c6",
+    "ecf21054ab515946a812d1aa5c408ca5",
+    "17bc9d2a640da75db6cbb66e5898feb1",
+    "d08e038d318b94764d199d7a85047637",
+    "http://java-se.com/o.js></script>",
+    "http://nxapi.appledaily.com.hk/",
+    "http://www.adpl.org.hk/?p=2680",
+    "http://jre76.java-",
+    "http://10.0.1.151/1.exe"
+  ]
+}

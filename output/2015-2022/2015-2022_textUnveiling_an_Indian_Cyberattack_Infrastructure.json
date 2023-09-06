@@ -1,1 +1,14 @@
-{"rule_id": 1187, "name": "2015-2022_textUnveiling_an_Indian_Cyberattack_Infrastructure", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://enterprise.norman.com"], "weight": 0.0, "signatures": ["http://enterprise.norman.com"]}
+{
+  "rule_id": 1187,
+  "name": "2015-2022_textUnveiling_an_Indian_Cyberattack_Infrastructure",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://enterprise.norman.com"],
+  "weight": 0.0,
+  "signatures": ["http://enterprise.norman.com"]
+}

@@ -1,1 +1,35 @@
-{"rule_id": 705, "name": "2015-2022_textHELO Winnti_ Attack or Scan", "description": "-", "references": [], "samples": ["rfc8446.txt", "tequilaboomboom.club", "winntianalysis.pdf", "www.rfc"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://401trg.com/burning-umbrella/,", "http://lua-users.org/wiki/MathLibraryTutorial,", "https://media.kasperskycontenthub.com/wp-", "https://www.rfc-", "https://www.lastline.com/labsblog/helo-winnti-attack-scan/", "https://www.novetta.com/wp-", "https://medium.com/chronicle-blog/winnti-more-"], "weight": 0.0, "signatures": ["https://401trg.com/burning-umbrella/,", "http://lua-users.org/wiki/MathLibraryTutorial,", "https://media.kasperskycontenthub.com/wp-", "https://www.rfc-", "https://www.lastline.com/labsblog/helo-winnti-attack-scan/", "https://www.novetta.com/wp-", "https://medium.com/chronicle-blog/winnti-more-"]}
+{
+  "rule_id": 705,
+  "name": "2015-2022_textHELO Winnti_ Attack or Scan",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "rfc8446.txt",
+    "tequilaboomboom.club",
+    "winntianalysis.pdf",
+    "www.rfc"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://401trg.com/burning-umbrella/,",
+    "http://lua-users.org/wiki/MathLibraryTutorial,",
+    "https://media.kasperskycontenthub.com/wp-",
+    "https://www.rfc-",
+    "https://www.lastline.com/labsblog/helo-winnti-attack-scan/",
+    "https://www.novetta.com/wp-",
+    "https://medium.com/chronicle-blog/winnti-more-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://401trg.com/burning-umbrella/,",
+    "http://lua-users.org/wiki/MathLibraryTutorial,",
+    "https://media.kasperskycontenthub.com/wp-",
+    "https://www.rfc-",
+    "https://www.lastline.com/labsblog/helo-winnti-attack-scan/",
+    "https://www.novetta.com/wp-",
+    "https://medium.com/chronicle-blog/winnti-more-"
+  ]
+}

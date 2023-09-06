@@ -1,1 +1,20 @@
-{"rule_id": 605, "name": "2015-2022_textCLAMBLING - A New Backdoor Base On Dropbox (EN)", "description": "-", "references": [], "samples": ["srv2.mkt", "S.log", "Video.exe", "S.avi", "File.txt"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\\\Software\\\\Bitcoin\\\\Bitcoin-Qt  and try to look for", "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersio"], "URL": [], "weight": 0.0, "signatures": ["HKEY_CURRENT_USER\\\\Software\\\\Bitcoin\\\\Bitcoin-Qt  and try to look for", "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersio"]}
+{
+  "rule_id": 605,
+  "name": "2015-2022_textCLAMBLING - A New Backdoor Base On Dropbox (EN)",
+  "description": "-",
+  "references": [],
+  "samples": ["srv2.mkt", "S.log", "Video.exe", "S.avi", "File.txt"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_CURRENT_USER\\\\Software\\\\Bitcoin\\\\Bitcoin-Qt  and try to look for",
+    "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersio"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_CURRENT_USER\\\\Software\\\\Bitcoin\\\\Bitcoin-Qt  and try to look for",
+    "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersio"
+  ]
+}

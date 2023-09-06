@@ -1,1 +1,14 @@
-{"rule_id": 360, "name": "2015-2022_textw64_regin_stage_1", "description": "-", "references": [], "samples": ["wshtcpip.dll"], "MD5": [], "SHA1": ["5191d7e28ffd1bc76ec7ed02d861679a77f2c239"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["5191d7e28ffd1bc76ec7ed02d861679a77f2c239"]}
+{
+  "rule_id": 360,
+  "name": "2015-2022_textw64_regin_stage_1",
+  "description": "-",
+  "references": [],
+  "samples": ["wshtcpip.dll"],
+  "MD5": [],
+  "SHA1": ["5191d7e28ffd1bc76ec7ed02d861679a77f2c239"],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["5191d7e28ffd1bc76ec7ed02d861679a77f2c239"]
+}

@@ -1,1 +1,14 @@
-{"rule_id": 460, "name": "2015-2022_textLonghorn_ Tools used by cyberespionage group linked to Vault 7", "description": "-", "references": [], "samples": [], "MD5": ["e20d5255d8ab1ff5f157847d2f3ffb25"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["e20d5255d8ab1ff5f157847d2f3ffb25"]}
+{
+  "rule_id": 460,
+  "name": "2015-2022_textLonghorn_ Tools used by cyberespionage group linked to Vault 7",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": ["e20d5255d8ab1ff5f157847d2f3ffb25"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["e20d5255d8ab1ff5f157847d2f3ffb25"]
+}

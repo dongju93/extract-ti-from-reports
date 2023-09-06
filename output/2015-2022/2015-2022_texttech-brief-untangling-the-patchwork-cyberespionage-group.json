@@ -1,1 +1,25 @@
-{"rule_id": 475, "name": "2015-2022_texttech-brief-untangling-the-patchwork-cyberespionage-group", "description": "-", "references": [], "samples": ["s.dwg", "updatecheck.php", "rmi.exe", "jli.dll", "sys.bin", "base.Load", "simpledownloader.exe", "Temp.log", "scvhost6.exe", "msvcr71.dll"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 475,
+  "name": "2015-2022_texttech-brief-untangling-the-patchwork-cyberespionage-group",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "s.dwg",
+    "updatecheck.php",
+    "rmi.exe",
+    "jli.dll",
+    "sys.bin",
+    "base.Load",
+    "simpledownloader.exe",
+    "Temp.log",
+    "scvhost6.exe",
+    "msvcr71.dll"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

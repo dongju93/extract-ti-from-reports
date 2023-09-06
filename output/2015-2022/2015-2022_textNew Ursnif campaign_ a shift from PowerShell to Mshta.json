@@ -1,1 +1,32 @@
-{"rule_id": 2, "name": "2015-2022_textNew Ursnif campaign_ a shift from PowerShell to Mshta", "description": "-", "references": [], "samples": ["Index.html", "zoak6.cab", "targen.php", "index.html", "Index.dll", "mshta.exe", "zoak4.cab", "info_03_24.doc", "zoak2.cab", "index.dll", "Mshta.exe"], "MD5": ["8212E2522300EF99B03DFA18437FCA40"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”"], "URL": ["https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"], "weight": 0.0, "signatures": ["8212E2522300EF99B03DFA18437FCA40", "HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”", "https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"]}
+{
+  "rule_id": 2,
+  "name": "2015-2022_textNew Ursnif campaign_ a shift from PowerShell to Mshta",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Index.html",
+    "zoak6.cab",
+    "targen.php",
+    "index.html",
+    "Index.dll",
+    "mshta.exe",
+    "zoak4.cab",
+    "info_03_24.doc",
+    "zoak2.cab",
+    "index.dll",
+    "Mshta.exe"
+  ],
+  "MD5": ["8212E2522300EF99B03DFA18437FCA40"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": ["HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”"],
+  "URL": [
+    "https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8212E2522300EF99B03DFA18437FCA40",
+    "HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”",
+    "https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"
+  ]
+}

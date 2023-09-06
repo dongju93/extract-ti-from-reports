@@ -1,1 +1,29 @@
-{"rule_id": 1033, "name": "2015-2022_textVendetta-new-threat-actor-from-Europe", "description": "-", "references": [], "samples": ["Document.exe"], "MD5": ["500dc2b3fbea8f13b29f494afb9465ec", "2106b19ffb7bf327d64d4cd6bdb606b4", "dabbfc6a7d939c4c41fb2c7cee295220", "e73d9b2eba5e818cd4699f1484af5bce", "dd93825ca5bd3afda1c238ce2ded84e1"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"], "weight": 0.0, "signatures": ["500dc2b3fbea8f13b29f494afb9465ec", "2106b19ffb7bf327d64d4cd6bdb606b4", "dabbfc6a7d939c4c41fb2c7cee295220", "e73d9b2eba5e818cd4699f1484af5bce", "dd93825ca5bd3afda1c238ce2ded84e1", "https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"]}
+{
+  "rule_id": 1033,
+  "name": "2015-2022_textVendetta-new-threat-actor-from-Europe",
+  "description": "-",
+  "references": [],
+  "samples": ["Document.exe"],
+  "MD5": [
+    "500dc2b3fbea8f13b29f494afb9465ec",
+    "2106b19ffb7bf327d64d4cd6bdb606b4",
+    "dabbfc6a7d939c4c41fb2c7cee295220",
+    "e73d9b2eba5e818cd4699f1484af5bce",
+    "dd93825ca5bd3afda1c238ce2ded84e1"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "500dc2b3fbea8f13b29f494afb9465ec",
+    "2106b19ffb7bf327d64d4cd6bdb606b4",
+    "dabbfc6a7d939c4c41fb2c7cee295220",
+    "e73d9b2eba5e818cd4699f1484af5bce",
+    "dd93825ca5bd3afda1c238ce2ded84e1",
+    "https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"
+  ]
+}

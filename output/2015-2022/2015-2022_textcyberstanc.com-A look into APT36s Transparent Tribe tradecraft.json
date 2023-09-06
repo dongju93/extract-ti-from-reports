@@ -1,1 +1,22 @@
-{"rule_id": 430, "name": "2015-2022_textcyberstanc.com-A look into APT36s Transparent Tribe tradecraft", "description": "-", "references": [], "samples": ["TrayIcos.exe", "actions.docx", "Random.dll", "Trayicos.exe"], "MD5": ["5A27D092E4A87554206F677B4EADC6F5", "4A22A43CCAB88B1CA50FA183E6FFB6FA", "18ACD5EBED316061F885F54F82F00017"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["5A27D092E4A87554206F677B4EADC6F5", "4A22A43CCAB88B1CA50FA183E6FFB6FA", "18ACD5EBED316061F885F54F82F00017"]}
+{
+  "rule_id": 430,
+  "name": "2015-2022_textcyberstanc.com-A look into APT36s Transparent Tribe tradecraft",
+  "description": "-",
+  "references": [],
+  "samples": ["TrayIcos.exe", "actions.docx", "Random.dll", "Trayicos.exe"],
+  "MD5": [
+    "5A27D092E4A87554206F677B4EADC6F5",
+    "4A22A43CCAB88B1CA50FA183E6FFB6FA",
+    "18ACD5EBED316061F885F54F82F00017"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "5A27D092E4A87554206F677B4EADC6F5",
+    "4A22A43CCAB88B1CA50FA183E6FFB6FA",
+    "18ACD5EBED316061F885F54F82F00017"
+  ]
+}

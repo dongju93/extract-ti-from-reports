@@ -1,1 +1,25 @@
-{"rule_id": 52, "name": "2015-2022_textamballa-discovers-new-toolset-linked-to-destover-attackers-arsenal-helps-them-to-broaden-attack-surface", "description": "-", "references": [], "samples": ["usbdrv3.sys", "tapi32.dll"], "MD5": ["f83f9d1797f5dbd419dfa86987790153", "b5ddd6ed3bd16c6f438b3bc95a2b49a8"], "SHA1": [], "SHA256": ["fe30da9e47010d3522d30ff90fb10d6c30302e8d16001c1a12c149b508888ab8", "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["f83f9d1797f5dbd419dfa86987790153", "b5ddd6ed3bd16c6f438b3bc95a2b49a8", "fe30da9e47010d3522d30ff90fb10d6c30302e8d16001c1a12c149b508888ab8", "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac"]}
+{
+  "rule_id": 52,
+  "name": "2015-2022_textamballa-discovers-new-toolset-linked-to-destover-attackers-arsenal-helps-them-to-broaden-attack-surface",
+  "description": "-",
+  "references": [],
+  "samples": ["usbdrv3.sys", "tapi32.dll"],
+  "MD5": [
+    "f83f9d1797f5dbd419dfa86987790153",
+    "b5ddd6ed3bd16c6f438b3bc95a2b49a8"
+  ],
+  "SHA1": [],
+  "SHA256": [
+    "fe30da9e47010d3522d30ff90fb10d6c30302e8d16001c1a12c149b508888ab8",
+    "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "f83f9d1797f5dbd419dfa86987790153",
+    "b5ddd6ed3bd16c6f438b3bc95a2b49a8",
+    "fe30da9e47010d3522d30ff90fb10d6c30302e8d16001c1a12c149b508888ab8",
+    "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac"
+  ]
+}

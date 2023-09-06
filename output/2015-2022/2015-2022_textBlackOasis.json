@@ -1,1 +1,26 @@
-{"rule_id": 684, "name": "2015-2022_textBlackOasis", "description": "-", "references": ["CVE-2017-11292", "CVE-2016-0984"], "samples": ["d3d9.dll", "AdapterTroubleshooter.exe", "install.cab", "mo.exe", "msvcr90.dll", "u.iaf", "32.html", "15b937.cab"], "MD5": ["4a49135d2ecc07085a8b7c5925a36c0a"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://helpx.adobe.com/security/products/"], "weight": 0.0, "signatures": ["4a49135d2ecc07085a8b7c5925a36c0a", "https://helpx.adobe.com/security/products/"]}
+{
+  "rule_id": 684,
+  "name": "2015-2022_textBlackOasis",
+  "description": "-",
+  "references": ["CVE-2017-11292", "CVE-2016-0984"],
+  "samples": [
+    "d3d9.dll",
+    "AdapterTroubleshooter.exe",
+    "install.cab",
+    "mo.exe",
+    "msvcr90.dll",
+    "u.iaf",
+    "32.html",
+    "15b937.cab"
+  ],
+  "MD5": ["4a49135d2ecc07085a8b7c5925a36c0a"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://helpx.adobe.com/security/products/"],
+  "weight": 0.0,
+  "signatures": [
+    "4a49135d2ecc07085a8b7c5925a36c0a",
+    "https://helpx.adobe.com/security/products/"
+  ]
+}

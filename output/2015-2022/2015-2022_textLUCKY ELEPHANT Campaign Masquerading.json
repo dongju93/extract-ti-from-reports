@@ -1,1 +1,54 @@
-{"rule_id": 759, "name": "2015-2022_textLUCKY ELEPHANT Campaign Masquerading", "description": "-", "references": [], "samples": ["bd.gq", "com.ml", "livecom.cf", "task.ga", "systems.ga", "taskmail.tk", "gov.cf", "about.gq", "org.gq", "np.gq", "google.ml", "paecwebmail.gq", "team.tk", "lk.ml", "pk.cf", "yahoomail.cf", "security.ga", "com.tk", "pk.ga", "com.gq", "pk.tk", "task.tk", "updates.ga", "com.cf", "mm.ml", "bd.tk", "checkbox.gq", "service.cf", "pk.gq", "com.ga", "update.ml", "cation.cf", "np.cf", "team.ga", "gov.gq"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.netscout.com/blog/asert/lucky-elephant-campaign-masquerading"], "weight": 0.0, "signatures": ["https://www.netscout.com/blog/asert/lucky-elephant-campaign-masquerading"]}
+{
+  "rule_id": 759,
+  "name": "2015-2022_textLUCKY ELEPHANT Campaign Masquerading",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "bd.gq",
+    "com.ml",
+    "livecom.cf",
+    "task.ga",
+    "systems.ga",
+    "taskmail.tk",
+    "gov.cf",
+    "about.gq",
+    "org.gq",
+    "np.gq",
+    "google.ml",
+    "paecwebmail.gq",
+    "team.tk",
+    "lk.ml",
+    "pk.cf",
+    "yahoomail.cf",
+    "security.ga",
+    "com.tk",
+    "pk.ga",
+    "com.gq",
+    "pk.tk",
+    "task.tk",
+    "updates.ga",
+    "com.cf",
+    "mm.ml",
+    "bd.tk",
+    "checkbox.gq",
+    "service.cf",
+    "pk.gq",
+    "com.ga",
+    "update.ml",
+    "cation.cf",
+    "np.cf",
+    "team.ga",
+    "gov.gq"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.netscout.com/blog/asert/lucky-elephant-campaign-masquerading"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.netscout.com/blog/asert/lucky-elephant-campaign-masquerading"
+  ]
+}

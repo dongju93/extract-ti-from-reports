@@ -1,1 +1,28 @@
-{"rule_id": 739, "name": "2015-2022_textdeep-panda-webshells", "description": "-", "references": [], "samples": ["Response.End", "showimage.asp", "showimg.asp", "File.Copy", "Showimg.asp", "temp.bin"], "MD5": ["cc875db104a602e6c12196fe90559fb6", "ffa82c64720179878b25793f17b304d7"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://<webserver>/showimage.asp*=%52%65%73%70%6F%"], "weight": 0.0, "signatures": ["cc875db104a602e6c12196fe90559fb6", "ffa82c64720179878b25793f17b304d7", "http://<webserver>/showimage.asp*=%52%65%73%70%6F%"]}
+{
+  "rule_id": 739,
+  "name": "2015-2022_textdeep-panda-webshells",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Response.End",
+    "showimage.asp",
+    "showimg.asp",
+    "File.Copy",
+    "Showimg.asp",
+    "temp.bin"
+  ],
+  "MD5": [
+    "cc875db104a602e6c12196fe90559fb6",
+    "ffa82c64720179878b25793f17b304d7"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://<webserver>/showimage.asp*=%52%65%73%70%6F%"],
+  "weight": 0.0,
+  "signatures": [
+    "cc875db104a602e6c12196fe90559fb6",
+    "ffa82c64720179878b25793f17b304d7",
+    "http://<webserver>/showimage.asp*=%52%65%73%70%6F%"
+  ]
+}

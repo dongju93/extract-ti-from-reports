@@ -1,1 +1,25 @@
-{"rule_id": 170, "name": "2015-2022_textRecent Cloud Atlas activity _ Securelist", "description": "-", "references": ["CVE-2018-0802", "CVE-2017-11882"], "samples": ["vbs.dat", "PG.zip", "temp.xml", "pass.txt", "Content.Word", "infocentre.gov"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"], "URL": [], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"]}
+{
+  "rule_id": 170,
+  "name": "2015-2022_textRecent Cloud Atlas activity _ Securelist",
+  "description": "-",
+  "references": ["CVE-2018-0802", "CVE-2017-11882"],
+  "samples": [
+    "vbs.dat",
+    "PG.zip",
+    "temp.xml",
+    "pass.txt",
+    "Content.Word",
+    "infocentre.gov"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"
+  ]
+}

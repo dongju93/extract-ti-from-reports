@@ -1,1 +1,48 @@
-{"rule_id": 468, "name": "2015-2022_textBuhtrap group uses zero‑day in latest espionage campaigns", "description": "-", "references": ["CVE-2019-1132"], "samples": ["5361.toor", "5314.toor", "dmsu.gov", "5267.toor", "Agent.AGK", "5204.toor", "Agent.ABM", "4621.toor", "5173.toor", "Buhtrap.AK"], "MD5": [], "SHA1": ["9c3434ebdf29e5a4762afb610ea59714d8be2392", "E0F3557EA9F2BA4F7074CAA0D0CF3B187C4472FF", "5e662e84b62ca6bdf6d050a1a4f5db6b28fbb7c5", "2F2640720CCE2F83CA2F0633330F13651384DD6A", "b25def9ac34f31b84062a8e8626b2f0ef589921f", "C17C335B7DDB5C8979444EC36AB668AE8E4E0A72"], "SHA256": [], "Registry_Entries": [], "URL": ["https://redmond.corp-microsoft.com/help/index.php", "https://hd", "https://services-glbdns2.com/FIGm6uJx0MhjJ2ImOVurJQTs0rRv5Ef2UGoSc", "https://secure-telemetry.net/wp-login.php"], "weight": 0.0, "signatures": ["9c3434ebdf29e5a4762afb610ea59714d8be2392", "E0F3557EA9F2BA4F7074CAA0D0CF3B187C4472FF", "5e662e84b62ca6bdf6d050a1a4f5db6b28fbb7c5", "2F2640720CCE2F83CA2F0633330F13651384DD6A", "b25def9ac34f31b84062a8e8626b2f0ef589921f", "C17C335B7DDB5C8979444EC36AB668AE8E4E0A72", "https://redmond.corp-microsoft.com/help/index.php", "https://hd", "https://services-glbdns2.com/FIGm6uJx0MhjJ2ImOVurJQTs0rRv5Ef2UGoSc", "https://secure-telemetry.net/wp-login.php"]}
+{
+  "rule_id": 468,
+  "name": "2015-2022_textBuhtrap group uses zero‑day in latest espionage campaigns",
+  "description": "-",
+  "references": ["CVE-2019-1132"],
+  "samples": [
+    "5361.toor",
+    "5314.toor",
+    "dmsu.gov",
+    "5267.toor",
+    "Agent.AGK",
+    "5204.toor",
+    "Agent.ABM",
+    "4621.toor",
+    "5173.toor",
+    "Buhtrap.AK"
+  ],
+  "MD5": [],
+  "SHA1": [
+    "9c3434ebdf29e5a4762afb610ea59714d8be2392",
+    "E0F3557EA9F2BA4F7074CAA0D0CF3B187C4472FF",
+    "5e662e84b62ca6bdf6d050a1a4f5db6b28fbb7c5",
+    "2F2640720CCE2F83CA2F0633330F13651384DD6A",
+    "b25def9ac34f31b84062a8e8626b2f0ef589921f",
+    "C17C335B7DDB5C8979444EC36AB668AE8E4E0A72"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://redmond.corp-microsoft.com/help/index.php",
+    "https://hd",
+    "https://services-glbdns2.com/FIGm6uJx0MhjJ2ImOVurJQTs0rRv5Ef2UGoSc",
+    "https://secure-telemetry.net/wp-login.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "9c3434ebdf29e5a4762afb610ea59714d8be2392",
+    "E0F3557EA9F2BA4F7074CAA0D0CF3B187C4472FF",
+    "5e662e84b62ca6bdf6d050a1a4f5db6b28fbb7c5",
+    "2F2640720CCE2F83CA2F0633330F13651384DD6A",
+    "b25def9ac34f31b84062a8e8626b2f0ef589921f",
+    "C17C335B7DDB5C8979444EC36AB668AE8E4E0A72",
+    "https://redmond.corp-microsoft.com/help/index.php",
+    "https://hd",
+    "https://services-glbdns2.com/FIGm6uJx0MhjJ2ImOVurJQTs0rRv5Ef2UGoSc",
+    "https://secure-telemetry.net/wp-login.php"
+  ]
+}

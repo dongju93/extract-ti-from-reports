@@ -1,1 +1,18 @@
-{"rule_id": 1209, "name": "2015-2022_textWinnti_ More than just Windows and Gates", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a"], "weight": 0.0, "signatures": ["https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a"]}
+{
+  "rule_id": 1209,
+  "name": "2015-2022_textWinnti_ More than just Windows and Gates",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a"
+  ]
+}

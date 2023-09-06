@@ -1,1 +1,31 @@
-{"rule_id": 219, "name": "2015-2022_textoperation-desert-eagle.html", "description": "-", "references": [], "samples": ["explorer.lnk", "powershell.lnk", "explorer.vbs", "CheckVersion.php", "News.url"], "MD5": ["4cbebeda71dceb9914a21d06e22223af", "a856f56fec6abdc3a93c3715be1567e5", "e69206a709a80133aebf55153847a6b2"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKU\\...\\Software\\Microsoft\\KeyName:)\tis\tcreated\twhich\tcontains\tthe"], "URL": [], "weight": 0.0, "signatures": ["4cbebeda71dceb9914a21d06e22223af", "a856f56fec6abdc3a93c3715be1567e5", "e69206a709a80133aebf55153847a6b2", "HKU\\...\\Software\\Microsoft\\KeyName:)\tis\tcreated\twhich\tcontains\tthe"]}
+{
+  "rule_id": 219,
+  "name": "2015-2022_textoperation-desert-eagle.html",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "explorer.lnk",
+    "powershell.lnk",
+    "explorer.vbs",
+    "CheckVersion.php",
+    "News.url"
+  ],
+  "MD5": [
+    "4cbebeda71dceb9914a21d06e22223af",
+    "a856f56fec6abdc3a93c3715be1567e5",
+    "e69206a709a80133aebf55153847a6b2"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKU\\...\\Software\\Microsoft\\KeyName:)\tis\tcreated\twhich\tcontains\tthe"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "4cbebeda71dceb9914a21d06e22223af",
+    "a856f56fec6abdc3a93c3715be1567e5",
+    "e69206a709a80133aebf55153847a6b2",
+    "HKU\\...\\Software\\Microsoft\\KeyName:)\tis\tcreated\twhich\tcontains\tthe"
+  ]
+}

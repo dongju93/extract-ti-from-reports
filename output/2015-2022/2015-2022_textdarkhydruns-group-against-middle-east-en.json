@@ -1,1 +1,38 @@
-{"rule_id": 68, "name": "2015-2022_textdarkhydruns-group-against-middle-east-en", "description": "-", "references": ["CVE-2018-8414"], "samples": ["ceUpdateService.exe", "edgekey.live", "akamaiedge.live", "ﺱﺭﺎﻬﻔﻟﺍ.xlsm", "0ﬃce365.life", "DNSProject.pdb", "akamaized.live", "cmanager.live", "akdns.live", "366.txt", "regsvr32.exe", "ﻉﻼﻁﻻﺍ.xlsm"], "MD5": ["b108412f1cdc0602d82d3e6b318dc634", "039bd47f0fdb6bb7d68a2428c71f317d", "5c3f96ade0ea67eef9d25161c64e6f3e", "8dc9f5450402ae799f5f8afd5c0a8352"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.googleapis.com/upload/drive/v3/"], "weight": 0.0, "signatures": ["b108412f1cdc0602d82d3e6b318dc634", "039bd47f0fdb6bb7d68a2428c71f317d", "5c3f96ade0ea67eef9d25161c64e6f3e", "8dc9f5450402ae799f5f8afd5c0a8352", "https://www.googleapis.com/upload/drive/v3/"]}
+{
+  "rule_id": 68,
+  "name": "2015-2022_textdarkhydruns-group-against-middle-east-en",
+  "description": "-",
+  "references": ["CVE-2018-8414"],
+  "samples": [
+    "ceUpdateService.exe",
+    "edgekey.live",
+    "akamaiedge.live",
+    "ﺱﺭﺎﻬﻔﻟﺍ.xlsm",
+    "0ﬃce365.life",
+    "DNSProject.pdb",
+    "akamaized.live",
+    "cmanager.live",
+    "akdns.live",
+    "366.txt",
+    "regsvr32.exe",
+    "ﻉﻼﻁﻻﺍ.xlsm"
+  ],
+  "MD5": [
+    "b108412f1cdc0602d82d3e6b318dc634",
+    "039bd47f0fdb6bb7d68a2428c71f317d",
+    "5c3f96ade0ea67eef9d25161c64e6f3e",
+    "8dc9f5450402ae799f5f8afd5c0a8352"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://www.googleapis.com/upload/drive/v3/"],
+  "weight": 0.0,
+  "signatures": [
+    "b108412f1cdc0602d82d3e6b318dc634",
+    "039bd47f0fdb6bb7d68a2428c71f317d",
+    "5c3f96ade0ea67eef9d25161c64e6f3e",
+    "8dc9f5450402ae799f5f8afd5c0a8352",
+    "https://www.googleapis.com/upload/drive/v3/"
+  ]
+}

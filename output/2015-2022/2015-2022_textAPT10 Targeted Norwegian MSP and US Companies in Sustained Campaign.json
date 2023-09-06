@@ -1,1 +1,28 @@
-{"rule_id": 157, "name": "2015-2022_textAPT10 Targeted Norwegian MSP and US Companies in Sustained Campaign", "description": "-", "references": [], "samples": [], "MD5": ["6807be8466955bafffa568b6da0e785c", "c8ea12ee884f274ca35fa54a073df130"], "SHA1": [], "SHA256": ["e6280de09f9adf79212409529eb25c0c2ea73e33a50281e22228a3db3998eecb"], "Registry_Entries": [], "URL": ["https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-", "https://blogs.jpcert.or.jp/en/2017/04/redleaves"], "weight": 0.0, "signatures": ["6807be8466955bafffa568b6da0e785c", "c8ea12ee884f274ca35fa54a073df130", "e6280de09f9adf79212409529eb25c0c2ea73e33a50281e22228a3db3998eecb", "https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-", "https://blogs.jpcert.or.jp/en/2017/04/redleaves"]}
+{
+  "rule_id": 157,
+  "name": "2015-2022_textAPT10 Targeted Norwegian MSP and US Companies in Sustained Campaign",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [
+    "6807be8466955bafffa568b6da0e785c",
+    "c8ea12ee884f274ca35fa54a073df130"
+  ],
+  "SHA1": [],
+  "SHA256": [
+    "e6280de09f9adf79212409529eb25c0c2ea73e33a50281e22228a3db3998eecb"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-",
+    "https://blogs.jpcert.or.jp/en/2017/04/redleaves"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6807be8466955bafffa568b6da0e785c",
+    "c8ea12ee884f274ca35fa54a073df130",
+    "e6280de09f9adf79212409529eb25c0c2ea73e33a50281e22228a3db3998eecb",
+    "https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-",
+    "https://blogs.jpcert.or.jp/en/2017/04/redleaves"
+  ]
+}

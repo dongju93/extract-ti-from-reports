@@ -1,1 +1,44 @@
-{"rule_id": 44, "name": "2015-2022_texttech-brief-tildeb-analyzing-the-18-year-old-implant-from-the-shadow-brokers-leak", "description": "-", "references": [], "samples": ["dir.edb", "PUB.EDB", "Ws2_32.dll", "PEB.Ldr", "priv.edb", "STORE.EXE", "pub.edb", "galt.pem", "WSOCK32.dll", "ntds.dit", "DIR.EDB", "DSAMAIN.EXE", "eula.txt", "us.cfg", "kmsmdb.edb", "SimpleProcesses.db", "l.tmp", "KMSERVER.EXE", "clocksvc.exe", "ws2_32.dll", "ru.exe", "cn.dll", "PRIV.EDB", "mfc42.dll"], "MD5": ["9812a5c5a89b6287c8893d3651b981a0"], "SHA1": [], "SHA256": ["c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["9812a5c5a89b6287c8893d3651b981a0", "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"]}
+{
+  "rule_id": 44,
+  "name": "2015-2022_texttech-brief-tildeb-analyzing-the-18-year-old-implant-from-the-shadow-brokers-leak",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "dir.edb",
+    "PUB.EDB",
+    "Ws2_32.dll",
+    "PEB.Ldr",
+    "priv.edb",
+    "STORE.EXE",
+    "pub.edb",
+    "galt.pem",
+    "WSOCK32.dll",
+    "ntds.dit",
+    "DIR.EDB",
+    "DSAMAIN.EXE",
+    "eula.txt",
+    "us.cfg",
+    "kmsmdb.edb",
+    "SimpleProcesses.db",
+    "l.tmp",
+    "KMSERVER.EXE",
+    "clocksvc.exe",
+    "ws2_32.dll",
+    "ru.exe",
+    "cn.dll",
+    "PRIV.EDB",
+    "mfc42.dll"
+  ],
+  "MD5": ["9812a5c5a89b6287c8893d3651b981a0"],
+  "SHA1": [],
+  "SHA256": [
+    "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "9812a5c5a89b6287c8893d3651b981a0",
+    "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"
+  ]
+}

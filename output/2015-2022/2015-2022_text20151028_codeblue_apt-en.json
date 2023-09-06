@@ -1,1 +1,53 @@
-{"rule_id": 1017, "name": "2015-2022_text20151028_codeblue_apt-en", "description": "-", "references": ["CVE-2014-7247", "CVE-2014-0324"], "samples": ["qd.exe", "Document.jtd", "QDump.exe", "dirasd.exe", "4113.exe", "msdart.exe", "logon.exe", "qp.exe", "yrar.exe", "1.DNS", "Framework.ppt", "mimikatz.rar", "168.xx", "20140820.doc", "cc.dd", "4.Web", "ww.exe", "ww.xx", "168.yy", "htproxy.exe", "CallMail.exe", "dwmapi.dll", "puac.exe", "yy.zz", "068.tar", "outl.exe", "mz.exe", "aa.bb", "2.DNS", "sekurlsa.dll"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://wpad/wpad.dat", "https://www.jpcert.or.jp/form/", "https://www.jpcert.or.jp"], "weight": 0.0, "signatures": ["http://wpad/wpad.dat", "https://www.jpcert.or.jp/form/", "https://www.jpcert.or.jp"]}
+{
+  "rule_id": 1017,
+  "name": "2015-2022_text20151028_codeblue_apt-en",
+  "description": "-",
+  "references": ["CVE-2014-7247", "CVE-2014-0324"],
+  "samples": [
+    "qd.exe",
+    "Document.jtd",
+    "QDump.exe",
+    "dirasd.exe",
+    "4113.exe",
+    "msdart.exe",
+    "logon.exe",
+    "qp.exe",
+    "yrar.exe",
+    "1.DNS",
+    "Framework.ppt",
+    "mimikatz.rar",
+    "168.xx",
+    "20140820.doc",
+    "cc.dd",
+    "4.Web",
+    "ww.exe",
+    "ww.xx",
+    "168.yy",
+    "htproxy.exe",
+    "CallMail.exe",
+    "dwmapi.dll",
+    "puac.exe",
+    "yy.zz",
+    "068.tar",
+    "outl.exe",
+    "mz.exe",
+    "aa.bb",
+    "2.DNS",
+    "sekurlsa.dll"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://wpad/wpad.dat",
+    "https://www.jpcert.or.jp/form/",
+    "https://www.jpcert.or.jp"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://wpad/wpad.dat",
+    "https://www.jpcert.or.jp/form/",
+    "https://www.jpcert.or.jp"
+  ]
+}

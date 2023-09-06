@@ -1,1 +1,14 @@
-{"rule_id": 249, "name": "2015-2022_textFTA 1008 - Darkseoul-Jokra Analysis and Recovery", "description": "-", "references": [], "samples": ["239ed75323.exe", "join.exe", "pasvc.exe", "Clisvc.exe"], "MD5": ["0a8032cd6b4a710b1771a080fa09fb87"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["0a8032cd6b4a710b1771a080fa09fb87"]}
+{
+  "rule_id": 249,
+  "name": "2015-2022_textFTA 1008 - Darkseoul-Jokra Analysis and Recovery",
+  "description": "-",
+  "references": [],
+  "samples": ["239ed75323.exe", "join.exe", "pasvc.exe", "Clisvc.exe"],
+  "MD5": ["0a8032cd6b4a710b1771a080fa09fb87"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["0a8032cd6b4a710b1771a080fa09fb87"]
+}

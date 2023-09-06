@@ -1,1 +1,24 @@
-{"rule_id": 655, "name": "2015-2022_textOperation_EphemeralHydra", "description": "-", "references": [], "samples": ["McpRoXy.exe", "SoundMax.dll"], "MD5": ["90a37e54c53ffb78969644b1a7038e8c", "20854f54b0d03118681410245be39bd8", "acbc249061a6a2fb09271a68d53567d9", "104130d666ab3f640255140007f0b12d"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["90a37e54c53ffb78969644b1a7038e8c", "20854f54b0d03118681410245be39bd8", "acbc249061a6a2fb09271a68d53567d9", "104130d666ab3f640255140007f0b12d"]}
+{
+  "rule_id": 655,
+  "name": "2015-2022_textOperation_EphemeralHydra",
+  "description": "-",
+  "references": [],
+  "samples": ["McpRoXy.exe", "SoundMax.dll"],
+  "MD5": [
+    "90a37e54c53ffb78969644b1a7038e8c",
+    "20854f54b0d03118681410245be39bd8",
+    "acbc249061a6a2fb09271a68d53567d9",
+    "104130d666ab3f640255140007f0b12d"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "90a37e54c53ffb78969644b1a7038e8c",
+    "20854f54b0d03118681410245be39bd8",
+    "acbc249061a6a2fb09271a68d53567d9",
+    "104130d666ab3f640255140007f0b12d"
+  ]
+}

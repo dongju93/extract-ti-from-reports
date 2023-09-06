@@ -1,1 +1,32 @@
-{"rule_id": 449, "name": "2015-2022_textOperation Iron Tiger Appendix", "description": "-", "references": [], "samples": ["mac.pm", "xx.exe", "GetPassword.pdb", "FastDos.cpp", "UnitFrmManagerKeyLog.pas", "jingtisanmenxiachuanxiao.vbs", "GHOST.EJ", "DLODR.PO", "auth.owa", "PLUGX.XX", "123.EFH", "UnitFrmManagerRegister.pas", "wmi.vbs", "gameofthrones.ddns", "UnitFrmRControl.pas", "Clients.Auth", "123.EXE"], "MD5": ["e501dc14f1c1d3f7146c107dd7a77736"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]}
+{
+  "rule_id": 449,
+  "name": "2015-2022_textOperation Iron Tiger Appendix",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mac.pm",
+    "xx.exe",
+    "GetPassword.pdb",
+    "FastDos.cpp",
+    "UnitFrmManagerKeyLog.pas",
+    "jingtisanmenxiachuanxiao.vbs",
+    "GHOST.EJ",
+    "DLODR.PO",
+    "auth.owa",
+    "PLUGX.XX",
+    "123.EFH",
+    "UnitFrmManagerRegister.pas",
+    "wmi.vbs",
+    "gameofthrones.ddns",
+    "UnitFrmRControl.pas",
+    "Clients.Auth",
+    "123.EXE"
+  ],
+  "MD5": ["e501dc14f1c1d3f7146c107dd7a77736"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]
+}

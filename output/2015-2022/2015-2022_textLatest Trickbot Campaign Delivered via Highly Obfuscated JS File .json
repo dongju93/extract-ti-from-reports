@@ -1,1 +1,26 @@
-{"rule_id": 853, "name": "2015-2022_textLatest Trickbot Campaign Delivered via Highly Obfuscated JS File ", "description": "-", "references": [], "samples": ["windanr.exe", "AgentSimulator.exe", "Shell.jse", "JASCREX.AB", "ga.exe", "ascii.txt", "JASCREX.AD", "lordPE.exe", "VzService.exe", "BennyDB.exe", "JASCREX.AC"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 853,
+  "name": "2015-2022_textLatest Trickbot Campaign Delivered via Highly Obfuscated JS File ",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "windanr.exe",
+    "AgentSimulator.exe",
+    "Shell.jse",
+    "JASCREX.AB",
+    "ga.exe",
+    "ascii.txt",
+    "JASCREX.AD",
+    "lordPE.exe",
+    "VzService.exe",
+    "BennyDB.exe",
+    "JASCREX.AC"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

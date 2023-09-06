@@ -1,1 +1,18 @@
-{"rule_id": 557, "name": "2015-2022_textHunting-Libyan-Scorpions-AR", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener"], "weight": 0.0, "signatures": ["https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener"]}
+{
+  "rule_id": 557,
+  "name": "2015-2022_textHunting-Libyan-Scorpions-AR",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener"
+  ]
+}

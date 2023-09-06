@@ -1,1 +1,29 @@
-{"rule_id": 938, "name": "2015-2022_textAPT-C-34.cn", "description": "-", "references": [], "samples": ["javaws.exe", "n.bi", "lb.data", "userinit.dll", "dCh8RnL1.ODo", "dCh8RnL1.Odo", "Falcon.html", "17.stcz"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动", "HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr"], "URL": [], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动", "HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr"]}
+{
+  "rule_id": 938,
+  "name": "2015-2022_textAPT-C-34.cn",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "javaws.exe",
+    "n.bi",
+    "lb.data",
+    "userinit.dll",
+    "dCh8RnL1.ODo",
+    "dCh8RnL1.Odo",
+    "Falcon.html",
+    "17.stcz"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动",
+    "HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动",
+    "HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr"
+  ]
+}

@@ -1,1 +1,75 @@
-{"rule_id": 1250, "name": "2015-2022_textSkygofree_ Following in the footsteps of HackingTeam - Securelist", "description": "-", "references": ["CVE-2014-3153", "CVE-2013-2094", "CVE-2013-6282", "CVE-2015-3636", "CVE-2013-2595"], "samples": ["mng.db", "S.txt", "odin_2.pdb", "AC.apk", "lesystem.zip", "wnload.html", "S.wav", "facebook.orca", "TIM.apk", "naver.line", "guratore.apk", "LTE.apk", "2.apk", "device.db", "skype_sync2.exe", "nity.syt", "_2.apk", "url.plus", "20v5_4_2.apk"], "MD5": ["70a937b2504b3ad6c623581424c7e53d", "6bcc3559d7405f25ea403317353d905f", "d3baa45ed342fbc5a56d974d36d5f73f", "f673bb1d519138ced7659484c0b66c5b", "395f9f87df728134b5e3c1ca4d48e9fa", "55fb01048b6287eadcbd9a0f86d21adf", "16311b16fd48c1c87c6476a455093e7a"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://119.network/lte/Co", "http://217.194.13.133/190/", "http://119.network/lte/Inte", "http://119.network/lte/do", "http://217.194.13.133/tre/i", "http://54.67.109.199/skype_resource/libmp3lame.dll", "http://217.194.13.133/appP", "http://vodafonein", "http://windupdate.serveft"], "weight": 0.0, "signatures": ["70a937b2504b3ad6c623581424c7e53d", "6bcc3559d7405f25ea403317353d905f", "d3baa45ed342fbc5a56d974d36d5f73f", "f673bb1d519138ced7659484c0b66c5b", "395f9f87df728134b5e3c1ca4d48e9fa", "55fb01048b6287eadcbd9a0f86d21adf", "16311b16fd48c1c87c6476a455093e7a", "http://119.network/lte/Co", "http://217.194.13.133/190/", "http://119.network/lte/Inte", "http://119.network/lte/do", "http://217.194.13.133/tre/i", "http://54.67.109.199/skype_resource/libmp3lame.dll", "http://217.194.13.133/appP", "http://vodafonein", "http://windupdate.serveft"]}
+{
+  "rule_id": 1250,
+  "name": "2015-2022_textSkygofree_ Following in the footsteps of HackingTeam - Securelist",
+  "description": "-",
+  "references": [
+    "CVE-2014-3153",
+    "CVE-2013-2094",
+    "CVE-2013-6282",
+    "CVE-2015-3636",
+    "CVE-2013-2595"
+  ],
+  "samples": [
+    "mng.db",
+    "S.txt",
+    "odin_2.pdb",
+    "AC.apk",
+    "lesystem.zip",
+    "wnload.html",
+    "S.wav",
+    "facebook.orca",
+    "TIM.apk",
+    "naver.line",
+    "guratore.apk",
+    "LTE.apk",
+    "2.apk",
+    "device.db",
+    "skype_sync2.exe",
+    "nity.syt",
+    "_2.apk",
+    "url.plus",
+    "20v5_4_2.apk"
+  ],
+  "MD5": [
+    "70a937b2504b3ad6c623581424c7e53d",
+    "6bcc3559d7405f25ea403317353d905f",
+    "d3baa45ed342fbc5a56d974d36d5f73f",
+    "f673bb1d519138ced7659484c0b66c5b",
+    "395f9f87df728134b5e3c1ca4d48e9fa",
+    "55fb01048b6287eadcbd9a0f86d21adf",
+    "16311b16fd48c1c87c6476a455093e7a"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://119.network/lte/Co",
+    "http://217.194.13.133/190/",
+    "http://119.network/lte/Inte",
+    "http://119.network/lte/do",
+    "http://217.194.13.133/tre/i",
+    "http://54.67.109.199/skype_resource/libmp3lame.dll",
+    "http://217.194.13.133/appP",
+    "http://vodafonein",
+    "http://windupdate.serveft"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "70a937b2504b3ad6c623581424c7e53d",
+    "6bcc3559d7405f25ea403317353d905f",
+    "d3baa45ed342fbc5a56d974d36d5f73f",
+    "f673bb1d519138ced7659484c0b66c5b",
+    "395f9f87df728134b5e3c1ca4d48e9fa",
+    "55fb01048b6287eadcbd9a0f86d21adf",
+    "16311b16fd48c1c87c6476a455093e7a",
+    "http://119.network/lte/Co",
+    "http://217.194.13.133/190/",
+    "http://119.network/lte/Inte",
+    "http://119.network/lte/do",
+    "http://217.194.13.133/tre/i",
+    "http://54.67.109.199/skype_resource/libmp3lame.dll",
+    "http://217.194.13.133/appP",
+    "http://vodafonein",
+    "http://windupdate.serveft"
+  ]
+}

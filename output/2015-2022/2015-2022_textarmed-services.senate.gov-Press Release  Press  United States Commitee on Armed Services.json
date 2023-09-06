@@ -1,1 +1,14 @@
-{"rule_id": 388, "name": "2015-2022_textarmed-services.senate.gov-Press Release  Press  United States Commitee on Armed Services", "description": "-", "references": [], "samples": ["senate.gov"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 388,
+  "name": "2015-2022_textarmed-services.senate.gov-Press Release  Press  United States Commitee on Armed Services",
+  "description": "-",
+  "references": [],
+  "samples": ["senate.gov"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

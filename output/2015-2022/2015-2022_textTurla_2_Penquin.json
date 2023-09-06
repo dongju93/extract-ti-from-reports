@@ -1,1 +1,22 @@
-{"rule_id": 586, "name": "2015-2022_textTurla_2_Penquin", "description": "-", "references": [], "samples": ["Turla.gen"], "MD5": ["19fbd8cbfb12482e8020a887d6427315", "14ecd5e6fc8e501037b54ca263896a11", "0994d9deb50352e76b0322f48ee576c6"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["19fbd8cbfb12482e8020a887d6427315", "14ecd5e6fc8e501037b54ca263896a11", "0994d9deb50352e76b0322f48ee576c6"]}
+{
+  "rule_id": 586,
+  "name": "2015-2022_textTurla_2_Penquin",
+  "description": "-",
+  "references": [],
+  "samples": ["Turla.gen"],
+  "MD5": [
+    "19fbd8cbfb12482e8020a887d6427315",
+    "14ecd5e6fc8e501037b54ca263896a11",
+    "0994d9deb50352e76b0322f48ee576c6"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "19fbd8cbfb12482e8020a887d6427315",
+    "14ecd5e6fc8e501037b54ca263896a11",
+    "0994d9deb50352e76b0322f48ee576c6"
+  ]
+}

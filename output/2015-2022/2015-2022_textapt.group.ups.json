@@ -1,1 +1,18 @@
-{"rule_id": 541, "name": "2015-2022_textapt.group.ups", "description": "-", "references": [], "samples": ["MainClass.as", "Show.swf", "show.swf", "show.gif", "b.gif"], "MD5": [], "SHA1": [], "SHA256": ["a2fe113cc13acac2bb79a375f692b8ba5cc2fa880272adc7ab0d01f839e877ff"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["a2fe113cc13acac2bb79a375f692b8ba5cc2fa880272adc7ab0d01f839e877ff"]}
+{
+  "rule_id": 541,
+  "name": "2015-2022_textapt.group.ups",
+  "description": "-",
+  "references": [],
+  "samples": ["MainClass.as", "Show.swf", "show.swf", "show.gif", "b.gif"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "a2fe113cc13acac2bb79a375f692b8ba5cc2fa880272adc7ab0d01f839e877ff"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "a2fe113cc13acac2bb79a375f692b8ba5cc2fa880272adc7ab0d01f839e877ff"
+  ]
+}

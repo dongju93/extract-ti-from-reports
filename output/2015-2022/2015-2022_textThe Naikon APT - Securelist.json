@@ -1,1 +1,52 @@
-{"rule_id": 446, "name": "2015-2022_textThe Naikon APT - Securelist", "description": "-", "references": [], "samples": ["mlfjcjssl.gicp", "googlemm.vicp", "kevins.pw", "vietkey.xicp", "user123.vicp", "ggpw.pw", "frankhere.oicp", "ubaoyouxiang.gicp", "macstore.vicp", "myanmartech.vicp", "googlereader.pw", "htkg009.gicp", "o.wm", "yahoomail.pw", "sayakyaw.xicp", "googlesec.pw", "moziliafirefox.wicp", "kyawthumyin.xicp", "laotel08.vicp", "telcom.dhtu", "greensky27.vicp", "googledata.pw", "lovethai.vicp", "findmy.pw", "baomoi.vicp"], "MD5": ["172fd9cce78de38d8cbcad605e3d6675", "b4a8dc9eb26e727eafb6c8477963829c", "d74a7e7a4de0da503472f1f051b68745", "d085ba82824c1e61e93e113a705b8e9a", "93e84075bef7a11832d9c5aa70135dc6"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["172fd9cce78de38d8cbcad605e3d6675", "b4a8dc9eb26e727eafb6c8477963829c", "d74a7e7a4de0da503472f1f051b68745", "d085ba82824c1e61e93e113a705b8e9a", "93e84075bef7a11832d9c5aa70135dc6"]}
+{
+  "rule_id": 446,
+  "name": "2015-2022_textThe Naikon APT - Securelist",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mlfjcjssl.gicp",
+    "googlemm.vicp",
+    "kevins.pw",
+    "vietkey.xicp",
+    "user123.vicp",
+    "ggpw.pw",
+    "frankhere.oicp",
+    "ubaoyouxiang.gicp",
+    "macstore.vicp",
+    "myanmartech.vicp",
+    "googlereader.pw",
+    "htkg009.gicp",
+    "o.wm",
+    "yahoomail.pw",
+    "sayakyaw.xicp",
+    "googlesec.pw",
+    "moziliafirefox.wicp",
+    "kyawthumyin.xicp",
+    "laotel08.vicp",
+    "telcom.dhtu",
+    "greensky27.vicp",
+    "googledata.pw",
+    "lovethai.vicp",
+    "findmy.pw",
+    "baomoi.vicp"
+  ],
+  "MD5": [
+    "172fd9cce78de38d8cbcad605e3d6675",
+    "b4a8dc9eb26e727eafb6c8477963829c",
+    "d74a7e7a4de0da503472f1f051b68745",
+    "d085ba82824c1e61e93e113a705b8e9a",
+    "93e84075bef7a11832d9c5aa70135dc6"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "172fd9cce78de38d8cbcad605e3d6675",
+    "b4a8dc9eb26e727eafb6c8477963829c",
+    "d74a7e7a4de0da503472f1f051b68745",
+    "d085ba82824c1e61e93e113a705b8e9a",
+    "93e84075bef7a11832d9c5aa70135dc6"
+  ]
+}

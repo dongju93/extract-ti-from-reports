@@ -1,1 +1,44 @@
-{"rule_id": 205, "name": "2015-2022_textDNSpionage Campaign Targets Middle East", "description": "-", "references": [], "samples": ["mail.apc", "memail.mea", "finance.gov", "gov.ae", "east.html", "serv.exe", "Configure.txt", "com.lb", "www.mea", "mail.mgov", "serv.doc", "autodiscover.mea", "tmec.mea", "adpolice.gov", "configure.txt", "owa.mea", "mea.aero"], "MD5": [], "SHA1": [], "SHA256": ["15fe5dbcd31be15f98aa9ba18755ee6264a26f5ea0877730b00ca0646d0f25fa", "2010f38ef300be4349e7bc287e720b1ecec678cacbf0ea0556bcf765f6e073ec", "9ea577a4b3faaf04a3bddbfcb934c9752bed0d0fc579f2152751c5f6923f7e14", "45a9edb24d4174592c69d9d37a534a518fbe2a88d3817fc0cc739e455883b8ff", "82285b6743cc5e3545d8e67740a4d04c5aed138d9f31d7c16bd11188a2042969"], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["15fe5dbcd31be15f98aa9ba18755ee6264a26f5ea0877730b00ca0646d0f25fa", "2010f38ef300be4349e7bc287e720b1ecec678cacbf0ea0556bcf765f6e073ec", "9ea577a4b3faaf04a3bddbfcb934c9752bed0d0fc579f2152751c5f6923f7e14", "45a9edb24d4174592c69d9d37a534a518fbe2a88d3817fc0cc739e455883b8ff", "82285b6743cc5e3545d8e67740a4d04c5aed138d9f31d7c16bd11188a2042969"]}
+{
+  "rule_id": 205,
+  "name": "2015-2022_textDNSpionage Campaign Targets Middle East",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mail.apc",
+    "memail.mea",
+    "finance.gov",
+    "gov.ae",
+    "east.html",
+    "serv.exe",
+    "Configure.txt",
+    "com.lb",
+    "www.mea",
+    "mail.mgov",
+    "serv.doc",
+    "autodiscover.mea",
+    "tmec.mea",
+    "adpolice.gov",
+    "configure.txt",
+    "owa.mea",
+    "mea.aero"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "15fe5dbcd31be15f98aa9ba18755ee6264a26f5ea0877730b00ca0646d0f25fa",
+    "2010f38ef300be4349e7bc287e720b1ecec678cacbf0ea0556bcf765f6e073ec",
+    "9ea577a4b3faaf04a3bddbfcb934c9752bed0d0fc579f2152751c5f6923f7e14",
+    "45a9edb24d4174592c69d9d37a534a518fbe2a88d3817fc0cc739e455883b8ff",
+    "82285b6743cc5e3545d8e67740a4d04c5aed138d9f31d7c16bd11188a2042969"
+  ],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "15fe5dbcd31be15f98aa9ba18755ee6264a26f5ea0877730b00ca0646d0f25fa",
+    "2010f38ef300be4349e7bc287e720b1ecec678cacbf0ea0556bcf765f6e073ec",
+    "9ea577a4b3faaf04a3bddbfcb934c9752bed0d0fc579f2152751c5f6923f7e14",
+    "45a9edb24d4174592c69d9d37a534a518fbe2a88d3817fc0cc739e455883b8ff",
+    "82285b6743cc5e3545d8e67740a4d04c5aed138d9f31d7c16bd11188a2042969"
+  ]
+}

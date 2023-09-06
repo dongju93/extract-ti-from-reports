@@ -1,1 +1,32 @@
-{"rule_id": 539, "name": "2015-2022_textGholee_Protective_Edge_themed_spear_phishing_campaign", "description": "-", "references": [], "samples": ["Edge.xlsb", "8.png", "NTUSER.data", "67.exe", "7.png", "9.png", "5.png", "Agent.ce", "6.png"], "MD5": ["916be1b609ed3dc80e5039a1d8102e82", "48573a150562c57742230583456b4c02", "d0c3f4c9896d41a7c42737134ffb4c2e"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["916be1b609ed3dc80e5039a1d8102e82", "48573a150562c57742230583456b4c02", "d0c3f4c9896d41a7c42737134ffb4c2e"]}
+{
+  "rule_id": 539,
+  "name": "2015-2022_textGholee_Protective_Edge_themed_spear_phishing_campaign",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Edge.xlsb",
+    "8.png",
+    "NTUSER.data",
+    "67.exe",
+    "7.png",
+    "9.png",
+    "5.png",
+    "Agent.ce",
+    "6.png"
+  ],
+  "MD5": [
+    "916be1b609ed3dc80e5039a1d8102e82",
+    "48573a150562c57742230583456b4c02",
+    "d0c3f4c9896d41a7c42737134ffb4c2e"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "916be1b609ed3dc80e5039a1d8102e82",
+    "48573a150562c57742230583456b4c02",
+    "d0c3f4c9896d41a7c42737134ffb4c2e"
+  ]
+}

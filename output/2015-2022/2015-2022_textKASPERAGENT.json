@@ -1,1 +1,44 @@
-{"rule_id": 955, "name": "2015-2022_textKASPERAGENT", "description": "-", "references": [], "samples": ["testproj.exe", "abcnews.go", "unispal.un", "electricity.html", "unispal.nsf", "israel.html"], "MD5": ["E44F0BD2ADFB9CBCABCAD314D27ACCFC", "6843AE9EAC03F69DF301D024BFDEFC88", "c66f88d2d76d79210d568d7ad7896b45", "2DE25306A58D8A5B6CBE8D5E2FC5F3C5", "4FE7561F63A71CA73C26CB95B28EAEE8", "C66F88D2D76D79210D568D7AD7896B45", "0B4E44256788783634A2B1DADF4F9784", "dcf3aa484253068d8833c7c5b019b07a"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0", "http://abcnews.go.com/International/wireStory/palestinian-west-bank-"], "weight": 0.0, "signatures": ["E44F0BD2ADFB9CBCABCAD314D27ACCFC", "6843AE9EAC03F69DF301D024BFDEFC88", "c66f88d2d76d79210d568d7ad7896b45", "2DE25306A58D8A5B6CBE8D5E2FC5F3C5", "4FE7561F63A71CA73C26CB95B28EAEE8", "C66F88D2D76D79210D568D7AD7896B45", "0B4E44256788783634A2B1DADF4F9784", "dcf3aa484253068d8833c7c5b019b07a", "https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0", "http://abcnews.go.com/International/wireStory/palestinian-west-bank-"]}
+{
+  "rule_id": 955,
+  "name": "2015-2022_textKASPERAGENT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "testproj.exe",
+    "abcnews.go",
+    "unispal.un",
+    "electricity.html",
+    "unispal.nsf",
+    "israel.html"
+  ],
+  "MD5": [
+    "E44F0BD2ADFB9CBCABCAD314D27ACCFC",
+    "6843AE9EAC03F69DF301D024BFDEFC88",
+    "c66f88d2d76d79210d568d7ad7896b45",
+    "2DE25306A58D8A5B6CBE8D5E2FC5F3C5",
+    "4FE7561F63A71CA73C26CB95B28EAEE8",
+    "C66F88D2D76D79210D568D7AD7896B45",
+    "0B4E44256788783634A2B1DADF4F9784",
+    "dcf3aa484253068d8833c7c5b019b07a"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0",
+    "http://abcnews.go.com/International/wireStory/palestinian-west-bank-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "E44F0BD2ADFB9CBCABCAD314D27ACCFC",
+    "6843AE9EAC03F69DF301D024BFDEFC88",
+    "c66f88d2d76d79210d568d7ad7896b45",
+    "2DE25306A58D8A5B6CBE8D5E2FC5F3C5",
+    "4FE7561F63A71CA73C26CB95B28EAEE8",
+    "C66F88D2D76D79210D568D7AD7896B45",
+    "0B4E44256788783634A2B1DADF4F9784",
+    "dcf3aa484253068d8833c7c5b019b07a",
+    "https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0",
+    "http://abcnews.go.com/International/wireStory/palestinian-west-bank-"
+  ]
+}

@@ -1,1 +1,26 @@
-{"rule_id": 352, "name": "2015-2022_texta-look-into-fysbis-sofacys-linux-backdoor", "description": "-", "references": ["CVE-2016-0728"], "samples": [], "MD5": ["95f2480423a4256537bfdfda0df85592", "02c7cf55fd5c5809ce2dce56085ba437", "075b6695ab63f36af65f7ffd45cccd39", "364ff454dcf00420cff13a57bcb78467", "e107c5c84ded6cd9391aede7f04d64c8"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["95f2480423a4256537bfdfda0df85592", "02c7cf55fd5c5809ce2dce56085ba437", "075b6695ab63f36af65f7ffd45cccd39", "364ff454dcf00420cff13a57bcb78467", "e107c5c84ded6cd9391aede7f04d64c8"]}
+{
+  "rule_id": 352,
+  "name": "2015-2022_texta-look-into-fysbis-sofacys-linux-backdoor",
+  "description": "-",
+  "references": ["CVE-2016-0728"],
+  "samples": [],
+  "MD5": [
+    "95f2480423a4256537bfdfda0df85592",
+    "02c7cf55fd5c5809ce2dce56085ba437",
+    "075b6695ab63f36af65f7ffd45cccd39",
+    "364ff454dcf00420cff13a57bcb78467",
+    "e107c5c84ded6cd9391aede7f04d64c8"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "95f2480423a4256537bfdfda0df85592",
+    "02c7cf55fd5c5809ce2dce56085ba437",
+    "075b6695ab63f36af65f7ffd45cccd39",
+    "364ff454dcf00420cff13a57bcb78467",
+    "e107c5c84ded6cd9391aede7f04d64c8"
+  ]
+}

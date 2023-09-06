@@ -1,1 +1,53 @@
-{"rule_id": 156, "name": "2015-2022_textrpt-china-chopper", "description": "-", "references": [], "samples": ["Customize.aspx", "i.html", "www.gnu", "Request.Item", "webshell.html", "caidao.exe", "RPT.CCWS", "notepad.html", "decomp.exe"], "MD5": ["acba8115d027529763ea5c7ed6621499", "8aa603ee2454da64f4c70f24cc0b5e08", "5001ef50c7e869253a7c152a638eab8a", "ad8288227240477a95fb023551773c84"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.aldeid.com/wiki/PEiD.", "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.", "http://fiddler2.com/.", "http://malware-hunters.net/all-downloads/.", "http://www.gnu.org/software/wget/.", "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)", "http://www.snort.org/.", "http://www.wireshark.org/.", "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-"], "weight": 0.0, "signatures": ["acba8115d027529763ea5c7ed6621499", "8aa603ee2454da64f4c70f24cc0b5e08", "5001ef50c7e869253a7c152a638eab8a", "ad8288227240477a95fb023551773c84", "http://www.aldeid.com/wiki/PEiD.", "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.", "http://fiddler2.com/.", "http://malware-hunters.net/all-downloads/.", "http://www.gnu.org/software/wget/.", "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)", "http://www.snort.org/.", "http://www.wireshark.org/.", "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-"]}
+{
+  "rule_id": 156,
+  "name": "2015-2022_textrpt-china-chopper",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Customize.aspx",
+    "i.html",
+    "www.gnu",
+    "Request.Item",
+    "webshell.html",
+    "caidao.exe",
+    "RPT.CCWS",
+    "notepad.html",
+    "decomp.exe"
+  ],
+  "MD5": [
+    "acba8115d027529763ea5c7ed6621499",
+    "8aa603ee2454da64f4c70f24cc0b5e08",
+    "5001ef50c7e869253a7c152a638eab8a",
+    "ad8288227240477a95fb023551773c84"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.aldeid.com/wiki/PEiD.",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.",
+    "http://fiddler2.com/.",
+    "http://malware-hunters.net/all-downloads/.",
+    "http://www.gnu.org/software/wget/.",
+    "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)",
+    "http://www.snort.org/.",
+    "http://www.wireshark.org/.",
+    "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "acba8115d027529763ea5c7ed6621499",
+    "8aa603ee2454da64f4c70f24cc0b5e08",
+    "5001ef50c7e869253a7c152a638eab8a",
+    "ad8288227240477a95fb023551773c84",
+    "http://www.aldeid.com/wiki/PEiD.",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.",
+    "http://fiddler2.com/.",
+    "http://malware-hunters.net/all-downloads/.",
+    "http://www.gnu.org/software/wget/.",
+    "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)",
+    "http://www.snort.org/.",
+    "http://www.wireshark.org/.",
+    "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-"
+  ]
+}

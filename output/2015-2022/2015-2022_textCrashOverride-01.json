@@ -1,1 +1,54 @@
-{"rule_id": 848, "name": "2015-2022_textCrashOverride-01", "description": "-", "references": ["CVE-2015-5374"], "samples": ["BASCON.COM", "opc.exe", "haslo.dat", "101.dll", "Crash104.dll", "61850.dll", "MultiCommService.exe", "Crash61850.dll", "haslo.exe", "OPC.exe", "CrashOPCClientDemo.dll", "OPCClientDemo.dll", "Crash101.dll", "iec104.log", "104.dll", "61850.exe", "Launcher.exe", "DRAGOS.COM"], "MD5": [], "SHA1": ["5a5fafbc3fec8d36fd57b075ebf34119ba3bff04", "f6c21f8189ced6ae150f9ef2e82a3a57843b587d", "94488f214b165512d2fc0438a581f5c9e3bd4d4c", "2cb8230281b86fa944d3043ae906016c8b5984d9", "b92149f046f00bb69de329b8457d32c24726ee00", "8e39eca1e48240c01ee570631ae8f0c9a9637187", "b335163e6eb854df5e08e85026b2c3518891eda8", "cccce62996d578b984984426a024d9b250237533", "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a"], "SHA256": [], "Registry_Entries": ["HKLM\\SYSTEM\\CurrentControlSet\\Ser-"], "URL": [], "weight": 0.0, "signatures": ["5a5fafbc3fec8d36fd57b075ebf34119ba3bff04", "f6c21f8189ced6ae150f9ef2e82a3a57843b587d", "94488f214b165512d2fc0438a581f5c9e3bd4d4c", "2cb8230281b86fa944d3043ae906016c8b5984d9", "b92149f046f00bb69de329b8457d32c24726ee00", "8e39eca1e48240c01ee570631ae8f0c9a9637187", "b335163e6eb854df5e08e85026b2c3518891eda8", "cccce62996d578b984984426a024d9b250237533", "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a", "HKLM\\SYSTEM\\CurrentControlSet\\Ser-"]}
+{
+  "rule_id": 848,
+  "name": "2015-2022_textCrashOverride-01",
+  "description": "-",
+  "references": ["CVE-2015-5374"],
+  "samples": [
+    "BASCON.COM",
+    "opc.exe",
+    "haslo.dat",
+    "101.dll",
+    "Crash104.dll",
+    "61850.dll",
+    "MultiCommService.exe",
+    "Crash61850.dll",
+    "haslo.exe",
+    "OPC.exe",
+    "CrashOPCClientDemo.dll",
+    "OPCClientDemo.dll",
+    "Crash101.dll",
+    "iec104.log",
+    "104.dll",
+    "61850.exe",
+    "Launcher.exe",
+    "DRAGOS.COM"
+  ],
+  "MD5": [],
+  "SHA1": [
+    "5a5fafbc3fec8d36fd57b075ebf34119ba3bff04",
+    "f6c21f8189ced6ae150f9ef2e82a3a57843b587d",
+    "94488f214b165512d2fc0438a581f5c9e3bd4d4c",
+    "2cb8230281b86fa944d3043ae906016c8b5984d9",
+    "b92149f046f00bb69de329b8457d32c24726ee00",
+    "8e39eca1e48240c01ee570631ae8f0c9a9637187",
+    "b335163e6eb854df5e08e85026b2c3518891eda8",
+    "cccce62996d578b984984426a024d9b250237533",
+    "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a"
+  ],
+  "SHA256": [],
+  "Registry_Entries": ["HKLM\\SYSTEM\\CurrentControlSet\\Ser-"],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "5a5fafbc3fec8d36fd57b075ebf34119ba3bff04",
+    "f6c21f8189ced6ae150f9ef2e82a3a57843b587d",
+    "94488f214b165512d2fc0438a581f5c9e3bd4d4c",
+    "2cb8230281b86fa944d3043ae906016c8b5984d9",
+    "b92149f046f00bb69de329b8457d32c24726ee00",
+    "8e39eca1e48240c01ee570631ae8f0c9a9637187",
+    "b335163e6eb854df5e08e85026b2c3518891eda8",
+    "cccce62996d578b984984426a024d9b250237533",
+    "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a",
+    "HKLM\\SYSTEM\\CurrentControlSet\\Ser-"
+  ]
+}

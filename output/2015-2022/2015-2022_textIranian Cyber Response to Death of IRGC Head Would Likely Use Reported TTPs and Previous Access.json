@@ -1,1 +1,17 @@
-{"rule_id": 635, "name": "2015-2022_textIranian Cyber Response to Death of IRGC Head Would Likely Use Reported TTPs and Previous Access", "description": "-", "references": [], "samples": [], "MD5": ["857ef30bf15ea3da9b94092da78ef0fc"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.recordedfuture.com/iranian-cyber-response/"], "weight": 0.0, "signatures": ["857ef30bf15ea3da9b94092da78ef0fc", "https://www.recordedfuture.com/iranian-cyber-response/"]}
+{
+  "rule_id": 635,
+  "name": "2015-2022_textIranian Cyber Response to Death of IRGC Head Would Likely Use Reported TTPs and Previous Access",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": ["857ef30bf15ea3da9b94092da78ef0fc"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://www.recordedfuture.com/iranian-cyber-response/"],
+  "weight": 0.0,
+  "signatures": [
+    "857ef30bf15ea3da9b94092da78ef0fc",
+    "https://www.recordedfuture.com/iranian-cyber-response/"
+  ]
+}

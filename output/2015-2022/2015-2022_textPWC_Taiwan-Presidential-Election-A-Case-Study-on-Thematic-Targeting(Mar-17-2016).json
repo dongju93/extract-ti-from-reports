@@ -1,1 +1,30 @@
-{"rule_id": 284, "name": "2015-2022_textPWC_Taiwan-Presidential-Election-A-Case-Study-on-Thematic-Targeting(Mar-17-2016)", "description": "-", "references": [], "samples": ["民眾政黨支持趨勢變化.exe", "20160105.xls", "統選舉民情中心預測值.rar", "值.doc"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the"], "URL": ["https://whois.domaintools.com/security", "http://contagiodump.blogspot.co.uk/2013/09/sandbox", "https://citizenlab.org/2013/08/surtr"], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the", "https://whois.domaintools.com/security", "http://contagiodump.blogspot.co.uk/2013/09/sandbox", "https://citizenlab.org/2013/08/surtr"]}
+{
+  "rule_id": 284,
+  "name": "2015-2022_textPWC_Taiwan-Presidential-Election-A-Case-Study-on-Thematic-Targeting(Mar-17-2016)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "民眾政黨支持趨勢變化.exe",
+    "20160105.xls",
+    "統選舉民情中心預測值.rar",
+    "值.doc"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the"
+  ],
+  "URL": [
+    "https://whois.domaintools.com/security",
+    "http://contagiodump.blogspot.co.uk/2013/09/sandbox",
+    "https://citizenlab.org/2013/08/surtr"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the",
+    "https://whois.domaintools.com/security",
+    "http://contagiodump.blogspot.co.uk/2013/09/sandbox",
+    "https://citizenlab.org/2013/08/surtr"
+  ]
+}

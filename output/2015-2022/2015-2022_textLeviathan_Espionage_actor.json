@@ -1,1 +1,62 @@
-{"rule_id": 600, "name": "2015-2022_textLeviathan_Espionage_actor", "description": "-", "references": [], "samples": ["finspy.html", "Link.js", "green.tmp", "SEDll_Win32.dll", "Updater.lnk", "365.lnk", "green.ddd", "Resume.rtf", "2015.xls", "link.js", "resume.rtf", "k.js", "Template.xls", "21.doc"], "MD5": [], "SHA1": [], "SHA256": ["39c952c7e14b6be5a9cb1be3f05eafa22e1115806e927f4e2dc85d609bc0eb36", "5860ddc428ffa900258207e9c385f843a3472f2fbf252d2f6357d458646cf362", "146aa9a0ec013aa5bdba9ea9d29f59d48d43bc17c6a20b74bb8c521dbb5bc6f4", "c7fa6f27ec4f4142ae591f2dd7c63d046431945f03c87dbed88d79f55180a46d", "4029b43c7febd05e8bf013c1022244aaa238341ca44bbce2250667614c1a4932", "80b931ab1798d7d8a8d63411861cee07e31bb9a68f595f579e11d3817cfc4aca", "bfc5c6817ff2cc4f3cd40f649e10cc9ae1e52139f35fdddbd32cb4d221368922", "305f331bfb1e97028f8c92cbcb1dff2741dcddacc76843e65f9b1ec5a66f52bc", "ced7ca9625543d3d3d09f70223cc19f0d99e21792854452df5ba84b3a59d17b8", "6f6ee01e9dc2d8c4c260ef4131fe88dc152e53ee8afd3e66e92d4e1bf5fd2e92", "cdf6e2e928a89cbb857e688055a25e37a8d8b8b90530bd52c8548fb544f66f1f"], "Registry_Entries": [], "URL": ["https://www.printfriendly.com/p/g/Dn7rsC", "https://www.carbonblack.com/2016/04/28/threat", "https://labsblog.f", "https://community.spiceworks.com/topic/1028936"], "weight": 0.0, "signatures": ["39c952c7e14b6be5a9cb1be3f05eafa22e1115806e927f4e2dc85d609bc0eb36", "5860ddc428ffa900258207e9c385f843a3472f2fbf252d2f6357d458646cf362", "146aa9a0ec013aa5bdba9ea9d29f59d48d43bc17c6a20b74bb8c521dbb5bc6f4", "c7fa6f27ec4f4142ae591f2dd7c63d046431945f03c87dbed88d79f55180a46d", "4029b43c7febd05e8bf013c1022244aaa238341ca44bbce2250667614c1a4932", "80b931ab1798d7d8a8d63411861cee07e31bb9a68f595f579e11d3817cfc4aca", "bfc5c6817ff2cc4f3cd40f649e10cc9ae1e52139f35fdddbd32cb4d221368922", "305f331bfb1e97028f8c92cbcb1dff2741dcddacc76843e65f9b1ec5a66f52bc", "ced7ca9625543d3d3d09f70223cc19f0d99e21792854452df5ba84b3a59d17b8", "6f6ee01e9dc2d8c4c260ef4131fe88dc152e53ee8afd3e66e92d4e1bf5fd2e92", "cdf6e2e928a89cbb857e688055a25e37a8d8b8b90530bd52c8548fb544f66f1f", "https://www.printfriendly.com/p/g/Dn7rsC", "https://www.carbonblack.com/2016/04/28/threat", "https://labsblog.f", "https://community.spiceworks.com/topic/1028936"]}
+{
+  "rule_id": 600,
+  "name": "2015-2022_textLeviathan_Espionage_actor",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "finspy.html",
+    "Link.js",
+    "green.tmp",
+    "SEDll_Win32.dll",
+    "Updater.lnk",
+    "365.lnk",
+    "green.ddd",
+    "Resume.rtf",
+    "2015.xls",
+    "link.js",
+    "resume.rtf",
+    "k.js",
+    "Template.xls",
+    "21.doc"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "39c952c7e14b6be5a9cb1be3f05eafa22e1115806e927f4e2dc85d609bc0eb36",
+    "5860ddc428ffa900258207e9c385f843a3472f2fbf252d2f6357d458646cf362",
+    "146aa9a0ec013aa5bdba9ea9d29f59d48d43bc17c6a20b74bb8c521dbb5bc6f4",
+    "c7fa6f27ec4f4142ae591f2dd7c63d046431945f03c87dbed88d79f55180a46d",
+    "4029b43c7febd05e8bf013c1022244aaa238341ca44bbce2250667614c1a4932",
+    "80b931ab1798d7d8a8d63411861cee07e31bb9a68f595f579e11d3817cfc4aca",
+    "bfc5c6817ff2cc4f3cd40f649e10cc9ae1e52139f35fdddbd32cb4d221368922",
+    "305f331bfb1e97028f8c92cbcb1dff2741dcddacc76843e65f9b1ec5a66f52bc",
+    "ced7ca9625543d3d3d09f70223cc19f0d99e21792854452df5ba84b3a59d17b8",
+    "6f6ee01e9dc2d8c4c260ef4131fe88dc152e53ee8afd3e66e92d4e1bf5fd2e92",
+    "cdf6e2e928a89cbb857e688055a25e37a8d8b8b90530bd52c8548fb544f66f1f"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.printfriendly.com/p/g/Dn7rsC",
+    "https://www.carbonblack.com/2016/04/28/threat",
+    "https://labsblog.f",
+    "https://community.spiceworks.com/topic/1028936"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "39c952c7e14b6be5a9cb1be3f05eafa22e1115806e927f4e2dc85d609bc0eb36",
+    "5860ddc428ffa900258207e9c385f843a3472f2fbf252d2f6357d458646cf362",
+    "146aa9a0ec013aa5bdba9ea9d29f59d48d43bc17c6a20b74bb8c521dbb5bc6f4",
+    "c7fa6f27ec4f4142ae591f2dd7c63d046431945f03c87dbed88d79f55180a46d",
+    "4029b43c7febd05e8bf013c1022244aaa238341ca44bbce2250667614c1a4932",
+    "80b931ab1798d7d8a8d63411861cee07e31bb9a68f595f579e11d3817cfc4aca",
+    "bfc5c6817ff2cc4f3cd40f649e10cc9ae1e52139f35fdddbd32cb4d221368922",
+    "305f331bfb1e97028f8c92cbcb1dff2741dcddacc76843e65f9b1ec5a66f52bc",
+    "ced7ca9625543d3d3d09f70223cc19f0d99e21792854452df5ba84b3a59d17b8",
+    "6f6ee01e9dc2d8c4c260ef4131fe88dc152e53ee8afd3e66e92d4e1bf5fd2e92",
+    "cdf6e2e928a89cbb857e688055a25e37a8d8b8b90530bd52c8548fb544f66f1f",
+    "https://www.printfriendly.com/p/g/Dn7rsC",
+    "https://www.carbonblack.com/2016/04/28/threat",
+    "https://labsblog.f",
+    "https://community.spiceworks.com/topic/1028936"
+  ]
+}

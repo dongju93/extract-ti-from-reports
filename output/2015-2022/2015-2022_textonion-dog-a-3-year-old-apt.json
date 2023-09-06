@@ -1,1 +1,14 @@
-{"rule_id": 60, "name": "2015-2022_textonion-dog-a-3-year-old-apt", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://ti.360.com)."], "weight": 0.0, "signatures": ["https://ti.360.com)."]}
+{
+  "rule_id": 60,
+  "name": "2015-2022_textonion-dog-a-3-year-old-apt",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["https://ti.360.com)."],
+  "weight": 0.0,
+  "signatures": ["https://ti.360.com)."]
+}

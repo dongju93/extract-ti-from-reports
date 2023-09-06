@@ -1,1 +1,22 @@
-{"rule_id": 443, "name": "2015-2022_textAvast tracks down Tempting Cedar Spyware", "description": "-", "references": [], "samples": ["world.site", "rsdroid.crt", "apps.us", "messenger.site", "chat.site", "gserv.mobi", "eighty9.guru"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 443,
+  "name": "2015-2022_textAvast tracks down Tempting Cedar Spyware",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "world.site",
+    "rsdroid.crt",
+    "apps.us",
+    "messenger.site",
+    "chat.site",
+    "gserv.mobi",
+    "eighty9.guru"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

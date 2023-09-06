@@ -1,1 +1,20 @@
-{"rule_id": 941, "name": "2015-2022_textSupply Chain – The Major Target of Cyberespionage Groups", "description": "-", "references": [], "samples": [], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.ncsc.gov.uk/blog-post/spray-you-spray-me-defending-against-password-", "https://resecurity.com/blog/supply-chain-the-major-target-of-cyberespionage-groups/"], "weight": 0.0, "signatures": ["https://www.ncsc.gov.uk/blog-post/spray-you-spray-me-defending-against-password-", "https://resecurity.com/blog/supply-chain-the-major-target-of-cyberespionage-groups/"]}
+{
+  "rule_id": 941,
+  "name": "2015-2022_textSupply Chain – The Major Target of Cyberespionage Groups",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.ncsc.gov.uk/blog-post/spray-you-spray-me-defending-against-password-",
+    "https://resecurity.com/blog/supply-chain-the-major-target-of-cyberespionage-groups/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.ncsc.gov.uk/blog-post/spray-you-spray-me-defending-against-password-",
+    "https://resecurity.com/blog/supply-chain-the-major-target-of-cyberespionage-groups/"
+  ]
+}

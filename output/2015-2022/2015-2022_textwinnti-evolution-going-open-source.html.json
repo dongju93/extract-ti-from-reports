@@ -1,1 +1,14 @@
-{"rule_id": 1053, "name": "2015-2022_textwinnti-evolution-going-open-source.html", "description": "-", "references": [], "samples": ["screen.css", "real.html"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.exetomsi.com/)."], "weight": 0.0, "signatures": ["http://www.exetomsi.com/)."]}
+{
+  "rule_id": 1053,
+  "name": "2015-2022_textwinnti-evolution-going-open-source.html",
+  "description": "-",
+  "references": [],
+  "samples": ["screen.css", "real.html"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://www.exetomsi.com/)."],
+  "weight": 0.0,
+  "signatures": ["http://www.exetomsi.com/)."]
+}

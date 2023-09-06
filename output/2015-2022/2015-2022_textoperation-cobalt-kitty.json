@@ -1,1 +1,31 @@
-{"rule_id": 145, "name": "2015-2022_textoperation-cobalt-kitty", "description": "-", "references": [], "samples": ["searchprotoclhost.exe", "msfte.dll", "info.dll", "searchindexer.exe"], "MD5": [], "SHA1": ["d30e8c7543adbc801d675068530b57d75cabb13f", "3cf4b44c9470fb5bd0c16996c4b2a338502a7517", "691686839681adb345728806889925dc4eddb74e", "638b7b0536217c8923e856f4138d9caff7eb309d", "973b1ca8661be6651114edf29b10b31db4e218f7"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["d30e8c7543adbc801d675068530b57d75cabb13f", "3cf4b44c9470fb5bd0c16996c4b2a338502a7517", "691686839681adb345728806889925dc4eddb74e", "638b7b0536217c8923e856f4138d9caff7eb309d", "973b1ca8661be6651114edf29b10b31db4e218f7"]}
+{
+  "rule_id": 145,
+  "name": "2015-2022_textoperation-cobalt-kitty",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "searchprotoclhost.exe",
+    "msfte.dll",
+    "info.dll",
+    "searchindexer.exe"
+  ],
+  "MD5": [],
+  "SHA1": [
+    "d30e8c7543adbc801d675068530b57d75cabb13f",
+    "3cf4b44c9470fb5bd0c16996c4b2a338502a7517",
+    "691686839681adb345728806889925dc4eddb74e",
+    "638b7b0536217c8923e856f4138d9caff7eb309d",
+    "973b1ca8661be6651114edf29b10b31db4e218f7"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "d30e8c7543adbc801d675068530b57d75cabb13f",
+    "3cf4b44c9470fb5bd0c16996c4b2a338502a7517",
+    "691686839681adb345728806889925dc4eddb74e",
+    "638b7b0536217c8923e856f4138d9caff7eb309d",
+    "973b1ca8661be6651114edf29b10b31db4e218f7"
+  ]
+}

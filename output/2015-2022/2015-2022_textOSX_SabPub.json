@@ -1,1 +1,14 @@
-{"rule_id": 327, "name": "2015-2022_textOSX_SabPub", "description": "-", "references": ["CVE-2009-0563"], "samples": ["8958.doc"], "MD5": ["40C8786A4887A763D8F3E5243724D1C9"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["40C8786A4887A763D8F3E5243724D1C9"]}
+{
+  "rule_id": 327,
+  "name": "2015-2022_textOSX_SabPub",
+  "description": "-",
+  "references": ["CVE-2009-0563"],
+  "samples": ["8958.doc"],
+  "MD5": ["40C8786A4887A763D8F3E5243724D1C9"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["40C8786A4887A763D8F3E5243724D1C9"]
+}

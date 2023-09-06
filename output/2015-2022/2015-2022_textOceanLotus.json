@@ -1,1 +1,35 @@
-{"rule_id": 1005, "name": "2015-2022_textOceanLotus", "description": "-", "references": [], "samples": ["BIB.dll", "Rasman.exe", "rasman.exe", "L.dll", "m.zip", "pham.docx", "ACE.dll", "MSVCP80.dll", "MSVCR80.dll", "rasman.dll", "AGM.dll"], "MD5": ["b28c80ca9a3b7deb09b275af1076eb55", "0dd468ee3a4ec0f6f84473bd8428a1e1"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://ti.qianxin.com/blog/articles/english-version-of-new-approaches-utilized-by-oceanLotus-to-target-vietnamese-environmentalist/"], "weight": 0.0, "signatures": ["b28c80ca9a3b7deb09b275af1076eb55", "0dd468ee3a4ec0f6f84473bd8428a1e1", "https://ti.qianxin.com/blog/articles/english-version-of-new-approaches-utilized-by-oceanLotus-to-target-vietnamese-environmentalist/"]}
+{
+  "rule_id": 1005,
+  "name": "2015-2022_textOceanLotus",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "BIB.dll",
+    "Rasman.exe",
+    "rasman.exe",
+    "L.dll",
+    "m.zip",
+    "pham.docx",
+    "ACE.dll",
+    "MSVCP80.dll",
+    "MSVCR80.dll",
+    "rasman.dll",
+    "AGM.dll"
+  ],
+  "MD5": [
+    "b28c80ca9a3b7deb09b275af1076eb55",
+    "0dd468ee3a4ec0f6f84473bd8428a1e1"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://ti.qianxin.com/blog/articles/english-version-of-new-approaches-utilized-by-oceanLotus-to-target-vietnamese-environmentalist/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b28c80ca9a3b7deb09b275af1076eb55",
+    "0dd468ee3a4ec0f6f84473bd8428a1e1",
+    "https://ti.qianxin.com/blog/articles/english-version-of-new-approaches-utilized-by-oceanLotus-to-target-vietnamese-environmentalist/"
+  ]
+}

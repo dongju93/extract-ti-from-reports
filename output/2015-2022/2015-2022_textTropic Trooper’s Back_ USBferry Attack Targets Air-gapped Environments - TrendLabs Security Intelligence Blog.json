@@ -1,1 +1,21 @@
-{"rule_id": 1024, "name": "2015-2022_textTropic Trooper’s Back_ USBferry Attack Targets Air-gapped Environments - TrendLabs Security Intelligence Blog", "description": "-", "references": [], "samples": ["IDSHELL.ZTFC", "USBLODR.ZAHB", "ash.dat", "SVCSHELL.ZAHC", "en.dat", "TEBSHELL.ZTGK"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 1024,
+  "name": "2015-2022_textTropic Trooper’s Back_ USBferry Attack Targets Air-gapped Environments - TrendLabs Security Intelligence Blog",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "IDSHELL.ZTFC",
+    "USBLODR.ZAHB",
+    "ash.dat",
+    "SVCSHELL.ZAHC",
+    "en.dat",
+    "TEBSHELL.ZTGK"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

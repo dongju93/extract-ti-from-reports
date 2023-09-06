@@ -1,1 +1,20 @@
-{"rule_id": 291, "name": "2015-2022_textrpt-fin4", "description": "-", "references": [], "samples": ["john.doe", "junomaat81.us", "WP.HTS", "report.php"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://forum.<domain>/redirect.", "http://<domain>%2fforum%2fequities%2f375823902%2farticle."], "weight": 0.0, "signatures": ["http://forum.<domain>/redirect.", "http://<domain>%2fforum%2fequities%2f375823902%2farticle."]}
+{
+  "rule_id": 291,
+  "name": "2015-2022_textrpt-fin4",
+  "description": "-",
+  "references": [],
+  "samples": ["john.doe", "junomaat81.us", "WP.HTS", "report.php"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://forum.<domain>/redirect.",
+    "http://<domain>%2fforum%2fequities%2f375823902%2farticle."
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://forum.<domain>/redirect.",
+    "http://<domain>%2fforum%2fequities%2f375823902%2farticle."
+  ]
+}

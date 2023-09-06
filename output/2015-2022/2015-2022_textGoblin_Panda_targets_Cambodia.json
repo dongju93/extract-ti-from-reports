@@ -1,1 +1,29 @@
-{"rule_id": 246, "name": "2015-2022_textGoblin_Panda_targets_Cambodia", "description": "-", "references": [], "samples": ["organizations.html"], "MD5": [], "SHA1": [], "SHA256": ["4a5bf0df9ee222dac87e2f1b38b18660ebb92de8ba3f1cbc845f945a766dd6a6", "0e32ce9e0c309859fd0d1193f54cad0dde7928053795892a0f6c8c96cbf6753d", "9d0c4ec62abe79e754eaa2fd7696f98441bc783781d8656065cddfae3dbf503e", "77361b1ca09d6857d68cea052a0bb857e03d776d3e1943897315a80a19f20fc2", "c0b8d15cd0f3f3c5a40ba2e9780f0dd1db526233b40a449826b6a7c92d31f8d9"], "Registry_Entries": [], "URL": ["https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-campaign-against-"], "weight": 0.0, "signatures": ["4a5bf0df9ee222dac87e2f1b38b18660ebb92de8ba3f1cbc845f945a766dd6a6", "0e32ce9e0c309859fd0d1193f54cad0dde7928053795892a0f6c8c96cbf6753d", "9d0c4ec62abe79e754eaa2fd7696f98441bc783781d8656065cddfae3dbf503e", "77361b1ca09d6857d68cea052a0bb857e03d776d3e1943897315a80a19f20fc2", "c0b8d15cd0f3f3c5a40ba2e9780f0dd1db526233b40a449826b6a7c92d31f8d9", "https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-campaign-against-"]}
+{
+  "rule_id": 246,
+  "name": "2015-2022_textGoblin_Panda_targets_Cambodia",
+  "description": "-",
+  "references": [],
+  "samples": ["organizations.html"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "4a5bf0df9ee222dac87e2f1b38b18660ebb92de8ba3f1cbc845f945a766dd6a6",
+    "0e32ce9e0c309859fd0d1193f54cad0dde7928053795892a0f6c8c96cbf6753d",
+    "9d0c4ec62abe79e754eaa2fd7696f98441bc783781d8656065cddfae3dbf503e",
+    "77361b1ca09d6857d68cea052a0bb857e03d776d3e1943897315a80a19f20fc2",
+    "c0b8d15cd0f3f3c5a40ba2e9780f0dd1db526233b40a449826b6a7c92d31f8d9"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-campaign-against-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4a5bf0df9ee222dac87e2f1b38b18660ebb92de8ba3f1cbc845f945a766dd6a6",
+    "0e32ce9e0c309859fd0d1193f54cad0dde7928053795892a0f6c8c96cbf6753d",
+    "9d0c4ec62abe79e754eaa2fd7696f98441bc783781d8656065cddfae3dbf503e",
+    "77361b1ca09d6857d68cea052a0bb857e03d776d3e1943897315a80a19f20fc2",
+    "c0b8d15cd0f3f3c5a40ba2e9780f0dd1db526233b40a449826b6a7c92d31f8d9",
+    "https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-campaign-against-"
+  ]
+}

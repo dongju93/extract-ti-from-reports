@@ -1,1 +1,29 @@
-{"rule_id": 186, "name": "2015-2022_textan-in-depth-look-at-how-pawn-storms-java-zero-day-was-used", "description": "-", "references": [], "samples": ["JNLPER.HAQ", "cormac.mcr", "Cormac.mcr", "z.htm", "DROPPR.CXC", "crossdomain.xml", "MFS.pdf", "vhgg5hkvn25.exe", "DLOADR.EFD", "eR.pdf", "LJ9.zip", "init.jnlp", "RunDll32.exe", "a.htm"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 186,
+  "name": "2015-2022_textan-in-depth-look-at-how-pawn-storms-java-zero-day-was-used",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "JNLPER.HAQ",
+    "cormac.mcr",
+    "Cormac.mcr",
+    "z.htm",
+    "DROPPR.CXC",
+    "crossdomain.xml",
+    "MFS.pdf",
+    "vhgg5hkvn25.exe",
+    "DLOADR.EFD",
+    "eR.pdf",
+    "LJ9.zip",
+    "init.jnlp",
+    "RunDll32.exe",
+    "a.htm"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,1 +1,14 @@
-{"rule_id": 796, "name": "2015-2022_textScarab_Russian", "description": "-", "references": [], "samples": ["года.doc", "seclog32.dll", "hidsvc.dat", "year.doc"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 796,
+  "name": "2015-2022_textScarab_Russian",
+  "description": "-",
+  "references": [],
+  "samples": ["года.doc", "seclog32.dll", "hidsvc.dat", "year.doc"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

@@ -1,1 +1,57 @@
-{"rule_id": 788, "name": "2015-2022_textNew Perl Botnet (Tuyul) Found with Possible Indonesian Attribution", "description": "-", "references": ["CVE-2017-9841"], "samples": ["dis.so", "libc6.so", "hook.php", "cache.php", "back.php"], "MD5": ["072f9f015fddcbdc1373633dcf8c7520", "66027930586b3dbec1c1f84392b0dc13", "94186bb97a20b207507b4913ef3aa9a9", "cbf995e0372230b345cd62178bec5635", "0204e028d242a0cbf1e1611908ff1895", "8edca42ab0ecc6358eac61a8cf53183f", "111b543c6d110da5b3a070fdc44e4c7d", "83d555ff340c7a8f3e7c40de496378ae", "847c8d52bc9c58c1e479fbb0d294cfec", "3edcfecb434338580966e7fe8e0bf896", "0323eb136c586b96cfade4407fa9abb7", "89398067c033a4d5c69ec56a95ea502f", "333a1032f001c677f9925ef228830103", "9398caaa1f4f583fcd3b6fa51622d3eb", "e2a2b5f9d8798b0865c2f598e7662714", "5cfb092096be472eae67248a25ff57f6"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://localroot.zyx", "http://zer0art.com", "https://www.f5.com/labs/articles/threat-intelligence/new-perl-botnet--tuyul--found-with-possible-indonesian-attributi", "http://103.3.189.32"], "weight": 0.0, "signatures": ["072f9f015fddcbdc1373633dcf8c7520", "66027930586b3dbec1c1f84392b0dc13", "94186bb97a20b207507b4913ef3aa9a9", "cbf995e0372230b345cd62178bec5635", "0204e028d242a0cbf1e1611908ff1895", "8edca42ab0ecc6358eac61a8cf53183f", "111b543c6d110da5b3a070fdc44e4c7d", "83d555ff340c7a8f3e7c40de496378ae", "847c8d52bc9c58c1e479fbb0d294cfec", "3edcfecb434338580966e7fe8e0bf896", "0323eb136c586b96cfade4407fa9abb7", "89398067c033a4d5c69ec56a95ea502f", "333a1032f001c677f9925ef228830103", "9398caaa1f4f583fcd3b6fa51622d3eb", "e2a2b5f9d8798b0865c2f598e7662714", "5cfb092096be472eae67248a25ff57f6", "https://localroot.zyx", "http://zer0art.com", "https://www.f5.com/labs/articles/threat-intelligence/new-perl-botnet--tuyul--found-with-possible-indonesian-attributi", "http://103.3.189.32"]}
+{
+  "rule_id": 788,
+  "name": "2015-2022_textNew Perl Botnet (Tuyul) Found with Possible Indonesian Attribution",
+  "description": "-",
+  "references": ["CVE-2017-9841"],
+  "samples": ["dis.so", "libc6.so", "hook.php", "cache.php", "back.php"],
+  "MD5": [
+    "072f9f015fddcbdc1373633dcf8c7520",
+    "66027930586b3dbec1c1f84392b0dc13",
+    "94186bb97a20b207507b4913ef3aa9a9",
+    "cbf995e0372230b345cd62178bec5635",
+    "0204e028d242a0cbf1e1611908ff1895",
+    "8edca42ab0ecc6358eac61a8cf53183f",
+    "111b543c6d110da5b3a070fdc44e4c7d",
+    "83d555ff340c7a8f3e7c40de496378ae",
+    "847c8d52bc9c58c1e479fbb0d294cfec",
+    "3edcfecb434338580966e7fe8e0bf896",
+    "0323eb136c586b96cfade4407fa9abb7",
+    "89398067c033a4d5c69ec56a95ea502f",
+    "333a1032f001c677f9925ef228830103",
+    "9398caaa1f4f583fcd3b6fa51622d3eb",
+    "e2a2b5f9d8798b0865c2f598e7662714",
+    "5cfb092096be472eae67248a25ff57f6"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://localroot.zyx",
+    "http://zer0art.com",
+    "https://www.f5.com/labs/articles/threat-intelligence/new-perl-botnet--tuyul--found-with-possible-indonesian-attributi",
+    "http://103.3.189.32"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "072f9f015fddcbdc1373633dcf8c7520",
+    "66027930586b3dbec1c1f84392b0dc13",
+    "94186bb97a20b207507b4913ef3aa9a9",
+    "cbf995e0372230b345cd62178bec5635",
+    "0204e028d242a0cbf1e1611908ff1895",
+    "8edca42ab0ecc6358eac61a8cf53183f",
+    "111b543c6d110da5b3a070fdc44e4c7d",
+    "83d555ff340c7a8f3e7c40de496378ae",
+    "847c8d52bc9c58c1e479fbb0d294cfec",
+    "3edcfecb434338580966e7fe8e0bf896",
+    "0323eb136c586b96cfade4407fa9abb7",
+    "89398067c033a4d5c69ec56a95ea502f",
+    "333a1032f001c677f9925ef228830103",
+    "9398caaa1f4f583fcd3b6fa51622d3eb",
+    "e2a2b5f9d8798b0865c2f598e7662714",
+    "5cfb092096be472eae67248a25ff57f6",
+    "https://localroot.zyx",
+    "http://zer0art.com",
+    "https://www.f5.com/labs/articles/threat-intelligence/new-perl-botnet--tuyul--found-with-possible-indonesian-attributi",
+    "http://103.3.189.32"
+  ]
+}

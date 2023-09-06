@@ -1,1 +1,36 @@
-{"rule_id": 48, "name": "2015-2022_textOn the StrongPity Waterhole Attacks - Securelist", "description": "-", "references": [], "samples": ["mRemoteNG.exe", "winscp.exe", "wrlck.cab", "putty.exe", "prst.dll", "filezilla.exe", "531.exe", "nvvscv.exe", "wrlck.dll", "nl.exe", "mstsc.exe", "wrar53b5.exe", "wndplyr.exe", "truecrypt.html", "procexp.exe", "it.exe", "www.true", "wrar531.exe", "prst.cab", "fr.exe", "winrar.be"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": []}
+{
+  "rule_id": 48,
+  "name": "2015-2022_textOn the StrongPity Waterhole Attacks - Securelist",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mRemoteNG.exe",
+    "winscp.exe",
+    "wrlck.cab",
+    "putty.exe",
+    "prst.dll",
+    "filezilla.exe",
+    "531.exe",
+    "nvvscv.exe",
+    "wrlck.dll",
+    "nl.exe",
+    "mstsc.exe",
+    "wrar53b5.exe",
+    "wndplyr.exe",
+    "truecrypt.html",
+    "procexp.exe",
+    "it.exe",
+    "www.true",
+    "wrar531.exe",
+    "prst.cab",
+    "fr.exe",
+    "winrar.be"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": []
+}

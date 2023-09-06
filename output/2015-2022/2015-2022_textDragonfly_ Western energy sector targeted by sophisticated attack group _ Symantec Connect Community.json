@@ -1,1 +1,37 @@
-{"rule_id": 1145, "name": "2015-2022_textDragonfly_ Western energy sector targeted by sophisticated attack group _ Symantec Connect Community", "description": "-", "references": [], "samples": ["SYMANTEC.COM"], "MD5": ["1560f68403c5a41e96b28d3f882de7f1", "765fcd7588b1d94008975c4627c8feb6", "da9d8c78efe0c6c8be70e6b857400fb1", "b3b5d67f5bbf5a043f5bf5d079dbcb56", "a4cf567f27f3b2f8b73ae15e2e487f00", "db07e1740152e09610ea826655d27e8d", "e02603178c8c47d198f7d34bcf2d68b8", "141e78d16456a072c9697454fc6d5f58"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html)", "https://vip.symantec.com/))"], "weight": 0.0, "signatures": ["1560f68403c5a41e96b28d3f882de7f1", "765fcd7588b1d94008975c4627c8feb6", "da9d8c78efe0c6c8be70e6b857400fb1", "b3b5d67f5bbf5a043f5bf5d079dbcb56", "a4cf567f27f3b2f8b73ae15e2e487f00", "db07e1740152e09610ea826655d27e8d", "e02603178c8c47d198f7d34bcf2d68b8", "141e78d16456a072c9697454fc6d5f58", "http://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html)", "https://vip.symantec.com/))"]}
+{
+  "rule_id": 1145,
+  "name": "2015-2022_textDragonfly_ Western energy sector targeted by sophisticated attack group _ Symantec Connect Community",
+  "description": "-",
+  "references": [],
+  "samples": ["SYMANTEC.COM"],
+  "MD5": [
+    "1560f68403c5a41e96b28d3f882de7f1",
+    "765fcd7588b1d94008975c4627c8feb6",
+    "da9d8c78efe0c6c8be70e6b857400fb1",
+    "b3b5d67f5bbf5a043f5bf5d079dbcb56",
+    "a4cf567f27f3b2f8b73ae15e2e487f00",
+    "db07e1740152e09610ea826655d27e8d",
+    "e02603178c8c47d198f7d34bcf2d68b8",
+    "141e78d16456a072c9697454fc6d5f58"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html)",
+    "https://vip.symantec.com/))"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "1560f68403c5a41e96b28d3f882de7f1",
+    "765fcd7588b1d94008975c4627c8feb6",
+    "da9d8c78efe0c6c8be70e6b857400fb1",
+    "b3b5d67f5bbf5a043f5bf5d079dbcb56",
+    "a4cf567f27f3b2f8b73ae15e2e487f00",
+    "db07e1740152e09610ea826655d27e8d",
+    "e02603178c8c47d198f7d34bcf2d68b8",
+    "141e78d16456a072c9697454fc6d5f58",
+    "http://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html)",
+    "https://vip.symantec.com/))"
+  ]
+}

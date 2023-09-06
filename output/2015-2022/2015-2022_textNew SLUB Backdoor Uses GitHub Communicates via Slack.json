@@ -1,1 +1,29 @@
-{"rule_id": 1092, "name": "2015-2022_textNew SLUB Backdoor Uses GitHub Communicates via Slack", "description": "-", "references": [], "samples": ["ashServ.exe", "avgemc.exe", "file.io", "ecs.data", "storage.data", "Win32.SLUB"], "MD5": ["626a3a68a2cc2a91c1ece1eed7610c8a"], "SHA1": [], "SHA256": ["3ba00114d0ae766cf77edcdcc953ec6ee7527181968c02d4ffc36b9f89c4ebc7", "43221eb160733ea694b4fdda70e7eab4a86d59c5f9749fd2f9b71783e5da6dd7"], "Registry_Entries": [], "URL": ["https://api.slack.com/methods/chat.postMessage"], "weight": 0.0, "signatures": ["626a3a68a2cc2a91c1ece1eed7610c8a", "3ba00114d0ae766cf77edcdcc953ec6ee7527181968c02d4ffc36b9f89c4ebc7", "43221eb160733ea694b4fdda70e7eab4a86d59c5f9749fd2f9b71783e5da6dd7", "https://api.slack.com/methods/chat.postMessage"]}
+{
+  "rule_id": 1092,
+  "name": "2015-2022_textNew SLUB Backdoor Uses GitHub Communicates via Slack",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ashServ.exe",
+    "avgemc.exe",
+    "file.io",
+    "ecs.data",
+    "storage.data",
+    "Win32.SLUB"
+  ],
+  "MD5": ["626a3a68a2cc2a91c1ece1eed7610c8a"],
+  "SHA1": [],
+  "SHA256": [
+    "3ba00114d0ae766cf77edcdcc953ec6ee7527181968c02d4ffc36b9f89c4ebc7",
+    "43221eb160733ea694b4fdda70e7eab4a86d59c5f9749fd2f9b71783e5da6dd7"
+  ],
+  "Registry_Entries": [],
+  "URL": ["https://api.slack.com/methods/chat.postMessage"],
+  "weight": 0.0,
+  "signatures": [
+    "626a3a68a2cc2a91c1ece1eed7610c8a",
+    "3ba00114d0ae766cf77edcdcc953ec6ee7527181968c02d4ffc36b9f89c4ebc7",
+    "43221eb160733ea694b4fdda70e7eab4a86d59c5f9749fd2f9b71783e5da6dd7",
+    "https://api.slack.com/methods/chat.postMessage"
+  ]
+}

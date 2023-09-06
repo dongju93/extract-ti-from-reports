@@ -1,1 +1,31 @@
-{"rule_id": 663, "name": "2015-2022_text1506306551185339", "description": "-", "references": [], "samples": ["families.aspx", "SecurityNajaf.vbs", "islamiste_4612099_4408996.html"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ", "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaff "], "URL": ["http://blogs.technet.com/b/mmpc/archive/2014/06/30/microsoftdigital-crimes-unit-disrupts-jenxcus-and-bladabindi-", "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/", "http://www.lemonde.fr/pixels/article/2015/04/09/les-sites-de-tv5-monde-detournes-par-un-groupe-"], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ", "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaff ", "http://blogs.technet.com/b/mmpc/archive/2014/06/30/microsoftdigital-crimes-unit-disrupts-jenxcus-and-bladabindi-", "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/", "http://www.lemonde.fr/pixels/article/2015/04/09/les-sites-de-tv5-monde-detournes-par-un-groupe-"]}
+{
+  "rule_id": 663,
+  "name": "2015-2022_text1506306551185339",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "families.aspx",
+    "SecurityNajaf.vbs",
+    "islamiste_4612099_4408996.html"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaff "
+  ],
+  "URL": [
+    "http://blogs.technet.com/b/mmpc/archive/2014/06/30/microsoftdigital-crimes-unit-disrupts-jenxcus-and-bladabindi-",
+    "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/",
+    "http://www.lemonde.fr/pixels/article/2015/04/09/les-sites-de-tv5-monde-detournes-par-un-groupe-"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaff ",
+    "http://blogs.technet.com/b/mmpc/archive/2014/06/30/microsoftdigital-crimes-unit-disrupts-jenxcus-and-bladabindi-",
+    "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/",
+    "http://www.lemonde.fr/pixels/article/2015/04/09/les-sites-de-tv5-monde-detournes-par-un-groupe-"
+  ]
+}

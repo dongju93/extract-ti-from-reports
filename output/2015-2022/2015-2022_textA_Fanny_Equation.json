@@ -1,1 +1,35 @@
-{"rule_id": 1002, "name": "2015-2022_textA_Fanny_Equation", "description": "-", "references": [], "samples": ["ahx.html", "comhost.dll", "shelldoc.dll", "msdtc32.exe", "installer.dll", "AGENTCPD.DLL", "Fanny.bmp", "agentcpd.dll", "atmpsvcn.ocx", "mscorwin.dll", "fanny.bmp"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP", "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC", "HKLM\\Software\\Microsoft\\Windows"], "URL": ["http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"], "weight": 0.0, "signatures": ["HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP", "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC", "HKLM\\Software\\Microsoft\\Windows", "http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"]}
+{
+  "rule_id": 1002,
+  "name": "2015-2022_textA_Fanny_Equation",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ahx.html",
+    "comhost.dll",
+    "shelldoc.dll",
+    "msdtc32.exe",
+    "installer.dll",
+    "AGENTCPD.DLL",
+    "Fanny.bmp",
+    "agentcpd.dll",
+    "atmpsvcn.ocx",
+    "mscorwin.dll",
+    "fanny.bmp"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP",
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
+    "HKLM\\Software\\Microsoft\\Windows"
+  ],
+  "URL": ["http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP",
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
+    "HKLM\\Software\\Microsoft\\Windows",
+    "http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"
+  ]
+}

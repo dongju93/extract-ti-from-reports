@@ -1,1 +1,22 @@
-{"rule_id": 949, "name": "2015-2022_textAn (un)documented Word feature abused by attackers _ Securelist", "description": "-", "references": [], "samples": ["ccccccccc.php"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://evil-333.com/cccccccccccc/ccccccccc/ccccccccc.php?cccccccccc", "http://evil-*,", "https://youtu.be/_GsABMeZrdY"], "weight": 0.0, "signatures": ["http://evil-333.com/cccccccccccc/ccccccccc/ccccccccc.php?cccccccccc", "http://evil-*,", "https://youtu.be/_GsABMeZrdY"]}
+{
+  "rule_id": 949,
+  "name": "2015-2022_textAn (un)documented Word feature abused by attackers _ Securelist",
+  "description": "-",
+  "references": [],
+  "samples": ["ccccccccc.php"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://evil-333.com/cccccccccccc/ccccccccc/ccccccccc.php?cccccccccc",
+    "http://evil-*,",
+    "https://youtu.be/_GsABMeZrdY"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://evil-333.com/cccccccccccc/ccccccccc/ccccccccc.php?cccccccccc",
+    "http://evil-*,",
+    "https://youtu.be/_GsABMeZrdY"
+  ]
+}

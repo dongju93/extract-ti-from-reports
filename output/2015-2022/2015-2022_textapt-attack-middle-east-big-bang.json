@@ -1,1 +1,31 @@
-{"rule_id": 273, "name": "2015-2022_textapt-attack-middle-east-big-bang", "description": "-", "references": [], "samples": ["Assistant.exe", "sat.txt", "CHECKPOINT.COM", "DriverInstallerU.exe"], "MD5": [], "SHA1": ["a210ac6ea0406d81fa5682e86997be25c73e9d1b", "74ea60b4e269817168e107bdccc42b3a1193c1e6", "511bec782be41e85a013cbea95725d5807e3c2f2", "994ebbe444183e0d67b13f91d75b0f9bcfb011db", "9e093a5b34c4e5dea59e374b409173565dc3b05b"], "SHA256": [], "Registry_Entries": [], "URL": [], "weight": 0.0, "signatures": ["a210ac6ea0406d81fa5682e86997be25c73e9d1b", "74ea60b4e269817168e107bdccc42b3a1193c1e6", "511bec782be41e85a013cbea95725d5807e3c2f2", "994ebbe444183e0d67b13f91d75b0f9bcfb011db", "9e093a5b34c4e5dea59e374b409173565dc3b05b"]}
+{
+  "rule_id": 273,
+  "name": "2015-2022_textapt-attack-middle-east-big-bang",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Assistant.exe",
+    "sat.txt",
+    "CHECKPOINT.COM",
+    "DriverInstallerU.exe"
+  ],
+  "MD5": [],
+  "SHA1": [
+    "a210ac6ea0406d81fa5682e86997be25c73e9d1b",
+    "74ea60b4e269817168e107bdccc42b3a1193c1e6",
+    "511bec782be41e85a013cbea95725d5807e3c2f2",
+    "994ebbe444183e0d67b13f91d75b0f9bcfb011db",
+    "9e093a5b34c4e5dea59e374b409173565dc3b05b"
+  ],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "a210ac6ea0406d81fa5682e86997be25c73e9d1b",
+    "74ea60b4e269817168e107bdccc42b3a1193c1e6",
+    "511bec782be41e85a013cbea95725d5807e3c2f2",
+    "994ebbe444183e0d67b13f91d75b0f9bcfb011db",
+    "9e093a5b34c4e5dea59e374b409173565dc3b05b"
+  ]
+}

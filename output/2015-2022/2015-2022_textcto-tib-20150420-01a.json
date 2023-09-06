@@ -1,1 +1,23 @@
-{"rule_id": 651, "name": "2015-2022_textcto-tib-20150420-01a", "description": "-", "references": [], "samples": ["funny.html", "apt28.pdf", "storm.pdf"], "MD5": [], "SHA1": [], "SHA256": ["67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322"], "Registry_Entries": [], "URL": ["http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html", "http://pwc.blogs.com/files/tactical-intelligence-bulletin---sofacy-phishing-.pdf"], "weight": 0.0, "signatures": ["67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322", "http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html", "http://pwc.blogs.com/files/tactical-intelligence-bulletin---sofacy-phishing-.pdf"]}
+{
+  "rule_id": 651,
+  "name": "2015-2022_textcto-tib-20150420-01a",
+  "description": "-",
+  "references": [],
+  "samples": ["funny.html", "apt28.pdf", "storm.pdf"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html",
+    "http://pwc.blogs.com/files/tactical-intelligence-bulletin---sofacy-phishing-.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322",
+    "http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html",
+    "http://pwc.blogs.com/files/tactical-intelligence-bulletin---sofacy-phishing-.pdf"
+  ]
+}

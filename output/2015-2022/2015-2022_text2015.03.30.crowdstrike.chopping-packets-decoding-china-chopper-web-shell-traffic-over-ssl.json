@@ -1,1 +1,27 @@
-{"rule_id": 575, "name": "2015-2022_text2015.03.30.crowdstrike.chopping-packets-decoding-china-chopper-web-shell-traffic-over-ssl", "description": "-", "references": [], "samples": ["http.pcap", "WebServices.dll", "privatekeyrsa.key", "pwd.txt", "ssl.pcap", "commands.txt"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/decrypting-ssl-with-", "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html"], "weight": 0.0, "signatures": ["http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/decrypting-ssl-with-", "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html"]}
+{
+  "rule_id": 575,
+  "name": "2015-2022_text2015.03.30.crowdstrike.chopping-packets-decoding-china-chopper-web-shell-traffic-over-ssl",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "http.pcap",
+    "WebServices.dll",
+    "privatekeyrsa.key",
+    "pwd.txt",
+    "ssl.pcap",
+    "commands.txt"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/decrypting-ssl-with-",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/decrypting-ssl-with-",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html"
+  ]
+}

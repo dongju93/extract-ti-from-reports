@@ -1,1 +1,14 @@
-{"rule_id": 441, "name": "2015-2022_textChafer_ Latest Attacks Reveal Heightened Ambitions _ Symantec Blogs", "description": "-", "references": [], "samples": ["TWITTER.COM", "Y658123.vbs"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://symc.ly/2sXMZio"], "weight": 0.0, "signatures": ["http://symc.ly/2sXMZio"]}
+{
+  "rule_id": 441,
+  "name": "2015-2022_textChafer_ Latest Attacks Reveal Heightened Ambitions _ Symantec Blogs",
+  "description": "-",
+  "references": [],
+  "samples": ["TWITTER.COM", "Y658123.vbs"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://symc.ly/2sXMZio"],
+  "weight": 0.0,
+  "signatures": ["http://symc.ly/2sXMZio"]
+}

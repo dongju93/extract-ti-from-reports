@@ -1,1 +1,14 @@
-{"rule_id": 1081, "name": "2015-2022_textPoriewSpy.India", "description": "-", "references": [], "samples": ["google.sec", "PORIEWSPY.HRX"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://mylocation.org"], "weight": 0.0, "signatures": ["http://mylocation.org"]}
+{
+  "rule_id": 1081,
+  "name": "2015-2022_textPoriewSpy.India",
+  "description": "-",
+  "references": [],
+  "samples": ["google.sec", "PORIEWSPY.HRX"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://mylocation.org"],
+  "weight": 0.0,
+  "signatures": ["http://mylocation.org"]
+}

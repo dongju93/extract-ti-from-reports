@@ -1,1 +1,19 @@
-{"rule_id": 614, "name": "2015-2022_textOperation Spy Cloud_eng", "description": "-", "references": [], "samples": ["clisve.exe", "kavsvc.exe", "Application.Quit", "invoice.sca"], "MD5": ["392647675E8DFCD2602B4FFE38A19E2B"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\(Version)\\Word\\Security\\AccessVBOM "], "URL": [], "weight": 0.0, "signatures": ["392647675E8DFCD2602B4FFE38A19E2B", "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\(Version)\\Word\\Security\\AccessVBOM "]}
+{
+  "rule_id": 614,
+  "name": "2015-2022_textOperation Spy Cloud_eng",
+  "description": "-",
+  "references": [],
+  "samples": ["clisve.exe", "kavsvc.exe", "Application.Quit", "invoice.sca"],
+  "MD5": ["392647675E8DFCD2602B4FFE38A19E2B"],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\(Version)\\Word\\Security\\AccessVBOM "
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "392647675E8DFCD2602B4FFE38A19E2B",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\(Version)\\Word\\Security\\AccessVBOM "
+  ]
+}

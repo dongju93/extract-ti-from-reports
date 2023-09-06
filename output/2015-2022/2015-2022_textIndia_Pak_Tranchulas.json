@@ -1,1 +1,62 @@
-{"rule_id": 196, "name": "2015-2022_textIndia_Pak_Tranchulas", "description": "-", "references": [], "samples": ["tb.php", "windefender.exe", "ExtractPDF.exe", "masalavideos.no", "revision.scr", "Start.exe", "usb.pdb", "version.txt", "Report.zip", "winsocks.exe", "Video.flv", "Pakistan.zip", "Pakistan.scr", "showppt.scr", "libcurld.dll", "windowsupdate.no", "array.php", "video.wmv", "fetch_updates_8765.php", "ufile.pdb"], "MD5": ["35663e66d02e889d35aa5608c61795eb", "a21f2cb65a3467925c1615794cce7581", "165ac370b54e664812e4c15b2396ccd6"], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.", "http://199.91.173.45/", "http://199.91.173.45/OBL_Leaked_Report.zip", "http://199.91.173.43/new_salary/salary_revision.scr", "http://199.91.173.43/sarbajit_leaked_video.wmv.scr.", "http://199.91.173.43/Classified_Video.flv.scr", "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.", "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>.", "http://199.91.173.45/fetch_updates_8765_tb.php?"], "weight": 0.0, "signatures": ["35663e66d02e889d35aa5608c61795eb", "a21f2cb65a3467925c1615794cce7581", "165ac370b54e664812e4c15b2396ccd6", "http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.", "http://199.91.173.45/", "http://199.91.173.45/OBL_Leaked_Report.zip", "http://199.91.173.43/new_salary/salary_revision.scr", "http://199.91.173.43/sarbajit_leaked_video.wmv.scr.", "http://199.91.173.43/Classified_Video.flv.scr", "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.", "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>.", "http://199.91.173.45/fetch_updates_8765_tb.php?"]}
+{
+  "rule_id": 196,
+  "name": "2015-2022_textIndia_Pak_Tranchulas",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tb.php",
+    "windefender.exe",
+    "ExtractPDF.exe",
+    "masalavideos.no",
+    "revision.scr",
+    "Start.exe",
+    "usb.pdb",
+    "version.txt",
+    "Report.zip",
+    "winsocks.exe",
+    "Video.flv",
+    "Pakistan.zip",
+    "Pakistan.scr",
+    "showppt.scr",
+    "libcurld.dll",
+    "windowsupdate.no",
+    "array.php",
+    "video.wmv",
+    "fetch_updates_8765.php",
+    "ufile.pdb"
+  ],
+  "MD5": [
+    "35663e66d02e889d35aa5608c61795eb",
+    "a21f2cb65a3467925c1615794cce7581",
+    "165ac370b54e664812e4c15b2396ccd6"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.",
+    "http://199.91.173.45/",
+    "http://199.91.173.45/OBL_Leaked_Report.zip",
+    "http://199.91.173.43/new_salary/salary_revision.scr",
+    "http://199.91.173.43/sarbajit_leaked_video.wmv.scr.",
+    "http://199.91.173.43/Classified_Video.flv.scr",
+    "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.",
+    "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>.",
+    "http://199.91.173.45/fetch_updates_8765_tb.php?"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "35663e66d02e889d35aa5608c61795eb",
+    "a21f2cb65a3467925c1615794cce7581",
+    "165ac370b54e664812e4c15b2396ccd6",
+    "http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.",
+    "http://199.91.173.45/",
+    "http://199.91.173.45/OBL_Leaked_Report.zip",
+    "http://199.91.173.43/new_salary/salary_revision.scr",
+    "http://199.91.173.43/sarbajit_leaked_video.wmv.scr.",
+    "http://199.91.173.43/Classified_Video.flv.scr",
+    "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.",
+    "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>.",
+    "http://199.91.173.45/fetch_updates_8765_tb.php?"
+  ]
+}

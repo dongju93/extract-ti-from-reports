@@ -1,1 +1,48 @@
-{"rule_id": 70, "name": "2015-2022_textDTL-12012015-01", "description": "-", "references": ["CVE-2014-6332"], "samples": ["clbcatq.dll", "clbcaiq.dll", "blogspot.hk", "lim.kiu", "wuauclt.exe", "wuauclt.dat", "z1.exe", "plug.exe", "profapi.dll"], "MD5": ["55f84d88d84c221437cd23cdbc541d2e", "efd9dc39682312d6576468f5c0eb6236", "ec532bbe9d0882d403473102e9724557", "ad17eff26994df824be36db246c8fb6a", "cff25fe24a90ef63eaa168c07008c2bb", "279ef79f904476ba0f9f44c87358bb1f", "f66b64ef984ac46ac7395358059979bc", "a6a18c846e5179259eba9de238f67e41", "42b76c0503a6bf21f1ea86e0b14d67ea"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon "], "URL": ["http://dragonthreat.blogspot.hk"], "weight": 0.0, "signatures": ["55f84d88d84c221437cd23cdbc541d2e", "efd9dc39682312d6576468f5c0eb6236", "ec532bbe9d0882d403473102e9724557", "ad17eff26994df824be36db246c8fb6a", "cff25fe24a90ef63eaa168c07008c2bb", "279ef79f904476ba0f9f44c87358bb1f", "f66b64ef984ac46ac7395358059979bc", "a6a18c846e5179259eba9de238f67e41", "42b76c0503a6bf21f1ea86e0b14d67ea", "HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon ", "http://dragonthreat.blogspot.hk"]}
+{
+  "rule_id": 70,
+  "name": "2015-2022_textDTL-12012015-01",
+  "description": "-",
+  "references": ["CVE-2014-6332"],
+  "samples": [
+    "clbcatq.dll",
+    "clbcaiq.dll",
+    "blogspot.hk",
+    "lim.kiu",
+    "wuauclt.exe",
+    "wuauclt.dat",
+    "z1.exe",
+    "plug.exe",
+    "profapi.dll"
+  ],
+  "MD5": [
+    "55f84d88d84c221437cd23cdbc541d2e",
+    "efd9dc39682312d6576468f5c0eb6236",
+    "ec532bbe9d0882d403473102e9724557",
+    "ad17eff26994df824be36db246c8fb6a",
+    "cff25fe24a90ef63eaa168c07008c2bb",
+    "279ef79f904476ba0f9f44c87358bb1f",
+    "f66b64ef984ac46ac7395358059979bc",
+    "a6a18c846e5179259eba9de238f67e41",
+    "42b76c0503a6bf21f1ea86e0b14d67ea"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon "
+  ],
+  "URL": ["http://dragonthreat.blogspot.hk"],
+  "weight": 0.0,
+  "signatures": [
+    "55f84d88d84c221437cd23cdbc541d2e",
+    "efd9dc39682312d6576468f5c0eb6236",
+    "ec532bbe9d0882d403473102e9724557",
+    "ad17eff26994df824be36db246c8fb6a",
+    "cff25fe24a90ef63eaa168c07008c2bb",
+    "279ef79f904476ba0f9f44c87358bb1f",
+    "f66b64ef984ac46ac7395358059979bc",
+    "a6a18c846e5179259eba9de238f67e41",
+    "42b76c0503a6bf21f1ea86e0b14d67ea",
+    "HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon ",
+    "http://dragonthreat.blogspot.hk"
+  ]
+}

@@ -1,1 +1,25 @@
-{"rule_id": 1137, "name": "2015-2022_textRegin_Hopscotch_Legspin", "description": "-", "references": [], "samples": [], "MD5": ["42eaf2ab25c9ead201f25ecbdc96fb60", "29105f46e4d33f66fee346cfd099d1cc", "6c34031d7a5fc2b091b623981a8ae61c"], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "], "URL": [], "weight": 0.0, "signatures": ["42eaf2ab25c9ead201f25ecbdc96fb60", "29105f46e4d33f66fee346cfd099d1cc", "6c34031d7a5fc2b091b623981a8ae61c", "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "]}
+{
+  "rule_id": 1137,
+  "name": "2015-2022_textRegin_Hopscotch_Legspin",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "MD5": [
+    "42eaf2ab25c9ead201f25ecbdc96fb60",
+    "29105f46e4d33f66fee346cfd099d1cc",
+    "6c34031d7a5fc2b091b623981a8ae61c"
+  ],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "42eaf2ab25c9ead201f25ecbdc96fb60",
+    "29105f46e4d33f66fee346cfd099d1cc",
+    "6c34031d7a5fc2b091b623981a8ae61c",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "
+  ]
+}

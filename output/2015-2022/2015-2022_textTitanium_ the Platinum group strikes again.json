@@ -1,1 +1,26 @@
-{"rule_id": 323, "name": "2015-2022_textTitanium_ the Platinum group strikes again", "description": "-", "references": [], "samples": ["b.dat", "c.dll", "x.dat", "i.bat", "BabyBoyStyleBackground.wmv", "u.xml", "DvDupdate.dll", "p.bat", "downarrow.png", "rm.gif", "IOZwXLeM023.tmp"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["http://70.39.115.196/payment/con"], "weight": 0.0, "signatures": ["http://70.39.115.196/payment/con"]}
+{
+  "rule_id": 323,
+  "name": "2015-2022_textTitanium_ the Platinum group strikes again",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "b.dat",
+    "c.dll",
+    "x.dat",
+    "i.bat",
+    "BabyBoyStyleBackground.wmv",
+    "u.xml",
+    "DvDupdate.dll",
+    "p.bat",
+    "downarrow.png",
+    "rm.gif",
+    "IOZwXLeM023.tmp"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": ["http://70.39.115.196/payment/con"],
+  "weight": 0.0,
+  "signatures": ["http://70.39.115.196/payment/con"]
+}

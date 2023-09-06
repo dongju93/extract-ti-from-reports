@@ -1,1 +1,26 @@
-{"rule_id": 981, "name": "2015-2022_textcct-w08_evolving-threats-dissection-of-a-cyber-espionage-attack", "description": "-", "references": [], "samples": ["edg6EF885E2.tmp"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKEY_LOCAL_MACHINE\\software\\microsoft\\windowsNT\\currentversion\\svchost\\ntsvcs\\CoInitializeSecurityParam ➝ 1", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = %EVILTOSS ", "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\ntsvcs = Network Identification Service", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = C:\\Windows\\System32\\netids.dll", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDllUnloadOnStop = 1"], "URL": [], "weight": 0.0, "signatures": ["HKEY_LOCAL_MACHINE\\software\\microsoft\\windowsNT\\currentversion\\svchost\\ntsvcs\\CoInitializeSecurityParam ➝ 1", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = %EVILTOSS ", "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\ntsvcs = Network Identification Service", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = C:\\Windows\\System32\\netids.dll", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDllUnloadOnStop = 1"]}
+{
+  "rule_id": 981,
+  "name": "2015-2022_textcct-w08_evolving-threats-dissection-of-a-cyber-espionage-attack",
+  "description": "-",
+  "references": [],
+  "samples": ["edg6EF885E2.tmp"],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [
+    "HKEY_LOCAL_MACHINE\\software\\microsoft\\windowsNT\\currentversion\\svchost\\ntsvcs\\CoInitializeSecurityParam ➝ 1",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = %EVILTOSS ",
+    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\ntsvcs = Network Identification Service",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = C:\\Windows\\System32\\netids.dll",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDllUnloadOnStop = 1"
+  ],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\software\\microsoft\\windowsNT\\currentversion\\svchost\\ntsvcs\\CoInitializeSecurityParam ➝ 1",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = %EVILTOSS ",
+    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\ntsvcs = Network Identification Service",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDll = C:\\Windows\\System32\\netids.dll",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\services\\Network Identification Service\\parameters\\ServiceDllUnloadOnStop = 1"
+  ]
+}

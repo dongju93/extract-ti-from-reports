@@ -1,1 +1,33 @@
-{"rule_id": 934, "name": "2015-2022_textTA-505 Cybercrime on System Integrator Companies", "description": "-", "references": [], "samples": ["conjunctiva.exe", "new.php", "stdole2.tlb", "surprise.php", "MSWORD.OLB", "rams.exe", "IVa.ExE", "nanagrams.exe", "VBE6.DLL"], "MD5": [], "SHA1": [], "SHA256": ["7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392"], "Registry_Entries": [], "URL": ["http://66.133.129.5/", "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/"], "weight": 0.0, "signatures": ["7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392", "http://66.133.129.5/", "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/"]}
+{
+  "rule_id": 934,
+  "name": "2015-2022_textTA-505 Cybercrime on System Integrator Companies",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "conjunctiva.exe",
+    "new.php",
+    "stdole2.tlb",
+    "surprise.php",
+    "MSWORD.OLB",
+    "rams.exe",
+    "IVa.ExE",
+    "nanagrams.exe",
+    "VBE6.DLL"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [
+    "7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392"
+  ],
+  "Registry_Entries": [],
+  "URL": [
+    "http://66.133.129.5/",
+    "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392",
+    "http://66.133.129.5/",
+    "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/"
+  ]
+}

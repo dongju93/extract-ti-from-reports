@@ -1,1 +1,31 @@
-{"rule_id": 533, "name": "2015-2022_textProject_Cobra_Analysis", "description": "-", "references": [], "samples": ["soheylistore.ir", "getcert.rs", "C_56743.NLS", "edit.php", "kmsvc.dll", "coff.ax", "paris.fr", "set.php", "bootmisc.sdi", "MUTEX.zRX", "comments.php", "qavsrc.dat", "ncodc.ax", "ipvpn.dll", "asmcerts.rs", "system.pdb"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": ["HKLM\\SYSTEM\\CurrentControlSet\\Service\\)."], "URL": [], "weight": 0.0, "signatures": ["HKLM\\SYSTEM\\CurrentControlSet\\Service\\)."]}
+{
+  "rule_id": 533,
+  "name": "2015-2022_textProject_Cobra_Analysis",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "soheylistore.ir",
+    "getcert.rs",
+    "C_56743.NLS",
+    "edit.php",
+    "kmsvc.dll",
+    "coff.ax",
+    "paris.fr",
+    "set.php",
+    "bootmisc.sdi",
+    "MUTEX.zRX",
+    "comments.php",
+    "qavsrc.dat",
+    "ncodc.ax",
+    "ipvpn.dll",
+    "asmcerts.rs",
+    "system.pdb"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": ["HKLM\\SYSTEM\\CurrentControlSet\\Service\\)."],
+  "URL": [],
+  "weight": 0.0,
+  "signatures": ["HKLM\\SYSTEM\\CurrentControlSet\\Service\\)."]
+}

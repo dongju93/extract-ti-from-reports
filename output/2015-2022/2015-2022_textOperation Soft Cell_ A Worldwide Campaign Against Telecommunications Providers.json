@@ -1,1 +1,26 @@
-{"rule_id": 497, "name": "2015-2022_textOperation Soft Cell_ A Worldwide Campaign Against Telecommunications Providers", "description": "-", "references": [], "samples": ["Reg.exe", "portqry.exe", "RunHelp.exe", "ssMUIDLL.dll", "maybemimi.exe"], "MD5": [], "SHA1": [], "SHA256": [], "Registry_Entries": [], "URL": ["https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers", "https://youtu.be/Ihpn2-4jTvc"], "weight": 0.0, "signatures": ["https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers", "https://youtu.be/Ihpn2-4jTvc"]}
+{
+  "rule_id": 497,
+  "name": "2015-2022_textOperation Soft Cell_ A Worldwide Campaign Against Telecommunications Providers",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Reg.exe",
+    "portqry.exe",
+    "RunHelp.exe",
+    "ssMUIDLL.dll",
+    "maybemimi.exe"
+  ],
+  "MD5": [],
+  "SHA1": [],
+  "SHA256": [],
+  "Registry_Entries": [],
+  "URL": [
+    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
+    "https://youtu.be/Ihpn2-4jTvc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
+    "https://youtu.be/Ihpn2-4jTvc"
+  ]
+}
