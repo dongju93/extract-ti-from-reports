@@ -1,2 +1,0 @@
-agent_name	agnet_id	time	process_guid	process_id	image	user	db_name	rule_id	matched_to	cluster_id	attack_kind	confidence	triage_scores	padding_field_1	padding_field_2	padding_field_3	padding_field_4	padding_field_5
-win64	e7e2386a-5485-4da9-b388-b3e50ee7cbb0	2023-08-11 05:15:56.754	{bac98147-c40c-64d5-1001-000000000700}	5260	E:\mal_bazaar\rootkit\r77Rootkit 1.4.3\TestConsole.exe	WIN64\vboxuser	etas_ti	10004	DEE7991F7EE388A8BD1D2860809E30937D4FE56BDE94C4D6E8E24A79FED6AE92	20004	R77	100		-	-	-	-	-
