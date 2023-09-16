@@ -50,14 +50,14 @@ whitelist_urls = [
     "blogs.msdn.microsoft.com",
     "social.msdn.microsoft.com",
     "www.linkedin.com",
-    "www.zdnet.com"
+    "www.zdnet.com",
     "pwc.blogs.com",
     "www.bloomberg.com",
     "www.bbc.com",
     "www.wired.com",
-    "citizenlab.org"
+    "citizenlab.org",
     "www.wsj.com",
-    "arstechnica.com"
+    "arstechnica.com",
 ]
 
 whitelist_file_names = [
@@ -75,6 +75,6 @@ whitelist_file_names = [
     ".ru",
     ".py",
     ".in",
-    ".it"
-    ".kr"
+    ".it",
+    ".kr",
 ]
