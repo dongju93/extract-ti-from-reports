@@ -1,29 +1,29 @@
 {
-  "rule_id": 1262,
+  "rule_id": 1038,
   "name": "A dive into Turla PowerShell usage",
   "description": "-",
   "references": [],
   "samples": [
-    "ff.Read",
-    "TargetInstance.Hour",
-    "amsi.dll",
-    "Turla.BZ",
-    "RPCSpoofServerInstall.pdb",
-    "Turla.BQ",
-    "desktop.db",
-    "Turla.BS",
-    "ca.Mode",
-    "pm.exe",
-    "iCore.dat",
     "Turla.BR",
+    "TargetInstance.Hour",
+    "pm.exe",
+    "ca.Mode",
     "_.User",
-    "rpcrt4.dll"
+    "rpcrt4.dll",
+    "Turla.BQ",
+    "Turla.BZ",
+    "Turla.BS",
+    "desktop.db",
+    "amsi.dll",
+    "ff.Read",
+    "iCore.dat",
+    "RPCSpoofServerInstall.pdb"
   ],
   "weight": 0.0,
   "signatures": [
+    "9D1C563E5228B2572F5CA14F0EC33CA0DEDA3D57",
     "B948E25D061039D64115CFDE74D2FF4372E83765",
     "EC54EF8D79BF30B63C5249AF7A8A3C652595B923",
-    "9D1C563E5228B2572F5CA14F0EC33CA0DEDA3D57",
     "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains “atctl”. If",
     "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains atctl"
   ]

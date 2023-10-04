@@ -1,9 +1,0 @@
-{
-  "rule_id": 1125,
-  "name": "airbus-cyber-security.com-PlugX some uncovered points",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

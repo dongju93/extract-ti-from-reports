@@ -1,13 +1,13 @@
 {
-  "rule_id": 659,
+  "rule_id": 554,
   "name": "masha-and-these-bears",
   "description": "-",
   "references": [],
   "samples": ["ProcessRetranslator.dll"],
   "weight": 0.0,
   "signatures": [
+    "cc9e6578a47182a941a478b276320e06",
     "efd8a516820c44ddbf4cc8ed7f30df9c",
-    "452ed4c80c1d20d111a1dbbd99d649d5",
-    "cc9e6578a47182a941a478b276320e06"
+    "452ed4c80c1d20d111a1dbbd99d649d5"
   ]
 }

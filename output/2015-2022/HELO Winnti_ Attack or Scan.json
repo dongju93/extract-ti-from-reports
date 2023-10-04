@@ -1,24 +1,24 @@
 {
-  "rule_id": 81,
+  "rule_id": 67,
   "name": "HELO Winnti_ Attack or Scan",
   "description": "-",
   "references": [],
   "samples": [
-    "winntianalysis.pdf",
-    "130410.pdf",
-    "rfc8446.txt",
     "tequilaboomboom.club",
+    "rfc8446.txt",
     "os.time",
-    "www.rfc"
+    "www.rfc",
+    "winntianalysis.pdf",
+    "130410.pdf"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://medium.com/chronicle-blog/winnti-more-",
-    "https://401trg.com/burning-umbrella/,",
-    "https://www.lastline.com/labsblog/helo-winnti-attack-scan/",
     "https://media.kasperskycontenthub.com/wp-",
-    "https://www.rfc-",
+    "https://www.novetta.com/wp-",
+    "https://medium.com/chronicle-blog/winnti-more-",
     "http://lua-users.org/wiki/MathLibraryTutorial,",
-    "https://www.novetta.com/wp-"
+    "https://www.rfc-",
+    "https://www.lastline.com/labsblog/helo-winnti-attack-scan/",
+    "https://401trg.com/burning-umbrella/,"
   ]
 }

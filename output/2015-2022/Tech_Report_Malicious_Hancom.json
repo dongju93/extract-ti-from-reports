@@ -1,26 +1,26 @@
 {
-  "rule_id": 123,
+  "rule_id": 103,
   "name": "Tech_Report_Malicious_Hancom",
   "description": "-",
   "references": [],
   "samples": [
-    "patch39.exe",
+    "rokrat.html",
     "dump.sql",
+    "patch39.exe",
     "Dropper.Gen",
-    "sitemap.tar",
+    "crosshairs.html",
+    "wild.html",
     "Reloaded.html",
+    "annex.hwp",
     "actor.html",
     "maldoc.html",
-    "crosshairs.html",
-    "annex.hwp",
-    "wild.html",
-    "rokrat.html",
-    "PT.Gen"
+    "PT.Gen",
+    "sitemap.tar"
   ],
   "weight": 0.0,
   "signatures": [
     "http://endlesspaws.com/dump.sql",
-    "http://global.ahnlab.com",
-    "http://endlesspaws.com/sitemap.tar.gz."
+    "http://endlesspaws.com/sitemap.tar.gz.",
+    "http://global.ahnlab.com"
   ]
 }

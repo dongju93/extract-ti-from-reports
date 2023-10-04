@@ -1,24 +1,24 @@
 {
-  "rule_id": 1004,
+  "rule_id": 838,
   "name": "wp-prototype-nation",
   "description": "-",
   "references": [],
   "samples": [
-    "cnseu.pw",
-    "fullstory.aspx",
-    "www.qnsb",
     "53812.html",
-    "content_16696986.htm",
+    "V.gmw",
     "v.gmw",
-    "surface.pdf",
+    "cnseu.pw",
     "Deep.Dot",
-    "V.gmw"
+    "www.qnsb",
+    "surface.pdf",
+    "content_16696986.htm",
+    "fullstory.aspx"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://www.finextra.com/news/fullstory.aspx?newsitemid=27940.",
-    "http://www.qnsb.com/news/html/2014/caijing_0219/53812.html.",
     "https://www.deepdotweb.com/2015/08/17/cybercrime-the-study-of-carding/.",
+    "http://www.qnsb.com/news/html/2014/caijing_0219/53812.html.",
+    "http://www.finextra.com/news/fullstory.aspx?newsitemid=27940.",
     "http://v.gmw.cn/2015-08/17/content_16696986.htm."
   ]
 }

@@ -1,20 +1,20 @@
 {
-  "rule_id": 207,
+  "rule_id": 169,
   "name": "DarkPulsar",
   "description": "-",
   "references": [],
   "samples": [
-    "Lsasrv.dll",
-    "sipauth32.tsp",
-    "version.exe",
-    "0.exe",
-    "version.xml",
-    "Msv1_0.dll",
-    "Schannel.dll",
-    "Kerberos.dll",
-    "Wdigest.dll",
     "version.fb",
-    "9.xml"
+    "Msv1_0.dll",
+    "Lsasrv.dll",
+    "0.exe",
+    "Kerberos.dll",
+    "version.exe",
+    "sipauth32.tsp",
+    "9.xml",
+    "Wdigest.dll",
+    "Schannel.dll",
+    "version.xml"
   ],
   "weight": 0.0,
   "signatures": [

@@ -1,14 +1,14 @@
 {
-  "rule_id": 1202,
+  "rule_id": 995,
   "name": "hussarini---targeted-cyber-attack-in-the-philippines",
   "description": "-",
   "references": [],
   "samples": [
-    "nder.exe",
-    "cache.txt",
     "OutExtra.exe",
     "Security.doc",
-    "Outllib.dll"
+    "Outllib.dll",
+    "nder.exe",
+    "cache.txt"
   ],
   "weight": 0.0,
   "signatures": [

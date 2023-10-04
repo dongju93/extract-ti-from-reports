@@ -1,14 +1,14 @@
 {
-  "rule_id": 239,
+  "rule_id": 194,
   "name": "UnFIN4ished_Business_pwd",
   "description": "-",
   "references": [],
-  "samples": ["fin4.pdf", "VB.NET", "DOCM.pdf", "WINWORD32.exe"],
+  "samples": ["writeup.jsp", "VB.NET", "WINWORD32.exe", "fin4.pdf", "DOCM.pdf"],
   "weight": 0.0,
   "signatures": [
     "d102693540b53f9a564e3a550f938709",
-    "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf",
+    "https://www2.fireeye.com/rs/fireye/images/rpt-fin4.pdf",
     "http://www.advantarlabs.com/plugins/extension-",
-    "https://www2.fireeye.com/rs/fireye/images/rpt-fin4.pdf"
+    "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf"
   ]
 }

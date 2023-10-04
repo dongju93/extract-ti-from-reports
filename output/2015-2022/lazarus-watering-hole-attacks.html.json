@@ -1,23 +1,23 @@
 {
-  "rule_id": 741,
+  "rule_id": 623,
   "name": "lazarus-watering-hole-attacks.html",
   "description": "-",
   "references": [],
   "samples": [
-    "svchost.ex",
-    "siver.dll",
-    "Silverlight.js",
-    "AppManifest.xaml",
-    "Sanciones.aspx",
-    "Default.html",
     "cambio.xa",
-    "System.Xml",
+    "AppManifest.xaml",
+    "Silverlight.js",
     "r.ch",
+    "svchost.ex",
+    "Default.html",
     "Linq.dll",
-    "gpsvc.ex",
+    "System.Xml",
     "MisaporPortalUI.xap",
+    "gpsvc.ex",
     "siver.pdb",
-    "binaryreader.dll"
+    "siver.dll",
+    "binaryreader.dll",
+    "Sanciones.aspx"
   ],
   "weight": 0.0,
   "signatures": [
@@ -25,8 +25,8 @@
     "911de8d67af652a87415f8c0a30688b2",
     "c1364bbf63b3617b25b58209e4529d8c",
     "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet",
-    "http://web.archive.org/web/20170203175640/https://sap.misapo",
     "http://web.archive.org/web/20170203175641/https://sap.misapo",
+    "http://web.archive.org/web/20170203175640/https://sap.misapo",
     "http://go.microsoft.com/fwlink/?"
   ]
 }

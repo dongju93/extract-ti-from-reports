@@ -1,15 +1,15 @@
 {
-  "rule_id": 833,
+  "rule_id": 693,
   "name": "CLAMBLING - A New Backdoor Base On Dropbox (EN)",
   "description": "-",
   "references": [],
   "samples": [
-    "File.txt",
     "Video.exe",
-    "S.avi",
-    "srv2.mkt",
+    "S.log",
     "file.txt",
-    "S.log"
+    "File.txt",
+    "srv2.mkt",
+    "S.avi"
   ],
   "weight": 0.0,
   "signatures": [

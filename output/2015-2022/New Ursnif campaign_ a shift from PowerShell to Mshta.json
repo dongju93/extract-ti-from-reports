@@ -1,17 +1,17 @@
 {
-  "rule_id": 650,
+  "rule_id": 546,
   "name": "New Ursnif campaign_ a shift from PowerShell to Mshta",
   "description": "-",
   "references": [],
   "samples": [
     "Index.dll",
-    "info_03_24.doc",
-    "zoak6.cab",
+    "zoak2.cab",
     "Mshta.exe",
     "targen.php",
     "index.dll",
     "zoak4.cab",
-    "zoak2.cab"
+    "zoak6.cab",
+    "info_03_24.doc"
   ],
   "weight": 0.0,
   "signatures": [

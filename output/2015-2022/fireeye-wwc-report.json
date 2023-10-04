@@ -1,9 +1,0 @@
-{
-  "rule_id": 322,
-  "name": "fireeye-wwc-report",
-  "description": "-",
-  "references": [],
-  "samples": ["RPT.WWC"],
-  "weight": 0.0,
-  "signatures": []
-}

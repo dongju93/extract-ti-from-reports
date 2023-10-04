@@ -1,9 +1,0 @@
-{
-  "rule_id": 307,
-  "name": "Operation_CloudyOmega_Ichitaro",
-  "description": "-",
-  "references": ["CVE-2013-0634", "CVE-2012-5054"],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

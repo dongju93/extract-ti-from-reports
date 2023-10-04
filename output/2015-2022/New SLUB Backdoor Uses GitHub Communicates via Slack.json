@@ -1,19 +1,19 @@
 {
-  "rule_id": 55,
+  "rule_id": 41,
   "name": "New SLUB Backdoor Uses GitHub Communicates via Slack",
   "description": "-",
-  "references": ["CVE-2015-1701", "CVE-2018-8174"],
+  "references": ["CVE-2018-8174", "CVE-2015-1701"],
   "samples": [
+    "Tray.exe",
+    "storage.data",
+    "ZhuDongFangYu.exe",
+    "ashServ.exe",
+    "avgemc.exe",
+    "navapsvc.exe",
     "bdagent.exe",
     "Win32.SLUB",
-    "navapsvc.exe",
-    "ashServ.exe",
-    "ecs.data",
-    "storage.data",
-    "avgemc.exe",
-    "Tray.exe",
-    "file.io",
-    "AYAgent.aye"
+    "AYAgent.aye",
+    "ecs.data"
   ],
   "weight": 0.0,
   "signatures": [

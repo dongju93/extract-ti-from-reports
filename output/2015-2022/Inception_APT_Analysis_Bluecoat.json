@@ -1,9 +1,9 @@
 {
-  "rule_id": 959,
+  "rule_id": 798,
   "name": "Inception_APT_Analysis_Bluecoat",
   "description": "-",
   "references": [],
-  "samples": ["Rg.vbs", "dropped.dll", "wmiprvse.dll"],
+  "samples": ["Rg.vbs", "wmiprvse.dll", "dropped.dll"],
   "weight": 0.0,
   "signatures": [
     "4a4874fa5217a8523bf4d1954efb26ef",

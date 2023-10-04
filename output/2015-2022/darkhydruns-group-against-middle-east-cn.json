@@ -1,9 +1,9 @@
 {
-  "rule_id": 543,
+  "rule_id": 452,
   "name": "darkhydruns-group-against-middle-east-cn",
   "description": "-",
   "references": [],
-  "samples": ["指标.xlsm", "为ﺱﺭﺎﻬﻔﻟﺍ.xlsm", "最后使用regsvr32.exe"],
+  "samples": ["最后使用regsvr32.exe", "指标.xlsm", "为ﺱﺭﺎﻬﻔﻟﺍ.xlsm"],
   "weight": 0.0,
   "signatures": []
 }

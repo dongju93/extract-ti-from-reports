@@ -1,20 +1,20 @@
 {
-  "rule_id": 1142,
+  "rule_id": 946,
   "name": "Dissecting-LinuxMoose",
   "description": "-",
   "references": [],
-  "samples": ["moose.yar", "response.raw", "rnde.php", "cmd.so", "cfgcnc.raw"],
+  "samples": ["rnde.php", "cfgcnc.raw", "moose.yar", "response.raw", "cmd.so"],
   "weight": 0.0,
   "signatures": [
-    "dd7e8211336aa02851f6c67690e2301b9c84bb26",
-    "4bffc0ebfe8c373f387eb01a7c5e2835ec8e8757",
-    "bfc2a99450977dc7ba2ec0879fb17c612e248ece",
     "85c3439b6773241d11cda78f0ecfea4c07e55fd2",
-    "216014dba6f1a636c44530fbce06c598d3cf7fa1",
-    "54041ce90b04698465b866ed169ddf4a269e1e76",
-    "095ee85aa648de4e557fc243de17d4f00ab2091f",
     "d648c405507ad62ddb3faa1dd37f659f3676cacf",
+    "4bffc0ebfe8c373f387eb01a7c5e2835ec8e8757",
+    "095ee85aa648de4e557fc243de17d4f00ab2091f",
     "10e2f7dd4b2bb4ac9ab2b0d136f48e5dc9acc451",
+    "54041ce90b04698465b866ed169ddf4a269e1e76",
+    "216014dba6f1a636c44530fbce06c598d3cf7fa1",
+    "bfc2a99450977dc7ba2ec0879fb17c612e248ece",
+    "dd7e8211336aa02851f6c67690e2301b9c84bb26",
     "http://77.247.177.36:81/xx/atheros_mips/elan2"
   ]
 }

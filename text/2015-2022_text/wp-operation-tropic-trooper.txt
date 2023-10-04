@@ -881,9 +881,18 @@ images / Smartzh140222 . gif
 
 Smartzh131225 . gif
 
+  DisplayName: usb30
+
+ 
+
+ImagePath: %SystemRoot%\\System32\
+DRIVERS\usb30.sys
+
 •  www . bannered . 4dq . com / monitor / images /  
 
 Smartzh140222 . gif
+
+Solution Use
 
 •  www . cham . com . tw / images / dzh _ 0925 . jpg
 
@@ -902,15 +911,6 @@ Smartzh131225 . gif
 •  www . metacu . ygto . com / monitor / images /  
 
 Smartzh140222 . gif
-
-  DisplayName: usb30
-
- 
-
-ImagePath: %SystemRoot%\\System32\
-DRIVERS\usb30.sys
-
-Solution Use
 
 We also recommend a Custom Defense strategy 
 that uses a comprehensive “Detect—Analyze—

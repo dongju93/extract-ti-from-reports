@@ -1,27 +1,27 @@
 {
-  "rule_id": 188,
+  "rule_id": 152,
   "name": "Operation Daybreak",
   "description": "-",
-  "references": ["CVE-2016-1010", "CVE-2016-0147", "CVE-2016-4171"],
+  "references": ["CVE-2016-4171", "CVE-2016-1010", "CVE-2016-0147"],
   "samples": [
-    "msfte.dll",
-    "cryptbase.dll",
-    "release.dll",
+    "webconncheck.myfw",
     "cldbct.dll",
+    "china.pdf",
     "ap.php",
+    "msfte.dll",
     "xrss.php",
+    "cryptbase.dll",
     "ScarCruft.gen",
     "cfgifut.dll",
-    "china.pdf",
-    "webconncheck.myfw"
+    "release.dll"
   ],
   "weight": 0.0,
   "signatures": [
-    "8844a537e7f533192ca8e81886e70fbc",
-    "e51ce28c2e2d226365bc5315d3e5f83e",
-    "f8a2d4ddf9dc2de750c8b4b7ee45ba3f",
     "a6f14b547d9a7190a1f9f1c06f906063",
+    "067681b79756156ba26c12bc36bf835c",
+    "8844a537e7f533192ca8e81886e70fbc",
+    "f8a2d4ddf9dc2de750c8b4b7ee45ba3f",
     "3e5ac6bbf108feec97e1cc36560ab0b6",
-    "067681b79756156ba26c12bc36bf835c"
+    "e51ce28c2e2d226365bc5315d3e5f83e"
   ]
 }

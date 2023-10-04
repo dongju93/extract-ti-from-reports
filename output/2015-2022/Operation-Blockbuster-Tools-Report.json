@@ -1,27 +1,27 @@
 {
-  "rule_id": 1193,
+  "rule_id": 988,
   "name": "Operation-Blockbuster-Tools-Report",
   "description": "-",
   "references": [],
   "samples": [
-    "IconCache.dat",
-    "download.boho",
-    "UdaterUI.exe",
-    "naPrdMgr.exe",
-    "mscorsw.exe",
-    "FrameworkService.exe",
-    "iphapi.dll",
     "boho.or",
-    "McShield.exe",
+    "IconCache.dat",
+    "UdaterUI.exe",
     "AdobeUpdaterPrefs.dat",
+    "zawq.bat",
+    "naPrdMgr.exe",
     "shstat.exe",
-    "zawq.bat"
+    "FrameworkService.exe",
+    "mscorsw.exe",
+    "McShield.exe",
+    "download.boho",
+    "iphapi.dll"
   ],
   "weight": 0.0,
   "signatures": [
     "HKLM\\Software\\Microsoft\\CurrentVersion\\Run\\Mozilla Update is added ",
-    "http://go.microsoft.com/fwlink/?linkid=121488.",
     "http://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
-    "http://processhacker.sourceforge.net/."
+    "http://processhacker.sourceforge.net/.",
+    "http://go.microsoft.com/fwlink/?linkid=121488."
   ]
 }

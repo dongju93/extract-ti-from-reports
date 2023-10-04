@@ -1,9 +1,0 @@
-{
-  "rule_id": 753,
-  "name": "Vinself_steganography",
-  "description": "-",
-  "references": [],
-  "samples": ["colors.bmp"],
-  "weight": 0.0,
-  "signatures": []
-}

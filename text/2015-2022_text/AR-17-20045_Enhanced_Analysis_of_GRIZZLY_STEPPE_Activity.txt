@@ -8238,6 +8238,8 @@ alt2.aspmx.l.google.com
 86400
 (01:00:00)
 
+91.234.33.3
+
 IN MX
 
 IN NS ns3.thehost.com.ua 86400s
@@ -8247,8 +8249,6 @@ IN TXT yandex-verification: 7984d982d76e47fa 3600s
 IN MX
 
 (1.00:00:00)
-
-91.234.33.3
 
 (01:00:00)
 

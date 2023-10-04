@@ -1,9 +1,9 @@
 {
-  "rule_id": 755,
+  "rule_id": 633,
   "name": "RANCOR APT_ Suspected targeted attacks against South East Asia",
   "description": "-",
   "references": [],
-  "samples": ["Mr.Ratt", "OSE91E4.tmp", "Photo.vbs", "apt.html"],
+  "samples": ["d.tmp", "apt.html", "OSE91E4.tmp", "Photo.vbs", "Mr.Ratt"],
   "weight": 0.0,
   "signatures": [
     "7b973145f7e1b59330ca4dd1f86b3d55",

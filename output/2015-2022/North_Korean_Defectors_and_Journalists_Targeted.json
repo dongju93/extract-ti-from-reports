@@ -1,16 +1,16 @@
 {
-  "rule_id": 101,
+  "rule_id": 83,
   "name": "North_Korean_Defectors_and_Journalists_Targeted",
   "description": "-",
   "references": [],
-  "samples": ["com.toh", "HiddenApp.BP", "article.html"],
+  "samples": ["article.html", "HiddenApp.BP", "com.toh"],
   "weight": 0.0,
   "signatures": [
-    "https://t.co/KCFN80UpzC)",
-    "https://t.co/CeOtkvuADn)",
     "http://www.newdaily.co.kr/news/article.html?",
+    "https://t.co/CeOtkvuADn)",
     "https://t.co/CeOtkvuADn",
-    "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)",
-    "https://t.co/KCFN80UpzC"
+    "https://t.co/KCFN80UpzC)",
+    "https://t.co/KCFN80UpzC",
+    "http://www.dailynk.com/korean/m/read.php?cataId=nk00400&num=111620)"
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "rule_id": 559,
-  "name": "rpt-poison-ivy",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

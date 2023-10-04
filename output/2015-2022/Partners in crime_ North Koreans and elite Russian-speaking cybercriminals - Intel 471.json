@@ -1,9 +1,9 @@
 {
-  "rule_id": 411,
+  "rule_id": 340,
   "name": "Partners in crime_ North Koreans and elite Russian-speaking cybercriminals - Intel 471",
   "description": "-",
   "references": [],
-  "samples": ["evtdiag.exe", "ApplicationPDF.exe", "add.php"],
+  "samples": ["add.php", "ApplicationPDF.exe", "evtdiag.exe"],
   "weight": 0.0,
   "signatures": [
     "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/"

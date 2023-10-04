@@ -1,15 +1,15 @@
 {
-  "rule_id": 62,
+  "rule_id": 48,
   "name": "scattered-canary",
   "description": "-",
   "references": [],
   "samples": [
-    "mb.me",
     "emailceo.me",
-    "denominations.Do",
+    "mb.me",
+    "inbox.lv",
     "Scanned_Invoice798261.Pdf",
-    "mb.us",
-    "inbox.lv"
+    "denominations.Do",
+    "mb.us"
   ],
   "weight": 0.0,
   "signatures": []

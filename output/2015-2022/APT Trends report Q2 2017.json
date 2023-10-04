@@ -1,9 +1,9 @@
 {
-  "rule_id": 328,
+  "rule_id": 266,
   "name": "APT Trends report Q2 2017",
   "description": "-",
   "references": ["CVE-2017-0263"],
-  "samples": [],
+  "samples": ["youtu.be"],
   "weight": 0.0,
   "signatures": ["https://youtu.be/JS4tbSWQb90"]
 }

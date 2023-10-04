@@ -1,16 +1,16 @@
 {
-  "rule_id": 119,
+  "rule_id": 99,
   "name": "New Adwind Campaign targets US Petroleum Industry",
   "description": "-",
   "references": [],
   "samples": ["png.jar"],
   "weight": 0.0,
   "signatures": [
-    "0b7b52302c8c5df59d960dd97e3abdaf",
-    "781fb531354d6f291f1ccab48da6d39f",
-    "3bdfd33017806b85949b6faa7d4b98e4",
     "a9175094b275a0aaed30604f7dceeb14",
     "a32c109297ed1ca155598cd295c26611",
+    "0b7b52302c8c5df59d960dd97e3abdaf",
+    "3bdfd33017806b85949b6faa7d4b98e4",
+    "781fb531354d6f291f1ccab48da6d39f",
     "https://www.netskope.com/blog/new-adwind-campaign-targets-us-petroleum-industry-2"
   ]
 }

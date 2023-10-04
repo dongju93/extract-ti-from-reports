@@ -1,18 +1,18 @@
 {
-  "rule_id": 378,
+  "rule_id": 310,
   "name": "unit42-prince-of-persia-game-over",
   "description": "-",
   "references": [],
   "samples": [
-    "crt.pem",
     "recycle.bin",
-    "key.pfx",
-    "line.find",
-    "os.walk",
-    "bdc.tmp",
+    "name.find",
     "final.find",
     "pmwiki.php",
-    "name.find"
+    "crt.pem",
+    "os.walk",
+    "bdc.tmp",
+    "line.find",
+    "key.pfx"
   ],
   "weight": 0.0,
   "signatures": [

@@ -1,14 +1,12 @@
 {
-  "rule_id": 171,
+  "rule_id": 141,
   "name": "Emissary Trojan Changelog_ Did Operation Lotus Blossom Cause It to Evolve_ - Palo Alto Networks Blog",
   "description": "-",
   "references": [],
   "samples": [
-    "emissary_compilation_timeline_with_olb_vertical1.png",
-    "obesity.html"
+    "obesity.html",
+    "emissary_compilation_timeline_with_olb_vertical1.png"
   ],
   "weight": 0.0,
-  "signatures": [
-    "http://pwc.blogs.com/cyber_security_updates/2015/12/elise-security-through-obesity.html)"
-  ]
+  "signatures": []
 }

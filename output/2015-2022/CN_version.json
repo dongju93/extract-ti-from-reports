@@ -1,21 +1,22 @@
 {
-  "rule_id": 1161,
+  "rule_id": 963,
   "name": "CN_version",
   "description": "-",
   "references": [],
   "samples": [
-    "winsvc.exe",
-    "adobsuit.exe",
-    "NovDwn.pdb",
     "exe加载aﬂup64.dll",
-    "若加载进程不为rundll32.dll",
-    "Loader.lnk",
-    "否为rundll32.exe",
-    "CF.tmp",
-    "drvhost.exe",
+    "Start.lnk",
     "Records.doc",
     "smtpldr.exe",
-    "Start.lnk"
+    "Loader.lnk",
+    "若加载进程不为rundll32.dll",
+    "winsvc.exe",
+    "drvhost.exe",
+    "NovDwn.pdb",
+    "adobsuit.exe",
+    "DE.tmp",
+    "CF.tmp",
+    "否为rundll32.exe"
   ],
   "weight": 0.0,
   "signatures": [

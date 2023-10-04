@@ -1,16 +1,19 @@
 {
-  "rule_id": 855,
+  "rule_id": 710,
   "name": "UNC3524_ Eye Spy on Your Email _ Mandiant",
   "description": "-",
   "references": [],
-  "samples": ["DEBUG.LOG", "cloudns.asia", "Headers.Get", "InputStream.Read"],
+  "samples": ["DEBUG.LOG", "cloudns.asia", "InputStream.Read", "Headers.Get"],
   "weight": 0.0,
   "signatures": [
     "ba22992ce835dadcd06bff4ab7b162f9",
     "3d4dcc859c6ca7e5b36483ad84c9ceef34973f9a",
+    "https://www.mandiant.com/resources/unc3524-eye-spy-email",
+    "http://schemas.xmlsoap.org/soap/envelope/",
     "https://schemas.xmlsoap.org/soap/envelope/",
     "https://schemas.microsoft.com/exchange/services/2006/messages",
+    "http://www.w3.org/2001/XMLSchema-instance",
     "https://schemas.microsoft.com/exchange/services/2006/types",
-    "https://www.mandiant.com/resources/unc3524-eye-spy-email"
+    "http://www.w3.org/2001/XMLSchema"
   ]
 }

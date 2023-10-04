@@ -1,12 +1,12 @@
 {
-  "rule_id": 58,
+  "rule_id": 44,
   "name": "Dissecting-the-Kraken",
   "description": "-",
   "references": [],
   "samples": [
-    "0158.AH",
     "Variant.Zusy",
     "VBoxtray.exe",
+    "0158.AH",
     "kraken.html",
     "Exploit.CVE"
   ],

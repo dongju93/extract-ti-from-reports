@@ -1,21 +1,21 @@
 {
-  "rule_id": 581,
+  "rule_id": 485,
   "name": "OceanLotus",
   "description": "-",
   "references": [],
   "samples": [
-    "m.zip",
-    "rasman.dll",
-    "MSVCP80.dll",
-    "rasman.exe",
-    "pham.docx",
-    "BIB.dll",
-    "AGM.dll",
-    "ACE.dll",
-    "CoolType.dll",
     "L.dll",
+    "ACE.dll",
+    "BIB.dll",
+    "m.zip",
+    "AGM.dll",
+    "pham.docx",
+    "CoolType.dll",
+    "MSVCP80.dll",
+    "rasman.dll",
     "Rasman.exe",
-    "MSVCR80.dll"
+    "MSVCR80.dll",
+    "rasman.exe"
   ],
   "weight": 0.0,
   "signatures": [

@@ -1,9 +1,9 @@
 {
-  "rule_id": 511,
+  "rule_id": 425,
   "name": "SLUB Gets Rid of GitHub, Intensifies Slack Use",
   "description": "-",
-  "references": ["CVE-2019-0803", "CVE-2019-0752", "CVE-2019-0808"],
-  "samples": ["pen.io", "u.dll", "le.io"],
+  "references": ["CVE-2019-0808", "CVE-2019-0803", "CVE-2019-0752"],
+  "samples": ["u.dll"],
   "weight": 0.0,
   "signatures": []
 }

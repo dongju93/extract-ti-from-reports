@@ -1,20 +1,20 @@
 {
-  "rule_id": 165,
+  "rule_id": 135,
   "name": "darkhydruns-group-against-middle-east-en",
   "description": "-",
   "references": ["CVE-2018-8414"],
   "samples": [
-    "366.txt",
-    "akamaized.live",
-    "ﺱﺭﺎﻬﻔﻟﺍ.xlsm",
-    "ceUpdateService.exe",
-    "ﻉﻼﻁﻻﺍ.xlsm",
-    "DNSProject.pdb",
-    "cmanager.live",
-    "akamaiedge.live",
     "edgekey.live",
+    "ﻉﻼﻁﻻﺍ.xlsm",
+    "akamaized.live",
+    "akamaiedge.live",
+    "cmanager.live",
+    "DNSProject.pdb",
+    "0ﬃce365.life",
+    "366.txt",
+    "ﺱﺭﺎﻬﻔﻟﺍ.xlsm",
     "akdns.live",
-    "0ﬃce365.life"
+    "ceUpdateService.exe"
   ],
   "weight": 0.0,
   "signatures": [

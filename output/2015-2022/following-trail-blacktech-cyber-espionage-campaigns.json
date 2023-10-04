@@ -1,9 +1,9 @@
 {
-  "rule_id": 138,
+  "rule_id": 111,
   "name": "following-trail-blacktech-cyber-espionage-campaigns",
   "description": "-",
   "references": ["CVE-2017-7269", "CVE-2017-5638", "CVE-2014-6352"],
-  "samples": ["64.exe", "vmdks.exe", "tpauto.dll", "cfbcjtqx.dll"],
+  "samples": ["vmdks.exe", "cfbcjtqx.dll", "tpauto.dll", "64.exe"],
   "weight": 0.0,
   "signatures": []
 }

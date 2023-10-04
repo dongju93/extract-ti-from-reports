@@ -1,9 +1,0 @@
-{
-  "rule_id": 1137,
-  "name": "Alienvault_Scanbox",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

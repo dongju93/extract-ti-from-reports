@@ -1,9 +1,9 @@
 {
-  "rule_id": 1113,
+  "rule_id": 924,
   "name": "Microsoft Security—detecting empires in the cloud - Microsoft Security",
   "description": "-",
   "references": [],
-  "samples": ["Heather.mayx", "doc1.dotm", "_1.png", "19.ppt"],
+  "samples": ["_1.png", "Heather.mayx", "doc1.dotm", "19.ppt"],
   "weight": 0.0,
   "signatures": [
     "faebff04d7ca9cca92975e06c4a0e9ce1455860147d8432ff9fc24622b7cf675",

@@ -1,35 +1,35 @@
 {
-  "rule_id": 1028,
+  "rule_id": 855,
   "name": "Ramsay_ A cyber‑espionage toolkit tailored for air‑gapped networks _ WeLiveSecurity",
   "description": "-",
   "references": ["CVE-2017-1188"],
   "samples": [
-    "ceTemporary.sct",
-    "lmsch.exe",
-    "t.SHN",
+    "ploit.CVE",
     "t.SHM",
-    "Test.docx",
+    "lmsch.exe",
+    "ceTemporary.sct",
+    "t.SHN",
     "Dropper.Agen",
-    "ploit.CVE"
+    "Test.docx"
   ],
   "weight": 0.0,
   "signatures": [
     "daee337d42fba92badbea2a4e085f73f",
-    "27cd5b330a93d891bdcbd08050a5a6e1",
     "5ae434c951b106d63d79c98b1a95e99d",
     "cf133c06180f130c471c95b3a4ebd7a5",
-    "f74d86b6e9bd105ab65f2af10d60c4074b8044c9",
+    "27cd5b330a93d891bdcbd08050a5a6e1",
     "5c482bb8623329d4764492ff78b4fbc673b2ef23",
-    "baa20ce99089fc35179802a0cc1149f929bdf0fa",
-    "5a5738e2ec8af9f5400952be923e55a5780a8c55",
-    "f79da0d8bb1267f9906fad1111bd929a41b18c03",
-    "87ef7bf00fe6aa928c111c472e2472d2cb047eae",
-    "3bb205698e89955b4bd07a8a7de3fc75f1cb5cde",
-    "bd8d0143ec75ef4c369f341c2786facbd9f73256",
-    "3849e01bff610d155a3153c897bb662f5527c04c",
     "19bf019fc0bf44828378f008332430a080871274",
     "eb69b45faf3be0135f44293bc95f06dad73bc562",
+    "3bb205698e89955b4bd07a8a7de3fc75f1cb5cde",
+    "87ef7bf00fe6aa928c111c472e2472d2cb047eae",
+    "f74d86b6e9bd105ab65f2af10d60c4074b8044c9",
     "62d2cc1f6eedba2f35a55beb96cd59a0a6c66880",
-    "50eb291fc37fe05f9e55140b98b68d77bd61149e"
+    "bd8d0143ec75ef4c369f341c2786facbd9f73256",
+    "5a5738e2ec8af9f5400952be923e55a5780a8c55",
+    "50eb291fc37fe05f9e55140b98b68d77bd61149e",
+    "3849e01bff610d155a3153c897bb662f5527c04c",
+    "baa20ce99089fc35179802a0cc1149f929bdf0fa",
+    "f79da0d8bb1267f9906fad1111bd929a41b18c03"
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "rule_id": 825,
+  "rule_id": 685,
   "name": "winnti_EN",
   "description": "-",
   "references": [],
   "samples": [
-    "stefan.le",
-    "rootkit.sys",
     "NULL.SYS",
-    "workdll64.dll",
-    "phism.pdf",
     "rasppp.dll",
-    "NdisRerouteD.pdb"
+    "stefan.le",
+    "workdll64.dll",
+    "NdisRerouteD.pdb",
+    "phism.pdf",
+    "rootkit.sys"
   ],
   "weight": 0.0,
   "signatures": [

@@ -1,19 +1,19 @@
 {
-  "rule_id": 523,
+  "rule_id": 436,
   "name": "tech-brief-untangling-the-patchwork-cyberespionage-group",
   "description": "-",
-  "references": [],
+  "references": ["CVE-2012-1856"],
   "samples": [
-    "updatecheck.php",
-    "check.php",
-    "rmi.exe",
-    "scvhost6.exe",
-    "simpledownloader.exe",
     "Temp.log",
+    "scvhost6.exe",
+    "check.php",
+    "simpledownloader.exe",
+    "rmi.exe",
     "TaskScheduler.dll",
     "s.dwg",
+    "base.Load",
     "msvcr71.dll",
-    "base.Load"
+    "updatecheck.php"
   ],
   "weight": 0.0,
   "signatures": []

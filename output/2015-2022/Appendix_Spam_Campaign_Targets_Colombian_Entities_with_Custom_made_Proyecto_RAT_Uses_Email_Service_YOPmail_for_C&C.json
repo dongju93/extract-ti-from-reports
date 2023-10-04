@@ -1,21 +1,21 @@
 {
-  "rule_id": 1128,
+  "rule_id": 936,
   "name": "Appendix_Spam_Campaign_Targets_Colombian_Entities_with_Custom_made_Proyecto_RAT_Uses_Email_Service_YOPmail_for_C&C",
   "description": "-",
   "references": [],
   "samples": [
-    "FYNLOSKI.AA",
-    "IMMONRAT.AA",
-    "PHISH.RFD",
+    "MALINK.AE",
     "HPBLADABINDI.SMZ",
-    "TrojanSpy.MSIL",
     "BOILOD.AA",
     "SpoolColorLV.exe",
-    "MALINK.AE",
-    "MALINK.AD",
-    "SM4.hp",
     "XRAT.AA",
-    "SHADESRAT.AI"
+    "TrojanSpy.MSIL",
+    "SM4.hp",
+    "PHISH.RFD",
+    "IMMONRAT.AA",
+    "MALINK.AD",
+    "SHADESRAT.AI",
+    "FYNLOSKI.AA"
   ],
   "weight": 0.0,
   "signatures": [

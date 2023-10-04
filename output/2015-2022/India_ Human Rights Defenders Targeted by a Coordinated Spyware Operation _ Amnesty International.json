@@ -1,27 +1,27 @@
 {
-  "rule_id": 768,
+  "rule_id": 644,
   "name": "India_ Human Rights Defenders Targeted by a Coordinated Spyware Operation _ Amnesty International",
   "description": "-",
   "references": [],
   "samples": [
-    "CASE.exe",
+    "mail2.exe",
+    "mandos.exe",
+    "speeches.The",
+    "duniaenewsportal.ddns",
     "Sanstha.exe",
+    "house.exe",
     "Summary.exe",
     "letter.exe",
-    "duniaenewsportal.ddns",
-    "Division.exe",
     "mail3.exe",
-    "speeches.The",
-    "house.exe",
-    "mail2.exe",
-    "mandos.exe"
+    "Division.exe",
+    "CASE.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "88b92d985b7d616c93c391731c1e4a6d3c8323fd",
-    "b09ca9d48a0455ed5e02a56aabeb397c41fb63320244719749e0741da72e79c4",
     "095ec879f323a0a3eceb97013125880d49ac701eef568e3b010fdddb1333941f",
     "ac4d5d938009fd44b2f7587986862ab2278887a17d32f748278445b625b3efd9",
+    "b09ca9d48a0455ed5e02a56aabeb397c41fb63320244719749e0741da72e79c4",
     "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"
   ]
 }

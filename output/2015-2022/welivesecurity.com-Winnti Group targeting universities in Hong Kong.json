@@ -1,17 +1,17 @@
 {
-  "rule_id": 260,
+  "rule_id": 212,
   "name": "welivesecurity.com-Winnti Group targeting universities in Hong Kong",
   "description": "-",
   "references": [],
   "samples": [
-    "Winnti.CA",
-    "livehost.live",
+    "NULL.dat",
     "hpqhvsei.dll",
+    "CLR.exe",
+    "wmplayer.exe",
+    "Winnti.CA",
     "domain.tld",
     "hpqhvind.exe",
-    "CLR.exe",
-    "NULL.dat",
-    "wmplayer.exe"
+    "livehost.live"
   ],
   "weight": 0.0,
   "signatures": [

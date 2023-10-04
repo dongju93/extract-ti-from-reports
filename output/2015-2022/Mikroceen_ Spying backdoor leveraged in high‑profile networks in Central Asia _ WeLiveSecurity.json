@@ -1,15 +1,15 @@
 {
-  "rule_id": 545,
+  "rule_id": 454,
   "name": "Mikroceen_ Spying backdoor leveraged in high‑profile networks in Central Asia _ WeLiveSecurity",
   "description": "-",
   "references": [],
   "samples": [
+    "Agent.NE",
     "ST.TMP",
-    "5E8C6FF0.CAB",
     "pcaudit.dll",
-    "i.CSY",
     "7B296FB0.CAB",
-    "Agent.NE"
+    "i.CSY",
+    "5E8C6FF0.CAB"
   ],
   "weight": 0.0,
   "signatures": [

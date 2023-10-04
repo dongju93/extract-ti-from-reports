@@ -1,17 +1,17 @@
 {
-  "rule_id": 278,
+  "rule_id": 225,
   "name": "BlackOasis",
   "description": "-",
-  "references": ["CVE-2017-8759", "CVE-2017-11292", "CVE-2016-0984"],
+  "references": ["CVE-2017-11292", "CVE-2016-0984", "CVE-2017-8759"],
   "samples": [
     "mo.exe",
-    "32.html",
-    "install.cab",
-    "15b937.cab",
     "msvcr90.dll",
+    "32.html",
+    "u.iaf",
     "AdapterTroubleshooter.exe",
     "d3d9.dll",
-    "u.iaf"
+    "15b937.cab",
+    "install.cab"
   ],
   "weight": 0.0,
   "signatures": [

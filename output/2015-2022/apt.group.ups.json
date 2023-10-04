@@ -1,9 +1,9 @@
 {
-  "rule_id": 221,
+  "rule_id": 180,
   "name": "apt.group.ups",
   "description": "-",
   "references": ["CVE-2015-3113"],
-  "samples": ["show.swf", "b.gif", "show.gif", "Show.swf", "MainClass.as"],
+  "samples": ["show.gif", "Show.swf", "MainClass.as", "show.swf", "b.gif"],
   "weight": 0.0,
   "signatures": [
     "a2fe113cc13acac2bb79a375f692b8ba5cc2fa880272adc7ab0d01f839e877ff"

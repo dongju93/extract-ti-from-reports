@@ -1,23 +1,23 @@
 {
-  "rule_id": 774,
+  "rule_id": 649,
   "name": "The Return of The Charming Kitten",
   "description": "-",
   "references": [],
   "samples": [
-    "broadcastnews.ddns",
-    "activatecodeoption.ddns",
+    "broadcastpopuer.ddns",
     "myyahoo.ddns",
-    "broadcastpopuer.ddns"
+    "broadcastnews.ddns",
+    "activatecodeoption.ddns"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://s.certfa.com/ur93p2",
     "https://sites.google.com/",
+    "https://support.google.com/a/answer/2640542?hl=en",
     "https://s.certfa.com/OgQUSC",
-    "https://s.certfa.com/1ulIxk",
+    "https://s.certfa.com/ur93p2",
     "https://s.certfa.com/q1514c",
     "https://s.certfa.com/eNnnag",
     "https://screenshots.firefox.com/",
-    "https://support.google.com/a/answer/2640542?hl=en"
+    "https://s.certfa.com/1ulIxk"
   ]
 }

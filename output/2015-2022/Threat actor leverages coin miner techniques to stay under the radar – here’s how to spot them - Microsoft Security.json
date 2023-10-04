@@ -1,23 +1,23 @@
 {
-  "rule_id": 313,
+  "rule_id": 254,
   "name": "Threat actor leverages coin miner techniques to stay under the radar – here’s how to spot them - Microsoft Security",
   "description": "-",
   "references": [],
   "samples": [
-    "za.exe",
-    "NbtScan.exe",
-    "tm.exe",
-    "bootcfg.exe",
+    "wwlib.dll",
     "dbgview.exe",
+    "NbtScan.exe",
+    "systray.exe",
+    "bootcfg.exe",
+    "mpr.dll",
+    "MpSvc.dll",
     "McOds.exe",
     "typeperf.exe",
     "Nltest.exe",
-    "makecab.exe",
     "diskperf.exe",
-    "systray.exe",
-    "mpr.dll",
-    "MpSvc.dll",
-    "wwlib.dll"
+    "makecab.exe",
+    "za.exe",
+    "tm.exe"
   ],
   "weight": 0.0,
   "signatures": []

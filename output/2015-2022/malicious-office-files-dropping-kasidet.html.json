@@ -1,14 +1,14 @@
 {
-  "rule_id": 579,
+  "rule_id": 483,
   "name": "malicious-office-files-dropping-kasidet.html",
   "description": "-",
   "references": [
-    "CVE-2014-0515",
     "CVE-2015-5123",
     "CVE-2015-0336",
+    "CVE-2014-0515",
     "CVE-2014-4130"
   ],
-  "samples": ["trinity.ad", "devenv.exe", "setting.bin"],
+  "samples": ["devenv.exe", "setting.bin", "trinity.ad"],
   "weight": 0.0,
   "signatures": []
 }

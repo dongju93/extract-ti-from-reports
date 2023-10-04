@@ -1,27 +1,27 @@
 {
-  "rule_id": 1007,
+  "rule_id": 841,
   "name": "Bitdefender-Whitepaper-APT-Mac-A4-en-EN-web",
   "description": "-",
   "references": [],
   "samples": [
-    "apple.fsg",
-    "apple.sksh",
-    "Trojan.MAC",
-    "apple.kshd",
-    "apple.ulkg",
-    "apple.erx",
     "apple.ulk",
-    "apple.wsat"
+    "apple.wsat",
+    "apple.erx",
+    "Trojan.MAC",
+    "apple.ulkg",
+    "apple.kshd",
+    "apple.fsg",
+    "apple.sksh"
   ],
   "weight": 0.0,
   "signatures": [
     "4fe4b9560e99e33dabca553e2eeee510",
-    "http://apple-checker.org",
     "http://23.227.196.215",
-    "http://apple-uptoday.org",
-    "http://apple-iclods.org/close/?itwm=LO6iN-",
-    "http://23.227.196.215/watch/?itwm=7FJcXOPyN_Znh7quXfh4WAaKquNzY",
+    "http://apple-checker.org",
     "http://apple-search.info",
+    "http://apple-uptoday.org",
+    "http://23.227.196.215/watch/?itwm=7FJcXOPyN_Znh7quXfh4WAaKquNzY",
+    "http://apple-iclods.org/close/?itwm=LO6iN-",
     "http://apple-iclods.org"
   ]
 }

@@ -82,9 +82,9 @@ APT groups may be part of a shared supply chain which receives tools for phishin
 
 9
 
-5
-
 7
+
+5
 
 8
 

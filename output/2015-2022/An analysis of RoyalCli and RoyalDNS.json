@@ -1,15 +1,15 @@
 {
-  "rule_id": 739,
+  "rule_id": 621,
   "name": "An analysis of RoyalCli and RoyalDNS",
   "description": "-",
   "references": [],
   "samples": ["bcp.exe", "RoyalCli.pdb"],
   "weight": 0.0,
   "signatures": [
-    "6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f",
     "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce",
-    "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b",
+    "6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f",
+    "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d",
     "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785",
-    "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d"
+    "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b"
   ]
 }

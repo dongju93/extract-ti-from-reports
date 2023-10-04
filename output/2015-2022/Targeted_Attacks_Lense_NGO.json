@@ -1,9 +1,0 @@
-{
-  "rule_id": 690,
-  "name": "Targeted_Attacks_Lense_NGO",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

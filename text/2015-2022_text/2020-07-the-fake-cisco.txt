@@ -1644,9 +1644,9 @@ F-Secure.com | © F-Secure LABS
 
 Putting this knowledge to work, we could easily confirm whether our deductions were correct with Python: 
 
-pubmod2 
-
 pubmod1 
+
+pubmod2 
 
 >>> 
 0x9f0269a7de698bfec8f57da81e51e9dd8c213134f17d07fcb83fb88d076afee659987d03d654319eb500e99028

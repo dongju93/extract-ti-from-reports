@@ -1,28 +1,28 @@
 {
-  "rule_id": 267,
+  "rule_id": 219,
   "name": "PoshC2_APT_jp",
   "description": "-",
   "references": ["CVE-2019-9489"],
   "samples": [
-    "PccNTMon.exe",
-    "Mon.exe",
-    "magify.exe",
-    "Studioや.NET",
-    "B1487.txt",
-    "Microsoft.dll",
-    "www.lac",
     "magnify.exe",
-    "Scan.exe",
-    "20200424_002177.html",
-    "cgiRecvFile.exe",
+    "PccNTMon.exe",
+    "B1487.txt",
     "PowershellDLL.dll",
+    "www.lac",
+    "Studioや.NET",
+    "cgiRecvFile.exe",
+    "magify.exe",
+    "Mon.exe",
+    "Microsoft.dll",
     "ten.exe",
-    "Automation.dll"
+    "Automation.dll",
+    "Scan.exe",
+    "20200424_002177.html"
   ],
   "weight": 0.0,
   "signatures": [
-    "7658d4c74b519187b2829359a921e374",
     "f0fdb786ca994342a8a91adb5ba6987f",
+    "7658d4c74b519187b2829359a921e374",
     "https://www.lac.co.jp/lacwatch/people/20200424_002177.html"
   ]
 }

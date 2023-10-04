@@ -1,14 +1,14 @@
 {
-  "rule_id": 236,
+  "rule_id": 192,
   "name": "Release the Kraken_ Fileless APT attack abuses Windows Error Reporting service",
   "description": "-",
   "references": [],
   "samples": [
     "www.asia",
-    "favicon32.ico",
-    "WerFault.exe",
     "manual.doc",
-    "Kraken.dll"
+    "Kraken.dll",
+    "WerFault.exe",
+    "favicon32.ico"
   ],
   "weight": 0.0,
   "signatures": [

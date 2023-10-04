@@ -1,24 +1,24 @@
 {
-  "rule_id": 1157,
+  "rule_id": 960,
   "name": "Appendix-New-Fileless-Botnet-Novter-Distributed-by-KovCoreG-Malvertising-Campaign",
   "description": "-",
   "references": [],
   "samples": [
-    "Downloader.JS",
-    "sall.js",
-    "7.hta",
     "sall.dat",
     "TRX.XX",
-    "em_02.js",
-    "tell2.dat",
+    "7.hta",
     "Trojan.JS",
     "module.avi",
+    "sall.js",
+    "bav01.js",
     "block_av_01.dat",
-    "bav01.js"
+    "tell2.dat",
+    "Downloader.JS",
+    "em_02.js"
   ],
   "weight": 0.0,
   "signatures": [
-    "a82dd93585094aeba4363c5aeedd1a85",
-    "ef72c60a03738b25d452a5d895313875"
+    "ef72c60a03738b25d452a5d895313875",
+    "a82dd93585094aeba4363c5aeedd1a85"
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "rule_id": 1038,
+  "rule_id": 863,
   "name": "TA-505 Cybercrime on System Integrator Companies",
   "description": "-",
   "references": [],
   "samples": [
-    "new.php",
-    "conjunctiva.exe",
     "surprise.php",
     "nanagrams.exe",
     "MSWORD.OLB",
-    "rams.exe",
+    "new.php",
+    "conjunctiva.exe",
     "VBE6.DLL",
-    "IVa.ExE"
+    "IVa.ExE",
+    "rams.exe"
   ],
   "weight": 0.0,
   "signatures": [

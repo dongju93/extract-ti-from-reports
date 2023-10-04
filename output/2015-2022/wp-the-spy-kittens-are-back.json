@@ -1,34 +1,34 @@
 {
-  "rule_id": 370,
+  "rule_id": 304,
   "name": "wp-the-spy-kittens-are-back",
   "description": "-",
   "references": [],
   "samples": [
-    "wsnd.exe",
-    "SWRORT.CP",
-    "AdobeARMM.log",
-    "optimizer.pdb",
-    "metsrv.dll",
-    "AdobeARM.log",
-    "tmp.bat",
-    "asf.xxx",
-    "goldfish.pdf",
     "HousecallLauncher.exe",
+    "asf.xxx",
     "public1.pdf",
-    "Message.xlsb"
+    "tmp.bat",
+    "AdobeARMM.log",
+    "AdobeARM.log",
+    "goldfish.pdf",
+    "Message.xlsb",
+    "SWRORT.CP",
+    "wsnd.exe",
+    "optimizer.pdb",
+    "metsrv.dll"
   ],
   "weight": 0.0,
   "signatures": [
-    "457f54e9a0f32f2648f95a8e339d9fd9aed23fa7",
-    "46a995df8d9918ca0793404110904479b6adcb9f",
-    "db2b8f49b4e76c2f538a3a6b222c35547c802cef",
-    "64ba130e627dd85c85d6534e769d239080e068dd",
     "29968b0c4157f226761073333ff2e82b588ddf8e",
     "af364ff503da71875b6d7c401a1e98e31450a561",
-    "eeb67e663b2fa980c6b228fc2e04304c8992401d",
+    "46a995df8d9918ca0793404110904479b6adcb9f",
     "c8096078f0f6c3fbb6d82c5b00211802168f9cba",
+    "db2b8f49b4e76c2f538a3a6b222c35547c802cef",
+    "eeb67e663b2fa980c6b228fc2e04304c8992401d",
+    "457f54e9a0f32f2648f95a8e339d9fd9aed23fa7",
+    "64ba130e627dd85c85d6534e769d239080e068dd",
     "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run” /V “My ",
-    "http://gulfc.haifa.ac.il/index.php/the-ezri-center-in-the-media/291-the-ezri-center-in-the-media",
-    "http://www.iabg.de/),"
+    "http://www.iabg.de/),",
+    "http://gulfc.haifa.ac.il/index.php/the-ezri-center-in-the-media/291-the-ezri-center-in-the-media"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "rule_id": 400,
+  "rule_id": 330,
   "name": "Who's Hacking the Hackers_ No Honor Among Thieves",
   "description": "-",
   "references": [],
   "samples": [
+    "versions.Upon",
     "explorer.pdb",
     "taskhost.pdb",
-    "versions.Upon",
     "WindowsApplication2.pdb",
     "explorer.zip"
   ],

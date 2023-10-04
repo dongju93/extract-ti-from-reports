@@ -1,21 +1,21 @@
 {
-  "rule_id": 1164,
+  "rule_id": 966,
   "name": "The Muddy Waters of APT Attacks",
   "description": "-",
   "references": [],
   "samples": [
-    "Change.doc",
-    "IEAdvpack.dll",
-    "INFO.TXT",
-    "VMP.doc",
-    "Kazakhstan.doc",
-    "116.php",
-    "ieadvpack.dll",
-    "CiscoAny.exe",
+    "ID.dat",
     "Advpack.dll",
+    "INFO.TXT",
+    "IEAdvpack.dll",
     "Framework.exe",
+    "Change.doc",
     "GÖRÜŞÜ.doc",
-    "ID.dat"
+    "CiscoAny.exe",
+    "ieadvpack.dll",
+    "VMP.doc",
+    "116.php",
+    "Kazakhstan.doc"
   ],
   "weight": 0.0,
   "signatures": [

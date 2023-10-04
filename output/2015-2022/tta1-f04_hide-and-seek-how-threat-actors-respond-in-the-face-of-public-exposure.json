@@ -1,9 +1,9 @@
 {
-  "rule_id": 1027,
+  "rule_id": 854,
   "name": "tta1-f04_hide-and-seek-how-threat-actors-respond-in-the-face-of-public-exposure",
   "description": "-",
   "references": [],
-  "samples": ["aem.ae", "td.rtBD", "tl.iW", "l.to"],
+  "samples": ["tl.iW", "l.to", "aem.ae", "td.rtBD"],
   "weight": 0.0,
   "signatures": [
     "https://labs.bromium.com/2016/03/09/macro-malware-connecting-to-github/"

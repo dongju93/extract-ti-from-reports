@@ -1,13 +1,13 @@
 {
-  "rule_id": 186,
+  "rule_id": 151,
   "name": "The Urpage Connection to Bahamut Confucius and Patchwork",
   "description": "-",
   "references": ["CVE-2017-8750", "CVE-2017-12824"],
   "samples": [
-    "POWLOAD.GAA",
     "targets.We",
-    "threema.app",
-    "TROJ_CVE201711882.AG"
+    "TROJ_CVE201711882.AG",
+    "POWLOAD.GAA",
+    "threema.app"
   ],
   "weight": 0.0,
   "signatures": [

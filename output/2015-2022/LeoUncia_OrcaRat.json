@@ -1,9 +1,0 @@
-{
-  "rule_id": 533,
-  "name": "LeoUncia_OrcaRat",
-  "description": "-",
-  "references": [],
-  "samples": ["wbt.dat"],
-  "weight": 0.0,
-  "signatures": []
-}

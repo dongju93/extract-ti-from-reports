@@ -1,9 +1,9 @@
 {
-  "rule_id": 886,
+  "rule_id": 735,
   "name": "AA20-336A-APT_Actors_Targeting_US_ThinkTanks",
   "description": "-",
   "references": [],
-  "samples": ["cisa.gov", "cisa.dhs"],
+  "samples": ["cisa.dhs"],
   "weight": 0.0,
   "signatures": [
     "https://cisa.gov/tlp.",

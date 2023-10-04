@@ -1,15 +1,15 @@
 {
-  "rule_id": 515,
+  "rule_id": 429,
   "name": "Operation Kingphish_ Uncovering a Campaign of Cyber Attacks against Civil Society in Qatar and… – Amnesty Insights – Medium",
   "description": "-",
   "references": [],
   "samples": [
-    "loookout.forn",
-    "recollect.forn",
-    "drvie.goo",
     "puls.viwe",
     "termp.fs",
+    "recollect.forn",
     "139.XXX",
+    "loookout.forn",
+    "drvie.goo",
     "premissiion.viwe"
   ],
   "weight": 0.0,

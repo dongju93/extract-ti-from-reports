@@ -1,12 +1,12 @@
 {
-  "rule_id": 586,
+  "rule_id": 488,
   "name": "Babar_or_Bunny",
   "description": "-",
   "references": [],
-  "samples": ["00002794.html", "ntrass.exe"],
+  "samples": ["ntrass.exe", "00002794.html"],
   "weight": 0.0,
   "signatures": [
-    "c923e15718926bb4a80a29017d5b35bb841bd246",
-    "2c678924a3d4307644208b199afd20940c058b62"
+    "2c678924a3d4307644208b199afd20940c058b62",
+    "c923e15718926bb4a80a29017d5b35bb841bd246"
   ]
 }

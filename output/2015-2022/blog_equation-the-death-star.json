@@ -1,5 +1,5 @@
 {
-  "rule_id": 688,
+  "rule_id": 578,
   "name": "blog_equation-the-death-star",
   "description": "-",
   "references": [],
@@ -7,8 +7,8 @@
   "weight": 0.0,
   "signatures": [
     "a2a9e948fb829685d0a9161cac845fd0dfa943d023a6b2faab205fa8664b7c26",
+    "http://www.extremetech.com/computing/133773-rakshasa-the-",
     "http://www.spiegel.de/media/media-35661.pdf",
-    "http://spritesmods.com/?art=hddhack",
-    "http://www.extremetech.com/computing/133773-rakshasa-the-"
+    "http://spritesmods.com/?art=hddhack"
   ]
 }

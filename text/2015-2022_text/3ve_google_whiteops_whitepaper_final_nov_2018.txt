@@ -1784,21 +1784,21 @@ This HTML template is arbitrarily defining the size of the player based on the c
 
  4  
 
- 5  
-
- 6  
-
- 7  
-
- 8  
-
 [960,540], 
+
+ 5  
 
 [895,500], 
 
+ 6  
+
 [800,600], 
 
+ 7  
+
 [700,390] 
+
+ 8  
 
 ]; 
 
@@ -1822,13 +1822,13 @@ This HTML template is arbitrarily defining the size of the player based on the c
 
 16  
 
+<div id=“banners”> 
+
 17  
 
 18  
 
 19  
-
-<div id=“banners”> 
 
 <script src=“XXX”></script> 
 
@@ -1886,15 +1886,7 @@ from the page URL.
 
 4   
 
-var index; 
-
-if(t==1){var checksum = 12345678;} 
-
-if(t==2){var checksum = 00000000;s=s+s;} 
-
 5   
-
-for (index = 0; index < s.length; index++) { 
 
 6   
 
@@ -1908,6 +1900,14 @@ for (index = 0; index < s.length; index++) {
 
 11  
 12  
+
+var index; 
+
+if(t==1){var checksum = 12345678;} 
+
+if(t==2){var checksum = 00000000;s=s+s;} 
+
+for (index = 0; index < s.length; index++) { 
 
 checksum += (s.charCodeAt(index) * (index + 1)+t); 
 

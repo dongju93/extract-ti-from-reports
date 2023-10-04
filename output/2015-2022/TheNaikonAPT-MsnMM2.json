@@ -1,5 +1,5 @@
 {
-  "rule_id": 1217,
+  "rule_id": 1006,
   "name": "TheNaikonAPT-MsnMM2",
   "description": "-",
   "references": [],
@@ -9,7 +9,7 @@
     "bf6d3f52ab8176122be858ddccc22148",
     "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\",
     "http://www.apcss.org/)",
-    "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,",
-    "http://www.aspistrategist."
+    "http://www.aspistrategist.",
+    "http://www.apcss.org/wp-content/uploads/2013/01/finalfinalhandbookJan13.pdf,"
   ]
 }

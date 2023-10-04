@@ -1,9 +1,9 @@
 {
-  "rule_id": 567,
+  "rule_id": 472,
   "name": "Perl-Based Shellbot Looks to Target Organizations via C&C - TrendLabs Security Intelligence Blog",
   "description": "-",
   "references": [],
-  "samples": ["n.tgz", "speed.sh", "i.tmp", "SHELLBOT.SM"],
+  "samples": ["speed.sh", "SHELLBOT.SM", "n.tgz", "i.tmp"],
   "weight": 0.0,
   "signatures": []
 }

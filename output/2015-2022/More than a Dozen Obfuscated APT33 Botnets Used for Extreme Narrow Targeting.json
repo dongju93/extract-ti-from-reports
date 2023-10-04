@@ -1,9 +1,9 @@
 {
-  "rule_id": 1251,
+  "rule_id": 1030,
   "name": "More than a Dozen Obfuscated APT33 Botnets Used for Extreme Narrow Targeting",
   "description": "-",
   "references": [],
-  "samples": ["Win32.SCAR", "MsdUpdate.ex"],
+  "samples": ["MsdUpdate.ex", "Win32.SCAR"],
   "weight": 0.0,
   "signatures": []
 }

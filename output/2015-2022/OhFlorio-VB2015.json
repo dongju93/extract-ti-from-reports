@@ -1,28 +1,28 @@
 {
-  "rule_id": 199,
+  "rule_id": 161,
   "name": "OhFlorio-VB2015",
   "description": "-",
   "references": [],
   "samples": [
-    "vm.read",
     "escalation.pdf",
+    "Profit.pdf",
+    "nikhef.nl",
+    "vm.read",
+    "siberas.de",
+    "CR4.SMEP",
     "getset.cxx",
     "x64.html",
-    "nikhef.nl",
-    "Profit.pdf",
-    "Slides.pdf",
-    "CR4.SMEP",
-    "siberas.de"
+    "Slides.pdf"
   ],
   "weight": 0.0,
   "signatures": [
     "https://labs.mwrinfosecurity.com/blog/2014",
-    "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf",
-    "http://bofh.nikhef.nl/events/HitB/hitb-2014-",
+    "http://j00ru.vexillium.org/?p=783",
     "http://blog.ptsecurity.com/2012/09/bypassi",
+    "http://bofh.nikhef.nl/events/HitB/hitb-2014-",
     "http://www.siberas.de/papers/Pwn2Own_20",
-    "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf",
     "http://j00ru.vexillium.org/dump/recon2015.",
-    "http://j00ru.vexillium.org/?p=783"
+    "http://www.siberas.de/papers/Pwn2Own_2014_AFD.sys_privilege_escalation.pdf",
+    "https://media.blackhat.com/bh-us-12/Briefings/M_Miller/BH_US_12_Miller_Exploit_Mitigation_Slides.pdf"
   ]
 }

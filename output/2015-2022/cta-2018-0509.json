@@ -1,9 +1,9 @@
 {
-  "rule_id": 1072,
+  "rule_id": 890,
   "name": "cta-2018-0509",
   "description": "-",
   "references": [],
-  "samples": ["Parsijoo.ir", "Khamanei.ir", "Gerdab.ir"],
+  "samples": ["Khamanei.ir", "Gerdab.ir", "Parsijoo.ir"],
   "weight": 0.0,
   "signatures": [
     "http://hackingscripts.com/simattacker-shell/",

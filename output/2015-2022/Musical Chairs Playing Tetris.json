@@ -1,33 +1,33 @@
 {
-  "rule_id": 497,
+  "rule_id": 413,
   "name": "Musical Chairs Playing Tetris",
   "description": "-",
   "references": [],
   "samples": [
-    "snippet.png",
     "300x242.png",
-    "properties.png",
-    "CNCs.png",
-    "ARBORNETWORKS.COM",
-    "com.png",
-    "RasTls.dat",
-    "pcap.png",
-    "END.DDOS",
     "www.arb",
     "lite.png",
+    "ARBORNETWORKS.COM",
+    "END.DDOS",
+    "CNCs.png",
     "tetris.png",
+    "properties.png",
+    "snippet.png",
+    "arbor.link",
+    "pcap.png",
+    "com.png",
     "communications.html",
-    "arbor.link"
+    "RasTls.dat"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
     "http://www.malware-tra",
-    "https://www.sans.org/reading-",
-    "https://www.paloaltonetworks.com/threat-research)",
+    "http://arbor.link/ntctblog)",
+    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
     "http://arbor.link/ntctwww)",
     "https://www.arb",
+    "https://www.paloaltonetworks.com/threat-research)",
     "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-",
-    "http://arbor.link/ntctblog)"
+    "https://www.sans.org/reading-"
   ]
 }

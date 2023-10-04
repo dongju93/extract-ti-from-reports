@@ -1,35 +1,36 @@
 {
-  "rule_id": 292,
+  "rule_id": 236,
   "name": "kingslayer-a-supply-chain-attack",
   "description": "-",
   "references": [],
   "samples": [
-    "The_Monju_Incident1.pdf",
-    "Practices.pdf",
-    "updatecheck.html",
-    "crew.pdf",
-    "BP.EXE",
+    "www.emc",
+    "publicsafety.gc",
     "eng.aspx",
+    "crew.pdf",
     "mailcheck.png",
+    "The_Monju_Incident1.pdf",
+    "BP.EXE",
+    "Practices.pdf",
     "blogs.rsa",
     "csrc.nist",
-    "publicsafety.gc"
+    "updatecheck.html"
   ],
   "weight": 0.0,
   "signatures": [
+    "76ab4a360b59fe99be1ba7b9488b5188",
+    "f97a2744a4964044c60ac241f92e05d7",
     "5c36e8d5beee7fbc0377db59071b9980",
     "1b57396c834d2eb364d28eb0eb28d8e4",
-    "f97a2744a4964044c60ac241f92e05d7",
-    "76ab4a360b59fe99be1ba7b9488b5188",
-    "http://csrc.nist.gov/scrm/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-",
-    "https://www.ncsc.gov.uk/content/files/protected_files/guidance_files/Cyber-security-risks-in-",
     "http://www.slideshare.net/harmj0y/i-hunt-sys-admins-20",
-    "http://www.oraclesoft.net/mailcheck.png",
     "https://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf",
-    "http://blogs.rsa.com/schoolbell-class-is-in-session",
+    "http://www.oraclesoft.net/mailcheck.png",
+    "https://www.ncsc.gov.uk/content/files/protected_files/guidance_files/Cyber-security-risks-in-",
+    "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/ccirc-ccric-eng.aspx",
     "https://community.rsa.com/docs/DOC-62341",
     "https://msisac.cisecurity.org",
-    "http://www.contextis.com/documents/30/TA10009_20140127_-_CTI_Threat_Advisory_-_",
-    "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/ccirc-ccric-eng.aspx"
+    "http://blogs.rsa.com/schoolbell-class-is-in-session",
+    "http://csrc.nist.gov/scrm/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-",
+    "http://www.contextis.com/documents/30/TA10009_20140127_-_CTI_Threat_Advisory_-_"
   ]
 }

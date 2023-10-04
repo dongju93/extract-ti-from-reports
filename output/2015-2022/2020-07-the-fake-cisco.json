@@ -1,35 +1,35 @@
 {
-  "rule_id": 839,
+  "rule_id": 699,
   "name": "2020-07-the-fake-cisco",
   "description": "-",
   "references": [],
   "samples": [
-    "series.html",
-    "E7.bin",
-    "gear.html",
+    "E.bin",
+    "EX5.bin",
+    "porter.bin",
     "ipp.bin",
-    "ppc1.bin",
     "fw.bin",
     "ppc.bin",
-    "porter.bin",
+    "gear.html",
+    "series.html",
+    "ppc1.bin",
     "module.html",
-    "E.bin",
-    "EX5.bin"
+    "E7.bin"
   ],
   "weight": 0.0,
   "signatures": [
     "1422575698b28bb6df41942e2147f696f0ce6be9f126cc4e308861047408a647",
-    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190513-secureboot",
-    "https://www.macom.com/products/product-detail/APM86392",
-    "https://www.pcworld.com/article/2920032/uk-gang-arrested-for-exporting-10-million-of-fake-cisco-gear-to-us.html",
-    "https://linuxdevices.org/dual-core-15ghz-soc-touted-for-power-management-concurrency/",
-    "https://blogs.cisco.com/partner/perform-transform-and-protect",
-    "https://linuxdevices.org/powerpc-soc-available-with-dual-cores/",
-    "https://www.infoworld.com/article/2653167/fbi-worried-as-dod-sold-counterfeit-cisco-gear.html",
-    "https://docplayer.net/995240-Appliedmicro-trusted-management-module.html",
-    "https://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/series.html",
     "https://tools.ietf.org/html/rfc2313",
     "https://www.embedded.com/applied-micro-adds-arm-core-in-cut-down-security-processor/",
-    "https://www.sdxcentral.com/articles/news/cisco-wins-latest-battle-in-war-against-chinese-counterfeiters/2019/12/"
+    "https://linuxdevices.org/dual-core-15ghz-soc-touted-for-power-management-concurrency/",
+    "https://blogs.cisco.com/partner/perform-transform-and-protect",
+    "https://www.infoworld.com/article/2653167/fbi-worried-as-dod-sold-counterfeit-cisco-gear.html",
+    "https://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/series.html",
+    "https://docplayer.net/995240-Appliedmicro-trusted-management-module.html",
+    "https://www.pcworld.com/article/2920032/uk-gang-arrested-for-exporting-10-million-of-fake-cisco-gear-to-us.html",
+    "https://www.sdxcentral.com/articles/news/cisco-wins-latest-battle-in-war-against-chinese-counterfeiters/2019/12/",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190513-secureboot",
+    "https://linuxdevices.org/powerpc-soc-available-with-dual-cores/",
+    "https://www.macom.com/products/product-detail/APM86392"
   ]
 }

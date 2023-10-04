@@ -1,30 +1,30 @@
 {
-  "rule_id": 1268,
+  "rule_id": 1044,
   "name": "The Naikon APT - Securelist",
   "description": "-",
   "references": [],
   "samples": [
     "laotel08.vicp",
-    "vietkey.xicp",
-    "macstore.vicp",
-    "ggpw.pw",
-    "o.wm",
-    "yahoomail.pw",
-    "mlfjcjssl.gicp",
-    "kevins.pw",
     "baomoi.vicp",
-    "googledata.pw",
-    "telcom.dhtu",
-    "moziliafirefox.wicp",
-    "htkg009.gicp",
+    "yahoomail.pw",
+    "o.wm",
     "user123.vicp",
-    "lovethai.vicp"
+    "macstore.vicp",
+    "telcom.dhtu",
+    "mlfjcjssl.gicp",
+    "lovethai.vicp",
+    "vietkey.xicp",
+    "googledata.pw",
+    "htkg009.gicp",
+    "ggpw.pw",
+    "moziliafirefox.wicp",
+    "kevins.pw"
   ],
   "weight": 0.0,
   "signatures": [
-    "93e84075bef7a11832d9c5aa70135dc6",
+    "d74a7e7a4de0da503472f1f051b68745",
     "b4a8dc9eb26e727eafb6c8477963829c",
-    "172fd9cce78de38d8cbcad605e3d6675",
-    "d74a7e7a4de0da503472f1f051b68745"
+    "93e84075bef7a11832d9c5aa70135dc6",
+    "172fd9cce78de38d8cbcad605e3d6675"
   ]
 }

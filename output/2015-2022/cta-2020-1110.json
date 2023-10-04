@@ -1,14 +1,14 @@
 {
-  "rule_id": 1178,
+  "rule_id": 978,
   "name": "cta-2020-1110",
   "description": "-",
   "references": [],
   "samples": [
     "SoftwareUpdateFiles.dll",
     "SoftwareUpdate.exe",
-    "Cambodia.docx",
     "SoftwareUpdateFilesLocalized.dll",
-    "FINAL.docx"
+    "FINAL.docx",
+    "Cambodia.docx"
   ],
   "weight": 0.0,
   "signatures": [

@@ -177,9 +177,9 @@ Indian
 2013 年 5 月 20 日  Operation Hangover: Q&A on Attacks3 
 2013 年 5 月 21 日  Big Hangover 
 
-2013 年 6 月 5 日 
-
 2013 年 6 月 7 日 
+
+2013 年 6 月 5 日 
 
 2013 年 11 月 5 日 
 
@@ -195,9 +195,9 @@ Updates  and Mitigation  to  Microsoft  Office Zero-Day
 Threat (CVE-2013-3906)8 
 2013 年 11 月 6 日  VICEROY TIGER Delivers New Zero-Day Exploit9 
 
-2013 年 11 月 6 日 
-
 2013 年 11 月 5 日 
+
+2013 年 11 月 6 日 
 
 2013 年 11 月 7 日 
 

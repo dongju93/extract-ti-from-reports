@@ -1,25 +1,25 @@
 {
-  "rule_id": 365,
+  "rule_id": 299,
   "name": "CN_Dacls, the Dual platform RAT",
   "description": "-",
   "references": [],
-  "samples": ["public.avi", "hdv.log", "hdv.rm", "wm64.avi"],
+  "samples": ["public.avi", "hdv.rm", "hdv.log", "wm64.avi"],
   "weight": 0.0,
   "signatures": [
     "cef99063e85af8b065de0ffa9d26cb03",
-    "b578ccf307d55d3267f98349e20ecff1",
     "6de65fc57a4428ad7e262e980a7f6cc7",
+    "b578ccf307d55d3267f98349e20ecff1",
     "e14724498374cb9b80a77b7bfeb1d1bd342ee139",
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/rdata.dat",
+    "https://blog.netlab.360.com/dacls-the-dual-platform-rat/",
     "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/check.vm",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/ldata.dat",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/sdata.dat",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/r.vm",
-    "http://www.areac-agr.com/cms/wp-",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/hdata.dat",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/mdata.dat",
     "http://thevagabondsatchel.com/wp-content/uploads/2019/09/public.avi",
     "https://thevagabondsatchel.com/wp-content/uploads/2019/03/wm64.avi",
-    "https://blog.netlab.360.com/dacls-the-dual-platform-rat/",
-    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/rdata.dat"
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/ldata.dat",
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/mdata.dat",
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/r.vm",
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/hdata.dat",
+    "http://www.areac-agr.com/cms/wp-content/uploads/2015/12/sdata.dat",
+    "http://www.areac-agr.com/cms/wp-"
   ]
 }

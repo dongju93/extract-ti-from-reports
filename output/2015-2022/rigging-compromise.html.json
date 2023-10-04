@@ -1,9 +1,9 @@
 {
-  "rule_id": 578,
+  "rule_id": 482,
   "name": "rigging-compromise.html",
   "description": "-",
   "references": [],
-  "samples": ["systemrestore.exe", "dissdkchk.exe", "defsrag.exe"],
+  "samples": ["defsrag.exe", "dissdkchk.exe", "systemrestore.exe"],
   "weight": 0.0,
   "signatures": []
 }

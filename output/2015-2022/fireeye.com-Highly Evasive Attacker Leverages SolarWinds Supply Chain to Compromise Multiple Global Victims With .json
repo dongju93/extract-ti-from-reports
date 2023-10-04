@@ -1,27 +1,27 @@
 {
-  "rule_id": 955,
+  "rule_id": 794,
   "name": "fireeye.com-Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With ",
   "description": "-",
   "references": [],
   "samples": [
-    "BusinessLayerHostx64.exe",
-    "api.us",
-    "Orion.Core",
-    "api.eu",
-    "netsetupsvc.dll",
-    "BusinessLayerHost.exe",
-    "NetSetupSvc.dll",
     "Hotfix5.msp",
+    "businesslayerhost.exe",
+    "netsetupsvc.dll",
+    "api.eu",
+    "api.us",
     "backdoor.html",
     "BusinessLayer.dll",
-    "businesslayerhost.exe"
+    "BusinessLayerHostx64.exe",
+    "BusinessLayerHost.exe",
+    "Orion.Core",
+    "NetSetupSvc.dll"
   ],
   "weight": 0.0,
   "signatures": [
     "b91ce2fa41029f6955bff20079468448",
     "02af7cec58b9a5da1c542b5a32151ba1",
+    "HKU\\SOFTWARE\\Microsoft\\CTF exists,",
     "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Cryptography\\MachineGuid. The userID is encoded via a custom",
-    "HKLM\\SYSTEM\\CurrentControlSet\\services\\<service_name>\\Start registry entries to value 4 for disabled. Some",
-    "HKU\\SOFTWARE\\Microsoft\\CTF exists,"
+    "HKLM\\SYSTEM\\CurrentControlSet\\services\\<service_name>\\Start registry entries to value 4 for disabled. Some"
   ]
 }

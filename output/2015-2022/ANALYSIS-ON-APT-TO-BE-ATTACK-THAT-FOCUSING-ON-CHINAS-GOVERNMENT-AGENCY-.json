@@ -1,19 +1,19 @@
 {
-  "rule_id": 106,
+  "rule_id": 87,
   "name": "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-",
   "description": "-",
   "references": [],
-  "samples": ["ab.exe", "build.sh", "www.hick", "Microsoft.EXE", "Mudge.html"],
+  "samples": ["build.sh", "Mudge.html", "www.hick", "Microsoft.EXE", "ab.exe"],
   "weight": 0.0,
   "signatures": [
     "44BCF2DD262F12222ADEAB6F59B2975B",
-    "https://plus.google.com/116899857642591292745/posts",
-    "http://www.antiy.com",
+    "http://www.oldschoolirc.com/",
+    "http://www.antiy.cn",
     "http://146.0.43.107/hfYn.",
-    "http://www.hick.org/",
     "http://www.antiy.net",
     "http://www.blackhat.com/html/bh-us-12/speakers/Raphael-Mudge.html",
-    "http://www.oldschoolirc.com/",
-    "http://www.antiy.cn"
+    "https://plus.google.com/116899857642591292745/posts",
+    "http://www.hick.org/",
+    "http://www.antiy.com"
   ]
 }

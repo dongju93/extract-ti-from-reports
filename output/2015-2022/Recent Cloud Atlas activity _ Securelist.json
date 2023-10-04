@@ -1,16 +1,9 @@
 {
-  "rule_id": 71,
+  "rule_id": 57,
   "name": "Recent Cloud Atlas activity _ Securelist",
   "description": "-",
   "references": [],
-  "samples": [
-    "PG.zip",
-    "Content.Word",
-    "vbs.dat",
-    "pass.txt",
-    "infocentre.gov",
-    "temp.xml"
-  ],
+  "samples": ["vbs.dat", "pass.txt", "PG.zip", "temp.xml", "Content.Word"],
   "weight": 0.0,
   "signatures": [
     "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"

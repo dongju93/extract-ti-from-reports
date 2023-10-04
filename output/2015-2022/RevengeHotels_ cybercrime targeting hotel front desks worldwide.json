@@ -1,21 +1,21 @@
 {
-  "rule_id": 916,
+  "rule_id": 761,
   "name": "RevengeHotels_ cybercrime targeting hotel front desks worldwide",
   "description": "-",
   "references": [],
   "samples": [
+    "Reservation.docx",
     "RevengeHotels.gen",
     "Downloader.MSIL",
-    "Reservation.docx",
-    "Revenge.gen",
-    "Associados.docx"
+    "Associados.docx",
+    "Revenge.gen"
   ],
   "weight": 0.0,
   "signatures": [
-    "df632e25c32e8f8ad75ed3c50dd1cd47",
-    "81701c891a1766c51c74bcfaf285854b",
     "e675bdf6557350a02f15c14f386fcc47",
+    "df632e25c32e8f8ad75ed3c50dd1cd47",
     "a089efd7dd9180f9b726594bb6cf81ae",
+    "81701c891a1766c51c74bcfaf285854b",
     "74440d5d0e6ae9b9a03d06dd61718f66"
   ]
 }

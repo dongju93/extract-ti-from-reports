@@ -1,9 +1,9 @@
 {
-  "rule_id": 23,
+  "rule_id": 17,
   "name": "Cybereason-Labs-Analysis-Webmail-Sever-APT",
   "description": "-",
   "references": [],
-  "samples": ["OWAAUTH.DLL", "OWAAUTH.dll", "log.txt"],
+  "samples": ["OWAAUTH.dll", "log.txt", "OWAAUTH.DLL"],
   "weight": 0.0,
   "signatures": []
 }

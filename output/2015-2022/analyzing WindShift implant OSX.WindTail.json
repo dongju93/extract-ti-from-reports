@@ -1,26 +1,26 @@
 {
-  "rule_id": 1110,
+  "rule_id": 921,
   "name": "analyzing WindShift implant OSX.WindTail",
   "description": "-",
   "references": [],
   "samples": [
-    "Presentation.app",
-    "Agenda.zip",
-    "date.txt",
-    "Scandal_Report_2017.zip",
-    "com.alis",
     "fsfSQNrIyxeRvXH.php",
+    "date.txt",
+    "Presentation.zip",
+    "Agenda.zip",
+    "com.alis",
     "kESklNvxsNZQcPl.php",
-    "Presentation.zip"
+    "Scandal_Report_2017.zip",
+    "Presentation.app"
   ],
   "weight": 0.0,
   "signatures": [
-    "6d1614617732f106d5ab01125cb8e57119f29d91",
-    "4613f5b1e172cb08d6a2e7f2186e2fdd875b24e5",
-    "df2a83dc0ae09c970e7318b93d95041395976da7",
     "da342c4ca1b2ab31483c6f2d43cdcc195dfe481b",
+    "4613f5b1e172cb08d6a2e7f2186e2fdd875b24e5",
+    "6d1614617732f106d5ab01125cb8e57119f29d91",
+    "df2a83dc0ae09c970e7318b93d95041395976da7",
+    "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?",
     "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?very=%@&xnvk=%@",
-    "https://objective-see.com/blog/blog_0x3B.html",
-    "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?"
+    "https://objective-see.com/blog/blog_0x3B.html"
   ]
 }

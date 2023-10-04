@@ -1,16 +1,16 @@
 {
-  "rule_id": 42,
+  "rule_id": 31,
   "name": "Is Emotet gang targeting companies with external SOC",
   "description": "-",
   "references": [],
   "samples": [
-    "EFENTIAL.exe",
     "2019.doc",
-    "stdole2.tlb",
     "MSForms.exd",
-    "MSO.DLL",
     "FM20.DLL",
     "EFENTIAL.pdb",
+    "EFENTIAL.exe",
+    "stdole2.tlb",
+    "MSO.DLL",
     "whoami.php"
   ],
   "weight": 0.0,

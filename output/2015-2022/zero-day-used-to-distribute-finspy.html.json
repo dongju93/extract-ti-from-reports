@@ -1,9 +1,9 @@
 {
-  "rule_id": 610,
+  "rule_id": 510,
   "name": "zero-day-used-to-distribute-finspy.html",
   "description": "-",
   "references": [],
-  "samples": ["wsdlparser.cs", "Проект.doc", "word.db", "Remoting.ni"],
+  "samples": ["Remoting.ni", "wsdlparser.cs", "word.db", "Проект.doc"],
   "weight": 0.0,
   "signatures": [
     "fe5c4d6bb78e170abf5cf3741868ea4c",

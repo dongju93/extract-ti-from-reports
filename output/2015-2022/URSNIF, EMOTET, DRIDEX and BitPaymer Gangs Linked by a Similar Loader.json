@@ -1,14 +1,14 @@
 {
-  "rule_id": 1024,
+  "rule_id": 851,
   "name": "URSNIF, EMOTET, DRIDEX and BitPaymer Gangs Linked by a Similar Loader",
   "description": "-",
   "references": [],
   "samples": [],
   "weight": 0.0,
   "signatures": [
-    "0a47f5b274e803754ce84ebd66599eb35795fb851f55062ff042e73e2b9d5763",
     "cbd130b4b714c9bb0a62e45b2e07f3ab20a6db3abd1899aa3ec21f402d25779e",
+    "9d38a0220b2dfb353fc34d03079f2ba2c7de1d4a234f6a2b06365bfc1870cd89",
     "d693c33dd550529f3634e3c7e53d82df70c9d4fbd0c339dbc1849ada9e539ea2",
-    "9d38a0220b2dfb353fc34d03079f2ba2c7de1d4a234f6a2b06365bfc1870cd89"
+    "0a47f5b274e803754ce84ebd66599eb35795fb851f55062ff042e73e2b9d5763"
   ]
 }

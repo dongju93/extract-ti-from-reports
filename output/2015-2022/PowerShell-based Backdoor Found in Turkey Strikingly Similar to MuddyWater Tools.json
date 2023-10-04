@@ -1,16 +1,16 @@
 {
-  "rule_id": 750,
+  "rule_id": 629,
   "name": "PowerShell-based Backdoor Found in Turkey Strikingly Similar to MuddyWater Tools",
   "description": "-",
   "references": [],
   "samples": [
-    "png.dll",
     "WIN32.PO",
-    "Raport.doc",
-    "Win32.POWR",
-    "UN.AA",
     "B.reg",
-    "WRUN.AA"
+    "png.dll",
+    "UN.AA",
+    "Raport.doc",
+    "WRUN.AA",
+    "Win32.POWR"
   ],
   "weight": 0.0,
   "signatures": []

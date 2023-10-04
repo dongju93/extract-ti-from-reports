@@ -1,18 +1,18 @@
 {
-  "rule_id": 771,
+  "rule_id": 646,
   "name": "SectorJ04 Group’s Increased Activity in 2019",
   "description": "-",
   "references": [],
   "samples": [
+    "rundl32.exe",
     "reportView.do",
     "ncExec.dll",
     "ComputerDefaults.exe",
-    "krcert.or",
-    "rundl32.exe"
+    "krcert.or"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://www.krcert.or.kr/data/reportView.do?bulletin_writing_sequence=35006",
-    "https://threatrecon.nshc.net/2019/08/29/sectorj04-groups-increased-activity-in-2019/"
+    "https://threatrecon.nshc.net/2019/08/29/sectorj04-groups-increased-activity-in-2019/",
+    "https://www.krcert.or.kr/data/reportView.do?bulletin_writing_sequence=35006"
   ]
 }

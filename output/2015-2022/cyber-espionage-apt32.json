@@ -1,13 +1,13 @@
 {
-  "rule_id": 850,
+  "rule_id": 707,
   "name": "cyber-espionage-apt32",
   "description": "-",
   "references": [],
   "samples": [
-    "gapte.name",
     "luat.doc",
+    "Vietnam.exe",
     "2017年员工工资性津贴额统计报告.doc",
-    "Vietnam.exe"
+    "gapte.name"
   ],
   "weight": 0.0,
   "signatures": []

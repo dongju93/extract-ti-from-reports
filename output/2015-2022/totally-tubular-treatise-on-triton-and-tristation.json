@@ -1,31 +1,31 @@
 {
-  "rule_id": 147,
+  "rule_id": 119,
   "name": "totally-tubular-treatise-on-triton-and-tristation",
   "description": "-",
   "references": [],
   "samples": [
-    "Lagcom.dll",
     "STRS.CPP",
-    "Lagcom40.dll",
-    "TricCom.DLL",
-    "tr1com40.DLL",
-    "TridCom.dll",
-    "TS1131.exe",
-    "TriLog.exe",
-    "tr1com40.dll",
+    "Data1.cab",
     "Triccom.dll",
+    "tr1com40.DLL",
+    "TriLog.exe",
+    "Lagcom40.dll",
+    "Lagcom.dll",
+    "TridCom.dll",
+    "Tridcom.dll",
     "Tr1com40.dll",
     "com.dll",
-    "Tridcom.dll",
-    "Data1.cab",
-    "LAGSTRS.CPP"
+    "TricCom.DLL",
+    "LAGSTRS.CPP",
+    "tr1com40.dll",
+    "TS1131.exe"
   ],
   "weight": 0.0,
   "signatures": [
+    "5c2ed617fdec4779cb33c89082a43100",
     "069247df527a96a0e048732ca57e7d3d",
     "069247DF527A96A0E048732CA57E7D3D",
-    "13a3b83ba2c4236ca59aba679941c8a5",
-    "5c2ed617fdec4779cb33c89082a43100",
-    "e6a3c93a6d433cbaf6f573b6c09d76c4"
+    "e6a3c93a6d433cbaf6f573b6c09d76c4",
+    "13a3b83ba2c4236ca59aba679941c8a5"
   ]
 }

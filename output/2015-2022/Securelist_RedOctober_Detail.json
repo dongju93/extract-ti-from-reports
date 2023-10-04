@@ -1,9 +1,0 @@
-{
-  "rule_id": 1192,
-  "name": "Securelist_RedOctober_Detail",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,9 +1,9 @@
 {
-  "rule_id": 311,
+  "rule_id": 252,
   "name": "No Rest for the Wicked_ Evilnum Unleashes PyVil RAT",
   "description": "-",
   "references": [],
-  "samples": ["nvStinst.exe", "1.lnk", "Fplayer.exe"],
+  "samples": ["nvStinst.exe", "Fplayer.exe", "1.lnk"],
   "weight": 0.0,
   "signatures": [
     "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"

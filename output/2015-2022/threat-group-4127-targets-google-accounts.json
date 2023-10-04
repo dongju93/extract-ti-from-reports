@@ -1,5 +1,5 @@
 {
-  "rule_id": 560,
+  "rule_id": 466,
   "name": "threat-group-4127-targets-google-accounts",
   "description": "-",
   "references": [],

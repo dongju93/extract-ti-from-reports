@@ -1,9 +1,9 @@
 {
-  "rule_id": 92,
+  "rule_id": 76,
   "name": "Chineses Actor APT target Ministry of Justice Vietnamese",
   "description": "-",
   "references": [],
-  "samples": ["proxy.exe", "wsc.dll", "app.any"],
+  "samples": ["app.any", "wsc.dll", "proxy.exe"],
   "weight": 0.0,
   "signatures": [
     "f34514118eb4689560cd6c0c654f26d9",

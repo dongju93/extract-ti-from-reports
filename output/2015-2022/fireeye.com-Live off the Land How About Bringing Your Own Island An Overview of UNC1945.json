@@ -1,25 +1,25 @@
 {
-  "rule_id": 1017,
+  "rule_id": 849,
   "name": "fireeye.com-Live off the Land How About Bringing Your Own Island An Overview of UNC1945",
   "description": "-",
   "references": [],
   "samples": [
-    "0.so",
-    "libXbleach.so",
-    "unix.so",
-    "ROLLCOAST.MVX",
-    "EVILSUN.MVX",
     "unc1945.html",
+    "0.so",
+    "EVILSUN.MVX",
+    "Ransomware.Win",
+    "ROLLCOAST.MVX",
+    "unix.so",
     "librpmio.so",
-    "Ransomware.Win"
+    "libXbleach.so"
   ],
   "weight": 0.0,
   "signatures": [
-    "0845835e18a3ed4057498250d30a11b1",
     "d5b9a1845152d8ad2b91af044ff16d0b",
-    "2eff2273d423a7ae6c68e3ddd96604bc",
     "d505533ae75f89f98554765aaf2a330a",
+    "abaf1d04982449e0f7ee8a34577fe8af",
     "6983f7001de10f4d19fc2d794c3eb534",
-    "abaf1d04982449e0f7ee8a34577fe8af"
+    "2eff2273d423a7ae6c68e3ddd96604bc",
+    "0845835e18a3ed4057498250d30a11b1"
   ]
 }

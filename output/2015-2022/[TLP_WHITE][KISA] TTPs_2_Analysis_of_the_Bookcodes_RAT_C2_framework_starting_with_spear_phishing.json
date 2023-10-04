@@ -1,22 +1,22 @@
 {
-  "rule_id": 917,
+  "rule_id": 762,
   "name": "[TLP_WHITE][KISA] TTPs_2_Analysis_of_the_Bookcodes_RAT_C2_framework_starting_with_spear_phishing",
   "description": "-",
   "references": [],
   "samples": [
-    "perfcon.dat",
-    "www.boho",
-    "castle.do",
-    "vaccines.by",
-    "BIN0002.bmp",
-    "sublist3.asp",
+    "BIN0001.ps",
     "whistl.do",
-    "BIN0001.ps"
+    "www.boho",
+    "perfcon.dat",
+    "castle.do",
+    "sublist3.asp",
+    "BIN0002.bmp",
+    "vaccines.by"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://www.boho.or.kr/download/whistlCastle/whistl.do)",
     "https://www.boho.or.kr/download/whistlCastle/castle.do)",
+    "https://www.boho.or.kr/download/whistlCastle/whistl.do)",
     "https://virustinal.github.io/yara/"
   ]
 }

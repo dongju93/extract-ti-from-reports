@@ -1,17 +1,17 @@
 {
-  "rule_id": 640,
+  "rule_id": 536,
   "name": "APT-C-34.cn",
   "description": "-",
   "references": [],
   "samples": [
-    "Falcon.html",
-    "n.bi",
-    "dCh8RnL1.ODo",
+    "lb.data",
     "tv.dll",
     "dCh8RnL1.Odo",
-    "userinit.dll",
+    "dCh8RnL1.ODo",
+    "n.bi",
+    "Falcon.html",
     "17.stcz",
-    "lb.data"
+    "userinit.dll"
   ],
   "weight": 0.0,
   "signatures": [

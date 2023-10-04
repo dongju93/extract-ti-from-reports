@@ -1,9 +1,9 @@
 {
-  "rule_id": 1156,
+  "rule_id": 959,
   "name": "MESSAGETAP_ Who’s Reading Your Text Messages",
   "description": "-",
   "references": [],
-  "samples": ["parm.txt", "www.etsi", "messages.html"],
+  "samples": ["p.pdf", "parm.txt", "messages.html", "www.etsi"],
   "weight": 0.0,
   "signatures": [
     "8D3B3D5B68A1D08485773D70C186D877",

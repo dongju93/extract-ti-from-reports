@@ -6,9 +6,9 @@
   "samples": ["cmd.exe"],
   "weight": 0.0,
   "signatures": [
-    "https://www.nccgroup.trust/uk/our-research/ebook-",
     "https://www.nccgroup.trust/uk/about-",
     "https://t.co/Zu4HptA4Ut)",
+    "https://www.nccgroup.trust/uk/our-research/ebook-",
     "https://t.co/ENg7QQ7Ob4)"
   ]
 }

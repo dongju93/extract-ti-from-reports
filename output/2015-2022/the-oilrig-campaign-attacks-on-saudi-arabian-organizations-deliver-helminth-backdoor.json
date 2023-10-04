@@ -1,20 +1,20 @@
 {
-  "rule_id": 899,
+  "rule_id": 747,
   "name": "the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor",
   "description": "-",
   "references": ["CVE-2015-7547"],
   "samples": [
-    "Managment.lnk",
-    "adbtray.exe",
-    "adbmanager.exe",
-    "wss.Run",
-    "joboffer.chm",
-    "Helminth.pdb",
-    "joboffer.zip",
     "Certificate.ico",
+    "wss.Run",
+    "adbmanager.exe",
+    "Helminth.pdb",
+    "adbtray.exe",
+    "Managment.lnk",
+    "joboffer.chm",
+    "joboffer.zip",
+    "kernel.ws",
     "wintrust.hlm",
-    "kk.tmp",
-    "kernel.ws"
+    "kk.tmp"
   ],
   "weight": 0.0,
   "signatures": [

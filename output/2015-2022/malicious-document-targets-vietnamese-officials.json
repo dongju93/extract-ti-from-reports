@@ -1,14 +1,14 @@
 {
-  "rule_id": 1013,
+  "rule_id": 846,
   "name": "malicious-document-targets-vietnamese-officials",
   "description": "-",
   "references": [],
   "samples": [
-    "Winword.exe",
-    "dascgosrky.exe",
     "Dascgosrky.exe",
     "onstaticcache.dat",
-    "impresstravel.ga"
+    "dascgosrky.exe",
+    "impresstravel.ga",
+    "Winword.exe"
   ],
   "weight": 0.0,
   "signatures": [
