@@ -3,7 +3,7 @@
   "name": "rigging-compromise.html",
   "description": "-",
   "references": [],
-  "samples": ["defsrag.exe", "dissdkchk.exe", "systemrestore.exe"],
+  "samples": ["systemrestore.exe", "dissdkchk.exe", "defsrag.exe"],
   "weight": 0.0,
   "signatures": []
 }

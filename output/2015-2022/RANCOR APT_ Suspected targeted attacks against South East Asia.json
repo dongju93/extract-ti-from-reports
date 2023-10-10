@@ -3,7 +3,7 @@
   "name": "RANCOR APT_ Suspected targeted attacks against South East Asia",
   "description": "-",
   "references": [],
-  "samples": ["d.tmp", "apt.html", "OSE91E4.tmp", "Photo.vbs", "Mr.Ratt"],
+  "samples": ["d.tmp", "OSE91E4.tmp", "Photo.vbs", "apt.html", "Mr.Ratt"],
   "weight": 0.0,
   "signatures": [
     "7b973145f7e1b59330ca4dd1f86b3d55",

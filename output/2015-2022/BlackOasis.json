@@ -4,14 +4,14 @@
   "description": "-",
   "references": ["CVE-2017-11292", "CVE-2016-0984", "CVE-2017-8759"],
   "samples": [
+    "u.iaf",
+    "d3d9.dll",
+    "AdapterTroubleshooter.exe",
+    "install.cab",
+    "15b937.cab",
     "mo.exe",
     "msvcr90.dll",
-    "32.html",
-    "u.iaf",
-    "AdapterTroubleshooter.exe",
-    "d3d9.dll",
-    "15b937.cab",
-    "install.cab"
+    "32.html"
   ],
   "weight": 0.0,
   "signatures": [

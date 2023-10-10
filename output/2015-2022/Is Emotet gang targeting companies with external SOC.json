@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "2019.doc",
-    "MSForms.exd",
-    "FM20.DLL",
-    "EFENTIAL.pdb",
-    "EFENTIAL.exe",
+    "whoami.php",
     "stdole2.tlb",
+    "MSForms.exd",
+    "EFENTIAL.exe",
     "MSO.DLL",
-    "whoami.php"
+    "2019.doc",
+    "EFENTIAL.pdb",
+    "FM20.DLL"
   ],
   "weight": 0.0,
   "signatures": [

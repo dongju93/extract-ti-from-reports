@@ -4,19 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "evtchk.bat",
-    "monovm.mars",
-    "customs.go",
-    "kma.go",
-    "evtsys.exe",
     "evtchk.txt",
+    "kma.go",
+    "customs.go",
+    "monovm.mars",
+    "evtchk.bat",
+    "evtsys.exe",
     "sports.or"
   ],
   "weight": 0.0,
   "signatures": [
+    "86D1A184850859A6A4D1C35982F3C40E",
     "5e2988cfc41d844e2114dceb8851d0bb",
     "19C539FF2C50A0EFD52BB5B93D03665A",
-    "86D1A184850859A6A4D1C35982F3C40E",
     "https://nordvpn.com/)",
     "http://131.255.*.*:8081"
   ]

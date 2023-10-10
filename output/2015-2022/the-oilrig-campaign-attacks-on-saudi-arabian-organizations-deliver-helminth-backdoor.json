@@ -4,17 +4,17 @@
   "description": "-",
   "references": ["CVE-2015-7547"],
   "samples": [
+    "wintrust.hlm",
+    "Managment.lnk",
     "Certificate.ico",
+    "Helminth.pdb",
+    "kk.tmp",
     "wss.Run",
     "adbmanager.exe",
-    "Helminth.pdb",
-    "adbtray.exe",
-    "Managment.lnk",
+    "kernel.ws",
     "joboffer.chm",
     "joboffer.zip",
-    "kernel.ws",
-    "wintrust.hlm",
-    "kk.tmp"
+    "adbtray.exe"
   ],
   "weight": 0.0,
   "signatures": [

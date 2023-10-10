@@ -3,10 +3,10 @@
   "name": "luckymouse-hits-national-data-center",
   "description": "-",
   "references": [],
-  "samples": ["IntgStat.exe", "thumb.db", "hook.js", "pcalocalresloader.dll"],
+  "samples": ["thumb.db", "IntgStat.exe", "pcalocalresloader.dll", "hook.js"],
   "weight": 0.0,
   "signatures": [
-    "https://windows-updata.tk:443/scanv1.8/i/?1,",
-    "https://google-updata.tk:443/hook.js,"
+    "https://google-updata.tk:443/hook.js,",
+    "https://windows-updata.tk:443/scanv1.8/i/?1,"
   ]
 }

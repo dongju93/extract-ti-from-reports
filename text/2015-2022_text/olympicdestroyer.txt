@@ -698,9 +698,9 @@ joiN [[ CHAR
 “session=zt8
 “Cookie” ,, “session=zt8
 
-CHAR [[ ]] ]] (( &&    $$ RR    $$ dAta
-
 ‘/admin/get.php’ ;;   
+
+CHAR [[ ]] ]] (( &&    $$ RR    $$ dAta
 
 dAta    (( $$ IVIV ++ $$ KK )) )) || IEIE
 

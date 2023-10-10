@@ -6,19 +6,19 @@
   "samples": [
     "tequilaboomboom.club",
     "rfc8446.txt",
+    "130410.pdf",
     "os.time",
-    "www.rfc",
     "winntianalysis.pdf",
-    "130410.pdf"
+    "www.rfc"
   ],
   "weight": 0.0,
   "signatures": [
+    "https://401trg.com/burning-umbrella/,",
     "https://media.kasperskycontenthub.com/wp-",
     "https://www.novetta.com/wp-",
-    "https://medium.com/chronicle-blog/winnti-more-",
-    "http://lua-users.org/wiki/MathLibraryTutorial,",
-    "https://www.rfc-",
     "https://www.lastline.com/labsblog/helo-winnti-attack-scan/",
-    "https://401trg.com/burning-umbrella/,"
+    "https://medium.com/chronicle-blog/winnti-more-",
+    "https://www.rfc-",
+    "http://lua-users.org/wiki/MathLibraryTutorial,"
   ]
 }

@@ -4,13 +4,13 @@
   "description": "-",
   "references": [],
   "samples": [
-    "rsdroid.crt",
-    "gserv.mobi",
-    "apps.us",
     "messenger.site",
     "eighty9.guru",
+    "chat.site",
+    "gserv.mobi",
+    "rsdroid.crt",
     "world.site",
-    "chat.site"
+    "apps.us"
   ],
   "weight": 0.0,
   "signatures": []

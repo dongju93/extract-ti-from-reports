@@ -3,7 +3,7 @@
   "name": "cta-2019-0612",
   "description": "-",
   "references": [],
-  "samples": ["gji.me", "f89.me", "df.me", "xih.me", "bki.me"],
+  "samples": ["df.me", "xih.me", "gji.me", "bki.me", "f89.me"],
   "weight": 0.0,
   "signatures": []
 }

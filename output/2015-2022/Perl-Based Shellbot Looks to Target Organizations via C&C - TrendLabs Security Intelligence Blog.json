@@ -3,7 +3,7 @@
   "name": "Perl-Based Shellbot Looks to Target Organizations via C&C - TrendLabs Security Intelligence Blog",
   "description": "-",
   "references": [],
-  "samples": ["speed.sh", "SHELLBOT.SM", "n.tgz", "i.tmp"],
+  "samples": ["SHELLBOT.SM", "i.tmp", "n.tgz", "speed.sh"],
   "weight": 0.0,
   "signatures": []
 }

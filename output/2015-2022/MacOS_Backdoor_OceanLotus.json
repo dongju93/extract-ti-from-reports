@@ -3,7 +3,7 @@
   "name": "MacOS_Backdoor_OceanLotus",
   "description": "-",
   "references": [],
-  "samples": ["2018.doc", "theme0.xml", "app.css"],
+  "samples": ["theme0.xml", "app.css", "2018.doc"],
   "weight": 0.0,
   "signatures": [
     "4da8365241c6b028a13b82d852c4f0155eb3d902782c6a538ac007a44a7d61b4",

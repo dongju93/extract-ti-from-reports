@@ -4,12 +4,12 @@
   "description": "-",
   "references": ["CVE-2020-8794", "CVE-2020-1938"],
   "samples": [
+    "action.CALL",
+    "error.zip",
+    "AndroidManifest.xml",
     "Fobus.AXM",
     "ydxwlab.jar",
-    "AndroidManifest.xml",
-    "action.CALL",
     "archive.zip",
-    "error.zip",
     "classes.dex"
   ],
   "weight": 0.0,

@@ -3,12 +3,12 @@
   "name": "UnFIN4ished_Business_pwd",
   "description": "-",
   "references": [],
-  "samples": ["writeup.jsp", "VB.NET", "WINWORD32.exe", "fin4.pdf", "DOCM.pdf"],
+  "samples": ["VB.NET", "DOCM.pdf", "writeup.jsp", "fin4.pdf", "WINWORD32.exe"],
   "weight": 0.0,
   "signatures": [
     "d102693540b53f9a564e3a550f938709",
+    "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf",
     "https://www2.fireeye.com/rs/fireye/images/rpt-fin4.pdf",
-    "http://www.advantarlabs.com/plugins/extension-",
-    "https://www.esentire.com/wp-content/uploads/2013/11/esentire_alert_20131108_DOCM.pdf"
+    "http://www.advantarlabs.com/plugins/extension-"
   ]
 }

@@ -4,19 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "exe加载aﬂup64.dll",
-    "Start.lnk",
     "Records.doc",
-    "smtpldr.exe",
-    "Loader.lnk",
-    "若加载进程不为rundll32.dll",
-    "winsvc.exe",
     "drvhost.exe",
+    "exe加载aﬂup64.dll",
     "NovDwn.pdb",
-    "adobsuit.exe",
     "DE.tmp",
+    "winsvc.exe",
     "CF.tmp",
-    "否为rundll32.exe"
+    "若加载进程不为rundll32.dll",
+    "否为rundll32.exe",
+    "Start.lnk",
+    "smtpldr.exe",
+    "adobsuit.exe",
+    "Loader.lnk"
   ],
   "weight": 0.0,
   "signatures": [

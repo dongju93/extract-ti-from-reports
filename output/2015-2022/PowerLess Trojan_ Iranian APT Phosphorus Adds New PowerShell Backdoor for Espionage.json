@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "cup.tmp",
-    "PowerLessCLR.pdb",
-    "Sou.exe",
-    "WindowsProcesses.exe",
-    "F.exe",
     "Dll.dll",
+    "F.exe",
+    "cup.tmp",
+    "Connector3.exe",
+    "WindowsProcesses.exe",
     "Comsvcs.dll",
-    "Connector3.exe"
+    "Sou.exe",
+    "PowerLessCLR.pdb"
   ],
   "weight": 0.0,
   "signatures": [

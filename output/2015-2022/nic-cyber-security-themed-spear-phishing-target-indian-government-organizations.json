@@ -4,15 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "SOP.doc",
-    "webmail.php",
-    "0012.vbs",
     "WINWORD.exe",
-    "WScript.exe",
-    "0012.vbe",
-    "0012.exe",
+    "0012.vbs",
     "duia.CC",
-    "Security.pdf"
+    "Security.pdf",
+    "webmail.php",
+    "SOP.doc",
+    "0012.vbe",
+    "WScript.exe",
+    "0012.exe"
   ],
   "weight": 0.0,
   "signatures": [

@@ -6,10 +6,10 @@
   "samples": ["pagemgr.exe", "VmUpgradeHelper.exe"],
   "weight": 0.0,
   "signatures": [
-    "b101cd29e18a515753409ae86ce68a4cedbe0d640d385eb24b9bbb69cf8186ae",
     "4845761c9bed0563d0aa83613311191e075a9b58861e80392914d61a21bad976",
+    "40ae43b7d6c413becc92b07076fa128b875c8dbb4da7c036639eccf5a9fc784f",
     "fd39d2837b30e7233bc54598ff51bdc2f8c418fa5b94dea2cadb24cf40f395e5",
     "6c1bce76f4d2358656132b6b1d471571820688ccdbaca0d86d0ca082b9390536",
-    "40ae43b7d6c413becc92b07076fa128b875c8dbb4da7c036639eccf5a9fc784f"
+    "b101cd29e18a515753409ae86ce68a4cedbe0d640d385eb24b9bbb69cf8186ae"
   ]
 }

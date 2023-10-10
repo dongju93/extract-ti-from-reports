@@ -4,13 +4,13 @@
   "description": "-",
   "references": [],
   "samples": [
-    "mal.vbs",
-    "NTUSER.LOG",
-    "runndll32.exe",
+    "KC074913.php",
     "MALICIOUS.XLS",
     "packager.dll",
-    "Packet.dll",
-    "KC074913.php"
+    "NTUSER.LOG",
+    "mal.vbs",
+    "runndll32.exe",
+    "Packet.dll"
   ],
   "weight": 0.0,
   "signatures": []

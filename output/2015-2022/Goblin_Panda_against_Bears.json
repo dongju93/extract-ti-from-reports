@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "sd123.eicp",
-    "sa.gicp",
-    "Sd123.eicp",
     "kmbk8.hicp",
-    "ReportGlobalThreatIntelligence.pdf"
+    "Sd123.eicp",
+    "sa.gicp",
+    "ReportGlobalThreatIntelligence.pdf",
+    "sd123.eicp"
   ],
   "weight": 0.0,
   "signatures": [

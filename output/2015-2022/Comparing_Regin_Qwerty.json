@@ -3,12 +3,12 @@
   "name": "Comparing_Regin_Qwerty",
   "description": "-",
   "references": [],
-  "samples": ["35668.pdf", "Spiegel.de", "20123.sys"],
+  "samples": ["Spiegel.de", "20123.sys", "35668.pdf"],
   "weight": 0.0,
   "signatures": [
     "c0de81512a08bdf2ec18cb93b43bdc2d",
-    "0ed11a73694999bc45d18b4189f41ac2",
     "e9a43ea2882ac63b7bc036d954c79aa1",
+    "0ed11a73694999bc45d18b4189f41ac2",
     "http://www.spiegel.de/media/media-35668.pdf),"
   ]
 }

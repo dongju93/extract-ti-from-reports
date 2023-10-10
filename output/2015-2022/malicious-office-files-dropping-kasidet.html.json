@@ -3,12 +3,12 @@
   "name": "malicious-office-files-dropping-kasidet.html",
   "description": "-",
   "references": [
-    "CVE-2015-5123",
     "CVE-2015-0336",
-    "CVE-2014-0515",
-    "CVE-2014-4130"
+    "CVE-2015-5123",
+    "CVE-2014-4130",
+    "CVE-2014-0515"
   ],
-  "samples": ["devenv.exe", "setting.bin", "trinity.ad"],
+  "samples": ["trinity.ad", "setting.bin", "devenv.exe"],
   "weight": 0.0,
   "signatures": []
 }

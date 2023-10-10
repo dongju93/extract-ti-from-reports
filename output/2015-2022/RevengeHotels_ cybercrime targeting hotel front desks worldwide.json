@@ -4,18 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Reservation.docx",
-    "RevengeHotels.gen",
     "Downloader.MSIL",
+    "RevengeHotels.gen",
+    "Reservation.docx",
     "Associados.docx",
     "Revenge.gen"
   ],
   "weight": 0.0,
   "signatures": [
-    "e675bdf6557350a02f15c14f386fcc47",
-    "df632e25c32e8f8ad75ed3c50dd1cd47",
-    "a089efd7dd9180f9b726594bb6cf81ae",
     "81701c891a1766c51c74bcfaf285854b",
-    "74440d5d0e6ae9b9a03d06dd61718f66"
+    "df632e25c32e8f8ad75ed3c50dd1cd47",
+    "e675bdf6557350a02f15c14f386fcc47",
+    "74440d5d0e6ae9b9a03d06dd61718f66",
+    "a089efd7dd9180f9b726594bb6cf81ae"
   ]
 }

@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "f.ff",
-    "U3.Uf",
-    "2.June",
-    "3.Uf",
-    "fUffU.fU",
     "cmi4432.pnf",
+    "f.ff",
+    "fUffU.fU",
+    "dossier.pdf",
     "W32.Duqu",
-    "dossier.pdf"
+    "U3.Uf",
+    "3.Uf",
+    "2.June"
   ],
   "weight": 0.0,
   "signatures": [

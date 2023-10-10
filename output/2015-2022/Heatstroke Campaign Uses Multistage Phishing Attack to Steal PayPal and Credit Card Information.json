@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
+    "antiX.php",
     "Mine.php",
     "step6.php",
-    "antiX.php",
-    "anti.php",
-    "Algo.php",
+    "Trojan.PHP",
     "Index.php",
+    "Algo.php",
     "langauges.php",
-    "Trojan.PHP"
+    "anti.php"
   ],
   "weight": 0.0,
   "signatures": []

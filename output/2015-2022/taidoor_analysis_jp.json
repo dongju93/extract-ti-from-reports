@@ -4,24 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "load.txt",
-    "start.vbs",
-    "igfxper.dll",
     "について.doc",
+    "igfxper.dll",
+    "start.vbs",
+    "load.txt",
     "当社の需要について.doc"
   ],
   "weight": 0.0,
   "signatures": [
     "7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle",
     "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\ContextMen",
     "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\PropertySheetH",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\*\\shellex\\DragDropHandle",
     "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\PropertySh",
     "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{93A56381-E0CD-",
-    "https://www.trendmicro.co.kr/cloud-content/us/pdfs/",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\CLSID\\{ECD4FC4D-521C-",
+    "HKEY_CURRENT_USER\\SOFTWARE\\Classes\\Folder\\shellex\\DragDropH",
     "https://blog.trendmicro.co.jp/archives/16893",
-    "http://C&CServer"
+    "http://C&CServer",
+    "https://www.trendmicro.co.kr/cloud-content/us/pdfs/"
   ]
 }

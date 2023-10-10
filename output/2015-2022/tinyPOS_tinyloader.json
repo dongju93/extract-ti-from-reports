@@ -2,7 +2,7 @@
   "rule_id": 189,
   "name": "tinyPOS_tinyloader",
   "description": "-",
-  "references": ["CVE-2016-2118", "CVE-2016-0128"],
+  "references": ["CVE-2016-0128", "CVE-2016-2118"],
   "samples": [],
   "weight": 0.0,
   "signatures": []

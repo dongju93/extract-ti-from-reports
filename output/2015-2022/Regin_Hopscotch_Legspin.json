@@ -3,12 +3,12 @@
   "name": "Regin_Hopscotch_Legspin",
   "description": "-",
   "references": [],
-  "samples": ["gdi32.dll", "SVCSTAT.EXE", "netstat.exe", "tracert.exe"],
+  "samples": ["tracert.exe", "netstat.exe", "gdi32.dll", "SVCSTAT.EXE"],
   "weight": 0.0,
   "signatures": [
+    "42eaf2ab25c9ead201f25ecbdc96fb60",
     "29105f46e4d33f66fee346cfd099d1cc",
     "6c34031d7a5fc2b091b623981a8ae61c",
-    "42eaf2ab25c9ead201f25ecbdc96fb60",
     "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "
   ]
 }

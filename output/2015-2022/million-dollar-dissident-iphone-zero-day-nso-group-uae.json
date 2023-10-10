@@ -4,28 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
-    "com.mx",
-    "test111.tar",
-    "bed.html",
-    "redirect.aspx",
-    "brc.html",
+    "UNOTV.COM",
     "alaan.tv",
-    "accounts.mx",
+    "brc.html",
     "thainews.asia",
-    "aalaan.tv",
+    "accounts.mx",
     "TELCEL.COM",
-    "UNOTV.COM"
+    "test111.tar",
+    "aalaan.tv",
+    "bed.html",
+    "com.mx",
+    "redirect.aspx"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://smser.net/9918216t/,",
-    "https://smser.net/redirect.aspx.",
-    "http://www.google.com/",
     "http://asrararabiya.com/",
-    "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=",
-    "https://smser.net/9918216t/",
     "http://fb-accounts.com/1074139s/",
+    "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=",
+    "http://www.google.com/",
+    "https://smser.net/9918216t/,",
     "http://unonoticias.net/3423768s/.",
-    "http://www.google.com'"
+    "https://smser.net/9918216t/",
+    "http://www.google.com'",
+    "https://smser.net/redirect.aspx."
   ]
 }

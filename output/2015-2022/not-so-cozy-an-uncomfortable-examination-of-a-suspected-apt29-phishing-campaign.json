@@ -4,28 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ds7002.lnk",
-    "ds7002.pdf",
-    "vzvi.Read",
-    "GetContentFeatures.DLNA",
     "Binary.lnk",
+    "ds7002.lnk",
+    "campaign.html",
+    "vzvi.Read",
     "america.rtf",
-    "ds7002.zip",
-    "ds7002.PDF",
+    "GetContentFeatures.DLNA",
     "cyzfc.dat",
+    "ds7002.pdf",
     "www.jmj",
+    "ds7002.zip",
     "vzvi.Seek",
-    "campaign.html"
+    "ds7002.PDF"
   ],
   "weight": 0.0,
   "signatures": [
-    "313f4808aa2a2073005d219bc68971cd",
-    "3fccf531ff0ae6fedd7c586774b17a2d",
-    "6ed0020b0851fb71d5b0076f4ee95f3c",
-    "658c6fe38f95995fa8dc8f6cfe41df7b",
-    "f713d5df826c6051e65f995e57d6817d",
     "16bbc967a8b6a365871a05c74a4f345b",
+    "6ed0020b0851fb71d5b0076f4ee95f3c",
+    "3fccf531ff0ae6fedd7c586774b17a2d",
     "2b13b244aafe1ecace61ea1119a1b2ee",
+    "658c6fe38f95995fa8dc8f6cfe41df7b",
+    "313f4808aa2a2073005d219bc68971cd",
+    "f713d5df826c6051e65f995e57d6817d",
     "https://www.jmj.com/personal/nauerthn_state_gov/*"
   ]
 }

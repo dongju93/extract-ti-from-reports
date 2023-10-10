@@ -3,7 +3,7 @@
   "name": "Recent Cloud Atlas activity _ Securelist",
   "description": "-",
   "references": [],
-  "samples": ["vbs.dat", "pass.txt", "PG.zip", "temp.xml", "Content.Word"],
+  "samples": ["vbs.dat", "pass.txt", "temp.xml", "PG.zip", "Content.Word"],
   "weight": 0.0,
   "signatures": [
     "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"

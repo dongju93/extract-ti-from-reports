@@ -3,13 +3,13 @@
   "name": "Welcome Chat as a secure messaging app_ Nothing could be further from the truth _ WeLiveSecurity",
   "description": "-",
   "references": [],
-  "samples": ["Agent.ALY", "emobileservices.club"],
+  "samples": ["emobileservices.club", "Agent.ALY"],
   "weight": 0.0,
   "signatures": [
-    "C60D7134B05B34AF08023155EAB3B38CEDE4BCCD",
-    "2905F2F60D57FBF13D25828EF635CA1CCE81E757",
     "C755D37D6692C650692F4C637AE83EF6BB9577FC",
-    "757bd41d5fa99e19200cee59a3fd1577741ccd82",
-    "89AB73D4AAF41CBCDBD0C8C7D6D85D21D93ED199"
+    "89AB73D4AAF41CBCDBD0C8C7D6D85D21D93ED199",
+    "2905F2F60D57FBF13D25828EF635CA1CCE81E757",
+    "C60D7134B05B34AF08023155EAB3B38CEDE4BCCD",
+    "757bd41d5fa99e19200cee59a3fd1577741ccd82"
   ]
 }

@@ -6,9 +6,9 @@
   "samples": ["LogTime.log"],
   "weight": 0.0,
   "signatures": [
-    "c168f3ea7d0e2cee91612bf86c5d95167d26e69c",
-    "f1355dfe633f9e1350887c31c67490d928f4feec",
     "0fafeb1cbcd6b19c46a72a26a4b8e3ed588e385f",
+    "f1355dfe633f9e1350887c31c67490d928f4feec",
+    "c168f3ea7d0e2cee91612bf86c5d95167d26e69c",
     "d1f70c47c016f8a544ef240487187c2e8ea78339"
   ]
 }

@@ -5,26 +5,26 @@
   "references": [],
   "samples": [
     "myfile.bin",
-    "CloudEyE.gl",
-    "securitycode.eu",
     "Dropper.Wins",
-    "securiticode.eu"
+    "securiticode.eu",
+    "securitycode.eu",
+    "CloudEyE.gl"
   ],
   "weight": 0.0,
   "signatures": [
-    "0284062f9a7415e413ed319c13dc0988",
-    "95f29abac9c887639efc2d4e22b5350f",
     "5c4ed372836487562aa22ab9cd2798d9",
+    "95f29abac9c887639efc2d4e22b5350f",
     "3d1fd9bcef7cbe915bb49857461ad781",
+    "0284062f9a7415e413ed319c13dc0988",
     "3b72bf861b5d2907bb2d76d3d4d9d816",
+    "http://myurl/myfile.bin",
     "https://youtu.be/TOdfOBmeAx8)",
-    "https://youtu.be/76IVgS88WTg)",
-    "https://youtu.be/4JLEXGevpfg)",
-    "https://youtu.be/v1CS_Q7LZpg)",
+    "https://youtu.be/8siii5x0Q3k)",
     "https://youtu.be/TOdfOBmeAx8?t=74),",
     "https://youtu.be/Y2ZNLVC6yfk)",
+    "https://youtu.be/76IVgS88WTg)",
     "https://youtu.be/4JJWL4-OCDM)",
-    "http://myurl/myfile.bin",
-    "https://youtu.be/8siii5x0Q3k)"
+    "https://youtu.be/4JLEXGevpfg)",
+    "https://youtu.be/v1CS_Q7LZpg)"
   ]
 }

@@ -4,23 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "RGDoor.Gen",
-    "APPCMD.EXE",
     "bb757040.aspx",
-    "HTTPParser.dll",
-    "cHandler.dll",
+    "APPCMD.EXE",
     "iishandler6.dll",
+    "cHandler.dll",
+    "sharer.php",
     "test.txt",
-    "sharer.php"
+    "HTTPParser.dll",
+    "RGDoor.Gen"
   ],
   "weight": 0.0,
   "signatures": [
-    "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa",
     "497e6965120a7ca6644da9b8291c65901e78d302139d221fcf0a3ec6c5cf9de3",
-    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)",
+    "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa",
     "https://autofocus.paloaltonetworks.com/",
-    "https://www.paloaltonetworks.com/legal-notices/privacy)",
+    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)",
+    "https://www.paloaltonetworks.com/security-disclosure)",
     "https://ignite.paloaltonetworks.com/usa/?",
-    "https://www.paloaltonetworks.com/security-disclosure)"
+    "https://www.paloaltonetworks.com/legal-notices/privacy)"
   ]
 }

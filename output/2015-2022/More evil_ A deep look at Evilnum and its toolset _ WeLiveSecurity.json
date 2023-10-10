@@ -3,7 +3,7 @@
   "name": "More evil_ A deep look at Evilnum and its toolset _ WeLiveSecurity",
   "description": "-",
   "references": [],
-  "samples": ["mory.dll", "system.mem", "Memmory.dll", "kGqTdU.txt"],
+  "samples": ["system.mem", "mory.dll", "Memmory.dll", "kGqTdU.txt"],
   "weight": 0.0,
   "signatures": []
 }

@@ -4,26 +4,26 @@
   "description": "-",
   "references": [],
   "samples": [
-    "key4.db",
-    "account.cfn",
-    "mtrcpl.dll",
-    "Account.CFN",
-    "97.pdf",
-    "out.txt",
     "cert8.db",
+    "key4.db",
+    "out.txt",
+    "mtrcpl.dll",
+    "account.cfn",
     "action.php",
-    "Agent.OGE",
-    "Sednit.CMT"
+    "Sednit.CMT",
+    "97.pdf",
+    "Account.CFN",
+    "Agent.OGE"
   ],
   "weight": 0.0,
   "signatures": [
-    "48f8b152b86bed027b9152725505fbf4a24a39fd",
     "bfa26857575c49abb129aac87207f03f2b062e07",
+    "48f8b152b86bed027b9152725505fbf4a24a39fd",
     "1e9f40ef81176190e1ed9a0659473b2226c53f57",
     "HKCU\\Software\\Microsoft\\Current‐",
-    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
     "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
-    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php",
-    "http://45.124.132.127/DOVIDNIK"
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
+    "http://45.124.132.127/DOVIDNIK",
+    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php"
   ]
 }

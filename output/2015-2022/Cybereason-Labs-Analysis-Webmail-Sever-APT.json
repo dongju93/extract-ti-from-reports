@@ -3,7 +3,7 @@
   "name": "Cybereason-Labs-Analysis-Webmail-Sever-APT",
   "description": "-",
   "references": [],
-  "samples": ["OWAAUTH.dll", "log.txt", "OWAAUTH.DLL"],
+  "samples": ["log.txt", "OWAAUTH.DLL", "OWAAUTH.dll"],
   "weight": 0.0,
   "signatures": []
 }

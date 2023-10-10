@@ -4,27 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "appidpolicyconverter.js",
-    "GovCERT.ch",
-    "October.pdf",
-    "Runer.exe",
-    "Runer.pdb",
     "Scr.js",
-    "group.pdf",
-    "LogsLoader.php",
     "witchcoven.pdf",
+    "Runer.exe",
+    "LogsLoader.php",
+    "group.pdf",
+    "appidpolicyconverter.js",
+    "Runer.pdb",
+    "October.pdf",
+    "GovCERT.ch",
     "admin.ch"
   ],
   "weight": 0.0,
   "signatures": [
     "01a8cbd328df18fd49965d68e2879433",
-    "c978da455018a73ddbc9e1d2bf8c208ad3ec2e622850f68ef6b0aae939e5d2ab",
-    "7481e87023604e7534d02339540ddd9565273dd51c13d7677b9b4c9623f0440b",
     "5698c92fb8fe7ded0ff940c75979f44734650e4f2c852bdb4cbc9d46e7993185",
+    "c978da455018a73ddbc9e1d2bf8c208ad3ec2e622850f68ef6b0aae939e5d2ab",
     "1c76a66a670a6f69b4fea25ca0ba4885eca9e1b85a2afbab61da3b4a6d52ae19",
-    "https://www.gdatasoftware.com/blog/2015/01/23926-analysis-of-project-cobra",
+    "7481e87023604e7534d02339540ddd9565273dd51c13d7677b9b4c9623f0440b",
     "https://www.gdatasoftware.com/blog/2014/11/23937-the-uroburos-case-new-sophisticated-rat-",
     "https://www2.",
+    "https://www.gdatasoftware.com/blog/2015/01/23926-analysis-of-project-cobra",
     "https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case"
   ]
 }

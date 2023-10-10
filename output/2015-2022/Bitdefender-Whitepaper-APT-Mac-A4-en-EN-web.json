@@ -4,24 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "apple.ulk",
-    "apple.wsat",
-    "apple.erx",
-    "Trojan.MAC",
     "apple.ulkg",
-    "apple.kshd",
+    "apple.ulk",
+    "apple.erx",
+    "apple.sksh",
+    "Trojan.MAC",
     "apple.fsg",
-    "apple.sksh"
+    "apple.wsat",
+    "apple.kshd"
   ],
   "weight": 0.0,
   "signatures": [
     "4fe4b9560e99e33dabca553e2eeee510",
-    "http://23.227.196.215",
-    "http://apple-checker.org",
-    "http://apple-search.info",
-    "http://apple-uptoday.org",
-    "http://23.227.196.215/watch/?itwm=7FJcXOPyN_Znh7quXfh4WAaKquNzY",
     "http://apple-iclods.org/close/?itwm=LO6iN-",
-    "http://apple-iclods.org"
+    "http://apple-search.info",
+    "http://apple-iclods.org",
+    "http://apple-checker.org",
+    "http://23.227.196.215",
+    "http://23.227.196.215/watch/?itwm=7FJcXOPyN_Znh7quXfh4WAaKquNzY",
+    "http://apple-uptoday.org"
   ]
 }

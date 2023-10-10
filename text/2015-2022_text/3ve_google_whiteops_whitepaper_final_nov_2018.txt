@@ -1780,13 +1780,13 @@ This HTML template is arbitrarily defining the size of the player based on the c
 
  3  
 
-[1025,575], 
-
  4  
 
-[960,540], 
-
  5  
+
+[1025,575], 
+
+[960,540], 
 
 [895,500], 
 
@@ -1818,17 +1818,17 @@ This HTML template is arbitrarily defining the size of the player based on the c
 
 15  
 
-<div id=“jw7113”></div> 
-
 16  
-
-<div id=“banners”> 
 
 17  
 
 18  
 
 19  
+
+<div id=“jw7113”></div> 
+
+<div id=“banners”> 
 
 <script src=“XXX”></script> 
 
@@ -1926,6 +1926,14 @@ return checksum+10;
 
 14  
 
+15  
+
+16  
+
+17  
+
+18  
+
  if(t==2){ 
 
 while(checksum>80){ 
@@ -1935,14 +1943,6 @@ checksum=checksum-80;
 } 
 
 return checksum+10; 
-
-15  
-
-16  
-
-17  
-
-18  
 
 19    }  
 

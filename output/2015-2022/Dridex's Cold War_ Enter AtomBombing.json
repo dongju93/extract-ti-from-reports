@@ -5,33 +5,33 @@
   "references": [],
   "samples": [
     "03.ibm",
-    "01.IBM",
-    "29.aspx",
+    "www.ibm",
     "SECURITYINTELLIGENCE.COM",
-    "www.ibm"
+    "29.aspx",
+    "01.IBM"
   ],
   "weight": 0.0,
   "signatures": [
     "1e6c6123af04d972b61cd3cde5e0658e",
-    "e49edad121083d7986dc35009dbdeeae",
     "4599fca4b67c9c216c6dea42214fd1ce",
+    "e49edad121083d7986dc35009dbdeeae",
     "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run) was created to execute",
-    "http://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions).",
+    "https://breakingmalware.com/injection-",
+    "http://www.ibm.com?ce=ISM0484&ct=SWG&cmp=IBMSocial&cm=h&cr=Security&ccy=US)",
+    "http://www.ibm.com/contact/us/en/?",
+    "http://www.ibm.com/privacy/us/en/?",
     "http://www.ibm.com/accessibility/us/en/?",
-    "http://www.ibm.com/legal/us/en/?",
-    "http://facebook.com/ibmsecurity)",
+    "http://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions).",
     "http://slideshare.net/ibmsecurity)w",
-    "https://www.quora.com/IBM-Security/)D",
     "http://www.ibm.com/software/products/en/trusteer-rapport?",
     "https://exchange.xforce.ibmcloud.com/collection/Dridex-Ongoing-Collection-e49edad121083d7986dc35009dbdeeae).",
-    "http://www-",
-    "http://www.ibm.com?ce=ISM0484&ct=SWG&cmp=IBMSocial&cm=h&cr=Security&ccy=US)",
     "https://www.scmagazine.com/new-bugat-trojan-",
-    "http://www.ibm.com/privacy/us/en/?",
-    "https://breakingmalware.com/injection-",
-    "http://www.ibm.com/contact/us/en/?",
-    "https://www.ibm.com/us-en/marketplace/threat-intelligence-api?",
     "http://ibm.com/security?",
-    "http://feeds.feedburner.com/SecurityIntelligence)x"
+    "http://www-",
+    "http://www.ibm.com/legal/us/en/?",
+    "http://feeds.feedburner.com/SecurityIntelligence)x",
+    "https://www.quora.com/IBM-Security/)D",
+    "http://facebook.com/ibmsecurity)",
+    "https://www.ibm.com/us-en/marketplace/threat-intelligence-api?"
   ]
 }

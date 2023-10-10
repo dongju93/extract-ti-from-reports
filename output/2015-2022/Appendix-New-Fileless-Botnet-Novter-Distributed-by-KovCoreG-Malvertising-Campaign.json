@@ -4,21 +4,21 @@
   "description": "-",
   "references": [],
   "samples": [
-    "sall.dat",
-    "TRX.XX",
+    "tell2.dat",
     "7.hta",
     "Trojan.JS",
-    "module.avi",
-    "sall.js",
     "bav01.js",
     "block_av_01.dat",
-    "tell2.dat",
+    "TRX.XX",
+    "module.avi",
+    "sall.dat",
+    "sall.js",
     "Downloader.JS",
     "em_02.js"
   ],
   "weight": 0.0,
   "signatures": [
-    "ef72c60a03738b25d452a5d895313875",
-    "a82dd93585094aeba4363c5aeedd1a85"
+    "a82dd93585094aeba4363c5aeedd1a85",
+    "ef72c60a03738b25d452a5d895313875"
   ]
 }

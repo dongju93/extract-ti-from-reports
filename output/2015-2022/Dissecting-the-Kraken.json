@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Variant.Zusy",
-    "VBoxtray.exe",
     "0158.AH",
+    "VBoxtray.exe",
+    "Exploit.CVE",
     "kraken.html",
-    "Exploit.CVE"
+    "Variant.Zusy"
   ],
   "weight": 0.0,
   "signatures": [

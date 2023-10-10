@@ -3,11 +3,11 @@
   "name": "Night_of_the_Devil",
   "description": "-",
   "references": [],
-  "samples": ["clean.bat", "cleaner.bat", "oni.exe", "srvupd.exe", "xcopy.exe"],
+  "samples": ["clean.bat", "cleaner.bat", "oni.exe", "xcopy.exe", "srvupd.exe"],
   "weight": 0.0,
   "signatures": [
-    "b7d33751d118fab6aedabfdf6a4ddf627e6cab02",
     "4a850136af93b9918fb4290a2bf665c4f28201d1",
+    "b7d33751d118fab6aedabfdf6a4ddf627e6cab02",
     "6abfb50b0657e87d8aec594ccc95f2e1b13f355e"
   ]
 }

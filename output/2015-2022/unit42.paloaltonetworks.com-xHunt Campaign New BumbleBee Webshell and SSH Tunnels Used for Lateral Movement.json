@@ -4,26 +4,26 @@
   "description": "-",
   "references": [],
   "samples": [
-    "conn.Open",
-    "ja.aspx",
-    "1.exe",
     "SVROOT.exe",
-    "teredo.txt",
-    "r.txt",
-    "system.Data",
-    "ShowDoc.aspx",
-    "da.fill",
+    "w.txt",
     "System.Data",
+    "da.fill",
     "ww.txt",
     "cq.aspx",
-    "w.txt",
-    "RTQ.exe"
+    "ShowDoc.aspx",
+    "1.exe",
+    "r.txt",
+    "conn.Open",
+    "RTQ.exe",
+    "teredo.txt",
+    "ja.aspx",
+    "system.Data"
   ],
   "weight": 0.0,
   "signatures": [
-    "28D968F26028D956E6F1199092A1C408",
-    "A2B4D934D394B54672EA10CA8A65C198",
+    "36252C6C2F616C5664A54058F33EF463",
     "1B2F81BD2D39E60F1E1AD05DD3BF9F56",
-    "36252C6C2F616C5664A54058F33EF463"
+    "28D968F26028D956E6F1199092A1C408",
+    "A2B4D934D394B54672EA10CA8A65C198"
   ]
 }

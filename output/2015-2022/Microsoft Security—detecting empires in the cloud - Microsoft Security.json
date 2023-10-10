@@ -3,7 +3,7 @@
   "name": "Microsoft Security—detecting empires in the cloud - Microsoft Security",
   "description": "-",
   "references": [],
-  "samples": ["_1.png", "Heather.mayx", "doc1.dotm", "19.ppt"],
+  "samples": ["19.ppt", "_1.png", "Heather.mayx", "doc1.dotm"],
   "weight": 0.0,
   "signatures": [
     "faebff04d7ca9cca92975e06c4a0e9ce1455860147d8432ff9fc24622b7cf675",

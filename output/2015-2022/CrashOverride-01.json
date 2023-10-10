@@ -4,27 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "iec104.log",
-    "Crash104.dll",
+    "opc.exe",
+    "104.dll",
     "DRAGOS.COM",
     "CrashOPCClientDemo.dll",
-    "104.dll",
     "payload.dll",
     "Launcher.exe",
-    "opc.exe",
-    "Crash61850.dll"
+    "Crash104.dll",
+    "Crash61850.dll",
+    "iec104.log"
   ],
   "weight": 0.0,
   "signatures": [
+    "8e39eca1e48240c01ee570631ae8f0c9a9637187",
+    "94488f214b165512d2fc0438a581f5c9e3bd4d4c",
+    "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a",
+    "cccce62996d578b984984426a024d9b250237533",
+    "5a5fafbc3fec8d36fd57b075ebf34119ba3bff04",
     "2cb8230281b86fa944d3043ae906016c8b5984d9",
     "b335163e6eb854df5e08e85026b2c3518891eda8",
-    "8e39eca1e48240c01ee570631ae8f0c9a9637187",
-    "79ca89711cdaedb16b0ccccfdcfbd6aa7e57120a",
-    "f6c21f8189ced6ae150f9ef2e82a3a57843b587d",
-    "94488f214b165512d2fc0438a581f5c9e3bd4d4c",
-    "5a5fafbc3fec8d36fd57b075ebf34119ba3bff04",
-    "cccce62996d578b984984426a024d9b250237533",
     "b92149f046f00bb69de329b8457d32c24726ee00",
+    "f6c21f8189ced6ae150f9ef2e82a3a57843b587d",
     "HKLM\\SYSTEM\\CurrentControlSet\\Ser-"
   ]
 }

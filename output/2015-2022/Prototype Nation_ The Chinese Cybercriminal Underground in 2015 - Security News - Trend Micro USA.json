@@ -3,7 +3,7 @@
   "name": "Prototype Nation_ The Chinese Cybercriminal Underground in 2015 - Security News - Trend Micro USA",
   "description": "-",
   "references": [],
-  "samples": ["KASIDET.XXRO", "XORDDOS.AP", "WORMHOLE.HRXA"],
+  "samples": ["WORMHOLE.HRXA", "KASIDET.XXRO", "XORDDOS.AP"],
   "weight": 0.0,
   "signatures": []
 }

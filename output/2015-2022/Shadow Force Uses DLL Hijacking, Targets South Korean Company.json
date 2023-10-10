@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
+    "SQLLib80.dll",
     "SuperBot.exe",
     "xa80.dll",
-    "installe.exe",
-    "SQLLib80.dll",
-    "aio.exe",
-    "leh.exe",
     "latinfect.exe",
-    "SuperBotx64.exe"
+    "aio.exe",
+    "SuperBotx64.exe",
+    "installe.exe",
+    "leh.exe"
   ],
   "weight": 0.0,
   "signatures": []

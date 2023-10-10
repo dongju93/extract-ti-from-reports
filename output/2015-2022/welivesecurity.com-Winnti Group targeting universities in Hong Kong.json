@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "NULL.dat",
-    "hpqhvsei.dll",
-    "CLR.exe",
-    "wmplayer.exe",
     "Winnti.CA",
+    "wmplayer.exe",
+    "NULL.dat",
+    "CLR.exe",
+    "livehost.live",
+    "hpqhvsei.dll",
     "domain.tld",
-    "hpqhvind.exe",
-    "livehost.live"
+    "hpqhvind.exe"
   ],
   "weight": 0.0,
   "signatures": [

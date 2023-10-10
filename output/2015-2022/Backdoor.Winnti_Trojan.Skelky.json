@@ -5,23 +5,23 @@
   "references": [],
   "samples": [
     "HookDC.dll",
-    "ole64.dll",
-    "jqs.exe",
+    "ole.dll",
     "tmp8296.tmp",
+    "msuta64.dll",
     "olex64.dll",
     "HookDC64.dll",
-    "ole.dll",
-    "msuta64.dll"
+    "ole64.dll",
+    "jqs.exe"
   ],
   "weight": 0.0,
   "signatures": [
-    "bf45086e6334f647fda33576e2a05826",
-    "600b604784594e3339776c6563aa45a1",
     "f01026e1107b722435126c53b2af47a9",
-    "747cc5ce7f2d062ebec6219384b57e8c",
-    "48377c1c4cfedebe35733e9c3675f9be",
-    "8ba4df29b0593be172ff5678d8a05bb3",
     "66da7ed621149975f6e643b4f9886cfd",
-    "a487f1668390df0f4951b7292bae6ecf"
+    "600b604784594e3339776c6563aa45a1",
+    "48377c1c4cfedebe35733e9c3675f9be",
+    "a487f1668390df0f4951b7292bae6ecf",
+    "bf45086e6334f647fda33576e2a05826",
+    "747cc5ce7f2d062ebec6219384b57e8c",
+    "8ba4df29b0593be172ff5678d8a05bb3"
   ]
 }

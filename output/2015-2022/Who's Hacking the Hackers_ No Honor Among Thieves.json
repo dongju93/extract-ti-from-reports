@@ -5,10 +5,10 @@
   "references": [],
   "samples": [
     "versions.Upon",
+    "explorer.zip",
     "explorer.pdb",
-    "taskhost.pdb",
     "WindowsApplication2.pdb",
-    "explorer.zip"
+    "taskhost.pdb"
   ],
   "weight": 0.0,
   "signatures": [

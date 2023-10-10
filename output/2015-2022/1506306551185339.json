@@ -4,17 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
-    "SecurityNajaf.vbs",
-    "hackers.html",
+    "islamiste_4612099_4408996.html",
     "families.aspx",
-    "islamiste_4612099_4408996.html"
+    "hackers.html",
+    "SecurityNajaf.vbs"
   ],
   "weight": 0.0,
   "signatures": [
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ",
     "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaff ",
-    "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SecurityNajaf ",
     "http://www.lemonde.fr/pixels/article/2015/04/09/les-sites-de-tv5-monde-detournes-par-un-groupe-",
+    "https://jomgegar.com/topic/14665-njrat-v07dbuilderstub-fullsource-code/",
     "http://blogs.technet.com/b/mmpc/archive/2014/06/30/microsoftdigital-crimes-unit-disrupts-jenxcus-and-bladabindi-"
   ]
 }

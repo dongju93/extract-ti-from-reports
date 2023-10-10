@@ -4,13 +4,13 @@
   "description": "-",
   "references": ["CVE-2016-4119"],
   "samples": [
-    "DYEPACK.FOX",
-    "cnbv.gob",
-    "INFORMATION.txt",
-    "Trojan.POS",
     "Webshell.JSP",
-    "Hermes.DNS",
+    "INFORMATION.txt",
     "archive.fo",
+    "DYEPACK.FOX",
+    "Hermes.DNS",
+    "Trojan.POS",
+    "cnbv.gob",
     "onlink.epac"
   ],
   "weight": 0.0,

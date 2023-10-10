@@ -4,24 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "boho.or",
-    "IconCache.dat",
+    "download.boho",
     "UdaterUI.exe",
-    "AdobeUpdaterPrefs.dat",
-    "zawq.bat",
-    "naPrdMgr.exe",
+    "IconCache.dat",
     "shstat.exe",
+    "boho.or",
+    "naPrdMgr.exe",
     "FrameworkService.exe",
     "mscorsw.exe",
-    "McShield.exe",
-    "download.boho",
-    "iphapi.dll"
+    "AdobeUpdaterPrefs.dat",
+    "iphapi.dll",
+    "zawq.bat",
+    "McShield.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "HKLM\\Software\\Microsoft\\CurrentVersion\\Run\\Mozilla Update is added ",
-    "http://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
     "http://processhacker.sourceforge.net/.",
+    "http://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
     "http://go.microsoft.com/fwlink/?linkid=121488."
   ]
 }

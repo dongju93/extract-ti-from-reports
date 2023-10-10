@@ -4,30 +4,30 @@
   "description": "-",
   "references": [],
   "samples": [
-    "300x242.png",
-    "www.arb",
-    "lite.png",
-    "ARBORNETWORKS.COM",
-    "END.DDOS",
-    "CNCs.png",
-    "tetris.png",
     "properties.png",
-    "snippet.png",
-    "arbor.link",
-    "pcap.png",
-    "com.png",
+    "ARBORNETWORKS.COM",
+    "www.arb",
     "communications.html",
-    "RasTls.dat"
+    "com.png",
+    "END.DDOS",
+    "RasTls.dat",
+    "pcap.png",
+    "snippet.png",
+    "tetris.png",
+    "arbor.link",
+    "300x242.png",
+    "lite.png",
+    "CNCs.png"
   ],
   "weight": 0.0,
   "signatures": [
     "http://www.malware-tra",
-    "http://arbor.link/ntctblog)",
-    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
+    "https://www.sans.org/reading-",
     "http://arbor.link/ntctwww)",
-    "https://www.arb",
+    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
     "https://www.paloaltonetworks.com/threat-research)",
     "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-",
-    "https://www.sans.org/reading-"
+    "http://arbor.link/ntctblog)",
+    "https://www.arb"
   ]
 }

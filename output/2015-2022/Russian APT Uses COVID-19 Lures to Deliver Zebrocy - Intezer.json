@@ -4,25 +4,25 @@
   "description": "-",
   "references": [],
   "samples": [
+    "technology.php",
+    "LETTER.vhd",
+    "2020.exe",
     "1868.vhd",
     "LETTER.exe",
-    "technology.php",
-    "2020.exe",
-    "LETTER.vhd",
-    "243.vhd",
-    "SINOPHARM.exe"
+    "SINOPHARM.exe",
+    "243.vhd"
   ],
   "weight": 0.0,
   "signatures": [
-    "395e166af5197967503f45c3ac134ff7",
     "855005fee45e71c36a466527c7fad62f",
+    "395e166af5197967503f45c3ac134ff7",
     "a7b446d79d3fc05a7e1881d6d4abaf55",
     "61c2e524dcc25a59d7f2fe7eff269865a3ed14d6b40e4fea33b3cd3f58c14f19",
     "f36a0ee7f4ec23765bb28fbfa734e402042278864e246a54b8c4db6f58275662",
-    "6449d0cb1396d6feba7fb9e25fb20e9a0a5ef3e8623332844458d73057cf04a1",
+    "43c65d87d690aea7c515fe84317af40b7e64b350304b0fc958a51d62826feade",
     "d5d9210ef49c6780016536b0863cc50f6de03f73e70c2af46cc3cff0e2bf9353",
     "d444fde5885ec1241041d04b3001be17162523d2058ab1a7f88aac50a6059bc0",
-    "43c65d87d690aea7c515fe84317af40b7e64b350304b0fc958a51d62826feade",
+    "6449d0cb1396d6feba7fb9e25fb20e9a0a5ef3e8623332844458d73057cf04a1",
     "https://www.intezer.com/blog/research/russian-apt-uses-covid-19-lures-to-deliver-zebrocy/"
   ]
 }

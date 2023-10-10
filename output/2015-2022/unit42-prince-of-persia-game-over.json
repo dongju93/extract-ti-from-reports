@@ -4,15 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "recycle.bin",
-    "name.find",
     "final.find",
-    "pmwiki.php",
+    "recycle.bin",
     "crt.pem",
-    "os.walk",
+    "name.find",
     "bdc.tmp",
     "line.find",
-    "key.pfx"
+    "os.walk",
+    "key.pfx",
+    "pmwiki.php"
   ],
   "weight": 0.0,
   "signatures": [

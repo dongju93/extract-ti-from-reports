@@ -2,8 +2,8 @@
   "rule_id": 331,
   "name": "UPSynergy_ Chinese-American Spy vs. Spy Story",
   "description": "-",
-  "references": ["CVE-2019-0703", "CVE-2017-0143"],
-  "samples": ["srv.sys", "npfs.sys", "Srv.sys"],
+  "references": ["CVE-2017-0143", "CVE-2019-0703"],
+  "samples": ["srv.sys", "Srv.sys", "npfs.sys"],
   "weight": 0.0,
   "signatures": [
     "F595228976CC89FFAC02D831E774CFA6",

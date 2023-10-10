@@ -4,12 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Video.exe",
-    "S.log",
     "file.txt",
+    "S.avi",
     "File.txt",
+    "Video.exe",
     "srv2.mkt",
-    "S.avi"
+    "S.log"
   ],
   "weight": 0.0,
   "signatures": [

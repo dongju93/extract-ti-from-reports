@@ -4,28 +4,28 @@
   "description": "-",
   "references": [],
   "samples": [
+    "msupdateconf.exe",
+    "ruag.html",
     "blog.ezua",
     "Mosquito.pdf",
     "cyber.html",
-    "ruag.html",
-    "msupdateconf.exe",
     "msupdatesmal.exe"
   ],
   "weight": 0.0,
   "signatures": [
-    "994c8920180d0395c4b4eb6e7737961be6108f64",
     "33d3b0ec31bfc16dcb1b1ff82550aa17fa4c07c5",
+    "994c8920180d0395c4b4eb6e7737961be6108f64",
     "114c1585f1ca2878a187f1ce7079154cc60db7f5",
     "1193033d6526416e07a5f20022cd3c5c79b73e8a33e80f29f9b06cdc3cb12e26",
     "f9b83eff6d705c214993be9575f8990aa8150128a815e849c6faee90df14a0ea",
     "6868cdac0f06232608178b101ca3a8afda7f31538a165a045b439edf9dadf048",
-    "https://labs.bitdefender.com/wp-content/uploads/downloads/pacifier-apt/.",
-    "https://70.32.39.219/n2DE3",
-    "https://www.offensive-",
-    "https://209.239.115.91/6OHEJ",
-    "https://209.239.115.91/6OHEJ,",
     "http://radare.today/posts/unpacking-shikata-ga-nai-by-scripting-radare2/.",
+    "https://209.239.115.91/6OHEJ",
+    "https://70.32.39.219/n2DE3",
+    "https://209.239.115.91/6OHEJ,",
     "https://drive.google.com/uc?",
-    "https://www.melani.admin.ch/melani/en/home/dokumentation/reports/technical-"
+    "https://labs.bitdefender.com/wp-content/uploads/downloads/pacifier-apt/.",
+    "https://www.melani.admin.ch/melani/en/home/dokumentation/reports/technical-",
+    "https://www.offensive-"
   ]
 }

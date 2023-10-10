@@ -5,10 +5,10 @@
   "references": [],
   "samples": [
     "rundl32.exe",
-    "reportView.do",
     "ncExec.dll",
-    "ComputerDefaults.exe",
-    "krcert.or"
+    "krcert.or",
+    "reportView.do",
+    "ComputerDefaults.exe"
   ],
   "weight": 0.0,
   "signatures": [

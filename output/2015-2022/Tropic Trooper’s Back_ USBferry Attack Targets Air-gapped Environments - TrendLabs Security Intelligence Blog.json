@@ -4,9 +4,9 @@
   "description": "-",
   "references": [],
   "samples": [
-    "USBLODR.ZAHB",
-    "IDSHELL.ZTFC",
     "en.dat",
+    "IDSHELL.ZTFC",
+    "USBLODR.ZAHB",
     "TEBSHELL.ZTGK",
     "SVCSHELL.ZAHC",
     "ash.dat"

@@ -4,19 +4,19 @@
   "description": "-",
   "references": [],
   "samples": [
-    "BIN0001.ps",
     "whistl.do",
-    "www.boho",
-    "perfcon.dat",
-    "castle.do",
-    "sublist3.asp",
     "BIN0002.bmp",
-    "vaccines.by"
+    "vaccines.by",
+    "castle.do",
+    "BIN0001.ps",
+    "perfcon.dat",
+    "sublist3.asp",
+    "www.boho"
   ],
   "weight": 0.0,
   "signatures": [
+    "https://virustinal.github.io/yara/",
     "https://www.boho.or.kr/download/whistlCastle/castle.do)",
-    "https://www.boho.or.kr/download/whistlCastle/whistl.do)",
-    "https://virustinal.github.io/yara/"
+    "https://www.boho.or.kr/download/whistlCastle/whistl.do)"
   ]
 }

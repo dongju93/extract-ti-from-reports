@@ -3,10 +3,10 @@
   "name": "Resurgent Iron Liberty Targeting Energy Sector",
   "description": "-",
   "references": [],
-  "samples": ["www.ncsc", "injection.html", "Allanite.html", "gov.uk"],
+  "samples": ["injection.html", "gov.uk", "www.ncsc", "Allanite.html"],
   "weight": 0.0,
   "signatures": [
-    "https://motherboard.vice.com/en_us/article/bmjdmd/hackers-",
-    "https://www.ncsc.gov.uk/alerts/hostile-state-actors-compromising-uk-organisations-focus-"
+    "https://www.ncsc.gov.uk/alerts/hostile-state-actors-compromising-uk-organisations-focus-",
+    "https://motherboard.vice.com/en_us/article/bmjdmd/hackers-"
   ]
 }

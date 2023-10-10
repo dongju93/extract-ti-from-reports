@@ -4,16 +4,16 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Dropper.Win",
-    "PE32.DLLs",
-    "binary.dll",
-    "DWriteImpl.dll",
+    "techniques.html",
     "DWriteImpl.pdb",
-    "ls.dll",
+    "PE32.DLLs",
     "Dwrite.dll",
+    "ls.dll",
+    "DWriteImpl.dll",
     "malware.html",
     "DWrite.dll",
-    "techniques.html"
+    "binary.dll",
+    "Dropper.Win"
   ],
   "weight": 0.0,
   "signatures": [
@@ -21,7 +21,7 @@
     "af2f4142463f42548b8650a3adf5ceb2",
     "09f3c9ae382fbd29fb47ecdfeb3bb149d7e961a1",
     "a873f3417d54220e978d0ca9ceb63cf13ec71f84",
-    "18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5",
-    "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0"
+    "8773aeb53d9034dc8de339651e61d8d6ae0a895c4c89b670d501db8dc60cd2d0",
+    "18cc54e2fbdad5a317b6aeb2e7db3973cc5ffb01bbf810869d79e9cb3bf02bd5"
   ]
 }

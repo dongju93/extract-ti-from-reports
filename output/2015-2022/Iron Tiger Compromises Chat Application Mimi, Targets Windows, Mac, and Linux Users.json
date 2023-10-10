@@ -3,7 +3,7 @@
   "name": "Iron Tiger Compromises Chat Application Mimi, Targets Windows, Mac, and Linux Users",
   "description": "-",
   "references": [],
-  "samples": ["users.html", "dlpprem32.dll", "2.dmg"],
+  "samples": ["2.dmg", "dlpprem32.dll", "users.html"],
   "weight": 0.0,
   "signatures": []
 }

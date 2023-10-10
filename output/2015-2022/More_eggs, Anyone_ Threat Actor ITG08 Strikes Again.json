@@ -4,25 +4,25 @@
   "description": "-",
   "references": [],
   "samples": [
-    "58678.txt",
-    "65390.txt",
-    "12025.txt",
     "39054.txt",
+    "4140.txt",
     "625222E09B6CD028459.txt",
-    "28535.txt",
+    "50573.txt",
+    "metsvr.dll",
+    "49340.txt",
+    "F.txt",
+    "12025.txt",
+    "58678.txt",
     "updater.exe",
     "27603.docx",
-    "F.txt",
-    "metsvr.dll",
-    "50573.txt",
-    "4140.txt",
+    "65390.txt",
     "A70613FF7F5DE98.txt",
-    "49340.txt"
+    "28535.txt"
   ],
   "weight": 0.0,
   "signatures": [
-    "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Notepad\\<computername>. If not running with",
     "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Notepad\\",
-    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with"
+    "HKEY_USERS\\S-1-5-19\\Environment\\TEMP; a successful read means it is running with",
+    "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Notepad\\<computername>. If not running with"
   ]
 }

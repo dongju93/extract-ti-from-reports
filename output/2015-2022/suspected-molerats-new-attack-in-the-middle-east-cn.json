@@ -5,20 +5,20 @@
   "references": [],
   "samples": [
     "delphi.html",
-    "wmsetup.vbs",
-    "Ihelp.exe",
-    "spring.html",
     "ihelp.exe",
+    "Ihelp.exe",
+    "wmsetup.vbs",
     "White.pdf",
+    "ivy.html",
     "WHITE.pdf",
-    "ivy.html"
+    "spring.html"
   ],
   "weight": 0.0,
   "signatures": [
     "46173adc26721fb54f6e1a1091a892d4",
     "063a50e5e4b4d17a23ac8c8b33501719",
-    "http://www.timeso",
     "https://middle-east-online.com/en/cyber-war-gaza-hackers-deface-israel-",
+    "http://www.timeso",
     "https://aptmap.netlify.com/"
   ]
 }

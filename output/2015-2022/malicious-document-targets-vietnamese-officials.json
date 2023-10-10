@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Dascgosrky.exe",
+    "Winword.exe",
     "onstaticcache.dat",
     "dascgosrky.exe",
     "impresstravel.ga",
-    "Winword.exe"
+    "Dascgosrky.exe"
   ],
   "weight": 0.0,
   "signatures": [

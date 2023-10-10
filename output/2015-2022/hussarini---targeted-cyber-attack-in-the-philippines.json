@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "OutExtra.exe",
-    "Security.doc",
-    "Outllib.dll",
     "nder.exe",
-    "cache.txt"
+    "Outllib.dll",
+    "OutExtra.exe",
+    "cache.txt",
+    "Security.doc"
   ],
   "weight": 0.0,
   "signatures": [

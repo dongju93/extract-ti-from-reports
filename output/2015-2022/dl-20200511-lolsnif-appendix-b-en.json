@@ -4,12 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
-    "NTDLL.DLL",
     "S.Run",
     "window.flag",
-    "NTDSAPI.DLL",
+    "c_1252.nls",
     "KERNEL32.DLL",
-    "c_1252.nls"
+    "NTDLL.DLL",
+    "NTDSAPI.DLL"
   ],
   "weight": 0.0,
   "signatures": []

@@ -3,7 +3,7 @@
   "name": "darkhydruns-group-against-middle-east-cn",
   "description": "-",
   "references": [],
-  "samples": ["最后使用regsvr32.exe", "指标.xlsm", "为ﺱﺭﺎﻬﻔﻟﺍ.xlsm"],
+  "samples": ["为ﺱﺭﺎﻬﻔﻟﺍ.xlsm", "指标.xlsm", "最后使用regsvr32.exe"],
   "weight": 0.0,
   "signatures": []
 }

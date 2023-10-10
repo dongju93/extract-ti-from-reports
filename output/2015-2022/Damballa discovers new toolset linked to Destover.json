@@ -3,13 +3,13 @@
   "name": "Damballa discovers new toolset linked to Destover",
   "description": "-",
   "references": [],
-  "samples": ["tapi32.dll", "Btcshop.cc"],
+  "samples": ["Btcshop.cc", "tapi32.dll"],
   "weight": 0.0,
   "signatures": [
-    "f83f9d1797f5dbd419dfa86987790153",
     "b5ddd6ed3bd16c6f438b3bc95a2b49a8",
-    "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac",
+    "f83f9d1797f5dbd419dfa86987790153",
     "fe30da9e47010d3522d30ff90fb10d6c30302e8d16001c1a12c149b508888ab8",
+    "38c87a92694b597e5d402342ab4a9ff88b5b81beb2791405637bdca2b8384eac",
     "https://www.damballa.com/damballa-discovers-new-toolset-linked-to-destover-attackers-arsenal-helps-them-to-broaden-attack-surface/"
   ]
 }

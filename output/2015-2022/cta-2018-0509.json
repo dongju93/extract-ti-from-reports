@@ -3,7 +3,7 @@
   "name": "cta-2018-0509",
   "description": "-",
   "references": [],
-  "samples": ["Khamanei.ir", "Gerdab.ir", "Parsijoo.ir"],
+  "samples": ["Khamanei.ir", "Parsijoo.ir", "Gerdab.ir"],
   "weight": 0.0,
   "signatures": [
     "http://hackingscripts.com/simattacker-shell/",

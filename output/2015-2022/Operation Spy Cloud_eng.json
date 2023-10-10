@@ -3,7 +3,7 @@
   "name": "Operation Spy Cloud_eng",
   "description": "-",
   "references": [],
-  "samples": ["clisve.exe", "kavsvc.exe", "Application.Quit", "invoice.sca"],
+  "samples": ["kavsvc.exe", "invoice.sca", "Application.Quit", "clisve.exe"],
   "weight": 0.0,
   "signatures": [
     "392647675E8DFCD2602B4FFE38A19E2B",

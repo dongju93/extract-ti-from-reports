@@ -3,7 +3,7 @@
   "name": "Mac Backdoor Linked to Lazarus Targets Korean Users",
   "description": "-",
   "references": [],
-  "samples": ["Album.app", "MacOS.NUKE"],
+  "samples": ["MacOS.NUKE", "Album.app"],
   "weight": 0.0,
   "signatures": []
 }

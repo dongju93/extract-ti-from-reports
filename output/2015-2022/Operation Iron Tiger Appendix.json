@@ -4,17 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
-    "UnitFrmManagerRegister.pas",
-    "UnitFrmManagerKeyLog.pas",
-    "FastDos.cpp",
-    "DLODR.PO",
-    "GHOST.EJ",
     "xx.exe",
-    "UnitFrmRControl.pas",
-    "jingtisanmenxiachuanxiao.vbs",
-    "123.EFH",
     "123.EXE",
-    "PLUGX.XX"
+    "PLUGX.XX",
+    "GHOST.EJ",
+    "UnitFrmManagerKeyLog.pas",
+    "UnitFrmRControl.pas",
+    "123.EFH",
+    "FastDos.cpp",
+    "jingtisanmenxiachuanxiao.vbs",
+    "UnitFrmManagerRegister.pas",
+    "DLODR.PO"
   ],
   "weight": 0.0,
   "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]

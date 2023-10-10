@@ -4,13 +4,13 @@
   "description": "-",
   "references": [],
   "samples": [
-    "order.zip",
-    "order.doc",
     "ServerCrypted.vbs",
-    "RegAsm.exe",
-    "CmD.exe",
     "EQNEDT32.EXE",
-    "cscript.exe"
+    "order.zip",
+    "CmD.exe",
+    "cscript.exe",
+    "order.doc",
+    "RegAsm.exe"
   ],
   "weight": 0.0,
   "signatures": [

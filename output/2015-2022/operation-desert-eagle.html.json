@@ -4,17 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
+    "powershell.lnk",
+    "News.url",
     "explorer.lnk",
     "explorer.vbs",
-    "News.url",
-    "powershell.lnk",
     "CheckVersion.php"
   ],
   "weight": 0.0,
   "signatures": [
-    "e69206a709a80133aebf55153847a6b2",
     "a856f56fec6abdc3a93c3715be1567e5",
     "4cbebeda71dceb9914a21d06e22223af",
+    "e69206a709a80133aebf55153847a6b2",
     "HKU\\...\\Software\\Microsoft\\KeyName:)\tis\tcreated\twhich\tcontains\tthe"
   ]
 }

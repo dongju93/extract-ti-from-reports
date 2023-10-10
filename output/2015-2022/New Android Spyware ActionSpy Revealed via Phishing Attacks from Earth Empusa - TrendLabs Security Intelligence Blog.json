@@ -4,15 +4,15 @@
   "description": "-",
   "references": [],
   "samples": [
-    "com.omn",
-    "com.ecs",
-    "goforssl.top",
-    "android.dmp",
-    "gotossl.ml",
     "com.cd",
     "ActionSpy.HRX",
-    "doublesclick.me"
+    "gotossl.ml",
+    "doublesclick.me",
+    "com.ecs",
+    "goforssl.top",
+    "com.omn",
+    "android.dmp"
   ],
   "weight": 0.0,
-  "signatures": ["http://static.doubles.click:8082/", "http://114.215.41.93/"]
+  "signatures": ["http://114.215.41.93/", "http://static.doubles.click:8082/"]
 }

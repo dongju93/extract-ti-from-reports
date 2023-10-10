@@ -4,10 +4,10 @@
   "description": "-",
   "references": [],
   "samples": [
-    "SoftwareUpdateFiles.dll",
     "SoftwareUpdate.exe",
-    "SoftwareUpdateFilesLocalized.dll",
     "FINAL.docx",
+    "SoftwareUpdateFilesLocalized.dll",
+    "SoftwareUpdateFiles.dll",
     "Cambodia.docx"
   ],
   "weight": 0.0,

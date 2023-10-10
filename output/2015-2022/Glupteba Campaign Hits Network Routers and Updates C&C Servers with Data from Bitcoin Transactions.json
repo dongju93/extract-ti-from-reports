@@ -4,27 +4,27 @@
   "description": "-",
   "references": ["CVE-2018-14847"],
   "samples": [
+    "WinMonFs64.sys",
     "WinMonFs32.sys",
-    "64.sys",
     "cloudnet.exe",
+    "64.sys",
+    "pd.log",
+    "x.exe",
+    "patch.exe",
     "vc.exe",
     "WinMon32.sys",
-    "cl.exe",
-    "patch.exe",
-    "wup.exe",
+    "WinMonProcessMonitor64.sys",
     "WinMon64.sys",
-    "WinMonFs64.sys",
     "WinMonprocessmonitor32.sys",
-    "pd.log",
     "32.sys",
-    "x.exe",
-    "WinMonProcessMonitor64.sys"
+    "wup.exe",
+    "cl.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "0f8f7cd39e1a5231b49f986b877befce0c2f558f0c1a9844833ac702cb3eba6e",
-    "HKEY_USERS\\<sid>\\Software\\Microsoft\\TestApp to store all the acquired information. The result of running the conﬁg initialization function",
     "HKEY_USERS\\%s\\Software\\Microsoft\\Windows\\CurrentVersion\\Ru",
+    "HKEY_USERS\\<sid>\\Software\\Microsoft\\TestApp to store all the acquired information. The result of running the conﬁg initialization function",
     "http://ip-api.com/json"
   ]
 }

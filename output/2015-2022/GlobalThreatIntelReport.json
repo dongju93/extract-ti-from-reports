@@ -4,22 +4,22 @@
   "description": "-",
   "references": [],
   "samples": [
-    "hijacked.html",
-    "Pakistan.scr",
-    "times.html",
-    "Win64.exe",
+    "sea.sy",
     "todaynews.dns",
-    "sea.sy"
+    "times.html",
+    "hijacked.html",
+    "Win64.exe",
+    "Pakistan.scr"
   ],
   "weight": 0.0,
   "signatures": [
+    "http://instagram.com/official_sea2",
     "https://www.pinterest.com/officialsea/",
-    "http://www.ibtimes.com/",
     "https://ello.co/syrianelectronicarmy",
+    "http://www.techworm.",
+    "http://www.ibtimes.com/",
     "http://bits.blogs.nytimes.",
     "http://vk.com/syrianelectronicarmy",
-    "http://instagram.com/official_sea2",
-    "http://sea.sy/rss/en",
-    "http://www.techworm."
+    "http://sea.sy/rss/en"
   ]
 }

@@ -3,7 +3,7 @@
   "name": "Scarab_Russian",
   "description": "-",
   "references": [],
-  "samples": ["hidsvc.dat", "year.doc", "seclog32.dll", "года.doc"],
+  "samples": ["seclog32.dll", "hidsvc.dat", "year.doc", "года.doc"],
   "weight": 0.0,
   "signatures": []
 }

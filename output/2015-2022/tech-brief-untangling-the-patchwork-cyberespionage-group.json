@@ -6,14 +6,14 @@
   "samples": [
     "Temp.log",
     "scvhost6.exe",
-    "check.php",
-    "simpledownloader.exe",
-    "rmi.exe",
     "TaskScheduler.dll",
+    "rmi.exe",
     "s.dwg",
+    "updatecheck.php",
     "base.Load",
+    "simpledownloader.exe",
     "msvcr71.dll",
-    "updatecheck.php"
+    "check.php"
   ],
   "weight": 0.0,
   "signatures": []

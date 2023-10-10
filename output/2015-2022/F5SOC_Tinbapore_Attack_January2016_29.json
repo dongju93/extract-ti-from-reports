@@ -3,7 +3,7 @@
   "name": "F5SOC_Tinbapore_Attack_January2016_29",
   "description": "-",
   "references": [],
-  "samples": ["bin.exe", "web.dat", "ntf.dat"],
+  "samples": ["bin.exe", "ntf.dat", "web.dat"],
   "weight": 0.0,
   "signatures": []
 }

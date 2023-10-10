@@ -4,29 +4,29 @@
   "description": "-",
   "references": [],
   "samples": [
-    "eholidays.moo",
-    "eholidays.mooo",
-    "29dac6.pdf",
-    "network.js",
-    "hearings.html",
-    "apec2015.ph",
-    "system.xls",
     "www.pca",
+    "apec2015.ph",
     "allowance.xls",
-    "MSHTA.EXE",
+    "hearings.html",
+    "network.js",
     "Data.xls",
-    "humans.mooo"
+    "29dac6.pdf",
+    "MSHTA.EXE",
+    "system.xls",
+    "humans.mooo",
+    "eholidays.mooo",
+    "eholidays.moo"
   ],
   "weight": 0.0,
   "signatures": [
-    "a17769e8a2ac48f83076e3e1b6b24d71e6431d43",
-    "da799a043e077fd7bde1eaa1a1fa32fd32bcfb25",
     "da3a8d1ea5b245f612da17ec7b252c45fd75adae",
+    "a17769e8a2ac48f83076e3e1b6b24d71e6431d43",
     "c66165a2fda061a2dc6415b99668c0b802bb26a0",
-    "http://www.gmanetwork.com/news/story/523278/news/nation/profiles-can-these-foreign-lawyers-help-",
-    "https://www.theguardian.com/us-news/2015/oct/26/us-navy-destroyer-chinese-islands-south-china-sea",
+    "da799a043e077fd7bde1eaa1a1fa32fd32bcfb25",
     "http://www.pca-cpa.org/PH-CN_20141217_Press_Release_",
+    "http://www.gmanetwork.com/news/story/523278/news/nation/profiles-can-these-foreign-lawyers-help-",
     "http://cnnphilippines.com/news/2015/07/15/de-lima-doj-rest-of-the-world-watching-the-hague-hearings.html",
-    "http://apec2015.ph/meetings/aelm/"
+    "http://apec2015.ph/meetings/aelm/",
+    "https://www.theguardian.com/us-news/2015/oct/26/us-navy-destroyer-chinese-islands-south-china-sea"
   ]
 }

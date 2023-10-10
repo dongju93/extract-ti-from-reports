@@ -4,23 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "comhost.dll",
-    "msdtc32.exe",
-    "installer.dll",
-    "mscorwin.dll",
-    "Fanny.bmp",
-    "shelldoc.dll",
-    "fanny.bmp",
-    "agentcpd.dll",
-    "AGENTCPD.DLL",
     "ahx.html",
-    "atmpsvcn.ocx"
+    "installer.dll",
+    "agentcpd.dll",
+    "msdtc32.exe",
+    "comhost.dll",
+    "Fanny.bmp",
+    "fanny.bmp",
+    "mscorwin.dll",
+    "AGENTCPD.DLL",
+    "atmpsvcn.ocx",
+    "shelldoc.dll"
   ],
   "weight": 0.0,
   "signatures": [
     "HKLM\\Software\\Microsoft\\Windows",
-    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
     "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\ECELP",
+    "HKLM\\System\\CurrentControlSet\\Control\\MediaResources\\acm\\EC",
     "http://webuysupplystore.mooo.com/ads/QueryRecord200586_f2"
   ]
 }

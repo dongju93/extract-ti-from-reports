@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "surprise.php",
-    "nanagrams.exe",
-    "MSWORD.OLB",
-    "new.php",
     "conjunctiva.exe",
+    "surprise.php",
+    "new.php",
+    "rams.exe",
     "VBE6.DLL",
     "IVa.ExE",
-    "rams.exe"
+    "nanagrams.exe",
+    "MSWORD.OLB"
   ],
   "weight": 0.0,
   "signatures": [

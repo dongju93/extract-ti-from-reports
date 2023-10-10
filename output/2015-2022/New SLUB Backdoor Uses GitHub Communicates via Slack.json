@@ -4,16 +4,16 @@
   "description": "-",
   "references": ["CVE-2018-8174", "CVE-2015-1701"],
   "samples": [
-    "Tray.exe",
-    "storage.data",
-    "ZhuDongFangYu.exe",
-    "ashServ.exe",
-    "avgemc.exe",
-    "navapsvc.exe",
     "bdagent.exe",
-    "Win32.SLUB",
+    "ZhuDongFangYu.exe",
     "AYAgent.aye",
-    "ecs.data"
+    "ecs.data",
+    "storage.data",
+    "Win32.SLUB",
+    "navapsvc.exe",
+    "avgemc.exe",
+    "Tray.exe",
+    "ashServ.exe"
   ],
   "weight": 0.0,
   "signatures": [

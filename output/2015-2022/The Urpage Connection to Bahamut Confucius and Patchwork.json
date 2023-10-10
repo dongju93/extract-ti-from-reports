@@ -4,10 +4,10 @@
   "description": "-",
   "references": ["CVE-2017-8750", "CVE-2017-12824"],
   "samples": [
-    "targets.We",
     "TROJ_CVE201711882.AG",
-    "POWLOAD.GAA",
-    "threema.app"
+    "targets.We",
+    "threema.app",
+    "POWLOAD.GAA"
   ],
   "weight": 0.0,
   "signatures": [

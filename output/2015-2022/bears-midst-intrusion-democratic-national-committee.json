@@ -3,7 +3,7 @@
   "name": "bears-midst-intrusion-democratic-national-committee",
   "description": "-",
   "references": [],
-  "samples": ["prov.IV", "prov.Key", "twain_64.dll"],
+  "samples": ["prov.Key", "prov.IV", "twain_64.dll"],
   "weight": 0.0,
   "signatures": []
 }

@@ -4,20 +4,20 @@
   "description": "-",
   "references": ["CVE-2019-9489"],
   "samples": [
-    "magnify.exe",
+    "20200424_002177.html",
+    "ten.exe",
+    "Microsoft.dll",
+    "Scan.exe",
     "PccNTMon.exe",
     "B1487.txt",
-    "PowershellDLL.dll",
     "www.lac",
-    "Studioや.NET",
-    "cgiRecvFile.exe",
     "magify.exe",
+    "Studioや.NET",
+    "PowershellDLL.dll",
+    "magnify.exe",
     "Mon.exe",
-    "Microsoft.dll",
-    "ten.exe",
     "Automation.dll",
-    "Scan.exe",
-    "20200424_002177.html"
+    "cgiRecvFile.exe"
   ],
   "weight": 0.0,
   "signatures": [

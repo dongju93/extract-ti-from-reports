@@ -4,25 +4,25 @@
   "description": "-",
   "references": [
     "CVE-2012-2532",
-    "CVE-2010-1899",
-    "CVE-2010-2730",
-    "CVE-2010-1256",
-    "CVE-2012-2531",
     "CVE-2010-3972",
-    "CVE-2017-15906"
+    "CVE-2010-2730",
+    "CVE-2012-2531",
+    "CVE-2017-15906",
+    "CVE-2010-1899",
+    "CVE-2010-1256"
   ],
   "samples": [
-    "ICON.PNG",
-    "cmd.log",
-    "mapping.log",
-    "dns.log",
     "conn.log",
-    "rpc.log",
-    "ntlm.log"
+    "mapping.log",
+    "cmd.log",
+    "dns.log",
+    "ICON.PNG",
+    "ntlm.log",
+    "rpc.log"
   ],
   "weight": 0.0,
   "signatures": [
-    "https://drive.google.com/open?",
-    "http://scsnewstoday.com/news."
+    "http://scsnewstoday.com/news.",
+    "https://drive.google.com/open?"
   ]
 }

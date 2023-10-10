@@ -4,26 +4,26 @@
   "description": "-",
   "references": [],
   "samples": [
-    "laotel08.vicp",
-    "baomoi.vicp",
-    "yahoomail.pw",
-    "o.wm",
+    "kevins.pw",
     "user123.vicp",
-    "macstore.vicp",
-    "telcom.dhtu",
-    "mlfjcjssl.gicp",
-    "lovethai.vicp",
+    "o.wm",
     "vietkey.xicp",
+    "baomoi.vicp",
+    "moziliafirefox.wicp",
+    "lovethai.vicp",
+    "macstore.vicp",
     "googledata.pw",
+    "telcom.dhtu",
+    "yahoomail.pw",
+    "mlfjcjssl.gicp",
     "htkg009.gicp",
     "ggpw.pw",
-    "moziliafirefox.wicp",
-    "kevins.pw"
+    "laotel08.vicp"
   ],
   "weight": 0.0,
   "signatures": [
-    "d74a7e7a4de0da503472f1f051b68745",
     "b4a8dc9eb26e727eafb6c8477963829c",
+    "d74a7e7a4de0da503472f1f051b68745",
     "93e84075bef7a11832d9c5aa70135dc6",
     "172fd9cce78de38d8cbcad605e3d6675"
   ]

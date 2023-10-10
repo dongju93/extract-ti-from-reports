@@ -3,10 +3,10 @@
   "name": "Operation Soft Cell_ A Worldwide Campaign Against Telecommunications Providers",
   "description": "-",
   "references": [],
-  "samples": ["maybemimi.exe", "Reg.exe", "portqry.exe", "RunHelp.exe"],
+  "samples": ["RunHelp.exe", "portqry.exe", "Reg.exe", "maybemimi.exe"],
   "weight": 0.0,
   "signatures": [
-    "https://youtu.be/Ihpn2-4jTvc",
-    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers"
+    "https://www.cybereason.com/blog/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers",
+    "https://youtu.be/Ihpn2-4jTvc"
   ]
 }

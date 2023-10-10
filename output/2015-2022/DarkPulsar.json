@@ -4,17 +4,17 @@
   "description": "-",
   "references": [],
   "samples": [
-    "version.fb",
-    "Msv1_0.dll",
-    "Lsasrv.dll",
-    "0.exe",
-    "Kerberos.dll",
-    "version.exe",
     "sipauth32.tsp",
-    "9.xml",
-    "Wdigest.dll",
     "Schannel.dll",
-    "version.xml"
+    "Kerberos.dll",
+    "9.xml",
+    "Lsasrv.dll",
+    "version.exe",
+    "0.exe",
+    "version.fb",
+    "version.xml",
+    "Wdigest.dll",
+    "Msv1_0.dll"
   ],
   "weight": 0.0,
   "signatures": [

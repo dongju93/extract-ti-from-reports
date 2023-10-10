@@ -4,12 +4,12 @@
   "description": "-",
   "references": [],
   "samples": [
-    "siHost64.exe",
-    "rtf.lnk",
     "threatrecon.nshc",
-    "GetCurrentRollback.exe",
     "FYI.zip",
+    "siHost64.exe",
     "siHost64.png",
+    "GetCurrentRollback.exe",
+    "rtf.lnk",
     "GetCurrentDeploy.dll"
   ],
   "weight": 0.0,

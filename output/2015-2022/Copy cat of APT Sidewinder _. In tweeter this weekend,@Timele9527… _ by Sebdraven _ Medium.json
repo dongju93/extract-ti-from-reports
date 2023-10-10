@@ -4,27 +4,27 @@
   "description": "-",
   "references": [],
   "samples": [
-    "duser.dll",
+    "ain.pas",
     "am_cy_167.hta",
-    "itstr.exe",
+    "duser.dll",
     "credwiz.exe",
     "comm.hta",
-    "ain.pas"
+    "itstr.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "7af11efe4454dab75ad2338124be149d",
     "2848db54d87006714309ce6a1c4ce92e5a29aab7",
+    "3a0950b425b60c2e8be38ed1307d5817513a934dac2fed75fad820dd66a4b244",
     "17eabfb88a164aa95731f198bd69a7285cc7f64acd7c289062cd3979a4a2f5bf",
     "709d548a42500b15db4b171711a31a2ab227f508f60d4cde670b2b9081ce56af",
-    "3a0950b425b60c2e8be38ed1307d5817513a934dac2fed75fad820dd66a4b244",
     "26ca6af15ff8273733a6a386a482357256ac4373a8641e486fb646bc9c525afa",
-    "https://app.any.run/tasks/487b8762-997a-4d68-9072-",
-    "http://vidyasagaracademybrg.in/scripts/lnk/comm/comm.hta",
-    "http://vidyasagaracademybrg.in/scripts/am/am_cy_167.hta",
     "http://vidyasagaracademybrg.in/scripts/lnk/comm/",
+    "http://vidyasagaracademybrg.in/scripts/am/",
+    "http://vidyasagaracademybrg.in/scripts/am/am_cy_167.hta",
+    "https://app.any.run/tasks/487b8762-997a-4d68-9072-",
     "http://vidyasagaracademybrg.in/scripts/lnk/comm",
-    "https://medium.com/@Sebdraven/copy-cat-of-apt-sidewinder-1893059ca68d",
-    "http://vidyasagaracademybrg.in/scripts/am/"
+    "http://vidyasagaracademybrg.in/scripts/lnk/comm/comm.hta",
+    "https://medium.com/@Sebdraven/copy-cat-of-apt-sidewinder-1893059ca68d"
   ]
 }

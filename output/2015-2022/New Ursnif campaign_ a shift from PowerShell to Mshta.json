@@ -5,13 +5,13 @@
   "references": [],
   "samples": [
     "Index.dll",
-    "zoak2.cab",
-    "Mshta.exe",
-    "targen.php",
     "index.dll",
+    "targen.php",
     "zoak4.cab",
-    "zoak6.cab",
-    "info_03_24.doc"
+    "Mshta.exe",
+    "zoak2.cab",
+    "info_03_24.doc",
+    "zoak6.cab"
   ],
   "weight": 0.0,
   "signatures": [

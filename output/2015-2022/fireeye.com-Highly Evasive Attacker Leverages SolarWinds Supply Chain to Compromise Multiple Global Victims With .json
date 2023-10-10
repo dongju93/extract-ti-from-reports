@@ -4,24 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Hotfix5.msp",
-    "businesslayerhost.exe",
-    "netsetupsvc.dll",
-    "api.eu",
-    "api.us",
+    "NetSetupSvc.dll",
     "backdoor.html",
-    "BusinessLayer.dll",
+    "Hotfix5.msp",
+    "netsetupsvc.dll",
     "BusinessLayerHostx64.exe",
-    "BusinessLayerHost.exe",
+    "api.us",
+    "api.eu",
     "Orion.Core",
-    "NetSetupSvc.dll"
+    "BusinessLayer.dll",
+    "BusinessLayerHost.exe",
+    "businesslayerhost.exe"
   ],
   "weight": 0.0,
   "signatures": [
     "b91ce2fa41029f6955bff20079468448",
     "02af7cec58b9a5da1c542b5a32151ba1",
-    "HKU\\SOFTWARE\\Microsoft\\CTF exists,",
     "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Cryptography\\MachineGuid. The userID is encoded via a custom",
-    "HKLM\\SYSTEM\\CurrentControlSet\\services\\<service_name>\\Start registry entries to value 4 for disabled. Some"
+    "HKLM\\SYSTEM\\CurrentControlSet\\services\\<service_name>\\Start registry entries to value 4 for disabled. Some",
+    "HKU\\SOFTWARE\\Microsoft\\CTF exists,"
   ]
 }

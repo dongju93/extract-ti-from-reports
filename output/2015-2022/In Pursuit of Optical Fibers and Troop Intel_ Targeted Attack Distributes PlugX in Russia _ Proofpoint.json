@@ -3,22 +3,22 @@
   "name": "In Pursuit of Optical Fibers and Troop Intel_ Targeted Attack Distributes PlugX in Russia _ Proofpoint",
   "description": "-",
   "references": [],
-  "samples": ["229690166.html", "mplayer.exe"],
+  "samples": ["mplayer.exe", "229690166.html"],
   "weight": 0.0,
   "signatures": [
-    "http://inosmi.ru/russia/20150818/229690166.html).",
     "http://investors.proofpoint.com/)",
+    "http://tvzvezda.ru/news/forces/content/201508191459-88tq.htm)",
+    "http://proofpoint.com/us/customer-stories)",
+    "https://code.google.com/p/darkstrat/)",
+    "http://kasperskycontenthub.com/wp-",
+    "http://proofpoint.com/solutions/products/targeted-attack-protection)",
+    "http://nexgate.com)",
+    "http://blog.jpcert.or.jp/2015/01/analysis-of-a-r-ff05.html)",
     "http://support.proofpointessentials.com/)",
     "https://www.sendmail.com/cfusion/CFIDE/smi/support/)",
-    "https://code.google.com/p/darkstrat/)",
-    "https://support.proofpoint.com/)",
-    "http://nexgate.com)",
-    "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/kaspersky-the-net-",
-    "http://proofpoint.com/us/customer-stories)",
-    "http://tvzvezda.ru/news/forces/content/201508191459-88tq.htm)",
-    "http://kasperskycontenthub.com/wp-",
+    "http://inosmi.ru/russia/20150818/229690166.html).",
     "http://tvzvezda.ru/news/forces/content/201508191459-",
-    "http://blog.jpcert.or.jp/2015/01/analysis-of-a-r-ff05.html)",
-    "http://proofpoint.com/solutions/products/targeted-attack-protection)"
+    "https://support.proofpoint.com/)",
+    "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/kaspersky-the-net-"
   ]
 }

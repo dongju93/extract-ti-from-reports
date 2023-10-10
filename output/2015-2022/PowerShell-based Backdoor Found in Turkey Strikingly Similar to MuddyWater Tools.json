@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "WIN32.PO",
-    "B.reg",
     "png.dll",
-    "UN.AA",
+    "B.reg",
+    "WIN32.PO",
     "Raport.doc",
+    "UN.AA",
     "WRUN.AA",
     "Win32.POWR"
   ],

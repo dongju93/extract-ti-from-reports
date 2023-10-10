@@ -4,11 +4,11 @@
   "description": "-",
   "references": [],
   "samples": [
-    "感染.test",
-    "Onion.city",
-    "usbman.dll",
+    "test.dll",
     "usbrun.ico",
-    "test.dll"
+    "Onion.city",
+    "感染.test",
+    "usbman.dll"
   ],
   "weight": 0.0,
   "signatures": []

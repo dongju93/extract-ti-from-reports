@@ -4,18 +4,18 @@
   "description": "-",
   "references": [],
   "samples": [
-    "uniqueness.pdf",
-    "exploit.The",
-    "SP.PT",
     "panopticlick.eff",
-    "environments.If"
+    "SP.PT",
+    "exploit.The",
+    "environments.If",
+    "uniqueness.pdf"
   ],
   "weight": 0.0,
   "signatures": [
     "634438A50AE1990C4F8636801C410460",
-    "http://www.pinlady.net/PluginDetect/",
-    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-",
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
     "https://panopticlick.eff.org/index.php)",
-    "https://panopticlick.eff.org/browser-uniqueness.pdf)."
+    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-",
+    "http://www.pinlady.net/PluginDetect/"
   ]
 }

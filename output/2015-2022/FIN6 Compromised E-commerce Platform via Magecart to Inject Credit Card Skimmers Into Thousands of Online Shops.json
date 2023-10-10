@@ -3,11 +3,11 @@
   "name": "FIN6 Compromised E-commerce Platform via Magecart to Inject Credit Card Skimmers Into Thousands of Online Shops",
   "description": "-",
   "references": [],
-  "samples": ["resources.js", "vnav.js", "jQuery.ajax"],
+  "samples": ["resources.js", "jQuery.ajax", "vnav.js"],
   "weight": 0.0,
   "signatures": [
-    "cee25c699a14a04c6e1b6e6fcd5ce7d4414c9f324b62509a7af14ae5bf749af8",
     "d03f18a71ce059a79840a38aad4944426f0524bbd68a7a8fb7003c82996e6533",
+    "cee25c699a14a04c6e1b6e6fcd5ce7d4414c9f324b62509a7af14ae5bf749af8",
     "2348433df49e73217969a45726c53441f092c4a6fce57d1d58a6cf79d3976058"
   ]
 }

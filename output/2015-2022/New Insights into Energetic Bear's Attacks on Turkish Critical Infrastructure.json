@@ -6,8 +6,8 @@
   "samples": ["icon.png"],
   "weight": 0.0,
   "signatures": [
-    "http://www.c",
     "http://www.controleng.com/t",
+    "http://www.c",
     "http://www.plantengineering.com/t"
   ]
 }

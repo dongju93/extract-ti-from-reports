@@ -8,18 +8,18 @@
   "signatures": [
     "54656d7ae9f6b89413d5b20704b43b10",
     "https://github",
+    "https://code",
+    "https://tls",
+    "http://blog",
+    "http://virtualkd",
+    "https://support",
+    "http://www",
+    "https://media",
+    "http://linux",
     "http://openssl",
     "https://blog",
-    "http://www",
     "https://en",
-    "http://blog",
-    "https://tls",
-    "http://virtualkd",
-    "http://linux",
-    "https://www",
     "https://msdn",
-    "https://support",
-    "https://code",
-    "https://media"
+    "https://www"
   ]
 }

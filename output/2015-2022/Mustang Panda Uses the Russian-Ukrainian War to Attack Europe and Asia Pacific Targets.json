@@ -4,24 +4,24 @@
   "description": "-",
   "references": [],
   "samples": [
-    "ClassicExplorerLog.dat",
+    "ClassicExplorer32.dll",
     "test11.bpu",
-    "Russia.rar",
-    "ClassicExplorerLog.bin",
     "ClassicExplorerSettings.exe",
-    "ClassicExplorer32.dll"
+    "ClassicExplorerLog.dat",
+    "ClassicExplorerLog.bin",
+    "Russia.rar"
   ],
   "weight": 0.0,
   "signatures": [
-    "ae105528a6c5758ccf18705a8c208a97",
+    "6d6a0ca7c7343eedfffeb697229a4929",
     "7177ab83a40a4111eb0170a76e92142b",
     "a95f48acd5da4beddd4115e12653c23c",
-    "6d6a0ca7c7343eedfffeb697229a4929",
-    "b44cc792ae7f58e9a12a121c14a067ee1dd380df093339b4bf2b02df5937b2af",
+    "ae105528a6c5758ccf18705a8c208a97",
+    "9c1ea202237726984b754d17528cfab0212ff9587bbffaf01c8535277b01c24a",
     "F70d3601fb456a18ed7e7ed599d10783447016da78234f5dca61b8bd3a084a15",
     "f70d3601fb456a18ed7e7ed599d10783447016da78234f5dca61b8bd3a084a15",
-    "9c1ea202237726984b754d17528cfab0212ff9587bbffaf01c8535277b01c24a",
     "8e27900949a087349488d82e7434937bd253d31749041bb0233000a7339fc3e1",
+    "b44cc792ae7f58e9a12a121c14a067ee1dd380df093339b4bf2b02df5937b2af",
     "https://blogs.blackberry.com/en/2022/12/mustang-panda-uses-the-russian-ukrainian-war-to-attack-europe-and-asia-paci"
   ]
 }

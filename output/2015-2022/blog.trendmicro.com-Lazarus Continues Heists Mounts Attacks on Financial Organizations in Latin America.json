@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "Roptimizer.dll",
-    "ROptimizer.dll",
     "FileTokenBroker.dll",
+    "Auditcred.dll",
     "rOptimizer.dll",
+    "Roptimizer.dll",
     "AuditCred.dll",
     "BINLODRCONF.ZNFJ",
-    "Auditcred.dll",
-    "BINLODR.ZNFJ"
+    "BINLODR.ZNFJ",
+    "ROptimizer.dll"
   ],
   "weight": 0.0,
   "signatures": []

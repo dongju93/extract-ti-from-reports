@@ -4,23 +4,23 @@
   "description": "-",
   "references": [],
   "samples": [
-    "rokrat.html",
+    "PT.Gen",
     "dump.sql",
     "patch39.exe",
-    "Dropper.Gen",
     "crosshairs.html",
-    "wild.html",
-    "Reloaded.html",
+    "Dropper.Gen",
+    "rokrat.html",
     "annex.hwp",
-    "actor.html",
+    "sitemap.tar",
     "maldoc.html",
-    "PT.Gen",
-    "sitemap.tar"
+    "Reloaded.html",
+    "wild.html",
+    "actor.html"
   ],
   "weight": 0.0,
   "signatures": [
-    "http://endlesspaws.com/dump.sql",
     "http://endlesspaws.com/sitemap.tar.gz.",
-    "http://global.ahnlab.com"
+    "http://global.ahnlab.com",
+    "http://endlesspaws.com/dump.sql"
   ]
 }

@@ -4,14 +4,14 @@
   "description": "-",
   "references": [],
   "samples": [
-    "lb.data",
-    "tv.dll",
-    "dCh8RnL1.Odo",
+    "userinit.dll",
     "dCh8RnL1.ODo",
-    "n.bi",
     "Falcon.html",
+    "dCh8RnL1.Odo",
+    "n.bi",
+    "lb.data",
     "17.stcz",
-    "userinit.dll"
+    "tv.dll"
   ],
   "weight": 0.0,
   "signatures": [
