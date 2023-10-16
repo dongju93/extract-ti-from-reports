@@ -1,9 +1,0 @@
-{
-  "rule_id": 455,
-  "name": "cta-2019-0612",
-  "description": "-",
-  "references": [],
-  "samples": ["df.me", "xih.me", "gji.me", "bki.me", "f89.me"],
-  "weight": 0.0,
-  "signatures": []
-}

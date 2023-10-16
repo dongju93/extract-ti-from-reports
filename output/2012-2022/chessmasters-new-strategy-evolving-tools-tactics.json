@@ -1,0 +1,1 @@
+{"rule_id": 512, "name": "chessmasters-new-strategy-evolving-tools-tactics", "description": "-", "references": [], "samples": ["mhsta.exe", "ANEL.ZKEI", "Img.db", "img.db"], "weight": 0.0, "signatures": ["af1b2cd8580650d826f48ad824deef3749a7db6fde1c7e1dc115c6b0a7dfa0dd"]}

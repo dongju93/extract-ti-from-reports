@@ -1,9 +1,0 @@
-{
-  "rule_id": 263,
-  "name": "Pawn_Storm_Update_2018.Jan",
-  "description": "-",
-  "references": [],
-  "samples": ["chmail.ir"],
-  "weight": 0.0,
-  "signatures": []
-}

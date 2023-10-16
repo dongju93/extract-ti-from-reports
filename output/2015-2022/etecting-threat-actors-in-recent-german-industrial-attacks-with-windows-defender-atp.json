@@ -1,9 +1,0 @@
-{
-  "rule_id": 780,
-  "name": "etecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp",
-  "description": "-",
-  "references": [],
-  "samples": ["FILTER.DLL", "FILTER.dll"],
-  "weight": 0.0,
-  "signatures": []
-}

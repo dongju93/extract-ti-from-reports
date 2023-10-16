@@ -1,0 +1,1 @@
+{"rule_id": 921, "name": "cta-2018-0509", "description": "-", "references": [], "samples": ["Gerdab.ir", "Parsijoo.ir", "Khamanei.ir"], "weight": 0.0, "signatures": ["http://www.zone-h.org/mirror/id/4479919", "http://hackingscripts.com/simattacker-shell/"]}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 935,
-  "name": "new-andariel-reconnaissance-tactics-hint-at-next-targets",
-  "description": "-",
-  "references": [],
-  "samples": ["WSActiveBridge.exe", "skin.php"],
-  "weight": 0.0,
-  "signatures": ["e0e30eb5e5ff1e71548c4405d04ce16b94c4cb7f"]
-}

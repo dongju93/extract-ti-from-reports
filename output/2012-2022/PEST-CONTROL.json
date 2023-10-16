@@ -1,0 +1,1 @@
+{"rule_id": 1064, "name": "PEST-CONTROL", "description": "-", "references": [], "samples": ["SynHosts.txt", "comet.db", "COMET.DB", "secret.txt", "rpi.edu", "brown.edu"], "weight": 0.0, "signatures": ["a933d13f81649bebe035dc21f4002ff1", "202cb962ac59075b964b07152d234b70", "90dd3e7e19b35baa54015d0b4a08f2d0"]}

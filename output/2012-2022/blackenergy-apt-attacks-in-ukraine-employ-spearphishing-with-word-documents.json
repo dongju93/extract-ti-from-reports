@@ -1,0 +1,1 @@
+{"rule_id": 612, "name": "blackenergy-apt-attacks-in-ukraine-employ-spearphishing-with-word-documents", "description": "-", "references": [], "samples": ["www.stb"], "weight": 0.0, "signatures": ["http://www.stb.ua/ru/."]}

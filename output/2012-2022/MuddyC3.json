@@ -1,0 +1,1 @@
+{"rule_id": 331, "name": "MuddyC3", "description": "-", "references": [], "samples": ["muddyc3.exe"], "weight": 0.0, "signatures": ["146cc97df36cb4cea39074652d069519", "daa7d4c40ffaa6cf4e4708747d3a9b37", "https://ti.qianxin.com/blog/articles/analysis-of-muddyc3-a-new-weapon-used-by-muddywater/"]}

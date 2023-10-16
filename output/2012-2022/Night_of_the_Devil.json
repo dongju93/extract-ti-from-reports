@@ -1,0 +1,1 @@
+{"rule_id": 353, "name": "Night_of_the_Devil", "description": "-", "references": [], "samples": ["xcopy.exe", "cleaner.bat", "oni.exe", "srvupd.exe", "clean.bat"], "weight": 0.0, "signatures": ["6abfb50b0657e87d8aec594ccc95f2e1b13f355e", "4a850136af93b9918fb4290a2bf665c4f28201d1", "b7d33751d118fab6aedabfdf6a4ddf627e6cab02"]}

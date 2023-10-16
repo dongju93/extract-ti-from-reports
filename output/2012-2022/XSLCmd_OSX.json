@@ -1,0 +1,1 @@
+{"rule_id": 735, "name": "XSLCmd_OSX", "description": "-", "references": ["CVE-2010-2884"], "samples": ["appleupdate.biz", "keys.log", "config.htm", "chkdiskc.dat", "chkdiska.dat", "tiwiki.ashx"], "weight": 0.0, "signatures": ["60242ad3e1b6c4d417d4dfeb8fb464a1", "https://ssl.", "http://1234/config.htm"]}

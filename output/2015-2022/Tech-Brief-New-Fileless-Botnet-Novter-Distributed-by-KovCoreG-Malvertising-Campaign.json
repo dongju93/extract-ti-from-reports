@@ -1,9 +1,0 @@
-{
-  "rule_id": 604,
-  "name": "Tech-Brief-New-Fileless-Botnet-Novter-Distributed-by-KovCoreG-Malvertising-Campaign",
-  "description": "-",
-  "references": [],
-  "samples": ["tcp.Ack", "Node.JS", "tcp.Syn"],
-  "weight": 0.0,
-  "signatures": []
-}

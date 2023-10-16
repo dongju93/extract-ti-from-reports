@@ -1,9 +1,0 @@
-{
-  "rule_id": 258,
-  "name": "blog_APT41",
-  "description": "-",
-  "references": [],
-  "samples": ["operation.html"],
-  "weight": 0.0,
-  "signatures": []
-}

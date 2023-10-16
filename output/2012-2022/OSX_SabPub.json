@@ -1,0 +1,1 @@
+{"rule_id": 1031, "name": "OSX_SabPub", "description": "-", "references": ["CVE-2009-0563"], "samples": ["8958.doc"], "weight": 0.0, "signatures": ["40C8786A4887A763D8F3E5243724D1C9"]}

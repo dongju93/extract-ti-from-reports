@@ -1,9 +1,0 @@
-{
-  "rule_id": 632,
-  "name": "Scarab_Russian",
-  "description": "-",
-  "references": [],
-  "samples": ["seclog32.dll", "hidsvc.dat", "year.doc", "года.doc"],
-  "weight": 0.0,
-  "signatures": []
-}

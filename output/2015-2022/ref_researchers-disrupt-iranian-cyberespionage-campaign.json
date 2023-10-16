@@ -1,9 +1,0 @@
-{
-  "rule_id": 822,
-  "name": "ref_researchers-disrupt-iranian-cyberespionage-campaign",
-  "description": "-",
-  "references": [],
-  "samples": ["InfosecIsland.Com"],
-  "weight": 0.0,
-  "signatures": []
-}

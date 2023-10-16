@@ -1,9 +1,0 @@
-{
-  "rule_id": 559,
-  "name": "Running for Office_ Russian APT Toolkits Revealed",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": ["https://www.recordedfuture.com/russian-apt-toolkits/"]
-}

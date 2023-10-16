@@ -10,9 +10,9 @@ def merge_json_files(directory):
         if filename.endswith(".json"):
             with open(os.path.join(directory, filename), "r") as f:
                 data = json.load(f)
-                if isinstance(data, list):
-                    merged_data.extend(data)
-                elif isinstance(data, dict):
+                # if isinstance(data, list):
+                # merged_data.extend(data)
+                if isinstance(data, dict):
                     merged_data.append(data)
                 else:
                     print(
@@ -31,7 +31,7 @@ merged_data = merge_json_files(directory_path)
 sorted_data = sort_by_rule_id(merged_data)
 
 with open(
-    output_path + "2015-2022_merged.json",
+    output_path + "2012-2022_merged.json",
     "w",
 ) as outfile:
-    json.dump(sorted_data, outfile, indent=4)
+    json.dump(sorted_data, outfile, indent=4, ensure_ascii=False)

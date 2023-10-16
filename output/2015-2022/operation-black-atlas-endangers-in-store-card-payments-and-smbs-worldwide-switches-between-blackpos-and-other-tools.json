@@ -1,9 +1,0 @@
-{
-  "rule_id": 867,
-  "name": "operation-black-atlas-endangers-in-store-card-payments-and-smbs-worldwide-switches-between-blackpos-and-other-tools",
-  "description": "-",
-  "references": [],
-  "samples": ["toolbox.The"],
-  "weight": 0.0,
-  "signatures": []
-}

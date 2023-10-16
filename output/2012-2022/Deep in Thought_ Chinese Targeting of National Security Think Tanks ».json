@@ -1,0 +1,1 @@
+{"rule_id": 336, "name": "Deep in Thought_ Chinese Targeting of National Security Think Tanks »", "description": "-", "references": [], "samples": ["r.Key", "r.IV", "cftmon.exe", "setup1.log", "Headers.Add", "al.Add", "dfs.Read"], "weight": 0.0, "signatures": ["https://<ANONYMIZED>/config/login/", "https://<ANONYMIZED>/config/oauth/"]}

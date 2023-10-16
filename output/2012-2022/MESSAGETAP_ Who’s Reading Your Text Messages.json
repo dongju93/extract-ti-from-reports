@@ -1,0 +1,1 @@
+{"rule_id": 995, "name": "MESSAGETAP_ Who’s Reading Your Text Messages", "description": "-", "references": [], "samples": ["www.etsi", "parm.txt", "messages.html"], "weight": 0.0, "signatures": ["8D3B3D5B68A1D08485773D70C186D877", "http://www.etsi.org/deliver/etsi_ts/123000_123099/123040/04.02.00_60/ts_123040v040200p.pdf"]}

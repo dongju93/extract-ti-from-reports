@@ -1,9 +1,0 @@
-{
-  "rule_id": 203,
-  "name": "thrip-hits-satellite-telecoms-defense-targets",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

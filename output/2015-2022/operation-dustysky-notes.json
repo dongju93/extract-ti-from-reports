@@ -1,9 +1,0 @@
-{
-  "rule_id": 993,
-  "name": "operation-dustysky-notes",
-  "description": "-",
-  "references": [],
-  "samples": ["Co.vuCo", "co.vu"],
-  "weight": 0.0,
-  "signatures": []
-}

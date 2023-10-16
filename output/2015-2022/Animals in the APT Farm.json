@@ -1,9 +1,0 @@
-{
-  "rule_id": 37,
-  "name": "Animals in the APT Farm",
-  "description": "-",
-  "references": [],
-  "samples": ["quelques.html"],
-  "weight": 0.0,
-  "signatures": ["http://ejournaux.blogspot.com/2008/07/la-langue-"]
-}

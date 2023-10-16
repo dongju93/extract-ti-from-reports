@@ -1,9 +1,0 @@
-{
-  "rule_id": 730,
-  "name": "Operation Clandestine Wolf",
-  "description": "-",
-  "references": [],
-  "samples": ["14.html"],
-  "weight": 0.0,
-  "signatures": []
-}

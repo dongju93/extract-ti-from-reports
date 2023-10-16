@@ -1,9 +1,0 @@
-{
-  "rule_id": 582,
-  "name": "threat-group-4127-targets-hillary-clinton-presidential-campaign",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

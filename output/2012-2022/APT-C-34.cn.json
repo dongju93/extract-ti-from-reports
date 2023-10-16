@@ -1,0 +1,1 @@
+{"rule_id": 553, "name": "APT-C-34.cn", "description": "-", "references": [], "samples": ["17.stcz", "lb.data", "tv.dll", "Falcon.html", "userinit.dll", "n.bi", "dCh8RnL1.ODo", "dCh8RnL1.Odo"], "weight": 0.0, "signatures": ["HKEY_CLASSES_ROOT\\stcz_auto_ﬁle\\shell\\open\\command的值可以知道，InterMgr", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下添加开机启动项，启动"]}

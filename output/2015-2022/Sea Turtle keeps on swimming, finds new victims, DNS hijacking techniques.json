@@ -1,9 +1,0 @@
-{
-  "rule_id": 512,
-  "name": "Sea Turtle keeps on swimming, finds new victims, DNS hijacking techniques",
-  "description": "-",
-  "references": [],
-  "samples": ["swimming.html"],
-  "weight": 0.0,
-  "signatures": []
-}

@@ -1,9 +1,0 @@
-{
-  "rule_id": 702,
-  "name": "bears-midst-intrusion-democratic-national-committee",
-  "description": "-",
-  "references": [],
-  "samples": ["prov.Key", "prov.IV", "twain_64.dll"],
-  "weight": 0.0,
-  "signatures": []
-}

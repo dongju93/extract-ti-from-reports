@@ -1,9 +1,0 @@
-{
-  "rule_id": 366,
-  "name": "Mustang Panda _ Threat Actor Profile _ CrowdStrike",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": []
-}

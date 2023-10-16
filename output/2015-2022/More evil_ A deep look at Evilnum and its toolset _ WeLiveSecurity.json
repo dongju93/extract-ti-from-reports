@@ -1,9 +1,0 @@
-{
-  "rule_id": 520,
-  "name": "More evil_ A deep look at Evilnum and its toolset _ WeLiveSecurity",
-  "description": "-",
-  "references": [],
-  "samples": ["system.mem", "mory.dll", "Memmory.dll", "kGqTdU.txt"],
-  "weight": 0.0,
-  "signatures": []
-}
