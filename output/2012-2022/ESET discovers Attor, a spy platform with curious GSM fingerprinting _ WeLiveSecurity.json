@@ -1,1 +1,11 @@
-{"rule_id": 953, "name": "ESET discovers Attor, a spy platform with curious GSM fingerprinting _ WeLiveSecurity", "description": "-", "references": [], "samples": [], "weight": 0.0, "signatures": ["HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"]}
+{
+  "rule_id": 953,
+  "name": "ESET discovers Attor, a spy platform with curious GSM fingerprinting _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\*ControlSet*\\Control\\SafeBoot\\Mini‐"
+  ]
+}

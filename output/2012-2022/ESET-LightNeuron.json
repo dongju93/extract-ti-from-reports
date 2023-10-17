@@ -1,1 +1,32 @@
-{"rule_id": 768, "name": "ESET-LightNeuron", "description": "-", "references": [], "samples": ["thumbcache_32.db", "Turla.CC", "winmail.dat", "idx.db", "Transport.dll", "msmocf.xml", "exrwdb.dll", "msmodl.dat", "Transport.Smtp", "Exchange.Data", "Search.dll", "Search.exe", "Interop.dll"], "weight": 0.0, "signatures": ["F9D52BB5A30B42FC2D1763BE586CEE8A57424732", "3C851E239FBF67A03E0DAE8F63EEE702B330DB6C", "A4D1A34FE5EFFD90CCB6897679586DDC07FBC5CD", "0A9F10925AF42DF94925D07112F303D57392C908", "76EE1802A6C920CBEB3A1053A4EC03C71B7E46F8", "C1FF6804FDB8656AB08928D187837D28060A552F", "FF28B53B55BC77A5B4626F9DB856E67AC598C787", "https://docs"]}
+{
+  "rule_id": 768,
+  "name": "ESET-LightNeuron",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "winmail.dat",
+    "thumbcache_32.db",
+    "Transport.dll",
+    "msmodl.dat",
+    "Exchange.Data",
+    "msmocf.xml",
+    "Transport.Smtp",
+    "Search.dll",
+    "Search.exe",
+    "Turla.CC",
+    "exrwdb.dll",
+    "idx.db",
+    "Interop.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "F9D52BB5A30B42FC2D1763BE586CEE8A57424732",
+    "FF28B53B55BC77A5B4626F9DB856E67AC598C787",
+    "0A9F10925AF42DF94925D07112F303D57392C908",
+    "3C851E239FBF67A03E0DAE8F63EEE702B330DB6C",
+    "C1FF6804FDB8656AB08928D187837D28060A552F",
+    "A4D1A34FE5EFFD90CCB6897679586DDC07FBC5CD",
+    "76EE1802A6C920CBEB3A1053A4EC03C71B7E46F8",
+    "https://docs"
+  ]
+}

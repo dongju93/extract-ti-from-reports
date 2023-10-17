@@ -1,1 +1,34 @@
-{"rule_id": 833, "name": "Studying Donot Team", "description": "-", "references": [], "samples": ["TerBin.pdb", "An.dll", "WORDICON.lnk", "msplugin.icu", "sinter.exe", "bin.js", "WorkFile.pdb", "BinWork.pdb", "MsBuild.pdb", "Support.lnk", "customer.txt", "TaskTool.pdb", "drivethrough.top", "ConnectLink.pdb", "A64.dll", "ow.exe", "mystrylust.pw"], "weight": 0.0, "signatures": ["71ab0946b6a72622aef6cdd7907479ec", "22e7ef7c3c7911b4c08ce82fde76ec72", "330a4678fae2662975e850200081a1b1", "21b7fc61448af8938c09007871486f58", "22f41b6238290913fc4d196b8423724d", "6ce1855cf027d76463bb8d5954fcc7bb"]}
+{
+  "rule_id": 833,
+  "name": "Studying Donot Team",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "drivethrough.top",
+    "Support.lnk",
+    "mystrylust.pw",
+    "sinter.exe",
+    "TaskTool.pdb",
+    "An.dll",
+    "bin.js",
+    "customer.txt",
+    "TerBin.pdb",
+    "msplugin.icu",
+    "ow.exe",
+    "WORDICON.lnk",
+    "ConnectLink.pdb",
+    "A64.dll",
+    "WorkFile.pdb",
+    "BinWork.pdb",
+    "MsBuild.pdb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "22e7ef7c3c7911b4c08ce82fde76ec72",
+    "22f41b6238290913fc4d196b8423724d",
+    "21b7fc61448af8938c09007871486f58",
+    "71ab0946b6a72622aef6cdd7907479ec",
+    "6ce1855cf027d76463bb8d5954fcc7bb",
+    "330a4678fae2662975e850200081a1b1"
+  ]
+}

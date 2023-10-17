@@ -1,1 +1,24 @@
-{"rule_id": 914, "name": "CERTFR-2020-CTI-009", "description": "-", "references": [], "samples": ["niceideas.ch", "swaqp.exe", "sage.exe", "ssi.gouv"], "weight": 0.0, "signatures": ["https://www.group-", "https://cyware.", "https://www.secureworks.", "https://pbs.twimg.com/media/ERxmxQnWAAM8Fmj.jpg", "https://www.cybereason.com/blog/threat-", "https://norfolkinfosec.", "https://www.bleepingcomputer.com/news/security/three-", "https://e.cyberint.com/", "https://www.proofpoint.", "https://www.niceideas.ch/roller2/", "https://www.telekom.com/en/blog/group/article/cybersecurity-ta505-s-box-of-chocolate-", "https://yoroi.company/research/ta505-is-", "https://unit42.", "https://www.bitsight.com/blog/dridex-botnets"]}
+{
+  "rule_id": 914,
+  "name": "CERTFR-2020-CTI-009",
+  "description": "-",
+  "references": [],
+  "samples": ["swaqp.exe", "niceideas.ch", "ssi.gouv", "sage.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.bleepingcomputer.com/news/security/three-",
+    "https://cyware.",
+    "https://www.telekom.com/en/blog/group/article/cybersecurity-ta505-s-box-of-chocolate-",
+    "https://pbs.twimg.com/media/ERxmxQnWAAM8Fmj.jpg",
+    "https://www.group-",
+    "https://yoroi.company/research/ta505-is-",
+    "https://www.cybereason.com/blog/threat-",
+    "https://www.bitsight.com/blog/dridex-botnets",
+    "https://unit42.",
+    "https://www.secureworks.",
+    "https://www.niceideas.ch/roller2/",
+    "https://www.proofpoint.",
+    "https://norfolkinfosec.",
+    "https://e.cyberint.com/"
+  ]
+}

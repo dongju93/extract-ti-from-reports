@@ -1,1 +1,9 @@
-{"rule_id": 705, "name": "Mo' Shells Mo' Problems - Network Detection »", "description": "-", "references": [], "samples": ["www.bro", "http.log", "web.aspx"], "weight": 0.0, "signatures": ["https://www.bro.org/)"]}
+{
+  "rule_id": 705,
+  "name": "Mo' Shells Mo' Problems - Network Detection »",
+  "description": "-",
+  "references": [],
+  "samples": ["http.log", "web.aspx", "www.bro"],
+  "weight": 0.0,
+  "signatures": ["https://www.bro.org/)"]
+}

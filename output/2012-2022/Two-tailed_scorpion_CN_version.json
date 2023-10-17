@@ -1,1 +1,36 @@
-{"rule_id": 1019, "name": "Two-tailed_scorpion_CN_version", "description": "-", "references": [], "samples": ["callaghan.icu", "IntegratedOffice.exe", "Jerusalem_26082019.pdf", "report.docx", "五.IOCs", "129223.html", "SyncDownOptzHostProc.exe", "125292.html", "Entelaqa32.rar", "Shortcut.exe", "SecPulse.COM", "guid.bin", "MenuProgramsStartupSyncDownOptzHostProc.lnk", "5.HXD", "IntegratedOffice.txt", "SyncDownOptzHostProc.lnk", "Services.pdf"], "weight": 0.0, "signatures": ["http://nicoledotson.icu/debby/weatherford/pidnimit", "http://linda-callaghan.icu/Minkowski/brown", "http://nicoledotson.icu/debby/weatherford/ekspertyza", "https://mp.weixin.qq.com/s/Rfcr-YPIoUUvc89WFrdrnw", "http://nicoledotson.icu/debby/weatherford/vydalyty", "http://nicoledotson.icu/debby/weatherford/Zavantazhyty", "https://www.secpulse.com/archives/125292.html", "https://www.freebuf.com/articles/system/129223.html"]}
+{
+  "rule_id": 1019,
+  "name": "Two-tailed_scorpion_CN_version",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "SecPulse.COM",
+    "125292.html",
+    "Shortcut.exe",
+    "5.HXD",
+    "五.IOCs",
+    "IntegratedOffice.txt",
+    "Jerusalem_26082019.pdf",
+    "Entelaqa32.rar",
+    "129223.html",
+    "SyncDownOptzHostProc.lnk",
+    "report.docx",
+    "SyncDownOptzHostProc.exe",
+    "IntegratedOffice.exe",
+    "guid.bin",
+    "callaghan.icu",
+    "MenuProgramsStartupSyncDownOptzHostProc.lnk",
+    "Services.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://nicoledotson.icu/debby/weatherford/Zavantazhyty",
+    "http://nicoledotson.icu/debby/weatherford/pidnimit",
+    "https://www.freebuf.com/articles/system/129223.html",
+    "http://nicoledotson.icu/debby/weatherford/ekspertyza",
+    "http://linda-callaghan.icu/Minkowski/brown",
+    "https://mp.weixin.qq.com/s/Rfcr-YPIoUUvc89WFrdrnw",
+    "https://www.secpulse.com/archives/125292.html",
+    "http://nicoledotson.icu/debby/weatherford/vydalyty"
+  ]
+}

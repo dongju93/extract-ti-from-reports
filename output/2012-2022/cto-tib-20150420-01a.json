@@ -1,1 +1,11 @@
-{"rule_id": 707, "name": "cto-tib-20150420-01a", "description": "-", "references": [], "samples": ["storm.pdf", "funny.html"], "weight": 0.0, "signatures": ["67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322"]}
+{
+  "rule_id": 707,
+  "name": "cto-tib-20150420-01a",
+  "description": "-",
+  "references": [],
+  "samples": ["funny.html", "storm.pdf"],
+  "weight": 0.0,
+  "signatures": [
+    "67ecc3b8c6057090c7982883e8d9d0389a8a8f6e8b00f9e9b73c45b008241322"
+  ]
+}

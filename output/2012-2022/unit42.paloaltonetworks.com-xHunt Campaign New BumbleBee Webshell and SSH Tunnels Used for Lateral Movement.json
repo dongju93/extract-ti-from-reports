@@ -1,1 +1,28 @@
-{"rule_id": 130, "name": "unit42.paloaltonetworks.com-xHunt Campaign New BumbleBee Webshell and SSH Tunnels Used for Lateral Movement", "description": "-", "references": [], "samples": ["SVROOT.exe", "conn.Open", "cq.aspx", "ww.txt", "ShowDoc.aspx", "System.Data", "RTQ.exe", "teredo.txt", "w.txt", "ja.aspx", "r.txt", "da.fill", "system.Data"], "weight": 0.0, "signatures": ["28D968F26028D956E6F1199092A1C408", "36252C6C2F616C5664A54058F33EF463", "1B2F81BD2D39E60F1E1AD05DD3BF9F56", "A2B4D934D394B54672EA10CA8A65C198"]}
+{
+  "rule_id": 130,
+  "name": "unit42.paloaltonetworks.com-xHunt Campaign New BumbleBee Webshell and SSH Tunnels Used for Lateral Movement",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "r.txt",
+    "w.txt",
+    "ww.txt",
+    "SVROOT.exe",
+    "conn.Open",
+    "ShowDoc.aspx",
+    "ja.aspx",
+    "cq.aspx",
+    "teredo.txt",
+    "System.Data",
+    "da.fill",
+    "system.Data",
+    "RTQ.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "A2B4D934D394B54672EA10CA8A65C198",
+    "36252C6C2F616C5664A54058F33EF463",
+    "28D968F26028D956E6F1199092A1C408",
+    "1B2F81BD2D39E60F1E1AD05DD3BF9F56"
+  ]
+}

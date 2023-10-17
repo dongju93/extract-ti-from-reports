@@ -1,1 +1,47 @@
-{"rule_id": 422, "name": "20151028_codeblue_apt-en", "description": "-", "references": ["CVE-2014-0324", "CVE-2014-7247"], "samples": ["ww.xx", "168.yy", "msdart.exe", "2.DNS", "wpad.exe", "yrar.exe", "1.DNS", "QDump.exe", "Framework.ppt", "outl.exe", "mz.exe", "ww.exe", "068.exe", "qp.exe", "mimikatz.rar", "4113.exe", "logon.exe", "aa.bb", "4.Web", "cc.dd", "puac.exe", "CallMail.exe", "a.rar", "Document.jtd", "068.tar", "yy.zz", "qd.exe", "htproxy.exe", "20140820.doc", "gp.exe", "168.xx", "dirasd.exe", "timestomp.exe"], "weight": 0.0, "signatures": ["https://www.jpcert.or.jp/form/", "http://wpad/wpad.dat", "https://www.jpcert.or.jp"]}
+{
+  "rule_id": 422,
+  "name": "20151028_codeblue_apt-en",
+  "description": "-",
+  "references": ["CVE-2014-0324", "CVE-2014-7247"],
+  "samples": [
+    "mz.exe",
+    "outl.exe",
+    "yrar.exe",
+    "Document.jtd",
+    "20140820.doc",
+    "ww.exe",
+    "msdart.exe",
+    "QDump.exe",
+    "ww.xx",
+    "dirasd.exe",
+    "168.yy",
+    "CallMail.exe",
+    "wpad.exe",
+    "gp.exe",
+    "4113.exe",
+    "168.xx",
+    "logon.exe",
+    "Framework.ppt",
+    "mimikatz.rar",
+    "timestomp.exe",
+    "qp.exe",
+    "puac.exe",
+    "068.exe",
+    "068.tar",
+    "htproxy.exe",
+    "aa.bb",
+    "a.rar",
+    "1.DNS",
+    "qd.exe",
+    "cc.dd",
+    "4.Web",
+    "yy.zz",
+    "2.DNS"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://wpad/wpad.dat",
+    "https://www.jpcert.or.jp/form/",
+    "https://www.jpcert.or.jp"
+  ]
+}

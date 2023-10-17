@@ -1,1 +1,37 @@
-{"rule_id": 113, "name": "english-report-of-fhappi-freehosting", "description": "-", "references": ["CVE-2014-6271"], "samples": ["Ri.URZ", "DDOS.TF", "Plug1.dat", "userinit.exe", "Meeting_ｘｘｘ.doc", "Plug9.dat", "kernel.dll", "WS2_32.DLL", "Meeting_sumｘｘ.doc", "ｘｘｘ0301.wsc", "health.pro", "advapi.dll", "shellcode.exe", "wisers.data", "kernelbase.dll", "kisa.or"], "weight": 0.0, "signatures": ["661d4e056c8c0f6804cac7e6b24a79ec", "e798a7c33a58fc249965ac3de0fee67b", "b862a2cfe8f79bdbb4e1d39e0cfcae3a", "cb9a199fc68da233cec9d2f3d4deb081", "7c9689e015563410d331af91e0a0be8c", "0011fb4f42ee9d68c0f2dc62562f53e0", "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup の SystemSetupInProgress」,", "http://blog.0day.jp", "https://icann.org/epp", "http://www.cndns.com"]}
+{
+  "rule_id": 113,
+  "name": "english-report-of-fhappi-freehosting",
+  "description": "-",
+  "references": ["CVE-2014-6271"],
+  "samples": [
+    "WS2_32.DLL",
+    "Meeting_ｘｘｘ.doc",
+    "kernel.dll",
+    "ｘｘｘ0301.wsc",
+    "health.pro",
+    "Plug1.dat",
+    "shellcode.exe",
+    "wisers.data",
+    "advapi.dll",
+    "Meeting_sumｘｘ.doc",
+    "Plug9.dat",
+    "Ri.URZ",
+    "kernelbase.dll",
+    "userinit.exe",
+    "DDOS.TF",
+    "kisa.or"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "e798a7c33a58fc249965ac3de0fee67b",
+    "0011fb4f42ee9d68c0f2dc62562f53e0",
+    "b862a2cfe8f79bdbb4e1d39e0cfcae3a",
+    "cb9a199fc68da233cec9d2f3d4deb081",
+    "7c9689e015563410d331af91e0a0be8c",
+    "661d4e056c8c0f6804cac7e6b24a79ec",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup の SystemSetupInProgress」,",
+    "https://icann.org/epp",
+    "http://blog.0day.jp",
+    "http://www.cndns.com"
+  ]
+}

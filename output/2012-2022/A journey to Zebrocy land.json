@@ -1,1 +1,28 @@
-{"rule_id": 841, "name": "A journey to Zebrocy land", "description": "-", "references": [], "samples": ["Account.CFN", "97.pdf", "cert8.db", "action.php", "mtrcpl.dll", "Agent.OGE", "key4.db", "out.txt", "Sednit.CMT"], "weight": 0.0, "signatures": ["bfa26857575c49abb129aac87207f03f2b062e07", "1e9f40ef81176190e1ed9a0659473b2226c53f57", "48f8b152b86bed027b9152725505fbf4a24a39fd", "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-", "HKCU\\Software\\Microsoft\\Current‐", "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-", "http://45.124.132.127/DOVIDNIK", "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php"]}
+{
+  "rule_id": 841,
+  "name": "A journey to Zebrocy land",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Agent.OGE",
+    "cert8.db",
+    "key4.db",
+    "Account.CFN",
+    "out.txt",
+    "action.php",
+    "97.pdf",
+    "mtrcpl.dll",
+    "Sednit.CMT"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "48f8b152b86bed027b9152725505fbf4a24a39fd",
+    "bfa26857575c49abb129aac87207f03f2b062e07",
+    "1e9f40ef81176190e1ed9a0659473b2226c53f57",
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-9571-",
+    "HKCU\\Software\\Classes\\CLSID\\{0CD069CF-AC9B-41F4-",
+    "HKCU\\Software\\Microsoft\\Current‐",
+    "http://45.124.132.127/DOVIDNIK",
+    "http://45.124.132.127/action-center/centerforserviceandaction/service-and-action.php"
+  ]
+}

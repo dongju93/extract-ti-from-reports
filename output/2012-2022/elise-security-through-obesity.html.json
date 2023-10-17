@@ -1,1 +1,15 @@
-{"rule_id": 943, "name": "elise-security-through-obesity.html", "description": "-", "references": [], "samples": ["SyncManager.dll", "SyncMgr.dll", "察.pps", "hlwyss.dll"], "weight": 0.0, "signatures": ["bc179ebf3ca089dc9f3596beea38ab27", "3940a839c8f933cbdc17a50d164186fa", "c205fc5ab1c722bbe66a4cb6aff41190", "353fc24939bb5db003097a8dd3c0ee7b", "6fcdc554b71db3f0b46c7722c2a08285"]}
+{
+  "rule_id": 943,
+  "name": "elise-security-through-obesity.html",
+  "description": "-",
+  "references": [],
+  "samples": ["察.pps", "SyncMgr.dll", "SyncManager.dll", "hlwyss.dll"],
+  "weight": 0.0,
+  "signatures": [
+    "6fcdc554b71db3f0b46c7722c2a08285",
+    "bc179ebf3ca089dc9f3596beea38ab27",
+    "353fc24939bb5db003097a8dd3c0ee7b",
+    "3940a839c8f933cbdc17a50d164186fa",
+    "c205fc5ab1c722bbe66a4cb6aff41190"
+  ]
+}

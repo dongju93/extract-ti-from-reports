@@ -1,1 +1,24 @@
-{"rule_id": 996, "name": "Appendix-New-Fileless-Botnet-Novter-Distributed-by-KovCoreG-Malvertising-Campaign", "description": "-", "references": [], "samples": ["block_av_01.dat", "Downloader.JS", "tell2.dat", "sall.dat", "7.hta", "sall.js", "TRX.XX", "em_02.js", "bav01.js", "Trojan.JS", "module.avi"], "weight": 0.0, "signatures": ["a82dd93585094aeba4363c5aeedd1a85", "ef72c60a03738b25d452a5d895313875"]}
+{
+  "rule_id": 996,
+  "name": "Appendix-New-Fileless-Botnet-Novter-Distributed-by-KovCoreG-Malvertising-Campaign",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "module.avi",
+    "7.hta",
+    "sall.js",
+    "Downloader.JS",
+    "tell2.dat",
+    "TRX.XX",
+    "Trojan.JS",
+    "sall.dat",
+    "block_av_01.dat",
+    "bav01.js",
+    "em_02.js"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ef72c60a03738b25d452a5d895313875",
+    "a82dd93585094aeba4363c5aeedd1a85"
+  ]
+}

@@ -1,1 +1,38 @@
-{"rule_id": 146, "name": "Turla Crutch_ Keeping the “back door” open _ WeLiveSecurity", "description": "-", "references": [], "samples": ["resources.dll", "outlook.dat", "res.dat", "finder.exe", "8937.pdf", "lang.nls", "1.ZIP", "ntk.tmp", "ihlp.exe", "Extractor.pdb", "upd.exe", "msget.exe", "csrftokens.txt", "dwmapi.dll", "CLE.BIN", "rasadhlp.dll", "outllib.dll"], "weight": 0.0, "signatures": ["1AE4775EFF21FB59708E8C2B55967CD24840C8D9", "A4AFF23B9A58B598524A71F09AA67994083A9C83", "457B1CD985ED07BAFFD8C66FF40E9C1B6DA93753", "A92C801F491485F6E27B7EF6E52E02B461DBCFAA", "31D82C554ABAB3DD8917D058C2A46509272668C3", "A010D5449D29A1916827FDB443E3C84C405CB2A5", "2FABCF0FCE7F733F45E73B432F413E564B92D651", "830EE9E6A1BB7588AA8526D94D2D9A2B491A49FA", "778AA3A58F5C76E537B5FE287912CC53469A6078", "https://raw.githubusercontent.com/ksRD18pro/ksRD18/master/ntk.tmp"]}
+{
+  "rule_id": 146,
+  "name": "Turla Crutch_ Keeping the “back door” open _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "msget.exe",
+    "res.dat",
+    "finder.exe",
+    "CLE.BIN",
+    "Extractor.pdb",
+    "outllib.dll",
+    "csrftokens.txt",
+    "dwmapi.dll",
+    "ntk.tmp",
+    "lang.nls",
+    "upd.exe",
+    "1.ZIP",
+    "8937.pdf",
+    "outlook.dat",
+    "resources.dll",
+    "rasadhlp.dll",
+    "ihlp.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "A92C801F491485F6E27B7EF6E52E02B461DBCFAA",
+    "778AA3A58F5C76E537B5FE287912CC53469A6078",
+    "830EE9E6A1BB7588AA8526D94D2D9A2B491A49FA",
+    "31D82C554ABAB3DD8917D058C2A46509272668C3",
+    "457B1CD985ED07BAFFD8C66FF40E9C1B6DA93753",
+    "2FABCF0FCE7F733F45E73B432F413E564B92D651",
+    "1AE4775EFF21FB59708E8C2B55967CD24840C8D9",
+    "A4AFF23B9A58B598524A71F09AA67994083A9C83",
+    "A010D5449D29A1916827FDB443E3C84C405CB2A5",
+    "https://raw.githubusercontent.com/ksRD18pro/ksRD18/master/ntk.tmp"
+  ]
+}

@@ -1,1 +1,20 @@
-{"rule_id": 336, "name": "Deep in Thought_ Chinese Targeting of National Security Think Tanks »", "description": "-", "references": [], "samples": ["r.Key", "r.IV", "cftmon.exe", "setup1.log", "Headers.Add", "al.Add", "dfs.Read"], "weight": 0.0, "signatures": ["https://<ANONYMIZED>/config/login/", "https://<ANONYMIZED>/config/oauth/"]}
+{
+  "rule_id": 336,
+  "name": "Deep in Thought_ Chinese Targeting of National Security Think Tanks »",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "al.Add",
+    "cftmon.exe",
+    "dfs.Read",
+    "Headers.Add",
+    "r.IV",
+    "r.Key",
+    "setup1.log"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://<ANONYMIZED>/config/oauth/",
+    "https://<ANONYMIZED>/config/login/"
+  ]
+}

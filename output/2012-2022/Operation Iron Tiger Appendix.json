@@ -1,1 +1,21 @@
-{"rule_id": 391, "name": "Operation Iron Tiger Appendix", "description": "-", "references": [], "samples": ["jingtisanmenxiachuanxiao.vbs", "UnitFrmRControl.pas", "UnitFrmManagerRegister.pas", "UnitFrmManagerKeyLog.pas", "123.EFH", "xx.exe", "DLODR.PO", "FastDos.cpp", "GHOST.EJ", "123.EXE", "PLUGX.XX"], "weight": 0.0, "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]}
+{
+  "rule_id": 391,
+  "name": "Operation Iron Tiger Appendix",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "PLUGX.XX",
+    "DLODR.PO",
+    "UnitFrmManagerRegister.pas",
+    "123.EXE",
+    "GHOST.EJ",
+    "UnitFrmManagerKeyLog.pas",
+    "FastDos.cpp",
+    "UnitFrmRControl.pas",
+    "123.EFH",
+    "jingtisanmenxiachuanxiao.vbs",
+    "xx.exe"
+  ],
+  "weight": 0.0,
+  "signatures": ["e501dc14f1c1d3f7146c107dd7a77736"]
+}

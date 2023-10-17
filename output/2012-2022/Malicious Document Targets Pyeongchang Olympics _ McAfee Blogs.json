@@ -1,1 +1,21 @@
-{"rule_id": 739, "name": "Malicious Document Targets Pyeongchang Olympics _ McAfee Blogs", "description": "-", "references": [], "samples": ["mafra.go", "thlsystems.for", "개최.doc", "nctc.go", "jeojang.ga", "rst.cz", "view.hta", "Error733.hta"], "weight": 0.0, "signatures": ["8ad0a56e3db1e2cd730031bdcae2dbba3f7aba9c", "c388b693d10e2b84af52ab2c29eb9328e47c3c16"]}
+{
+  "rule_id": 739,
+  "name": "Malicious Document Targets Pyeongchang Olympics _ McAfee Blogs",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "mafra.go",
+    "rst.cz",
+    "nctc.go",
+    "thlsystems.for",
+    "개최.doc",
+    "Error733.hta",
+    "view.hta",
+    "jeojang.ga"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8ad0a56e3db1e2cd730031bdcae2dbba3f7aba9c",
+    "c388b693d10e2b84af52ab2c29eb9328e47c3c16"
+  ]
+}

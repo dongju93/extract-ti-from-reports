@@ -1,1 +1,24 @@
-{"rule_id": 36, "name": "Is Emotet gang targeting companies with external SOC", "description": "-", "references": [], "samples": ["MSForms.exd", "2019.doc", "EFENTIAL.exe", "stdole2.tlb", "EFENTIAL.pdb", "whoami.php", "MSO.DLL", "FM20.DLL"], "weight": 0.0, "signatures": ["ffcd1ab4ae5e052202d6af1ea2767498", "6125489453c1824da3e28a54708e7c77875e500d", "6125489453c1824da3e28a54708e7c77875e500dd82a59c96c1d1e5ee88dcad7", "de6a8b8612b5236a18eea1a6a8f53e117d046cf2ad95e079a6715af68f8d2216", "https://marcoramilli.com/2019/10/14/is-emotet-gang-targeting-companies-with-external-soc/"]}
+{
+  "rule_id": 36,
+  "name": "Is Emotet gang targeting companies with external SOC",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "EFENTIAL.exe",
+    "whoami.php",
+    "stdole2.tlb",
+    "MSO.DLL",
+    "2019.doc",
+    "FM20.DLL",
+    "MSForms.exd",
+    "EFENTIAL.pdb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ffcd1ab4ae5e052202d6af1ea2767498",
+    "6125489453c1824da3e28a54708e7c77875e500d",
+    "6125489453c1824da3e28a54708e7c77875e500dd82a59c96c1d1e5ee88dcad7",
+    "de6a8b8612b5236a18eea1a6a8f53e117d046cf2ad95e079a6715af68f8d2216",
+    "https://marcoramilli.com/2019/10/14/is-emotet-gang-targeting-companies-with-external-soc/"
+  ]
+}

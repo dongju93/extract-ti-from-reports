@@ -1,1 +1,20 @@
-{"rule_id": 559, "name": "Operation_Sheep", "description": "-", "references": [], "samples": ["com.hzfy", "com.hd", "lixxix.hall", "syezon.lab", "300757227.html", "kldwby.mi", "y.tv"], "weight": 0.0, "signatures": ["https://www.prnewswire.com/news-releases/cheetah-mobile-responds-to-kochavas-", "https://www.buzzfeednews.com/article/craigsilverman/android-apps-cheetah-mobile-kika-"]}
+{
+  "rule_id": 559,
+  "name": "Operation_Sheep",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "y.tv",
+    "300757227.html",
+    "com.hzfy",
+    "lixxix.hall",
+    "syezon.lab",
+    "com.hd",
+    "kldwby.mi"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.buzzfeednews.com/article/craigsilverman/android-apps-cheetah-mobile-kika-",
+    "https://www.prnewswire.com/news-releases/cheetah-mobile-responds-to-kochavas-"
+  ]
+}

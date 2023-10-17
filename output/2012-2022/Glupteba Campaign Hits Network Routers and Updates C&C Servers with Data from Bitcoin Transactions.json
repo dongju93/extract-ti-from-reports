@@ -1,1 +1,30 @@
-{"rule_id": 349, "name": "Glupteba Campaign Hits Network Routers and Updates C&C Servers with Data from Bitcoin Transactions", "description": "-", "references": ["CVE-2018-14847"], "samples": ["WinMonFs32.sys", "wup.exe", "WinMonFs64.sys", "x.exe", "vc.exe", "WinMonProcessMonitor64.sys", "WinMon32.sys", "patch.exe", "cl.exe", "cloudnet.exe", "32.sys", "WinMonprocessmonitor32.sys", "64.sys", "WinMon64.sys", "pd.log"], "weight": 0.0, "signatures": ["0f8f7cd39e1a5231b49f986b877befce0c2f558f0c1a9844833ac702cb3eba6e", "HKEY_USERS\\<sid>\\Software\\Microsoft\\TestApp to store all the acquired information. The result of running the conﬁg initialization function", "HKEY_USERS\\%s\\Software\\Microsoft\\Windows\\CurrentVersion\\Ru", "http://ip-api.com/json"]}
+{
+  "rule_id": 349,
+  "name": "Glupteba Campaign Hits Network Routers and Updates C&C Servers with Data from Bitcoin Transactions",
+  "description": "-",
+  "references": ["CVE-2018-14847"],
+  "samples": [
+    "wup.exe",
+    "pd.log",
+    "WinMonprocessmonitor32.sys",
+    "WinMon32.sys",
+    "WinMon64.sys",
+    "32.sys",
+    "patch.exe",
+    "cloudnet.exe",
+    "vc.exe",
+    "WinMonFs64.sys",
+    "WinMonProcessMonitor64.sys",
+    "64.sys",
+    "x.exe",
+    "WinMonFs32.sys",
+    "cl.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "0f8f7cd39e1a5231b49f986b877befce0c2f558f0c1a9844833ac702cb3eba6e",
+    "HKEY_USERS\\%s\\Software\\Microsoft\\Windows\\CurrentVersion\\Ru",
+    "HKEY_USERS\\<sid>\\Software\\Microsoft\\TestApp to store all the acquired information. The result of running the conﬁg initialization function",
+    "http://ip-api.com/json"
+  ]
+}

@@ -1,1 +1,21 @@
-{"rule_id": 621, "name": "rpt-witchcoven", "description": "-", "references": [], "samples": ["uniqueness.pdf", "exploit.The", "environments.If", "panopticlick.eff", "SP.PT"], "weight": 0.0, "signatures": ["634438A50AE1990C4F8636801C410460", "http://www.pinlady.net/PluginDetect/", "http://flashcritic.com/state-report-reveal-130-websites-used-travel-", "https://panopticlick.eff.org/browser-uniqueness.pdf).", "https://panopticlick.eff.org/index.php)"]}
+{
+  "rule_id": 621,
+  "name": "rpt-witchcoven",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "uniqueness.pdf",
+    "exploit.The",
+    "environments.If",
+    "SP.PT",
+    "panopticlick.eff"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "634438A50AE1990C4F8636801C410460",
+    "http://www.pinlady.net/PluginDetect/",
+    "https://panopticlick.eff.org/browser-uniqueness.pdf).",
+    "http://flashcritic.com/state-report-reveal-130-websites-used-travel-",
+    "https://panopticlick.eff.org/index.php)"
+  ]
+}

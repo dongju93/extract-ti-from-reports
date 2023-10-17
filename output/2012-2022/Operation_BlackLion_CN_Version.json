@@ -1,1 +1,35 @@
-{"rule_id": 494, "name": "Operation_BlackLion_CN_Version", "description": "-", "references": [], "samples": ["libfoobar.so", "linksysdatakeys.se", "Trujillo.doc", "Arias.doc", "该木马通过nss3.dll", "Ortiz.doc", "xxx.tmp", "pkgmgr.exe", "massive.exe", "SAfdASF.exe", "DUMP1.exe", "hqpi64.exe", "会启动恶意宏代码并从指定的服务器下载Etr739.exe", "接着利用nss3.dll", "Actualizado.doc", "riNpmWOoxxCY.exe"], "weight": 0.0, "signatures": ["B3C9F98DD07005FCCF57842451CE1B33", "262D9C6C0DC9D54726738D264802CCAD", "1E19266FC9DFF1480F126BD211936AAC", "048DCA20685ECD6B7DBDBF04B9082A54", "497566120F1020DBD6DF70DD128C0FFB", "DEF105A9452DEF53D49631AF16F6018B", "99C82F8A07605DA4CCC8853C910F7CAF", "https://www.secrss.com/articles/10745"]}
+{
+  "rule_id": 494,
+  "name": "Operation_BlackLion_CN_Version",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Ortiz.doc",
+    "Trujillo.doc",
+    "Arias.doc",
+    "DUMP1.exe",
+    "接着利用nss3.dll",
+    "riNpmWOoxxCY.exe",
+    "massive.exe",
+    "hqpi64.exe",
+    "xxx.tmp",
+    "会启动恶意宏代码并从指定的服务器下载Etr739.exe",
+    "libfoobar.so",
+    "pkgmgr.exe",
+    "linksysdatakeys.se",
+    "该木马通过nss3.dll",
+    "Actualizado.doc",
+    "SAfdASF.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "B3C9F98DD07005FCCF57842451CE1B33",
+    "99C82F8A07605DA4CCC8853C910F7CAF",
+    "497566120F1020DBD6DF70DD128C0FFB",
+    "048DCA20685ECD6B7DBDBF04B9082A54",
+    "1E19266FC9DFF1480F126BD211936AAC",
+    "DEF105A9452DEF53D49631AF16F6018B",
+    "262D9C6C0DC9D54726738D264802CCAD",
+    "https://www.secrss.com/articles/10745"
+  ]
+}

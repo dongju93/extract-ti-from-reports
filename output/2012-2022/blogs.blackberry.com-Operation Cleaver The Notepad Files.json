@@ -1,1 +1,12 @@
-{"rule_id": 952, "name": "blogs.blackberry.com-Operation Cleaver The Notepad Files", "description": "-", "references": [], "samples": ["notepad10.exe", "NOTEPAD2.EXE", "Notepad3.exe", "Notepad4.exe"], "weight": 0.0, "signatures": ["d378bffb70923139d6a4f546864aa61c", "83868cdff62829fe3b897e2720204679"]}
+{
+  "rule_id": 952,
+  "name": "blogs.blackberry.com-Operation Cleaver The Notepad Files",
+  "description": "-",
+  "references": [],
+  "samples": ["Notepad3.exe", "Notepad4.exe", "notepad10.exe", "NOTEPAD2.EXE"],
+  "weight": 0.0,
+  "signatures": [
+    "83868cdff62829fe3b897e2720204679",
+    "d378bffb70923139d6a4f546864aa61c"
+  ]
+}

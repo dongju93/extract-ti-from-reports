@@ -51,22 +51,29 @@ for item in data:
     ws["C1"] = "description"
     ws["C2"] = item["description"]
 
-    ws["D1"] = "samples"
+    ws["D1"] = "references"
+    if isinstance(item["references"], list):
+        for index, ref in enumerate(item["references"], start=2):
+            ws.cell(row=index, column=4, value=ref)
+    else:
+        ws["D2"] = item["references"]
+
+    ws["E1"] = "samples"
     if isinstance(item["samples"], list):
         for index, sample in enumerate(item["samples"], start=2):
-            ws.cell(row=index, column=4, value=sample)
+            ws.cell(row=index, column=5, value=sample)
     else:
-        ws["D2"] = item["samples"]
+        ws["E2"] = item["samples"]
 
-    ws["E1"] = "weight"
-    ws["E2"] = item["weight"]
+    ws["F1"] = "weight"
+    ws["F2"] = item["weight"]
 
-    ws["F1"] = "signatures"
+    ws["G1"] = "signatures"
     if isinstance(item["signatures"], list):
         for index, signature in enumerate(item["signatures"], start=2):
-            ws.cell(row=index, column=6, value=sanitize_string(signature))
+            ws.cell(row=index, column=7, value=sanitize_string(signature))
     else:
-        ws["F2"] = item["signatures"]
+        ws["G2"] = item["signatures"]
 
     sheet_count += 1
 

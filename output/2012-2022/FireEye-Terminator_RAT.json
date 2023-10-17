@@ -1,1 +1,24 @@
-{"rule_id": 572, "name": "FireEye-Terminator_RAT", "description": "-", "references": [], "samples": ["DW20.exe", "svchost_.exe", "103.doc", "WinData.DLL", "標案資料.doc", "sss.exe"], "weight": 0.0, "signatures": ["93F51B957DA86BDE1B82934E73B10D9D", "bfc96694731f3cf39bcad6e0716c5746", "a130b2e578d82409021b3c9ceda657b7", "01da7213940a74c292d09ebe17f1bd01", "7B18E1F0CE0CB7EEA990859EF6DB810C", "50d5e73ff8a0693ed2ee2d320af3b304", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell"]}
+{
+  "rule_id": 572,
+  "name": "FireEye-Terminator_RAT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "svchost_.exe",
+    "標案資料.doc",
+    "DW20.exe",
+    "WinData.DLL",
+    "sss.exe",
+    "103.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "01da7213940a74c292d09ebe17f1bd01",
+    "93F51B957DA86BDE1B82934E73B10D9D",
+    "a130b2e578d82409021b3c9ceda657b7",
+    "bfc96694731f3cf39bcad6e0716c5746",
+    "7B18E1F0CE0CB7EEA990859EF6DB810C",
+    "50d5e73ff8a0693ed2ee2d320af3b304",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell"
+  ]
+}

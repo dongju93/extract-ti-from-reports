@@ -1,1 +1,11 @@
-{"rule_id": 663, "name": "Reviving MuddyC3 Used by MuddyWater (IRAN) APT", "description": "-", "references": [], "samples": [], "weight": 0.0, "signatures": ["https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/"]}
+{
+  "rule_id": 663,
+  "name": "Reviving MuddyC3 Used by MuddyWater (IRAN) APT",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/"
+  ]
+}

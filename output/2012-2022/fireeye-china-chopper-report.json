@@ -1,1 +1,38 @@
-{"rule_id": 155, "name": "fireeye-china-chopper-report", "description": "-", "references": [], "samples": ["RPT.CCWS", "www.gnu", "Customize.jsp", "Customize.aspx", "webshell.html", "i.html", "System.IO", "basics.html", "notepad.html", "caidao.exe", "Customize.cfm", "test.php", "decomp.exe", "a.exe"], "weight": 0.0, "signatures": ["5001ef50c7e869253a7c152a638eab8a", "acba8115d027529763ea5c7ed6621499", "8aa603ee2454da64f4c70f24cc0b5e08", "ad8288227240477a95fb023551773c84", "http://malware-hunters.net/all-downloads/.", "http://www.wireshark.org/.", "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.", "http://www.snort.org/.", "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)", "http://www.gnu.org/software/wget/.", "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-with-notepad.html)", "http://fiddler2.com/.", "http://www.aldeid.com/wiki/PEiD."]}
+{
+  "rule_id": 155,
+  "name": "fireeye-china-chopper-report",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "test.php",
+    "Customize.jsp",
+    "Customize.cfm",
+    "Customize.aspx",
+    "notepad.html",
+    "a.exe",
+    "www.gnu",
+    "System.IO",
+    "i.html",
+    "basics.html",
+    "caidao.exe",
+    "RPT.CCWS",
+    "webshell.html",
+    "decomp.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "5001ef50c7e869253a7c152a638eab8a",
+    "ad8288227240477a95fb023551773c84",
+    "acba8115d027529763ea5c7ed6621499",
+    "8aa603ee2454da64f4c70f24cc0b5e08",
+    "http://malware-hunters.net/all-downloads/.",
+    "http://www.tekdefense.com/news/2012/10/21/tektip-ep12-regex-basics.html)",
+    "http://www.tekdefense.com/news/2013/1/6/tektip-ep19-using-regex-with-notepad.html)",
+    "http://www.wireshark.org/.",
+    "http://www.gnu.org/software/wget/.",
+    "http://informationonsecurity.blogspot.com/2012/11/china-chopper-webshell.html.",
+    "http://www.snort.org/.",
+    "http://www.aldeid.com/wiki/PEiD.",
+    "http://fiddler2.com/."
+  ]
+}

@@ -1,1 +1,9 @@
-{"rule_id": 339, "name": "PoriewSpy.India", "description": "-", "references": [], "samples": ["PORIEWSPY.HRX", "google.sec"], "weight": 0.0, "signatures": ["http://mylocation.org"]}
+{
+  "rule_id": 339,
+  "name": "PoriewSpy.India",
+  "description": "-",
+  "references": [],
+  "samples": ["PORIEWSPY.HRX", "google.sec"],
+  "weight": 0.0,
+  "signatures": ["http://mylocation.org"]
+}

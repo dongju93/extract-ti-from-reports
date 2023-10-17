@@ -1,1 +1,21 @@
-{"rule_id": 486, "name": "winnti_pharmaceutical", "description": "-", "references": [], "samples": ["Winnti.ai", "Winnti.gf", "tmpCCD.tmp", "w64.dll", "Winnti.gy", "ksadobe.dat", "ServiceAdobe.dll"], "weight": 0.0, "signatures": ["ac9b247691b1036a1cdb4aaf37bea97f", "8e61219b18d36748ce956099277cc29b", "5979cf5018c03be2524b87b7dda64a1a"]}
+{
+  "rule_id": 486,
+  "name": "winnti_pharmaceutical",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Winnti.gf",
+    "Winnti.ai",
+    "w64.dll",
+    "tmpCCD.tmp",
+    "Winnti.gy",
+    "ServiceAdobe.dll",
+    "ksadobe.dat"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ac9b247691b1036a1cdb4aaf37bea97f",
+    "5979cf5018c03be2524b87b7dda64a1a",
+    "8e61219b18d36748ce956099277cc29b"
+  ]
+}

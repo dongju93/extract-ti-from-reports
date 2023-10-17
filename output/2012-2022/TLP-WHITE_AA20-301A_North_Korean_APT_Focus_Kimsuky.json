@@ -1,1 +1,41 @@
-{"rule_id": 830, "name": "TLP-WHITE_AA20-301A_North_Korean_APT_Focus_Kimsuky", "description": "-", "references": [], "samples": ["member.daum", "daurn.pe", "naver.hol", "vilene.desk", "A.stix", "netsvcs.exe", "vcmon.exe", "navier.pe", "eastsea.or", "net.tm", "Cdaum.pe", "Bigfile.pe", "account.daum", "jQuery.js", "sts.desk", "filedown.php", "hogy.desk", "setup.log", "Daurn.pe", "login.daum", "CrowdStrikeGlobalThreatReport.pdf", "dr.lab"], "weight": 0.0, "signatures": ["https://www.cyberscoop.com/north-korea-accelerate-commercial-espionage-meet-kims-economic-deadline/", "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-", "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia", "https://yoroi.company/research/the-north-korean-kimsuky-apt-keeps-threatening-south-korea-evolving-its-ttps/", "https://blog.malwarebytes.com/threat-analysis/2020/04/apts-and-covid-19-how-advanced-persistent-threats-use-the-", "https://www.securityweek.com/north-korea-suspected-cyber-espionage-attacks-against-south-korean-entities", "https://www.us-cert.cisa.gov/northkorea.", "https://cyware.com/news/babyshark-malware-continues-to-target-nuclear-and-cryptocurrency-industries-40e04829"]}
+{
+  "rule_id": 830,
+  "name": "TLP-WHITE_AA20-301A_North_Korean_APT_Focus_Kimsuky",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "member.daum",
+    "navier.pe",
+    "vilene.desk",
+    "Cdaum.pe",
+    "dr.lab",
+    "filedown.php",
+    "account.daum",
+    "setup.log",
+    "hogy.desk",
+    "Bigfile.pe",
+    "login.daum",
+    "daurn.pe",
+    "vcmon.exe",
+    "netsvcs.exe",
+    "naver.hol",
+    "jQuery.js",
+    "CrowdStrikeGlobalThreatReport.pdf",
+    "net.tm",
+    "Daurn.pe",
+    "A.stix",
+    "eastsea.or",
+    "sts.desk"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://cyware.com/news/babyshark-malware-continues-to-target-nuclear-and-cryptocurrency-industries-40e04829",
+    "https://www.securityweek.com/north-korea-suspected-cyber-espionage-attacks-against-south-korean-entities",
+    "https://www.cyberscoop.com/north-korea-accelerate-commercial-espionage-meet-kims-economic-deadline/",
+    "https://www.us-cert.cisa.gov/northkorea.",
+    "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-",
+    "https://yoroi.company/research/the-north-korean-kimsuky-apt-keeps-threatening-south-korea-evolving-its-ttps/",
+    "https://blog.malwarebytes.com/threat-analysis/2020/04/apts-and-covid-19-how-advanced-persistent-threats-use-the-",
+    "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia"
+  ]
+}

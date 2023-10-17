@@ -1,1 +1,16 @@
-{"rule_id": 590, "name": "GALLIUM_ Targeting global telecom", "description": "-", "references": [], "samples": [], "weight": 0.0, "signatures": ["9ae7c4a4e1cfe9b505c3a47e66551eb1357affee65bfefb0109d02f4e97c06dd", "fe0e4ef832b62d49b43433e10c47dc51072959af93963c790892efc20ec422f1", "63552772fdd8c947712a2cff00dfe25c7a34133716784b6d486227384f8cf3ef", "44bcf82fa536318622798504e8369e9dcdb32686b95fcb44579f0b4efa79df08", "056744a3c371b5938d63c396fe094afce8fb153796a65afa5103e1bffd7ca070", "52fd7b90d7144ac448af4008be639d4d45c252e51823f4311011af3207a5fc77"]}
+{
+  "rule_id": 590,
+  "name": "GALLIUM_ Targeting global telecom",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "44bcf82fa536318622798504e8369e9dcdb32686b95fcb44579f0b4efa79df08",
+    "63552772fdd8c947712a2cff00dfe25c7a34133716784b6d486227384f8cf3ef",
+    "9ae7c4a4e1cfe9b505c3a47e66551eb1357affee65bfefb0109d02f4e97c06dd",
+    "056744a3c371b5938d63c396fe094afce8fb153796a65afa5103e1bffd7ca070",
+    "fe0e4ef832b62d49b43433e10c47dc51072959af93963c790892efc20ec422f1",
+    "52fd7b90d7144ac448af4008be639d4d45c252e51823f4311011af3207a5fc77"
+  ]
+}

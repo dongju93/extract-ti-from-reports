@@ -1,1 +1,47 @@
-{"rule_id": 792, "name": "fireeye-operation-quantum-entanglement", "description": "-", "references": [], "samples": ["MSSoap.DLL", "370.html", "firm.html", "WP.OQE", "suploadfile.php", "Nfile.asp", "SGames.asp", "inverted.find", "www.ifri", "home.asp", "sregister.php", "BurnDCSrv.DLL", "hh849687.aspx", "password.html", "Windows.reg", "NfHostInfo.asp", "ifricanonopedseamanecs.pdf", "IntelAMTPP.dll", "hh847739.aspx", "slogin.php", "index.css", "IntelAMTPP.DLL", "NfStart.asp", "WmiPrvSer.exe"], "weight": 0.0, "signatures": ["ccff6e0a6f5e7715bdaf62adf0cbed4f", "46ac122183c32858581e95ef40bd31b3", "a3d3b0686e7bd13293ad0e63ebec67af", "e8d77d19e1c6f462f4a5bf6fbe673a3c", "46e55cdf507ef10b11d74dad6af8b94e", "9ebe86a648b1f19836251f946a160b16", "ebd1f5e471774bb283de44e121efa3e5", "HKEY_CLASSES_ROOT\\CLSID\\{fbeb8a05-", "http://www.eia.gov/countries/regions-topics.cfm?fips=scs", "http://www.ifri.org/downloads/ifricanonopedseamanecs.pdf", "http://contagiodump.blogspot.com/2012/08/cve-2012-0158-generated-8861-password.html", "http://www.technologyreview.com/view/427174/einsteins-spooky-action-at-a-distance-paradox-"]}
+{
+  "rule_id": 792,
+  "name": "fireeye-operation-quantum-entanglement",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "slogin.php",
+    "BurnDCSrv.DLL",
+    "hh847739.aspx",
+    "ifricanonopedseamanecs.pdf",
+    "NfStart.asp",
+    "370.html",
+    "MSSoap.DLL",
+    "NfHostInfo.asp",
+    "www.ifri",
+    "hh849687.aspx",
+    "sregister.php",
+    "suploadfile.php",
+    "SGames.asp",
+    "home.asp",
+    "inverted.find",
+    "WP.OQE",
+    "Nfile.asp",
+    "Windows.reg",
+    "WmiPrvSer.exe",
+    "IntelAMTPP.dll",
+    "index.css",
+    "password.html",
+    "IntelAMTPP.DLL",
+    "firm.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ccff6e0a6f5e7715bdaf62adf0cbed4f",
+    "a3d3b0686e7bd13293ad0e63ebec67af",
+    "ebd1f5e471774bb283de44e121efa3e5",
+    "e8d77d19e1c6f462f4a5bf6fbe673a3c",
+    "46ac122183c32858581e95ef40bd31b3",
+    "9ebe86a648b1f19836251f946a160b16",
+    "46e55cdf507ef10b11d74dad6af8b94e",
+    "HKEY_CLASSES_ROOT\\CLSID\\{fbeb8a05-",
+    "http://www.eia.gov/countries/regions-topics.cfm?fips=scs",
+    "http://www.technologyreview.com/view/427174/einsteins-spooky-action-at-a-distance-paradox-",
+    "http://www.ifri.org/downloads/ifricanonopedseamanecs.pdf",
+    "http://contagiodump.blogspot.com/2012/08/cve-2012-0158-generated-8861-password.html"
+  ]
+}

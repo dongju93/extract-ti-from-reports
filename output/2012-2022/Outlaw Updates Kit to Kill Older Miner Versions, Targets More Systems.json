@@ -1,1 +1,24 @@
-{"rule_id": 293, "name": "Outlaw Updates Kit to Kill Older Miner Versions, Targets More Systems", "description": "-", "references": ["CVE-2016-8655", "CVE-2016-5195"], "samples": ["SHELLBOT.AA", "MALXMR.SMD", "idents.php", "tv.apk", "names.php", "dota3.tar", "Backdoor.SH", "Trojan.SH"], "weight": 0.0, "signatures": ["0c458dfe0a2a01ab300c857fdc3373b75fbb8ccfa23d16eff0d6ab888a1a28f6", "93ce211a71867017723cd78969aa4cac9d21c3d8f72c96ee3e1b2712c0eea494", "2e2c9d08c7c955f6ce5e27e70b0ec78a888c276d71a72daa0ef9e3e40f019a1a", "http://www.minpop.com/sk12pack/names.php", "http://www.minpop.com/sk12pack/idents.php"]}
+{
+  "rule_id": 293,
+  "name": "Outlaw Updates Kit to Kill Older Miner Versions, Targets More Systems",
+  "description": "-",
+  "references": ["CVE-2016-5195", "CVE-2016-8655"],
+  "samples": [
+    "Backdoor.SH",
+    "tv.apk",
+    "names.php",
+    "SHELLBOT.AA",
+    "MALXMR.SMD",
+    "dota3.tar",
+    "idents.php",
+    "Trojan.SH"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "2e2c9d08c7c955f6ce5e27e70b0ec78a888c276d71a72daa0ef9e3e40f019a1a",
+    "93ce211a71867017723cd78969aa4cac9d21c3d8f72c96ee3e1b2712c0eea494",
+    "0c458dfe0a2a01ab300c857fdc3373b75fbb8ccfa23d16eff0d6ab888a1a28f6",
+    "http://www.minpop.com/sk12pack/names.php",
+    "http://www.minpop.com/sk12pack/idents.php"
+  ]
+}

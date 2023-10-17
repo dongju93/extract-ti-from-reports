@@ -1,1 +1,9 @@
-{"rule_id": 1051, "name": "winnti-evolution-going-open-source.html", "description": "-", "references": [], "samples": ["real.html", "screen.css"], "weight": 0.0, "signatures": ["http://www.exetomsi.com/)."]}
+{
+  "rule_id": 1051,
+  "name": "winnti-evolution-going-open-source.html",
+  "description": "-",
+  "references": [],
+  "samples": ["real.html", "screen.css"],
+  "weight": 0.0,
+  "signatures": ["http://www.exetomsi.com/)."]
+}

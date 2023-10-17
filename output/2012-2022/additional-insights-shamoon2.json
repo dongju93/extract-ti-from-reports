@@ -1,1 +1,17 @@
-{"rule_id": 628, "name": "additional-insights-shamoon2", "description": "-", "references": [], "samples": ["checkFile.aspx", "le.aspx", "sloo.exe", "adobe.go"], "weight": 0.0, "signatures": ["5e5ea1a67c2538dbc01df28e4ea87472", "d30b8468d16b631cafe458fd94cc3196", "07d6406036d6e06dc8019e3ade6ee7de", "83be35956e5d409306a81e88a1dc89fd", "2a0df97277ddb361cecf8726df6d78ac", "http://69.87.223.26:8080/eiloShaegae1", "http://69.87.223.26:8080/p\\"]}
+{
+  "rule_id": 628,
+  "name": "additional-insights-shamoon2",
+  "description": "-",
+  "references": [],
+  "samples": ["le.aspx", "adobe.go", "sloo.exe", "checkFile.aspx"],
+  "weight": 0.0,
+  "signatures": [
+    "d30b8468d16b631cafe458fd94cc3196",
+    "5e5ea1a67c2538dbc01df28e4ea87472",
+    "2a0df97277ddb361cecf8726df6d78ac",
+    "07d6406036d6e06dc8019e3ade6ee7de",
+    "83be35956e5d409306a81e88a1dc89fd",
+    "http://69.87.223.26:8080/eiloShaegae1",
+    "http://69.87.223.26:8080/p\\"
+  ]
+}

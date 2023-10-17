@@ -1,1 +1,45 @@
-{"rule_id": 1050, "name": "shifting-tactics", "description": "-", "references": [], "samples": ["spdns.de", "ojkiojr09.asp", "Invitation.pdf", "20140317144336097.DOC", "595657.html", "1.The", "cghnt.exe", "Mentee.doc", "Plan.doc", "pshvb.exe", "uroyh.exe", "unpacked.exe", "Lama.doc", "independance.doc", "euhrdesk.diir", "Policy.doc"], "weight": 0.0, "signatures": ["5c030802ad411fea059cc9cc4c118125", "1bf438b5744db73eea58379a3b9f30e5", "d2e9412428c3bcf3ec98dba8a78adb7b", "3b869c8e23d66ad0527882fc79ff7237", "ea45265fe98b25e719d5a9cc3b412d66", "fef27f432e0ae8218143bc410fda340e", "7735e571d0450e2a31e97e4f8e0f66fa", "8b83fc5d3a6a80281269f9e337fe3fff", "http://filegoogle.firewall-gateway.com/servicelogin", "http://accountgoogle.firewall-gateway.com/serviclogin/ojkiojr09.asp.", "http://filegoogle.firewall-", "http://accountgoogle.firewall-gateway.com/servicclogin", "https://accounts.google.com).", "http://www.downvids.net/how-china-takes-care-of-tibet-and-tibetans-595657.html", "http://accountgoogle.firewall-gateway.com/serviclogin.", "http://accountgoogle.firewall-gateway.com/serviclogin", "http://filegoogle.firewall-gateway.com/servicelogin.", "http://accountgoogle.firewall-"]}
+{
+  "rule_id": 1050,
+  "name": "shifting-tactics",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "uroyh.exe",
+    "euhrdesk.diir",
+    "unpacked.exe",
+    "independance.doc",
+    "Invitation.pdf",
+    "pshvb.exe",
+    "595657.html",
+    "1.The",
+    "Plan.doc",
+    "ojkiojr09.asp",
+    "cghnt.exe",
+    "spdns.de",
+    "Mentee.doc",
+    "20140317144336097.DOC",
+    "Policy.doc",
+    "Lama.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8b83fc5d3a6a80281269f9e337fe3fff",
+    "5c030802ad411fea059cc9cc4c118125",
+    "3b869c8e23d66ad0527882fc79ff7237",
+    "d2e9412428c3bcf3ec98dba8a78adb7b",
+    "fef27f432e0ae8218143bc410fda340e",
+    "1bf438b5744db73eea58379a3b9f30e5",
+    "7735e571d0450e2a31e97e4f8e0f66fa",
+    "ea45265fe98b25e719d5a9cc3b412d66",
+    "http://www.downvids.net/how-china-takes-care-of-tibet-and-tibetans-595657.html",
+    "http://accountgoogle.firewall-gateway.com/serviclogin",
+    "http://filegoogle.firewall-",
+    "http://filegoogle.firewall-gateway.com/servicelogin.",
+    "http://accountgoogle.firewall-gateway.com/servicclogin",
+    "http://accountgoogle.firewall-gateway.com/serviclogin/ojkiojr09.asp.",
+    "http://filegoogle.firewall-gateway.com/servicelogin",
+    "http://accountgoogle.firewall-gateway.com/serviclogin.",
+    "https://accounts.google.com).",
+    "http://accountgoogle.firewall-"
+  ]
+}

@@ -1,1 +1,11 @@
-{"rule_id": 380, "name": "BlackTDS", "description": "-", "references": [], "samples": [], "weight": 0.0, "signatures": ["6a207ea9d9e60a9bc9de7b1c2b87e06fa85ac31cbbf8c69e1627408c8f3d2b7f"]}
+{
+  "rule_id": 380,
+  "name": "BlackTDS",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "6a207ea9d9e60a9bc9de7b1c2b87e06fa85ac31cbbf8c69e1627408c8f3d2b7f"
+  ]
+}

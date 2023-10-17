@@ -1,1 +1,32 @@
-{"rule_id": 846, "name": "nanhaishu_whitepaper", "description": "-", "references": [], "samples": ["www.pca", "hearings.html", "MSHTA.EXE", "allowance.xls", "system.xls", "Data.xls", "humans.mooo", "29dac6.pdf", "eholidays.mooo", "eholidays.moo", "network.js", "apec2015.ph"], "weight": 0.0, "signatures": ["a17769e8a2ac48f83076e3e1b6b24d71e6431d43", "da799a043e077fd7bde1eaa1a1fa32fd32bcfb25", "c66165a2fda061a2dc6415b99668c0b802bb26a0", "da3a8d1ea5b245f612da17ec7b252c45fd75adae", "http://www.gmanetwork.com/news/story/523278/news/nation/profiles-can-these-foreign-lawyers-help-", "http://www.pca-cpa.org/PH-CN_20141217_Press_Release_", "http://apec2015.ph/meetings/aelm/", "https://www.theguardian.com/us-news/2015/oct/26/us-navy-destroyer-chinese-islands-south-china-sea", "http://cnnphilippines.com/news/2015/07/15/de-lima-doj-rest-of-the-world-watching-the-hague-hearings.html"]}
+{
+  "rule_id": 846,
+  "name": "nanhaishu_whitepaper",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "allowance.xls",
+    "apec2015.ph",
+    "Data.xls",
+    "humans.mooo",
+    "eholidays.moo",
+    "MSHTA.EXE",
+    "29dac6.pdf",
+    "www.pca",
+    "hearings.html",
+    "eholidays.mooo",
+    "network.js",
+    "system.xls"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "c66165a2fda061a2dc6415b99668c0b802bb26a0",
+    "da799a043e077fd7bde1eaa1a1fa32fd32bcfb25",
+    "a17769e8a2ac48f83076e3e1b6b24d71e6431d43",
+    "da3a8d1ea5b245f612da17ec7b252c45fd75adae",
+    "http://www.gmanetwork.com/news/story/523278/news/nation/profiles-can-these-foreign-lawyers-help-",
+    "https://www.theguardian.com/us-news/2015/oct/26/us-navy-destroyer-chinese-islands-south-china-sea",
+    "http://www.pca-cpa.org/PH-CN_20141217_Press_Release_",
+    "http://apec2015.ph/meetings/aelm/",
+    "http://cnnphilippines.com/news/2015/07/15/de-lima-doj-rest-of-the-world-watching-the-hague-hearings.html"
+  ]
+}

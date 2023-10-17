@@ -1,1 +1,13 @@
-{"rule_id": 616, "name": "blog Inexsmar", "description": "-", "references": [], "samples": ["Associatewxcod.scr", "Korea.scr"], "weight": 0.0, "signatures": ["a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444", "92cc0e7348aa3ee9386b25076868dee72e5193e4", "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"]}
+{
+  "rule_id": 616,
+  "name": "blog Inexsmar",
+  "description": "-",
+  "references": [],
+  "samples": ["Associatewxcod.scr", "Korea.scr"],
+  "weight": 0.0,
+  "signatures": [
+    "a6c7a7bcaabc3584b1fb4d6aeb66ec158b65d444",
+    "92cc0e7348aa3ee9386b25076868dee72e5193e4",
+    "fd99a19b39eb6f1cbf915ee1f73e9e8d62c18b44"
+  ]
+}

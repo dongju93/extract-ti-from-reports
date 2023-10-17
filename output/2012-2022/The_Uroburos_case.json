@@ -1,1 +1,35 @@
-{"rule_id": 154, "name": "The_Uroburos_case", "description": "-", "references": [], "samples": ["oleaut32.tlb", "shdocw.tlp", "credprov.tlb", "shdocvw.tlp", "libadcodec.tlb", "shdocvw.tlb", "oleaut32.dll", "libadcodec.dll", "winview.ocx", "msvcrtd.tlb", "mskfp32.ocx"], "weight": 0.0, "signatures": ["e6ce1f962a47479a86ff2e67129f4ecc", "b407b6e5b4046da226d6e189a67f62ca", "255118ac14a9e66124f7110acd16f2cd", "ec7e3cfaeaac0401316d66e964be684e", "8ebf7f768d7214f99905c99b6f8242dc", "83a48760e92bf30961b4a943d3095b0a", "ea23d67e41d1f0a7f7e7a8b59e7cb60f", "0ae421691579ff6b27f65f49e79e88f6", "51e7e58a1e654b6e586fe36e10c67a73", "9d481769de63789d571805009cbf709a", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 =", "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace"]}
+{
+  "rule_id": 154,
+  "name": "The_Uroburos_case",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "libadcodec.tlb",
+    "mskfp32.ocx",
+    "libadcodec.dll",
+    "msvcrtd.tlb",
+    "shdocvw.tlp",
+    "oleaut32.dll",
+    "winview.ocx",
+    "credprov.tlb",
+    "shdocw.tlp",
+    "oleaut32.tlb",
+    "shdocvw.tlb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ec7e3cfaeaac0401316d66e964be684e",
+    "83a48760e92bf30961b4a943d3095b0a",
+    "e6ce1f962a47479a86ff2e67129f4ecc",
+    "8ebf7f768d7214f99905c99b6f8242dc",
+    "0ae421691579ff6b27f65f49e79e88f6",
+    "9d481769de63789d571805009cbf709a",
+    "255118ac14a9e66124f7110acd16f2cd",
+    "ea23d67e41d1f0a7f7e7a8b59e7cb60f",
+    "51e7e58a1e654b6e586fe36e10c67a73",
+    "b407b6e5b4046da226d6e189a67f62ca",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionMRU\\IPlace",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32 =",
+    "HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32"
+  ]
+}

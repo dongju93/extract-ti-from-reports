@@ -1,1 +1,33 @@
-{"rule_id": 767, "name": "Cyber_Espionage_Against_Georgian_Government", "description": "-", "references": ["CVE-2010-0842", "CVE-2006-3730"], "samples": ["frame.php", "usbserv.exe", "Net23.hu", "aabc.html", "aabc.pdf", "presage.tv", "Calc.exe", "presa.ge", "CERT.GOV", "Frame.php", "psnews.ge", "www.cei", "aabc.jar", "opentext.ge"], "weight": 0.0, "signatures": ["19ebfd07a13d3edf82fcc121a0e4643c", "4b178e605583cca28c850943e805aabc", "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/3", "http://legalcrf.in/t/19ebfd07a13d3edf82fcc121a0e4643c", "http://legalcrf.in/images/np/4b178e605583cca28c850943e805aabc.pdf", "http://legalcrf.in/images/4b178e605583cca28c850943e805aabc.jar", "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/1", "http://legalcrf.in/images/t/4b178e605583cca28c850943e805aabc.html"]}
+{
+  "rule_id": 767,
+  "name": "Cyber_Espionage_Against_Georgian_Government",
+  "description": "-",
+  "references": ["CVE-2006-3730", "CVE-2010-0842"],
+  "samples": [
+    "aabc.html",
+    "Frame.php",
+    "CERT.GOV",
+    "presa.ge",
+    "Calc.exe",
+    "Net23.hu",
+    "www.cei",
+    "presage.tv",
+    "opentext.ge",
+    "aabc.jar",
+    "aabc.pdf",
+    "psnews.ge",
+    "usbserv.exe",
+    "frame.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "19ebfd07a13d3edf82fcc121a0e4643c",
+    "4b178e605583cca28c850943e805aabc",
+    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/3",
+    "http://legalcrf.in/f/4b178e605583cca28c850943e805aabc/1",
+    "http://legalcrf.in/t/19ebfd07a13d3edf82fcc121a0e4643c",
+    "http://legalcrf.in/images/4b178e605583cca28c850943e805aabc.jar",
+    "http://legalcrf.in/images/np/4b178e605583cca28c850943e805aabc.pdf",
+    "http://legalcrf.in/images/t/4b178e605583cca28c850943e805aabc.html"
+  ]
+}

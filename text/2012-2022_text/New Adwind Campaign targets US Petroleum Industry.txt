@@ -192,9 +192,6 @@ huup://members[.]westnet[.]com[.]au/~mcleodart/
 
 URL
 
-Pages serving the malicious JAR
-payload
-
 huup://members[.]westnet[.]com[.]au/~jbush/
 
 huup://members[.]westnet[.]com[.]au/~joeven/
@@ -207,6 +204,9 @@ URL
 URL
 
 URL
+
+Pages serving the malicious JAR
+payload
 
 Pages serving the malicious JAR
 payload

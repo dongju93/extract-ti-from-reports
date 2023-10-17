@@ -1,1 +1,13 @@
-{"rule_id": 957, "name": "Microsoft Security—detecting empires in the cloud - Microsoft Security", "description": "-", "references": [], "samples": ["Heather.mayx", "doc1.dotm", "_1.png", "19.ppt"], "weight": 0.0, "signatures": ["f61212ab1362dffd3fa6258116973fb924068217317d2bc562481b037c806a0a", "faebff04d7ca9cca92975e06c4a0e9ce1455860147d8432ff9fc24622b7cf675", "https://graph.microsoft.com/v1.0/drive/root:/onlinework/contact/$($ID)_1.png:/con"]}
+{
+  "rule_id": 957,
+  "name": "Microsoft Security—detecting empires in the cloud - Microsoft Security",
+  "description": "-",
+  "references": [],
+  "samples": ["doc1.dotm", "Heather.mayx", "_1.png", "19.ppt"],
+  "weight": 0.0,
+  "signatures": [
+    "faebff04d7ca9cca92975e06c4a0e9ce1455860147d8432ff9fc24622b7cf675",
+    "f61212ab1362dffd3fa6258116973fb924068217317d2bc562481b037c806a0a",
+    "https://graph.microsoft.com/v1.0/drive/root:/onlinework/contact/$($ID)_1.png:/con"
+  ]
+}

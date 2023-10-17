@@ -1,1 +1,37 @@
-{"rule_id": 210, "name": "New Poison Ivy Activity Targeting Myanmar, Asian Countries", "description": "-", "references": [], "samples": ["1.docx", "AEcod.doc", "Active.dat", "Weekly.docx", "Myanmar.doc", "ActiveFlash.exe", "Year1achievementsv2.docx", "ActiveUpdate.dll", "Year1achievementsv2.exe", "Acheivements_25112015.exe", "2.tmp", "Acheivements_25112015.docx", "REGISTRATION_FORM_ASEAN_CMCoord2016.docx", "Dubai.doc", "END.DDoS", "1.pdf"], "weight": 0.0, "signatures": ["63e00dbf45961ad11bd1eb55dff9c2771c2916a6", "724166261e9c2e7718be22b347671944a1e7fded", "f389e1c970b2ca28112a30a8cfef1f3973fa82ea", "31756ccdbfe05d0a510d2dcf207fdef5287de285", "ec646c57f9ac5e56230a17aeca6523a4532ff472", "675a3247f4c0e1105a41c685f4c2fb606e5b1eac", "49e36de6d757ca44c43d5670d497bd8738c1d2a4", "ef2618d58bd50fa232a19f9bcf3983d1e2dff266", "a7d206791b1cdec616e9b18ae6fa1548ca96a321", "http://atlas.arbor.net."]}
+{
+  "rule_id": 210,
+  "name": "New Poison Ivy Activity Targeting Myanmar, Asian Countries",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ActiveUpdate.dll",
+    "Year1achievementsv2.exe",
+    "AEcod.doc",
+    "Active.dat",
+    "Dubai.doc",
+    "END.DDoS",
+    "Acheivements_25112015.exe",
+    "REGISTRATION_FORM_ASEAN_CMCoord2016.docx",
+    "Acheivements_25112015.docx",
+    "Myanmar.doc",
+    "1.docx",
+    "1.pdf",
+    "ActiveFlash.exe",
+    "Weekly.docx",
+    "Year1achievementsv2.docx",
+    "2.tmp"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "49e36de6d757ca44c43d5670d497bd8738c1d2a4",
+    "724166261e9c2e7718be22b347671944a1e7fded",
+    "ec646c57f9ac5e56230a17aeca6523a4532ff472",
+    "675a3247f4c0e1105a41c685f4c2fb606e5b1eac",
+    "a7d206791b1cdec616e9b18ae6fa1548ca96a321",
+    "63e00dbf45961ad11bd1eb55dff9c2771c2916a6",
+    "31756ccdbfe05d0a510d2dcf207fdef5287de285",
+    "ef2618d58bd50fa232a19f9bcf3983d1e2dff266",
+    "f389e1c970b2ca28112a30a8cfef1f3973fa82ea",
+    "http://atlas.arbor.net."
+  ]
+}

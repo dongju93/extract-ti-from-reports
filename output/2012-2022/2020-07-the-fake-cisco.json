@@ -1,1 +1,35 @@
-{"rule_id": 729, "name": "2020-07-the-fake-cisco", "description": "-", "references": [], "samples": ["E7.bin", "module.html", "fw.bin", "gear.html", "EX5.bin", "series.html", "ppc.bin", "E.bin", "porter.bin", "ppc1.bin", "ipp.bin"], "weight": 0.0, "signatures": ["1422575698b28bb6df41942e2147f696f0ce6be9f126cc4e308861047408a647", "https://blogs.cisco.com/partner/perform-transform-and-protect", "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190513-secureboot", "https://tools.ietf.org/html/rfc2313", "https://www.pcworld.com/article/2920032/uk-gang-arrested-for-exporting-10-million-of-fake-cisco-gear-to-us.html", "https://www.macom.com/products/product-detail/APM86392", "https://www.embedded.com/applied-micro-adds-arm-core-in-cut-down-security-processor/", "https://linuxdevices.org/dual-core-15ghz-soc-touted-for-power-management-concurrency/", "https://docplayer.net/995240-Appliedmicro-trusted-management-module.html", "https://linuxdevices.org/powerpc-soc-available-with-dual-cores/", "https://www.sdxcentral.com/articles/news/cisco-wins-latest-battle-in-war-against-chinese-counterfeiters/2019/12/", "https://www.infoworld.com/article/2653167/fbi-worried-as-dod-sold-counterfeit-cisco-gear.html", "https://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/series.html"]}
+{
+  "rule_id": 729,
+  "name": "2020-07-the-fake-cisco",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ipp.bin",
+    "gear.html",
+    "ppc.bin",
+    "E7.bin",
+    "E.bin",
+    "porter.bin",
+    "ppc1.bin",
+    "EX5.bin",
+    "module.html",
+    "fw.bin",
+    "series.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "1422575698b28bb6df41942e2147f696f0ce6be9f126cc4e308861047408a647",
+    "https://www.macom.com/products/product-detail/APM86392",
+    "https://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/series.html",
+    "https://www.sdxcentral.com/articles/news/cisco-wins-latest-battle-in-war-against-chinese-counterfeiters/2019/12/",
+    "https://www.embedded.com/applied-micro-adds-arm-core-in-cut-down-security-processor/",
+    "https://blogs.cisco.com/partner/perform-transform-and-protect",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190513-secureboot",
+    "https://docplayer.net/995240-Appliedmicro-trusted-management-module.html",
+    "https://linuxdevices.org/powerpc-soc-available-with-dual-cores/",
+    "https://tools.ietf.org/html/rfc2313",
+    "https://linuxdevices.org/dual-core-15ghz-soc-touted-for-power-management-concurrency/",
+    "https://www.pcworld.com/article/2920032/uk-gang-arrested-for-exporting-10-million-of-fake-cisco-gear-to-us.html",
+    "https://www.infoworld.com/article/2653167/fbi-worried-as-dod-sold-counterfeit-cisco-gear.html"
+  ]
+}

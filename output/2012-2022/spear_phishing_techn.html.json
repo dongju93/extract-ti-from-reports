@@ -1,1 +1,12 @@
-{"rule_id": 310, "name": "spear_phishing_techn.html", "description": "-", "references": [], "samples": ["regsv32.exe"], "weight": 0.0, "signatures": ["HKCU\\CurrentVersion\\Run\\SecurityUpdate to launch the encoded PowerShell payload stored in the HKCU:", "HKCU\\Console\\FontSecurity registry contains the fourth stage PowerShell script, shown decoded in"]}
+{
+  "rule_id": 310,
+  "name": "spear_phishing_techn.html",
+  "description": "-",
+  "references": [],
+  "samples": ["regsv32.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Console\\FontSecurity registry contains the fourth stage PowerShell script, shown decoded in",
+    "HKCU\\CurrentVersion\\Run\\SecurityUpdate to launch the encoded PowerShell payload stored in the HKCU:"
+  ]
+}

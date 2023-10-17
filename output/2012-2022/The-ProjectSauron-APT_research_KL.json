@@ -1,1 +1,32 @@
-{"rule_id": 709, "name": "The-ProjectSauron-APT_research_KL", "description": "-", "references": [], "samples": ["malloth.at", "KB2931368.exe", "leydolf.at", "VMwareToolsUpgr32.exe", "consult.cc", "display24.at", "xxx.bat", "trading.biz", "wein.at", "messebau.at", "gtf.cc", "chirotherapie.at", "liebstoecklco.at", "mail.mbit", "wien.at", "hcmut.edu", "SsaWrapper.exe"], "weight": 0.0, "signatures": ["HKLM\\\\System\\\\CurrentControlSet\\\\Control\\\\SecurityProviders\\", "HKEY_LOCAL_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\SecurityProviders]\\n\\", "http://ipchicken.com/index.php", "http://techno-fandom.org/"]}
+{
+  "rule_id": 709,
+  "name": "The-ProjectSauron-APT_research_KL",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "liebstoecklco.at",
+    "VMwareToolsUpgr32.exe",
+    "messebau.at",
+    "xxx.bat",
+    "KB2931368.exe",
+    "chirotherapie.at",
+    "gtf.cc",
+    "leydolf.at",
+    "wien.at",
+    "wein.at",
+    "malloth.at",
+    "consult.cc",
+    "trading.biz",
+    "SsaWrapper.exe",
+    "display24.at",
+    "hcmut.edu",
+    "mail.mbit"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKEY_LOCAL_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\SecurityProviders]\\n\\",
+    "HKLM\\\\System\\\\CurrentControlSet\\\\Control\\\\SecurityProviders\\",
+    "http://ipchicken.com/index.php",
+    "http://techno-fandom.org/"
+  ]
+}

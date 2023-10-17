@@ -1,1 +1,24 @@
-{"rule_id": 774, "name": "APT‑C‑23 group evolves its Android spyware _ WeLiveSecurity", "description": "-", "references": [], "samples": ["com.miui"], "weight": 0.0, "signatures": ["e79849c9d3dc87ff6820c3f08ab90e6aeb9cc216", "78dd3c98a2074a8d7b5d74030a170f5a1b0b57d4", "1c89cea8953f5f72339b14716cef2bd11c7ecf9a", "344f1a9dc7f8abd88d1c94f4323646829d80c555", "6f251160c9b08f56681ea9256f8ecf3c3bcc66f8", "9e1399fede12ce876cdb7c6fdc2742c75b1add9a", "9e78e0647e56374cf9f429dc3ce412171d0b999e", "91c12c134d4943654af5d6c23043e9962cff83c2", "56f321518401528278e0e79fac8c12a57d9fa545", "https://javan-demsky.website", "https://cecilia-gilbert.com", "https://david-gardiner.website", "https://linda-gaytan.website", "https://digital-apps.store"]}
+{
+  "rule_id": 774,
+  "name": "APT‑C‑23 group evolves its Android spyware _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": ["com.miui"],
+  "weight": 0.0,
+  "signatures": [
+    "91c12c134d4943654af5d6c23043e9962cff83c2",
+    "e79849c9d3dc87ff6820c3f08ab90e6aeb9cc216",
+    "1c89cea8953f5f72339b14716cef2bd11c7ecf9a",
+    "9e78e0647e56374cf9f429dc3ce412171d0b999e",
+    "9e1399fede12ce876cdb7c6fdc2742c75b1add9a",
+    "56f321518401528278e0e79fac8c12a57d9fa545",
+    "78dd3c98a2074a8d7b5d74030a170f5a1b0b57d4",
+    "344f1a9dc7f8abd88d1c94f4323646829d80c555",
+    "6f251160c9b08f56681ea9256f8ecf3c3bcc66f8",
+    "https://javan-demsky.website",
+    "https://linda-gaytan.website",
+    "https://digital-apps.store",
+    "https://david-gardiner.website",
+    "https://cecilia-gilbert.com"
+  ]
+}

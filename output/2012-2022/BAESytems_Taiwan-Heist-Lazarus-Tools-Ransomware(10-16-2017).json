@@ -1,1 +1,34 @@
-{"rule_id": 868, "name": "BAESytems_Taiwan-Heist-Lazarus-Tools-Ransomware(10-16-2017)", "description": "-", "references": [], "samples": ["cntaosmgr.exe", "bitmessage.ch", "tmccsf.exe", "tmpfw.exe", "RSW7B37.tmp", "testlib.dll", "tmbmsrv.exe", "bitsran.exe", "RSWXXXX.tmp", "splwow32.exe", "netsvc.dll"], "weight": 0.0, "signatures": ["62217af0299d6e241778adb849fd2823", "61075faba222f97d3367866793f0907b", "b27881f59c8d8cc529fa80a58709db36", "3c9e71400b72cc0213c9c3e4ab4df9df", "d08f1211fe0138134e822e31a47ec5d4", "97aaf130cfa251e5207ea74b2558293d", "0edbad9e6041d43f97c7369439a40138", "9563e2f443c3b4e1b00f25be0a30d56e", "0dd7da89b7d1fe97e669f8b4156067c8", "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run;", "https://www.bitcoin.com/buy-bitcoin", "http://www.baesystems.com/en/cybersecurity/swift-customer-security-programme"]}
+{
+  "rule_id": 868,
+  "name": "BAESytems_Taiwan-Heist-Lazarus-Tools-Ransomware(10-16-2017)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "cntaosmgr.exe",
+    "tmpfw.exe",
+    "RSW7B37.tmp",
+    "RSWXXXX.tmp",
+    "bitsran.exe",
+    "splwow32.exe",
+    "tmccsf.exe",
+    "bitmessage.ch",
+    "testlib.dll",
+    "tmbmsrv.exe",
+    "netsvc.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b27881f59c8d8cc529fa80a58709db36",
+    "9563e2f443c3b4e1b00f25be0a30d56e",
+    "62217af0299d6e241778adb849fd2823",
+    "0edbad9e6041d43f97c7369439a40138",
+    "0dd7da89b7d1fe97e669f8b4156067c8",
+    "61075faba222f97d3367866793f0907b",
+    "3c9e71400b72cc0213c9c3e4ab4df9df",
+    "97aaf130cfa251e5207ea74b2558293d",
+    "d08f1211fe0138134e822e31a47ec5d4",
+    "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run;",
+    "http://www.baesystems.com/en/cybersecurity/swift-customer-security-programme",
+    "https://www.bitcoin.com/buy-bitcoin"
+  ]
+}

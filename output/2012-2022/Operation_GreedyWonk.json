@@ -1,1 +1,34 @@
-{"rule_id": 328, "name": "Operation_GreedyWonk", "description": "-", "references": ["CVE-2012-0779", "CVE-2012-0507"], "samples": ["BrightBalls.swf", "test.jar", "microsafes.no", "HXDS.dll", "www.srf", "proxy.ddns", "adservice.no", "www.arce", "windows.ddns", "www.piie", "MSVCR71.dll", "www.cdi", "www.ceps"], "weight": 0.0, "signatures": ["fd69793bd63c44bbb22f9c4d46873252", "8936c87a08ffa56d19fdb87588e35952", "52aa791a524b61b129344f10b4712f52", "cd07a9e49b1f909e1bd9e39a7a6e56b4", "1ec5141051776ec9092db92050192758", "bf60b8d26bc0c94dda2e3471de6ec977", "88b375e3b5c50a3e6c881bc96c926928", "7995a9a6a889b914e208eb924e459ebc", "7d810e3564c4eb95bcb3d11ce191208e", "507aed81e3106da8c50efb3a045c5e2b"]}
+{
+  "rule_id": 328,
+  "name": "Operation_GreedyWonk",
+  "description": "-",
+  "references": ["CVE-2012-0779", "CVE-2012-0507"],
+  "samples": [
+    "www.piie",
+    "test.jar",
+    "www.srf",
+    "windows.ddns",
+    "MSVCR71.dll",
+    "adservice.no",
+    "www.cdi",
+    "microsafes.no",
+    "www.ceps",
+    "HXDS.dll",
+    "BrightBalls.swf",
+    "www.arce",
+    "proxy.ddns"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "52aa791a524b61b129344f10b4712f52",
+    "1ec5141051776ec9092db92050192758",
+    "507aed81e3106da8c50efb3a045c5e2b",
+    "fd69793bd63c44bbb22f9c4d46873252",
+    "7995a9a6a889b914e208eb924e459ebc",
+    "8936c87a08ffa56d19fdb87588e35952",
+    "7d810e3564c4eb95bcb3d11ce191208e",
+    "88b375e3b5c50a3e6c881bc96c926928",
+    "cd07a9e49b1f909e1bd9e39a7a6e56b4",
+    "bf60b8d26bc0c94dda2e3471de6ec977"
+  ]
+}

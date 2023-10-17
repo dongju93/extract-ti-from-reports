@@ -1,1 +1,31 @@
-{"rule_id": 26, "name": "Dridex's Cold War_ Enter AtomBombing", "description": "-", "references": [], "samples": ["SECURITYINTELLIGENCE.COM", "www.ibm", "03.ibm", "01.IBM"], "weight": 0.0, "signatures": ["4599fca4b67c9c216c6dea42214fd1ce", "e49edad121083d7986dc35009dbdeeae", "1e6c6123af04d972b61cd3cde5e0658e", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run) was created to execute", "http://ibm.com/security?", "https://exchange.xforce.ibmcloud.com/collection/Dridex-Ongoing-Collection-e49edad121083d7986dc35009dbdeeae).", "https://www.ibm.com/us-en/marketplace/threat-intelligence-api?", "https://breakingmalware.com/injection-", "http://www.ibm.com/contact/us/en/?", "https://www.quora.com/IBM-Security/)D", "http://www.ibm.com/legal/us/en/?", "http://www.ibm.com/privacy/us/en/?", "http://feeds.feedburner.com/SecurityIntelligence)x", "http://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions).", "https://www.scmagazine.com/new-bugat-trojan-", "http://slideshare.net/ibmsecurity)w", "http://www.ibm.com/accessibility/us/en/?", "http://www-", "http://facebook.com/ibmsecurity)", "http://www.ibm.com/software/products/en/trusteer-rapport?", "http://www.ibm.com?ce=ISM0484&ct=SWG&cmp=IBMSocial&cm=h&cr=Security&ccy=US)"]}
+{
+  "rule_id": 26,
+  "name": "Dridex's Cold War_ Enter AtomBombing",
+  "description": "-",
+  "references": [],
+  "samples": ["01.IBM", "03.ibm", "www.ibm", "SECURITYINTELLIGENCE.COM"],
+  "weight": 0.0,
+  "signatures": [
+    "1e6c6123af04d972b61cd3cde5e0658e",
+    "e49edad121083d7986dc35009dbdeeae",
+    "4599fca4b67c9c216c6dea42214fd1ce",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run) was created to execute",
+    "http://www-",
+    "http://feeds.feedburner.com/SecurityIntelligence)x",
+    "http://www.ibm.com?ce=ISM0484&ct=SWG&cmp=IBMSocial&cm=h&cr=Security&ccy=US)",
+    "http://www.ibm.com/privacy/us/en/?",
+    "http://www.ibm.com/contact/us/en/?",
+    "http://www.ibm.com/software/products/en/trusteer-rapport?",
+    "http://facebook.com/ibmsecurity)",
+    "http://slideshare.net/ibmsecurity)w",
+    "http://ibm.com/security?",
+    "https://www.quora.com/IBM-Security/)D",
+    "http://www.ibm.com/accessibility/us/en/?",
+    "http://www.ibm.com/legal/us/en/?",
+    "https://exchange.xforce.ibmcloud.com/collection/Dridex-Ongoing-Collection-e49edad121083d7986dc35009dbdeeae).",
+    "https://www.scmagazine.com/new-bugat-trojan-",
+    "https://www.ibm.com/us-en/marketplace/threat-intelligence-api?",
+    "http://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions).",
+    "https://breakingmalware.com/injection-"
+  ]
+}

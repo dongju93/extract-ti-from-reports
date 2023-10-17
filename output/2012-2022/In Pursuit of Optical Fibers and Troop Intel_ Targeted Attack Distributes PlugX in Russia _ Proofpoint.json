@@ -1,1 +1,24 @@
-{"rule_id": 1016, "name": "In Pursuit of Optical Fibers and Troop Intel_ Targeted Attack Distributes PlugX in Russia _ Proofpoint", "description": "-", "references": [], "samples": ["mplayer.exe", "229690166.html"], "weight": 0.0, "signatures": ["http://investors.proofpoint.com/)", "http://inosmi.ru/russia/20150818/229690166.html).", "http://nexgate.com)", "http://proofpoint.com/us/customer-stories)", "http://blog.jpcert.or.jp/2015/01/analysis-of-a-r-ff05.html)", "http://kasperskycontenthub.com/wp-", "https://www.sendmail.com/cfusion/CFIDE/smi/support/)", "https://support.proofpoint.com/)", "http://tvzvezda.ru/news/forces/content/201508191459-", "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/kaspersky-the-net-", "http://support.proofpointessentials.com/)", "http://tvzvezda.ru/news/forces/content/201508191459-88tq.htm)", "https://code.google.com/p/darkstrat/)", "http://proofpoint.com/solutions/products/targeted-attack-protection)"]}
+{
+  "rule_id": 1016,
+  "name": "In Pursuit of Optical Fibers and Troop Intel_ Targeted Attack Distributes PlugX in Russia _ Proofpoint",
+  "description": "-",
+  "references": [],
+  "samples": ["229690166.html", "mplayer.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "http://nexgate.com)",
+    "http://kasperskycontenthub.com/wp-",
+    "http://tvzvezda.ru/news/forces/content/201508191459-",
+    "https://www.sendmail.com/cfusion/CFIDE/smi/support/)",
+    "http://proofpoint.com/solutions/products/targeted-attack-protection)",
+    "http://inosmi.ru/russia/20150818/229690166.html).",
+    "https://code.google.com/p/darkstrat/)",
+    "http://blog.jpcert.or.jp/2015/01/analysis-of-a-r-ff05.html)",
+    "http://investors.proofpoint.com/)",
+    "https://support.proofpoint.com/)",
+    "http://tvzvezda.ru/news/forces/content/201508191459-88tq.htm)",
+    "http://support.proofpointessentials.com/)",
+    "http://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/kaspersky-the-net-",
+    "http://proofpoint.com/us/customer-stories)"
+  ]
+}

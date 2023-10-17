@@ -80,11 +80,11 @@ be used to identify multiple malicious RTF files attributed to Chinese APT group
 post-exploitation execution technique between these groups is indicative of a noteworthy tool and TTP overlap. This overlap indicates that these
 APT groups may be part of a shared supply chain which receives tools for phishing exploitation from a shared Digital Quartermaster.
 
-5
-
 9
 
 7
+
+5
 
 8
 

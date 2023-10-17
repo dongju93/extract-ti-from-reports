@@ -1,1 +1,31 @@
-{"rule_id": 306, "name": "The Enigmatic Roma225 Campaign", "description": "-", "references": [], "samples": ["DOCUMENT.EXE", "XbonXo.Run", "s.send", "Outlook.exe", "i.Open", "SyncAppvPublishingServer.vbs", "j.vbs", "Document.exe", "RevengeFUD0000000.exe", "GFFJHG.Run", "s.Open", "i.Type"], "weight": 0.0, "signatures": ["e8a765ec824881e1e78defd7c011da735f3e3b954aaf93a4282b6455a1b9afcc", "4211e091dfb33523d675d273bdc109ddecf4ee1c1f5f29e8c82b9d0344dbb6a1", "702e5cc9462e464c8c29c832fe0d1ecd5cd7740cc2cbceecfd70e566da8194a1", "HKCU\\AppEvents\\Values", "HKCU\\AppEvents\\<”Values”>", "HKCU\\AppEvents\\Values”", "https://minhacasaminhavidacdt.blogspot.com", "https://minhacasaminhavidacdt.blogspot.com/"]}
+{
+  "rule_id": 306,
+  "name": "The Enigmatic Roma225 Campaign",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "i.Open",
+    "GFFJHG.Run",
+    "XbonXo.Run",
+    "SyncAppvPublishingServer.vbs",
+    "j.vbs",
+    "s.Open",
+    "i.Type",
+    "Document.exe",
+    "RevengeFUD0000000.exe",
+    "s.send",
+    "Outlook.exe",
+    "DOCUMENT.EXE"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "702e5cc9462e464c8c29c832fe0d1ecd5cd7740cc2cbceecfd70e566da8194a1",
+    "4211e091dfb33523d675d273bdc109ddecf4ee1c1f5f29e8c82b9d0344dbb6a1",
+    "e8a765ec824881e1e78defd7c011da735f3e3b954aaf93a4282b6455a1b9afcc",
+    "HKCU\\AppEvents\\Values",
+    "HKCU\\AppEvents\\<”Values”>",
+    "HKCU\\AppEvents\\Values”",
+    "https://minhacasaminhavidacdt.blogspot.com/",
+    "https://minhacasaminhavidacdt.blogspot.com"
+  ]
+}

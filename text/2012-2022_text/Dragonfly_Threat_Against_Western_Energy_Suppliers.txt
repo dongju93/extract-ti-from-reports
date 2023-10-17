@@ -289,21 +289,21 @@ the best exploit to
 use, based on the 
 information provided, and generates an appropriate URL to redirect the user to the appropriate exploit/payload. 
 
-Java 7 exploit Jar request file
-
 Java 6 exploit Jar request file
+
+Java 7 exploit Jar request file
 
 Second landing page
 
 PluginDetect script
 
-CVE-2013-1347
-
-CVE-2012-4792
+CVE-2012-1723
 
 CVE-2013-2465
 
-CVE-2012-1723
+CVE-2013-1347
+
+CVE-2012-4792
 
 Java 6 Exploit 
 

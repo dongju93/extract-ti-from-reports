@@ -1,1 +1,41 @@
-{"rule_id": 844, "name": "EN_version", "description": "-", "references": [], "samples": ["rundll32.dll", "aﬂup64.dll", "ground.The", "activities.The", "start.lnk", "executed.DLL", "wcnchost.ddns", "updated.pdf", "go.php", "sub_453590.The", "sylog.log"], "weight": 0.0, "signatures": ["43920ec371fae4726d570fdef1009163", "fec0ca2056d679a63ca18cb132223332", "1c2a3aa370660b3ac2bf0f41c342373b", "f9aeac76f92f8b2ddc253b3f53248c1d", "694040b229562b8dca9534c5301f8d73", "ce2a6437a308dfe777dec42eec39d9ea", "c9c1ec9ae1f142a8751ef470afa20f15", "91e3aa8fa918caa9a8e70466a9515666", "c3f5add704f2c540f3dd345f853e2d84", "4f9ef6f18e4c641621f4581a5989284c", "863f2bfed6e8e1b8b4516e328c8ba41b", "8dda6f85f06b5952beaabbfea9e28cdd", "afed882f6af66810d7637ebcd8287ddc", "61a107fee55e13e67a1f6cbc9183d0a4", "ec834fa821b2ddbe8b564b3870f13b1b", "25689fc7581840e851c3140aa8c3ac8b", "HKCU\\Environment, key value: AppId, data: c:\\ Intel", "https://www.anquanke.com/post/id/84910", "http://www.inpage.com/"]}
+{
+  "rule_id": 844,
+  "name": "EN_version",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "activities.The",
+    "updated.pdf",
+    "rundll32.dll",
+    "start.lnk",
+    "wcnchost.ddns",
+    "executed.DLL",
+    "ground.The",
+    "aﬂup64.dll",
+    "go.php",
+    "sylog.log",
+    "sub_453590.The"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "afed882f6af66810d7637ebcd8287ddc",
+    "863f2bfed6e8e1b8b4516e328c8ba41b",
+    "43920ec371fae4726d570fdef1009163",
+    "c3f5add704f2c540f3dd345f853e2d84",
+    "ec834fa821b2ddbe8b564b3870f13b1b",
+    "c9c1ec9ae1f142a8751ef470afa20f15",
+    "694040b229562b8dca9534c5301f8d73",
+    "fec0ca2056d679a63ca18cb132223332",
+    "8dda6f85f06b5952beaabbfea9e28cdd",
+    "4f9ef6f18e4c641621f4581a5989284c",
+    "f9aeac76f92f8b2ddc253b3f53248c1d",
+    "61a107fee55e13e67a1f6cbc9183d0a4",
+    "91e3aa8fa918caa9a8e70466a9515666",
+    "25689fc7581840e851c3140aa8c3ac8b",
+    "1c2a3aa370660b3ac2bf0f41c342373b",
+    "ce2a6437a308dfe777dec42eec39d9ea",
+    "HKCU\\Environment, key value: AppId, data: c:\\ Intel",
+    "http://www.inpage.com/",
+    "https://www.anquanke.com/post/id/84910"
+  ]
+}

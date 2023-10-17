@@ -1,1 +1,30 @@
-{"rule_id": 1080, "name": "A dive into Turla PowerShell usage", "description": "-", "references": [], "samples": ["_.User", "rpcrt4.dll", "iCore.dat", "TargetInstance.Hour", "desktop.db", "Turla.BZ", "amsi.dll", "Turla.BS", "pm.exe", "ca.Mode", "ff.Read", "Turla.BR", "Turla.BQ", "RPCSpoofServerInstall.pdb"], "weight": 0.0, "signatures": ["9D1C563E5228B2572F5CA14F0EC33CA0DEDA3D57", "B948E25D061039D64115CFDE74D2FF4372E83765", "EC54EF8D79BF30B63C5249AF7A8A3C652595B923", "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains atctl", "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains “atctl”. If"]}
+{
+  "rule_id": 1080,
+  "name": "A dive into Turla PowerShell usage",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "amsi.dll",
+    "rpcrt4.dll",
+    "_.User",
+    "pm.exe",
+    "desktop.db",
+    "Turla.BQ",
+    "Turla.BZ",
+    "ca.Mode",
+    "RPCSpoofServerInstall.pdb",
+    "Turla.BS",
+    "iCore.dat",
+    "TargetInstance.Hour",
+    "ff.Read",
+    "Turla.BR"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "9D1C563E5228B2572F5CA14F0EC33CA0DEDA3D57",
+    "EC54EF8D79BF30B63C5249AF7A8A3C652595B923",
+    "B948E25D061039D64115CFDE74D2FF4372E83765",
+    "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains “atctl”. If",
+    "HKLM\\SYSTEM\\CurrentControlSet\\services\\LanmanServer\\Parameters\\NullSessionPipes contains atctl"
+  ]
+}

@@ -1,1 +1,40 @@
-{"rule_id": 434, "name": "welivesecurity.com-Targeted information stealing attacks in South Asia use email signed binaries", "description": "-", "references": [], "samples": ["pakterrisiomforindian.exe", "Agent.OBV", "VB.NVM", "VB.QTY", "KeyLogger.NZN", "VB.QTV", "VB.NWB", "Agent.RNW", "Spy.VB", "VB.NTC", "VB.QPK", "Agent.NVL", "Agent.RNT", "pakistandefencetoindiantopmiltrysecreat.exe", "Agent.RNV", "Agent.NZD", "Agent.OBF", "KeyLogger.NZL", "Agent.OAZ", "Agent.NLD"], "weight": 0.0, "signatures": ["A0DD0B8FD0C98E917BFDC96182088CAB5505CCD2", "AE7B9CFB10CD65B98C59DC012D6726B66BE92897", "DB22E7DEA0C1CAF203072693485DE4E4FD2CB56A", "08ce405f0a0277de355454862b164ffd94a7ea36", "1db89237ef786c7f22a8d4cd7eccda8f6286a6de", "0D610F3F51750EADCF426E10E6DE5313605400FA", "09D4ECA67B1D071E57C5951D97FE9DD9C62F1580", "3b1d9d65159bea24ab1060e5603f9e3c2d38d08d", "d859f1cf99049f89258c1faa59dcd97f587e45ac"]}
+{
+  "rule_id": 434,
+  "name": "welivesecurity.com-Targeted information stealing attacks in South Asia use email signed binaries",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "KeyLogger.NZN",
+    "KeyLogger.NZL",
+    "Agent.NVL",
+    "pakterrisiomforindian.exe",
+    "Agent.NZD",
+    "Agent.OBV",
+    "Agent.RNV",
+    "Agent.NLD",
+    "Agent.OAZ",
+    "VB.NWB",
+    "Agent.OBF",
+    "Agent.RNW",
+    "VB.QPK",
+    "pakistandefencetoindiantopmiltrysecreat.exe",
+    "VB.NVM",
+    "VB.QTV",
+    "Spy.VB",
+    "Agent.RNT",
+    "VB.QTY",
+    "VB.NTC"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "AE7B9CFB10CD65B98C59DC012D6726B66BE92897",
+    "d859f1cf99049f89258c1faa59dcd97f587e45ac",
+    "1db89237ef786c7f22a8d4cd7eccda8f6286a6de",
+    "09D4ECA67B1D071E57C5951D97FE9DD9C62F1580",
+    "A0DD0B8FD0C98E917BFDC96182088CAB5505CCD2",
+    "DB22E7DEA0C1CAF203072693485DE4E4FD2CB56A",
+    "3b1d9d65159bea24ab1060e5603f9e3c2d38d08d",
+    "0D610F3F51750EADCF426E10E6DE5313605400FA",
+    "08ce405f0a0277de355454862b164ffd94a7ea36"
+  ]
+}

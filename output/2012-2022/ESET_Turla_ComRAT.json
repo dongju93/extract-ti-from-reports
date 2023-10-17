@@ -1,1 +1,44 @@
-{"rule_id": 789, "name": "ESET_Turla_ComRAT", "description": "-", "references": [], "samples": ["id.pki", "docs.live", "FXSAPIDebugTrace.txt", "cert.pki", "Turla.AP", "scrabble.ikwb", "cookie.str", "foods.jkub", "Release.dll", "subject.str", "get.list", "progress.zyns", "document.docx", "iecache.bin", "Turla.BY", "Turla.EI", "wsqmcons.exe", "post.list", "documents.xlsx", "key.pki", "jpg.bfe", "addr.str", "transport.str"], "weight": 0.0, "signatures": ["0139818441431C72A1935E7F740A1CC458A63452", "4D8B1F4ACC638080054FFBB4CEF2559583A22DC6", "0AB87F7BDF7D9E54BA33FE715C11E275D5DCCE15", "DD7006D16D8E121FCE8F2905433474ECCED75CC0", "HKLM\\SOFTWARE\\Microsoft\\SQMClient\\Windows.WSqmCons", "HKCR\\http\\shell\\open\\command,  ", "https://symantec-blogs", "https://docs.live.net/E65<redacted>", "https://yle", "https://mail"]}
+{
+  "rule_id": 789,
+  "name": "ESET_Turla_ComRAT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "wsqmcons.exe",
+    "post.list",
+    "iecache.bin",
+    "FXSAPIDebugTrace.txt",
+    "get.list",
+    "progress.zyns",
+    "Turla.BY",
+    "subject.str",
+    "Turla.EI",
+    "transport.str",
+    "document.docx",
+    "scrabble.ikwb",
+    "cookie.str",
+    "addr.str",
+    "cert.pki",
+    "key.pki",
+    "foods.jkub",
+    "jpg.bfe",
+    "Release.dll",
+    "id.pki",
+    "documents.xlsx",
+    "docs.live",
+    "Turla.AP"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "DD7006D16D8E121FCE8F2905433474ECCED75CC0",
+    "0AB87F7BDF7D9E54BA33FE715C11E275D5DCCE15",
+    "0139818441431C72A1935E7F740A1CC458A63452",
+    "4D8B1F4ACC638080054FFBB4CEF2559583A22DC6",
+    "HKLM\\SOFTWARE\\Microsoft\\SQMClient\\Windows.WSqmCons",
+    "HKCR\\http\\shell\\open\\command,  ",
+    "https://mail",
+    "https://yle",
+    "https://symantec-blogs",
+    "https://docs.live.net/E65<redacted>"
+  ]
+}

@@ -1,1 +1,29 @@
-{"rule_id": 939, "name": "APT Sidewinder changes theirs TTPs to install their backdoor", "description": "-", "references": [], "samples": ["ointernet.send", "hj1.txt", "mshtmll.dll", "ointernet.open", "caller.exe", "C.dll", "Test.Zip", "FinalBot.exe", "hj.txt", "msvbvm60.dll", "Srvstr.exe", "heartissuehigh.win", "main.RTF"], "weight": 0.0, "signatures": ["8c16ebad57e0288077ae58607b2967bf7b40761b20d783814d655280e9779e99", "7bd7cec82ee98feed5872325c2f8fd9f0ea3a2f6cd0cd32bcbe27dbbfd0d7da1", "dd5c74f195b7ba0cd06fe3b899125c09440ce14648080f520c06857e4001ff54", "7c76c3c9e8569e102ba083a64d22cf46920e3566d7e940b54fb1e6c628e6610f", "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\WinSrv”,"]}
+{
+  "rule_id": 939,
+  "name": "APT Sidewinder changes theirs TTPs to install their backdoor",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "main.RTF",
+    "heartissuehigh.win",
+    "caller.exe",
+    "ointernet.open",
+    "Test.Zip",
+    "C.dll",
+    "hj.txt",
+    "hj1.txt",
+    "Srvstr.exe",
+    "mshtmll.dll",
+    "ointernet.send",
+    "msvbvm60.dll",
+    "FinalBot.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7bd7cec82ee98feed5872325c2f8fd9f0ea3a2f6cd0cd32bcbe27dbbfd0d7da1",
+    "dd5c74f195b7ba0cd06fe3b899125c09440ce14648080f520c06857e4001ff54",
+    "7c76c3c9e8569e102ba083a64d22cf46920e3566d7e940b54fb1e6c628e6610f",
+    "8c16ebad57e0288077ae58607b2967bf7b40761b20d783814d655280e9779e99",
+    "HKEY_CURRENT_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\WinSrv”,"
+  ]
+}

@@ -1,1 +1,16 @@
-{"rule_id": 1056, "name": "Vendetta-new-threat-actor-from-Europe", "description": "-", "references": [], "samples": [], "weight": 0.0, "signatures": ["e73d9b2eba5e818cd4699f1484af5bce", "2106b19ffb7bf327d64d4cd6bdb606b4", "dd93825ca5bd3afda1c238ce2ded84e1", "dabbfc6a7d939c4c41fb2c7cee295220", "500dc2b3fbea8f13b29f494afb9465ec", "https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"]}
+{
+  "rule_id": 1056,
+  "name": "Vendetta-new-threat-actor-from-Europe",
+  "description": "-",
+  "references": [],
+  "samples": [],
+  "weight": 0.0,
+  "signatures": [
+    "dd93825ca5bd3afda1c238ce2ded84e1",
+    "e73d9b2eba5e818cd4699f1484af5bce",
+    "2106b19ffb7bf327d64d4cd6bdb606b4",
+    "dabbfc6a7d939c4c41fb2c7cee295220",
+    "500dc2b3fbea8f13b29f494afb9465ec",
+    "https://blog.360totalsecurity.com/en/vendetta-new-threat-actor-from-europe/"
+  ]
+}

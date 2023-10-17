@@ -1,1 +1,17 @@
-{"rule_id": 39, "name": "[tr1adx]_ Intel", "description": "-", "references": [], "samples": ["army.mil", "af.mil", "webmail.mil", "jica.go", "mofa.go", "00003.html", "minpal.gob"], "weight": 0.0, "signatures": ["https://www.tr1adx.net/intel/TIB-00003.html"]}
+{
+  "rule_id": 39,
+  "name": "[tr1adx]_ Intel",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "webmail.mil",
+    "00003.html",
+    "af.mil",
+    "minpal.gob",
+    "jica.go",
+    "mofa.go",
+    "army.mil"
+  ],
+  "weight": 0.0,
+  "signatures": ["https://www.tr1adx.net/intel/TIB-00003.html"]
+}

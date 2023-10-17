@@ -8557,9 +8557,9 @@ mail.waterfilter.in.ua
 mail.waterfilter.in.ua
 (01:00:00)
 
-IN MX
-
 176.114.0.120 3600s
+
+IN MX
 
 IN A
 (01:00:00)

@@ -1,1 +1,33 @@
-{"rule_id": 603, "name": "tech-brief-tildeb-analyzing-the-18-year-old-implant-from-the-shadow-brokers-leak", "description": "-", "references": [], "samples": ["eula.txt", "Ws2_32.dll", "WSOCK32.dll", "us.cfg", "PUB.EDB", "KMSERVER.EXE", "priv.edb", "DSAMAIN.EXE", "PRIV.EDB", "l.tmp", "DIR.EDB", "STORE.EXE", "kmsmdb.edb", "dir.edb", "clocksvc.exe", "mfc42.dll", "SimpleProcesses.db", "cn.dll", "pub.edb", "galt.pem"], "weight": 0.0, "signatures": ["9812a5c5a89b6287c8893d3651b981a0", "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"]}
+{
+  "rule_id": 603,
+  "name": "tech-brief-tildeb-analyzing-the-18-year-old-implant-from-the-shadow-brokers-leak",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "PUB.EDB",
+    "DIR.EDB",
+    "kmsmdb.edb",
+    "KMSERVER.EXE",
+    "Ws2_32.dll",
+    "mfc42.dll",
+    "WSOCK32.dll",
+    "dir.edb",
+    "PRIV.EDB",
+    "eula.txt",
+    "SimpleProcesses.db",
+    "clocksvc.exe",
+    "l.tmp",
+    "cn.dll",
+    "priv.edb",
+    "galt.pem",
+    "STORE.EXE",
+    "DSAMAIN.EXE",
+    "us.cfg",
+    "pub.edb"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "9812a5c5a89b6287c8893d3651b981a0",
+    "c1bcd04b41c6b574a5c9367b777efc8b95fe6cc4e526978b7e8e09214337fac1"
+  ]
+}

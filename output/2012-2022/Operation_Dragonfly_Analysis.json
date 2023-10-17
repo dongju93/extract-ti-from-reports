@@ -1,1 +1,21 @@
-{"rule_id": 163, "name": "Operation_Dragonfly_Analysis", "description": "-", "references": [], "samples": ["teamspy.pdf", "nal.pdf"], "weight": 0.0, "signatures": ["4bfdda1a5f21d56afdc2060b9ce5a170", "708ceccae2c27e32637fd29451aef4a5", "da9d8c78efe0c6c8be70e6b857400fb1", "07bd08b07de611b2940e886f453872aa8d9b01f9d3c61d872d6cfe8cde3b50d4", "fc54d8afd2ce5cb6cc53c46783bf91d0dd19de604308d536827320826bc36ed9", "https://t.co/HR9XqsKas3)", "http://www.silicon.co.uk/security/blackenergy-trojan-ukraine-", "https://t.co/jbP1DXmVo0", "http://www.crysys.hu/teamspy/teamspy.pdf)", "https://t.co/jbP1DXmVo0)", "https://t.co/HR9XqsKas3"]}
+{
+  "rule_id": 163,
+  "name": "Operation_Dragonfly_Analysis",
+  "description": "-",
+  "references": [],
+  "samples": ["teamspy.pdf", "nal.pdf"],
+  "weight": 0.0,
+  "signatures": [
+    "4bfdda1a5f21d56afdc2060b9ce5a170",
+    "708ceccae2c27e32637fd29451aef4a5",
+    "da9d8c78efe0c6c8be70e6b857400fb1",
+    "fc54d8afd2ce5cb6cc53c46783bf91d0dd19de604308d536827320826bc36ed9",
+    "07bd08b07de611b2940e886f453872aa8d9b01f9d3c61d872d6cfe8cde3b50d4",
+    "https://t.co/HR9XqsKas3)",
+    "https://t.co/HR9XqsKas3",
+    "https://t.co/jbP1DXmVo0",
+    "http://www.silicon.co.uk/security/blackenergy-trojan-ukraine-",
+    "https://t.co/jbP1DXmVo0)",
+    "http://www.crysys.hu/teamspy/teamspy.pdf)"
+  ]
+}

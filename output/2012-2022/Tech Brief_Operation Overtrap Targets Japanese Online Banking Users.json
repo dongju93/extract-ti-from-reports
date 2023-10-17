@@ -1,1 +1,40 @@
-{"rule_id": 361, "name": "Tech Brief_Operation Overtrap Targets Japanese Online Banking Users", "description": "-", "references": ["CVE-2018-15982"], "samples": ["CVE201815982.AK", "CVE20188174.AMT", "cadwork.dir", "mswsock.dll", "EVSSL.exe", "smartscreen.exe", "Trojan.SWF", "Cfoepcyof.dll", "cadwork.ch", "swf.swf", "conn.php", "Afoepcyof.dll", "nspr4.dll", "Trojan.VBS", "unzip.exe", "tor.exe", "vbs.vbs", "foepcyof.dll"], "weight": 0.0, "signatures": ["01bf58c650b6ba30733c14026fcff4ecfc24becdd05637a84ef2a7e86aff3fe0", "a9ea7e952ce38bf8bc14114325ca2a1bfed16f63798028565a669808b8b728dc", "914eb64b93cbb631c710ef6cbd0f9cedf93415be421ccc6e285b288b87f3a246", "c1b67a30119107365c4a311479794e07afb631980a649749501cb9f511fb0ab4", "db1e379c66c41debf58062e0865527a8a5bd7b37b5f43e06c80540a47ac7f5a4", "14842334ac730f417f2730dec9898491575341da3721584a49d44fbf02f1fa6a", "96e91a1f656fb70339f8f4e383e7f967d25c1a414f436ddffc692518ace579ad", "b1d30ee17a4d1fae263ea0ca696765d2f48b727c9953009c079ed2cb3ee15ab9", "ed7b5c16cb5c4f56b3ded279688b693ec52389cacc0b81e940b0591b7f68aa84", "7f505a1064ea09daba577aa553efbf3385c890ab5aac2ace6ef3e927f480fb87", "https://archive.torproject.org/tor-package-archive/torbrowser/8.0.8/tor-"]}
+{
+  "rule_id": 361,
+  "name": "Tech Brief_Operation Overtrap Targets Japanese Online Banking Users",
+  "description": "-",
+  "references": ["CVE-2018-15982"],
+  "samples": [
+    "nspr4.dll",
+    "EVSSL.exe",
+    "CVE20188174.AMT",
+    "Cfoepcyof.dll",
+    "smartscreen.exe",
+    "conn.php",
+    "vbs.vbs",
+    "Afoepcyof.dll",
+    "tor.exe",
+    "mswsock.dll",
+    "unzip.exe",
+    "cadwork.ch",
+    "foepcyof.dll",
+    "CVE201815982.AK",
+    "Trojan.VBS",
+    "swf.swf",
+    "Trojan.SWF",
+    "cadwork.dir"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "01bf58c650b6ba30733c14026fcff4ecfc24becdd05637a84ef2a7e86aff3fe0",
+    "c1b67a30119107365c4a311479794e07afb631980a649749501cb9f511fb0ab4",
+    "14842334ac730f417f2730dec9898491575341da3721584a49d44fbf02f1fa6a",
+    "a9ea7e952ce38bf8bc14114325ca2a1bfed16f63798028565a669808b8b728dc",
+    "7f505a1064ea09daba577aa553efbf3385c890ab5aac2ace6ef3e927f480fb87",
+    "db1e379c66c41debf58062e0865527a8a5bd7b37b5f43e06c80540a47ac7f5a4",
+    "b1d30ee17a4d1fae263ea0ca696765d2f48b727c9953009c079ed2cb3ee15ab9",
+    "ed7b5c16cb5c4f56b3ded279688b693ec52389cacc0b81e940b0591b7f68aa84",
+    "96e91a1f656fb70339f8f4e383e7f967d25c1a414f436ddffc692518ace579ad",
+    "914eb64b93cbb631c710ef6cbd0f9cedf93415be421ccc6e285b288b87f3a246",
+    "https://archive.torproject.org/tor-package-archive/torbrowser/8.0.8/tor-"
+  ]
+}

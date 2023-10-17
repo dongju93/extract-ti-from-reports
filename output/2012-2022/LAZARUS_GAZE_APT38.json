@@ -1,1 +1,16 @@
-{"rule_id": 317, "name": "LAZARUS_GAZE_APT38", "description": "-", "references": [], "samples": ["thumbnail.lnk", "thumnail.db", "Request.Form"], "weight": 0.0, "signatures": ["b018639e9a5f3b2b9c257b83ee51a3f77bbec1a984db13d1c00e0CC77704abb4", "1a172d92638e6fdb2858dcca7a78d4b03c424b7f14be75c2fd479f59049bc5f9", "adf86d77eb4064c52a3e4fb3f1c3218ee2b7de2b1780b81c612886d72aa9c923", "26a2fa7b45a455c311fd57875d8231c853ea4399be7b9344f2136030b2edc4aa", "ec254c40abff00b104a949f07b7b64235fc395ecb9311eb4020c1c4da0e6b5c4", "https://blog.telsy.com/the-lazarus-gaze-to-the-world-what-is-behind-the-"]}
+{
+  "rule_id": 317,
+  "name": "LAZARUS_GAZE_APT38",
+  "description": "-",
+  "references": [],
+  "samples": ["Request.Form", "thumnail.db", "thumbnail.lnk"],
+  "weight": 0.0,
+  "signatures": [
+    "ec254c40abff00b104a949f07b7b64235fc395ecb9311eb4020c1c4da0e6b5c4",
+    "adf86d77eb4064c52a3e4fb3f1c3218ee2b7de2b1780b81c612886d72aa9c923",
+    "1a172d92638e6fdb2858dcca7a78d4b03c424b7f14be75c2fd479f59049bc5f9",
+    "b018639e9a5f3b2b9c257b83ee51a3f77bbec1a984db13d1c00e0CC77704abb4",
+    "26a2fa7b45a455c311fd57875d8231c853ea4399be7b9344f2136030b2edc4aa",
+    "https://blog.telsy.com/the-lazarus-gaze-to-the-world-what-is-behind-the-"
+  ]
+}

@@ -10,9 +10,9 @@ def merge_json_files(directory):
         if filename.endswith(".json"):
             with open(os.path.join(directory, filename), "r") as f:
                 data = json.load(f)
-                # if isinstance(data, list):
-                # merged_data.extend(data)
-                if isinstance(data, dict):
+                if isinstance(data, list):
+                    merged_data.extend(data)
+                elif isinstance(data, dict):
                     merged_data.append(data)
                 else:
                     print(
@@ -26,12 +26,12 @@ def sort_by_rule_id(data):
     return sorted(data, key=lambda x: x.get("rule_id", float("inf")))
 
 
-directory_path = json_path
+directory_path = output_path + "excel_to_json/"
 merged_data = merge_json_files(directory_path)
 sorted_data = sort_by_rule_id(merged_data)
 
 with open(
-    output_path + "2012-2022_merged.json",
+    output_path + "2012-2022_merged_excel.json",
     "w",
 ) as outfile:
     json.dump(sorted_data, outfile, indent=4, ensure_ascii=False)

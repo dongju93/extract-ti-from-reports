@@ -1,1 +1,30 @@
-{"rule_id": 652, "name": "not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign", "description": "-", "references": [], "samples": ["america.rtf", "ds7002.PDF", "GetContentFeatures.DLNA", "cyzfc.dat", "Binary.lnk", "ds7002.pdf", "vzvi.Seek", "vzvi.Read", "www.jmj", "ds7002.lnk", "ds7002.zip"], "weight": 0.0, "signatures": ["6ed0020b0851fb71d5b0076f4ee95f3c", "16bbc967a8b6a365871a05c74a4f345b", "658c6fe38f95995fa8dc8f6cfe41df7b", "313f4808aa2a2073005d219bc68971cd", "3fccf531ff0ae6fedd7c586774b17a2d", "2b13b244aafe1ecace61ea1119a1b2ee", "f713d5df826c6051e65f995e57d6817d", "https://www.jmj.com/personal/nauerthn_state_gov/*"]}
+{
+  "rule_id": 652,
+  "name": "not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "cyzfc.dat",
+    "vzvi.Seek",
+    "ds7002.zip",
+    "america.rtf",
+    "Binary.lnk",
+    "ds7002.PDF",
+    "vzvi.Read",
+    "GetContentFeatures.DLNA",
+    "www.jmj",
+    "ds7002.pdf",
+    "ds7002.lnk"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "2b13b244aafe1ecace61ea1119a1b2ee",
+    "f713d5df826c6051e65f995e57d6817d",
+    "313f4808aa2a2073005d219bc68971cd",
+    "658c6fe38f95995fa8dc8f6cfe41df7b",
+    "16bbc967a8b6a365871a05c74a4f345b",
+    "6ed0020b0851fb71d5b0076f4ee95f3c",
+    "3fccf531ff0ae6fedd7c586774b17a2d",
+    "https://www.jmj.com/personal/nauerthn_state_gov/*"
+  ]
+}

@@ -1,1 +1,26 @@
-{"rule_id": 954, "name": "analyzing WindShift implant OSX.WindTail", "description": "-", "references": [], "samples": ["date.txt", "Presentation.zip", "Scandal_Report_2017.zip", "kESklNvxsNZQcPl.php", "fsfSQNrIyxeRvXH.php", "Agenda.zip", "Presentation.app", "com.alis"], "weight": 0.0, "signatures": ["da342c4ca1b2ab31483c6f2d43cdcc195dfe481b", "4613f5b1e172cb08d6a2e7f2186e2fdd875b24e5", "df2a83dc0ae09c970e7318b93d95041395976da7", "6d1614617732f106d5ab01125cb8e57119f29d91", "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?very=%@&xnvk=%@", "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?", "https://objective-see.com/blog/blog_0x3B.html"]}
+{
+  "rule_id": 954,
+  "name": "analyzing WindShift implant OSX.WindTail",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Presentation.app",
+    "kESklNvxsNZQcPl.php",
+    "fsfSQNrIyxeRvXH.php",
+    "Presentation.zip",
+    "date.txt",
+    "Scandal_Report_2017.zip",
+    "Agenda.zip",
+    "com.alis"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6d1614617732f106d5ab01125cb8e57119f29d91",
+    "df2a83dc0ae09c970e7318b93d95041395976da7",
+    "da342c4ca1b2ab31483c6f2d43cdcc195dfe481b",
+    "4613f5b1e172cb08d6a2e7f2186e2fdd875b24e5",
+    "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?",
+    "http://flux2key.com/liaROelcOeVvfjN/fsfSQNrIyxeRvXH.php?very=%@&xnvk=%@",
+    "https://objective-see.com/blog/blog_0x3B.html"
+  ]
+}

@@ -1,1 +1,24 @@
-{"rule_id": 869, "name": "wp-prototype-nation", "description": "-", "references": [], "samples": ["V.gmw", "Deep.Dot", "53812.html", "v.gmw", "fullstory.aspx", "www.qnsb", "surface.pdf", "content_16696986.htm", "cnseu.pw"], "weight": 0.0, "signatures": ["http://www.qnsb.com/news/html/2014/caijing_0219/53812.html.", "https://www.deepdotweb.com/2015/08/17/cybercrime-the-study-of-carding/.", "http://www.finextra.com/news/fullstory.aspx?newsitemid=27940.", "http://v.gmw.cn/2015-08/17/content_16696986.htm."]}
+{
+  "rule_id": 869,
+  "name": "wp-prototype-nation",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "content_16696986.htm",
+    "surface.pdf",
+    "V.gmw",
+    "fullstory.aspx",
+    "www.qnsb",
+    "v.gmw",
+    "Deep.Dot",
+    "cnseu.pw",
+    "53812.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://v.gmw.cn/2015-08/17/content_16696986.htm.",
+    "http://www.qnsb.com/news/html/2014/caijing_0219/53812.html.",
+    "http://www.finextra.com/news/fullstory.aspx?newsitemid=27940.",
+    "https://www.deepdotweb.com/2015/08/17/cybercrime-the-study-of-carding/."
+  ]
+}

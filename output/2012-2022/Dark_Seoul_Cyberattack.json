@@ -1,1 +1,37 @@
-{"rule_id": 908, "name": "Dark_Seoul_Cyberattack", "description": "-", "references": [], "samples": ["www.ibk", "dongseo.ac", "svchest.exe", "laoding521.eicp", "link.pdf", "1638361.html", "www.hani", "tongji2.exe", "pao.exe", "tong.htm", "491514.html", "www.spc", "dossier.pdf"], "weight": 0.0, "signatures": ["http://myadmin2012.com/tong.htm.", "http://rootadmin2012.com,", "http://www.spc.or.kr)", "http://www.koreaherald.com/view.php?ud=20130410000766", "http://isis-", "http://www.exploit-db.com/exploits/19186/", "http://www.hisunpharm.com/", "http://www.informationweek.com/security/attacks/south-korea-changes-", "http://www.voanews.com/articleprintview/1638361.html", "http://www.bbc.co.uk/news/technology-22092051", "http://www.hani.co.kr/arti/english_edition/e_national/491514.html", "https://blog.avast.com/2013/03/19/analysis-of-chinese-attack-against-", "http://labs.alienvault.com/labs/index.php/2013/a-theory-on-the-south-"]}
+{
+  "rule_id": 908,
+  "name": "Dark_Seoul_Cyberattack",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "tongji2.exe",
+    "svchest.exe",
+    "1638361.html",
+    "dongseo.ac",
+    "www.hani",
+    "laoding521.eicp",
+    "pao.exe",
+    "dossier.pdf",
+    "www.ibk",
+    "www.spc",
+    "link.pdf",
+    "tong.htm",
+    "491514.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.spc.or.kr)",
+    "http://www.exploit-db.com/exploits/19186/",
+    "http://isis-",
+    "http://www.hani.co.kr/arti/english_edition/e_national/491514.html",
+    "http://www.voanews.com/articleprintview/1638361.html",
+    "http://labs.alienvault.com/labs/index.php/2013/a-theory-on-the-south-",
+    "http://myadmin2012.com/tong.htm.",
+    "http://www.koreaherald.com/view.php?ud=20130410000766",
+    "https://blog.avast.com/2013/03/19/analysis-of-chinese-attack-against-",
+    "http://rootadmin2012.com,",
+    "http://www.hisunpharm.com/",
+    "http://www.informationweek.com/security/attacks/south-korea-changes-",
+    "http://www.bbc.co.uk/news/technology-22092051"
+  ]
+}

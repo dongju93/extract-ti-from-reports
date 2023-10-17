@@ -1,1 +1,27 @@
-{"rule_id": 8, "name": "FTA 1011 Follow UP", "description": "-", "references": [], "samples": ["netwn.drv", "file1.txt", "ext.drv", "update.exe", "netui3.dll", "act.te", "setup35.exe", "winmgt.dll", "netsat.exe", "netwi.drv", "interesting.txt", "Netsat.exe", "netu3.dll", "D.tmp"], "weight": 0.0, "signatures": ["eb8399483b55f416e48a320d68597d72", "68aed7b1f171b928913780d5b21f7617"]}
+{
+  "rule_id": 8,
+  "name": "FTA 1011 Follow UP",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "netsat.exe",
+    "netwi.drv",
+    "D.tmp",
+    "act.te",
+    "winmgt.dll",
+    "update.exe",
+    "Netsat.exe",
+    "netwn.drv",
+    "netu3.dll",
+    "setup35.exe",
+    "ext.drv",
+    "file1.txt",
+    "interesting.txt",
+    "netui3.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "eb8399483b55f416e48a320d68597d72",
+    "68aed7b1f171b928913780d5b21f7617"
+  ]
+}

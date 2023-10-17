@@ -1,1 +1,33 @@
-{"rule_id": 436, "name": "Musical Chairs Playing Tetris", "description": "-", "references": [], "samples": ["com.png", "snippet.png", "arbor.link", "RasTls.dat", "tetris.png", "END.DDOS", "properties.png", "lite.png", "pcap.png", "300x242.png", "www.arb", "communications.html", "CNCs.png", "ARBORNETWORKS.COM"], "weight": 0.0, "signatures": ["https://www.arb", "http://arbor.link/ntctwww)", "http://www.malware-tra", "http://malware-unplugged.blogspot.com/2015/01/hunting-and-", "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-", "http://arbor.link/ntctblog)", "https://www.paloaltonetworks.com/threat-research)", "https://www.sans.org/reading-"]}
+{
+  "rule_id": 436,
+  "name": "Musical Chairs Playing Tetris",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "CNCs.png",
+    "RasTls.dat",
+    "arbor.link",
+    "properties.png",
+    "lite.png",
+    "communications.html",
+    "com.png",
+    "pcap.png",
+    "tetris.png",
+    "END.DDOS",
+    "300x242.png",
+    "snippet.png",
+    "www.arb",
+    "ARBORNETWORKS.COM"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://malware-unplugged.blogspot.com/2015/01/hunting-and-",
+    "http://www.malware-tra",
+    "https://www.pinterest.com/pin/create/button/?guid=ZyTZub6joY3d-",
+    "http://arbor.link/ntctwww)",
+    "https://www.arb",
+    "https://www.sans.org/reading-",
+    "https://www.paloaltonetworks.com/threat-research)",
+    "http://arbor.link/ntctblog)"
+  ]
+}

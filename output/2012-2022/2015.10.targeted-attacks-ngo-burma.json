@@ -1,1 +1,37 @@
-{"rule_id": 255, "name": "2015.10.targeted-attacks-ngo-burma", "description": "-", "references": [], "samples": ["Reforms.zip", "XLBugHandler.dll", "Reforms.scr", "mcf.ep", "xlbug.dat", "www.moi", "connect.php", "Reforms.docx", "mcf.exe", "mcutil.dll", "AwViewWx.exe", "Permit.zip", "bundle.exe"], "weight": 0.0, "signatures": ["53f81415ccedf453d6e3ebcdc142b966", "7e0081fba718fcd71753d3199a290f03", "c4c147bdfddffec2eea6bf99661e69ee", "cec071424d417a095221bf8992819388", "6701662097e274f3cd089ceec35471d2", "15c926d2602f65be0de65fa9c06aa6c6", "699b3d90b050cae37f65c855ec7f616a", "56f0e67d981024ddcc215543698f44fb", "5710d567d98a8f4a6682859ce3a35336", "49ceba3347d39870f15f2ab0391af234", "884d46c01c762ad6ddd2759fd921bf71", "http://www.moi.gov.mm)", "http://www.uecmyanmar.org),"]}
+{
+  "rule_id": 255,
+  "name": "2015.10.targeted-attacks-ngo-burma",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "AwViewWx.exe",
+    "mcf.ep",
+    "xlbug.dat",
+    "Reforms.docx",
+    "Reforms.zip",
+    "mcutil.dll",
+    "mcf.exe",
+    "bundle.exe",
+    "Permit.zip",
+    "Reforms.scr",
+    "www.moi",
+    "XLBugHandler.dll",
+    "connect.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7e0081fba718fcd71753d3199a290f03",
+    "699b3d90b050cae37f65c855ec7f616a",
+    "15c926d2602f65be0de65fa9c06aa6c6",
+    "5710d567d98a8f4a6682859ce3a35336",
+    "56f0e67d981024ddcc215543698f44fb",
+    "884d46c01c762ad6ddd2759fd921bf71",
+    "53f81415ccedf453d6e3ebcdc142b966",
+    "c4c147bdfddffec2eea6bf99661e69ee",
+    "cec071424d417a095221bf8992819388",
+    "49ceba3347d39870f15f2ab0391af234",
+    "6701662097e274f3cd089ceec35471d2",
+    "http://www.moi.gov.mm)",
+    "http://www.uecmyanmar.org),"
+  ]
+}

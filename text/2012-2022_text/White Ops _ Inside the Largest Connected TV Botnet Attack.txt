@@ -62,9 +62,9 @@ came from this single operation.
 
 %
 
-i
-
 l
+
+i
 
 [
 e

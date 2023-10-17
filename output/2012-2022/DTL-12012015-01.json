@@ -1,1 +1,30 @@
-{"rule_id": 558, "name": "DTL-12012015-01", "description": "-", "references": [], "samples": ["z1.exe", "blogspot.hk", "plug.exe", "wuauclt.dat", "clbcaiq.dll", "profapi.dll", "lim.kiu", "clbcatq.dll"], "weight": 0.0, "signatures": ["55f84d88d84c221437cd23cdbc541d2e", "ec532bbe9d0882d403473102e9724557", "cff25fe24a90ef63eaa168c07008c2bb", "a6a18c846e5179259eba9de238f67e41", "42b76c0503a6bf21f1ea86e0b14d67ea", "ad17eff26994df824be36db246c8fb6a", "f66b64ef984ac46ac7395358059979bc", "efd9dc39682312d6576468f5c0eb6236", "279ef79f904476ba0f9f44c87358bb1f", "HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon ", "http://dragonthreat.blogspot.hk"]}
+{
+  "rule_id": 558,
+  "name": "DTL-12012015-01",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "z1.exe",
+    "clbcaiq.dll",
+    "wuauclt.dat",
+    "profapi.dll",
+    "blogspot.hk",
+    "plug.exe",
+    "lim.kiu",
+    "clbcatq.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "ec532bbe9d0882d403473102e9724557",
+    "a6a18c846e5179259eba9de238f67e41",
+    "279ef79f904476ba0f9f44c87358bb1f",
+    "ad17eff26994df824be36db246c8fb6a",
+    "42b76c0503a6bf21f1ea86e0b14d67ea",
+    "55f84d88d84c221437cd23cdbc541d2e",
+    "efd9dc39682312d6576468f5c0eb6236",
+    "f66b64ef984ac46ac7395358059979bc",
+    "cff25fe24a90ef63eaa168c07008c2bb",
+    "HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run’ to ensure that this file is executed upon ",
+    "http://dragonthreat.blogspot.hk"
+  ]
+}

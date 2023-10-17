@@ -1,1 +1,12 @@
-{"rule_id": 1057, "name": "CERTFR-2019-CTI-005", "description": "-", "references": [], "samples": ["WMIExec.vbs"], "weight": 0.0, "signatures": ["HKLM\\SYSTEM\\ControlSet{0,n}\\services\\PortProxy\\v4tov4 on WIN-", "https://www.us-cert."]}
+{
+  "rule_id": 1057,
+  "name": "CERTFR-2019-CTI-005",
+  "description": "-",
+  "references": [],
+  "samples": ["WMIExec.vbs"],
+  "weight": 0.0,
+  "signatures": [
+    "HKLM\\SYSTEM\\ControlSet{0,n}\\services\\PortProxy\\v4tov4 on WIN-",
+    "https://www.us-cert."
+  ]
+}

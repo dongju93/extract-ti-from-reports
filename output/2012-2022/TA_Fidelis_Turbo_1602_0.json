@@ -1,1 +1,27 @@
-{"rule_id": 322, "name": "TA_Fidelis_Turbo_1602_0", "description": "-", "references": [], "samples": ["login1.asp", "Query.asp", "tkit.me", "x11.id", "250.xxx", "photo.asp", "23.html", "libcrypt.so", "Derusbi.pdf", "libcrypst.so"], "weight": 0.0, "signatures": ["http://turbochaos.blogspot.com/2013/10/writing-linux-rootkits-201-23.html)", "https://www.novetta.com/wp-content/uploads/2014/11/Derusbi.pdf", "http://r00tkit.me/?p=23", "http://blog.airbuscybersecurity.com/post/2015/11/Newcomers-in-", "https://www.virusbtn.com/pdf/", "http://www.telegraph.co.uk/finance/"]}
+{
+  "rule_id": 322,
+  "name": "TA_Fidelis_Turbo_1602_0",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Derusbi.pdf",
+    "libcrypst.so",
+    "photo.asp",
+    "23.html",
+    "250.xxx",
+    "login1.asp",
+    "libcrypt.so",
+    "tkit.me",
+    "Query.asp",
+    "x11.id"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.novetta.com/wp-content/uploads/2014/11/Derusbi.pdf",
+    "http://r00tkit.me/?p=23",
+    "https://www.virusbtn.com/pdf/",
+    "http://blog.airbuscybersecurity.com/post/2015/11/Newcomers-in-",
+    "http://www.telegraph.co.uk/finance/",
+    "http://turbochaos.blogspot.com/2013/10/writing-linux-rootkits-201-23.html)"
+  ]
+}

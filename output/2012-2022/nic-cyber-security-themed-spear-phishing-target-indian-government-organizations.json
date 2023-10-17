@@ -1,1 +1,22 @@
-{"rule_id": 6, "name": "nic-cyber-security-themed-spear-phishing-target-indian-government-organizations", "description": "-", "references": [], "samples": ["WINWORD.exe", "webmail.php", "duia.CC", "0012.vbs", "WScript.exe", "SOP.doc", "Security.pdf", "0012.exe", "0012.vbe"], "weight": 0.0, "signatures": ["4dc28faeb77550174b936d9ba97d4679", "http://meity.gov.in/sites/upload_files/dit/files/Plan_Report_on_Cyber_Security.pdf)."]}
+{
+  "rule_id": 6,
+  "name": "nic-cyber-security-themed-spear-phishing-target-indian-government-organizations",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "0012.vbs",
+    "0012.vbe",
+    "duia.CC",
+    "webmail.php",
+    "SOP.doc",
+    "Security.pdf",
+    "WINWORD.exe",
+    "0012.exe",
+    "WScript.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "4dc28faeb77550174b936d9ba97d4679",
+    "http://meity.gov.in/sites/upload_files/dit/files/Plan_Report_on_Cyber_Security.pdf)."
+  ]
+}

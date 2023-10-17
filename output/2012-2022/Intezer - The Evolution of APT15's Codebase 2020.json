@@ -1,1 +1,15 @@
-{"rule_id": 390, "name": "Intezer - The Evolution of APT15's Codebase 2020", "description": "-", "references": [], "samples": ["adult.sft", "RavAudio64.exe"], "weight": 0.0, "signatures": ["aacaf0d4729dd6fda2e452be763d209f92d107ecf24d8a341947c545de9b7311", "271384a078f2a2f58e14d7703febae8a28c6e2d7ddb00a3c8d3eead4ea87a0c0", "a142625512e5372a1728595be19dbee23eea50524b4827cb64ed5aaeaaa0270b", "HKEY_CURRENT_USER\\Software\\Mi‐", "https://www.intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/"]}
+{
+  "rule_id": 390,
+  "name": "Intezer - The Evolution of APT15's Codebase 2020",
+  "description": "-",
+  "references": [],
+  "samples": ["RavAudio64.exe", "adult.sft"],
+  "weight": 0.0,
+  "signatures": [
+    "aacaf0d4729dd6fda2e452be763d209f92d107ecf24d8a341947c545de9b7311",
+    "271384a078f2a2f58e14d7703febae8a28c6e2d7ddb00a3c8d3eead4ea87a0c0",
+    "a142625512e5372a1728595be19dbee23eea50524b4827cb64ed5aaeaaa0270b",
+    "HKEY_CURRENT_USER\\Software\\Mi‐",
+    "https://www.intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/"
+  ]
+}

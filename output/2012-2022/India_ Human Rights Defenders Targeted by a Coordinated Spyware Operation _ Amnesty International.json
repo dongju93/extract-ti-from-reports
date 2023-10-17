@@ -1,1 +1,27 @@
-{"rule_id": 662, "name": "India_ Human Rights Defenders Targeted by a Coordinated Spyware Operation _ Amnesty International", "description": "-", "references": [], "samples": ["mandos.exe", "Summary.exe", "mail2.exe", "mail3.exe", "house.exe", "Division.exe", "letter.exe", "CASE.exe", "duniaenewsportal.ddns", "Sanstha.exe", "speeches.The"], "weight": 0.0, "signatures": ["88b92d985b7d616c93c391731c1e4a6d3c8323fd", "b09ca9d48a0455ed5e02a56aabeb397c41fb63320244719749e0741da72e79c4", "095ec879f323a0a3eceb97013125880d49ac701eef568e3b010fdddb1333941f", "ac4d5d938009fd44b2f7587986862ab2278887a17d32f748278445b625b3efd9", "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"]}
+{
+  "rule_id": 662,
+  "name": "India_ Human Rights Defenders Targeted by a Coordinated Spyware Operation _ Amnesty International",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "speeches.The",
+    "mandos.exe",
+    "Sanstha.exe",
+    "house.exe",
+    "Summary.exe",
+    "Division.exe",
+    "mail3.exe",
+    "duniaenewsportal.ddns",
+    "letter.exe",
+    "CASE.exe",
+    "mail2.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "88b92d985b7d616c93c391731c1e4a6d3c8323fd",
+    "095ec879f323a0a3eceb97013125880d49ac701eef568e3b010fdddb1333941f",
+    "b09ca9d48a0455ed5e02a56aabeb397c41fb63320244719749e0741da72e79c4",
+    "ac4d5d938009fd44b2f7587986862ab2278887a17d32f748278445b625b3efd9",
+    "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"
+  ]
+}

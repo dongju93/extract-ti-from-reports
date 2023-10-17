@@ -1,1 +1,40 @@
-{"rule_id": 699, "name": "korea_power_plant_wiper", "description": "-", "references": [], "samples": ["iconsvc.dll", "pwpsvc.dll", "pcssvc.dll", "wndmodmng.dll", "wstmng.dll", "Bddsvc.dll", "tschmng.dll", "netstsvc.dll", "rregconf.dll", "timesyncsvc.dll", "wlanconf.dll", "pnrpmchname.dll", "wiredconfsvc.dll", "wcmngsvc.dll", "tcpmsvc.dll", "scardmngsvc.dll", "ehressvc.dll", "coladj.dll", "pnas.dll"], "weight": 0.0, "signatures": ["3BA8A6815F828DFC518A0BDBD27BBA5B", "f09ea2a841114121f32211faac553e1b", "b5b6e93ab27cec75f07af2a3a6a40926", "9daf088fe4c9a9580216e98dbb7d1fca", "800866bbab514657969996210bcf727b", "54783422cfd7029a26a3f3f5e9087d8a", "33874577bf54d3c209925c9def880eb9", "ead682b889218979b1f2f1527227af9b", "3ec69ee7135272e5bed3ea5378ade6ee", "af792a34548a2038f034ea9a6ff0639a"]}
+{
+  "rule_id": 699,
+  "name": "korea_power_plant_wiper",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "wlanconf.dll",
+    "tcpmsvc.dll",
+    "iconsvc.dll",
+    "tschmng.dll",
+    "rregconf.dll",
+    "pwpsvc.dll",
+    "timesyncsvc.dll",
+    "coladj.dll",
+    "wcmngsvc.dll",
+    "scardmngsvc.dll",
+    "netstsvc.dll",
+    "pnrpmchname.dll",
+    "pcssvc.dll",
+    "Bddsvc.dll",
+    "wiredconfsvc.dll",
+    "pnas.dll",
+    "ehressvc.dll",
+    "wstmng.dll",
+    "wndmodmng.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "b5b6e93ab27cec75f07af2a3a6a40926",
+    "ead682b889218979b1f2f1527227af9b",
+    "af792a34548a2038f034ea9a6ff0639a",
+    "3BA8A6815F828DFC518A0BDBD27BBA5B",
+    "9daf088fe4c9a9580216e98dbb7d1fca",
+    "33874577bf54d3c209925c9def880eb9",
+    "f09ea2a841114121f32211faac553e1b",
+    "3ec69ee7135272e5bed3ea5378ade6ee",
+    "54783422cfd7029a26a3f3f5e9087d8a",
+    "800866bbab514657969996210bcf727b"
+  ]
+}

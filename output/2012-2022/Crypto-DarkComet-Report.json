@@ -1,1 +1,15 @@
-{"rule_id": 382, "name": "Crypto-DarkComet-Report", "description": "-", "references": [], "samples": ["sys.exit", "newrat2.no"], "weight": 0.0, "signatures": ["63f2ed5d2ee50e90cda809f2ac740244", "1C638B4887FFE980B0B9AE72B1EA40A3", "185CB63BA31EA7C967297252432E5A7CFC96B261EB7EF4742533CEBF37A9C081", "185CB63BA503B9C967297252432E5A7CFC96B261EB7EF4742533CEBF37A9C081", "http://www.contextis.com/research/blog/darkcometrat/"]}
+{
+  "rule_id": 382,
+  "name": "Crypto-DarkComet-Report",
+  "description": "-",
+  "references": [],
+  "samples": ["sys.exit", "newrat2.no"],
+  "weight": 0.0,
+  "signatures": [
+    "1C638B4887FFE980B0B9AE72B1EA40A3",
+    "63f2ed5d2ee50e90cda809f2ac740244",
+    "185CB63BA503B9C967297252432E5A7CFC96B261EB7EF4742533CEBF37A9C081",
+    "185CB63BA31EA7C967297252432E5A7CFC96B261EB7EF4742533CEBF37A9C081",
+    "http://www.contextis.com/research/blog/darkcometrat/"
+  ]
+}

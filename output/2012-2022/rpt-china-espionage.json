@@ -1,1 +1,37 @@
-{"rule_id": 658, "name": "rpt-china-espionage", "description": "-", "references": [], "samples": ["eng.mod", "51561355.cms", "bigstory.ap", "commander.html", "content_4586805.htm"], "weight": 0.0, "signatures": ["db05078399a49339345c2957196d4073", "7255da3434534074b870e8264fb7ac9e", "http://www.cnn.com/2015/09/25/politics/us-china-cyber-theft-hack/", "https://www.whitehouse.gov/the-press-office/2015/09/25/fact-sheet-president-xi-jinpings-state-visit-united-states", "http://blogs.cfr.org/cyber/2016/01/20/chinas-strategic-support-force-the-new-home-of-the-plas-cyber-operations/", "http://bigstory.ap.org/article/7255da3434534074b870e8264fb7ac9e/pro-china-party-likely-", "http://www.globaltimes.cn/content/902639.shtml", "http://timesofindia.indiatimes.com/tech/tech-news/China-launches-first-cybersecurity-organisation-Report/articleshow/51561355.cms", "http://thediplomat.com/2014/09/why-is-china-building-islands-in-the-south-china-sea/", "https://www.theguardian.com/world/2013/jan/22/xi-jinping-tigers-flies-corruption", "https://www.whitehouse.gov/the-press-office/2015/04/01/executive-order-blocking-property-certain-persons-engaging-significant-m", "http://freebeacon.com/national-security/chinese-military-creates-high-level-cyber-intelligence-center/", "http://www.cnas.org/sites/default/files/publications-pdf/CNAS_WarringState_Chang_report_010615.pdf", "https://www.technologyreview.com/s/511981/unmasked-but-unfazed-chinese-hacking-group-is-still-active/", "https://www.foreignaffairs.com/articles/china/2014-10-20/chinas-imperial-president", "http://eng.mod.gov.cn/Press/2015-05/26/content_4586805.htm", "https://news.usni.org/2015/05/26/document-chinas-military-strategy", "https://freedomhouse.org/blog/obama-xi-agreement-will-not-resolve-china-cybersecurity-threat", "https://www.fbi.gov/losangeles/press-releases/2014/los-angeles-grand-jury-indicts-chinese-national-in-computer-hacking-scheme-allegedly-involving-theft-of-trade-secrets", "http://www.jamestown.org/programs/chinabrief/single/?tx_ttnews%5Btt_news%5D=44924&cHash=db05078399a49339345c2957196d4073", "http://thediplomat.com/2014/08/china-rejects-proposed-freeze-on-provocative-south-china-"]}
+{
+  "rule_id": 658,
+  "name": "rpt-china-espionage",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "eng.mod",
+    "51561355.cms",
+    "bigstory.ap",
+    "commander.html",
+    "content_4586805.htm"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7255da3434534074b870e8264fb7ac9e",
+    "db05078399a49339345c2957196d4073",
+    "https://www.foreignaffairs.com/articles/china/2014-10-20/chinas-imperial-president",
+    "http://eng.mod.gov.cn/Press/2015-05/26/content_4586805.htm",
+    "http://www.cnn.com/2015/09/25/politics/us-china-cyber-theft-hack/",
+    "https://www.technologyreview.com/s/511981/unmasked-but-unfazed-chinese-hacking-group-is-still-active/",
+    "https://www.whitehouse.gov/the-press-office/2015/09/25/fact-sheet-president-xi-jinpings-state-visit-united-states",
+    "http://www.cnas.org/sites/default/files/publications-pdf/CNAS_WarringState_Chang_report_010615.pdf",
+    "https://freedomhouse.org/blog/obama-xi-agreement-will-not-resolve-china-cybersecurity-threat",
+    "https://www.fbi.gov/losangeles/press-releases/2014/los-angeles-grand-jury-indicts-chinese-national-in-computer-hacking-scheme-allegedly-involving-theft-of-trade-secrets",
+    "http://blogs.cfr.org/cyber/2016/01/20/chinas-strategic-support-force-the-new-home-of-the-plas-cyber-operations/",
+    "http://thediplomat.com/2014/09/why-is-china-building-islands-in-the-south-china-sea/",
+    "http://thediplomat.com/2014/08/china-rejects-proposed-freeze-on-provocative-south-china-",
+    "http://www.jamestown.org/programs/chinabrief/single/?tx_ttnews%5Btt_news%5D=44924&cHash=db05078399a49339345c2957196d4073",
+    "http://timesofindia.indiatimes.com/tech/tech-news/China-launches-first-cybersecurity-organisation-Report/articleshow/51561355.cms",
+    "https://www.whitehouse.gov/the-press-office/2015/04/01/executive-order-blocking-property-certain-persons-engaging-significant-m",
+    "https://www.theguardian.com/world/2013/jan/22/xi-jinping-tigers-flies-corruption",
+    "http://bigstory.ap.org/article/7255da3434534074b870e8264fb7ac9e/pro-china-party-likely-",
+    "http://www.globaltimes.cn/content/902639.shtml",
+    "https://news.usni.org/2015/05/26/document-chinas-military-strategy",
+    "http://freebeacon.com/national-security/chinese-military-creates-high-level-cyber-intelligence-center/"
+  ]
+}

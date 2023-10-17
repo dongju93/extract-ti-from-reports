@@ -1,1 +1,23 @@
-{"rule_id": 974, "name": "LOWKEY_ Hunting for the Missing Volume Serial ID", "description": "-", "references": [], "samples": ["id.html", "DEADEYE.EXT", "DEADEYE.DOWN", "Userfunction.dll", "DEADEYE.AP", "LOWKEY.HTTP"], "weight": 0.0, "signatures": ["c11dd805de683822bf4922aecb9bfef5", "e58d4072c56a5dd3cc5cf768b8f37e5e", "5322816c2567198ad3dfc53d99567d6e", "8aab5e2834feb68bb645e0bad4fa10bd", "84b69b5d14ba5c5c9258370c9505438f", "http://+:80/requested.html."]}
+{
+  "rule_id": 974,
+  "name": "LOWKEY_ Hunting for the Missing Volume Serial ID",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "DEADEYE.DOWN",
+    "Userfunction.dll",
+    "DEADEYE.EXT",
+    "id.html",
+    "DEADEYE.AP",
+    "LOWKEY.HTTP"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "8aab5e2834feb68bb645e0bad4fa10bd",
+    "84b69b5d14ba5c5c9258370c9505438f",
+    "5322816c2567198ad3dfc53d99567d6e",
+    "e58d4072c56a5dd3cc5cf768b8f37e5e",
+    "c11dd805de683822bf4922aecb9bfef5",
+    "http://+:80/requested.html."
+  ]
+}

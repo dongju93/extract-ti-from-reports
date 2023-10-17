@@ -1,1 +1,11 @@
-{"rule_id": 60, "name": "Recent Cloud Atlas activity _ Securelist", "description": "-", "references": [], "samples": ["pass.txt", "temp.xml", "Content.Word", "vbs.dat", "PG.zip"], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"]}
+{
+  "rule_id": 60,
+  "name": "Recent Cloud Atlas activity _ Securelist",
+  "description": "-",
+  "references": [],
+  "samples": ["pass.txt", "vbs.dat", "PG.zip", "Content.Word", "temp.xml"],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\[a-f0-9A-F]{8}"
+  ]
+}

@@ -1,1 +1,9 @@
-{"rule_id": 741, "name": "Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation _ SecurityWeek", "description": "-", "references": [], "samples": ["SecurityWeek.Com", "InfosecIsland.Com"], "weight": 0.0, "signatures": ["http://www.securityweek.com/iranian-hackers-targeted-us-of"]}
+{
+  "rule_id": 741,
+  "name": "Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation _ SecurityWeek",
+  "description": "-",
+  "references": [],
+  "samples": ["InfosecIsland.Com", "SecurityWeek.Com"],
+  "weight": 0.0,
+  "signatures": ["http://www.securityweek.com/iranian-hackers-targeted-us-of"]
+}

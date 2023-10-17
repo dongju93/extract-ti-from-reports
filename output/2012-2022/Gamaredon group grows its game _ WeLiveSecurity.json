@@ -1,1 +1,33 @@
-{"rule_id": 224, "name": "Gamaredon group grows its game _ WeLiveSecurity", "description": "-", "references": [], "samples": ["myftp.biz", "do.CD", "odo.ZM", "odo.XC", "5.log", "REG.RU", "1.log", "odo.XG", "odo.YE", "gent.ARJ", "Harvesterx64.dll", "do.DP", "inject.txt", "4.log", "3.log", "do.CA", "2.log"], "weight": 0.0, "signatures": ["6F75F2490186225C922FE605953038BDEB537FEE", "DFC941F365E065187B5C4A4BF42E770035920856", "941F341770B67F9E8EE811B4B8383101F35B27CD", "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\AccessVBOM", "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\VBAWarnings"]}
+{
+  "rule_id": 224,
+  "name": "Gamaredon group grows its game _ WeLiveSecurity",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "do.CA",
+    "myftp.biz",
+    "odo.YE",
+    "odo.ZM",
+    "inject.txt",
+    "REG.RU",
+    "Harvesterx64.dll",
+    "3.log",
+    "do.DP",
+    "gent.ARJ",
+    "5.log",
+    "1.log",
+    "4.log",
+    "odo.XG",
+    "odo.XC",
+    "2.log",
+    "do.CD"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "6F75F2490186225C922FE605953038BDEB537FEE",
+    "DFC941F365E065187B5C4A4BF42E770035920856",
+    "941F341770B67F9E8EE811B4B8383101F35B27CD",
+    "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\VBAWarnings",
+    "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\AccessVBOM"
+  ]
+}

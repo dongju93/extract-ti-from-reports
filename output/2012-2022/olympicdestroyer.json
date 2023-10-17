@@ -1,1 +1,23 @@
-{"rule_id": 589, "name": "olympicdestroyer", "description": "-", "references": [], "samples": ["kma.go", "evtchk.txt", "evtsys.exe", "customs.go", "monovm.mars", "evtchk.bat", "sports.or"], "weight": 0.0, "signatures": ["86D1A184850859A6A4D1C35982F3C40E", "19C539FF2C50A0EFD52BB5B93D03665A", "5e2988cfc41d844e2114dceb8851d0bb", "http://131.255.*.*:8081", "https://nordvpn.com/)"]}
+{
+  "rule_id": 589,
+  "name": "olympicdestroyer",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "evtsys.exe",
+    "evtchk.bat",
+    "evtchk.txt",
+    "sports.or",
+    "monovm.mars",
+    "customs.go",
+    "kma.go"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "86D1A184850859A6A4D1C35982F3C40E",
+    "19C539FF2C50A0EFD52BB5B93D03665A",
+    "5e2988cfc41d844e2114dceb8851d0bb",
+    "http://131.255.*.*:8081",
+    "https://nordvpn.com/)"
+  ]
+}

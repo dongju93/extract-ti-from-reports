@@ -1,1 +1,16 @@
-{"rule_id": 246, "name": "sec14-paper-hardy", "description": "-", "references": [], "samples": ["fire.doc", "ollydbg.de", "home.doc"], "weight": 0.0, "signatures": ["https://www.hex-rays.com/products/ida/.", "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy", "http://www.ollydbg.de/.", "https://citizenlab/targeted-threats", "https://tibetaction.net/detach-from-", "http://www.metasploit.com/."]}
+{
+  "rule_id": 246,
+  "name": "sec14-paper-hardy",
+  "description": "-",
+  "references": [],
+  "samples": ["fire.doc", "ollydbg.de", "home.doc"],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.hex-rays.com/products/ida/.",
+    "https://tibetaction.net/detach-from-",
+    "http://www.ollydbg.de/.",
+    "https://citizenlab/targeted-threats",
+    "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/hardy",
+    "http://www.metasploit.com/."
+  ]
+}

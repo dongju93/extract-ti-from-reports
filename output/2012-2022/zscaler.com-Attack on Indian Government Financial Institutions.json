@@ -1,1 +1,37 @@
-{"rule_id": 541, "name": "zscaler.com-Attack on Indian Government Financial Institutions", "description": "-", "references": [], "samples": ["scndppe.ddns", "Fm.mv", "jhkgdldsgf.jar", "Fm.ren", "Fm.nd", "ln.rst", "Fm.del", "Fm.es", "java.Awt", "jkgdlfhggf.bvl", "Fm.get", "pdf.zip", "sc.ck", "Fm.down", "sc.mv", "hosteam.pl", "Fm.cp", "Fm.chm", "Fm.up", "sc.cap", "sc.op", "Fm.dv", "sc.ky"], "weight": 0.0, "signatures": ["0ac306c29fde5e710ae5d022d78769f6", "23b32dce9e3a7c1af4534fe9cf7f461e", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v jhkgdldsgf /d '\\'C:\\Program Files\\Java\\jre1.8.0_131\\bin\\javaw.exe\\' -jar"]}
+{
+  "rule_id": 541,
+  "name": "zscaler.com-Attack on Indian Government Financial Institutions",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Fm.ren",
+    "scndppe.ddns",
+    "ln.rst",
+    "Fm.nd",
+    "Fm.dv",
+    "sc.op",
+    "java.Awt",
+    "sc.cap",
+    "Fm.chm",
+    "Fm.cp",
+    "hosteam.pl",
+    "pdf.zip",
+    "Fm.down",
+    "Fm.es",
+    "jkgdlfhggf.bvl",
+    "sc.ky",
+    "sc.mv",
+    "jhkgdldsgf.jar",
+    "Fm.mv",
+    "Fm.up",
+    "Fm.get",
+    "Fm.del",
+    "sc.ck"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "0ac306c29fde5e710ae5d022d78769f6",
+    "23b32dce9e3a7c1af4534fe9cf7f461e",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v jhkgdldsgf /d '\\'C:\\Program Files\\Java\\jre1.8.0_131\\bin\\javaw.exe\\' -jar"
+  ]
+}

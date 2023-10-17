@@ -1,1 +1,25 @@
-{"rule_id": 754, "name": "Blue Mockingbird activity mines Monero cryptocurrency", "description": "-", "references": [], "samples": ["Telerik.Web", "8995.dll", "WebResource.axd", "REG.EXE"], "weight": 0.0, "signatures": ["968b324be2b89f1a8ee4743d946723c1", "de6c061aafc5d86e692bec45f69b2ea18639abd540b59c2c281717a054a48dd5", "b31f7152a547fa41c31f9c96177b2cd7131a93f7c328bf6da360dc1586ba18dc", "c957d007824ee8173c67122a1843c979c818614eeed7db03dea3ba7fede43eba", "d388c309a540d4619169a07a4b64707f4c44953511875b57ad7cfa3e097115af", "5377c69c05817a0e18f7b0ebbeed420f9ab8d1e81b439f439b42917fbe772dfb", "14e3c16ca940244bea9b6080fa02384ebb4818572cef7092f90d72ae210b330d", "909495884627e2e74d07d729b5e046f3ae01cabd9f0a5a99c74d46046a677f7c", "1d30d3cafdcc43b2f9a593983ad096c2c3941025fb4e91257e2dcf0919ed24ba", "ab698a35dc5263f0ca460f09dcbc9f8a4aeb7643365a1e7fa122581ef72c34b6", "60504228b3fc524287bf2a260db933a408639b2f1a29af7538c61b00c4a44c86", "5d7116f04e10e968de64c4201fc7374fa84b364e90f8e4eba0fbc41afeaf468c", "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\wercpl", "HKEY_LOCAL_MACHINE\\Software\\Classes\\CLSID\\\\InProcServer32", "https://redcanary.com/blog/blue-mockingbird-cryptominer/"]}
+{
+  "rule_id": 754,
+  "name": "Blue Mockingbird activity mines Monero cryptocurrency",
+  "description": "-",
+  "references": [],
+  "samples": ["REG.EXE", "8995.dll", "Telerik.Web", "WebResource.axd"],
+  "weight": 0.0,
+  "signatures": [
+    "968b324be2b89f1a8ee4743d946723c1",
+    "14e3c16ca940244bea9b6080fa02384ebb4818572cef7092f90d72ae210b330d",
+    "1d30d3cafdcc43b2f9a593983ad096c2c3941025fb4e91257e2dcf0919ed24ba",
+    "5d7116f04e10e968de64c4201fc7374fa84b364e90f8e4eba0fbc41afeaf468c",
+    "5377c69c05817a0e18f7b0ebbeed420f9ab8d1e81b439f439b42917fbe772dfb",
+    "ab698a35dc5263f0ca460f09dcbc9f8a4aeb7643365a1e7fa122581ef72c34b6",
+    "d388c309a540d4619169a07a4b64707f4c44953511875b57ad7cfa3e097115af",
+    "60504228b3fc524287bf2a260db933a408639b2f1a29af7538c61b00c4a44c86",
+    "909495884627e2e74d07d729b5e046f3ae01cabd9f0a5a99c74d46046a677f7c",
+    "b31f7152a547fa41c31f9c96177b2cd7131a93f7c328bf6da360dc1586ba18dc",
+    "c957d007824ee8173c67122a1843c979c818614eeed7db03dea3ba7fede43eba",
+    "de6c061aafc5d86e692bec45f69b2ea18639abd540b59c2c281717a054a48dd5",
+    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\wercpl",
+    "HKEY_LOCAL_MACHINE\\Software\\Classes\\CLSID\\\\InProcServer32",
+    "https://redcanary.com/blog/blue-mockingbird-cryptominer/"
+  ]
+}

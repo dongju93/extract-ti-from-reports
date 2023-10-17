@@ -1,1 +1,11 @@
-{"rule_id": 929, "name": "Cybersecurity_ Tool leaks are very interesting occurrences in cyber security. _ Deutsche Telekom", "description": "-", "references": [], "samples": ["UtBuefba.txt"], "weight": 0.0, "signatures": ["https://www.telekom.com/en/blog/group/article/lolsnif-tracking-another-ursnif-based-targeted-campaign-600062"]}
+{
+  "rule_id": 929,
+  "name": "Cybersecurity_ Tool leaks are very interesting occurrences in cyber security. _ Deutsche Telekom",
+  "description": "-",
+  "references": [],
+  "samples": ["UtBuefba.txt"],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.telekom.com/en/blog/group/article/lolsnif-tracking-another-ursnif-based-targeted-campaign-600062"
+  ]
+}

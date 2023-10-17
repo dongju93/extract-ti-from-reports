@@ -1,1 +1,21 @@
-{"rule_id": 451, "name": "Operation Kingphish_ Uncovering a Campaign of Cyber Attacks against Civil Society in Qatar and… – Amnesty Insights – Medium", "description": "-", "references": [], "samples": ["recollect.forn", "puls.viwe", "139.XXX", "termp.fs", "loookout.forn", "premissiion.viwe", "drvie.goo"], "weight": 0.0, "signatures": ["http://tinyurl.com/h9wxwp8&pa=2&gp=1", "https://medium.com/amnesty-insights/operation-kingphish-uncovering-a-campaign-of-cyber-attacks-against-civil-society-in-qatar-and-aa40c9e08852", "https://amlea.org/en/."]}
+{
+  "rule_id": 451,
+  "name": "Operation Kingphish_ Uncovering a Campaign of Cyber Attacks against Civil Society in Qatar and… – Amnesty Insights – Medium",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "loookout.forn",
+    "termp.fs",
+    "recollect.forn",
+    "premissiion.viwe",
+    "139.XXX",
+    "drvie.goo",
+    "puls.viwe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://tinyurl.com/h9wxwp8&pa=2&gp=1",
+    "https://amlea.org/en/.",
+    "https://medium.com/amnesty-insights/operation-kingphish-uncovering-a-campaign-of-cyber-attacks-against-civil-society-in-qatar-and-aa40c9e08852"
+  ]
+}

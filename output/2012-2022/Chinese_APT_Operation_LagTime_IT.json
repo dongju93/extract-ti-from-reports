@@ -1,1 +1,33 @@
-{"rule_id": 669, "name": "Chinese_APT_Operation_LagTime_IT", "description": "-", "references": [], "samples": ["OSE.exe", "MaudiOperation.pdf", "i.doc", "sfx.exe", "bubbles.exe"], "weight": 0.0, "signatures": ["2042123224315117031b1a0a3ccda53f", "1bc93ef96134be9a5a7b5f5b747be796a9ff95bdc835d72541673565d1c165b8", "93f56ec68e072ccba8102c71d005604763d064021795c7c8bb1cade05ddb6ff6", "e9fa0a6223b0e4e60654dc629cd46174b064d5a0968732e6f05bc212a2cdf3f4", "3dbff4e82dd8ddf71f9228f68df702b8f4add47237f2aee76bd5537489ed2fa9", "b541e0e29c34800a067b060d9ee18d8d35c75f056f4246b1ce9561a5441d5a0f", "eb0191d1b8e311d2716795e9fa7c0300c5199ebf3d8debff77993f23397d2fb5", "cbf607725d128d93fed3b58cde78e1feb7db028a1ed1aa5c924e44faa1015913", "93ac0ff3f01f8b8dfad069944d917e4b0798d42bc9ff97028e5a4ea8bda54dbc", "81898df69e28a084ea37b77b568ccde34afdf96122ab784f8a361f055281ed0f", "b7cfea87d7de935e1f20e3c09ba4bd1154580682e75330876f21f241b33946f2", "9a477b455a20a26875e5ff804151f9f6524131c32edf04366cfbaf9d41c83f2a", "HKEY_LOCAL_MACHINE\\SOFTWARE\\Intel\\Java\\user”.", "https://threatrecon.nshc.net/2019/04/30/sectorb06-using-mongolian-language-in-lure-", "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2012/NormanShar", "https://speakerdeck.com/ashley920/into-the-fog-the-return-of-icefog-apt", "https://www.anomali.com/blog/analyzing-digital-quartermasters-in-asia-do-chinese-"]}
+{
+  "rule_id": 669,
+  "name": "Chinese_APT_Operation_LagTime_IT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "OSE.exe",
+    "MaudiOperation.pdf",
+    "sfx.exe",
+    "bubbles.exe",
+    "i.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "2042123224315117031b1a0a3ccda53f",
+    "cbf607725d128d93fed3b58cde78e1feb7db028a1ed1aa5c924e44faa1015913",
+    "93f56ec68e072ccba8102c71d005604763d064021795c7c8bb1cade05ddb6ff6",
+    "81898df69e28a084ea37b77b568ccde34afdf96122ab784f8a361f055281ed0f",
+    "3dbff4e82dd8ddf71f9228f68df702b8f4add47237f2aee76bd5537489ed2fa9",
+    "eb0191d1b8e311d2716795e9fa7c0300c5199ebf3d8debff77993f23397d2fb5",
+    "1bc93ef96134be9a5a7b5f5b747be796a9ff95bdc835d72541673565d1c165b8",
+    "e9fa0a6223b0e4e60654dc629cd46174b064d5a0968732e6f05bc212a2cdf3f4",
+    "93ac0ff3f01f8b8dfad069944d917e4b0798d42bc9ff97028e5a4ea8bda54dbc",
+    "b7cfea87d7de935e1f20e3c09ba4bd1154580682e75330876f21f241b33946f2",
+    "9a477b455a20a26875e5ff804151f9f6524131c32edf04366cfbaf9d41c83f2a",
+    "b541e0e29c34800a067b060d9ee18d8d35c75f056f4246b1ce9561a5441d5a0f",
+    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Intel\\Java\\user”.",
+    "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2012/NormanShar",
+    "https://speakerdeck.com/ashley920/into-the-fog-the-return-of-icefog-apt",
+    "https://www.anomali.com/blog/analyzing-digital-quartermasters-in-asia-do-chinese-",
+    "https://threatrecon.nshc.net/2019/04/30/sectorb06-using-mongolian-language-in-lure-"
+  ]
+}

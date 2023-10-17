@@ -1,1 +1,13 @@
-{"rule_id": 105, "name": "P2P_PlugX_Analysis", "description": "-", "references": [], "samples": ["jpcert.or"], "weight": 0.0, "signatures": ["0ff134057a8b2e31b148fedfdd185f5b1a512149499a8c5c0915cf10b10a613e", "bc65e2859f243ff45b12cd184bfed7b809f74e67e5bb61bc92ed94058d3d2515", "93c85a8dd0becc4e396eea2dc15c0010ff58d2b873d44fd7e45711a27cfe613b"]}
+{
+  "rule_id": 105,
+  "name": "P2P_PlugX_Analysis",
+  "description": "-",
+  "references": [],
+  "samples": ["jpcert.or"],
+  "weight": 0.0,
+  "signatures": [
+    "93c85a8dd0becc4e396eea2dc15c0010ff58d2b873d44fd7e45711a27cfe613b",
+    "bc65e2859f243ff45b12cd184bfed7b809f74e67e5bb61bc92ed94058d3d2515",
+    "0ff134057a8b2e31b148fedfdd185f5b1a512149499a8c5c0915cf10b10a613e"
+  ]
+}

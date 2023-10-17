@@ -1,1 +1,43 @@
-{"rule_id": 37, "name": "India_Pak_Tranchulas", "description": "-", "references": [], "samples": ["winsocks.exe", "ExtractPDF.exe", "showppt.scr", "Pakistan.zip", "revision.scr", "version.txt", "ufile.pdb", "tb.php", "usb.pdb", "windefender.exe", "libcurld.dll", "windowsupdate.no", "Pakistan.scr", "Video.flv", "masalavideos.no", "Start.exe", "Report.zip", "array.php", "video.wmv", "fetch_updates_8765.php"], "weight": 0.0, "signatures": ["a21f2cb65a3467925c1615794cce7581", "35663e66d02e889d35aa5608c61795eb", "165ac370b54e664812e4c15b2396ccd6", "http://199.91.173.45/fetch_updates_8765_tb.php?", "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.", "http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.", "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>.", "http://199.91.173.43/Classified_Video.flv.scr", "http://199.91.173.45/OBL_Leaked_Report.zip", "http://199.91.173.45/", "http://199.91.173.43/new_salary/salary_revision.scr", "http://199.91.173.43/sarbajit_leaked_video.wmv.scr."]}
+{
+  "rule_id": 37,
+  "name": "India_Pak_Tranchulas",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Pakistan.scr",
+    "winsocks.exe",
+    "version.txt",
+    "fetch_updates_8765.php",
+    "showppt.scr",
+    "masalavideos.no",
+    "tb.php",
+    "libcurld.dll",
+    "usb.pdb",
+    "Video.flv",
+    "ExtractPDF.exe",
+    "Pakistan.zip",
+    "windowsupdate.no",
+    "ufile.pdb",
+    "revision.scr",
+    "array.php",
+    "video.wmv",
+    "Report.zip",
+    "Start.exe",
+    "windefender.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "165ac370b54e664812e4c15b2396ccd6",
+    "a21f2cb65a3467925c1615794cce7581",
+    "35663e66d02e889d35aa5608c61795eb",
+    "http://199.91.173.43/new_salary/salary_revision.scr",
+    "http://199.91.173.45/",
+    "http://199.91.173.45/fetch_updates_8765_tb.php?",
+    "http://199.91.173.45/is_array.php?compname=<COMPUTERNAME>.",
+    "http://199.91.173.45/Naxalites_Funded_By_Pakistan.zip.",
+    "http://199.91.173.45/OBL_Leaked_Report.zip",
+    "http://199.91.173.43/Classified_Video.flv.scr",
+    "http://199.91.173.43/sarbajit_leaked_video.wmv.scr.",
+    "http://199.91.173.43/fetch_updates_8765.php?compname=<COMPUTERNAME>."
+  ]
+}

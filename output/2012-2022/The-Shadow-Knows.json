@@ -1,1 +1,21 @@
-{"rule_id": 979, "name": "The-Shadow-Knows", "description": "-", "references": [], "samples": ["used.html", "pos.html", "leless.html", "delivery.dpis"], "weight": 0.0, "signatures": ["d37994ac8bb0df034d942c10ae471094", "2408e9df8cb82e575002176a4dcd69a5", "c1bc86552e558cc37ee7df3a16ef8ac7", "b37717d09b61cbfe5c023e8d5fd968ed", "d3670b3a2bba2ff92f2e7cbfc63be941", "https://ads.mikeholt.com", "https://hiddencodes.wordpress.com/2014/10/01/digging-deep-into-angler-", "http://malware.dontneedcoffee.com/2015/07/a-", "http://malware.dontneedcoffee.com/2014/08/angler-ek-now-capable-of-", "http://malware.dontneedcoffee.com/2015/10/a-doubleclick-https-open-redirect-used.html", "http://blogs.cisco.com/security/talos/angler-domain-shadowing"]}
+{
+  "rule_id": 979,
+  "name": "The-Shadow-Knows",
+  "description": "-",
+  "references": [],
+  "samples": ["leless.html", "used.html", "delivery.dpis", "pos.html"],
+  "weight": 0.0,
+  "signatures": [
+    "d37994ac8bb0df034d942c10ae471094",
+    "2408e9df8cb82e575002176a4dcd69a5",
+    "b37717d09b61cbfe5c023e8d5fd968ed",
+    "c1bc86552e558cc37ee7df3a16ef8ac7",
+    "d3670b3a2bba2ff92f2e7cbfc63be941",
+    "https://hiddencodes.wordpress.com/2014/10/01/digging-deep-into-angler-",
+    "http://malware.dontneedcoffee.com/2015/10/a-doubleclick-https-open-redirect-used.html",
+    "http://malware.dontneedcoffee.com/2015/07/a-",
+    "http://malware.dontneedcoffee.com/2014/08/angler-ek-now-capable-of-",
+    "https://ads.mikeholt.com",
+    "http://blogs.cisco.com/security/talos/angler-domain-shadowing"
+  ]
+}

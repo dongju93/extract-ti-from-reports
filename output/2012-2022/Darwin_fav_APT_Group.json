@@ -1,1 +1,25 @@
-{"rule_id": 1037, "name": "Darwin_fav_APT_Group", "description": "-", "references": [], "samples": ["議程最新修正及注意事項.doc", "附檔.doc", "長.doc", "錄.doc"], "weight": 0.0, "signatures": ["dcfaa2650d29ec1bd88e262d11d3236f", "73f493f6a2b0da23a79b50765c164e88", "4ab6bf7e6796bb930be2dd0141128d06", "eaa6e03d9dae356481215e3a9d2914dc", "06da4eb2ab6412c0dc7f295920eb61c4", "ead55ef2b18a80c00786c25211981570", "00a95fb30be2d6271c491545f6c6a707", "864cd776c24a3c653fd89899ca32fe0b", "53baedf3765e27fb465057c48387c9b6", "e009b95ff7b69cbbebc538b2c5728b11", "499bec15ac83f2c8998f03917b63652e", "6e59861931fa2796ee107dc27bfdd480", "16e627dbe730488b1c3d448bfc9096e2", "f9cfda6062a8ac9e332186a7ec0e706a", "f6fafb7c30b1114befc93f39d0698560"]}
+{
+  "rule_id": 1037,
+  "name": "Darwin_fav_APT_Group",
+  "description": "-",
+  "references": [],
+  "samples": ["錄.doc", "附檔.doc", "議程最新修正及注意事項.doc", "長.doc"],
+  "weight": 0.0,
+  "signatures": [
+    "06da4eb2ab6412c0dc7f295920eb61c4",
+    "73f493f6a2b0da23a79b50765c164e88",
+    "864cd776c24a3c653fd89899ca32fe0b",
+    "6e59861931fa2796ee107dc27bfdd480",
+    "eaa6e03d9dae356481215e3a9d2914dc",
+    "f6fafb7c30b1114befc93f39d0698560",
+    "16e627dbe730488b1c3d448bfc9096e2",
+    "53baedf3765e27fb465057c48387c9b6",
+    "4ab6bf7e6796bb930be2dd0141128d06",
+    "00a95fb30be2d6271c491545f6c6a707",
+    "ead55ef2b18a80c00786c25211981570",
+    "e009b95ff7b69cbbebc538b2c5728b11",
+    "499bec15ac83f2c8998f03917b63652e",
+    "f9cfda6062a8ac9e332186a7ec0e706a",
+    "dcfaa2650d29ec1bd88e262d11d3236f"
+  ]
+}

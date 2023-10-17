@@ -1,1 +1,14 @@
-{"rule_id": 351, "name": "UPSynergy_ Chinese-American Spy vs. Spy Story", "description": "-", "references": ["CVE-2019-0703", "CVE-2017-0143"], "samples": ["npfs.sys", "srv.sys", "Srv.sys"], "weight": 0.0, "signatures": ["F595228976CC89FFAC02D831E774CFA6", "80143E32F887B2583B777DAEC5982FB5C2886FB3", "0B28433A2B7993DA65E95A45C2ADF7BC37EDBD2A8DB717B85666D6C88140698A", "0b28433a2b7993da65e95a45c2adf7bc37edbd2a8db717b85666d6c88140698a"]}
+{
+  "rule_id": 351,
+  "name": "UPSynergy_ Chinese-American Spy vs. Spy Story",
+  "description": "-",
+  "references": ["CVE-2019-0703", "CVE-2017-0143"],
+  "samples": ["srv.sys", "npfs.sys", "Srv.sys"],
+  "weight": 0.0,
+  "signatures": [
+    "F595228976CC89FFAC02D831E774CFA6",
+    "80143E32F887B2583B777DAEC5982FB5C2886FB3",
+    "0B28433A2B7993DA65E95A45C2ADF7BC37EDBD2A8DB717B85666D6C88140698A",
+    "0b28433a2b7993da65e95a45c2adf7bc37edbd2a8db717b85666d6c88140698a"
+  ]
+}

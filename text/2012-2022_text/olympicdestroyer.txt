@@ -614,9 +614,9 @@ NOnint      –– wiNdOWSt
 
 ‘svTI’ ,, ‘procEsS’
 
-wiNdOWSt  hiddeN
-
 SeT    RMNRMN == ecHo 
+
+wiNdOWSt  hiddeN
 
 dAta }} == $$ {{ DaTA
 

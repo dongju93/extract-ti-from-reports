@@ -1,1 +1,13 @@
-{"rule_id": 528, "name": "zero-day-used-to-distribute-finspy.html", "description": "-", "references": [], "samples": ["word.db", "Remoting.ni", "wsdlparser.cs", "Проект.doc"], "weight": 0.0, "signatures": ["a7b990d5f57b244dd17e9a937a41e7f5", "fe5c4d6bb78e170abf5cf3741868ea4c", "http://referencesource.microsoft.com/"]}
+{
+  "rule_id": 528,
+  "name": "zero-day-used-to-distribute-finspy.html",
+  "description": "-",
+  "references": [],
+  "samples": ["word.db", "Проект.doc", "wsdlparser.cs", "Remoting.ni"],
+  "weight": 0.0,
+  "signatures": [
+    "a7b990d5f57b244dd17e9a937a41e7f5",
+    "fe5c4d6bb78e170abf5cf3741868ea4c",
+    "http://referencesource.microsoft.com/"
+  ]
+}

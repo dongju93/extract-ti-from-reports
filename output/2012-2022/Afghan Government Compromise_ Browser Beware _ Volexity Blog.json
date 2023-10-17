@@ -1,1 +1,13 @@
-{"rule_id": 424, "name": "Afghan Government Compromise_ Browser Beware _ Volexity Blog", "description": "-", "references": [], "samples": ["afghanistan.af", "Jquery.js"], "weight": 0.0, "signatures": ["http://cdn.afghanistan.af/scripts/jquery-1.4.2.min.js", "http://www.volexity.com/blog/?p=134", "http://cdn.afghanistan.af/scripts/gop-script.js"]}
+{
+  "rule_id": 424,
+  "name": "Afghan Government Compromise_ Browser Beware _ Volexity Blog",
+  "description": "-",
+  "references": [],
+  "samples": ["Jquery.js", "afghanistan.af"],
+  "weight": 0.0,
+  "signatures": [
+    "http://www.volexity.com/blog/?p=134",
+    "http://cdn.afghanistan.af/scripts/gop-script.js",
+    "http://cdn.afghanistan.af/scripts/jquery-1.4.2.min.js"
+  ]
+}

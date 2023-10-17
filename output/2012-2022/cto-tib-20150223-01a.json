@@ -1,1 +1,27 @@
-{"rule_id": 922, "name": "cto-tib-20150223-01a", "description": "-", "references": ["CVE-2014-0502"], "samples": ["pandaflash.png", "k.php", "6412.html", "phishing.pdf", "mg6.mail"], "weight": 0.0, "signatures": ["3b8d7732de3b3c8823d241e7cd3185c4", "e8a8ffe39040fe36e95217b4e4f1316177d675ed", "f1890cc9d6dc84021426834063394539414f68d8", "809959f390d5a49c8999ad6fff27fdc92ff1b2b0", "4639c30b3666cb11b3927d5579790a88bff68e8137f18241f4693e0d4539c608", "ab58b6aa7dcc25d8f6e4b70a24e0ccede0d5f6129df02a9e61293c1d7d7640a2", "http://www.cnxhacker.com/2015/01/19/6412.html", "http://www.isightpartners.com/2015/02/codoso/", "https://www.alienvault.com/open-threat-exchange/blog/scanbox-a-reconnaissance-framework-used-on-watering-", "http://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem", "http://www.invincea.com/2015/02/chinese-espionage-campaign-compromises-forbes/"]}
+{
+  "rule_id": 922,
+  "name": "cto-tib-20150223-01a",
+  "description": "-",
+  "references": ["CVE-2014-0502"],
+  "samples": [
+    "k.php",
+    "phishing.pdf",
+    "mg6.mail",
+    "6412.html",
+    "pandaflash.png"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3b8d7732de3b3c8823d241e7cd3185c4",
+    "e8a8ffe39040fe36e95217b4e4f1316177d675ed",
+    "809959f390d5a49c8999ad6fff27fdc92ff1b2b0",
+    "f1890cc9d6dc84021426834063394539414f68d8",
+    "ab58b6aa7dcc25d8f6e4b70a24e0ccede0d5f6129df02a9e61293c1d7d7640a2",
+    "4639c30b3666cb11b3927d5579790a88bff68e8137f18241f4693e0d4539c608",
+    "https://www.alienvault.com/open-threat-exchange/blog/scanbox-a-reconnaissance-framework-used-on-watering-",
+    "http://www.invincea.com/2015/02/chinese-espionage-campaign-compromises-forbes/",
+    "http://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem",
+    "http://www.cnxhacker.com/2015/01/19/6412.html",
+    "http://www.isightpartners.com/2015/02/codoso/"
+  ]
+}

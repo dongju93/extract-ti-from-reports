@@ -1,1 +1,25 @@
-{"rule_id": 157, "name": "threatconnect-discovers-chinese-apt-activity-in-europe", "description": "-", "references": [], "samples": ["www.erai", "know.aspx", "press.pwc", "THREATCONNECT.COM", "tiger.pdf", "www.fool", "FRAGMENTATION.PDF"], "weight": 0.0, "signatures": ["3BEA073FA50B62C561CEDD9619CD8425", "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-", "http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-", "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-", "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-", "https://www.erai.com/CustomUploads/ca/wp/2015_12_wp_operation_iron_tiger.pdf", "http://www.popularmechanics.com/"]}
+{
+  "rule_id": 157,
+  "name": "threatconnect-discovers-chinese-apt-activity-in-europe",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "THREATCONNECT.COM",
+    "tiger.pdf",
+    "FRAGMENTATION.PDF",
+    "www.fool",
+    "know.aspx",
+    "www.erai",
+    "press.pwc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "3BEA073FA50B62C561CEDD9619CD8425",
+    "https://www.fbi.gov/pittsburgh/press-releases/2014/u.s.-charges-",
+    "https://www.erai.com/CustomUploads/ca/wp/2015_12_wp_operation_iron_tiger.pdf",
+    "http://www.fool.com/investing/general/2016/02/29/drones-in-2016-4-",
+    "http://www.popularmechanics.com/",
+    "http://qz.com/699979/how-chinas-overproduction-of-steel-is-damaging-companies-and-",
+    "http://press.pwc.com/News-releases/global-market-for-commercial-applications-of-drone-technology-"
+  ]
+}

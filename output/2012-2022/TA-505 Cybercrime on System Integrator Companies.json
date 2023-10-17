@@ -1,1 +1,22 @@
-{"rule_id": 895, "name": "TA-505 Cybercrime on System Integrator Companies", "description": "-", "references": [], "samples": ["rams.exe", "new.php", "IVa.ExE", "surprise.php", "nanagrams.exe", "conjunctiva.exe", "MSWORD.OLB", "VBE6.DLL"], "weight": 0.0, "signatures": ["7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392", "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/", "http://66.133.129.5/"]}
+{
+  "rule_id": 895,
+  "name": "TA-505 Cybercrime on System Integrator Companies",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "surprise.php",
+    "VBE6.DLL",
+    "MSWORD.OLB",
+    "nanagrams.exe",
+    "IVa.ExE",
+    "rams.exe",
+    "conjunctiva.exe",
+    "new.php"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392",
+    "http://66.133.129.5/",
+    "https://marcoramilli.com/2019/11/12/ta-505-cybercrime-on-system-integrator-companies/"
+  ]
+}

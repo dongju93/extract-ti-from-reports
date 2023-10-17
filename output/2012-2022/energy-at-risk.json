@@ -1,1 +1,46 @@
-{"rule_id": 706, "name": "energy-at-risk", "description": "-", "references": [], "samples": ["damned.pdf", "articles.php", "www.dhs", "energy.pdf", "Oct09.pdf", "www.rt", "ipd.pdf", "topic2.htm", "Art.pdf", "A.pdf", "integrity.pdf", "www.kpmg"], "weight": 0.0, "signatures": ["http://www.kpmg.com/UK/en/IssuesAndInsights/ArticlesPublications/Documents/", "http://www.whitehouse.gov/the-press-office/2011/10/07/fact-sheet-safeguarding-us-", "http://bits.blogs.nytimes.com/2012/08/27/connecting-the-dots-aftercyberattack-on-", "http://incelaw.com/ourknowledge/publications/cyber-risk-and-the-energy-industry", "http://www.isssource.com/wp-content/uploads/2012/02/022912WP-7-Steps-toICS-", "http://searchsecurity.techtarget.com/definition/spear-phishing", "http://sec.gov/divisions/corpfin/guidance/cfguidance-topic2.htm", "http://www.telegraph.co.uk/news/worldnews/middleeast/iran/9453905/Iranian-", "http://www.kpmg.com/TT/en/IssuesAndInsights/ArticlesPublications/Documents/", "http://www.isssource.com/security-toindustry-time-to-wake-up/", "http://www.govinfosecurity.com/articles.php?art_id=4572", "http://wiki.aanval.com/wiki/Library:Energy_and_Utilities_Industry:_Threats,_", "http://www.informationweek.com/government/security/federal-cybersecurity-", "http://www.rt.com/news/iran-internet-intranet-security-938/", "http://csrc.nist.gov/publications/drafts/800-53-rev4/sp800-53-rev4-ipd.pdf", "http://www.dhs.gov/xlibrary/assets/nipp_snapshot_energy.pdf", "http://online.wsj.com/article/SB10000872396390444657804578052931555576700.", "http://www.kpmg.com/US/en/IssuesAndInsights/ArticlesPublications/Documents/", "http://www.arabianbusiness.com/cyber-attack-takes-qatar-s-rasgasoffline-471345.", "http://www.fbi.gov/news/speeches/combating-threats-in-the-cyber-world-", "http://www.infosecurity-magazine.com/view/24384/", "http://www.informationweek.com/government/security/feds-simulate-crippling-", "http://www.visualwebcaster.com/imageSlides/90364/GEI%20Presentation%20"]}
+{
+  "rule_id": 706,
+  "name": "energy-at-risk",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "www.kpmg",
+    "A.pdf",
+    "Art.pdf",
+    "www.dhs",
+    "integrity.pdf",
+    "www.rt",
+    "damned.pdf",
+    "energy.pdf",
+    "Oct09.pdf",
+    "topic2.htm",
+    "articles.php",
+    "ipd.pdf"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://sec.gov/divisions/corpfin/guidance/cfguidance-topic2.htm",
+    "http://www.kpmg.com/US/en/IssuesAndInsights/ArticlesPublications/Documents/",
+    "http://www.fbi.gov/news/speeches/combating-threats-in-the-cyber-world-",
+    "http://bits.blogs.nytimes.com/2012/08/27/connecting-the-dots-aftercyberattack-on-",
+    "http://www.dhs.gov/xlibrary/assets/nipp_snapshot_energy.pdf",
+    "http://www.isssource.com/security-toindustry-time-to-wake-up/",
+    "http://www.informationweek.com/government/security/federal-cybersecurity-",
+    "http://www.telegraph.co.uk/news/worldnews/middleeast/iran/9453905/Iranian-",
+    "http://www.govinfosecurity.com/articles.php?art_id=4572",
+    "http://csrc.nist.gov/publications/drafts/800-53-rev4/sp800-53-rev4-ipd.pdf",
+    "http://wiki.aanval.com/wiki/Library:Energy_and_Utilities_Industry:_Threats,_",
+    "http://www.visualwebcaster.com/imageSlides/90364/GEI%20Presentation%20",
+    "http://www.kpmg.com/TT/en/IssuesAndInsights/ArticlesPublications/Documents/",
+    "http://online.wsj.com/article/SB10000872396390444657804578052931555576700.",
+    "http://www.isssource.com/wp-content/uploads/2012/02/022912WP-7-Steps-toICS-",
+    "http://www.kpmg.com/UK/en/IssuesAndInsights/ArticlesPublications/Documents/",
+    "http://www.whitehouse.gov/the-press-office/2011/10/07/fact-sheet-safeguarding-us-",
+    "http://www.infosecurity-magazine.com/view/24384/",
+    "http://searchsecurity.techtarget.com/definition/spear-phishing",
+    "http://www.rt.com/news/iran-internet-intranet-security-938/",
+    "http://www.informationweek.com/government/security/feds-simulate-crippling-",
+    "http://www.arabianbusiness.com/cyber-attack-takes-qatar-s-rasgasoffline-471345.",
+    "http://incelaw.com/ourknowledge/publications/cyber-risk-and-the-energy-industry"
+  ]
+}

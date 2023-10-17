@@ -1,1 +1,42 @@
-{"rule_id": 320, "name": "Terracotta-VPN-Report-Final-8-3", "description": "-", "references": [], "samples": ["Study.pdf", "entry.aspx", "153.xx", "xiuxiu.web", "fatjse.exes", "nbstat.exe", "fatjse.exe", "ipdetails.html", "evolution.html", "162.xx"], "weight": 0.0, "signatures": ["531d30c8ee27d62e6fbe855299d0e7de", "e421d07c316ab6e04fd0bfa122f1d953", "bccbba3ed45ead051f56fc62fef005a6", "7b18614df95e71032909beb25a7b1e87", "E10ADC3949BA59ABBE56E057F20F883E", "ef938cd1594b6b44507c6423cd39d5f5", "81c08ae40700d863f5dbd35599192962", "ad1a507709c75fe93708ce9ca1227c5fefa812997ed9104ff9adfec62a3ec2bb", "deed6e2a31349253143d4069613905e1dfc3ad4589f6987388de13e33ac187fc", "4575e7fc8f156d1d499aab5064a4832953cd43795574b4c7b9165cdc92993ce5", "d7bd289e6cee228eb46a1be1fcdc3a2bd5251bc1eafb59f8111756777d8f373d", "3a2d5ce9f5f953f0499773a05f26317f9f6745352031bb8dafbb6aadf0e8e57b", "9b8257000b05116a3631630c44b9f6b18c13e5bc5635c1fa3f20a01f70380909", "e42b8385e1aecd89a94a740a2c7cd5ef157b091fabd52cd6f86e47534ca2863e", "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\Netsvcs ", "https://whois.domaintools.com/211.153.xx.x", "http://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf", "http://dshield.org/ipdetails.html?ip=58.162.xx.xx", "http://www.rejetto.com/hfs/", "https://blogs.rsa.com/wp-content/uploads/2015/05/RSA-IR-Case-Study.pdf", "http://xiuxiu.web.meitu.com"]}
+{
+  "rule_id": 320,
+  "name": "Terracotta-VPN-Report-Final-8-3",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "ipdetails.html",
+    "153.xx",
+    "fatjse.exe",
+    "Study.pdf",
+    "entry.aspx",
+    "162.xx",
+    "evolution.html",
+    "fatjse.exes",
+    "nbstat.exe",
+    "xiuxiu.web"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "531d30c8ee27d62e6fbe855299d0e7de",
+    "bccbba3ed45ead051f56fc62fef005a6",
+    "ef938cd1594b6b44507c6423cd39d5f5",
+    "81c08ae40700d863f5dbd35599192962",
+    "7b18614df95e71032909beb25a7b1e87",
+    "E10ADC3949BA59ABBE56E057F20F883E",
+    "e421d07c316ab6e04fd0bfa122f1d953",
+    "3a2d5ce9f5f953f0499773a05f26317f9f6745352031bb8dafbb6aadf0e8e57b",
+    "ad1a507709c75fe93708ce9ca1227c5fefa812997ed9104ff9adfec62a3ec2bb",
+    "9b8257000b05116a3631630c44b9f6b18c13e5bc5635c1fa3f20a01f70380909",
+    "4575e7fc8f156d1d499aab5064a4832953cd43795574b4c7b9165cdc92993ce5",
+    "d7bd289e6cee228eb46a1be1fcdc3a2bd5251bc1eafb59f8111756777d8f373d",
+    "e42b8385e1aecd89a94a740a2c7cd5ef157b091fabd52cd6f86e47534ca2863e",
+    "deed6e2a31349253143d4069613905e1dfc3ad4589f6987388de13e33ac187fc",
+    "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost\\Netsvcs ",
+    "http://xiuxiu.web.meitu.com",
+    "http://dshield.org/ipdetails.html?ip=58.162.xx.xx",
+    "https://whois.domaintools.com/211.153.xx.x",
+    "http://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf",
+    "http://www.rejetto.com/hfs/",
+    "https://blogs.rsa.com/wp-content/uploads/2015/05/RSA-IR-Case-Study.pdf"
+  ]
+}

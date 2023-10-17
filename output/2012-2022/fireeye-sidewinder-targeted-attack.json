@@ -1,1 +1,41 @@
-{"rule_id": 997, "name": "fireeye-sidewinder-targeted-attack", "description": "-", "references": ["CVE-2014-0224"], "samples": ["element.html", "JavascriptInterface.html", "sidedoor.html", "WebView.html", "WP.SW", "Runtime.load", "android.html", "bleed.html", "example.app", "Camera.html", "aidl.html", "Context.html"], "weight": 0.0, "signatures": ["http://developer.android.com/reference/android/hardware/Camera.html.", "https://isc.sans.edu/diary/Domaincontrol+(GoDaddy)+Nameservers+DNS+", "http://developer.android.com/guide/components/aidl.html.", "http://www.networkworld.com/article/2272520/lan-wan/six-worst-internet-", "http://developer.android.com/reference/android/content/Context.html.", "https://android.googlesource.com/platform/frameworks/base/+/master/", "http://developer.android.com/guide/topics/manifest/permission-element.html.", "http://developer.android.com/reference/android/webkit/WebView.html", "http://developer.android.com/reference/dalvik/system/DexClassLoader.", "http://www.weibo.com/p/1001603724694418249344?utm_source=weibolife.", "http://developer.android.com/reference/android/webkit/", "https://developer.android.com/about/dashboards/index.html.", "http://towelroot.com/.", "https://labs.mwrinfosecurity.com/blog/2014/06/12/putting-javascript-", "http://linux.die.net/man/2/ptrace.", "http://shuaji.360.cn/root/.", "https://android.googlesource.com/platform/packages/apps/Launcher2/+/", "http://seclists.org/bugtraq/2014/Mar/52."]}
+{
+  "rule_id": 997,
+  "name": "fireeye-sidewinder-targeted-attack",
+  "description": "-",
+  "references": ["CVE-2014-0224"],
+  "samples": [
+    "example.app",
+    "WP.SW",
+    "sidedoor.html",
+    "Context.html",
+    "Camera.html",
+    "element.html",
+    "JavascriptInterface.html",
+    "aidl.html",
+    "Runtime.load",
+    "WebView.html",
+    "bleed.html",
+    "android.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "https://isc.sans.edu/diary/Domaincontrol+(GoDaddy)+Nameservers+DNS+",
+    "http://www.weibo.com/p/1001603724694418249344?utm_source=weibolife.",
+    "http://developer.android.com/reference/android/webkit/WebView.html",
+    "https://labs.mwrinfosecurity.com/blog/2014/06/12/putting-javascript-",
+    "http://developer.android.com/reference/android/webkit/",
+    "http://developer.android.com/guide/topics/manifest/permission-element.html.",
+    "http://towelroot.com/.",
+    "https://developer.android.com/about/dashboards/index.html.",
+    "http://seclists.org/bugtraq/2014/Mar/52.",
+    "http://www.networkworld.com/article/2272520/lan-wan/six-worst-internet-",
+    "http://developer.android.com/reference/dalvik/system/DexClassLoader.",
+    "http://developer.android.com/reference/android/hardware/Camera.html.",
+    "http://developer.android.com/reference/android/content/Context.html.",
+    "http://linux.die.net/man/2/ptrace.",
+    "http://developer.android.com/guide/components/aidl.html.",
+    "http://shuaji.360.cn/root/.",
+    "https://android.googlesource.com/platform/frameworks/base/+/master/",
+    "https://android.googlesource.com/platform/packages/apps/Launcher2/+/"
+  ]
+}

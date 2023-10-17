@@ -1,1 +1,20 @@
-{"rule_id": 1075, "name": "Titanium_ the Platinum group strikes again", "description": "-", "references": [], "samples": ["x.dat", "BabyBoyStyleBackground.wmv", "b.dat", "DvDupdate.dll", "downarrow.png", "p.bat", "i.bat", "rm.gif", "u.xml", "IOZwXLeM023.tmp"], "weight": 0.0, "signatures": ["http://70.39.115.196/payment/con"]}
+{
+  "rule_id": 1075,
+  "name": "Titanium_ the Platinum group strikes again",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "BabyBoyStyleBackground.wmv",
+    "b.dat",
+    "x.dat",
+    "p.bat",
+    "u.xml",
+    "downarrow.png",
+    "i.bat",
+    "DvDupdate.dll",
+    "rm.gif",
+    "IOZwXLeM023.tmp"
+  ],
+  "weight": 0.0,
+  "signatures": ["http://70.39.115.196/payment/con"]
+}

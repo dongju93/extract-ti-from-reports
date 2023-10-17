@@ -1,1 +1,27 @@
-{"rule_id": 1068, "name": "KASPERAGENT", "description": "-", "references": [], "samples": ["testproj.exe", "abcnews.go", "electricity.html", "unispal.un", "unispal.nsf", "israel.html"], "weight": 0.0, "signatures": ["6843AE9EAC03F69DF301D024BFDEFC88", "C66F88D2D76D79210D568D7AD7896B45", "dcf3aa484253068d8833c7c5b019b07a", "E44F0BD2ADFB9CBCABCAD314D27ACCFC", "4FE7561F63A71CA73C26CB95B28EAEE8", "2DE25306A58D8A5B6CBE8D5E2FC5F3C5", "0B4E44256788783634A2B1DADF4F9784", "c66f88d2d76d79210d568d7ad7896b45", "http://abcnews.go.com/International/wireStory/palestinian-west-bank-", "https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0"]}
+{
+  "rule_id": 1068,
+  "name": "KASPERAGENT",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "electricity.html",
+    "unispal.un",
+    "israel.html",
+    "unispal.nsf",
+    "abcnews.go",
+    "testproj.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "2DE25306A58D8A5B6CBE8D5E2FC5F3C5",
+    "E44F0BD2ADFB9CBCABCAD314D27ACCFC",
+    "c66f88d2d76d79210d568d7ad7896b45",
+    "4FE7561F63A71CA73C26CB95B28EAEE8",
+    "dcf3aa484253068d8833c7c5b019b07a",
+    "C66F88D2D76D79210D568D7AD7896B45",
+    "6843AE9EAC03F69DF301D024BFDEFC88",
+    "0B4E44256788783634A2B1DADF4F9784",
+    "http://abcnews.go.com/International/wireStory/palestinian-west-bank-",
+    "https://unispal.un.org/DPA/DPR/unispal.nsf/0/AC8C02B3FA96AA208525811C0"
+  ]
+}

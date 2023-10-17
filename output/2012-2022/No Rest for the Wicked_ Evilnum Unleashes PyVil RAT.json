@@ -1,1 +1,11 @@
-{"rule_id": 274, "name": "No Rest for the Wicked_ Evilnum Unleashes PyVil RAT", "description": "-", "references": [], "samples": ["nvStinst.exe", "1.lnk", "Fplayer.exe"], "weight": 0.0, "signatures": ["https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"]}
+{
+  "rule_id": 274,
+  "name": "No Rest for the Wicked_ Evilnum Unleashes PyVil RAT",
+  "description": "-",
+  "references": [],
+  "samples": ["Fplayer.exe", "1.lnk", "nvStinst.exe"],
+  "weight": 0.0,
+  "signatures": [
+    "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"
+  ]
+}

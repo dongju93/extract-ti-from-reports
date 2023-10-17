@@ -1,1 +1,34 @@
-{"rule_id": 693, "name": "Sofacy Attacks Multiple Government Entities", "description": "-", "references": [], "samples": ["carvedDLL.dat", "WindowsApp.lib", "part1.pdf", "cdnver.dll", "Cdnver.dll", "decrypted.dat", "fp.read", "vnd.wmc", "radisys.msml", "2018.xls", "uncompressed.raw", "Cdnver.bat", "cdnver.bat", "luckystrike_diﬀ.png"], "weight": 0.0, "signatures": ["cb85072e6ca66a29cb0b73659a0fe5ba2456d9ba0b52e3a4c89e86549bc6e2c7", "23411bb30042c9357ac4928dc6fca6955390361e660fec7ac238bbdcc8b83701", "12e6642cf6413bdf5388bee663080fa299591b2ba023d069286f3be9647547c8", "HKCU\\Environment\\UserInitMprLogonScript", "https://pan-", "https://isc.sans.edu/forums/diary/Simple+but+E", "https://noticeofpleadings.com/strontium/).", "https://www.shellntel.com/blog/2016/9/13/luckystrike-a-database-backed-evil-macro-generator),", "http://www.janes.com/)"]}
+{
+  "rule_id": 693,
+  "name": "Sofacy Attacks Multiple Government Entities",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "carvedDLL.dat",
+    "radisys.msml",
+    "luckystrike_diﬀ.png",
+    "uncompressed.raw",
+    "cdnver.dll",
+    "2018.xls",
+    "decrypted.dat",
+    "fp.read",
+    "Cdnver.dll",
+    "Cdnver.bat",
+    "part1.pdf",
+    "cdnver.bat",
+    "WindowsApp.lib",
+    "vnd.wmc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "12e6642cf6413bdf5388bee663080fa299591b2ba023d069286f3be9647547c8",
+    "23411bb30042c9357ac4928dc6fca6955390361e660fec7ac238bbdcc8b83701",
+    "cb85072e6ca66a29cb0b73659a0fe5ba2456d9ba0b52e3a4c89e86549bc6e2c7",
+    "HKCU\\Environment\\UserInitMprLogonScript",
+    "http://www.janes.com/)",
+    "https://pan-",
+    "https://isc.sans.edu/forums/diary/Simple+but+E",
+    "https://www.shellntel.com/blog/2016/9/13/luckystrike-a-database-backed-evil-macro-generator),",
+    "https://noticeofpleadings.com/strontium/)."
+  ]
+}

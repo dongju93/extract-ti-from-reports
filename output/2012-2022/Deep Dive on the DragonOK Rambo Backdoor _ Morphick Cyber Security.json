@@ -1,1 +1,29 @@
-{"rule_id": 998, "name": "Deep Dive on the DragonOK Rambo Backdoor _ Morphick Cyber Security", "description": "-", "references": [], "samples": ["fp.seek", "FirstBlood.tmp", "vmwarebase.dll", "vprintproxy.exe", "FilterHost.exe", "postgres.exe", "222.txt", "nginxr7.exe", "Vmwarebase.dll", "HeartDll.dll"], "weight": 0.0, "signatures": ["5bfcd2cc01a5b930fc704a695f0fe38f1bca8bdfafd8b7d931a37428b5e86f35", "7571642ec340c4833950bb86d3ded4d4b7c2068347e8125a072c5a062a5d6b68", "76405617acc7fa6c51882fe49d9b059900c10fc077840df9f6a604bf4fab85ba", "e154e62c1936f62aeaf55a41a386dbc293050acec8c4616d16f75395884c9090", "11668a0666636b3c40b61986bf132a8ca6ab448fddcaa9e4ed22f6ca7f7b8a50", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\FaultChec", "https://vimeo.com/204217543)", "http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor"]}
+{
+  "rule_id": 998,
+  "name": "Deep Dive on the DragonOK Rambo Backdoor _ Morphick Cyber Security",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "222.txt",
+    "vprintproxy.exe",
+    "Vmwarebase.dll",
+    "nginxr7.exe",
+    "vmwarebase.dll",
+    "HeartDll.dll",
+    "fp.seek",
+    "FilterHost.exe",
+    "postgres.exe",
+    "FirstBlood.tmp"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "5bfcd2cc01a5b930fc704a695f0fe38f1bca8bdfafd8b7d931a37428b5e86f35",
+    "7571642ec340c4833950bb86d3ded4d4b7c2068347e8125a072c5a062a5d6b68",
+    "11668a0666636b3c40b61986bf132a8ca6ab448fddcaa9e4ed22f6ca7f7b8a50",
+    "e154e62c1936f62aeaf55a41a386dbc293050acec8c4616d16f75395884c9090",
+    "76405617acc7fa6c51882fe49d9b059900c10fc077840df9f6a604bf4fab85ba",
+    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\FaultChec",
+    "http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor",
+    "https://vimeo.com/204217543)"
+  ]
+}

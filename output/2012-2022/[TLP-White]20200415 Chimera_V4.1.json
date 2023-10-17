@@ -1,1 +1,35 @@
-{"rule_id": 442, "name": "[TLP-White]20200415 Chimera_V4.1", "description": "-", "references": [], "samples": ["RecordedTV.ms", "1.pptx", "lib.log", "BaseClient.exe", "jucheck.exe", "vss.log", "guide.pdf", "uncheck.dmp", "vmopt.log", "d3d11.dll", "www1.semi", "RECORDEDTV.MS", "vmlumss.log", "vmvss.log", "vmware.log", "ntds.dit"], "weight": 0.0, "signatures": ["c9b8cab697f23e6ee9b1096e312e8573", "bb897e34bc0d1e82dfe79d0898f5aa88", "33c00ef025cd1b4c40aa185a2f1f0623", "5b5199d4bfab8517a8cf1ad464e14961e32c8e694fc3ba54619292a2578011ef", "66f13964c87fc6fe093a9d8cc0de0bf2b3bdaea9564210283fdb97a1dde9893b", "c3681cd6e3fb12a4962091a981598c636f214237ec6c8b2915b2ff714d7f6e49", "http://www1.semi.org/en/global-semiconductor-materials-sales-hit-new-high-519-billion", "https://thehackernews.com/2018/08/tsmc-wannacry-ransomware-attack.html"]}
+{
+  "rule_id": 442,
+  "name": "[TLP-White]20200415 Chimera_V4.1",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "RECORDEDTV.MS",
+    "ntds.dit",
+    "1.pptx",
+    "vmopt.log",
+    "d3d11.dll",
+    "vmlumss.log",
+    "RecordedTV.ms",
+    "vss.log",
+    "vmvss.log",
+    "guide.pdf",
+    "uncheck.dmp",
+    "BaseClient.exe",
+    "vmware.log",
+    "lib.log",
+    "www1.semi",
+    "jucheck.exe"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "33c00ef025cd1b4c40aa185a2f1f0623",
+    "c9b8cab697f23e6ee9b1096e312e8573",
+    "bb897e34bc0d1e82dfe79d0898f5aa88",
+    "66f13964c87fc6fe093a9d8cc0de0bf2b3bdaea9564210283fdb97a1dde9893b",
+    "5b5199d4bfab8517a8cf1ad464e14961e32c8e694fc3ba54619292a2578011ef",
+    "c3681cd6e3fb12a4962091a981598c636f214237ec6c8b2915b2ff714d7f6e49",
+    "https://thehackernews.com/2018/08/tsmc-wannacry-ransomware-attack.html",
+    "http://www1.semi.org/en/global-semiconductor-materials-sales-hit-new-high-519-billion"
+  ]
+}

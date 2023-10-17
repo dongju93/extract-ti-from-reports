@@ -632,13 +632,13 @@ umairaziz27
 
 	  (NUST).
 
-46
+44
 
 43
 
-45
+46
 
-44
+45
 
 44
 
@@ -706,15 +706,15 @@ http://pk.linkedin.com/in/umairaziz27
 
 44 
 
-45 
-
 46 
+
+45 
 
 46
 
-42
-
 43
+
+42
 
 file%20SEECS%20%20BICSE.pdf	  
 
@@ -786,9 +786,9 @@ more detailed report on this SFX and the related variant in Appendix A: Malware 
 
 	  (cast	  as	  a	  Pakistan-­‐
 
-47
-
 48
+
+47
 
 Figure 12: Screenshot of Indian diplomat arrest decoy PDF
 

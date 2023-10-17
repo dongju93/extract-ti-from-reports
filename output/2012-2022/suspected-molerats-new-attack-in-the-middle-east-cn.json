@@ -1,1 +1,24 @@
-{"rule_id": 93, "name": "suspected-molerats-new-attack-in-the-middle-east-cn", "description": "-", "references": [], "samples": ["ivy.html", "White.pdf", "Ihelp.exe", "delphi.html", "spring.html", "WHITE.pdf", "ihelp.exe", "wmsetup.vbs"], "weight": 0.0, "signatures": ["46173adc26721fb54f6e1a1091a892d4", "063a50e5e4b4d17a23ac8c8b33501719", "http://www.timeso", "https://aptmap.netlify.com/", "https://middle-east-online.com/en/cyber-war-gaza-hackers-deface-israel-"]}
+{
+  "rule_id": 93,
+  "name": "suspected-molerats-new-attack-in-the-middle-east-cn",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "spring.html",
+    "White.pdf",
+    "WHITE.pdf",
+    "wmsetup.vbs",
+    "Ihelp.exe",
+    "ivy.html",
+    "ihelp.exe",
+    "delphi.html"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "46173adc26721fb54f6e1a1091a892d4",
+    "063a50e5e4b4d17a23ac8c8b33501719",
+    "https://middle-east-online.com/en/cyber-war-gaza-hackers-deface-israel-",
+    "https://aptmap.netlify.com/",
+    "http://www.timeso"
+  ]
+}

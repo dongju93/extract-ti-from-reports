@@ -1,1 +1,44 @@
-{"rule_id": 778, "name": "sofacy-apt-hits-high-profile-targets-with-updated-toolset", "description": "-", "references": [], "samples": ["Sofacy.bi", "sfc.dll", "Sofacy.bg", "snd.dll", "tmpdt.tmp", "NvCpld.dll", "Sofacy.bj", "Sofacy.be", "RUNDLL32.EXE", "Sofacy.al", "IGFSRVC.dll", "MAIN.dll", "msdetltemp.dll", "Sofacy.bf", "advshellstore.dll", "NvCpld.dat", "sechost.dll", "kv.dll"], "weight": 0.0, "signatures": ["ce8b99df8642c065b6af43fde1f786a3", "c3ae4a37094ecfe95c2badecf40bf5bb", "A96F4B8AC7AA9DBF4624424B7602D4F7", "a96f4b8ac7aa9dbf4624424b7602d4f7", "8cb08140ddb00ac373d29d37657a03cc", "f6f88caf49a3e32174387cacfa144a89", "0369620eb139c3875a62e36bb7abdae8", "9D2F9E19DB8C20DC0D20D50869C7A373", "8c4d896957c36ec4abeb07b2802268b9", "8C4D896957C36EC4ABEB07B2802268B9", "ce151285e8f0e7b2b90162ba171a4b90", "9d2f9e19db8c20dc0d20d50869c7a373", "8b238931a7f64fddcad3057a96855f6c", "CE8B99DF8642C065B6AF43FDE1F786A3", "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run]"]}
+{
+  "rule_id": 778,
+  "name": "sofacy-apt-hits-high-profile-targets-with-updated-toolset",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "NvCpld.dll",
+    "tmpdt.tmp",
+    "msdetltemp.dll",
+    "NvCpld.dat",
+    "Sofacy.bf",
+    "RUNDLL32.EXE",
+    "Sofacy.bg",
+    "IGFSRVC.dll",
+    "Sofacy.al",
+    "advshellstore.dll",
+    "Sofacy.bj",
+    "kv.dll",
+    "Sofacy.be",
+    "Sofacy.bi",
+    "sechost.dll",
+    "snd.dll",
+    "sfc.dll",
+    "MAIN.dll"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "A96F4B8AC7AA9DBF4624424B7602D4F7",
+    "c3ae4a37094ecfe95c2badecf40bf5bb",
+    "f6f88caf49a3e32174387cacfa144a89",
+    "0369620eb139c3875a62e36bb7abdae8",
+    "9D2F9E19DB8C20DC0D20D50869C7A373",
+    "9d2f9e19db8c20dc0d20d50869c7a373",
+    "ce151285e8f0e7b2b90162ba171a4b90",
+    "a96f4b8ac7aa9dbf4624424b7602d4f7",
+    "CE8B99DF8642C065B6AF43FDE1F786A3",
+    "8b238931a7f64fddcad3057a96855f6c",
+    "8c4d896957c36ec4abeb07b2802268b9",
+    "8cb08140ddb00ac373d29d37657a03cc",
+    "ce8b99df8642c065b6af43fde1f786a3",
+    "8C4D896957C36EC4ABEB07B2802268B9",
+    "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run]"
+  ]
+}

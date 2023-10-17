@@ -1,1 +1,33 @@
-{"rule_id": 270, "name": "R9b_FSOFACY_0", "description": "-", "references": [], "samples": ["CBIBUAE.COM", "HOST.COM", "328864.html", "U.COM", "CBIUAE.COM", "NOW.NET", "AMERIC.COM", "CIBUAEONLINEBN.COM", "CBIUAEBANK.COM", "CIBUAEONLINE.COM", "BULKBREAKERS.COM", "CANADATRUST.COM", "ROYALBSUK.COM", "globeshippers.biz", "CBIUAEBN.COM", "kwqx.us", "CBIUAEONLINE.COM"], "weight": 0.0, "signatures": ["bb909d9c27a509bf97cdc85268556ff5a6d2550a", "f325970fd24bb088f1befdae5788152329e26bf3", "a351842ee01374d66bae35354ffe72f0b1b8a40b", "http://www.newsweek.com/2015/05/15/russias-greatest-weapon-may-be-its-hackers-328864.html", "http://www.theguardian.com/world/2014/apr/24/vladimir-putin-web-breakup-internet-cia"]}
+{
+  "rule_id": 270,
+  "name": "R9b_FSOFACY_0",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "CBIUAE.COM",
+    "BULKBREAKERS.COM",
+    "kwqx.us",
+    "CBIUAEBN.COM",
+    "CBIUAEBANK.COM",
+    "CBIUAEONLINE.COM",
+    "HOST.COM",
+    "globeshippers.biz",
+    "AMERIC.COM",
+    "CBIBUAE.COM",
+    "CIBUAEONLINEBN.COM",
+    "328864.html",
+    "NOW.NET",
+    "CANADATRUST.COM",
+    "U.COM",
+    "CIBUAEONLINE.COM",
+    "ROYALBSUK.COM"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "bb909d9c27a509bf97cdc85268556ff5a6d2550a",
+    "f325970fd24bb088f1befdae5788152329e26bf3",
+    "a351842ee01374d66bae35354ffe72f0b1b8a40b",
+    "http://www.theguardian.com/world/2014/apr/24/vladimir-putin-web-breakup-internet-cia",
+    "http://www.newsweek.com/2015/05/15/russias-greatest-weapon-may-be-its-hackers-328864.html"
+  ]
+}

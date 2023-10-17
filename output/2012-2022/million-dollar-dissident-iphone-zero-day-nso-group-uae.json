@@ -1,1 +1,30 @@
-{"rule_id": 670, "name": "million-dollar-dissident-iphone-zero-day-nso-group-uae", "description": "-", "references": [], "samples": ["com.mx", "accounts.mx", "UNOTV.COM", "test111.tar", "redirect.aspx", "aalaan.tv", "thainews.asia", "alaan.tv", "TELCEL.COM", "brc.html", "bed.html"], "weight": 0.0, "signatures": ["https://smser.net/9918216t/,", "https://smser.net/redirect.aspx.", "http://asrararabiya.com/", "https://smser.net/9918216t/", "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=", "http://unonoticias.net/3423768s/.", "http://www.google.com'", "http://fb-accounts.com/1074139s/"]}
+{
+  "rule_id": 670,
+  "name": "million-dollar-dissident-iphone-zero-day-nso-group-uae",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "thainews.asia",
+    "UNOTV.COM",
+    "accounts.mx",
+    "brc.html",
+    "aalaan.tv",
+    "redirect.aspx",
+    "com.mx",
+    "bed.html",
+    "TELCEL.COM",
+    "test111.tar",
+    "alaan.tv"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "http://gmail.com/?z=FEcCAA==&i=MTphYWxhYW4udHY6NDQzLDE6bWFub3Jhb25saW5lLm5ldDo0NDM=&s=zpvzPSYS674=",
+    "https://smser.net/redirect.aspx.",
+    "http://fb-accounts.com/1074139s/",
+    "http://www.google.com'",
+    "http://asrararabiya.com/",
+    "http://unonoticias.net/3423768s/.",
+    "https://smser.net/9918216t/,",
+    "https://smser.net/9918216t/"
+  ]
+}

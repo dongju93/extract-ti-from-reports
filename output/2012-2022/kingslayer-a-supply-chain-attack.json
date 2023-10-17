@@ -1,1 +1,35 @@
-{"rule_id": 256, "name": "kingslayer-a-supply-chain-attack", "description": "-", "references": [], "samples": ["updatecheck.html", "publicsafety.gc", "BP.EXE", "Practices.pdf", "The_Monju_Incident1.pdf", "csrc.nist", "mailcheck.png", "eng.aspx", "crew.pdf", "blogs.rsa"], "weight": 0.0, "signatures": ["f97a2744a4964044c60ac241f92e05d7", "1b57396c834d2eb364d28eb0eb28d8e4", "5c36e8d5beee7fbc0377db59071b9980", "76ab4a360b59fe99be1ba7b9488b5188", "https://msisac.cisecurity.org", "http://www.slideshare.net/harmj0y/i-hunt-sys-admins-20", "http://blogs.rsa.com/schoolbell-class-is-in-session", "http://csrc.nist.gov/scrm/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-", "https://community.rsa.com/docs/DOC-62341", "http://www.oraclesoft.net/mailcheck.png", "https://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf", "http://www.contextis.com/documents/30/TA10009_20140127_-_CTI_Threat_Advisory_-_", "https://www.ncsc.gov.uk/content/files/protected_files/guidance_files/Cyber-security-risks-in-", "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/ccirc-ccric-eng.aspx"]}
+{
+  "rule_id": 256,
+  "name": "kingslayer-a-supply-chain-attack",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "Practices.pdf",
+    "eng.aspx",
+    "blogs.rsa",
+    "mailcheck.png",
+    "publicsafety.gc",
+    "BP.EXE",
+    "crew.pdf",
+    "The_Monju_Incident1.pdf",
+    "updatecheck.html",
+    "csrc.nist"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "76ab4a360b59fe99be1ba7b9488b5188",
+    "f97a2744a4964044c60ac241f92e05d7",
+    "1b57396c834d2eb364d28eb0eb28d8e4",
+    "5c36e8d5beee7fbc0377db59071b9980",
+    "https://msisac.cisecurity.org",
+    "http://csrc.nist.gov/scrm/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-",
+    "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cbr-scrt/ccirc-ccric-eng.aspx",
+    "http://www.oraclesoft.net/mailcheck.png",
+    "http://blogs.rsa.com/schoolbell-class-is-in-session",
+    "http://www.slideshare.net/harmj0y/i-hunt-sys-admins-20",
+    "https://community.rsa.com/docs/DOC-62341",
+    "https://www.ncsc.gov.uk/content/files/protected_files/guidance_files/Cyber-security-risks-in-",
+    "http://www.contextis.com/documents/30/TA10009_20140127_-_CTI_Threat_Advisory_-_",
+    "https://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf"
+  ]
+}

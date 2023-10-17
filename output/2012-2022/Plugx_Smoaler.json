@@ -1,1 +1,32 @@
-{"rule_id": 1077, "name": "Plugx_Smoaler", "description": "-", "references": [], "samples": ["dtl6.moo", "vsserv.exe", "PROBLEM.doc", "Karmapa.docx", "version.doc", "HjV.dll", "papers.aspx", "DW20.DLL", "book.docx", "launch.doc", "uiWatchDog.exe"], "weight": 0.0, "signatures": ["a99b73b56fe94375ec46e51903f815d86afbd78d", "c093d4cd2390617da58bd412c9219e013de503a3", "b84a133cf02eaa7b8a8096e997bda28fc482cf78", "56e8c76cd88996da9b88901520f72ebb743e55ff", "b2f854e9987bce5d110349a354588568ab49726b", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\run. ", "http://podcasts.sophos.com/", "http://www.sophos.com/why-sophos/our-people/technical-papers.aspx", "http://nakedsecurity.sophos.com/", "http://nakedsecurity.sophos.com/inside-the-plugx-malware"]}
+{
+  "rule_id": 1077,
+  "name": "Plugx_Smoaler",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "uiWatchDog.exe",
+    "vsserv.exe",
+    "DW20.DLL",
+    "HjV.dll",
+    "papers.aspx",
+    "PROBLEM.doc",
+    "book.docx",
+    "launch.doc",
+    "dtl6.moo",
+    "Karmapa.docx",
+    "version.doc"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "56e8c76cd88996da9b88901520f72ebb743e55ff",
+    "b2f854e9987bce5d110349a354588568ab49726b",
+    "c093d4cd2390617da58bd412c9219e013de503a3",
+    "a99b73b56fe94375ec46e51903f815d86afbd78d",
+    "b84a133cf02eaa7b8a8096e997bda28fc482cf78",
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\run. ",
+    "http://nakedsecurity.sophos.com/",
+    "http://nakedsecurity.sophos.com/inside-the-plugx-malware",
+    "http://www.sophos.com/why-sophos/our-people/technical-papers.aspx",
+    "http://podcasts.sophos.com/"
+  ]
+}

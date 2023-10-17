@@ -1,1 +1,18 @@
-{"rule_id": 704, "name": "PWC_Taiwan-Presidential-Election-A-Case-Study-on-Thematic-Targeting(Mar-17-2016)", "description": "-", "references": [], "samples": ["民眾政黨支持趨勢變化.exe", "20160105.xls", "統選舉民情中心預測值.rar", "值.doc"], "weight": 0.0, "signatures": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the", "https://whois.domaintools.com/security", "http://contagiodump.blogspot.co.uk/2013/09/sandbox"]}
+{
+  "rule_id": 704,
+  "name": "PWC_Taiwan-Presidential-Election-A-Case-Study-on-Thematic-Targeting(Mar-17-2016)",
+  "description": "-",
+  "references": [],
+  "samples": [
+    "民眾政黨支持趨勢變化.exe",
+    "統選舉民情中心預測值.rar",
+    "值.doc",
+    "20160105.xls"
+  ],
+  "weight": 0.0,
+  "signatures": [
+    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folder\\ to point to the",
+    "http://contagiodump.blogspot.co.uk/2013/09/sandbox",
+    "https://whois.domaintools.com/security"
+  ]
+}
