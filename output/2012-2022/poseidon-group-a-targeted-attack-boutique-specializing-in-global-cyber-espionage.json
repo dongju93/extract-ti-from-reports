@@ -1,17 +1,20 @@
 {
-  "rule_id": 87,
+  "rule_id": 83,
   "name": "poseidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage",
-  "description": "-",
   "references": [],
-  "samples": ["Nhopro.gen"],
   "weight": 0.0,
   "signatures": [
-    "2c4aeacd3f7b587c599c2c4b5c1475da",
-    "2fd8bb121a048e7c9e29040f9a9a6eee",
-    "f821eb4be9840feaf77983eb7d55e5f6",
+    "4cc1b23daaaac6bf94f99f309854ea10",
     "2ce818518ca5fd03cbacb26173aa60ce",
     "0a870c900e6db25a0e0a65b8545656d4",
-    "4cc1b23daaaac6bf94f99f309854ea10",
-    "f3499a9d9ce3de5dc10de3d7831d0938"
+    "f3499a9d9ce3de5dc10de3d7831d0938",
+    "2fd8bb121a048e7c9e29040f9a9a6eee",
+    "2c4aeacd3f7b587c599c2c4b5c1475da",
+    "f821eb4be9840feaf77983eb7d55e5f6",
+    "akamaihub.com",
+    "igdata.net",
+    "sslverification.net",
+    "msupdatecdn.com",
+    "mozillacdn.com"
   ]
 }

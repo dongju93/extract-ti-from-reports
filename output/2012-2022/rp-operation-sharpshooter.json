@@ -1,33 +1,15 @@
 {
-  "rule_id": 955,
+  "rule_id": 873,
   "name": "rp-operation-sharpshooter",
-  "description": "-",
   "references": [],
-  "samples": [
-    "09.css",
-    "vErsIon.dll",
-    "VboxHook.dll",
-    "Mins.PDF",
-    "mssync.exe",
-    "Representative.doc",
-    "mins.PDF",
-    "advapI32.dLL",
-    "Administrator.doc",
-    "uSEr32.dlL"
-  ],
   "weight": 0.0,
   "signatures": [
     "f3bd9e1c01f2145eb475a98c87f94a25",
     "73471f41319468ab207b8d5b33b0b4be",
     "9b0f22e129c73ce4c21be4122182f6dcbc351c95",
-    "66776c50bcc79bbcecdbe99960e6ee39c8a31181",
     "8106a30bd35526bded384627d8eebce15da35d17",
-    "668b0df94c6d12ae86711ce24ce79dbe0ee2d463",
     "31e79093d452426247a56ca0eff860b0ecc86009",
-    "http://137dot74.41.56/board.php",
-    "https://wwwdotkingkoil.com.sg/query.php",
-    "https://wwwdotkingkoil.com.sg/",
-    "http://34dot214.99.20/view_style.php",
-    "https://wwwdotkingkoil.com.sg/board.php"
+    "668b0df94c6d12ae86711ce24ce79dbe0ee2d463",
+    "66776c50bcc79bbcecdbe99960e6ee39c8a31181"
   ]
 }

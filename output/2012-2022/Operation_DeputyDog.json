@@ -1,19 +1,20 @@
 {
-  "rule_id": 308,
+  "rule_id": 287,
   "name": "Operation_DeputyDog",
-  "description": "-",
   "references": [],
-  "samples": ["sun.css", "28542CC0.dll", "info.asp"],
   "weight": 0.0,
   "signatures": [
-    "645e29b7c6319295ae8b13ce8575dc1d",
-    "dbdb1032d7bb4757d6011fb1d077856c",
-    "58dc05118ef8b11dcb5f5c596ab772fd",
-    "46fd936bada07819f61ec3790cb08e19",
     "bd07926c72739bb7121cec8a2863ad87",
-    "4d257e569539973ab0bbafee8fb87582",
-    "e9c73997694a897d3c6aadb26ed34797",
+    "645e29b7c6319295ae8b13ce8575dc1d",
     "8aba4b5184072f2a50cbc5ecfe326701",
-    "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\28542CC0"
+    "dbdb1032d7bb4757d6011fb1d077856c",
+    "4d257e569539973ab0bbafee8fb87582",
+    "58dc05118ef8b11dcb5f5c596ab772fd",
+    "e9c73997694a897d3c6aadb26ed34797",
+    "46fd936bada07819f61ec3790cb08e19",
+    "downloadmp3server.servemp3.com",
+    "blankchair.com",
+    "yahooeast.net",
+    "www.yahooeast.net"
   ]
 }

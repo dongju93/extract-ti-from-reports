@@ -1,11 +1,13 @@
 {
-  "rule_id": 512,
+  "rule_id": 474,
   "name": "chessmasters-new-strategy-evolving-tools-tactics",
-  "description": "-",
   "references": [],
-  "samples": ["mhsta.exe", "Img.db", "img.db", "ANEL.ZKEI"],
   "weight": 0.0,
   "signatures": [
-    "af1b2cd8580650d826f48ad824deef3749a7db6fde1c7e1dc115c6b0a7dfa0dd"
+    "af1b2cd8580650d826f48ad824deef3749a7db6fde1c7e1dc115c6b0a7dfa0dd",
+    "server62.75.197.131",
+    "from89.18.27.159",
+    "89.18.27.159",
+    "62.75.197.131"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "rule_id": 8,
+  "name": "an-in-depth-look-at-how-pawn-storms-java-zero-day-was-used",
+  "references": ["CVE-2015-2590"],
+  "weight": 0.0,
+  "signatures": [
+    "www.acledit.com",
+    "95.215.45.189",
+    "192.111.146.185",
+    "37.187.116.240",
+    "87.236.215.132",
+    "ausameetings.com",
+    "ausumeetings.com",
+    "www.biocpl.org"
+  ]
+}

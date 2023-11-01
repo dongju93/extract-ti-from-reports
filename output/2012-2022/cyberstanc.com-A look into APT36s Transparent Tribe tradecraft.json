@@ -1,13 +1,12 @@
 {
-  "rule_id": 918,
+  "rule_id": 843,
   "name": "cyberstanc.com-A look into APT36s Transparent Tribe tradecraft",
-  "description": "-",
   "references": [],
-  "samples": ["actions.docx", "Trayicos.exe", "Random.dll", "TrayIcos.exe"],
   "weight": 0.0,
   "signatures": [
     "4A22A43CCAB88B1CA50FA183E6FFB6FA",
     "5A27D092E4A87554206F677B4EADC6F5",
-    "18ACD5EBED316061F885F54F82F00017"
+    "18ACD5EBED316061F885F54F82F00017",
+    "Datroapp.mssql.somee.com"
   ]
 }

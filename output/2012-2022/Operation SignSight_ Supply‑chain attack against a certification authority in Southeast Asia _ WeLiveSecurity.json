@@ -1,26 +1,16 @@
 {
-  "rule_id": 338,
+  "rule_id": 313,
   "name": "Operation SignSight_ Supply‑chain attack against a certification authority in Southeast Asia _ WeLiveSecurity",
-  "description": "-",
   "references": [],
-  "samples": [
-    "eToken.exe",
-    "SnowballS.pdb",
-    "z.cab",
-    "3.msi",
-    "Agent.SJQ",
-    "cdomainquery.cpp",
-    "netapi32.dll",
-    "ssl.DLL"
-  ],
   "weight": 0.0,
   "signatures": [
-    "9522F369AC109B03E6C16511D49D1C5B42E12A44",
     "B0E4E9BB6EF8AA7A9FCB9C9E571D8162B1B2443A",
-    "5C77A18880CF58DF9FBA102DD8267C3F369DF449",
     "989334094EC5BA8E0E8F2238CDF34D5C57C283F2",
+    "5C77A18880CF58DF9FBA102DD8267C3F369DF449",
     "5DFC07BB6034B4FDA217D96441FB86F5D43B6C62",
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x64-8.3.msi",
-    "https://ca.gov.vn/documents/20182/6768590/gca01-client-v2-x32-8.3.msi"
+    "9522F369AC109B03E6C16511D49D1C5B42E12A44",
+    "office365.blogdns.com",
+    "vgca.homeunix.org",
+    "ca.gov.vn"
   ]
 }

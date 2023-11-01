@@ -1,9 +1,0 @@
-{
-  "rule_id": 1009,
-  "name": "Winnti_ Attacking the Heart of the German Industry",
-  "description": "-",
-  "references": [],
-  "samples": ["system.dat", "Tagesschau.de", "web.br"],
-  "weight": 0.0,
-  "signatures": ["https://web.br.de/interaktiv/winnti/english/"]
-}

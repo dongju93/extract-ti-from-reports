@@ -1,9 +1,7 @@
 {
-  "rule_id": 273,
+  "rule_id": 256,
   "name": "w64_regin_stage_1",
-  "description": "-",
   "references": [],
-  "samples": ["wshtcpip.dll"],
   "weight": 0.0,
   "signatures": ["5191d7e28ffd1bc76ec7ed02d861679a77f2c239"]
 }

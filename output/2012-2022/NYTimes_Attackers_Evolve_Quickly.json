@@ -1,13 +1,14 @@
 {
-  "rule_id": 624,
+  "rule_id": 580,
   "name": "NYTimes_Attackers_Evolve_Quickly",
-  "description": "-",
   "references": [],
-  "samples": ["search.asp", "css.css", "myScript.js", "computers.html"],
   "weight": 0.0,
   "signatures": [
     "cb3dcde34fd9ff0e19381d99b02f9692",
+    "832f5e01be536da71d5b3f7e41938cfb",
     "aa873ed803ca800ce92a39d9a683c644",
-    "832f5e01be536da71d5b3f7e41938cfb"
+    "documents.myPicture.info",
+    "status.acmetoy.com",
+    "www.documents.myPicture.info"
   ]
 }

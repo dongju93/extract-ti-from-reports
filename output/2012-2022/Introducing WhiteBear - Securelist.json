@@ -1,33 +1,16 @@
 {
-  "rule_id": 4,
+  "rule_id": 2,
   "name": "Introducing WhiteBear - Securelist",
-  "description": "-",
   "references": [],
-  "samples": [
-    "iexplore.exe",
-    "refox.exe",
-    "outlook.exe",
-    "safari.exe",
-    "ntuser.dat",
-    "DF1E05.tmp",
-    "opera.exe",
-    "KB943729.log",
-    "CVRG38D9.tmp",
-    "2344.TID",
-    "CVRG72B5.tmp",
-    "chrome.exe",
-    "B.tmp",
-    "Agent.btz",
-    "explorer.exe"
-  ],
   "weight": 0.0,
   "signatures": [
-    "19ce5c912768958aa3ee7bc19b2b032c",
     "06bd89448a10aa5c2f4ca46b4709a879",
     "b099b82acb860d9a9a571515024b35f0",
-    "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ScreenS",
-    "HKCU\\SOFTWARE\\Microsoft\\Windows",
-    "HKCU\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion\\Explorer\\Scr",
-    "HKCU\\Software\\Microsoft\\Windows"
+    "19ce5c912768958aa3ee7bc19b2b032c",
+    "soligro.com",
+    "169.255.137.203",
+    "66.178.107.140",
+    "217.171.86.137",
+    "mydreamhoroscope.com"
   ]
 }

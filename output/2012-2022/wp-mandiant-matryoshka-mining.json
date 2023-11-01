@@ -1,25 +1,7 @@
 {
-  "rule_id": 118,
+  "rule_id": 114,
   "name": "wp-mandiant-matryoshka-mining",
-  "description": "-",
   "references": ["CVE-2015-17012"],
-  "samples": ["k.sys"],
   "weight": 0.0,
-  "signatures": [
-    "54656d7ae9f6b89413d5b20704b43b10",
-    "http://openssl",
-    "https://github",
-    "http://virtualkd",
-    "https://tls",
-    "https://msdn",
-    "http://blog",
-    "https://code",
-    "http://www",
-    "https://blog",
-    "https://support",
-    "https://media",
-    "https://www",
-    "https://en",
-    "http://linux"
-  ]
+  "signatures": ["54656d7ae9f6b89413d5b20704b43b10"]
 }

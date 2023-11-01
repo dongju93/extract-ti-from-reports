@@ -1,9 +1,7 @@
 {
-  "rule_id": 296,
+  "rule_id": 275,
   "name": "New_killdisk",
-  "description": "-",
   "references": [],
-  "samples": ["Recycle.Bin", "dimens.exe", "KILLDISK.IUB"],
   "weight": 0.0,
   "signatures": [
     "8a81a1d0fae933862b51f63064069aa5af3854763f5edc29c997964de5e284e5"

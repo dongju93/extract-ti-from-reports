@@ -1,31 +1,20 @@
 {
-  "rule_id": 248,
+  "rule_id": 235,
   "name": "Trojan.APT.Seinup",
-  "description": "-",
   "references": [],
-  "samples": [
-    "msnetrsvw.exe",
-    "cmu.edu",
-    "ore.exe",
-    "res.dll",
-    "www.cs",
-    "BYyH.php"
-  ],
   "weight": 0.0,
   "signatures": [
-    "56e6c27f9952e79d57d0b32d16c26811",
-    "709c71c128a876b73d034cde5e3ec1d3",
-    "766cf9e96c1a508c59f7ade1c50ecd28",
-    "d64a22ea3accc712aebaa047ab818b07",
-    "baf227a9f0b21e710c65d01f2ab01244",
-    "0845f03d669e24144df785ee54f6ad74",
-    "137F3D11559E9D986D510AF34CB61FBC",
-    "CE67AAA163A4915BA408B2C1D5CCC7CC",
-    "cdd969121a2e755ef3dc1a7bf7f18b24",
-    "cc3237bc79192a096440faca0fdae107",
-    "FB2FA42F052D0A86CBDCE03F5C46DD4D",
     "349118df672db38f9e65659874b60b27",
-    "http://www.elizabearden.com/waterphp/BYyH.php",
-    "http://www.cs.cmu.edu/"
+    "cc3237bc79192a096440faca0fdae107",
+    "766cf9e96c1a508c59f7ade1c50ecd28",
+    "FB2FA42F052D0A86CBDCE03F5C46DD4D",
+    "0845f03d669e24144df785ee54f6ad74",
+    "56e6c27f9952e79d57d0b32d16c26811",
+    "cdd969121a2e755ef3dc1a7bf7f18b24",
+    "137F3D11559E9D986D510AF34CB61FBC",
+    "709c71c128a876b73d034cde5e3ec1d3",
+    "d64a22ea3accc712aebaa047ab818b07",
+    "CE67AAA163A4915BA408B2C1D5CCC7CC",
+    "baf227a9f0b21e710c65d01f2ab01244"
   ]
 }

@@ -1,34 +1,17 @@
 {
-  "rule_id": 231,
+  "rule_id": 219,
   "name": "Tracking Turla_ New backdoor delivered via Armenian watering holes _ WeLiveSecurity",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "migrate.min",
-    "Turla.EM",
-    "Turla.EJ",
-    "0eb0f2cb2808b4b35a94.js",
-    "Mg.js",
-    "mnp.nkr",
-    "winhost.exe",
-    "locale.php",
-    "top.php",
-    "adobe.exe",
-    "ec.set",
-    "ec.get"
-  ],
+  "references": ["T1189"],
   "weight": 0.0,
   "signatures": [
-    "http://skategirlchina.com/wp-",
-    "http://skategirlchina.com/wp-includes/ms-locale.php",
-    "http://134.209.222.206:15363",
-    "http://skategirlchina.com/wp-includes/data_from_db_top.php",
-    "http://aiisa.am/js/chatem/js_rA9bo8_O3Pnw_5wJXExNhtkUMdfBYCifTJctEJ8C_Mg.js",
-    "http://skategirlchina.com/wp-includes/data_from_db_top.php?",
-    "http://37.59.60.199/2018/.con",
-    "http://85.222.235.156:8000",
-    "http://skategirlchina.com/wp-includes/data_from_db_top.php',",
-    "http://www.armconsul.ru/user/themes/ayeps/dist/js/bundle.0eb0f2cb2808b4b35a94.js",
-    "http://mnp.nkr.am/wp-includes/js/jquery/jquery-migrate.min.js"
+    "aiisa.am",
+    "134.209.222.206",
+    "37.59.60.199",
+    "skategirlchina.com",
+    "85.222.235.156",
+    "mnp.nkr.am",
+    "www.armconsul.ru",
+    "adgf.am",
+    "armconsul.ru"
   ]
 }

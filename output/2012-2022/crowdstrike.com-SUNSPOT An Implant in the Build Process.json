@@ -1,23 +1,12 @@
 {
-  "rule_id": 937,
+  "rule_id": 858,
   "name": "crowdstrike.com-SUNSPOT An Implant in the Build Process",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "vmdmp.log",
-    "InventoryManager.bk",
-    "managementObjectSearcher.Get",
-    "core.sln",
-    "ostsvc.exe",
-    "MsBuild.exe",
-    "taskhostsvc.exe",
-    "InventoryManager.tmp",
-    "InventoryManager.cs"
-  ],
+  "references": ["T1565", "T1592"],
   "weight": 0.0,
   "signatures": [
     "5f40b59ee2a9ac94ddb6ab9e3bd776ca",
     "0819db19be479122c1d48743e644070a8dc9a1c852df9a8c0dc2343e904da389",
-    "c45c9bda8db1d470f1fd0dcc346dc449839eb5ce9a948c70369230af0b3ef168"
+    "c45c9bda8db1d470f1fd0dcc346dc449839eb5ce9a948c70369230af0b3ef168",
+    "blog.xpnsec.com"
   ]
 }

@@ -1,12 +1,7 @@
 {
-  "rule_id": 211,
+  "rule_id": 202,
   "name": "Operation Spy Cloud_eng",
-  "description": "-",
   "references": [],
-  "samples": ["Application.Quit", "clisve.exe", "invoice.sca", "kavsvc.exe"],
   "weight": 0.0,
-  "signatures": [
-    "392647675E8DFCD2602B4FFE38A19E2B",
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\(Version)\\Word\\Security\\AccessVBOM "
-  ]
+  "signatures": ["392647675E8DFCD2602B4FFE38A19E2B"]
 }

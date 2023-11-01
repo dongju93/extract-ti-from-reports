@@ -1,15 +1,23 @@
 {
-  "rule_id": 1023,
+  "rule_id": 936,
   "name": "China_Peace_Palace",
-  "description": "-",
   "references": [],
-  "samples": ["showpage.asp", "ticrf.rat", "showproj.asp", "LMS.exe"],
   "weight": 0.0,
   "signatures": [
-    "2EE25DE7BD6A2705F3F8DDE0DD681E96",
-    "5877D15215B7F398319F0DE7BA7B1947",
     "DFDC5B09C4DEA79EB7F5B9E4E76EECF9",
+    "5877D15215B7F398319F0DE7BA7B1947",
+    "2EE25DE7BD6A2705F3F8DDE0DD681E96",
+    "B4522D05A9E3A034AF481A7797A445EA",
     "16E5A27BD55E0B4E595C9743F4C75611",
-    "B4522D05A9E3A034AF481A7797A445EA"
+    "vpn.nicklockluckydog.org",
+    "ssl.nicklockluckydog.org",
+    "192.243.116.241",
+    "175.45.233.205",
+    "blueworldlink2015.net",
+    "108.61.117.9",
+    "books.blueworldlink2015.net",
+    "nicklockluckydog.org",
+    "pic.nicklockluckydog.org",
+    "cpa.org"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "rule_id": 457,
+  "name": "blog.trendmicro.com-Lazarus Continues Heists Mounts Attacks on Financial Organizations in Latin America",
+  "references": [],
+  "weight": 0.0,
+  "signatures": ["107.172.195.20", "46.21.147.161", "192.3.12.154"]
+}

@@ -1,14 +1,11 @@
 {
-  "rule_id": 172,
+  "rule_id": 166,
   "name": "teaching-an-old-rat-new-tricks",
-  "description": "-",
   "references": [],
-  "samples": ["Assembly.Load", "nvSCPAPISrv.exe", "PerfWatson.exe"],
   "weight": 0.0,
   "signatures": [
-    "9e05fb115bd4e85cfc0e32c72aa721be",
-    "e5c71180f117270538487cd9b9b1b6d8",
     "d740ed3f33ca4cef3a6aa717f94bf52a",
-    "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows"
+    "e5c71180f117270538487cd9b9b1b6d8",
+    "9e05fb115bd4e85cfc0e32c72aa721be"
   ]
 }

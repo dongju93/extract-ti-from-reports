@@ -1,14 +1,21 @@
 {
-  "rule_id": 601,
+  "rule_id": 557,
   "name": "Domestic Kitten An Iranian Surveillance Operation",
-  "description": "-",
   "references": [],
-  "samples": ["LogTime.log"],
   "weight": 0.0,
   "signatures": [
     "c168f3ea7d0e2cee91612bf86c5d95167d26e69c",
-    "d1f70c47c016f8a544ef240487187c2e8ea78339",
+    "f1355dfe633f9e1350887c31c67490d928f4feec",
     "0fafeb1cbcd6b19c46a72a26a4b8e3ed588e385f",
-    "f1355dfe633f9e1350887c31c67490d928f4feec"
+    "d1f70c47c016f8a544ef240487187c2e8ea78339",
+    "89.38.98.49",
+    "Firmwaresystemupdate.com",
+    "Ronaldlubbers.site",
+    "190.2.144.140",
+    "firmwaresystemupdate.com",
+    "Georgethompson.space",
+    "190.2.145.145",
+    "162.248.247.172",
+    "Stevenwentz.com"
   ]
 }

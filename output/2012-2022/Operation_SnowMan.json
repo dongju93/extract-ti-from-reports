@@ -1,14 +1,22 @@
 {
-  "rule_id": 600,
+  "rule_id": 556,
   "name": "Operation_SnowMan",
-  "description": "-",
   "references": [],
-  "samples": ["img.html", "stream.exe", "sqlrenew.txt"],
   "weight": 0.0,
   "signatures": [
-    "8455bbb9a210ce603a1b646b0d951bce",
     "758886e58f9ea2ff22b57cbbb015166e",
     "9d20566a327076b7152bbf9ed20292c4",
-    "0294f9280491f85d898ebe471f0fb58e"
+    "8455bbb9a210ce603a1b646b0d951bce",
+    "0294f9280491f85d898ebe471f0fb58e",
+    "dll.freshdns.org",
+    "vfw.org",
+    "icybin.flnet.org",
+    "ali.blankchair.com",
+    "cht.blankchair.com",
+    "book.flnet.org",
+    "rt.blankchair.com",
+    "newss.effers.com",
+    "info.flnet.org",
+    "me.scieron.com"
   ]
 }

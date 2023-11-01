@@ -1,13 +1,43 @@
 {
-  "rule_id": 109,
+  "rule_id": 104,
   "name": "pov-2020-1230",
-  "description": "-",
-  "references": [],
-  "samples": ["logoimagehandler.ashx", "b6031896.dll"],
+  "references": [
+    "T1041",
+    "T1583",
+    "T1195",
+    "T1553",
+    "T1568",
+    "T1497",
+    "T1014",
+    "T1072",
+    "T1480",
+    "T1587",
+    "T1562"
+  ],
   "weight": 0.0,
   "signatures": [
     "c5864330c247e2cd2a98d69b852e42f59a16d9613a6536c8b0b25e16c934533d",
     "21bab0d279d15a548a84a9d9eed34575b2dc9072cc36ebfe7b517850eea92756",
-    "https://urlscan.io/result/3df2efd6-530f-"
+    "freescanonline.com",
+    "solartrackingsystem.net",
+    "virtualwebdata.com",
+    "13.59.205.66",
+    "seobundlekit.com",
+    "panhardware.com",
+    "highdatabase.com",
+    "lcomputers.com",
+    "solartrackingsystem.com",
+    "13.57.184.217",
+    "globalnetworkissues.com",
+    "avsvmcloud.com",
+    "3.16.81.254",
+    "139.99.115.204",
+    "webcodez.com",
+    "198.12.75.112",
+    "kubecloud.com",
+    "45.141.152.18",
+    "inteleksys.com",
+    "167.114.213.199",
+    "incomeupdate.com"
   ]
 }

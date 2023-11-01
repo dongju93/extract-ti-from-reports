@@ -1,0 +1,14 @@
+{
+  "rule_id": 571,
+  "name": "Heatstroke Campaign Uses Multistage Phishing Attack to Steal PayPal and Credit Card Information",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "raisingtwo.com",
+    "signin.html",
+    "posicionamientowebeconomico.es",
+    "alphawolfden.com",
+    "2m.ma",
+    "www.posicionamientowebeconomico.es"
+  ]
+}

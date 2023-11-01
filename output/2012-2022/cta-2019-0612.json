@@ -1,0 +1,7 @@
+{
+  "rule_id": 439,
+  "name": "cta-2019-0612",
+  "references": [],
+  "weight": 0.0,
+  "signatures": ["pucellina.com", "bioecologyz.com"]
+}

@@ -1,37 +1,12 @@
 {
-  "rule_id": 541,
+  "rule_id": 504,
   "name": "zscaler.com-Attack on Indian Government Financial Institutions",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "Fm.ren",
-    "scndppe.ddns",
-    "ln.rst",
-    "Fm.nd",
-    "Fm.dv",
-    "sc.op",
-    "java.Awt",
-    "sc.cap",
-    "Fm.chm",
-    "Fm.cp",
-    "hosteam.pl",
-    "pdf.zip",
-    "Fm.down",
-    "Fm.es",
-    "jkgdlfhggf.bvl",
-    "sc.ky",
-    "sc.mv",
-    "jhkgdldsgf.jar",
-    "Fm.mv",
-    "Fm.up",
-    "Fm.get",
-    "Fm.del",
-    "sc.ck"
-  ],
+  "references": ["T1529", "T1170"],
   "weight": 0.0,
   "signatures": [
     "0ac306c29fde5e710ae5d022d78769f6",
     "23b32dce9e3a7c1af4534fe9cf7f461e",
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v jhkgdldsgf /d '\\'C:\\Program Files\\Java\\jre1.8.0_131\\bin\\javaw.exe\\' -jar"
+    "backjaadra.ddns.net",
+    "scndppe.ddns.net"
   ]
 }

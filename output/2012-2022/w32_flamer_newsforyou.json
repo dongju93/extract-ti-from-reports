@@ -1,30 +1,10 @@
 {
-  "rule_id": 27,
+  "rule_id": 26,
   "name": "w32_flamer_newsforyou",
-  "description": "-",
   "references": [],
-  "samples": [
-    "delete.php",
-    "tar.gz",
-    "LogWiper.sh",
-    "fixed.txt",
-    "UnloadChecker.php",
-    "Delete.php",
-    "script.php",
-    "RequestHandler.php",
-    "newsforyou.log"
-  ],
   "weight": 0.0,
   "signatures": [
     "27934e96d90d06818674b98bec7230fa",
-    "59c5452fb2ba21091513ccdc1e0ec7fd",
-    "http://symantec.com/connect/blogs/flamer-recipe-bluetoothache",
-    "http://symantec.com/connect/blogs/w32flamer-microsoft-windows-update-man-middle",
-    "http://symantec.com/connect/blogs/flamer-highly-sophisticated-and-discreet-threat-targets-middle-east",
-    "http://symantec.com/connect/blogs/w32flamer-spreading-mechanism-tricks-and-exploits",
-    "http://symantec.com/connect/blogs/painting-picture-w32flamer",
-    "http://symantec.com/connect/blogs/flamer-urgent-suicide",
-    "http://symantec.com/connect/blogs/w32flamer-leveraging-microsoft-digital-certificates",
-    "http://symantec.com/connect/blogs/w32flamer-enormous-data-collection"
+    "59c5452fb2ba21091513ccdc1e0ec7fd"
   ]
 }

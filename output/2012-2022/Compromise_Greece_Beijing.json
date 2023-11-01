@@ -1,20 +1,10 @@
 {
-  "rule_id": 738,
+  "rule_id": 680,
   "name": "Compromise_Greece_Beijing",
-  "description": "-",
   "references": [],
-  "samples": ["Beijing.zip", "encoder.asp", "1.jar"],
   "weight": 0.0,
   "signatures": [
-    "a4863f44f48d1c4c050dd7baad767a86b348dd4d33924acf4e0a3cd40c6ae29f",
     "b832e4b5a4829c8df6de7b42c5cb32ef25b5ab59072b4c2a7838404cd0dd5e5f",
-    "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
-    "HKCU\\Software\\Microsoft\\Internet Explorer\\PhishingFilter",
-    "HKCU\\Software\\Microsoft\\Internet Connection Wizard",
-    "HKCU\\Software\\Microsoft\\Internet Explorer\\Main",
-    "http://www.motobit.com/util/base64-decoder-encoder.asp",
-    "http://buy.miraclecz.com",
-    "https://www.dropbox.com/s/ckr7p5kka62cc7s/Embassy%20of%20Greece%20-%20Beijing.zip",
-    "http://www.grpressbeijing.com/1.jar"
+    "a4863f44f48d1c4c050dd7baad767a86b348dd4d33924acf4e0a3cd40c6ae29f"
   ]
 }

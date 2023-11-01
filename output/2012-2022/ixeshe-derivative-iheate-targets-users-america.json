@@ -1,9 +1,14 @@
 {
-  "rule_id": 411,
+  "rule_id": 379,
   "name": "ixeshe-derivative-iheate-targets-users-america",
-  "description": "-",
   "references": [],
-  "samples": [],
   "weight": 0.0,
-  "signatures": ["3de8ef34fb98ce5d5d0ec0f46ff92319a5976e63"]
+  "signatures": [
+    "3de8ef34fb98ce5d5d0ec0f46ff92319a5976e63",
+    "moscow.com",
+    "ipv6pro.root.sx",
+    "200.93.193.163",
+    "gimeover.psp",
+    "skype.silksky.com"
+  ]
 }

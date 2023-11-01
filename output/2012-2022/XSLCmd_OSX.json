@@ -1,20 +1,36 @@
 {
-  "rule_id": 735,
+  "rule_id": 677,
   "name": "XSLCmd_OSX",
-  "description": "-",
   "references": ["CVE-2010-2884"],
-  "samples": [
-    "tiwiki.ashx",
-    "chkdiskc.dat",
-    "appleupdate.biz",
-    "config.htm",
-    "chkdiska.dat",
-    "keys.log"
-  ],
   "weight": 0.0,
   "signatures": [
     "60242ad3e1b6c4d417d4dfeb8fb464a1",
-    "https://ssl.",
-    "http://1234/config.htm"
+    "allshell.net",
+    "microsoftdomainadmin.com",
+    "playncs.com",
+    "www.appleupdate.biz",
+    "updatamicrosoft.com",
+    "iii.mobi",
+    "googlemapsoftware.com",
+    "oprea.biz",
+    "powershell.com.tw",
+    "microsoftsp3.com",
+    "smtp.allshell.net",
+    "gefacebook.com",
+    "msnupdate.bz",
+    "inc.net",
+    "softwareupdatevmware.com",
+    "attoo1s.com",
+    "windowsnine.net",
+    "microsoftupdate.ws",
+    "mremote.biz",
+    "kocrmicrosoft.com",
+    "officescan.biz",
+    "msftncsl.com",
+    "enix.us",
+    "battle.com.tw",
+    "cdngoogle.com",
+    "appleupdate.biz",
+    "microsoft.org.tw"
   ]
 }

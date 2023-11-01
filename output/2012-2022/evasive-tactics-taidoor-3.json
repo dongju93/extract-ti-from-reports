@@ -1,30 +1,19 @@
 {
-  "rule_id": 761,
+  "rule_id": 700,
   "name": "evasive-tactics-taidoor-3",
-  "description": "-",
   "references": [],
-  "samples": [
-    "tanks.pdf",
-    "hpc.tw",
-    "trickip.NET",
-    "skies.tw",
-    "taiwans.tw",
-    "AlmostMy.COM",
-    "medicare.tw"
-  ],
   "weight": 0.0,
   "signatures": [
-    "b0fd4d5fb6d8acb1ccfb54d53c08f11f",
-    "5efc35315e87fdc67dada06fb700a8c7",
-    "5c887a31fb4713e17c5dda9d78aab9fe",
+    "525fd346b9511a84bbe26eb47b845d89",
     "d9940a3da42eb2bb8e19a84235d86e91",
     "be1d972819e0c5bf80bf1691cc563400",
-    "454c9960e89d02e4922245efb8ef6b49",
+    "b0fd4d5fb6d8acb1ccfb54d53c08f11f",
     "6cd1bf0e8adcc7208b82e1506efdba8d",
-    "c4de3fea790f8ff6452016db5d7aa33f",
-    "525fd346b9511a84bbe26eb47b845d89",
-    "811aae1a66f6a2722849333293cbf9cd",
+    "5c887a31fb4713e17c5dda9d78aab9fe",
+    "5efc35315e87fdc67dada06fb700a8c7",
     "bc69a262bcd418d194ce2aac7da47286",
-    "http://www.cybersquared.com/apt_targetedattacks_within_socialmedia/"
+    "c4de3fea790f8ff6452016db5d7aa33f",
+    "454c9960e89d02e4922245efb8ef6b49",
+    "811aae1a66f6a2722849333293cbf9cd"
   ]
 }

@@ -1,15 +1,10 @@
 {
-  "rule_id": 599,
+  "rule_id": 555,
   "name": "GData_Uroburos_RedPaper_EN_v1",
-  "description": "-",
   "references": [],
-  "samples": ["inj_snake_Win64.dll", "inj_services_Win32.dll", "vstor32.sys"],
   "weight": 0.0,
   "signatures": [
     "320F4E6EE421C1616BD058E73CFEA282",
-    "BF1CFC65B78F5222D35DC3BD2F0A87C9798BCE5A48348649DD271CE395656341",
-    "HKLM\\System\\CurrentControlSet\\Services\\Ultra3 ",
-    "http://%s/default.asp",
-    "http://www.mspaintadventures.com/?s=6"
+    "BF1CFC65B78F5222D35DC3BD2F0A87C9798BCE5A48348649DD271CE395656341"
   ]
 }

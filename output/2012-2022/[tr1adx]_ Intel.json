@@ -1,17 +1,27 @@
 {
-  "rule_id": 39,
+  "rule_id": 38,
   "name": "[tr1adx]_ Intel",
-  "description": "-",
   "references": [],
-  "samples": [
-    "webmail.mil",
-    "00003.html",
-    "af.mil",
-    "minpal.gob",
-    "jica.go",
-    "mofa.go",
-    "army.mil"
-  ],
   "weight": 0.0,
-  "signatures": ["https://www.tr1adx.net/intel/TIB-00003.html"]
+  "signatures": [
+    "news.com",
+    "eastreview.com",
+    "defenceinform.com",
+    "mil.dk",
+    "army.us",
+    "easterview.com",
+    "review.com",
+    "mia.com",
+    "jp.com",
+    "ns2.afceaint.org",
+    "dpko.info",
+    "nevvs.org",
+    "ns1.afceaint.org",
+    "icisleri.com",
+    "unausanyc.com",
+    "afceaint.org",
+    "ausa.info",
+    "jp.biz",
+    "gov.in"
+  ]
 }

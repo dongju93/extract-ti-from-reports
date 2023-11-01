@@ -1,44 +1,11 @@
 {
-  "rule_id": 749,
+  "rule_id": 690,
   "name": "threat-identification",
-  "description": "-",
   "references": [],
-  "samples": [
-    "k1997.no",
-    "x64.me",
-    "www.crn",
-    "8112.html",
-    "xheemax.no",
-    "t51664.html",
-    "xheemax.html",
-    "groups.htm"
-  ],
   "weight": 0.0,
   "signatures": [
     "3616af88323a25786b8da40641798fc1569b678f84ed6520035941066724682d",
-    "https://totalhash.cymru.com/network/dnsrr:xheemax.no-ip.info",
-    "https://nmap.org/",
-    "http://curl.haxx.se/",
-    "http://www.eweek.com/security/how-do-booters-work-inside-a-ddos-for-hire-attack",
-    "http://www.crn.com/news/security/240160369/poison-ivy-attack-toolkit-with-ties-to-china-linked-to-other-hacking-groups.htm",
-    "http://forum.malekal.com/xtremerat-campagne-mails-",
-    "http://www.darkreading.com/over-90-arrested-in-global-fbi-crackdown-on-blackshades-rat/d/d-id/1252912",
-    "https://cryptosuite.org/forums/17093xheemax.html",
-    "http://t.co/BJAAPAaS9u)",
-    "http://www.netresec.com/?page=Blog&month=2014-11&post=Observing-the-Havex-RAT",
-    "http://contagiodump.blogspot.com/2013/04/collection-of-pcap-files-from-malware.html",
-    "https://www.securityweek.com/attackers-using-havex-rat-against-industrial-control-systems",
-    "http://t.co/BJAAPAaS9u).",
-    "http://www.secdev.org/projects/scapy/",
-    "http://www.reddit.com/r/hacking/comments/2acwpb/how_to_setup_dark_comet_rat_with_download_and/",
-    "https://www.shodan.io/",
-    "http://raidforums.com/showthread.php?tid=27",
-    "http://pastebin.com/cU4WX0hs",
-    "http://pastebin.com/xLTfgmrD",
-    "http://pastebin.com/F6KnVR1q",
-    "http://pastebin.com/tGT0nEvT",
-    "http://pastebin.com/2kGEjivz",
-    "https://fuckav.ru/archive/index.php/t-8112.html",
-    "http://sectools.org/tool/unicornscan/"
+    "yobrohasan.ddns.net",
+    "powerstresser.com"
   ]
 }

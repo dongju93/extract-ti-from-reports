@@ -1,26 +1,28 @@
 {
-  "rule_id": 421,
+  "rule_id": 388,
   "name": "operation-poisoned-helmand",
-  "description": "-",
   "references": [],
-  "samples": [
-    "j.js",
-    "dbgeng.dll",
-    "cert.yara",
-    "Readme.txt",
-    "icon35.png",
-    "www.news",
-    "jre7.java",
-    "java.jar"
-  ],
   "weight": 0.0,
   "signatures": [
     "72D72DC1BBA4C5EBC3D6E02F7B446114A3C58EAB",
-    "2068260601D60F07829EE0CEDF5A9C636CDB1765",
     "5C8683E3523C7FA81A0166D7D127616B06334E8D",
+    "ADC162DD909283097E72FC50B7AB0E04AB8A2BCC",
     "E2D93ABC4C5EDE41CAF1C0D751A329B884D732A2",
     "388E6F41462774268491D1F121F333618C6A2C9A",
-    "ADC162DD909283097E72FC50B7AB0E04AB8A2BCC",
-    "http://update.javaplug-in.com/o/j.js><\\/script>"
+    "2068260601D60F07829EE0CEDF5A9C636CDB1765",
+    "cdn.afghanistan.af",
+    "moe.gov.af",
+    "moj.gov.af",
+    "www.news.cn",
+    "canberra.afghanistan.af",
+    "mof.gov.af",
+    "oaacoms.gov.af",
+    "se.com",
+    "triton.co.jp",
+    "in.com",
+    "moci.gov.af",
+    "mfa.gov.af",
+    "herat.gov.af",
+    "mowa.gov.af"
   ]
 }

@@ -1,26 +1,10 @@
 {
-  "rule_id": 501,
+  "rule_id": 463,
   "name": "OceanLotus",
-  "description": "-",
   "references": [],
-  "samples": [
-    "rasman.exe",
-    "CoolType.dll",
-    "MSVCR80.dll",
-    "m.zip",
-    "MSVCP80.dll",
-    "AGM.dll",
-    "ACE.dll",
-    "rasman.dll",
-    "L.dll",
-    "BIB.dll",
-    "pham.docx",
-    "Rasman.exe"
-  ],
   "weight": 0.0,
   "signatures": [
     "0dd468ee3a4ec0f6f84473bd8428a1e1",
-    "b28c80ca9a3b7deb09b275af1076eb55",
-    "https://ti.qianxin.com/blog/articles/english-version-of-new-approaches-utilized-by-oceanLotus-to-target-vietnamese-environmentalist/"
+    "b28c80ca9a3b7deb09b275af1076eb55"
   ]
 }

@@ -1,15 +1,7 @@
 {
-  "rule_id": 272,
+  "rule_id": 255,
   "name": "The-Kittens-are-Back-in-Town-3",
-  "description": "-",
   "references": [],
-  "samples": [
-    "phishing.html",
-    "akademie.dw",
-    "lgntopl.gif",
-    "citizenlab.ca",
-    "haifa.ac"
-  ],
   "weight": 0.0,
-  "signatures": ["https://developers.google.com/identity/protocols/OAuth2"]
+  "signatures": ["dw.de", "akademie.dw.de"]
 }

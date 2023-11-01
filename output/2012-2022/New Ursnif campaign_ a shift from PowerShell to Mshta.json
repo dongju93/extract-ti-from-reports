@@ -1,22 +1,14 @@
 {
-  "rule_id": 562,
+  "rule_id": 521,
   "name": "New Ursnif campaign_ a shift from PowerShell to Mshta",
-  "description": "-",
   "references": [],
-  "samples": [
-    "zoak2.cab",
-    "zoak4.cab",
-    "Mshta.exe",
-    "index.dll",
-    "Index.dll",
-    "info_03_24.doc",
-    "zoak6.cab",
-    "targen.php"
-  ],
   "weight": 0.0,
   "signatures": [
     "8212E2522300EF99B03DFA18437FCA40",
-    "HKEY_CURRENT_USER\\\\Software\\\\test1\\\\mykey”",
-    "https://www.zscaler.com/blogs/research/new-ursnif-campaign-shift-powershell-mshta"
+    "gandael6.com",
+    "chersoicryss.com",
+    "docs.googleusercontent.com",
+    "grumnoud.com",
+    "xolzrorth.com"
   ]
 }

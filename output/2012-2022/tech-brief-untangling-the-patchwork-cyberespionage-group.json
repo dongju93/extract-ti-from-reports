@@ -1,0 +1,21 @@
+{
+  "rule_id": 422,
+  "name": "tech-brief-untangling-the-patchwork-cyberespionage-group",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "secure.163.com.neteease.com",
+    "accounts.login.yahoomail.support",
+    "militaryreviews.net",
+    "rannd.org",
+    "yahoomail.support",
+    "188.165.124.30",
+    "209.58.185.35",
+    "byuehf8af.php",
+    "qzonecn.com",
+    "mial.163.com",
+    "euuwebmail.com",
+    "neteease.com",
+    "accounts.login.googlemail.support"
+  ]
+}

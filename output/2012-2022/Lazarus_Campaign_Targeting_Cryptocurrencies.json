@@ -1,15 +1,7 @@
 {
-  "rule_id": 747,
+  "rule_id": 688,
   "name": "Lazarus_Campaign_Targeting_Cryptocurrencies",
-  "description": "-",
   "references": ["CVE-2017-9791"],
-  "samples": [
-    "DLOADR.ZAEL",
-    "DLOADER.ZBEL",
-    "DLOADR.ZBEL",
-    "RATANKBA.ZAEL",
-    "DLOADER.ZCEL"
-  ],
   "weight": 0.0,
   "signatures": [
     "10cbb5d0974af08b5d4aa9c753e274a81348da9f8bfcaa5193fad08b79650cda",

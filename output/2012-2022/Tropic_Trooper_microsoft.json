@@ -1,14 +1,15 @@
 {
-  "rule_id": 267,
+  "rule_id": 251,
   "name": "Tropic_Trooper_microsoft",
-  "description": "-",
   "references": [],
-  "samples": ["fY.exe", "bitsadmin.exe"],
   "weight": 0.0,
   "signatures": [
+    "073884caf7df8dafc225567f9065bbf9bf8e5beef923655d45fe5b63c6b6018c",
     "9adfc863501b4c502fdac0d97e654541c7355316f1d1663b26a9aaa5b5e722d6",
     "1aef46dcbf9f0b5ff548f492685d488c7ac514a24e63a4d3ed119bfdbd39c908",
-    "073884caf7df8dafc225567f9065bbf9bf8e5beef923655d45fe5b63c6b6018c",
-    "5589544be7f826df87f69a84abf478474b6eef79b48b914545136290fee840fe"
+    "5589544be7f826df87f69a84abf478474b6eef79b48b914545136290fee840fe",
+    "lovehaytyuio09.com",
+    "45.122.138",
+    "199.192.23.231"
   ]
 }

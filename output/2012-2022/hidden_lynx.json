@@ -1,40 +1,7 @@
 {
-  "rule_id": 898,
+  "rule_id": 824,
   "name": "hidden_lynx",
-  "description": "-",
   "references": ["CVE-2012-1875"],
-  "samples": [
-    "task.WHO",
-    "uid.ax",
-    "org.tw",
-    "AC.pdf",
-    "blogspot.ie",
-    "MightDev.jar",
-    "p.ax",
-    "www.tade",
-    "Trojan.Naid",
-    "Backdoor.Boda",
-    "hk166.cqbi",
-    "www.cio",
-    "s.ax"
-  ],
   "weight": 0.0,
-  "signatures": [
-    "6fe1634dce1d095d6b8a06757b5b6041",
-    "http://blogs.rsa.com/wp-content/uploads/VOHO_WP_FINAL_READY-FOR-Publication-09242012_AC.pdf",
-    "http://www.wsdhealthy.com",
-    "http://ansky.hk166.cqbi.com",
-    "http://www.gnnet.co.kr",
-    "http://www.torontocurling.com",
-    "http://www.k-sho.co.jp",
-    "http://www.tade.org.tw",
-    "http://googleblog.blogspot.ie/2010/01/new-approach-to-china.html",
-    "http://www.finesis.jp",
-    "http://www.villagemania.it",
-    "http://www.cio.com/article/732122/_Aurora_Cyber_Attackers_Were_Really_Running_Counter_Intelligence",
-    "https://blog.bit9.com/2013/02/25/bit9-security-incident-update/",
-    "http://www.infowar-monitor.net/2009/09/tracking-ghostnet-investigating-a-cyber-espionage-network/",
-    "http://%ls:%d/%x",
-    "http://www.gothamcenter.org"
-  ]
+  "signatures": ["6fe1634dce1d095d6b8a06757b5b6041"]
 }

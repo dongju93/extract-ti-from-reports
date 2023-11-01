@@ -1,0 +1,19 @@
+{
+  "rule_id": 389,
+  "name": "On the StrongPity Waterhole Attacks - Securelist",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "winrar.be",
+    "winrar.it",
+    "tamindir.com",
+    "Winrar.be",
+    "rarlab.com",
+    "crypt.com",
+    "www.winrar.it",
+    "rarlrab.com",
+    "gezginler.net",
+    "ralrab.com",
+    "www.ralrab.com"
+  ]
+}

@@ -1,11 +1,15 @@
 {
-  "rule_id": 380,
+  "rule_id": 348,
   "name": "BlackTDS",
-  "description": "-",
   "references": [],
-  "samples": [],
   "weight": 0.0,
   "signatures": [
-    "6a207ea9d9e60a9bc9de7b1c2b87e06fa85ac31cbbf8c69e1627408c8f3d2b7f"
+    "6a207ea9d9e60a9bc9de7b1c2b87e06fa85ac31cbbf8c69e1627408c8f3d2b7f",
+    "en.sundayloop.com",
+    "46.30.45.78",
+    "88.99.48.65",
+    "blacktds.cf",
+    "blacktds.com",
+    "193.70.73.251"
   ]
 }

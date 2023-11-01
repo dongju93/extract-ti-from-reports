@@ -1,25 +1,10 @@
 {
-  "rule_id": 96,
+  "rule_id": 92,
   "name": "unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east",
-  "description": "-",
   "references": [],
-  "samples": [
-    "APPCMD.EXE",
-    "RGDoor.Gen",
-    "sharer.php",
-    "iishandler6.dll",
-    "HTTPParser.dll",
-    "cHandler.dll",
-    "bb757040.aspx"
-  ],
   "weight": 0.0,
   "signatures": [
     "497e6965120a7ca6644da9b8291c65901e78d302139d221fcf0a3ec6c5cf9de3",
-    "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa",
-    "https://autofocus.paloaltonetworks.com/",
-    "https://www.paloaltonetworks.com/legal-notices/privacy)",
-    "https://ignite.paloaltonetworks.com/usa/?",
-    "https://www.paloaltonetworks.com/security-disclosure)",
-    "https://www.paloaltonetworks.com/legal-notices/terms-of-use)"
+    "a9c92b29ee05c1522715c7a2f9c543740b60e36373cb47b5620b1f3d8ad96bfa"
   ]
 }

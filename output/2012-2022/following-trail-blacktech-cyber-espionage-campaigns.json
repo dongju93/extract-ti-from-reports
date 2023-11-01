@@ -1,0 +1,13 @@
+{
+  "rule_id": 112,
+  "name": "following-trail-blacktech-cyber-espionage-campaigns",
+  "references": ["CVE-2017-5638", "CVE-2017-7269", "CVE-2014-6352"],
+  "weight": 0.0,
+  "signatures": [
+    "microsoftmse.com",
+    "242.120",
+    "211.72.242.120",
+    "211.72",
+    "itaiwans.com"
+  ]
+}

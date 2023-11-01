@@ -1,35 +1,14 @@
 {
-  "rule_id": 192,
+  "rule_id": 187,
   "name": "BITTER APT_ Not So Sweet",
-  "description": "-",
   "references": [],
-  "samples": [
-    "advrt.exe",
-    "v.php",
-    "Any.Run",
-    "biocons.pk",
-    "svc.php",
-    "ReportsTableRegular.doc",
-    "lsasw.exe",
-    "portal.msrc",
-    "reportstableregular.doc",
-    "wehs.exe",
-    "App.Any",
-    "ctf.exe",
-    "suo.exe",
-    "sweet.html",
-    "intelx.exe"
-  ],
   "weight": 0.0,
   "signatures": [
-    "72eb6896fa9326f38d3745cc442611dc",
     "eec2828cb4a9032ab1177bb472f1977b",
-    "137867e159331b7a968aa45050502d13",
-    "3964665ec90decc41c7c38b42c5a7ce7",
-    "73c297f059dd94671ca4e4c7dbfa6241",
+    "72eb6896fa9326f38d3745cc442611dc",
     "66b3039067e4f7b8ad1b3166b5dbcacf",
-    "https://www.anomali.com/blog/suspected-bitter-apt-continues-targeting-government-of-",
-    "https://meltx0r.github.io/tech/2019/09/06/bitter-apt-not-so-sweet.html",
-    "https://cert.360.cn/report/detail?id=137867e159331b7a968aa45050502d13"
+    "137867e159331b7a968aa45050502d13",
+    "73c297f059dd94671ca4e4c7dbfa6241",
+    "3964665ec90decc41c7c38b42c5a7ce7"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "rule_id": 582,
+  "name": "rpt-apt38-2018-web_v4",
+  "references": ["CVE-2016-4119"],
+  "weight": 0.0,
+  "signatures": ["cnbv.gob.mx", "onlink.epac.to", "knf.gov.pl"]
+}

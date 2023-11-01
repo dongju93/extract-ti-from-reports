@@ -1,24 +1,7 @@
 {
-  "rule_id": 178,
+  "rule_id": 172,
   "name": "DarkPulsar",
-  "description": "-",
   "references": [],
-  "samples": [
-    "version.fb",
-    "sipauth32.tsp",
-    "version.xml",
-    "9.xml",
-    "0.exe",
-    "Kerberos.dll",
-    "Msv1_0.dll",
-    "version.exe",
-    "Schannel.dll",
-    "Wdigest.dll",
-    "Lsasrv.dll"
-  ],
   "weight": 0.0,
-  "signatures": [
-    "96f10cfa6ba24c9ecd08aa6d37993fe4",
-    "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Telephony\\Providers"
-  ]
+  "signatures": ["96f10cfa6ba24c9ecd08aa6d37993fe4"]
 }

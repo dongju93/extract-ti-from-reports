@@ -1,25 +1,19 @@
 {
-  "rule_id": 806,
+  "rule_id": 738,
   "name": "NetTraveler_Makeover_10th_Birthday",
-  "description": "-",
   "references": [],
-  "samples": [
-    "Trojan.BAT",
-    "TODAYNIC.COM",
-    "ashkarilanmaqta.doc",
-    "Windowsupdataney.dll",
-    "TravNet.qfr",
-    "0158.db",
-    "DOT.BAT",
-    "Agent.lifr",
-    "WINDOWSUPDATANEY.DLL"
-  ],
   "weight": 0.0,
   "signatures": [
     "c13c79ad874215cfec8d318468e3d116",
     "b2385963d3afece16bd7478b4cf290ce",
-    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata\\Parameters",
-    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost",
-    "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Windowsupdata"
+    "samedone.com",
+    "husden.com",
+    "uyghurinfo.com",
+    "gobackto.net",
+    "worksware.net",
+    "jojomic.com",
+    "angellost.net",
+    "uygurinfo.com",
+    "ssdcru.com"
   ]
 }

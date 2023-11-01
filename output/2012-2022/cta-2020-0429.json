@@ -1,0 +1,26 @@
+{
+  "rule_id": 157,
+  "name": "cta-2020-0429",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "hkleaks.org",
+    "tw.com",
+    "hkleaks.pk",
+    "hkleaks.kz",
+    "tw.facebook.com",
+    "hkleaks.af",
+    "hkleaks.dog",
+    "hkleaker.net",
+    "hongkongmob.com",
+    "hkleaks.ml",
+    "185.178.208.149",
+    "185.178.208.143",
+    "hkleaks.news",
+    "hkleaks.ru",
+    "hkleaks.kg",
+    "hkleaks.tj",
+    "hkleaks.me",
+    "jophk.com"
+  ]
+}

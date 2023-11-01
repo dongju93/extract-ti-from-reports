@@ -1,23 +1,10 @@
 {
-  "rule_id": 476,
+  "rule_id": 437,
   "name": "Mikroceen_ Spying backdoor leveraged in high‑profile networks in Central Asia _ WeLiveSecurity",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "Agent.NE",
-    "ST.TMP",
-    "pcaudit.dll",
-    "7B296FB0.CAB",
-    "5E8C6FF0.CAB",
-    "i.CSY"
-  ],
+  "references": ["T1030", "T1103"],
   "weight": 0.0,
   "signatures": [
     "7771e1738fc2e4de210ac06a5e62c534",
-    "383a2d8f421ad2f243cbc142e9715c78f867a114b037626c2097cb3e070f67d6",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceMain /t REG_SZ /d NtHelpServiceMain",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDll /t REG_EXPAND_SZ /d %SystemRoot%\\Sys‐",
-    "HKLM\\SYSTEM\\CurrentControlSet\\Services\\PCAudit\\Parameters /v ServiceDllUnloadOnStop /t REG_DWORD /d 1",
-    "https://yuemt.zzux.com:443,"
+    "383a2d8f421ad2f243cbc142e9715c78f867a114b037626c2097cb3e070f67d6"
   ]
 }

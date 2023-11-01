@@ -1,9 +1,15 @@
 {
-  "rule_id": 339,
+  "rule_id": 314,
   "name": "PoriewSpy.India",
-  "description": "-",
   "references": [],
-  "samples": ["PORIEWSPY.HRX", "google.sec"],
   "weight": 0.0,
-  "signatures": ["http://mylocation.org"]
+  "signatures": [
+    "93.104.213.217",
+    "62.4.2.211",
+    "5.189.145.248",
+    "5.189.137.8",
+    "88.150.227.71",
+    "74.208.102.80",
+    "draagon.ddns.net"
+  ]
 }

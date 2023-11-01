@@ -1,9 +1,7 @@
 {
-  "rule_id": 367,
+  "rule_id": 337,
   "name": "PawnStorm_iOS",
-  "description": "-",
   "references": [],
-  "samples": [],
   "weight": 0.0,
   "signatures": [
     "30e4decd68808cb607c2aba4aa69fb5fdb598c64",

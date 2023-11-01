@@ -1,12 +1,13 @@
 {
-  "rule_id": 921,
+  "rule_id": 845,
   "name": "cta-2018-0509",
-  "description": "-",
   "references": [],
-  "samples": ["Gerdab.ir", "Khamanei.ir", "Parsijoo.ir"],
   "weight": 0.0,
   "signatures": [
-    "http://www.zone-h.org/mirror/id/4479919",
-    "http://hackingscripts.com/simattacker-shell/"
+    "144.76.87.86",
+    "5.144.130.23",
+    "ravand.com",
+    "ins.ir",
+    "canada.com"
   ]
 }

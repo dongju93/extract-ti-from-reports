@@ -1,29 +1,14 @@
 {
-  "rule_id": 933,
+  "rule_id": 854,
   "name": "Tibet_Lurk",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "MDROP.TPC",
-    "program.xls",
-    "dnsd.me",
-    "thFinal.doc",
-    "iexplore.lnk",
-    "IconConfigEt.DAT",
-    "MDROP.TPB",
-    "IconCacheEt.DAT",
-    "plan.xlsx",
-    "CREATELINK.EXE",
-    "set.xls"
-  ],
+  "references": ["T706", "T801"],
   "weight": 0.0,
   "signatures": [
-    "f2a0787388dd6373336b3f23f204524a",
-    "58f6922dedb0d43c4478a4f38ad08620",
-    "0fe550a5d1187d38984c505ef7741638",
     "16160a6a9b905c69cb8e92c319212980",
-    "971f99af0f9df674a79507ed7b3010fb",
     "1c22ee3326affee30c3fa65f0b8413d5",
-    "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\DbxUpdateET\\ "
+    "971f99af0f9df674a79507ed7b3010fb",
+    "0fe550a5d1187d38984c505ef7741638",
+    "58f6922dedb0d43c4478a4f38ad08620",
+    "f2a0787388dd6373336b3f23f204524a"
   ]
 }

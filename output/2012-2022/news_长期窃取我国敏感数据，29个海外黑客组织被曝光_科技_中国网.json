@@ -1,9 +1,0 @@
-{
-  "rule_id": 762,
-  "name": "news_长期窃取我国敏感数据，29个海外黑客组织被曝光_科技_中国网",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": ["http://tech.china.com.cn/internet/20160119/216749.shtml"]
-}

@@ -1,39 +1,7 @@
 {
-  "rule_id": 963,
+  "rule_id": 880,
   "name": "dissecting-operation-troy",
-  "description": "-",
   "references": [],
-  "samples": [
-    "christkingchurch.us",
-    "HTTPSecurityProvider.dll",
-    "strider.pe",
-    "payload32.dll",
-    "dochang.pe",
-    "ld.dll",
-    "Main.EXE",
-    "Dochang.pe",
-    "BD_Installer_2010.pdb",
-    "Hanja.edu",
-    "SUpdate.exe",
-    "take.chu",
-    "81923.dll",
-    "Payload.dll",
-    "chonanship.scr",
-    "seung.us",
-    "HttpSecurityProvider.pdb",
-    "AhnlabUpdate.exe",
-    "BsDll.pdb",
-    "HttpDropper.pdb",
-    "payload64.dll",
-    "sarangbang.us",
-    "RunCmd.exe",
-    "ERC6C8.tmp",
-    "Troy.pdb",
-    "Bs.dll"
-  ],
   "weight": 0.0,
-  "signatures": [
-    "f0e045210e3258dad91d7b6b4d64e7f3",
-    "http://www.wischik.com/lu/programmer/zip_utils.html"
-  ]
+  "signatures": ["f0e045210e3258dad91d7b6b4d64e7f3"]
 }

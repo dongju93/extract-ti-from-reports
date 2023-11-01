@@ -1,16 +1,13 @@
 {
-  "rule_id": 994,
+  "rule_id": 908,
   "name": "indian-organizations-targeted-suckfly-attacks",
-  "description": "-",
   "references": [],
-  "samples": ["mail.zgsj", "kumar.pari", "Trojan.Zbot"],
   "weight": 0.0,
   "signatures": [
-    "https://t.co/lex8o841gk",
-    "https://t.co/GqLWgvOAeS",
-    "https://t.co/T0SScgpzRY",
-    "https://t.co/6IpUzfB2DR",
-    "https://t.co/kVgdlsEjVz",
-    "https://t.co/kj0AY7N3W8"
+    "quicca.com",
+    "ssl.2upgrades.com",
+    "aux.robertstockdill.com",
+    "mail.zgsj.com",
+    "bss.pvtcdn.com"
   ]
 }

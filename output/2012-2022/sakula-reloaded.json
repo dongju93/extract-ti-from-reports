@@ -1,0 +1,12 @@
+{
+  "rule_id": 992,
+  "name": "sakula-reloaded",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "capstone.homeftp.net",
+    "webmail.vipreclod.com",
+    "cdn.sanecat.com",
+    "www.cbppnews.com"
+  ]
+}

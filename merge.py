@@ -26,7 +26,7 @@ def sort_by_rule_id(data):
     return sorted(data, key=lambda x: x.get("rule_id", float("inf")))
 
 
-directory_path = output_path + "excel_to_json/"
+directory_path = json_path
 merged_data = merge_json_files(directory_path)
 sorted_data = sort_by_rule_id(merged_data)
 

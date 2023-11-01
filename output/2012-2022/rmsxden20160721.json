@@ -1,36 +1,11 @@
 {
-  "rule_id": 264,
+  "rule_id": 248,
   "name": "rmsxden20160721",
-  "description": "-",
   "references": [],
-  "samples": [
-    "isleaks.rar",
-    "israelleaks.is",
-    "00002718.html",
-    "Zcore.dll",
-    "regev.il",
-    "ف.pdf",
-    "control.pdf",
-    "tax.pdf",
-    "gendarme.dll",
-    "Chaser.pdf",
-    "Plgcmd.dll",
-    "jerques.dll",
-    "כדע.pdf",
-    "لا.pdf",
-    "OceanLotusReport.pdf",
-    "Adobe.pdf",
-    "Palestine.pdf",
-    "Israe.Army",
-    "Plgcomm.dll",
-    "File1.pdf"
-  ],
   "weight": 0.0,
   "signatures": [
-    "c80b3fb9293a932b4e814a32e7ca76d3",
     "52f461a133e95328ccd9ba7f70e2f3e6",
-    "1e4ed1704e31917f8652aa0078a85459",
-    "https://ti.360.com/upload/report/file/OceanLotusReport.pdf",
-    "https://www.f-secure.com/weblog/archives/00002718.html"
+    "c80b3fb9293a932b4e814a32e7ca76d3",
+    "1e4ed1704e31917f8652aa0078a85459"
   ]
 }

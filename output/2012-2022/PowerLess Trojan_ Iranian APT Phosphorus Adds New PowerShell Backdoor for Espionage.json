@@ -1,20 +1,7 @@
 {
-  "rule_id": 703,
+  "rule_id": 651,
   "name": "PowerLess Trojan_ Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage",
-  "description": "-",
   "references": [],
-  "samples": [
-    "cup.tmp",
-    "Comsvcs.dll",
-    "Dll.dll",
-    "F.exe",
-    "PowerLessCLR.pdb",
-    "Connector3.exe",
-    "WindowsProcesses.exe",
-    "Sou.exe"
-  ],
   "weight": 0.0,
-  "signatures": [
-    "https://www.cybereason.com/blog/powerless-trojan-iranian-apt-phosphorus-adds-new-powershell-backdoor-for-espionage"
-  ]
+  "signatures": ["srv.ml", "91.214.124.143", "162.55.136.20", "148.251.71.182"]
 }

@@ -1,12 +1,7 @@
 {
-  "rule_id": 836,
+  "rule_id": 767,
   "name": "Inception_APT_Analysis_Bluecoat",
-  "description": "-",
   "references": [],
-  "samples": ["dropped.dll", "Rg.vbs", "wmiprvse.dll"],
   "weight": 0.0,
-  "signatures": [
-    "4a4874fa5217a8523bf4d1954efb26ef",
-    "https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-"
-  ]
+  "signatures": ["4a4874fa5217a8523bf4d1954efb26ef"]
 }

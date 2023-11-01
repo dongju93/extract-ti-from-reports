@@ -1,0 +1,13 @@
+{
+  "rule_id": 679,
+  "name": "cyber-espionage-apt32",
+  "references": [],
+  "weight": 0.0,
+  "signatures": [
+    "yii.yiihao126.net",
+    "blog.panggin.org",
+    "images.chinabytes.info",
+    "80.255.3.87",
+    "share.codehao.net"
+  ]
+}

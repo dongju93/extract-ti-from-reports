@@ -1,9 +1,0 @@
-{
-  "rule_id": 945,
-  "name": "NetTraveler Spear-Phishing Email Targets Diplomat of Uzbekistan - Palo Alto Networks BlogPalo Alto Networks Blog",
-  "description": "-",
-  "references": [],
-  "samples": [],
-  "weight": 0.0,
-  "signatures": ["http://indianexpress.com/article/business/business"]
-}

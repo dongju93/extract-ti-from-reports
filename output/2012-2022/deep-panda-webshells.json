@@ -1,19 +1,10 @@
 {
-  "rule_id": 790,
+  "rule_id": 723,
   "name": "deep-panda-webshells",
-  "description": "-",
   "references": [],
-  "samples": [
-    "showimage.asp",
-    "temp.bin",
-    "showimg.asp",
-    "Showimg.asp",
-    "DateTime.Now"
-  ],
   "weight": 0.0,
   "signatures": [
-    "ffa82c64720179878b25793f17b304d7",
     "cc875db104a602e6c12196fe90559fb6",
-    "http://<webserver>/showimage.asp*=%52%65%73%70%6F%"
+    "ffa82c64720179878b25793f17b304d7"
   ]
 }

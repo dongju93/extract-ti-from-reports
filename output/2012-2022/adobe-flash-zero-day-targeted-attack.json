@@ -1,13 +1,16 @@
 {
-  "rule_id": 394,
+  "rule_id": 363,
   "name": "adobe-flash-zero-day-targeted-attack",
-  "description": "-",
   "references": ["CVE-2018-5002"],
-  "samples": ["d.png", "ا.xlsx", "crt.sh"],
   "weight": 0.0,
   "signatures": [
-    "0b4f0d8d57fd1cb9b4408013aa7fe5986339ce66ad09c941e76626b5d872e0b5",
     "6535abc68a777b82b8dca49ffbf2d80af7491e76020028a3e18186e1cad02abe",
-    "https://crt.sh/?"
+    "0b4f0d8d57fd1cb9b4408013aa7fe5986339ce66ad09c941e76626b5d872e0b5",
+    "bayt.com",
+    "abelons.com",
+    "people.dohabayt.com",
+    "internationsplanet.com",
+    "185.145.128.57",
+    "dohabayt.com"
   ]
 }

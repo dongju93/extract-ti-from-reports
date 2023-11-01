@@ -1,9 +1,0 @@
-{
-  "rule_id": 617,
-  "name": "(Chinese)rmshixdAPT-C-15-20160630",
-  "description": "-",
-  "references": [],
-  "samples": ["程.pdf", "个人所得税更新.pdf", "的汽车炸弹.pdf", "者.pdf"],
-  "weight": 0.0,
-  "signatures": ["https://ww"]
-}

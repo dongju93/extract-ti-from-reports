@@ -1,9 +1,7 @@
 {
-  "rule_id": 478,
+  "rule_id": 440,
   "name": "Unraveling the Lamberts Toolkit",
-  "description": "-",
   "references": [],
-  "samples": ["winlib.dll", "hdmsvc.exe", "poolstr.dll", "mwapi32.dll"],
   "weight": 0.0,
   "signatures": [
     "79e263f78e69110c09642bbb30f09ace",

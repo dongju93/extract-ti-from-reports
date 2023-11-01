@@ -1,23 +1,7 @@
 {
-  "rule_id": 465,
+  "rule_id": 428,
   "name": "darkhotelappendixindicators_kl",
-  "description": "-",
   "references": [],
-  "samples": [
-    "dmaUp3.exe",
-    "ndIsKpro.sYs",
-    "aYagent.aye",
-    "uiWinmgr.exe",
-    "rsmgrsvr.exe",
-    "Ltray.exe",
-    "messages.pps",
-    "nVcagent.npc",
-    "agent.xwge"
-  ],
   "weight": 0.0,
-  "signatures": [
-    "3961caB50c32e8f32fe45836B9715ce5",
-    "http://tools.cisco.com/security/center/viewthreatoutbreakalert.x?alert",
-    "http://<c2domaIn>/bin/read_i.php"
-  ]
+  "signatures": ["3961caB50c32e8f32fe45836B9715ce5"]
 }

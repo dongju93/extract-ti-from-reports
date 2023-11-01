@@ -1,9 +1,7 @@
 {
-  "rule_id": 381,
+  "rule_id": 349,
   "name": "FTA 1008 - Darkseoul-Jokra Analysis and Recovery",
-  "description": "-",
   "references": [],
-  "samples": ["join.exe", "239ed75323.exe", "Clisvc.exe"],
   "weight": 0.0,
   "signatures": [
     "0a8032cd6b4a710b1771a080fa09fb87",

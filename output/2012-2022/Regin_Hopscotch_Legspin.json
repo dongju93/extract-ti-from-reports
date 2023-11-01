@@ -1,14 +1,11 @@
 {
-  "rule_id": 372,
+  "rule_id": 342,
   "name": "Regin_Hopscotch_Legspin",
-  "description": "-",
   "references": [],
-  "samples": ["gdi32.dll", "tracert.exe"],
   "weight": 0.0,
   "signatures": [
     "6c34031d7a5fc2b091b623981a8ae61c",
     "42eaf2ab25c9ead201f25ecbdc96fb60",
-    "29105f46e4d33f66fee346cfd099d1cc",
-    "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] System "
+    "29105f46e4d33f66fee346cfd099d1cc"
   ]
 }

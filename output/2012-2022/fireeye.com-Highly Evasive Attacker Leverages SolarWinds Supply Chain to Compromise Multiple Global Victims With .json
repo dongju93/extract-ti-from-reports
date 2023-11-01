@@ -1,27 +1,13 @@
 {
-  "rule_id": 832,
+  "rule_id": 763,
   "name": "fireeye.com-Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With ",
-  "description": "-",
   "references": [],
-  "samples": [
-    "businesslayerhost.exe",
-    "Hotfix5.msp",
-    "Orion.Core",
-    "api.eu",
-    "BusinessLayer.dll",
-    "BusinessLayerHost.exe",
-    "netsetupsvc.dll",
-    "BusinessLayerHostx64.exe",
-    "NetSetupSvc.dll",
-    "backdoor.html",
-    "api.us"
-  ],
   "weight": 0.0,
   "signatures": [
-    "02af7cec58b9a5da1c542b5a32151ba1",
     "b91ce2fa41029f6955bff20079468448",
-    "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Cryptography\\MachineGuid. The userID is encoded via a custom",
-    "HKU\\SOFTWARE\\Microsoft\\CTF exists,",
-    "HKLM\\SYSTEM\\CurrentControlSet\\services\\<service_name>\\Start registry entries to value 4 for disabled. Some"
+    "02af7cec58b9a5da1c542b5a32151ba1",
+    "1.avsvmcloud.com",
+    "downloads.solarwinds.com",
+    "2.avsvmcloud.com"
   ]
 }

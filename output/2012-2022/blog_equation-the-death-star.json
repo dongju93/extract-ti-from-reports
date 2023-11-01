@@ -1,14 +1,13 @@
 {
-  "rule_id": 595,
+  "rule_id": 552,
   "name": "blog_equation-the-death-star",
-  "description": "-",
   "references": [],
-  "samples": ["35661.pdf"],
   "weight": 0.0,
   "signatures": [
     "a2a9e948fb829685d0a9161cac845fd0dfa943d023a6b2faab205fa8664b7c26",
-    "http://spritesmods.com/?art=hddhack",
-    "http://www.spiegel.de/media/media-35661.pdf",
-    "http://www.extremetech.com/computing/133773-rakshasa-the-"
+    "ﬂiteilex.com",
+    "brittleﬁlet.com",
+    "coﬀeehausblog.com",
+    "conﬁg.getmyip.com"
   ]
 }

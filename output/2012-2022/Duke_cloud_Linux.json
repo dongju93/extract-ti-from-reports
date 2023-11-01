@@ -1,23 +1,12 @@
 {
-  "rule_id": 913,
+  "rule_id": 838,
   "name": "Duke_cloud_Linux",
-  "description": "-",
   "references": [],
-  "samples": [
-    "OneDrive.pdb",
-    "ntua.gr",
-    "5442.ZIP",
-    "Drop_v2.pdb",
-    "archive.php",
-    "co.th",
-    "cognimuse.cs",
-    "portal.sbn"
-  ],
   "weight": 0.0,
   "signatures": [
     "476099ea132bf16fa96a5f618cb44f87446e3b02",
-    "78fbdfa6ba2b1e3c8537be48d9efc0c47f417f3c",
+    "28d29c702fdf3c16f27b33f3e32687dd82185e8b",
     "e33e6346da14931735e73f544949a57377c6b4a0",
-    "28d29c702fdf3c16f27b33f3e32687dd82185e8b"
+    "78fbdfa6ba2b1e3c8537be48d9efc0c47f417f3c"
   ]
 }

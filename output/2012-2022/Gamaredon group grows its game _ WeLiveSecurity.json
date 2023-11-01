@@ -1,33 +1,11 @@
 {
-  "rule_id": 224,
+  "rule_id": 213,
   "name": "Gamaredon group grows its game _ WeLiveSecurity",
-  "description": "-",
-  "references": [],
-  "samples": [
-    "do.CA",
-    "myftp.biz",
-    "odo.YE",
-    "odo.ZM",
-    "inject.txt",
-    "REG.RU",
-    "Harvesterx64.dll",
-    "3.log",
-    "do.DP",
-    "gent.ARJ",
-    "5.log",
-    "1.log",
-    "4.log",
-    "odo.XG",
-    "odo.XC",
-    "2.log",
-    "do.CD"
-  ],
+  "references": ["T1500", "T1080", "T1221", "T1534", "T1137", "T1199"],
   "weight": 0.0,
   "signatures": [
-    "6F75F2490186225C922FE605953038BDEB537FEE",
     "DFC941F365E065187B5C4A4BF42E770035920856",
-    "941F341770B67F9E8EE811B4B8383101F35B27CD",
-    "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\VBAWarnings",
-    "HKCU\\Software\\Microsoft\\Office\\<version>\\<product>\\Security\\AccessVBOM"
+    "6F75F2490186225C922FE605953038BDEB537FEE",
+    "941F341770B67F9E8EE811B4B8383101F35B27CD"
   ]
 }

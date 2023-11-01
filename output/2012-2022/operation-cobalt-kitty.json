@@ -1,15 +1,13 @@
 {
-  "rule_id": 485,
+  "rule_id": 446,
   "name": "operation-cobalt-kitty",
-  "description": "-",
   "references": [],
-  "samples": ["searchindexer.exe", "info.dll", "searchprotoclhost.exe"],
   "weight": 0.0,
   "signatures": [
+    "691686839681adb345728806889925dc4eddb74e",
     "d30e8c7543adbc801d675068530b57d75cabb13f",
     "973b1ca8661be6651114edf29b10b31db4e218f7",
     "638b7b0536217c8923e856f4138d9caff7eb309d",
-    "3cf4b44c9470fb5bd0c16996c4b2a338502a7517",
-    "691686839681adb345728806889925dc4eddb74e"
+    "3cf4b44c9470fb5bd0c16996c4b2a338502a7517"
   ]
 }

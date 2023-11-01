@@ -1,24 +1,26 @@
 {
-  "rule_id": 970,
+  "rule_id": 886,
   "name": "Appendix_Spam_Campaign_Targets_Colombian_Entities_with_Custom_made_Proyecto_RAT_Uses_Email_Service_YOPmail_for_C&C",
-  "description": "-",
   "references": [],
-  "samples": [
-    "IMMONRAT.AA",
-    "PHISH.RFD",
-    "MALINK.AD",
-    "MALINK.AE",
-    "SM4.hp",
-    "SpoolColorLV.exe",
-    "SHADESRAT.AI",
-    "FYNLOSKI.AA",
-    "BOILOD.AA",
-    "TrojanSpy.MSIL",
-    "XRAT.AA",
-    "HPBLADABINDI.SMZ"
-  ],
   "weight": 0.0,
   "signatures": [
-    "https://www.bancopopular.com.co/cgi-bin/cgibbss.exe/CORE-Main%20Web/ND000_"
+    "pf.exe",
+    "a.jpg",
+    "eltiempocomco.com",
+    "144.202.19.31",
+    "perfect1.publicvm.com",
+    "diangovcomuiscia.com",
+    "medicosco.publicvm.com",
+    "www.davivienda.com",
+    "win.jpg",
+    "95.179.168.23",
+    "medicosempresa.com",
+    "medicosta.linkpc.net",
+    "confe.linkpc.net",
+    "cgibbss.exe",
+    "f.jpg",
+    "www.bancopopular.com.co",
+    "l.jpg",
+    "ceosas.linkpc.net"
   ]
 }

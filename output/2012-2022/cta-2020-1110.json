@@ -1,19 +1,16 @@
 {
-  "rule_id": 1012,
+  "rule_id": 926,
   "name": "cta-2020-1110",
-  "description": "-",
   "references": [],
-  "samples": [
-    "Cambodia.docx",
-    "FINAL.docx",
-    "SoftwareUpdateFiles.dll",
-    "SoftwareUpdateFilesLocalized.dll",
-    "SoftwareUpdate.exe"
-  ],
   "weight": 0.0,
   "signatures": [
     "3937374c70baa93e1fd75d8e894faf94",
     "75c61d9d8da4a87882ccdd37b664953c10a186b5545c5152fd1b6bf788a1a846",
-    "d873bdb08c45378650761bad71df7418c7b542adb13ccd4a87df2001801f4808"
+    "d873bdb08c45378650761bad71df7418c7b542adb13ccd4a87df2001801f4808",
+    "insappstaticanalyze.com",
+    "43.254.132.212",
+    "43.254.132.117",
+    "cloud.bussinesappinstant.com",
+    "bussinesappinstant.com"
   ]
 }

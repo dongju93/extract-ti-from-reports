@@ -1,15 +1,7 @@
 {
-  "rule_id": 393,
+  "rule_id": 362,
   "name": "Weaponizing a Lazarus Group Implant",
-  "description": "-",
   "references": [],
-  "samples": ["blog_0x54.html", "infile.read", "apple.main"],
   "weight": 0.0,
-  "signatures": [
-    "ca57054ea39f84a6f5ba0c65539a0762",
-    "https://objective-see.com/blog/blog_0x54.html",
-    "https://allyourbase.belong/",
-    "https://unioncrypto.vip/",
-    "https://youtu.be/InL3YA_6P6s"
-  ]
+  "signatures": ["ca57054ea39f84a6f5ba0c65539a0762"]
 }

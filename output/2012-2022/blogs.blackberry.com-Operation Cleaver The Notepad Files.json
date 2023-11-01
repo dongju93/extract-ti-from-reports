@@ -1,9 +1,7 @@
 {
-  "rule_id": 952,
+  "rule_id": 870,
   "name": "blogs.blackberry.com-Operation Cleaver The Notepad Files",
-  "description": "-",
   "references": [],
-  "samples": ["Notepad3.exe", "Notepad4.exe", "notepad10.exe", "NOTEPAD2.EXE"],
   "weight": 0.0,
   "signatures": [
     "83868cdff62829fe3b897e2720204679",

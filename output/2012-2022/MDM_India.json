@@ -1,29 +1,16 @@
 {
-  "rule_id": 1036,
+  "rule_id": 948,
   "name": "MDM_India",
-  "description": "-",
   "references": [],
-  "samples": [
-    "tgdata.db",
-    "users_v29.uid",
-    "hh.php",
-    "AppsSLoader.ipa",
-    "CA.crt",
-    "PrayTime.ipa",
-    "Wplus.ipa",
-    "MyApp.ipa",
-    "Telegram.ipa",
-    "jDRucchWSoWQGpU.php",
-    "Server.csr",
-    "dyrKztORKwVWOGo.php",
-    "UfmcRxYDaVVbrBl.php"
-  ],
   "weight": 0.0,
   "signatures": [
     "329e025866bc6e88184af0b633eb3334b2e8b1c0817437c03fcd922987c5cf04",
-    "4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1",
     "e3872bb33d8a4629846539eb859340940d14fdcf5b1c002b57c7dfe2adf52f08",
+    "4be31095e5f010cc71cf8961f8fe3fc3ed27f8d8788124888a1e90cb90b2bef1",
+    "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef",
     "aef046b67871076d507019cd87afdaeef602d1d2924b434ec1c165097b781242",
-    "624689a1fd67891be1399811d6008524a506e7e0b262f549f5aa16a119369aef"
+    "www.wpitcher.com",
+    "Voguextra.com",
+    "Techwach.com"
   ]
 }
