@@ -1,7 +1,0 @@
-{
-  "rule_id": 290,
-  "name": "Iranian Cyber Response to Death of IRGC Head Would Likely Use Reported TTPs and Previous Access",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["857ef30bf15ea3da9b94092da78ef0fc"]
-}

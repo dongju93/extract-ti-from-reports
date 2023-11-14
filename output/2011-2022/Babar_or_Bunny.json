@@ -1,0 +1,1 @@
+{"rule_id": 471, "name": "Babar_or_Bunny", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["2c678924a3d4307644208b199afd20940c058b62", "c923e15718926bb4a80a29017d5b35bb841bd246"]}

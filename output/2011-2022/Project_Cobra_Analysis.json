@@ -1,0 +1,1 @@
+{"rule_id": 130, "name": "Project_Cobra_Analysis", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["e6d1dcc6c2601e592f2b03f35b06fa8f", "554450c1ecb925693fedbb9e56702646", "cb1b68d9971c2353c2d6a8119c49b51f"]}

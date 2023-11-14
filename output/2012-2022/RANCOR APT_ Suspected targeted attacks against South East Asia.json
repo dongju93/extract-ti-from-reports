@@ -1,7 +1,0 @@
-{
-  "rule_id": 604,
-  "name": "RANCOR APT_ Suspected targeted attacks against South East Asia",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["7b973145f7e1b59330ca4dd1f86b3d55"]
-}

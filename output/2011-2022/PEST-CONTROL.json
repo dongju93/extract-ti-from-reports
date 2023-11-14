@@ -1,0 +1,1 @@
+{"rule_id": 986, "name": "PEST-CONTROL", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["a933d13f81649bebe035dc21f4002ff1", "90dd3e7e19b35baa54015d0b4a08f2d0", "202cb962ac59075b964b07152d234b70"]}

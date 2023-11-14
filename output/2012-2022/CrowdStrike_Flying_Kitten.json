@@ -1,7 +1,0 @@
-{
-  "rule_id": 109,
-  "name": "CrowdStrike_Flying_Kitten",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["parmanpower.com", "aeroconf2014.org"]
-}

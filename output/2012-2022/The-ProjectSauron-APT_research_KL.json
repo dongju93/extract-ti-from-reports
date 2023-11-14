@@ -1,7 +1,0 @@
-{
-  "rule_id": 654,
-  "name": "The-ProjectSauron-APT_research_KL",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["j.bikessport.com", "a.bikessport.com"]
-}

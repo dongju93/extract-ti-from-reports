@@ -1,0 +1,1 @@
+{"rule_id": 664, "name": "winnti_EN", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["117F5C5B276C2805D69A48F8B23C25883FCF5BE6", "a5d6139921576c3aedfc64e2b37ae1a64f3160bd1bb70d4fc7fce956029e7d55"]}

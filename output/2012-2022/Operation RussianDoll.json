@@ -1,7 +1,0 @@
-{
-  "rule_id": 131,
-  "name": "Operation RussianDoll",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["icloud.com", "87.236.215.246"]
-}

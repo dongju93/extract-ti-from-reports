@@ -1,0 +1,1 @@
+{"rule_id": 85, "name": "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["44BCF2DD262F12222ADEAB6F59B2975B"]}

@@ -1,7 +1,0 @@
-{
-  "rule_id": 278,
-  "name": "apt29-hammertoss-stealthy-tactics-define-a",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["d3109c83e07dd5d7fe032dc80c581d08", "www.doctorhandbook.com"]
-}

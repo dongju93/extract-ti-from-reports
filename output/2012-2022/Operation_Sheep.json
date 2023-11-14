@@ -1,7 +1,0 @@
-{
-  "rule_id": 518,
-  "name": "Operation_Sheep",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["mbl.shunwang.com", "conﬁg.json"]
-}

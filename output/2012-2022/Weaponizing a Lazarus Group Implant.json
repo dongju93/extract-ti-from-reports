@@ -1,7 +1,0 @@
-{
-  "rule_id": 362,
-  "name": "Weaponizing a Lazarus Group Implant",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["ca57054ea39f84a6f5ba0c65539a0762"]
-}

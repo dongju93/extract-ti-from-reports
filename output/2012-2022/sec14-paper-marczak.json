@@ -1,7 +1,0 @@
-{
-  "rule_id": 464,
-  "name": "sec14-paper-marczak",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["url.no", "Mrconstrucciones.net"]
-}

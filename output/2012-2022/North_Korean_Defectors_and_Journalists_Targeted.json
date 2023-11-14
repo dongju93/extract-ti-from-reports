@@ -1,7 +1,0 @@
-{
-  "rule_id": 80,
-  "name": "North_Korean_Defectors_and_Journalists_Targeted",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["mail.police.go.kr", "ihoodtec.com", "newslist.php"]
-}

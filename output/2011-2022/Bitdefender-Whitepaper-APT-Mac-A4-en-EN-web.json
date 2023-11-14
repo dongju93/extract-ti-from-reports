@@ -1,0 +1,1 @@
+{"rule_id": 811, "name": "Bitdefender-Whitepaper-APT-Mac-A4-en-EN-web", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash", "url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["4fe4b9560e99e33dabca553e2eeee510", "iclods.net"]}

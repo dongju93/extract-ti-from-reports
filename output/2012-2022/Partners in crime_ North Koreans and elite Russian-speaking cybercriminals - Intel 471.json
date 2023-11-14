@@ -1,7 +1,0 @@
-{
-  "rule_id": 330,
-  "name": "Partners in crime_ North Koreans and elite Russian-speaking cybercriminals - Intel 471",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["ecombox.store"]
-}

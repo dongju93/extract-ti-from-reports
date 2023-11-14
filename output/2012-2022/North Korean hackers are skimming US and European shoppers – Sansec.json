@@ -1,9 +1,0 @@
-{
-  "rule_id": 523,
-  "name": "North Korean hackers are skimming US and European shoppers – Sansec",
-  "references": [],
-  "weight": 0.0,
-  "signatures": [
-    "9fe97ae18c45e22fe76b8bd5165d0e152bec464d92ef5f7319b1723aba1c0edb"
-  ]
-}

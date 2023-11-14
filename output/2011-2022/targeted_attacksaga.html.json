@@ -1,0 +1,1 @@
+{"rule_id": 679, "name": "targeted_attacksaga.html", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["go0gIe.com"]}

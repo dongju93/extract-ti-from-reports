@@ -1,7 +1,0 @@
-{
-  "rule_id": 230,
-  "name": "BlackOasis",
-  "references": ["CVE-2016-0984", "CVE-2017-11292", "CVE-2017-8759"],
-  "weight": 0.0,
-  "signatures": ["4a49135d2ecc07085a8b7c5925a36c0a", "89.45.67.107"]
-}

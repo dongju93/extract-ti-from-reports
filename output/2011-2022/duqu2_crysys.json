@@ -1,0 +1,1 @@
+{"rule_id": 1003, "name": "duqu2_crysys", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["c7c647a14cb1b8bc141b089775130834", "3f52ea949f2bd98f1e6ee4ea1320e80d"]}

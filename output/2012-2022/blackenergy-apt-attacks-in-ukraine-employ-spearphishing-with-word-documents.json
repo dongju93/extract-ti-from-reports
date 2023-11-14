@@ -1,7 +1,0 @@
-{
-  "rule_id": 567,
-  "name": "blackenergy-apt-attacks-in-ukraine-employ-spearphishing-with-word-documents",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["5.149.254.114"]
-}

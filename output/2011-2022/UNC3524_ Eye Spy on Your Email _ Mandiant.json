@@ -1,0 +1,1 @@
+{"rule_id": 688, "name": "UNC3524_ Eye Spy on Your Email _ Mandiant", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["ba22992ce835dadcd06bff4ab7b162f9", "3d4dcc859c6ca7e5b36483ad84c9ceef34973f9a"]}

@@ -1,0 +1,1 @@
+{"rule_id": 265, "name": "[CN]_APT-C-09_report", "description": "", "references": ["CVE-2012-0422", "CVE-2013-3906"], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["b14802819271434b4c8553c1293f32f6", "b8e698cece015e43d12d4d2264a3abcea90610b5"]}

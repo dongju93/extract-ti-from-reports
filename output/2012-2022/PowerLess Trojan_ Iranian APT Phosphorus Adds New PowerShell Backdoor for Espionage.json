@@ -1,7 +1,0 @@
-{
-  "rule_id": 651,
-  "name": "PowerLess Trojan_ Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["srv.ml", "91.214.124.143", "162.55.136.20", "148.251.71.182"]
-}

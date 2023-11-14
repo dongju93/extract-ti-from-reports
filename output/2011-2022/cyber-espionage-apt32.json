@@ -1,0 +1,1 @@
+{"rule_id": 684, "name": "cyber-espionage-apt32", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash", "url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["yii.yiihao126.net", "80.255.3.87", "blog.panggin.org", "images.chinabytes.info", "share.codehao.net"]}

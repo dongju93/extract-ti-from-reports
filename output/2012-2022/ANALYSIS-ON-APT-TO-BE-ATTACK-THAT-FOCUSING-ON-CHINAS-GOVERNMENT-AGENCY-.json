@@ -1,7 +1,0 @@
-{
-  "rule_id": 85,
-  "name": "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["44BCF2DD262F12222ADEAB6F59B2975B"]
-}

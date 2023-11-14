@@ -1,0 +1,1 @@
+{"rule_id": 251, "name": "rmsxden20160721", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["52f461a133e95328ccd9ba7f70e2f3e6", "1e4ed1704e31917f8652aa0078a85459", "c80b3fb9293a932b4e814a32e7ca76d3"]}

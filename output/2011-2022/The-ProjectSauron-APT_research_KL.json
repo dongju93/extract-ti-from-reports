@@ -1,0 +1,1 @@
+{"rule_id": 658, "name": "The-ProjectSauron-APT_research_KL", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["j.bikessport.com", "a.bikessport.com"]}

@@ -1,0 +1,1 @@
+{"rule_id": 888, "name": "dissecting-operation-troy", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["f0e045210e3258dad91d7b6b4d64e7f3"]}

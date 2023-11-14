@@ -1,7 +1,0 @@
-{
-  "rule_id": 865,
-  "name": "SE IDENTIFICÓ ATAQUES DEL GRUPO CIBERCRIMINAL LAZARUS DIRIGIDOS A ORGANIZACIONES EN RUSIA",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["194.45.8.41", "37.238.135.70"]
-}

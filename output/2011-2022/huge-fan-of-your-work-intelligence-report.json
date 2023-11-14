@@ -1,0 +1,1 @@
+{"rule_id": 403, "name": "huge-fan-of-your-work-intelligence-report", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["maps.baidu.cn"]}

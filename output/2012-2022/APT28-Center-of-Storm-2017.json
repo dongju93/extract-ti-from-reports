@@ -1,7 +1,0 @@
-{
-  "rule_id": 841,
-  "name": "APT28-Center-of-Storm-2017",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["theguardiannews.org", "0ffice365.com"]
-}

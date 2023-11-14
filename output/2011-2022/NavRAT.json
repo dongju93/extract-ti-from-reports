@@ -1,0 +1,1 @@
+{"rule_id": 771, "name": "NavRAT", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash", "url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["e5f191531bc1c674ea74f8885449f4d934d5f1aa7fd3aaa283fe70f9402b9574", "daum.net", "artndesign2.cafe24.com"]}

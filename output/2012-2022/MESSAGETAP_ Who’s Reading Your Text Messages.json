@@ -1,7 +1,0 @@
-{
-  "rule_id": 909,
-  "name": "MESSAGETAP_ Who’s Reading Your Text Messages",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["8D3B3D5B68A1D08485773D70C186D877"]
-}

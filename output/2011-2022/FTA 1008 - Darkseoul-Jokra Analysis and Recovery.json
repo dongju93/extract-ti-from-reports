@@ -1,0 +1,1 @@
+{"rule_id": 352, "name": "FTA 1008 - Darkseoul-Jokra Analysis and Recovery", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["5fcd6e1dace6b0599429d913850f0364", "0a8032cd6b4a710b1771a080fa09fb87"]}

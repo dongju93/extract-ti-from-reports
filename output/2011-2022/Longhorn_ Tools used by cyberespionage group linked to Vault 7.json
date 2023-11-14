@@ -1,0 +1,1 @@
+{"rule_id": 901, "name": "Longhorn_ Tools used by cyberespionage group linked to Vault 7", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["e20d5255d8ab1ff5f157847d2f3ffb25"]}

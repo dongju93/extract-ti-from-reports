@@ -1,7 +1,0 @@
-{
-  "rule_id": 123,
-  "name": "Magecart Skimming Attack Targets Mobile Users of Hotel Chain Booking Websites",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["history_setter.js", "googletrackmanager.com", "gtm.js"]
-}

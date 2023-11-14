@@ -1,7 +1,0 @@
-{
-  "rule_id": 400,
-  "name": "huge-fan-of-your-work-intelligence-report",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["maps.baidu.cn"]
-}

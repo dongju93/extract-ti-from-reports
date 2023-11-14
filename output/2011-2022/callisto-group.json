@@ -1,0 +1,1 @@
+{"rule_id": 588, "name": "callisto-group", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["07cdc67d211d175cd9d418dc5482b3f17d93526a"]}

@@ -1,0 +1,1 @@
+{"rule_id": 953, "name": "OSX_SabPub", "description": "", "references": ["CVE-2009-0563"], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["40C8786A4887A763D8F3E5243724D1C9"]}

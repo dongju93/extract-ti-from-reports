@@ -1,7 +1,0 @@
-{
-  "rule_id": 334,
-  "name": "Shadow Force Uses DLL Hijacking, Targets South Korean Company",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["irc.itembuy.org"]
-}

@@ -1,7 +1,0 @@
-{
-  "rule_id": 562,
-  "name": "leviathansecurity.com-The Case of the Modified Binaries",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["8361A794DFA231D863E109FC9EEEF21F4CF09DDD"]
-}

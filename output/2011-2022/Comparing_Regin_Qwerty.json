@@ -1,0 +1,1 @@
+{"rule_id": 915, "name": "Comparing_Regin_Qwerty", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["e9a43ea2882ac63b7bc036d954c79aa1", "0ed11a73694999bc45d18b4189f41ac2", "c0de81512a08bdf2ec18cb93b43bdc2d"]}

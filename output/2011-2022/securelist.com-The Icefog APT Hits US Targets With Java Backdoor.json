@@ -1,0 +1,1 @@
+{"rule_id": 370, "name": "securelist.com-The Icefog APT Hits US Targets With Java Backdoor", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["d26af487534c1d575e747ff240ee6357"]}

@@ -1,0 +1,1 @@
+{"rule_id": 945, "name": "taidoor_analysis_jp", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash", "url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["7ed26fdb2b6a41f3ce0b8e270c93de6c9b6f7c3a", "35.200.168.117", "119.28.232.60", "47.52.90.176"]}

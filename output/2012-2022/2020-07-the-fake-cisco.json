@@ -1,9 +1,0 @@
-{
-  "rule_id": 671,
-  "name": "2020-07-the-fake-cisco",
-  "references": [],
-  "weight": 0.0,
-  "signatures": [
-    "1422575698b28bb6df41942e2147f696f0ce6be9f126cc4e308861047408a647"
-  ]
-}

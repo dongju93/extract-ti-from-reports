@@ -1,7 +1,0 @@
-{
-  "rule_id": 124,
-  "name": "E-ISAC_SANS_Ukraine_DUC_5",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["CE1C739AA046FF6BA00FE8E8A4D857F3"]
-}

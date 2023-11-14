@@ -1,0 +1,1 @@
+{"rule_id": 33, "name": "LUCKY ELEPHANT Campaign Masquerading", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["179.43.169.20", "security.yahoomail.cf", "cc.yahoomail.cf", "128.127.105.13", "yahoomail.cf"]}

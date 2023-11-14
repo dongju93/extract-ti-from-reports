@@ -1,0 +1,1 @@
+{"rule_id": 47, "name": "Dissecting-the-Kraken", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["08E834B6D4123F0AEA27D042FCEAF992", "3917107778F928A6F65DB34553D5082A"]}

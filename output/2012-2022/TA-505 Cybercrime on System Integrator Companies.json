@@ -1,9 +1,0 @@
-{
-  "rule_id": 822,
-  "name": "TA-505 Cybercrime on System Integrator Companies",
-  "references": [],
-  "weight": 0.0,
-  "signatures": [
-    "7ebd1d6fa8c21b0d0c015475ab8c7225f949c13a33d0a39b8c069072a4281392"
-  ]
-}

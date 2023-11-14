@@ -1,7 +1,0 @@
-{
-  "rule_id": 824,
-  "name": "hidden_lynx",
-  "references": ["CVE-2012-1875"],
-  "weight": 0.0,
-  "signatures": ["6fe1634dce1d095d6b8a06757b5b6041"]
-}

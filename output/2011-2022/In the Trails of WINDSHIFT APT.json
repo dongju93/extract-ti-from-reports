@@ -1,0 +1,1 @@
+{"rule_id": 385, "name": "In the Trails of WINDSHIFT APT", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["Wasmyemailread.com", "ifread.com"]}

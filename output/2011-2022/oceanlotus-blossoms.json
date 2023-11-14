@@ -1,0 +1,1 @@
+{"rule_id": 434, "name": "oceanlotus-blossoms", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash", "url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["64c6e32b951adc4f3d5661dba2330141", "62d096b35e82547b6a12607c2820f8e0", "ad.jqueryclick.com", "id.com"]}

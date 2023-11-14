@@ -1,0 +1,1 @@
+{"rule_id": 89, "name": "suspected-molerats-new-attack-in-the-middle-east-cn", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["46173adc26721fb54f6e1a1091a892d4", "063a50e5e4b4d17a23ac8c8b33501719"]}

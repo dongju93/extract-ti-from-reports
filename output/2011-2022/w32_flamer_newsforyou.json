@@ -1,0 +1,1 @@
+{"rule_id": 26, "name": "w32_flamer_newsforyou", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["27934e96d90d06818674b98bec7230fa", "59c5452fb2ba21091513ccdc1e0ec7fd"]}

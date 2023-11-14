@@ -1,0 +1,1 @@
+{"rule_id": 63, "name": "Latest Trickbot Campaign Delivered via Highly Obfuscated JS File ", "description": "", "references": ["CVE-2019-11932"], "samples": "", "weight": 0.0, "area": "etas", "types": ["url"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["c644.php", "185.159.82.15"]}

@@ -1,7 +1,0 @@
-{
-  "rule_id": 893,
-  "name": "Longhorn_ Tools used by cyberespionage group linked to Vault 7",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["e20d5255d8ab1ff5f157847d2f3ffb25"]
-}

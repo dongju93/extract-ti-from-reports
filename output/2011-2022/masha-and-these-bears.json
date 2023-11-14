@@ -1,0 +1,1 @@
+{"rule_id": 534, "name": "masha-and-these-bears", "description": "", "references": [], "samples": "", "weight": 0.0, "area": "etas", "types": ["hash"], "apply": true, "agency": "rio", "lastStatus": "added", "lastUpdate": "2023-11-03", "user": "admin", "signatures": ["452ed4c80c1d20d111a1dbbd99d649d5", "cc9e6578a47182a941a478b276320e06", "efd8a516820c44ddbf4cc8ed7f30df9c"]}

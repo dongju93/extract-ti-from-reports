@@ -1,7 +1,0 @@
-{
-  "rule_id": 871,
-  "name": "ESET discovers Attor, a spy platform with curious GSM fingerprinting _ WeLiveSecurity",
-  "references": ["T115"],
-  "weight": 0.0,
-  "signatures": ["idayqh3zhj5j243t.onion"]
-}

@@ -1,7 +1,0 @@
-{
-  "rule_id": 382,
-  "name": "In the Trails of WINDSHIFT APT",
-  "references": [],
-  "weight": 0.0,
-  "signatures": ["Wasmyemailread.com", "ifread.com"]
-}

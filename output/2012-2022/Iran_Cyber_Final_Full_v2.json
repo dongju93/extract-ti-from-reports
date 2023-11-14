@@ -1,7 +1,0 @@
-{
-  "rule_id": 177,
-  "name": "Iran_Cyber_Final_Full_v2",
-  "references": ["T01137"],
-  "weight": 0.0,
-  "signatures": ["government.com", "haj.com", "mail.ru"]
-}
