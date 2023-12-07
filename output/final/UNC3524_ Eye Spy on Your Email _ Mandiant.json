@@ -1,0 +1,1 @@
+{"ti_no": 1698, "rule_id": 10000698, "ti_nm": "UNC3524_ Eye Spy on Your Email _ Mandiant", "ti_desc": "", "ti_ref": [], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["ba22992ce835dadcd06bff4ab7b162f9", "3d4dcc859c6ca7e5b36483ad84c9ceef34973f9a"]}

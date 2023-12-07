@@ -1,0 +1,1 @@
+{"ti_no": 1033, "rule_id": 10000033, "ti_nm": "Chinese_MITM_Google", "ti_desc": "", "ti_ref": [], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["f6beadb9bc02e0a152d71c318739cdecfc1c085d"]}

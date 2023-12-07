@@ -1,0 +1,1 @@
+{"ti_no": 1116, "rule_id": 10000116, "ti_nm": "wp-mandiant-matryoshka-mining", "ti_desc": "", "ti_ref": ["CVE-2015-17012"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["54656d7ae9f6b89413d5b20704b43b10"]}

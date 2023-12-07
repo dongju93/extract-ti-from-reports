@@ -1,0 +1,1 @@
+{"ti_no": 1087, "rule_id": 10000087, "ti_nm": "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-", "ti_desc": "", "ti_ref": [], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["44BCF2DD262F12222ADEAB6F59B2975B"]}

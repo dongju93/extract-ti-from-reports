@@ -31,7 +31,7 @@ merged_data = merge_json_files(directory_path)
 sorted_data = sort_by_rule_id(merged_data)
 
 with open(
-    output_path + "2011-2022_merged.json",
+    output_path + "fio_final.json",
     "w",
 ) as outfile:
     json.dump(sorted_data, outfile, indent=4, ensure_ascii=False)

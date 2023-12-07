@@ -1,0 +1,1 @@
+{"ti_no": 1845, "rule_id": 10000845, "ti_nm": "hidden_lynx", "ti_desc": "", "ti_ref": ["CVE-2012-1875"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["6fe1634dce1d095d6b8a06757b5b6041"]}

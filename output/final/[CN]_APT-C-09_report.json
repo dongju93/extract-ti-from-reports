@@ -1,0 +1,1 @@
+{"ti_no": 1269, "rule_id": 10000269, "ti_nm": "[CN]_APT-C-09_report", "ti_desc": "", "ti_ref": ["CVE-2013-3906", "CVE-2012-0422"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["b14802819271434b4c8553c1293f32f6", "b8e698cece015e43d12d4d2264a3abcea90610b5"]}

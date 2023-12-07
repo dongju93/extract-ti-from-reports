@@ -1,0 +1,1 @@
+{"ti_no": 1374, "rule_id": 10000374, "ti_nm": "securelist.com-The Icefog APT Hits US Targets With Java Backdoor", "ti_desc": "", "ti_ref": [], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["d26af487534c1d575e747ff240ee6357"]}

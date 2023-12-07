@@ -1,0 +1,1 @@
+{"ti_no": 1967, "rule_id": 10000967, "ti_nm": "OSX_SabPub", "ti_desc": "", "ti_ref": ["CVE-2009-0563"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["40C8786A4887A763D8F3E5243724D1C9"]}

@@ -1,0 +1,425 @@
+CONSUMER INSIGHTS LABS BUSINESS INSIGHTS
+
+ANTI-MALWARE RESEARCH
+
+6 min read
+
+NodeStealer attacks on Facebook take a
+provocative turn – threat actors deploy
+malvertising campaigns to hijack users’
+accounts
+
+Andrei ANTON-AANEI  Andrei
+Catalin MOGAGE  Mara IANOVICI
+October 31, 2023
+
+Promo
+
+Protect all your devices, without slowing them down.
+Free 30-day trial
+
+Social media platforms offer immense opportunities for ﬁnancially motivated threat
+
+actors to conduct large-scale attacks against unsuspecting Internet users. Fraudulent
+
+and malicious threats are prevalent on all social networks and it has become crucial
+
+for users to be aware of the latest tricks that can compromise the security of their
+
+accounts, data, reputation and ﬁnances.
+
+Cybercriminals always seek to trick users into taking all sorts of unwelcome actions,
+
+and one way they achieve this is by abusing the ad network.
+
+Bitdefender Labs has been monitoring the growing trend among cybercriminals who
+
+actively exploit social media networks for malvertising. The end goal of these attacks
+
+is to hijack accounts and steal personal data through malicious software.
+
+Malvertising campaigns take advantage of the tools and methods used by legitimate
+
+entities to distribute regular online ads, with cybercriminals submitting infected links
+
+onto typical advertisement networks via some form of provocative enticement meant
+
+to sway users into clicking on an infected link.
+
+This write-up focuses on how cybercriminals have adapted NodeStealer attacks to
+
+abuse Meta’s ads network on Facebook and compromise users’ privacy and security.
+
+Here’s a summary of our analysis conducted Oct. 10-20:
+
+Researchers discovered multiple hijacked Facebook accounts used in the
+
+attacks – at least 10 compromised business accounts that continue to serve
+
+malicious ads to the public
+
+The ads serve a newer version of NodeStealer
+
+The threat actors created multiple Facebook proﬁles, all of which dangle access
+
+to new media ﬁles of the portrayed women
+
+Multiple iterations of the same ad were used in about 140 malicious ad
+
+campaigns
+
+Attackers used a maximum of 5 active ads at a time and switched between them
+
+at 24-hour intervals to try to avoid ad reports from users
+
+The ads used revealing photos of young women to lure victims into deploying the
+
+payload
+
+Clicking on ads immediately downloads an archive containing a malicious .exe
+
+“Photo Album” ﬁle which also drops a second executable written in .NET – this
+
+payload is in charge of stealing browser cookies and passwords
+
+Given that each ad click instantly downloads the malicious archive, we’ve
+
+estimated 100,000 potential downloads from the Ad reach analysis, with a single
+
+ad having as many as 15,000 downloads within just a 24-hour rollout
+
+The most impacted demographic is 45+ Males
+
+The above information regarding the demographic and reach of the campaign has
+
+been collected by tracking the ads on Meta Ad Library.
+
+Before delving into the speciﬁcs of the newly discovered NodeStealer campaign
+
+that’s wreaking havoc on Facebook, let’s recap the particularities of this malicious
+
+software.
+
+NodeStealer is a relatively new info-stealer, discovered by Meta’s security team in
+
+January 2023, that allows threat actors to steal browser cookies and conduct account
+
+takeovers at scale.
+
+The ﬁrst NodeStealer campaign (documented by Meta) was attributed to threat
+
+actors in Vietnam, who custom-built the malicious tool (written in JavaScript and
+
+executed through Node.js) to target business users via fake communications through
+
+Facebook Messenger. The malware let attackers seize control of business accounts,
+
+without the need for any further interactions with the victim, and even bypassed
+
+security mechanisms such as two-factor authentication.
+
+Although the stealer was primarily designed to hijack cookie sessions from web
+
+browsers including Google Chrome, Microsoft Edge, Brave and Opera, and take over
+
+Facebook accounts, threat actors have worked diligently to equip the malware with
+
+new capabilities during the year.
+
+The NodeStealer malware discovered by our researchers (let’s call it 2.1) is the
+
+modernized version of the info-stealer (written in Node), to which cybercriminals have
+
+added new features that allow them to obtain unlawful entry into additional platforms
+
+(Gmail and Outlook), to steal crypto wallet balances and download additional
+
+malicious payloads – components that could have devastating ﬁnancial and
+
+reputational consequences for victims.
+
+The malware is distributed via Windows executable ﬁles disguised as photo albums.
+
+NodeStealer attack saga continues to plague Facebook - this time with a twist
+
+Researchers at Bitdefender Labs have observed a fresh take on NodeStealer attacks
+
+deployed on Facebook, with threat actors using compromised business accounts to
+
+deliver malicious Ad campaigns to unwary internet users.
+
+Modus Operandi:
+
+According to Bitdefender researchers, threat actors are no longer interested in only
+
+hijacking Facebook business accounts - they’ve expanded their attacks to target
+
+regular Facebook users by using distinctive methods.
+
+To gain access to users’ accounts and systems, cybercriminals abuse ad credit
+
+balances of compromised business accounts to run and manage ads that deliver the
+
+malicious payload to their select target audience.
+
+They create a Facebook page under the name “Album Update” (or similar) where
+
+they add revealing photos of young women (1 or 2 photos).
+
+Other names of fake proﬁles include:
+
+Album Girl News Update
+
+Private Album Update
+
+Hot Album Update Today
+
+Album New Update Today
+
+Album Private Update Today
+
+After the page is set up, malicious actors begin running ads that promote fake new
+
+content and entice users with lewd album covers. Some of the photos advertised
+
+appear to have been edited or even AI-generated.
+
+Attackers also use short descriptions to bait users into downloading the media
+
+archive, such as “New stuff is online today” and “Watch now before it’s deleted.”
+
+The “Albums,” in fact, point to either Bitbucket or Gitlab repositories that store an
+
+archive containing a Windows executable that deploys newer versions of
+
+NodeStealer onto the users’ device.
+
+NodeStealer attacks via malicious Facebook ads at a glance
+
+Meta’s Ads Manager tool is actively exploited in these campaigns to target male
+
+users on Facebook, aged 18 to 65 from Europe, Africa and the Caribbean.
+
+Other variations of the ads and fake proﬁles
+
+Currently known indicators of compromise can be found in the timetables below:
+
+SHA256
+
+2b94a313e55e7332b7bd5fbc74aa84f614e77d4a4b9e26645affd97b130fe358
+
+f267da7be0c3fbfe85b4b0117c44cf22ee13150befd58b057c805238ef890ea6
+
+ab5972fad0e7b0ed8dab81b7e6e6dcab09742f4e3cee820bfc3a384defbe9706
+
+720e68f79fed6511621e2c187b27610db18035b491f7fc8d2e051a9d650ebdc8
+
+f4216674115ad9168b14e3350666b6bf3ce9cf984d9f9abc7abb08acf25e04e3
+
+92a6d72a1673e9c159488aad09db22d5f438b2d03492832ae0ea3e8fb4a60ec4
+
+80fd31d97c9dd89c476dbae585cf8a75e6c08170c61b4ce4dfb31bf9bc025e13
+
+Malicious C&C
+
+hxxp://34.82.20.84:3000/v1/botlog/key
+
+Malicious repositories
+
+Bitbucket: https://bitbucket.org/lxsoft/store/src/master/
+
+Gitlab: hxxps://gitlab[.]com/rftsoft/ase
+
+Dropbox: hxxps://dl.dropbox[.]com/scl/fi/mioy6rz517smvxsyi32wn/
+
+Bitdefender detects all malicious ﬁles as Gen:Variant.FacebookAd
+
+What are consumers’ risks and how can you defend against NodeStealer ad
+
+attacks?
+
+Once cybercriminals gain access to users’ cookies using the basic features of
+
+NodeStealer, they take over Facebook accounts and access sensitive information.
+
+From there, hackers can attempt to change passwords and add additional security
+
+measures to accounts to completely cut off access by the legitimate owner and
+
+commit a variety of crimes of fraud. Whether stealing money or scamming new
+
+victims via hijacked accounts, this type of malicious attack allows cybercrooks to stay
+
+under the radar by sneaking past Meta’s security defenses.
+
+The ﬁrst line of defense against Nodestealer malware, delivered via phishing links,
+
+attachments or ads) is to always use a security solution on your device and keep it
+
+up to date. Anti-malware and anti-virus software keep you and your devices safe
+
+from new and existing threats by detecting malware and safely removing or stopping
+
+it from causing any damage. Additionally, internet users should always stay vigilant
+
+and stick to good cyber hygiene in all online interactions. It’s always best to think
+
+twice before you click on unsolicited links associated with alarming notices or ads
+
+that prompt you to download provocative media ﬁles.
+
+Speciﬁcally for this campaign, Facebook users should steer clear of ads that suggest
+
+you download photo albums from Bitbucket, Gitlab or Dropbox.
+
+Indicators of Compromise
+
+An up-to-date and complete list of indicators of compromise is available
+
+to Bitdefender Advanced Threat Intelligence users.
+
+TAGS
+
+anti-malware research
+
+AUTHOR
+
+Andrei ANTON-AANEI
+
+Andrei is a graduate in Automatic Control and Computer Engineering
+and an enthusiast exploring the ﬁeld of Cyber Threat Intelligence.
+
+View all posts
+
+Andrei Catalin MOGAGE
+
+Since 2016, Andrei deals with analysis and recovery of various cyber
+
+threats, with a keen focus on ransomware attacks. His current research
+
+interests include cryptography, malware and exploitation.
+
+View all posts
+
+Mara IANOVICI
+
+I am a Security Researcher at Bitdefender, passionate about Cyber
+
+Security and always searching for new challenges.
+
+View all posts
+
+RIGHT NOW
+TOP POSTS
+
+ANTI-MALWARE RESEARCH
+
+Infected Minecraft Mods Lead to Multi-Stage, Multi-
+Platform Infostealer Malware
+
+June 09, 2023
+
+5 min read
+
+IOT RESEARCH WHITEPAPERS
+
+Vulnerabilities identiﬁed in Amazon Fire TV Stick, Insignia
+FireOS TV Series
+
+May 02, 2023
+
+2 min read
+
+ANTI-MALWARE RESEARCH WHITEPAPERS
+
+EyeSpy - Iranian Spyware Delivered in VPN Installers
+
+January 11, 2023
+
+2 min read
+
+ANTI-MALWARE RESEARCH FREE TOOLS
+
+Bitdefender Partnership with Law Enforcement Yields
+MegaCortex Decryptor
+
+January 05, 2023
+
+1 min read
+
+FOLLOW US ON
+SOCIAL MEDIA
+
+YOU MIGHT ALSO LIKE
+
+Abusing the Ad
+
+Network – Threat
+
+Actors Now Hacking
+
+into Companies via
+
+Search
+
+WHITEPAPERS ANTI-MALWARE RESEARCH
+
+Abusing the Ad Network – Threat Actors Now Hacking
+into Companies via Search
+
+VictorAlexa
+
+Victor VRABIE  Alexandru MAXIMCIUC
+July 27, 2023
+
+2 min read
+
+Exposing RDStealer
+
+ANTI-MALWARE RESEARCH WHITEPAPERS
+
+Deep Dive into a
+
+Targeted Cyber-Attack
+
+Exposing RDStealer Deep Dive into a Targeted Cyber-
+Attack Against East-Asia Infrastructure
+
+Against East-Asia
+
+Infrastructure
+
+Victor VRABIE
+June 20, 2023
+
+Victor
+
+2 min read
+
+Tens of Thousands of
+
+ANTI-MALWARE RESEARCH
+
+Compromised Android
+
+Apps Found by
+Bitdefender Anomaly
+
+Tens of Thousands of Compromised Android Apps
+Found by Bitdefender Anomaly Detection Technology
+
+Detection Technology
+
+RăzvAlberVlad MariuSilviu
+
+Răzvan GOSA  Albert ENDRE-LASZLO  Vlad Sebastian CREȚU  Marius
+TIVADAR  Silviu STAHIE
+June 06, 2023
+
+6 min read
+
+© 2023 Bitdefender. All Rights Reserved
+
+Privacy Settings
+
+

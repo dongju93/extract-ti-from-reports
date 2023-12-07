@@ -1,0 +1,1 @@
+{"ti_no": 1237, "rule_id": 10000237, "ti_nm": "BlackOasis", "ti_desc": "", "ti_ref": ["CVE-2017-11292", "CVE-2016-0984", "CVE-2017-8759"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH", "URL"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["4a49135d2ecc07085a8b7c5925a36c0a", "89.45.67.107"]}

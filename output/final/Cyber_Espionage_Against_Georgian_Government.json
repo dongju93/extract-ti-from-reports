@@ -1,0 +1,1 @@
+{"ti_no": 1720, "rule_id": 10000720, "ti_nm": "Cyber_Espionage_Against_Georgian_Government", "ti_desc": "", "ti_ref": ["CVE-2010-0842", "CVE-2006-3730"], "ti_smp": "", "ti_area": "etas", "ti_type": ["HASH"], "ti_applied": "Y", "site_tp": "rio", "del_yn": "N", "reg_dt": "", "reg_user_id": "admin", "ti_sgn": ["4b178e605583cca28c850943e805aabc", "19ebfd07a13d3edf82fcc121a0e4643c"]}
