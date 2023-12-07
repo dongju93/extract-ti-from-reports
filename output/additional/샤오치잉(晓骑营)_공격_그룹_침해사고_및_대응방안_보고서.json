@@ -1,0 +1,25 @@
+{
+    "rule_id": 1,
+    "name": "샤오치잉(晓骑营)_공격_그룹_침해사고_및_대응방안_보고서",
+    "description": "",
+    "references": [],
+    "samples": "",
+    "weight": 0.0,
+    "area": "etas",
+    "types": [
+        "hash"
+    ],
+    "apply": true,
+    "agency": "rio",
+    "lastStatus": "added",
+    "lastUpdate": "2023-11-27",
+    "user": "admin",
+    "signatures": [
+        "ACE2AEF7F6F03233AC9836977A82A276",
+        "4C3866023B50AA90A7BAA30A49A7C06C",
+        "E458DB1C3C1359A12A3D4C952022CB71",
+        "0FBD87B813516942F0391D783F4F70F2",
+        "88A630E0633045159CE0C0ACC01BD5F4",
+        "67EBA714F23EE4B7C9CAF7136CB983DB"
+    ]
+}

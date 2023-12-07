@@ -1,0 +1,46 @@
+{
+    "rule_id": 3,
+    "name": "Masscan랜섬웨어_침해사고_기술보고서",
+    "description": "",
+    "references": [
+        "T1562",
+        "T1136",
+        "T1110",
+        "T1003",
+        "T1046",
+        "T1021",
+        "T1596",
+        "T1059",
+        "T1070",
+        "T1529"
+    ],
+    "samples": "",
+    "weight": 0.0,
+    "area": "etas",
+    "types": [
+        "hash"
+    ],
+    "apply": true,
+    "agency": "rio",
+    "lastStatus": "added",
+    "lastUpdate": "2023-11-27",
+    "user": "admin",
+    "signatures": [
+        "5c92d71871ea2367337ae2d09126498a",
+        "f627c30429d967082cdcf634aa735410",
+        "566c0616437be7bbd5ce6781981cf5e5",
+        "ea6f19b477aef535dd52132e795b4b40",
+        "e213d0fa6d84c63faf6f0f5c0551b45c",
+        "8c3b9af0c1c6db5eaa4ebd3150dc01d0",
+        "36c6f6fee875b519a81284fafb3e41b1",
+        "d055658ed50601a747d0970ed1db6242",
+        "16ccba5b4f17e6aba6089f97db47d501",
+        "00e63af19c1a4cfef68df4b7acf91475",
+        "0dbe3504bc5daa73e7b3f75bbb104e42",
+        "a1543457c743c62c73c4a6a326e190b1",
+        "1f36c64a8320284f6cc6300db7b59123",
+        "036f82700b985d8a50b2f60c98ab9d77",
+        "a60a60af95a32a81795761865b7f3bd9",
+        "56398c3eb7453017af674ab85df17386"
+    ]
+}

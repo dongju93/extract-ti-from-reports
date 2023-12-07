@@ -1,0 +1,29 @@
+{
+    "rule_id": 2,
+    "name": "비정상_광고삽입_침해사고_사례_및_대응방안",
+    "description": "",
+    "references": [],
+    "samples": "",
+    "weight": 0.0,
+    "area": "etas",
+    "types": [
+        "hash"
+    ],
+    "apply": true,
+    "agency": "rio",
+    "lastStatus": "added",
+    "lastUpdate": "2023-11-27",
+    "user": "admin",
+    "signatures": [
+        "F3F1C8953A8FDEEB6B5D19FF3E8088E4",
+        "8FC25E27D42774AEAE6EDBC0A18B72AA",
+        "E8BBEE2CBFF1B997EAE9A5D623C6A410",
+        "EE77A9E916A090BE1E10EC9D6DA67D48",
+        "4F252523D4AF0B478C810C2547A63E19",
+        "6516449ED5089677ED3D7E2F11FC8942",
+        "647E6257CA696092E19998A22E551800",
+        "4459A69DF1F434C0447481FBD9ECC730",
+        "CD664EC454C56F7EEBC4FFE4FE881343",
+        "a49d10b6406a1d77a65aa0e0b05154c3"
+    ]
+}

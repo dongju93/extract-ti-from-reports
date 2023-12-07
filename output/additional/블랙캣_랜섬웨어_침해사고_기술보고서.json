@@ -1,0 +1,36 @@
+{
+    "rule_id": 4,
+    "name": "블랙캣_랜섬웨어_침해사고_기술보고서",
+    "description": "",
+    "references": [
+        "T1133",
+        "T1547",
+        "T1570"
+    ],
+    "samples": "",
+    "weight": 0.0,
+    "area": "etas",
+    "types": [
+        "hash"
+    ],
+    "apply": true,
+    "agency": "rio",
+    "lastStatus": "added",
+    "lastUpdate": "2023-11-27",
+    "user": "admin",
+    "signatures": [
+        "f5df10a3d5b3d0b511f8645d1c24260c449ef7b7",
+        "fb0a150601470195c47b4e8d87fcb3f50292beb2",
+        "35e56be708429e730c8c8165581eb168ea46e0f5",
+        "b2f955b3e6107f831ebe67997f8586d4fe9f3e98",
+        "629c9649ced38fd815124221b80c9d9c59a85e74",
+        "24c13d46de755cb22f904b3d601bc47ec8e4b53e",
+        "58964b055faf9b7f72d1725786f8112f56c187bd",
+        "c182f85d6315170d605cd87c11a6eb1404dd5fe3",
+        "22a3eabf1f54476915448019ffff20aa74a2a2cd",
+        "c953d525c2d0bdf321ec98ab1a8cf69c2425102c",
+        "efe8b9ff7ff93780c9162959a4c1e5ecf6e840a4",
+        "b0b063768ccdd5fead2052624d57454501ff7639",
+        "2cb6ff75b38a3f24f3b60a2742b6f4d6027f0f2a"
+    ]
+}
