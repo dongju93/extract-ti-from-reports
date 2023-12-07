@@ -1,0 +1,332 @@
+[
+  {
+    "rule_id": 111198,
+    "name": "HPE IMC AccessMgrServlet Insecure Deserialization Test Rules-1",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "perfm,accessmgrservlet"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111199,
+    "name": "LAquis SCADA Web Server relatorionome Command Injection Test Rules-2",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "relatorionome.lhtml"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111200,
+    "name": "Oracle Weblogic UnknownMsgHeader XXE Injection Test Rules-3",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "weblogic.wsee.message.unknownmsgheader"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111201,
+    "name": "Oracle Weblogic WsrmSequenceContext XXE Injection Test Rules-4",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "weblogic.wsee.reliability.wsrmsequencecontext"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111202,
+    "name": "YouPHPTube checkConfiguration.php RCE Test Rules-5",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "youphptube,install,checkconfiguration.php"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111203,
+    "name": "ManageEngine NetFlow Analyzer compareReport SQL Injection Test Rules-6",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "nfareports,comparereport"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111204,
+    "name": "ManageEngine OpManager ProcessRequest XXE Injection Test Rules-7",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "devices,processrequest.do"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111205,
+    "name": "ManageEngine OpManager category SQL Injection Test Rules-8",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "servlet,apmextalertsinteg"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111206,
+    "name": "WhatsApp DDGifSlurpStack RCE Test Rules-9",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "gif89a"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111207,
+    "name": "Microweber module module XSS Teset Rules-10",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "module,ondragexit"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111208,
+    "name": "Oracle E-Business Suite Sales Offline Infinite Loop Test Rules-11",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "oa_html,asllookupdown"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111209,
+    "name": "Oracle E-Business Suite Sales Offline Infinite Loop Test Rules-12",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "oa_html,asluploadengine"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111210,
+    "name": "Advantech iView getInventoryReportData SQL Injection Test Rules-13",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "page_action_type,getinventoryreportdata"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111211,
+    "name": "Advantech iView runProViewUpgrade fwfilename RCE Test Rules-14",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "page_action_type,runproviewupgrade"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111212,
+    "name": "SolarWinds NPM EntityProperties Insecure Deserialization Test Rules-15",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "api,action,testaction"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111213,
+    "name": "Atlassian Confluence Server s Arbitrary File Read Test Rules-16",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "web-inf,meta-inf"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111214,
+    "name": "Delta Electronics DIAEnergie Handler_CFG.ashx SQL Injection Test Rules-17",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "datahandler,handler_cfg.ashx"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111215,
+    "name": "Zoho ManageEngine OpManager getReportData SQL Injection Test Rules-18",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "api,json,v2,device,getreportdata"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111216,
+    "name": "Microsoft Azure OMI Authentication Bypass Test Rules-19",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "schemas.dmtf.org,wbem,wscim,1,cim-schema,2,scx_operatingsystem"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111217,
+    "name": "Citrix ShareFile upload.aspx Directory Traversal Test Rules-20",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "multipart,form-data"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111218,
+    "name": "Citrix ShareFile upload.aspx Directory Traversal Test Rules-21",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "upload.aspx"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111219,
+    "name": "GitLab GitLab CE/EE Mermaid Markdown XSS Test Rules-22",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "api,graphql,mermaid"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111220,
+    "name": "Movable Type mt-xmlrpc.cgi Remote Command Injection Test Rules-23",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "cgi-bin,mt,mt-xmlrpc.cgi"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111221,
+    "name": "Netgear ProSAFE NMS300 mib.do realName Directory Traversal Test Rules-24",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "data,mib,mib.do"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111222,
+    "name": "Movable Type mt-xmlrpc.cgi Remote Command Injection Test Rules-25",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "mt.handler_to_coderef"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111223,
+    "name": "Siemens SINEC NMS downloadAsCsv Directory Traversal Test Rules-26",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "sinecnmswebappcontrol,downloadascsv"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111224,
+    "name": "Siemens SINEC NMS downloadFirmware Directory Traversal Test Rules-27",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "sinecnmswebappcontrol,downloadfirmware"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111225,
+    "name": "Apache Druid sampler uris RCE Test Rules-28",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "indexer,v1,sampler,for,connect"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111226,
+    "name": "Oracle E-Business Suite Knowledge Management Stored Cross-Site Scripting Test Rules-29",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "oa_html,cskuxvlb.jsp"
+    ],
+    "weight": 0.5
+  },
+  {
+    "rule_id": 111227,
+    "name": "Oracle E-Business Suite Knowledge Management XSS Test Rules-30",
+    "description": "NCSC_TEST",
+    "references": [],
+    "samples": [],
+    "signatures": [
+      "definitionname,definitiondescription"
+    ],
+    "weight": 0.5
+  }
+]

@@ -1,0 +1,542 @@
+[
+    {
+        "rule_id": 111198,
+        "ti_no": 50001,
+        "ti_nm": "HPE IMC AccessMgrServlet Insecure Deserialization Test Rules-1",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "perfm,accessmgrservlet"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111199,
+        "ti_no": 50002,
+        "ti_nm": "LAquis SCADA Web Server relatorionome Command Injection Test Rules-2",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "relatorionome.lhtml"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111200,
+        "ti_no": 50003,
+        "ti_nm": "Oracle Weblogic UnknownMsgHeader XXE Injection Test Rules-3",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "weblogic.wsee.message.unknownmsgheader"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111201,
+        "ti_no": 50004,
+        "ti_nm": "Oracle Weblogic WsrmSequenceContext XXE Injection Test Rules-4",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "weblogic.wsee.reliability.wsrmsequencecontext"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111202,
+        "ti_no": 50005,
+        "ti_nm": "YouPHPTube checkConfiguration.php RCE Test Rules-5",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "youphptube,install,checkconfiguration.php"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111203,
+        "ti_no": 50006,
+        "ti_nm": "ManageEngine NetFlow Analyzer compareReport SQL Injection Test Rules-6",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "nfareports,comparereport"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111204,
+        "ti_no": 50007,
+        "ti_nm": "ManageEngine OpManager ProcessRequest XXE Injection Test Rules-7",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "devices,processrequest.do"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111205,
+        "ti_no": 50008,
+        "ti_nm": "ManageEngine OpManager category SQL Injection Test Rules-8",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "servlet,apmextalertsinteg"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111206,
+        "ti_no": 50009,
+        "ti_nm": "WhatsApp DDGifSlurpStack RCE Test Rules-9",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "gif89a"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111207,
+        "ti_no": 50010,
+        "ti_nm": "Microweber module module XSS Teset Rules-10",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "module,ondragexit"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111208,
+        "ti_no": 50011,
+        "ti_nm": "Oracle E-Business Suite Sales Offline Infinite Loop Test Rules-11",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "oa_html,asllookupdown"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111209,
+        "ti_no": 50012,
+        "ti_nm": "Oracle E-Business Suite Sales Offline Infinite Loop Test Rules-12",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "oa_html,asluploadengine"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111210,
+        "ti_no": 50013,
+        "ti_nm": "Advantech iView getInventoryReportData SQL Injection Test Rules-13",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "page_action_type,getinventoryreportdata"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111211,
+        "ti_no": 50014,
+        "ti_nm": "Advantech iView runProViewUpgrade fwfilename RCE Test Rules-14",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "page_action_type,runproviewupgrade"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111212,
+        "ti_no": 50015,
+        "ti_nm": "SolarWinds NPM EntityProperties Insecure Deserialization Test Rules-15",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "api,action,testaction"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111213,
+        "ti_no": 50016,
+        "ti_nm": "Atlassian Confluence Server s Arbitrary File Read Test Rules-16",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "web-inf,meta-inf"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111214,
+        "ti_no": 50017,
+        "ti_nm": "Delta Electronics DIAEnergie Handler_CFG.ashx SQL Injection Test Rules-17",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "datahandler,handler_cfg.ashx"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111215,
+        "ti_no": 50018,
+        "ti_nm": "Zoho ManageEngine OpManager getReportData SQL Injection Test Rules-18",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "api,json,v2,device,getreportdata"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111216,
+        "ti_no": 50019,
+        "ti_nm": "Microsoft Azure OMI Authentication Bypass Test Rules-19",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "schemas.dmtf.org,wbem,wscim,1,cim-schema,2,scx_operatingsystem"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111217,
+        "ti_no": 50020,
+        "ti_nm": "Citrix ShareFile upload.aspx Directory Traversal Test Rules-20",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "multipart,form-data"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111218,
+        "ti_no": 50021,
+        "ti_nm": "Citrix ShareFile upload.aspx Directory Traversal Test Rules-21",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "upload.aspx"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111219,
+        "ti_no": 50022,
+        "ti_nm": "GitLab GitLab CE/EE Mermaid Markdown XSS Test Rules-22",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "api,graphql,mermaid"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111220,
+        "ti_no": 50023,
+        "ti_nm": "Movable Type mt-xmlrpc.cgi Remote Command Injection Test Rules-23",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "cgi-bin,mt,mt-xmlrpc.cgi"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111221,
+        "ti_no": 50024,
+        "ti_nm": "Netgear ProSAFE NMS300 mib.do realName Directory Traversal Test Rules-24",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "data,mib,mib.do"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111222,
+        "ti_no": 50025,
+        "ti_nm": "Movable Type mt-xmlrpc.cgi Remote Command Injection Test Rules-25",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "mt.handler_to_coderef"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111223,
+        "ti_no": 50026,
+        "ti_nm": "Siemens SINEC NMS downloadAsCsv Directory Traversal Test Rules-26",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "sinecnmswebappcontrol,downloadascsv"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111224,
+        "ti_no": 50027,
+        "ti_nm": "Siemens SINEC NMS downloadFirmware Directory Traversal Test Rules-27",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "sinecnmswebappcontrol,downloadfirmware"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111225,
+        "ti_no": 50028,
+        "ti_nm": "Apache Druid sampler uris RCE Test Rules-28",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "indexer,v1,sampler,for,connect"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111226,
+        "ti_no": 50029,
+        "ti_nm": "Oracle E-Business Suite Knowledge Management Stored Cross-Site Scripting Test Rules-29",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "oa_html,cskuxvlb.jsp"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    },
+    {
+        "rule_id": 111227,
+        "ti_no": 50030,
+        "ti_nm": "Oracle E-Business Suite Knowledge Management XSS Test Rules-30",
+        "ti_desc": "NCSC_TEST",
+        "ti_ref": [],
+        "ti_smp": [],
+        "ti_sgn": [
+            "definitionname,definitiondescription"
+        ],
+        "ti_area": "ntas",
+        "site_tp": "rio",
+        "del_yn": "N",
+        "ti_type": "URL",
+        "ti_applied": "Y",
+        "reg_user_id": "admin",
+        "reg_dt": ""
+    }
+]
