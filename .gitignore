@@ -4,5 +4,5 @@
 /history
 /envs/env.py
 /output/samples/wip/ori/event3_logs.csv
-search_rawlog.ipynb
-database.ipynb
+/etc/search_rawlog.ipynb
+/TI import/import_TI_mariadb.ipynb
