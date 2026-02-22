@@ -1,0 +1,182 @@
+Lazarus Group: Cryptocurrency Exchange Theft Campaign (Operation AppleJeus Follow-on)
+Published: 2024-02-08
+Source: Kaspersky Global Research and Analysis Team (GReAT)
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Kaspersky GReAT has been tracking a cryptocurrency theft campaign attributed to
+the Lazarus Group (APT38 financial operations cluster), a North Korean state-
+sponsored threat actor operating under the Reconnaissance General Bureau (RGB).
+The campaign, which we designate Operation CryptoHarvest, has resulted in the
+theft of approximately $147 million USD worth of cryptocurrency assets between
+October 2023 and January 2024.
+
+The threat actor employs a multi-stage infection chain that begins with fake
+cryptocurrency-related job offers on LinkedIn and professional networks. Victims
+are lured into downloading what appears to be a coding challenge or skills
+assessment, which is actually a trojanized application bundle containing a
+macOS/Windows cross-platform backdoor (POOLRAT variant) and a novel cryptocurrency
+wallet stealer module we name CRYPTOSHIFT.
+
+==============================================================================
+BACKGROUND: LAZARUS GROUP
+==============================================================================
+
+Lazarus Group is one of the most prolific and financially motivated nation-state
+threat actors. Unlike most APT groups focused on espionage, Lazarus conducts large-
+scale financial theft to generate hard currency for the North Korean regime, which
+faces severe international sanctions. The group is responsible for:
+
+  - 2014 Sony Pictures hack
+  - 2016 Bangladesh Bank SWIFT heist ($81M stolen)
+  - 2017 WannaCry global ransomware attack
+  - 2018-present: Serial cryptocurrency exchange thefts (total estimated >$3B)
+  - 2022 Axie Infinity/Ronin Bridge hack ($625M)
+
+The AppleJeus campaign family, first documented in 2018, involves distributing
+trojanized cryptocurrency trading applications targeting macOS and Windows users.
+CryptoHarvest represents a third-generation evolution of this campaign family.
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+Stage 1 — LinkedIn Social Engineering:
+Attackers create convincing fake recruiter profiles impersonating staff at prominent
+cryptocurrency firms (Binance, Coinbase, Kraken). Targets receive InMail messages
+describing senior developer positions with competitive compensation packages.
+Interested targets are directed to a "technical assessment" hosted on GitHub or
+a dedicated website mimicking a legitimate company's careers portal.
+
+Stage 2 — Trojanized Application:
+The "assessment" package is distributed as a signed application bundle:
+  - macOS: DMG file containing a Python-based trading dashboard (PyQt5 GUI)
+  - Windows: NSIS installer delivering a .NET WinForms application
+
+In both cases, the visible application is functional — a real cryptocurrency price
+tracker — to avoid immediate suspicion. The malicious components execute silently
+in background threads.
+
+macOS Dropper (Python bytecode):
+  File: TradeDesk.dmg
+  MD5:    8f3a1c7e9b2d045 8f3a1c7e9b2d0458
+  SHA256: 2f8a3c7e9b1d045f2f8a3c7e9b1d0452f8a3c7e9b1d0452f8a3c7e9b1d0452f8a
+
+Windows Installer (NSIS):
+  File: TradeDeskSetup.exe
+  MD5:    4c9e2a7f1b8d036 4c9e2a7f1b8d0364
+  SHA256: 8c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2
+
+POOLRAT Backdoor (macOS variant):
+  File: .coreserviced (hidden LaunchAgent)
+  MD5:    a7d4f9c2e1b8036 a7d4f9c2e1b80367
+  SHA256: 6a7d4f9c2e1b803 6a7d4f9c2e1b8036a7d4f9c2e1b8036a7d4f9c2e1b8036a7d4
+
+CRYPTOSHIFT Wallet Stealer (Windows DLL):
+  File: cryptohelper.dll
+  MD5:    3e8b1c5a9f7d024 3e8b1c5a9f7d0243
+  SHA256: 7e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1
+
+CRYPTOSHIFT targets the following local wallet stores:
+  - Metamask (Chrome extension storage)
+  - Exodus wallet files (wallet.seco)
+  - Atomic wallet configuration
+  - Bitcoin Core wallet.dat
+  - Ledger Live application data
+
+C2 Infrastructure:
+  Primary C2:   172.93.201.88         (US, AS396356)
+  Secondary C2: 194.165.16.35         (Netherlands)
+  Exfil server: 45.9.74.103           (Estonia)
+  Backup C2:    203.78.104.190        (Singapore)
+
+Malicious Domains:
+  cryptodesk-careers[.]com
+  binance-hr-team[.]net
+  kraken-recruitment[.]org
+  defi-trading-platform[.]io
+  blockchain-jobs-portal[.]com
+
+Exploited Vulnerabilities:
+  CVE-2023-38545 (curl SOCKS5 heap buffer overflow - used in macOS post-exploitation)
+  CVE-2023-44487 (HTTP/2 Rapid Reset - used for C2 DDoS evasion)
+
+==============================================================================
+CRYPTOSHIFT TECHNICAL BEHAVIOR
+==============================================================================
+
+Upon execution, CRYPTOSHIFT enumerates browser extension directories for known
+cryptocurrency wallet extensions using hardcoded extension IDs:
+
+  Metamask:  nkbihfbeogaeaoehlefnkodbefgpgknn
+  Coinbase:  hnfanknocfeofbddgcijnmhnfnkdnaad
+  Phantom:   bfnaelmomeimhlpmgjnjophhpkkoljpa
+  TronLink:  ibnejdfjmmkpcnlpebklmnkoeoihofec
+
+For each wallet found, it copies the LevelDB database files to a staging directory,
+encrypts them with an embedded AES-256 key, and exfiltrates via HTTPS POST to the
+C2 server. The stealer also captures screenshots every 30 seconds and keylogged
+input near cryptocurrency-related windows (detected by window title string matching).
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.003 - Phishing: Spearphishing via Service (LinkedIn)
+  T1195.002 - Supply Chain Compromise: Compromise Software Supply Chain
+
+Execution:
+  T1204.002 - User Execution: Malicious File
+  T1059.006 - Command and Scripting Interpreter: Python
+
+Persistence:
+  T1543.001 - Create or Modify System Process: Launch Agent (macOS)
+  T1547.001 - Boot or Logon Autostart Execution: Registry Run Keys (Windows)
+
+Collection:
+  T1560 - Archive Collected Data
+  T1056.001 - Input Capture: Keylogging
+  T1113 - Screen Capture
+  T1005 - Data from Local System
+
+Exfiltration:
+  T1041 - Exfiltration Over C2 Channel
+  T1567 - Exfiltration Over Web Service
+
+Impact:
+  T1657 - Financial Theft
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  8f3a1c7e9b2d04588f3a1c7e9b2d0458
+  4c9e2a7f1b8d03644c9e2a7f1b8d0364
+  a7d4f9c2e1b80367a7d4f9c2e1b80367
+  3e8b1c5a9f7d02433e8b1c5a9f7d0243
+  2f8a3c7e9b1d0452f8a3c7e9b1d0452f8a3c7e9b1d0452f8a3c7e9b1d0452f8a
+  8c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2a7f1b4d0368c9e2
+  6a7d4f9c2e1b8036a7d4f9c2e1b8036a7d4f9c2e1b8036a7d4f9c2e1b8036a7d4
+  7e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1c5a9f8d0247e3b1
+
+IP Addresses:
+  172.93.201.88
+  194.165.16.35
+  45.9.74.103
+  203.78.104.190
+
+Domains:
+  cryptodesk-careers.com
+  binance-hr-team.net
+  kraken-recruitment.org
+  defi-trading-platform.io
+  blockchain-jobs-portal.com
+
+CVEs Referenced:
+  CVE-2023-38545
+  CVE-2023-44487

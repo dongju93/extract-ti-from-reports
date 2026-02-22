@@ -1,0 +1,202 @@
+RomCom RAT: Russian-Linked Threat Actor Targets Ukrainian Government and NATO Partners
+Published: 2023-11-30
+Source: BlackBerry Threat Research and Intelligence
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+BlackBerry Threat Research and Intelligence has been tracking RomCom (also
+referred to as Storm-0978, Tropical Scorpius, and UNC2596), a Russian-linked
+threat actor, throughout 2023. This report focuses on a campaign targeting
+Ukrainian government ministries, defense contractors, and NATO member state
+organizations providing support to Ukraine.
+
+The campaign demonstrates significant technical evolution compared to earlier
+RomCom operations. Key developments include:
+  1. A new variant of the RomCom backdoor (version 4.0, dubbed "SINGLE MALT")
+     with modular plugin architecture
+  2. Use of two CVEs as zero-days prior to vendor patching:
+     CVE-2023-36884 (Microsoft Office/Windows HTML RCE)
+     CVE-2023-44487 (HTTP/2 Rapid Reset for DDoS-as-distraction)
+  3. Enhanced anti-analysis techniques including AMSI patching and ETW disabling
+
+==============================================================================
+BACKGROUND: ROMCOM / STORM-0978
+==============================================================================
+
+RomCom emerged in 2022 and has since conducted both financially motivated
+cybercrime (operating the Underground ransomware) and espionage operations,
+exhibiting dual-use characteristics consistent with Russian state-associated
+cybercriminal groups. The actor gained attention for:
+
+  - Targeting the 2023 NATO Summit in Vilnius with themed phishing documents
+  - Impersonating the Ukrainian World Congress in phishing campaigns
+  - Exploiting zero-day vulnerabilities in Microsoft products
+  - Operating RomCom RAT, a full-featured remote access Trojan with plugin support
+  - Deploying Underground ransomware against select targets post-espionage
+
+RomCom's intelligence collection focus centers on Ukraine military logistics,
+Western military aid flows, Ukrainian government communications, and NATO
+policy discussions.
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+Delivery Mechanism — Fake NATO Document:
+Victims receive emails with subjects such as:
+  - "NATO Summit Vilnius 2023 — Restricted Briefing Materials"
+  - "NSATU — Northern Support Activities Training Unit Materials"
+  - "Ukraine Defense Contact Group — July Session Summary"
+
+Attachments are either DOCX files exploiting CVE-2023-36884 or Windows Shortcut
+(.lnk) files delivered inside ZIP archives. The CVE-2023-36884 exploit triggers
+when the document is opened in Word, even without enabling macros, by abusing the
+Windows Search protocol handler.
+
+RomCom RAT 4.0 "SINGLE MALT":
+The backdoor is a 64-bit PE DLL loaded via rundll32.exe with a specific export
+ordinal. Architecture:
+  - Core module: handles C2 communication, plugin management, persistence
+  - Plugin loader: fetches and loads additional modules from C2 on demand
+  - Available plugins (observed): keylogger, screenshot, file manager, network
+    recon, credential harvester, Mimikatz wrapper, lateral movement (SMB/WMI)
+
+Anti-Analysis:
+  AMSI patching: overwrites AmsiScanBuffer() with a RET instruction
+  ETW disabling: patches EtwEventWrite() to prevent telemetry
+  Parent process spoofing: creates child processes with spoofed parent (explorer.exe)
+  Sandbox detection: checks for CPUID hypervisor bit, screen resolution < 800x600,
+                     and process count < 30
+
+C2 Protocol:
+RomCom 4.0 uses HTTPS with a custom application-layer protocol over WebSocket
+(ws:// upgraded to wss://). The operator maintains persistent, low-latency
+connections for interactive sessions. All data is encrypted with ChaCha20-Poly1305.
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+Phishing DOCX (CVE-2023-36884 exploit):
+  File: NATO_Summit_Restricted_Briefing.docx
+  MD5:    8c5e1a7f4b9d032 8c5e1a7f4b9d0328
+  SHA1:   f4e9b7c2a1d8056f4e9b7c2a1d80568e4b9c7f2a
+  SHA256: 3c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5
+
+LNK file (alternate delivery):
+  File: Defense_Contact_Group_Summary.lnk
+  MD5:    1e9a4c7f2b8d056 1e9a4c7f2b8d0561
+  SHA256: 6e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9
+
+RomCom 4.0 "SINGLE MALT" core DLL:
+  File: vcruntime140i.dll (side-loaded via legitimate binary)
+  MD5:    a7d3f9c2e1b8047 a7d3f9c2e1b80474
+  SHA1:   c2f9e4a7b1d8036c2f9e4a7b1d80361a4c7e9b2f
+  SHA256: 5a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3
+
+RomCom Plugin — Keylogger:
+  MD5:    4b8e2c9f7a1d035 4b8e2c9f7a1d0354
+  SHA256: 9b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2
+
+RomCom Plugin — Mimikatz wrapper:
+  MD5:    d6f4a9c7e2b1038 d6f4a9c7e2b10381
+  SHA256: 1d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4
+
+Underground Ransomware (post-espionage deployment):
+  MD5:    7f3c1e8a9b4d026 7f3c1e8a9b4d0267
+  SHA256: 2f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3
+
+C2 Infrastructure:
+  Primary C2 (WebSocket over TLS):
+    104.21.38.175     (Cloudflare-fronted, passes to origin)
+    193.233.20.17     (Origin server, Netherlands)
+
+  Secondary C2:
+    45.153.243.93     (Russia-aligned VPS)
+    194.87.31.22      (Backup C2, Baltic)
+
+  Payload delivery:
+    89.108.115.75     (File hosting, Russia)
+
+Malicious Domains:
+  nato-summit-docs[.]com
+  ukraine-defense-portal[.]net
+  nsatu-briefings[.]org
+  romcom-update[.]net
+  storm-malware-cdn[.]com
+
+Exploited CVEs:
+  CVE-2023-36884  (Microsoft Office/Windows HTML RCE - used as zero-day)
+  CVE-2023-44487  (HTTP/2 Rapid Reset - DDoS distraction)
+  CVE-2023-23397  (Microsoft Outlook NTLM hash leak)
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+  T1203 - Exploitation for Client Execution
+
+Execution:
+  T1204.002 - User Execution: Malicious File
+  T1218.011 - System Binary Proxy Execution: Rundll32
+
+Defense Evasion:
+  T1562.001 - Impair Defenses: Disable or Modify Tools (AMSI patch)
+  T1562.006 - Impair Defenses: Indicator Blocking (ETW disable)
+  T1574.002 - Hijack Execution Flow: DLL Side-Loading
+  T1134.004 - Access Token Manipulation: Parent PID Spoofing
+
+Credential Access:
+  T1003.001 - OS Credential Dumping: LSASS Memory
+  T1552.002 - Unsecured Credentials: Credentials in Registry
+
+Command and Control:
+  T1071.001 - Application Layer Protocol: Web Protocols
+  T1090.004 - Proxy: Domain Fronting
+  T1573.002 - Encrypted Channel: Asymmetric Cryptography
+
+Impact:
+  T1486 - Data Encrypted for Impact (Underground ransomware)
+  T1498 - Network Denial of Service (HTTP/2 Rapid Reset DDoS)
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  8c5e1a7f4b9d03288c5e1a7f4b9d0328
+  1e9a4c7f2b8d05611e9a4c7f2b8d0561
+  a7d3f9c2e1b80474a7d3f9c2e1b80474
+  4b8e2c9f7a1d03544b8e2c9f7a1d0354
+  d6f4a9c7e2b10381d6f4a9c7e2b10381
+  7f3c1e8a9b4d02677f3c1e8a9b4d0267
+  3c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5a7f1b4d0323c8e5
+  6e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9c4f7b2d0566e1a9
+  5a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3f9c2e1b8045a7d3
+  9b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2c8f7a1d0359b4e2
+  1d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4a9c7e2b0381d6f4
+  2f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3e1a8b9d0262f7c3
+
+IP Addresses:
+  104.21.38.175
+  193.233.20.17
+  45.153.243.93
+  194.87.31.22
+  89.108.115.75
+
+Domains:
+  nato-summit-docs.com
+  ukraine-defense-portal.net
+  nsatu-briefings.org
+  romcom-update.net
+  storm-malware-cdn.com
+
+CVEs:
+  CVE-2023-36884
+  CVE-2023-44487
+  CVE-2023-23397

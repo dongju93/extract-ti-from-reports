@@ -1,0 +1,200 @@
+Earth Lusca Targets Media and Entertainment Organizations with Multi-Stage Backdoor
+Published: 2023-09-28
+Source: Trend Micro Research
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Trend Micro has uncovered a new campaign by Earth Lusca, a China-nexus threat
+actor, targeting media companies, entertainment conglomerates, and content
+production studios across Hong Kong, Taiwan, South Korea, and the United States.
+The campaign, active since June 2023, employs watering hole attacks on industry-
+specific news portals and conference websites to deliver a multi-stage infection
+chain leading to the MASQLOADER downloader and the SprySOCKS Linux backdoor.
+
+Earth Lusca appears motivated by intellectual property theft — specifically targeting
+unreleased content, merger and acquisition discussions, and talent contracts —
+suggesting the intelligence collection supports both state and commercial interests.
+
+==============================================================================
+BACKGROUND: EARTH LUSCA
+==============================================================================
+
+Earth Lusca (also tracked as TAG-22, Charcoal Typhoon, CHROMIUM, ControlX) is
+a Chinese-speaking threat actor that Trend Micro began tracking in 2021. The group
+targets a wide range of verticals including:
+
+  - Media and entertainment
+  - Telecommunications providers
+  - Government and political entities (particularly Taiwan-related)
+  - Universities and research institutions
+  - COVID-19 related organizations (historically)
+
+Earth Lusca shares infrastructure and tooling with APT41 (Winnti Group) and shows
+potential overlaps in operator activity, though Trend Micro assesses them as a
+distinct cluster. The group is notably sophisticated in its exploitation of internet-
+facing applications (Confluence, GitLab, Oracle WebLogic).
+
+==============================================================================
+INFECTION CHAIN ANALYSIS
+==============================================================================
+
+Stage 1 — Watering Hole:
+Earth Lusca compromised four media industry news portals (not named to protect
+ongoing investigations). A single malicious JavaScript snippet was injected into
+article pages, performing browser fingerprinting (checking for Japanese/Korean/
+Taiwanese browser locale settings) before redirecting qualifying visitors to an
+exploit landing page.
+
+Stage 2 — Exploit Delivery:
+The exploit page serves a drive-by download targeting:
+  CVE-2023-3079 (Chrome V8 Type Confusion - before June 2023 patch)
+  CVE-2022-4135 (Chrome GPU process heap buffer overflow)
+
+On successful exploitation, a shellcode executes, downloading MASQLOADER.
+
+Stage 3 — MASQLOADER:
+MASQLOADER is a .NET-based downloader with an unusual anti-analysis trick: it
+requires a specific command-line argument (a 12-character string) to decrypt its
+configuration. Without the argument, it produces no output and exits cleanly.
+The argument is provided via a scheduled task created during installation.
+
+MASQLOADER downloads the final payload (Cobalt Strike or SprySOCKS) from a
+cloud-hosted URL, decrypts it using a hardcoded AES-128 key, and loads it
+reflectively into memory.
+
+Stage 4a — Cobalt Strike (Windows targets):
+Standard Cobalt Strike beacon used for lateral movement and interactive access
+on Windows workstations and servers.
+
+Stage 4b — SprySOCKS (Linux/server targets):
+SprySOCKS is a Linux backdoor derived from the open-source Trochilus RAT, adapted
+for Linux with a SOCKS5 proxy module. It targets Linux-based content servers,
+NAS devices, and development servers common in media production environments.
+SprySOCKS communicates via an encrypted TCP protocol unique to this group.
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+Watering Hole JavaScript Injector:
+  MD5:    3b7f9c4e2a1d068 3b7f9c4e2a1d0683
+  SHA256: a3b7f9c4e2a1d06 8a3b7f9c4e2a1d068a3b7f9c4e2a1d068a3b7f9c4e2a1d068a3
+
+MASQLOADER (.NET):
+  File: RuntimeBroker.exe
+  MD5:    e4c8f7b2a9d1056 e4c8f7b2a9d10568
+  SHA1:   b9d4c7e2f1a8057b9d4c7e2f1a80573c9e4b7d2f
+  SHA256: 9e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8
+
+Cobalt Strike Beacon (MASQLOADER-delivered):
+  MD5:    7a2f9c1e4b8d037 7a2f9c1e4b8d0374
+  SHA256: 4a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2
+
+SprySOCKS (ELF x86_64):
+  Version 1.1 (initial discovery):
+    MD5:    2c6e9a7f4b1d038 2c6e9a7f4b1d0382
+    SHA256: 8c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6
+  Version 1.3 (updated, observed August 2023):
+    MD5:    f1d8c4a7e9b2035 f1d8c4a7e9b20351
+    SHA256: 5f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8
+
+MASQLOADER scheduled task encrypted payload:
+  File: RuntimeData.bin
+  MD5:    6b3f8e1c9a7d024 6b3f8e1c9a7d0246
+  SHA256: 2b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3
+
+C2 Infrastructure:
+  Cobalt Strike:
+    103.96.74.187       (Primary C2, Hong Kong)
+    43.155.105.37       (Secondary C2, Singapore)
+
+  SprySOCKS:
+    45.32.101.54        (SprySOCKS C2, Japan)
+    155.138.193.68      (SprySOCKS C2 backup)
+
+  MASQLOADER payload delivery:
+    185.239.226.17      (Payload hosting server)
+
+Malicious Domains:
+  media-industry-news[.]com  (watering hole redirect domain)
+  entertainment-weekly-cdn[.]net
+  cdn-media-assets[.]io
+  video-streaming-api[.]com
+  content-delivery-secure[.]net
+
+Exploited CVEs:
+  CVE-2023-3079   (Chrome V8 Type Confusion RCE)
+  CVE-2022-4135   (Chrome GPU process heap buffer overflow)
+  CVE-2022-26134  (Atlassian Confluence OGNL injection - for server-side initial access)
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1189 - Drive-by Compromise
+  T1190 - Exploit Public-Facing Application
+
+Execution:
+  T1203 - Exploitation for Client Execution
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+
+Defense Evasion:
+  T1027.009 - Obfuscated Files or Information: Embedded Payloads
+  T1620 - Reflective Code Loading
+  T1140 - Deobfuscate/Decode Files or Information
+
+Persistence:
+  T1053.005 - Scheduled Task/Job: Scheduled Task
+
+Discovery:
+  T1082 - System Information Discovery
+  T1614.001 - System Location Discovery: System Language Discovery
+
+Command and Control:
+  T1071.001 - Application Layer Protocol: Web Protocols
+  T1095 - Non-Application Layer Protocol
+
+Collection:
+  T1005 - Data from Local System
+  T1213 - Data from Information Repositories
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  3b7f9c4e2a1d06833b7f9c4e2a1d0683
+  e4c8f7b2a9d10568e4c8f7b2a9d10568
+  7a2f9c1e4b8d03747a2f9c1e4b8d0374
+  2c6e9a7f4b1d03822c6e9a7f4b1d0382
+  f1d8c4a7e9b20351f1d8c4a7e9b20351
+  6b3f8e1c9a7d02466b3f8e1c9a7d0246
+  a3b7f9c4e2a1d068a3b7f9c4e2a1d068a3b7f9c4e2a1d068a3b7f9c4e2a1d068a3
+  9e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8f7b2a9d1059e4c8
+  4a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2c9e1b8d0374a7f2
+  8c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6a9f7b4d0388c2e6
+  5f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8c4a7e9b2035f1d8
+  2b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3e8c1a9d0242b6f3
+
+IP Addresses:
+  103.96.74.187
+  43.155.105.37
+  45.32.101.54
+  155.138.193.68
+  185.239.226.17
+
+Domains:
+  media-industry-news.com
+  entertainment-weekly-cdn.net
+  cdn-media-assets.io
+  video-streaming-api.com
+  content-delivery-secure.net
+
+CVEs:
+  CVE-2023-3079
+  CVE-2022-4135
+  CVE-2022-26134
