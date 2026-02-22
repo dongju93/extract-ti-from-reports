@@ -1,0 +1,17 @@
+[project]
+name = "extract-ti-from-reports"
+version = "0.1.0"
+description = "Extract Threat Intelligence indicators from security report PDFs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pdfminer.six>=20260107",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+]
+
+[tool.pyrefly]
+project-includes = ["main.py", "src/**/*.py"]
+project-excludes = ["legacy/**"]
+search-path = ["."]
+python-interpreter = ".venv/bin/python3"
