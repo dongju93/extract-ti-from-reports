@@ -1,0 +1,199 @@
+TA505 Deploys Cobalt Strike and FlawedGrace RAT Against Financial Services Organizations
+Published: 2023-10-19
+Source: Proofpoint Threat Research
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Proofpoint Threat Research has observed a high-volume email threat campaign
+attributed to TA505, a financially motivated threat actor active since at least
+2014. The campaign, observed from September through October 2023, targeted financial
+institutions, insurance companies, and payment processors in the United States,
+United Kingdom, Germany, and Japan.
+
+The attack chain is notable for its use of Microsoft OneNote files (.one) as
+initial malware delivery vehicles — a technique TA505 adopted following Microsoft's
+disablement of Office macros by default in 2022. The campaign delivers Cobalt Strike
+beacons as the initial foothold, followed by deployment of the FlawedGrace Remote
+Access Trojan (RAT), TA505's signature implant, for long-term persistence and data
+theft.
+
+==============================================================================
+BACKGROUND: TA505
+==============================================================================
+
+TA505 (also known as CHIMBORAZO, FIN11, and Cl0p) is one of the most prolific
+financially motivated threat actors. The group is known for:
+
+  - Operating at massive scale — campaigns regularly exceed 100,000 emails
+  - Developing and operating the FlawedAmmyy and FlawedGrace RAT families
+  - Association with the Cl0p ransomware operation
+  - Heavy use of "get2" and "SDBbot" downloaders
+  - Abuse of legitimate file-sharing services (SendGrid, DocuSign-themed lures)
+
+TA505 is assessed to be a Russian-speaking cybercriminal group, likely based in
+Eastern Europe, that monetizes access through data theft, fraud, and ransomware.
+
+==============================================================================
+CAMPAIGN ANALYSIS
+==============================================================================
+
+Email Characteristics:
+  Subject lines (representative sample):
+    - "Action Required: Invoice #[random 6 digits] attached"
+    - "Urgent: Payment confirmation needed - see attached"
+    - "ACH Transfer Notice - Please review attachment"
+    - "Wire transfer authorization - Reference [random]"
+
+  Volume: approximately 50,000-80,000 messages per campaign wave
+  Sender infrastructure: compromised legitimate email accounts and dedicated
+  domains registered via NameCheap (1-7 days old at time of sending)
+
+Attachment: Microsoft OneNote (.one)
+OneNote files contain embedded image overlays prompting users to click a "VIEW
+DOCUMENT" button. The button is actually a linked .hta (HTML Application) file
+embedded in the OneNote archive. Clicking executes the HTA via mshta.exe.
+
+The HTA:
+  1. Downloads a PowerShell script from a remote host via HTTPS
+  2. The PowerShell script deploys a Cobalt Strike beacon (HTTP/HTTPS listener)
+  3. The beacon establishes C2 connectivity and downloads FlawedGrace
+
+FlawedGrace RAT:
+FlawedGrace (also known as GraceWire) is a .NET-based RAT first documented in 2017.
+Key capabilities:
+  - Keylogging and screen capture
+  - File manager (browse, upload, download, execute)
+  - Remote desktop / VNC-like functionality
+  - Browser credential harvesting
+  - Clipboard monitoring (watches for cryptocurrency addresses, replaces with
+    attacker-controlled addresses — clipboard hijacking)
+  - Lateral movement via WMI and PsExec
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+OneNote Lure File:
+  File: Invoice_20231018.one
+  MD5:    6e9a2c7f4b1d038 6e9a2c7f4b1d0386
+  SHA1:   a4c7e9b2f1d8056a4c7e9b2f1d80569b4c7e2a1f
+  SHA256: 1e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9
+
+Embedded HTA file:
+  MD5:    b8d3f7c9a2e1047 b8d3f7c9a2e10471
+  SHA256: 5b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3
+
+PowerShell Dropper (downloaded):
+  MD5:    4a7f1e9c3b8d025 4a7f1e9c3b8d0254
+  SHA256: 9a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7
+
+Cobalt Strike Beacon (stager):
+  MD5:    d2b9c7e4f1a8035 d2b9c7e4f1a80352
+  SHA256: 8d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9
+
+Cobalt Strike Beacon (full, reflective DLL):
+  MD5:    7e4c1a8f9b2d056 7e4c1a8f9b2d0567
+  SHA256: 3e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4
+
+FlawedGrace RAT:
+  File: svchost32.exe
+  MD5:    c9f4e2a7b1d8036 c9f4e2a7b1d80369
+  SHA1:   f7e4b9c2a1d8053f7e4b9c2a1d80537e9b4c2f1a
+  SHA256: 6c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4
+
+FlawedGrace config (extracted):
+  File: config.dat (RC4-encrypted)
+  MD5:    2f8b4e7c9a1d035 2f8b4e7c9a1d0352
+
+C2 Servers:
+  Cobalt Strike C2:
+    194.26.192.28     (Primary listener, port 443)
+    5.252.23.209      (Secondary listener, port 8080)
+
+  FlawedGrace C2:
+    185.193.126.174   (port 7443)
+    91.234.254.102    (port 4433)
+    62.182.82.53      (backup, port 443)
+
+Payload Hosting (HTA download source):
+  45.141.84.120       (Nginx server, Ukraine VPS)
+
+Malicious Domains:
+  invoice-delivery-secure[.]com
+  payment-confirmation-docs[.]net
+  ach-transfer-portal[.]org
+  financial-document-view[.]com
+  docusign-delivery-secure[.]net
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+
+Execution:
+  T1204.002 - User Execution: Malicious File
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+  T1218.005 - System Binary Proxy Execution: Mshta
+
+Defense Evasion:
+  T1027 - Obfuscated Files or Information
+  T1218.005 - System Binary Proxy Execution: Mshta
+  T1562.001 - Impair Defenses: Disable or Modify Tools
+
+Credential Access:
+  T1555.003 - Credentials from Password Stores: Credentials from Web Browsers
+  T1056.001 - Input Capture: Keylogging
+  T1115 - Clipboard Data
+
+Discovery:
+  T1082 - System Information Discovery
+  T1016 - System Network Configuration Discovery
+  T1057 - Process Discovery
+
+Lateral Movement:
+  T1047 - Windows Management Instrumentation
+  T1570 - Lateral Tool Transfer
+
+Command and Control:
+  T1071.001 - Application Layer Protocol: Web Protocols
+  T1573.001 - Encrypted Channel: Symmetric Cryptography
+  T1095 - Non-Application Layer Protocol
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  6e9a2c7f4b1d03866e9a2c7f4b1d0386
+  b8d3f7c9a2e10471b8d3f7c9a2e10471
+  4a7f1e9c3b8d02544a7f1e9c3b8d0254
+  d2b9c7e4f1a80352d2b9c7e4f1a80352
+  7e4c1a8f9b2d05677e4c1a8f9b2d0567
+  c9f4e2a7b1d80369c9f4e2a7b1d80369
+  2f8b4e7c9a1d03522f8b4e7c9a1d0352
+  1e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9c2f7b4d0381e6a9
+  5b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3f7c9a2e1045b8d3
+  9a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7e1c3b8d0259a4f7
+  8d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9c7e4f1a8038d2b9
+  3e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4a1f8b9d0563e7c4
+  6c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4e2a7b1d8036c9f4
+
+IP Addresses:
+  194.26.192.28
+  5.252.23.209
+  185.193.126.174
+  91.234.254.102
+  62.182.82.53
+  45.141.84.120
+
+Domains:
+  invoice-delivery-secure.com
+  payment-confirmation-docs.net
+  ach-transfer-portal.org
+  financial-document-view.com
+  docusign-delivery-secure.net

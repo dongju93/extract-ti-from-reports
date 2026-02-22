@@ -1,0 +1,185 @@
+Kimsuky (APT43): Intelligence Gathering Campaign Targeting Korean Peninsula Think Tanks and Policy Research Institutes
+Published: 2024-01-10
+Source: KISA (Korea Internet & Security Agency) / NCSC Joint Advisory
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY (요약)
+==============================================================================
+
+The Korea Internet & Security Agency (KISA) and the National Cyber Security Centre
+(NCSC) jointly issue this advisory to warn organizations about an ongoing cyber
+espionage campaign attributed to Kimsuky (also known as APT43, Velvet Chollima,
+Black Banshee, and Thallium). The campaign specifically targets:
+
+  - Korea-focused policy research institutes and think tanks
+  - Academic institutions with Korean peninsula studies programs
+  - Government contractors providing policy analysis services
+  - Journalists covering North Korean affairs
+  - NGOs supporting North Korean defectors
+
+The threat actor employs convincing email impersonation of legitimate Korean
+government officials, academic researchers, and journalists to establish initial
+contact before delivering malware-laden documents. Observed malware families
+include updated variants of AppleSeed, AlphaSeed, and a previously undocumented
+browser credential stealer dubbed GOLDDRAGON.
+
+==============================================================================
+BACKGROUND: KIMSUKY
+==============================================================================
+
+Kimsuky has been active since at least 2012 and is assessed by the US, UK, and
+ROK intelligence communities to operate on behalf of the North Korean Reconnaissance
+General Bureau (RGB). Unlike Lazarus Group (which focuses on financial theft),
+Kimsuky primarily conducts intelligence collection targeting policy, diplomatic,
+and military information relevant to North Korean strategic interests.
+
+Key characteristics:
+  - Excellent Korean language capability and cultural understanding
+  - Impersonation of real, named individuals from target sectors
+  - Long-term, patient engagement before malware delivery
+  - Use of BabyShark, AppleSeed, FlowerPower, GoldDragon malware families
+  - Heavy reliance on free webmail services (Gmail, Naver, Daum) for C2
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+Initial Contact Phase:
+Attackers send benign initial emails (no malware) to establish trust. These may
+involve requests for document review, interview invitations, or joint research
+collaboration. After 1-3 legitimate exchanges, the attacker sends a malicious
+document.
+
+Malicious Document:
+Spear phishing emails deliver HWP (Hangul Word Processor) files or password-
+protected Office documents. HWP files exploit Hangul Office vulnerabilities or
+contain embedded OLE objects with malicious scripts.
+
+Observed lure documents in this campaign:
+  - "2024년_대북정책_연구보고서_초안.hwp" (Draft NK Policy Research Report 2024)
+  - "북핵_전망_및_한반도_안보환경_분석.docx" (NK Nuclear Outlook Analysis)
+  - "통일부_연구용역_참여신청서.hwp" (MOTU Research Contract Application)
+
+Malware Stage 1 — AppleSeed Dropper:
+  File: 정책연구_지원서.exe (disguised as HWP icon)
+  MD5:    a4d8f2c7e9b1054a4d8f2c7e9b10541
+  SHA1:   c8f4b2a7e1d9053c8f4b2a7e1d90537b4c2a8f1e
+  SHA256: 8a4d8f2c7e9b1054a4d8f2c7e9b10548a4d8f2c7e9b10548a4d8f2c7e9b10548a
+
+AppleSeed backdoor (injected into explorer.exe):
+  MD5:    5b9e4c7f2a1d036 5b9e4c7f2a1d0365
+  SHA256: 2b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9
+
+AlphaSeed (Python-based, uses Gmail API for C2):
+  File: chrome_helper.pyw
+  MD5:    d7e3b1a9c4f8026d7e3b1a9c4f80261
+  SHA256: 6d7e3b1a9c4f8026d7e3b1a9c4f80266d7e3b1a9c4f80266d7e3b1a9c4f80266d7
+
+GOLDDRAGON Browser Credential Stealer:
+  File: edge_update.dll
+  MD5:    f2c8e4a7b9d1045f2c8e4a7b9d10451
+  SHA256: 3f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8
+
+GOLDDRAGON targets:
+  - Chrome (Login Data SQLite DB)
+  - Edge (Login Data SQLite DB)
+  - Firefox (logins.json, key4.db)
+  - Whale browser (Naver's Korean browser, Login Data)
+  - TOSS app credentials (Korean fintech)
+
+C2 Infrastructure:
+AppleSeed uses a custom TCP protocol on port 8443. AlphaSeed uses the Gmail API
+(OAuth token hardcoded in script) for covert command delivery via draft emails.
+
+  95.164.17.24        (AppleSeed C2, Ukraine hosting)
+  91.92.240.86        (AppleSeed backup C2)
+  172.104.92.14       (Data exfil server)
+  45.77.38.158        (Staging server)
+
+Malicious Domains:
+  naver-security-notice[.]com
+  daum-account-verify[.]net
+  korean-policy-forum[.]org
+  unification-research[.]net
+  kisa-security-update[.]com
+
+Exploited Vulnerabilities:
+  CVE-2022-3723   (Chrome V8 type confusion - used in browser exploit chain)
+  CVE-2023-21823  (Windows Graphics Component RCE)
+
+==============================================================================
+GOLDDRAGON TECHNICAL BEHAVIOR
+==============================================================================
+
+Upon loading, GOLDDRAGON performs the following:
+  1. Copies browser profile directories to %TEMP%\~dumpXXXX\ (randomized folder)
+  2. For SQLite-based stores (Chrome, Edge): decrypts using DPAPI and CryptUnprotectData
+  3. Compresses collected data using zlib
+  4. Exfiltrates via HTTP POST to C2 server with custom headers:
+     X-Request-ID: <base64-encoded machine fingerprint>
+     X-Session-Token: <base64-encoded encrypted data>
+  5. Deletes staging directory and clears event logs (Security, System, Application)
+
+Persistence is achieved via:
+  - Scheduled task: "Windows Defender SmartScreen Update" running every 4 hours
+  - Registry: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+
+Execution:
+  T1204.002 - User Execution: Malicious File
+  T1059.006 - Command and Scripting Interpreter: Python
+
+Persistence:
+  T1053.005 - Scheduled Task/Job: Scheduled Task
+  T1547.001 - Boot or Logon Autostart Execution: Registry Run Keys
+
+Credential Access:
+  T1555.003 - Credentials from Password Stores: Credentials from Web Browsers
+  T1056.001 - Input Capture: Keylogging
+
+Command and Control:
+  T1102.002 - Web Service: Bidirectional Communication (Gmail API)
+  T1071.001 - Application Layer Protocol: Web Protocols
+
+Collection:
+  T1005 - Data from Local System
+  T1039 - Data from Network Shared Drive
+  T1113 - Screen Capture
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  a4d8f2c7e9b10541a4d8f2c7e9b10541
+  5b9e4c7f2a1d03655b9e4c7f2a1d0365
+  d7e3b1a9c4f80261d7e3b1a9c4f80261
+  f2c8e4a7b9d10451f2c8e4a7b9d10451
+  8a4d8f2c7e9b10548a4d8f2c7e9b10548a4d8f2c7e9b10548a4d8f2c7e9b10548a
+  2b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9c4f7a1d0362b5e9
+  6d7e3b1a9c4f80266d7e3b1a9c4f80266d7e3b1a9c4f80266d7e3b1a9c4f80266d7
+  3f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8e4a7b9d1053f2c8
+
+IP Addresses:
+  95.164.17.24
+  91.92.240.86
+  172.104.92.14
+  45.77.38.158
+
+Domains:
+  naver-security-notice.com
+  daum-account-verify.net
+  korean-policy-forum.org
+  unification-research.net
+  kisa-security-update.com
+
+CVEs:
+  CVE-2022-3723
+  CVE-2023-21823

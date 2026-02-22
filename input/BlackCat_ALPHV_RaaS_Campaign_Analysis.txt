@@ -1,0 +1,185 @@
+BlackCat / ALPHV Ransomware-as-a-Service: Threat Actor Profile and Campaign Analysis
+Published: 2023-12-05
+Source: CrowdStrike Intelligence
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+CrowdStrike Intelligence presents a comprehensive analysis of ALPHV (publicly
+known as BlackCat), a sophisticated ransomware-as-a-service operation that has
+emerged as one of the most technically advanced and operationally active RaaS
+families since its emergence in late 2021. ALPHV is the first major ransomware
+written entirely in Rust, offering cross-platform capability targeting Windows,
+Linux, and VMware ESXi environments.
+
+In the second half of 2023, ALPHV affiliates conducted high-profile attacks
+against MGM Resorts International, Caesars Entertainment, and multiple healthcare
+organizations, demonstrating the group's willingness to target critical infrastructure
+and applying significant pressure through novel extortion tactics including filing
+complaints with the SEC against non-disclosing victim companies.
+
+==============================================================================
+THREAT ACTOR PROFILE
+==============================================================================
+
+ALPHV first advertised on RAMP and XSS dark web forums in November 2021 as
+ALPHV/BlackCat. The core development team is assessed to include former members
+of DarkSide and BlackMatter RaaS operations (disbanded after the Colonial Pipeline
+attack and subsequent law enforcement pressure).
+
+Criminal infrastructure:
+  - Tor-based victim negotiation portal
+  - Affiliate recruitment portal with ~80% revenue share for affiliates
+  - Dedicated data leak site ("ALPHV Collections")
+  - Ransomware-as-a-Service builder with highly configurable parameters
+
+Distinctive capabilities:
+  1. Rust implementation enables reliable cross-platform ransomware
+  2. Configurable encryption modes (AES-128/256, ChaCha20) per deployment
+  3. "Intermittent encryption" option for speed (encrypts first N bytes of each file)
+  4. Self-propagation module targeting Azure Storage and AWS S3 buckets
+  5. Anti-forensics: secure deletion of originals, log wiping
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+ALPHV Encryptor Variants Observed:
+  Version 3.x (Windows x64):
+    MD5:    5c8f2e9a1d7b043 5c8f2e9a1d7b0435
+    SHA1:   b2f9c7e4a1d8053b2f9c7e4a1d8053b2f
+    SHA256: 9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c
+
+  Version 3.x (Linux ELF, targets ESXi):
+    MD5:    e1a9c7f4b2d8056 e1a9c7f4b2d80561
+    SHA256: 4e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9
+
+  Version 4.0 "Sphynx" (Windows, with Impacket integration):
+    MD5:    7d4b9e2c8f1a036 7d4b9e2c8f1a0367
+    SHA256: 2d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4
+
+Pre-Ransom Tooling Observed:
+  Affiliate used Cobalt Strike + Brute Ratel C4 in observed intrusions.
+
+  Brute Ratel C4 badger:
+    MD5:    3f7c1a8e9b4d026 3f7c1a8e9b4d0263
+    SHA256: 6f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7
+
+  Credential dumper (custom LSASS harvester):
+    MD5:    8b2e9f4c7a1d056 8b2e9f4c7a1d0568
+    SHA256: 1b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2
+
+  ExMatter (data exfiltration tool, Rust-based):
+    MD5:    c4f8e2b9a7d1039c4f8e2b9a7d10391
+    SHA256: 7c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8
+
+C2 Infrastructure:
+  147.78.47.250       (Brute Ratel C4 team server, Netherlands)
+  45.9.148.205        (Cobalt Strike C2)
+  198.244.176.67      (ExMatter exfil receiver)
+  91.219.236.173      (ALPHV affiliate panel)
+  185.220.103.11      (Tor-to-web proxy)
+
+Attack Infrastructure Domains:
+  alphv-recovery[.]com
+  blackcat-decryptor[.]net
+  secure-restore-files[.]org
+  ransomsupport[.]io
+  mgm-data-leak[.]onion.ly  (clearnet proxy for leak site)
+
+Exploited CVEs:
+  CVE-2021-31207 (Microsoft Exchange Server RCE - ProxyShell)
+  CVE-2023-20269 (Cisco ASA/FTD VPN unauthorized access)
+  CVE-2023-4966  (Citrix Bleed - session token leakage)
+
+==============================================================================
+ALPHV NEGOTIATION TACTICS
+==============================================================================
+
+ALPHV employs a three-stage extortion model:
+  1. Encryption: Files encrypted, ransom note dropped
+  2. Data exposure threat: Victim notified exfiltrated data will be published
+  3. Regulatory pressure: For public companies, SEC disclosure complaint filed
+     if victim does not respond within 96 hours
+
+The group has also been observed:
+  - Contacting victim employees directly with links to stolen HR records
+  - Submitting data to competitor companies
+  - DDoSing victim infrastructure while negotiating
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1190 - Exploit Public-Facing Application
+  T1133 - External Remote Services
+
+Execution:
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+  T1059.004 - Command and Scripting Interpreter: Unix Shell
+
+Persistence:
+  T1543.003 - Create or Modify System Process: Windows Service
+
+Defense Evasion:
+  T1562.001 - Impair Defenses: Disable or Modify Tools
+  T1070.004 - Indicator Removal: File Deletion
+  T1027.002 - Obfuscated Files or Information: Software Packing
+
+Credential Access:
+  T1003.001 - OS Credential Dumping: LSASS Memory
+  T1110.003 - Brute Force: Password Spraying
+
+Discovery:
+  T1069.002 - Permission Groups Discovery: Domain Groups
+  T1087.002 - Account Discovery: Domain Account
+
+Lateral Movement:
+  T1021.001 - Remote Services: Remote Desktop Protocol
+  T1570 - Lateral Tool Transfer
+
+Exfiltration:
+  T1048.002 - Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+
+Impact:
+  T1486 - Data Encrypted for Impact
+  T1657 - Financial Theft
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  5c8f2e9a1d7b04355c8f2e9a1d7b0435
+  e1a9c7f4b2d80561e1a9c7f4b2d80561
+  7d4b9e2c8f1a03677d4b9e2c8f1a0367
+  3f7c1a8e9b4d02633f7c1a8e9b4d0263
+  8b2e9f4c7a1d05688b2e9f4c7a1d0568
+  c4f8e2b9a7d10391c4f8e2b9a7d10391
+  9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c5f2e8a1d7b043f9c
+  4e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9c7f4b2d8064e1a9
+  2d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4e9c8f1a0362d7b4
+  6f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7a1e8b9d0266f3c7
+  1b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2f4c9a7d0561b8e2
+  7c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8e2b9a7d0397c4f8
+
+IP Addresses:
+  147.78.47.250
+  45.9.148.205
+  198.244.176.67
+  91.219.236.173
+  185.220.103.11
+
+Domains:
+  alphv-recovery.com
+  blackcat-decryptor.net
+  secure-restore-files.org
+  ransomsupport.io
+
+CVEs:
+  CVE-2021-31207
+  CVE-2023-20269
+  CVE-2023-4966

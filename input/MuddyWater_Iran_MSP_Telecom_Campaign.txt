@@ -1,0 +1,208 @@
+MuddyWater (Static Kitten): Iranian APT Targets Telecommunications and IT Managed Service Providers
+Published: 2024-02-20
+Source: Symantec Threat Hunter Team
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+The Symantec Threat Hunter Team has observed an active campaign attributed to
+MuddyWater (also known as Static Kitten, Seedworm, TEMP.Zagros, and Mercury),
+an Iranian state-sponsored threat actor assessed to operate under Iran's Ministry
+of Intelligence and Security (MOIS).
+
+The campaign targets telecommunications providers and IT Managed Service Providers
+(MSPs) in the Middle East, Central Asia, and Eastern Europe. By compromising MSPs,
+MuddyWater gains access to the MSP's downstream customer environments, enabling
+a supply chain-style attack that affects hundreds of organizations simultaneously.
+
+The actor employs spear phishing combined with exploitation of remote monitoring
+and management (RMM) tools already deployed in victim environments, notably
+connecting to victims via compromised SimpleHelp and Atera instances to establish
+secondary access alongside their custom POWERLESS backdoor.
+
+==============================================================================
+BACKGROUND: MUDDYWATER
+==============================================================================
+
+MuddyWater has been active since at least 2017 and primarily targets countries in
+the Middle East (Saudi Arabia, Turkey, Israel, UAE) and neighboring regions.
+In 2022, CISA and partner agencies published a joint advisory attributing MuddyWater
+to MOIS and documenting its use of open-source offensive security tools alongside
+custom malware.
+
+The actor commonly uses:
+  - Spear phishing with ZIP archives containing LNK or Office documents
+  - Open-source tools: Ligolo-ng (tunneling), Chisel (SOCKS proxy), Invoke-Obfuscation
+  - POWERLESS backdoor (PowerShell-based)
+  - PhonyC2 command and control framework (custom Python)
+  - DROKBK malware (GitHub-based C2)
+  - Heavy reliance on Living-off-the-Land (LotL) techniques to blend in
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+Initial Compromise — Phishing:
+Emails purport to be from industry associations or regulatory bodies:
+  - Subject: "Telecom Regulatory Update — Q1 2024 Compliance Documentation"
+  - Subject: "IT Infrastructure Security Assessment — Participation Required"
+
+The ZIP archive contains an LNK file that, when double-clicked, executes a
+PowerShell one-liner downloading POWERLESS from an attacker-controlled URL.
+
+POWERLESS Backdoor (latest variant):
+POWERLESS is an obfuscated PowerShell script. The latest variant observed uses:
+  - String concatenation and Base64 encoding throughout
+  - AMSI bypass: [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils')
+                  .GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
+  - Persistence: Scheduled task named "Windows Defender Update Task"
+  - C2: Uses HTTP polling to PhonyC2 server (custom Python C2 framework)
+  - Supports: command execution, file upload/download, screenshot, lateral movement
+
+PhonyC2 Framework:
+PhonyC2 is MuddyWater's custom C2 framework written in Python. It mimics legitimate
+web server responses, returning HTTP 200 with body content from a predefined
+"decoy" HTML page when accessed without proper authentication headers. Only
+properly authenticated POWERLESS agents receive tasking. All communication uses
+AES-256-GCM encryption.
+
+RMM Tool Abuse:
+After establishing initial access via POWERLESS, MuddyWater operators accessed
+victim SimpleHelp and Atera RMM instances using credentials harvested from the
+compromised MSP server (found in plaintext configuration files). This allowed
+them to push deployments to end-customer environments without further exploitation.
+
+Tunneling / Lateral Movement:
+  - Ligolo-ng used to create reverse tunnels from DMZ-segment hosts back to C2
+  - Chisel used for SOCKS proxy to enable direct RDP access to internal hosts
+  - PsExec for lateral movement across Windows environments
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+LNK Phishing File:
+  File: Q1_2024_Compliance_Update.lnk
+  MD5:    e2b7f4c9a1d8036 e2b7f4c9a1d80361
+  SHA256: 7e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4
+
+POWERLESS Backdoor (PowerShell, obfuscated):
+  File: Microsoft.Management.Infrastructure.ps1
+  MD5:    9a4c7f2e1b8d053 9a4c7f2e1b8d0539
+  SHA256: 4a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7
+
+PhonyC2 Agent (Python compiled to EXE via PyInstaller):
+  File: svchost_update.exe
+  MD5:    3f8c4e7b9a2d056 3f8c4e7b9a2d0563
+  SHA256: 8f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4
+
+Ligolo-ng agent (tunneling):
+  File: lsasrv.exe (disguised as Windows process)
+  MD5:    c6e9a4f7b2d1038 c6e9a4f7b2d10381
+  SHA256: 1c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9
+
+Chisel (SOCKS proxy):
+  MD5:    5b4e9f2c7a1d038 5b4e9f2c7a1d0385
+  SHA256: 2b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4
+
+Credential harvesting tool (custom):
+  File: WinUpdate.exe
+  MD5:    7d2f9c4e1b8a035 7d2f9c4e1b8a0357
+  SHA256: 3d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2
+
+C2 Infrastructure:
+  PhonyC2 servers:
+    176.97.66.55      (Primary C2, Netherlands)
+    81.19.218.153     (Secondary C2, Germany)
+    195.201.18.196    (Tertiary C2, Hetzner)
+
+  Ligolo-ng relay:
+    45.130.151.38     (Tunnel relay server)
+
+  Payload hosting:
+    185.229.116.80    (POWERLESS script hosting)
+
+Malicious Domains:
+  telecom-regulatory-update[.]com
+  msp-security-portal[.]net
+  windows-defender-service[.]org
+  itmanagement-docs[.]com
+  simplehelp-support-update[.]net
+
+Exploited CVEs:
+  CVE-2023-43770  (Roundcube webmail XSS - used for initial phishing panel access)
+  CVE-2024-0519   (Chrome V8 out-of-bounds memory access)
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+  T1199 - Trusted Relationship (MSP abuse)
+
+Execution:
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+  T1204.002 - User Execution: Malicious File
+
+Persistence:
+  T1053.005 - Scheduled Task/Job: Scheduled Task
+
+Defense Evasion:
+  T1562.001 - Impair Defenses: Disable or Modify Tools (AMSI bypass)
+  T1027.010 - Obfuscated Files or Information: Command Obfuscation
+  T1036.005 - Masquerading: Match Legitimate Name or Location
+
+Credential Access:
+  T1552.001 - Unsecured Credentials: Credentials in Files
+
+Discovery:
+  T1018 - Remote System Discovery
+  T1046 - Network Service Discovery
+
+Lateral Movement:
+  T1021.001 - Remote Services: Remote Desktop Protocol
+  T1072 - Software Deployment Tools (RMM tool abuse)
+
+Command and Control:
+  T1090.003 - Proxy: Multi-hop Proxy
+  T1071.001 - Application Layer Protocol: Web Protocols
+  T1572 - Protocol Tunneling
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  e2b7f4c9a1d80361e2b7f4c9a1d80361
+  9a4c7f2e1b8d05399a4c7f2e1b8d0539
+  3f8c4e7b9a2d05633f8c4e7b9a2d0563
+  c6e9a4f7b2d10381c6e9a4f7b2d10381
+  5b4e9f2c7a1d03855b4e9f2c7a1d0385
+  7d2f9c4e1b8a03577d2f9c4e1b8a0357
+  7e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4f9c1a7d0367e2b4
+  4a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7f2e8b1d0534a9c7
+  8f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4e7b9a2d0568f3c4
+  1c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9a4f7b2d0381c6e9
+  2b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4f9c7a1d0382b5e4
+  3d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2c9e4b1a0353d7f2
+
+IP Addresses:
+  176.97.66.55
+  81.19.218.153
+  195.201.18.196
+  45.130.151.38
+  185.229.116.80
+
+Domains:
+  telecom-regulatory-update.com
+  msp-security-portal.net
+  windows-defender-service.org
+  itmanagement-docs.com
+  simplehelp-support-update.net
+
+CVEs:
+  CVE-2023-43770
+  CVE-2024-0519

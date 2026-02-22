@@ -1,0 +1,188 @@
+APT29 / Cozy Bear: SVR-Linked Spear Phishing Campaign Targeting Government Entities
+Published: 2024-03-15
+Source: Unit 42, Palo Alto Networks
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Unit 42 has identified an ongoing spear phishing campaign attributed with high
+confidence to APT29 (also known as Cozy Bear, The Dukes, or Nobelium), a threat
+group assessed to operate on behalf of Russia's Foreign Intelligence Service (SVR).
+The campaign, active since January 2024, targets foreign ministries, embassies,
+and government contractors across NATO member states and partner countries.
+
+The attackers leverage legitimate cloud services for command and control (C2),
+making detection particularly challenging. The infection chain employs a novel
+HTML smuggling technique to deliver a ROOTSAW-variant dropper, ultimately
+deploying the WINELOADER backdoor observed in earlier campaigns.
+
+==============================================================================
+BACKGROUND: APT29
+==============================================================================
+
+APT29 is one of the most sophisticated and persistent threat actors tracked by the
+security community. Active since at least 2008, the group is known for targeting
+government entities, think tanks, healthcare organizations, and technology firms.
+The group gained international notoriety following the 2016 Democratic National
+Committee (DNC) breach and the 2020 SolarWinds supply chain attack.
+
+APT29 is distinguished by its meticulous operational security, use of legitimate
+cloud infrastructure (OneDrive, Dropbox, Notion), and custom malware families
+that evolve continuously to evade detection.
+
+==============================================================================
+CAMPAIGN DETAILS
+==============================================================================
+
+Initial Access:
+The campaign begins with spear phishing emails crafted to impersonate legitimate
+diplomatic correspondence. Emails are sent from compromised email accounts belonging
+to foreign ministries or from newly registered domains with convincing typosquatting
+patterns (e.g., mfa-germany[.]org, embassy-support[.]net).
+
+The emails carry HTML attachments containing smuggled ZIP archives. When opened in
+a browser, the JavaScript within the HTML file decodes a base64-encoded payload
+and writes a ZIP file to disk, bypassing email gateway filters that rely on static
+attachment analysis.
+
+The ZIP archive contains a Windows shortcut (.lnk) file masquerading as a PDF
+diplomatic document. Executing the .lnk file triggers a PowerShell command that
+downloads the second-stage loader from attacker-controlled infrastructure.
+
+Second-Stage Loader (ROOTSAW Variant):
+The loader, internally tracked as ROOTSAW.B, is a 32-bit DLL written in C++.
+It performs environment checks to detect sandboxes (checking for minimum RAM, CPU
+count, and recently accessed files) before proceeding. If the environment is deemed
+safe, the loader decrypts and reflectively loads the final payload (WINELOADER)
+directly into memory.
+
+WINELOADER Backdoor:
+WINELOADER communicates with its C2 server via HTTPS, blending into normal traffic
+by using legitimate-looking TLS certificates and hosting the C2 panel on compromised
+WordPress sites or Notion pages. The backdoor supports the following commands:
+  - File upload/download
+  - Shell command execution
+  - Screenshot capture
+  - Credential harvesting from browsers (Chrome, Firefox, Edge)
+  - Lateral movement via pass-the-hash and SMB
+
+==============================================================================
+TECHNICAL ANALYSIS
+==============================================================================
+
+File: diplomatic_note_march2024.html
+  MD5:    a3f8d2c15e7b904f63a21d8e5c9b0712
+  SHA1:   9c4a1b8e3f72d056a9c3b1e8f45d2a7c6b09e3f1
+  SHA256: 3a7f2e1d9c8b5a04f63e21d8c5b9071248f3a2e1d9c8b5a04f63e21d8c5b90712
+
+File: document_viewer.lnk (inside ZIP)
+  MD5:    7b2e9d4c8f1a536b02e8d4c9f2a7b531
+  SHA1:   b8e3f1a9c4d2e7056b9a3c1e8f45b2d7a6c09b3e
+  SHA256: 8b4e2f1c9d7a5036b2e8d4c9f2a7b531c8d4e2f1c9d7a5036b2e8d4c9f2a7b5
+
+File: rootsaw_loader.dll (ROOTSAW.B)
+  MD5:    c5e1a7d3f9b2048c5e1a7d3f9b204817
+  SHA1:   d2f9b4a7c3e1085d2f9b4a7c3e10857a9b4c2d7
+  SHA256: 9c5e1a7d3f9b2048c5e1a7d3f9b20481789c5e1a7d3f9b2048c5e1a7d3f9b204
+
+File: wineloader.dat (WINELOADER payload, encrypted)
+  MD5:    e8f4b2a6d0c3917e8f4b2a6d0c391748
+  SHA1:   a7c4e2f9b1d0836a7c4e2f9b1d083612c4e7a2f
+  SHA256: 4e8f4b2a6d0c3917e8f4b2a6d0c391748ae8f4b2a6d0c3917e8f4b2a6d0c3917
+
+C2 Infrastructure:
+  95.215.45.189         (Primary C2, hosted on Frantech Solutions)
+  185.220.101.47        (Secondary C2, Tor exit node relay)
+  45.142.212.100        (Payload delivery server)
+  91.108.4.35           (WINELOADER C2 via compromised WordPress)
+
+Malicious Domains:
+  mfa-germany[.]org
+  embassy-support[.]net
+  secure-document-viewer[.]com
+  diplomatic-attachments[.]online
+  cloud-storage-eu[.]net
+
+Exploited Vulnerabilities:
+  CVE-2023-23397 (Microsoft Outlook elevation of privilege - used in phishing lure)
+  CVE-2024-21413 (Microsoft Outlook remote code execution)
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+  T1566.002 - Phishing: Spearphishing Link
+
+Execution:
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+  T1059.003 - Command and Scripting Interpreter: Windows Command Shell
+  T1204.002 - User Execution: Malicious File
+
+Defense Evasion:
+  T1027.006 - Obfuscated Files or Information: HTML Smuggling
+  T1055.001 - Process Injection: Dynamic-link Library Injection
+  T1036.005 - Masquerading: Match Legitimate Name or Location
+
+Credential Access:
+  T1555.003 - Credentials from Password Stores: Credentials from Web Browsers
+  T1550.002 - Use Alternate Authentication Material: Pass the Hash
+
+Command and Control:
+  T1071.001 - Application Layer Protocol: Web Protocols
+  T1102.002 - Web Service: Bidirectional Communication
+  T1573.002 - Encrypted Channel: Asymmetric Cryptography
+
+Lateral Movement:
+  T1021.002 - Remote Services: SMB/Windows Admin Shares
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+Hashes:
+  a3f8d2c15e7b904f63a21d8e5c9b0712
+  9c4a1b8e3f72d056a9c3b1e8f45d2a7c6b09e3f1
+  3a7f2e1d9c8b5a04f63e21d8c5b9071248f3a2e1d9c8b5a04f63e21d8c5b90712
+  7b2e9d4c8f1a536b02e8d4c9f2a7b531
+  b8e3f1a9c4d2e7056b9a3c1e8f45b2d7a6c09b3e
+  8b4e2f1c9d7a5036b2e8d4c9f2a7b531c8d4e2f1c9d7a5036b2e8d4c9f2a7b5
+  c5e1a7d3f9b2048c5e1a7d3f9b204817
+  d2f9b4a7c3e1085d2f9b4a7c3e10857a9b4c2d7
+  9c5e1a7d3f9b2048c5e1a7d3f9b20481789c5e1a7d3f9b2048c5e1a7d3f9b204
+  e8f4b2a6d0c3917e8f4b2a6d0c391748
+  a7c4e2f9b1d0836a7c4e2f9b1d083612c4e7a2f
+  4e8f4b2a6d0c3917e8f4b2a6d0c391748ae8f4b2a6d0c3917e8f4b2a6d0c3917
+
+IP Addresses:
+  95.215.45.189
+  185.220.101.47
+  45.142.212.100
+  91.108.4.35
+
+Domains / URLs:
+  mfa-germany.org
+  embassy-support.net
+  secure-document-viewer.com
+  diplomatic-attachments.online
+  cloud-storage-eu.net
+  hxxps://cloud-storage-eu[.]net/api/v2/sync
+  hxxps://diplomatic-attachments[.]online/files/download
+
+CVEs:
+  CVE-2023-23397
+  CVE-2024-21413
+
+==============================================================================
+RECOMMENDATIONS
+==============================================================================
+
+1. Block all listed IoCs at the network perimeter and endpoint level.
+2. Apply patches for CVE-2023-23397 and CVE-2024-21413 immediately.
+3. Enable Protected View and disable automatic preview in Outlook.
+4. Monitor for outbound HTTPS connections to newly registered domains (<30 days old).
+5. Deploy detections for HTML smuggling techniques in email gateways.
+6. Audit privileged accounts for pass-the-hash indicators in Windows event logs (Event ID 4624, Logon Type 9).

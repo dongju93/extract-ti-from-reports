@@ -1,0 +1,200 @@
+LockBit 3.0 Ransomware: Technical Analysis and Defensive Guidance
+Published: 2024-01-22
+Source: Cisco Talos Intelligence Group
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+This report provides a deep technical analysis of LockBit 3.0 (also referred to
+as LockBit Black), the latest iteration of the LockBit ransomware-as-a-service
+(RaaS) operation. In late 2023 and early 2024, Talos observed a significant uptick
+in LockBit 3.0 intrusions targeting critical infrastructure, manufacturing, and
+legal services organizations in North America, Europe, and Australia.
+
+LockBit 3.0 introduced a bug bounty program — an industry first for ransomware
+operations — and added new extortion mechanisms including the ability to pay to
+have victim data deleted or to extend countdown timers. The encryptor itself
+borrows significant code from the leaked BlackMatter ransomware source code.
+
+==============================================================================
+BACKGROUND: LOCKBIT RaaS
+==============================================================================
+
+LockBit first emerged in September 2019 as ABCD ransomware. The operation evolved
+through LockBit 1.0 (2020), LockBit 2.0 (2021, code-named LockBit Red), and
+culminated in LockBit 3.0 (2022, code-named LockBit Black). The group claims to
+have the fastest ransomware encryption speed of any RaaS operation, a claim
+forensically supported by researchers analyzing encryption benchmarks.
+
+The LockBit core team provides affiliates with a builder to generate customized
+payloads, a victim-facing negotiation panel, and a data leak site. Affiliates
+typically receive 70-80% of ransom payments. In 2023, LockBit was responsible for
+approximately 25-28% of all publicly known ransomware attacks.
+
+==============================================================================
+INFECTION CHAIN
+==============================================================================
+
+Phase 1 — Initial Access:
+LockBit affiliates employ diverse initial access methods. In the incidents analyzed
+for this report, the following were observed:
+
+  (a) Exploitation of public-facing applications:
+      - Fortinet FortiOS SSL-VPN vulnerabilities (CVE-2023-27997, CVE-2022-40684)
+      - PaperCut NG/MF authentication bypass (CVE-2023-27350)
+
+  (b) Purchase of access from Initial Access Brokers (IABs) via dark web forums,
+      typically RDP credentials or VPN session tokens from previous info-stealer
+      infections.
+
+  (c) Phishing emails delivering malicious macro-enabled Office documents.
+
+Phase 2 — Post-Compromise Actions:
+After establishing a foothold, affiliates typically spend days to weeks performing
+reconnaissance and lateral movement before deploying the ransomware. Observed tools:
+  - Cobalt Strike beacons (multiple variants)
+  - Mimikatz for credential harvesting
+  - Advanced IP Scanner / SoftPerfect Network Scanner for discovery
+  - AnyDesk / TeamViewer for persistent remote access
+  - Rclone for data exfiltration to cloud storage (MEGA, Dropbox)
+
+Phase 3 — Ransomware Deployment:
+The LockBit 3.0 encryptor is deployed via GPO or PsExec across domain-joined hosts.
+Before encryption, the malware:
+  - Terminates security tools and backup processes
+  - Deletes Volume Shadow Copies (vssadmin delete shadows /all)
+  - Disables Windows Defender via registry modifications
+  - Enumerates and encrypts files matching target extensions, skipping system-critical files
+
+File encryption uses AES-256 in CTR mode; the AES key is encrypted with an
+embedded RSA-2048 public key. Files are renamed with a random extension appended.
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+LockBit 3.0 Encryptor Samples:
+  MD5:    f4e7b9c2a1d8365f4e7b9c2a1d83651f
+  SHA1:   c1a9e7d4b2f8036c1a9e7d4b2f80367d9e4b2c1a
+  SHA256: 7f4e9b2c1a8d365f4e9b2c1a8d3657f4e9b2c1a8d365f4e9b2c1a8d3657f4e9b
+
+  MD5:    2a8c4e7f1b9d035 2a8c4e7f1b9d0352
+  SHA1:   e4b7c9a2d1f8036e4b7c9a2d1f80367c9b4a2e7
+  SHA256: 1b8c4e7f9a2d365b1b8c4e7f9a2d3651b8c4e7f9a2d3651b8c4e7f9a2d3651b8c
+
+Cobalt Strike Beacon (observed in pre-ransom phase):
+  MD5:    9d3f7a2c5e1b804 9d3f7a2c5e1b8049
+  SHA256: 3e9d7a2c5f1b8049d3e9d7a2c5f1b8049d3e9d7a2c5f1b8049d3e9d7a2c5f1b80
+
+Mimikatz (modified):
+  MD5:    b6e2a9d4c7f1038b6e2a9d4c7f10381b
+  SHA256: 9a6e2b4d7c1f038b9a6e2b4d7c1f0389a6e2b4d7c1f0389a6e2b4d7c1f0389a6e
+
+Rclone (used for exfiltration):
+  MD5:    d1c8f4b7a2e9065d1c8f4b7a2e90651d
+  SHA256: 5d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8
+
+C2 Servers (Cobalt Strike):
+  193.142.58.23       (Cobalt Strike C2, Team Server)
+  5.188.86.214        (Cobalt Strike C2, Netherlands)
+  185.234.218.110     (Cobalt Strike C2, redirector)
+  103.75.190.12       (Cobalt Strike C2, APAC)
+
+Exfiltration Endpoints (Rclone targets):
+  mega-secure-upload[.]com
+  data-backup-eu[.]net
+  storage-transfer[.]online
+
+C2 Domains:
+  lockbit-cdn[.]com
+  lb3-panel[.]net
+  ransom-recovery[.]support
+
+Exploited CVEs:
+  CVE-2023-27997
+  CVE-2022-40684
+  CVE-2023-27350
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1190 - Exploit Public-Facing Application
+  T1078 - Valid Accounts
+  T1566.001 - Phishing: Spearphishing Attachment
+
+Execution:
+  T1059.001 - Command and Scripting Interpreter: PowerShell
+  T1059.003 - Command and Scripting Interpreter: Windows Command Shell
+  T1072 - Software Deployment Tools
+
+Persistence:
+  T1547.001 - Boot or Logon Autostart Execution: Registry Run Keys
+  T1543.003 - Create or Modify System Process: Windows Service
+
+Privilege Escalation:
+  T1068 - Exploitation for Privilege Escalation
+  T1134 - Access Token Manipulation
+
+Defense Evasion:
+  T1562.001 - Impair Defenses: Disable or Modify Tools
+  T1070.001 - Indicator Removal: Clear Windows Event Logs
+  T1490 - Inhibit System Recovery
+
+Credential Access:
+  T1003.001 - OS Credential Dumping: LSASS Memory
+  T1110 - Brute Force
+
+Discovery:
+  T1082 - System Information Discovery
+  T1083 - File and Directory Discovery
+  T1135 - Network Share Discovery
+  T1018 - Remote System Discovery
+
+Lateral Movement:
+  T1570 - Lateral Tool Transfer
+  T1021.001 - Remote Services: Remote Desktop Protocol
+  T1021.002 - Remote Services: SMB/Windows Admin Shares
+
+Exfiltration:
+  T1567.002 - Exfiltration Over Web Service: Exfiltration to Cloud Storage
+
+Impact:
+  T1486 - Data Encrypted for Impact
+  T1489 - Service Stop
+  T1490 - Inhibit System Recovery
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+Hashes (MD5):
+  f4e7b9c2a1d8365f4e7b9c2a1d83651f
+  2a8c4e7f1b9d03522a8c4e7f1b9d0352
+  9d3f7a2c5e1b80499d3f7a2c5e1b8049
+  b6e2a9d4c7f1038b6e2a9d4c7f10381b
+  d1c8f4b7a2e9065d1c8f4b7a2e90651d
+
+Hashes (SHA256):
+  7f4e9b2c1a8d365f4e9b2c1a8d3657f4e9b2c1a8d365f4e9b2c1a8d3657f4e9b
+  1b8c4e7f9a2d3651b8c4e7f9a2d3651b8c4e7f9a2d3651b8c4e7f9a2d3651b8c
+  3e9d7a2c5f1b8049d3e9d7a2c5f1b8049d3e9d7a2c5f1b8049d3e9d7a2c5f1b80
+  9a6e2b4d7c1f038b9a6e2b4d7c1f0389a6e2b4d7c1f0389a6e2b4d7c1f0389a6e
+  5d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8f4b7a2e9065d1c8
+
+IP Addresses:
+  193.142.58.23
+  5.188.86.214
+  185.234.218.110
+  103.75.190.12
+
+Domains:
+  lockbit-cdn.com
+  lb3-panel.net
+  ransom-recovery.support
+  mega-secure-upload.com
+  data-backup-eu.net
+  storage-transfer.online

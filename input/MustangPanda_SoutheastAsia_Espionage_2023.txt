@@ -1,0 +1,186 @@
+Mustang Panda (TA416 / Bronze President): Espionage Campaign Targeting Southeast Asian Governments
+Published: 2023-11-14
+Source: Trend Micro Research
+TLP: WHITE
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Trend Micro has identified and investigated a sustained cyber espionage campaign
+conducted by Mustang Panda (also tracked as TA416, Bronze President, RedDelta, and
+Earth Preta) targeting government ministries, military organizations, and political
+parties across Myanmar, Vietnam, the Philippines, and Indonesia.
+
+The campaign, active throughout 2023, leverages geopolitically relevant spear
+phishing lures and a newly identified variant of the PlugX remote access Trojan
+(RAT), which we designate TONESHELL. Additionally, the threat actor has introduced
+a new second-stage backdoor, REDEARTHWORM, which provides more covert long-term
+access than PlugX alone.
+
+Mustang Panda is assessed to operate on behalf of Chinese state interests, with a
+focus on gathering intelligence related to border disputes, military posture, and
+political alliances in the Indochina and Maritime Southeast Asia region.
+
+==============================================================================
+BACKGROUND: MUSTANG PANDA
+==============================================================================
+
+Mustang Panda has been active since at least 2012. The group primarily targets
+government entities in Southeast Asia but has also been observed targeting European
+governments (particularly around the Russia-Ukraine conflict), NGOs, and religious
+organizations (notably the Vatican and Catholic Church organizations in Asia).
+
+Signature TTPs include:
+  - Phishing with ZIP archives containing LNK files and DLL side-loading
+  - Heavy use of legitimate software (Correl Draw, HP software, antivirus binaries)
+    as hosts for DLL side-loading attacks
+  - PlugX RAT as the primary persistent implant
+  - Use of USB worms for air-gapped network propagation
+  - PANGOLIN rootkit for concealment on critical targets
+
+==============================================================================
+CAMPAIGN TECHNICAL DETAILS
+==============================================================================
+
+Delivery Mechanism:
+Spear phishing emails in local languages (Burmese, Vietnamese, Filipino, Bahasa)
+carry ZIP or RAR archives. Archive contents use double-extension filenames to
+disguise executables (e.g., "MOU_Agreement_2023.pdf.exe").
+
+The infection chain uses DLL side-loading:
+  1. A clean, signed legitimate executable (e.g., HPCustPartUI.exe from HP)
+     is bundled with a malicious DLL (HPQBMS.dll or HPQBMT.dll).
+  2. When the legitimate binary runs, Windows DLL search order causes it to
+     load the malicious DLL from the same directory.
+  3. The malicious DLL loads an encrypted shellcode blob from a data file
+     (often named with a .dat or .bak extension).
+
+TONESHELL (PlugX Variant):
+TONESHELL retains PlugX's modular architecture but adds:
+  - Custom protocol over raw TCP (port 443 or 8080, non-standard TLS)
+  - Module for USB propagation: copies itself to USB drives and creates
+    a hidden autorun configuration targeting Windows AutoPlay
+  - Process hollowing to inject into legitimate Windows processes (svchost.exe)
+
+REDEARTHWORM (New Backdoor):
+REDEARTHWORM is a lightweight C++ implant with a small footprint (~68KB). It
+communicates exclusively over DNS (DNS-over-HTTPS to Cloudflare 1.1.1.1 as cover).
+Commands are encoded within DNS TXT record queries. Supports: file exfiltration,
+command execution, and self-delete. Designed for persistence on air-gapped segments.
+
+==============================================================================
+TECHNICAL INDICATORS
+==============================================================================
+
+Phishing Document (Decoy PDF):
+  MD5:    6d2e9f4a7c1b038 6d2e9f4a7c1b0386
+  SHA256: b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e
+
+HPCustPartUI.exe (legitimate, used as side-load host):
+  MD5:    LEGITIMATE BINARY (see Microsoft catalog)
+
+HPQBMS.dll (malicious side-load DLL):
+  MD5:    1e7a4c9f2b8d056 1e7a4c9f2b8d0561
+  SHA256: 5e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7
+
+TONESHELL payload (encrypted blob):
+  File: svchost.bak
+  MD5:    9b4e7a1c3f8d025 9b4e7a1c3f8d0259
+  SHA256: 3b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4
+
+REDEARTHWORM implant:
+  File: WindowsDefenderService.dll
+  MD5:    7f3c1e8b9a2d047 7f3c1e8b9a2d0477
+  SHA256: 4f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3
+
+USB propagation module:
+  File: autorun.inf + RECYCLER\desktop.exe
+  MD5:    2c8a5e9d7b1f034 2c8a5e9d7b1f0342
+  SHA256: 8c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5
+
+C2 Servers:
+  103.27.108.45       (Primary C2, Myanmar VPS)
+  45.251.240.19       (Secondary C2, Hong Kong)
+  203.80.16.93        (REDEARTHWORM DNS C2 resolver)
+  116.206.153.212     (Payload hosting server)
+  27.124.17.51        (Backup C2)
+
+Malicious Domains:
+  update-service[.]net
+  windows-defender-update[.]com
+  security-patch-download[.]org
+  cdn-update-ms[.]com
+  microsoft-security-center[.]net
+
+Exploited CVEs:
+  CVE-2017-0199   (Microsoft Office HTA handler - still exploited against unpatched legacy systems)
+  CVE-2023-38831  (WinRAR RCE - used in early campaign stage before patch adoption)
+
+==============================================================================
+MITRE ATT&CK MAPPING
+==============================================================================
+
+Initial Access:
+  T1566.001 - Phishing: Spearphishing Attachment
+
+Execution:
+  T1204.002 - User Execution: Malicious File
+  T1574.002 - Hijack Execution Flow: DLL Side-Loading
+
+Persistence:
+  T1547.001 - Boot or Logon Autostart Execution: Registry Run Keys
+  T1091 - Replication Through Removable Media
+
+Defense Evasion:
+  T1574.002 - Hijack Execution Flow: DLL Side-Loading
+  T1055.012 - Process Injection: Process Hollowing
+  T1036 - Masquerading
+
+Discovery:
+  T1082 - System Information Discovery
+  T1083 - File and Directory Discovery
+  T1120 - Peripheral Device Discovery
+
+Command and Control:
+  T1071.004 - Application Layer Protocol: DNS
+  T1568.002 - Dynamic Resolution: Domain Generation Algorithms
+  T1095 - Non-Application Layer Protocol
+
+Collection:
+  T1119 - Automated Collection
+  T1025 - Data from Removable Media
+
+==============================================================================
+INDICATORS OF COMPROMISE
+==============================================================================
+
+File Hashes:
+  6d2e9f4a7c1b03866d2e9f4a7c1b0386
+  1e7a4c9f2b8d05611e7a4c9f2b8d0561
+  9b4e7a1c3f8d02599b4e7a1c3f8d0259
+  7f3c1e8b9a2d04777f3c1e8b9a2d0477
+  2c8a5e9d7b1f03422c8a5e9d7b1f0342
+  b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e9f4a1c8037b6d2e
+  5e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7c4f9b2d0565e1a7
+  3b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4a7c1f8d0253b9e4
+  4f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3e1b8a9d0474f7c3
+  8c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5e9d7b4f0348c2a5
+
+IP Addresses:
+  103.27.108.45
+  45.251.240.19
+  203.80.16.93
+  116.206.153.212
+  27.124.17.51
+
+Domains:
+  update-service.net
+  windows-defender-update.com
+  security-patch-download.org
+  cdn-update-ms.com
+  microsoft-security-center.net
+
+CVEs:
+  CVE-2017-0199
+  CVE-2023-38831
